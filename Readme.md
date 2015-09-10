@@ -16,9 +16,13 @@ La documentación adicional sobre Ponchos se encuentra en la
 Estructura de directorios
 -------------------------
 
-* Doc: Documentación común a todos los Ponchos.
-* PCB: Archivos Kicad de los diferentes módulos
-  * Ethernet_LAN8720A: Poncho Etherner con el LAN8720A de MicroChip.
+* doc: Documentación común a todos los Ponchos.
+* ethernet_LAN8720A: Poncho Etherner con el LAN8720A de MicroChip.
+  * doc: Documentación particular del Poncho Ethernet.
+  * info: Información adicional.
+  * kicad: Archivos Kicad del Poncho Ethernet
+    * hdatos: Hojas de datos relacionadas.
+    * 3D: Modelos 3D. 
 
 Idioma
 ------
