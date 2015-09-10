@@ -1182,6 +1182,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 4900 4900 4900
 Text Notes 6850 1900 0    60   ~ 0
-Correcciones, tareas y análisis pendietes:\n*Agregar U2.\n*Quitar etiquetas globales.\n*Línea PHY_nRESET a GPIO0 y GPIO7.\n*Pin 10 de U1 a GPIO8(ITH RXER) con resistor NP de 33R.\n*Ver tema PoE y bornera de 24V.\n* Señal ETH_CRS_DV a 25 MHz ver pag. 27 de hoja de datos.\n* Señal ETH_REF_CLK 25/50MHz? Ver pag 34.\n*Colocar referencia de tensión adicional luego del inductor.\n* Ver tema power flags.\n*Ver disposición física de capacitores de desacomple. Aclarar en el esquemático si hace falta.\n* Mejorar símbologia del conector Ethernet.
+Correcciones, tareas y análisis pendietes:\n*Agregar U2.\n*Quitar etiquetas globales.\n*Línea PHY_nRESET a GPIO0 y GPIO7.\n*Pin 10 de U1 a GPIO8(ITH RXER) con resistor NP de 33R.\n*Ver tema PoE y bornera de 24V.\n* Señal ETH_CRS_DV a 25 MHz ver pag. 27 de hoja de datos.\n* Señal ETH_REF_CLK 25/50MHz? Ver pag 34.\n*Colocar referencia de tensión adicional luego del inductor.\n* Ver tema power flags.\n*Ver disposición física de capacitores de desacomple. Aclarar en el esquemático si hace falta.\n* Mejorar símbologia del conector Ethernet.\n* Agregar conectores del Poncho, con descripciones correctas.
 Connection ~ 6000 1650
 $EndSCHEMATC
