@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:lan8720a-cp
+LIBS:si502
 LIBS:ethernet-cache
 EELAYER 25 0
 EELAYER END
@@ -492,12 +493,12 @@ $EndComp
 $Comp
 L C C15
 U 1 1 529F82E9
-P 5150 5850
-F 0 "C15" H 5150 5950 40  0000 L CNN
-F 1 "100nF" H 5156 5765 40  0000 L CNN
-F 2 "~" H 5188 5700 30  0000 C CNN
-F 3 "~" H 5150 5850 60  0000 C CNN
-	1    5150 5850
+P 3400 5850
+F 0 "C15" H 3400 5950 40  0000 L CNN
+F 1 "100nF" H 3406 5765 40  0000 L CNN
+F 2 "~" H 3438 5700 30  0000 C CNN
+F 3 "~" H 3400 5850 60  0000 C CNN
+	1    3400 5850
 	1    0    0    -1  
 $EndComp
 Text Label 3100 4250 0    60   ~ 0
@@ -510,7 +511,7 @@ $Comp
 L R R7
 U 1 1 529F8A77
 P 2650 3150
-F 0 "R7" V 2650 3250 40  0000 C CNN
+F 0 "R7" V 2700 3350 40  0000 C CNN
 F 1 "0" V 2650 3150 40  0000 C CNN
 F 2 "~" V 2580 3150 30  0000 C CNN
 F 3 "~" H 2650 3150 30  0000 C CNN
@@ -521,7 +522,7 @@ $Comp
 L R R8
 U 1 1 529F8A86
 P 2650 3250
-F 0 "R8" V 2650 3350 40  0000 C CNN
+F 0 "R8" V 2700 3450 40  0000 C CNN
 F 1 "0" V 2650 3250 40  0000 C CNN
 F 2 "~" V 2580 3250 30  0000 C CNN
 F 3 "~" H 2650 3250 30  0000 C CNN
@@ -532,7 +533,7 @@ $Comp
 L R R9
 U 1 1 529F8AE4
 P 2650 3350
-F 0 "R9" V 2650 3450 40  0000 C CNN
+F 0 "R9" V 2700 3550 40  0000 C CNN
 F 1 "0" V 2650 3350 40  0000 C CNN
 F 2 "~" V 2580 3350 30  0000 C CNN
 F 3 "~" H 2650 3350 30  0000 C CNN
@@ -543,7 +544,7 @@ $Comp
 L R R10
 U 1 1 529F8AEA
 P 2650 3450
-F 0 "R10" V 2650 3550 40  0000 C CNN
+F 0 "R10" V 2700 3650 40  0000 C CNN
 F 1 "22" V 2650 3450 40  0000 C CNN
 F 2 "~" V 2580 3450 30  0000 C CNN
 F 3 "~" H 2650 3450 30  0000 C CNN
@@ -554,7 +555,7 @@ $Comp
 L R R11
 U 1 1 529F8AFC
 P 2650 3550
-F 0 "R11" V 2650 3650 40  0000 C CNN
+F 0 "R11" V 2700 3750 40  0000 C CNN
 F 1 "22" V 2650 3550 40  0000 C CNN
 F 2 "~" V 2580 3550 30  0000 C CNN
 F 3 "~" H 2650 3550 30  0000 C CNN
@@ -565,7 +566,7 @@ $Comp
 L R R12
 U 1 1 529F8B02
 P 2650 3650
-F 0 "R12" V 2650 3750 40  0000 C CNN
+F 0 "R12" V 2700 3850 40  0000 C CNN
 F 1 "22" V 2650 3650 40  0000 C CNN
 F 2 "~" V 2580 3650 30  0000 C CNN
 F 3 "~" H 2650 3650 30  0000 C CNN
@@ -576,7 +577,7 @@ $Comp
 L R R13
 U 1 1 529F8E9C
 P 2650 3850
-F 0 "R13" V 2650 3950 40  0000 C CNN
+F 0 "R13" V 2700 4050 40  0000 C CNN
 F 1 "0" V 2650 3850 40  0000 C CNN
 F 2 "~" V 2580 3850 30  0000 C CNN
 F 3 "~" H 2650 3850 30  0000 C CNN
@@ -587,7 +588,7 @@ $Comp
 L R R14
 U 1 1 529F8EA2
 P 2650 3950
-F 0 "R14" V 2650 4050 40  0000 C CNN
+F 0 "R14" V 2700 4150 40  0000 C CNN
 F 1 "0" V 2650 3950 40  0000 C CNN
 F 2 "~" V 2580 3950 30  0000 C CNN
 F 3 "~" H 2650 3950 30  0000 C CNN
@@ -644,11 +645,11 @@ $EndComp
 Text HLabel 2300 3350 0    60   Input ~ 0
 ENET_TX_EN
 $Comp
-L SI50X U2
+L SI502 U2
 U 1 1 52BC24C2
 P 4250 5800
-F 0 "U2" H 4250 6350 70  0000 C CNN
-F 1 "SI502" H 4250 5350 70  0000 C CNN
+F 0 "U2" H 4250 6100 70  0000 C CNN
+F 1 "SI502" H 4250 5500 70  0000 C CNN
 F 2 "~" H 4250 5800 60  0000 C CNN
 F 3 "~" H 4250 5800 60  0000 C CNN
 	1    4250 5800
@@ -658,23 +659,23 @@ NoConn ~ 5000 4900
 $Comp
 L +3.3V #PWR021
 U 1 1 52BC26E1
-P 5150 5550
-F 0 "#PWR021" H 5150 5510 30  0001 C CNN
-F 1 "+3.3V" H 5150 5660 30  0000 C CNN
-F 2 "" H 5150 5550 60  0000 C CNN
-F 3 "" H 5150 5550 60  0000 C CNN
-	1    5150 5550
+P 3400 5550
+F 0 "#PWR021" H 3400 5510 30  0001 C CNN
+F 1 "+3.3V" H 3400 5660 30  0000 C CNN
+F 2 "" H 3400 5550 60  0000 C CNN
+F 3 "" H 3400 5550 60  0000 C CNN
+	1    3400 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR022
 U 1 1 52BC278C
-P 3600 6150
-F 0 "#PWR022" H 3600 6150 30  0001 C CNN
-F 1 "GND" H 3600 6080 30  0001 C CNN
-F 2 "" H 3600 6150 60  0000 C CNN
-F 3 "" H 3600 6150 60  0000 C CNN
-	1    3600 6150
+P 3900 6000
+F 0 "#PWR022" H 3900 6000 30  0001 C CNN
+F 1 "GND" H 3900 5930 30  0001 C CNN
+F 2 "" H 3900 6000 60  0000 C CNN
+F 3 "" H 3900 6000 60  0000 C CNN
+	1    3900 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -692,7 +693,7 @@ $Comp
 L R R15
 U 1 1 52BC2A10
 P 2650 4050
-F 0 "R15" V 2650 4150 40  0000 C CNN
+F 0 "R15" V 2700 4250 40  0000 C CNN
 F 1 "10k" V 2650 4050 40  0000 C CNN
 F 2 "~" V 2580 4050 30  0000 C CNN
 F 3 "~" H 2650 4050 30  0000 C CNN
@@ -735,34 +736,34 @@ $EndComp
 $Comp
 L GND #PWR025
 U 1 1 52BC2B5C
-P 5150 6150
-F 0 "#PWR025" H 5150 6150 30  0001 C CNN
-F 1 "GND" H 5150 6080 30  0001 C CNN
-F 2 "" H 5150 6150 60  0000 C CNN
-F 3 "" H 5150 6150 60  0000 C CNN
-	1    5150 6150
+P 3400 6150
+F 0 "#PWR025" H 3400 6150 30  0001 C CNN
+F 1 "GND" H 3400 6080 30  0001 C CNN
+F 2 "" H 3400 6150 60  0000 C CNN
+F 3 "" H 3400 6150 60  0000 C CNN
+	1    3400 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R21
 U 1 1 52BC2C7C
-P 3600 5350
-F 0 "R21" V 3680 5350 40  0000 C CNN
-F 1 "100k" V 3607 5351 40  0000 C CNN
-F 2 "~" V 3530 5350 30  0000 C CNN
-F 3 "~" H 3600 5350 30  0000 C CNN
-	1    3600 5350
+P 3700 5300
+F 0 "R21" V 3780 5300 40  0000 C CNN
+F 1 "100k" V 3707 5301 40  0000 C CNN
+F 2 "~" V 3630 5300 30  0000 C CNN
+F 3 "~" H 3700 5300 30  0000 C CNN
+	1    3700 5300
 	-1   0    0    1   
 $EndComp
 $Comp
 L +3.3V #PWR026
 U 1 1 52BC2DB0
-P 3600 5000
-F 0 "#PWR026" H 3600 4960 30  0001 C CNN
-F 1 "+3.3V" H 3600 5110 30  0000 C CNN
-F 2 "" H 3600 5000 60  0000 C CNN
-F 3 "" H 3600 5000 60  0000 C CNN
-	1    3600 5000
+P 3700 4950
+F 0 "#PWR026" H 3700 4910 30  0001 C CNN
+F 1 "+3.3V" H 3700 5060 30  0000 C CNN
+F 2 "" H 3700 4950 60  0000 C CNN
+F 3 "" H 3700 4950 60  0000 C CNN
+	1    3700 4950
 	1    0    0    -1  
 $EndComp
 Text HLabel 4800 4900 0    60   Output ~ 0
@@ -1067,30 +1068,17 @@ Wire Wire Line
 Wire Wire Line
 	5000 4800 5000 4900
 Wire Wire Line
-	4800 5600 5150 5600
-Wire Wire Line
-	5150 5550 5150 5700
-Connection ~ 5150 5600
-Wire Wire Line
-	3750 6000 3600 6000
-Wire Wire Line
-	3600 6000 3600 6150
-Wire Wire Line
-	4900 6000 4800 6000
+	3400 5550 3400 5700
 Wire Wire Line
 	4900 4800 4900 5050
-Wire Wire Line
-	4900 5350 4900 6000
 Wire Wire Line
 	2300 4050 2500 4050
 Wire Wire Line
 	2300 4350 2500 4350
 Wire Wire Line
-	5150 6000 5150 6150
+	3400 6000 3400 6150
 Wire Wire Line
-	3600 5600 3750 5600
-Wire Wire Line
-	3600 5000 3600 5200
+	3700 4950 3700 5150
 Connection ~ 4900 4900
 Wire Wire Line
 	3300 3750 3700 3750
@@ -1172,7 +1160,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 5200 9300 5200
 Wire Wire Line
-	3600 5600 3600 5500
+	3700 5450 3700 5800
 Wire Wire Line
 	6150 4600 6150 4500
 Wire Wire Line
@@ -1182,6 +1170,19 @@ Wire Wire Line
 Wire Wire Line
 	4800 4900 4900 4900
 Text Notes 6850 1900 0    60   ~ 0
-Correcciones, tareas y análisis pendietes:\n*Agregar U2.\n*Quitar etiquetas globales.\n*Línea PHY_nRESET a GPIO0 y GPIO7.\n*Pin 10 de U1 a GPIO8(ITH RXER) con resistor NP de 33R.\n*Ver tema PoE y bornera de 24V.\n* Señal ETH_CRS_DV a 25 MHz ver pag. 27 de hoja de datos.\n* Señal ETH_REF_CLK 25/50MHz? Ver pag 34.\n*Colocar referencia de tensión adicional luego del inductor.\n* Ver tema power flags.\n*Ver disposición física de capacitores de desacomple. Aclarar en el esquemático si hace falta.\n* Mejorar símbologia del conector Ethernet.\n* Agregar conectores del Poncho, con descripciones correctas.
+Correcciones, tareas y análisis pendietes:\nLISTO *Agregar U2.\n*Quitar etiquetas globales.\n*Línea PHY_nRESET a GPIO0 y GPIO7.\n*Pin 10 de U1 a GPIO8(ITH RXER) con resistor NP de 33R.\n*Ver tema PoE y bornera de 24V.\n* Señal ETH_CRS_DV a 25 MHz ver pag. 27 de hoja de datos.\n* Señal ETH_REF_CLK 25/50MHz? Ver pag 34.\n*Colocar referencia de tensión adicional luego del inductor.\n* Ver tema power flags.\n*Ver disposición física de capacitores de desacomple. Aclarar en el esquemático si hace falta.\n* Mejorar símbologia del conector Ethernet.\n* Agregar conectores del Poncho, con descripciones correctas.
 Connection ~ 6000 1650
+Wire Wire Line
+	3700 5800 3950 5800
+Wire Wire Line
+	3950 5950 3900 5950
+Wire Wire Line
+	3900 5950 3900 6000
+Wire Wire Line
+	3950 5650 3400 5650
+Connection ~ 3400 5650
+Wire Wire Line
+	4550 5950 4900 5950
+Wire Wire Line
+	4900 5950 4900 5350
 $EndSCHEMATC

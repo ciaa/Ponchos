@@ -1,4 +1,4 @@
-update=mié 09 sep 2015 23:05:01 ART
+update=sáb 19 sep 2015 11:42:10 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=lib/lan8720a-cp
+LibName32=lib/si502
