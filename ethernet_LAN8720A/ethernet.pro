@@ -1,4 +1,4 @@
-update=sáb 19 sep 2015 11:42:10 ART
+update=mié 23 sep 2015 22:56:09 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=lib/lan8720a-cp
 LibName32=lib/si502
+LibName33=lib/guarda

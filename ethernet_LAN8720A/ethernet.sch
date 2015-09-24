@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:lan8720a-cp
 LIBS:si502
+LIBS:guarda
 LIBS:ethernet-cache
 EELAYER 25 0
 EELAYER END
@@ -38,10 +39,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Poncho Ethernet LAN8720A"
-Date "mié 09 sep 2015"
+Date "mié 23 sep 2015"
 Rev "1.0"
-Comp "Proyecto CIAA"
-Comment1 ""
+Comp "Proyecto CIAA - Computadora Industrial Abierta Argentina"
+Comment1 "Autores: Ver 'doc/CAMBIOS.txt'   Licencia: Ver 'doc/LICENCIA.txt'"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1170,7 +1171,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 4900 4900 4900
 Text Notes 6850 1900 0    60   ~ 0
-Correcciones, tareas y análisis pendietes:\nLISTO *Agregar U2.\n*Quitar etiquetas globales.\n*Línea PHY_nRESET a GPIO0 y GPIO7.\n*Pin 10 de U1 a GPIO8(ITH RXER) con resistor NP de 33R.\n*Ver tema PoE y bornera de 24V.\n* Señal ETH_CRS_DV a 25 MHz ver pag. 27 de hoja de datos.\n* Señal ETH_REF_CLK 25/50MHz? Ver pag 34.\n*Colocar referencia de tensión adicional luego del inductor.\n* Ver tema power flags.\n*Ver disposición física de capacitores de desacomple. Aclarar en el esquemático si hace falta.\n* Mejorar símbologia del conector Ethernet.\n* Agregar conectores del Poncho, con descripciones correctas.
+Correcciones, tareas y análisis pendietes:\nLISTO (DJB) *Agregar U2.\nLISTO (DJB).* Agregar conectores del Poncho, con descripciones correctas.\n*Quitar etiquetas globales.\n*Línea PHY_nRESET a GPIO0 y GPIO7.\n*Pin 10 de U1 a GPIO8(ITH RXER) con resistor NP de 33R.\n*Ver tema PoE y bornera de 24V.\n* Señal ETH_CRS_DV a 25 MHz ver pag. 27 de hoja de datos.\n* Señal ETH_REF_CLK 25/50MHz? Ver pag 34.\n*Colocar referencia de tensión adicional luego del inductor.\n* Ver tema power flags.\n*Ver disposición física de capacitores de desacomple. Aclarar en el esquemático si hace falta.\n* Mejorar símbologia del conector Ethernet.\n
 Connection ~ 6000 1650
 Wire Wire Line
 	3700 5800 3950 5800
@@ -1185,4 +1186,26 @@ Wire Wire Line
 	4550 5950 4900 5950
 Wire Wire Line
 	4900 5950 4900 5350
+$Comp
+L Guarda P2
+U 1 1 56035DAF
+P 1050 1100
+F 0 "P2" H 1350 1500 60  0000 C CNN
+F 1 "Guarda" H 1400 -600 60  0000 C CNN
+F 2 "" H 1050 1100 60  0000 C CNN
+F 3 "" H 1050 1100 60  0000 C CNN
+	1    1050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Guarda P2
+U 2 1 56035F0C
+P 1100 5300
+F 0 "P2" H 1400 5700 60  0000 C CNN
+F 1 "Guarda" H 1450 3600 60  0000 C CNN
+F 2 "" H 1100 5300 60  0000 C CNN
+F 3 "" H 1100 5300 60  0000 C CNN
+	2    1100 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
