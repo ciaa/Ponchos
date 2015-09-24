@@ -1,0 +1,10 @@
+Cambios realizados al Poncho Ethernet
+=====================================
+
+* Fecha: 9/9/2015
+* Autores: Diego Brengi.
+* Archivos: Se toma como base la hoja Ethernet del esquemático de la CIAA-NXP.
+* Descripción: Inicialización del repositorio GIT.Se realizan ajustes según 
+               versión de Kicad, se crea la estructura de directorios en el 
+               git y se sube.
+
