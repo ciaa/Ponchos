@@ -1,23 +1,8 @@
-update=mar 29 sep 2015 10:30:24 ART
+update=mar 29 sep 2015 12:40:35 ART
 version=1
 last_client=kicad
 [general]
 version=1
-[eeschema]
-version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
-LibDir=../lib
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=conn
-LibName3=modelos_ponchos
 [pcbnew]
 version=1
 PadDrlX=320
@@ -38,3 +23,10 @@ LastNetListRead=
 [cvpcb]
 version=1
 NetIExt=net
+[eeschema]
+version=1
+LibDir=../lib
+[eeschema/libraries]
+LibName1=power
+LibName2=modelos_ponchos
+LibName3=conn

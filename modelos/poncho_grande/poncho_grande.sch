@@ -1,8 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:power
-LIBS:conn
 LIBS:modelos_ponchos
-LIBS:poncho_grande-cache
+LIBS:conn
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
