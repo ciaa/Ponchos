@@ -1,3 +1,4 @@
 *-cache.lib
 *.bak
 *.kicad_pcb-bak
+*.cmp
