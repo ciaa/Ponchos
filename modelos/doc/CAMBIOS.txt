@@ -1,0 +1,12 @@
+Cambios realizados al modelo de Poncho Grande
+=============================================
+
+* Fecha: 29/9/2015
+* Autores: Diego Brengi.
+* Archivos: Se arranca el modelo desde cero.
+* Descripción: El objetivo es un conjunto de ponchos,  muy básicos
+               para que se pueda tomar después como base para otros ponchos.
+               Este poncho "grande" posee una superficie igual a la EDU-CIAA
+               y utiliza ambos conectores de expansión.
+
+
