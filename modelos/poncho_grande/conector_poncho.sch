@@ -1,7 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:modelos_ponchos
 LIBS:misc
-LIBS:poncho_grande-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -385,28 +384,6 @@ Text HLabel 7500 5750 2    60   BiDi ~ 0
 GPIO7
 Text HLabel 7500 5850 2    60   BiDi ~ 0
 GPIO8
-$Comp
-L Poncho XA1
-U 1 1 560A30D2
-P 5350 1500
-F 0 "XA1" H 5650 1900 60  0000 C CNN
-F 1 "Poncho" H 5700 -200 60  0000 C CNN
-F 2 "mod:poncho_grande" H 5750 -300 60  0000 C CNN
-F 3 "" H 5350 1500 60  0000 C CNN
-	1    5350 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Poncho XA1
-U 2 1 560A30E6
-P 5350 4250
-F 0 "XA1" H 5650 4650 60  0000 C CNN
-F 1 "Poncho" H 5700 2550 60  0000 C CNN
-F 2 "mod:poncho_grande" H 5350 4250 60  0001 C CNN
-F 3 "" H 5350 4250 60  0000 C CNN
-	2    5350 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 1400 6950 1400
 Text HLabel 6950 1400 2    60   BiDi ~ 0
@@ -467,6 +444,28 @@ F 1 "+5VP" H 6550 3890 30  0000 C CNN
 F 2 "" H 6550 3800 60  0000 C CNN
 F 3 "" H 6550 3800 60  0000 C CNN
 	1    6550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Poncho2P_2x_20x2 XA1
+U 2 1 560C5732
+P 5350 4250
+F 0 "XA1" H 5650 4650 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 5700 2550 60  0000 C CNN
+F 2 "" H 5350 4250 60  0000 C CNN
+F 3 "" H 5350 4250 60  0000 C CNN
+	2    5350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Poncho2P_2x_20x2 XA1
+U 1 1 560C57B9
+P 5350 1500
+F 0 "XA1" H 5650 1900 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 5700 -200 60  0000 C CNN
+F 2 "mod:poncho_grande" H 5650 -300 60  0000 C CNN
+F 3 "" H 5350 1500 60  0000 C CNN
+	1    5350 1500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
