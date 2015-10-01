@@ -1,7 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:modelos_ponchos
-LIBS:misc
-LIBS:conn
+LIBS:Poncho_Esqueleto
+LIBS:Misc_Poncho_Grande
 LIBS:poncho_grande-cache
 EELAYER 25 0
 EELAYER END
@@ -193,7 +192,7 @@ L CONN_01X19 P5
 U 1 1 560D9042
 P 7300 5800
 F 0 "P5" V 7300 6850 50  0000 C CNN
-F 1 "CONN_01X40" V 7300 4500 50  0001 C CNN
+F 1 "CONN_01X19" V 7300 4500 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x19" H 7300 5800 60  0001 C CNN
 F 3 "" H 7300 5800 60  0000 C CNN
 	1    7300 5800

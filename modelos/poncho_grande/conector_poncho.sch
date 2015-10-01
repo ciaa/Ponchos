@@ -1,7 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:modelos_ponchos
-LIBS:misc
-LIBS:conn
+LIBS:Poncho_Esqueleto
+LIBS:Misc_Poncho_Grande
 LIBS:poncho_grande-cache
 EELAYER 25 0
 EELAYER END
@@ -454,7 +453,7 @@ U 2 1 560C5732
 P 5350 4250
 F 0 "XA1" H 5650 4650 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 5700 2550 60  0000 C CNN
-F 2 "mod:poncho_grande" H 5350 4250 60  0000 C CNN
+F 2 "mod:poncho_grande" H 5600 2450 60  0000 C CNN
 F 3 "" H 5350 4250 60  0000 C CNN
 	2    5350 4250
 	1    0    0    -1  

@@ -1,7 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:modelos_ponchos
-LIBS:misc
-LIBS:conn
+LIBS:Poncho_Esqueleto
+LIBS:Misc_Poncho_Grande
 LIBS:poncho_grande-cache
 EELAYER 25 0
 EELAYER END

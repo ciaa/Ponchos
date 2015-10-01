@@ -1,4 +1,4 @@
-update=jue 01 oct 2015 04:02:57 ART
+update=jue 01 oct 2015 17:51:28 ART
 version=1
 last_client=kicad
 [general]
@@ -28,8 +28,7 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=../lib
+LibDir=../../kicad/libModelos;../../kicad/libPonchos
 [eeschema/libraries]
-LibName1=modelos_ponchos
-LibName2=misc
-LibName3=conn
+LibName1=Poncho_Esqueleto
+LibName2=Misc_Poncho_Grande
