@@ -1,4 +1,4 @@
-update=mar 29 sep 2015 16:39:40 ART
+update=jue 01 oct 2015 04:02:57 ART
 version=1
 last_client=kicad
 [general]
@@ -32,3 +32,4 @@ LibDir=../lib
 [eeschema/libraries]
 LibName1=modelos_ponchos
 LibName2=misc
+LibName3=conn
