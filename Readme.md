@@ -1,7 +1,6 @@
-<img src="doc/logo_ponchos_hd.png" style="width:70%" align="right">
-
 Ponchos
 =======
+<img src="doc/logo_ponchos_hd.png" style="width:70%" align="right">
 Repositorio de Ponchos para la EDU-CIAA.
 
 Llamamos **Ponchos** a los módulos conectables para montarse sobre el 
