@@ -1,7 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:Poncho_Esqueleto
 LIBS:Misc_Poncho_Grande
-LIBS:poncho_grande-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -135,7 +134,7 @@ F48 "WAKEUP" B R 2750 1450 60
 $EndSheet
 Text Notes 3800 1550 0    60   Italic 12
 AD y DA
-Text Notes 3850 2000 0    60   Italic 12
+Text Notes 3800 2000 0    60   Italic 12
 I2C
 Text Notes 3750 2300 0    60   Italic 12
 RS-232
