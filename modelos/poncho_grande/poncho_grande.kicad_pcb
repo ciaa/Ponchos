@@ -3,9 +3,9 @@
   (general
     (links 337)
     (no_connects 0)
-    (area 73.584999 25.324999 159.460001 162.635001)
+    (area 54.087144 24.920279 177.608572 182.405001)
     (thickness 1.6)
-    (drawings 88)
+    (drawings 92)
     (tracks 437)
     (zones 0)
     (modules 25)
@@ -18,7 +18,8 @@
     (date "mar 29 sep 2015")
     (rev 1.0)
     (company "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA")
-    (comment 1 "Autores: Ver '../doc/CAMBIOS.txt'   Licencia: Ver '../doc/LICENCIA.txt'")
+    (comment 1 https://github.com/ciaa/Ponchos/tree/master/modelos/doc)
+    (comment 2 "Autores y Licencias ver el siguiente enlace:")
   )
 
   (layers
@@ -2833,6 +2834,12 @@
       (xy -3.33756 -3.59918) (xy -3.33756 -3.59918)) (layer F.SilkS) (width 0.00254))
   )
 
+  (gr_line (start 160.02 68.58) (end 161.29 69.215) (angle 90) (layer Dwgs.User) (width 0.2))
+  (gr_line (start 160.02 68.58) (end 161.29 67.945) (angle 90) (layer Dwgs.User) (width 0.2))
+  (gr_line (start 160.02 68.58) (end 167.64 68.58) (angle 90) (layer Dwgs.User) (width 0.2))
+  (gr_text "Borrar la Plantilla-EDU-CIAA al finalizar \nel posicionamiento y el borde de PCB.\n" (at 192.405 69.85) (layer Dwgs.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 146.304 76.962) (end 146.304 79.756) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 144.272 76.962) (end 146.304 76.962) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 141.478 75.692) (end 141.478 75.438) (angle 90) (layer F.SilkS) (width 0.2))

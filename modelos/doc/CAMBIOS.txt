@@ -1,13 +1,13 @@
-Cambios realizados al modelo de Poncho Grande
-=============================================
+Cambios realizados a los Modelos y Templates de Ponchos 
+=======================================================
 
 * Fecha: 29/9/2015
 * Autores: Diego Brengi.
 * Archivos: Se arranca el modelo desde cero.
 * Descripción: El objetivo es un conjunto de ponchos,  muy básicos
                para que se pueda tomar después como base para otros ponchos.
-               Este poncho "grande" posee una superficie igual a la EDU-CIAA
-               y utiliza ambos conectores de expansión.
+               Se publica el poncho "grande" que posee una superficie igual a la EDU-CIAA,
+               utiliza los cuatro agujeros de sujeción y utiliza ambos conectores de expansión.
 
 * Fecha: 1/10/15
 * Autores: Diego Brengi
@@ -20,4 +20,42 @@ Cambios realizados al modelo de Poncho Grande
                una placa grande y una plantilla para poder ver fácilmente la relación con la
                placa EDU-CIAA. La plantilla está verificada con ambas EDU-CIA (NXP y FSL).
 
-               
+* Fecha: 2/10/15
+* Autores Diego Brengi
+* Descripción: Se sube un modelo llamado  Poncho Chico que utiliza ambos conectores de la EDU-CIAA
+               pero no los agujeros de sujeción. También utiliza en el esquemático una simbología
+               multiparte organizada por funciones.
+               Se agrega además a los diseños de Poncho Grande y Poncho Chico la información para
+               convertirlos en templates de Kicad, que permite utilizarlos de base y copiarlos fácilmente
+               para otros proyectos.
+               Se hace una reorganización general y se emprolijan varios detalles. 
+* Archivos alcanzados: 
+kicad/libModelos:
+Misc_Poncho_Grande.lib
+kicad/libPonchos:
+Poncho_Esqueleto.lib
+kicad/Poncho_Esqueleto.pretty:
+Conn_Poncho_Chico.kicad_mod     Conn_Poncho_Izquierdo.kicad_mod  Plantilla_EDU-CIAA.kicad_mod
+Conn_Poncho_Completo.kicad_mod  Conn_Poncho_Mediano.kicad_mod    
+Conn_Poncho_Derecha.kicad_mod   Conn_Poncho_SinBorde.kicad_mod   Logo_Poncho.kicad_mod
+modelos/Poncho_Chico:
+conector_poncho.sch  meta                    Poncho_Chico.kicad_pcb  Poncho_Chico.pro  principal.sch
+fp-lib-table         Poncho_Chico-cache.lib  Poncho_Chico.net        Poncho_Chico.sch
+modelos/Poncho_Chico/meta:
+icon.png  info.html  ponchoB.png  ponchoF.png
+modelos/poncho_grande:
+conector_poncho.bak  fp-lib-table  poncho_grande.bak        poncho_grande.kicad_pcb      poncho_grande.net  poncho_grande.sch  principal.sch
+conector_poncho.sch  meta          poncho_grande-cache.lib  poncho_grande.kicad_pcb-bak  poncho_grande.pro  principal.bak
+modelos/poncho_grande/meta:
+icon.png  info.html  poncho_grande.png
+modelos/Poncho_Chico:
+conector_poncho.sch  meta                    Poncho_Chico.kicad_pcb  Poncho_Chico.pro  principal.sch
+fp-lib-table         Poncho_Chico-cache.lib  Poncho_Chico.net        Poncho_Chico.sch
+modelos/Poncho_Chico/meta:
+icon.png  info.html  ponchoB.png  ponchoF.png
+modelos/poncho_grande:
+fp-lib-table  poncho_grande.bak    poncho_grande.kicad_pcb      poncho_grande.net  poncho_grande.sch  principal.sch
+conector_poncho.sch  meta          poncho_grande-cache.lib  poncho_grande.kicad_pcb-bak  poncho_grande.pro  principal.bak
+modelos/poncho_grande/meta:
+icon.png  info.html  poncho_grande.png
+

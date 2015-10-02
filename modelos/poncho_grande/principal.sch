@@ -7,12 +7,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "Poncho Grande - Modelo / Ejemplo"
-Date "29 sep 2015"
+Title "Poncho Grande - Modelo - Ejemplo - Template"
+Date "2015-10-02"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
-Comment1 "Autores: Ver '../doc/CAMBIOS.txt'  Licencia: Ver '../doc/LICENCIA.txt'"
-Comment2 ""
+Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
+Comment2 "Autores y Licencias ver el siguiente enlace:"
 Comment3 ""
 Comment4 ""
 $EndDescr
