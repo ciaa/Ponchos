@@ -1,12 +1,13 @@
 EESchema Schematic File Version 2
 LIBS:Poncho_Esqueleto
 LIBS:Misc_Poncho_Grande
+LIBS:poncho_grande-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "Poncho Grande - Modelo / Ejemplo"
+Title "Poncho Grande - Modelo - Ejemplo - Template"
 Date "29 sep 2015"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
@@ -255,4 +256,8 @@ F 3 "" H 10150 6000 60  0000 C CNN
 	1    10150 6000
 	1    0    0    -1  
 $EndComp
+Text Notes 6950 2850 0    79   Italic 16
+Este diseño puede copiarse como un \nTemplate de KICAD. \n1)En el administrador de Proyectos:  \n   Proyecto Nuevo -> Nuevo Proyecto desde Template\n2)Ingresar el nombre del poncho a crear.\n3)Indicar el directorio de este modelo: (Poncho Grande).
+Text Notes 7300 950  0    118  ~ 24
+http://www.proyecto-ciaa.com.ar/
 $EndSCHEMATC

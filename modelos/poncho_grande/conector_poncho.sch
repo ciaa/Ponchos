@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:Poncho_Esqueleto
 LIBS:Misc_Poncho_Grande
+LIBS:poncho_grande-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
