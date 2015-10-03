@@ -13,7 +13,7 @@ Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
 Comment2 "Autores y Licencias ver el siguiente enlace:"
-Comment3 ""
+Comment3 "CÓDIGO PONCHO:"
 Comment4 ""
 $EndDescr
 $Comp
@@ -260,4 +260,6 @@ Text Notes 6950 2850 0    79   Italic 16
 Este diseño puede copiarse como un \nTemplate de KICAD. \n1)En el administrador de Proyectos:  \n   Proyecto Nuevo -> Nuevo Proyecto desde Template\n2)Ingresar el nombre del poncho a crear.\n3)Indicar el directorio de este modelo: (Poncho Grande).
 Text Notes 7300 950  0    118  ~ 24
 http://www.proyecto-ciaa.com.ar/
+Text Notes 7000 3650 0    60   ~ 0
+Luego de abrir el nuevo proyecto:\n1)Editar datos del rótulo.\n2)Editar los archivos del subdirectorio "doc".\n2.1) Agregarse en el archivo de licencia.\n2.2) Colocar info mínima del Poncho en el LEEME.txt\n2.3) Colocar info mínima en el CAMBIOS.doc
 $EndSCHEMATC
