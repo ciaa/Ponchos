@@ -1,0 +1,15 @@
+PONCHOS MODELO
+==============
+
+URL: http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:edu-ciaa:ponchos_modelos
+FUNCIÓN:
+Se trata de un conjunto de Ponchos de diferentes tamaños que pueden usarse como 
+TEMPLATES de Kicad, que utilizan bibliotecas que facilitan la creación de un 
+Poncho y con textos instructivos que indican las acciones necesarias para 
+documentar adecuadamente el diseño. 
+AUTORES/INSTITUCIONES: 
+            Diego Brengi.
+            LACIE-Laboratorio Abierto de la Carrera de Ingeniería Electróncia.
+            UNLaM-Universidad Nacional de La Matanza.  
+
+
