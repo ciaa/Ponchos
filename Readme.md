@@ -27,7 +27,8 @@ Estructura de directorios
 
 * modelos: Ponchos básicos de ejemplo.
   * doc: Documentación particular.
-  * poncho_grande: Un Poncho del mismo tamaño que la CIAA, con área de prototipado.
+  * Poncho_Grande: Un Poncho del mismo tamaño que la CIAA, con área de prototipado.
+  * Poncho_Chico: Un Poncho que usa ambos conectores, pero ningún agujero de sujeción.
 
 * ethernet_LAN8720A: Poncho Etherner con el LAN8720A de MicroChip.
   * doc: Documentación particular del Poncho Ethernet.
