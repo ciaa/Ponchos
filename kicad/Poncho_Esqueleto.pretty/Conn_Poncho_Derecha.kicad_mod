@@ -1,4 +1,4 @@
-(module Conn_Poncho_Derecha (layer F.Cu) (tedit 560F0D46)
+(module Conn_Poncho_Derecha (layer F.Cu) (tedit 5612F7EE)
   (tags "CONN Poncho")
   (fp_text reference XA? (at -0.127 -3.048) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
@@ -6,9 +6,9 @@
   (fp_text value Conn_Poncho_Derecha (at -1.905 51.181) (layer F.SilkS) hide
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
-  (fp_line (start -31.75 -6.35) (end 8.255 -6.35) (layer Dwgs.User) (width 0.15))
-  (fp_line (start 8.255 54.61) (end -31.75 54.61) (layer Dwgs.User) (width 0.15))
-  (fp_line (start -31.75 54.61) (end -31.75 -6.35) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -32.385 54.61) (end 8.255 54.61) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -32.385 -6.35) (end 8.255 -6.35) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -32.385 54.61) (end -32.385 -6.35) (layer Dwgs.User) (width 0.15))
   (fp_line (start 8.255 54.61) (end 8.255 -6.35) (layer Dwgs.User) (width 0.15))
   (fp_text user GND (at 5.588 48.26) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
