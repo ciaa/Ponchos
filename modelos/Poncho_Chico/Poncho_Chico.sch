@@ -1,12 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:Misc_Poncho_Grande
-LIBS:conn
-LIBS:diode
-LIBS:interface
-LIBS:maxim
-LIBS:onsemi
-LIBS:relays
-LIBS:transistors
 LIBS:Poncho_Esqueleto
 LIBS:Poncho_Chico-cache
 EELAYER 25 0
@@ -20,7 +13,7 @@ Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
 Comment2 "Autores y Licencia del template"
-Comment3 ""
+Comment3 "CÓDIGO PONCHO:"
 Comment4 ""
 $EndDescr
 $Comp
@@ -46,7 +39,7 @@ F 3 "" H 10150 6000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6950 2850 0    79   Italic 16
-Este diseño puede copiarse como un \nTemplate de KICAD. \n1)En el administrador de Proyectos:  \n   Proyecto Nuevo -> Nuevo Proyecto desde Template\n2)Ingresar el nombre del poncho a crear.\n3)Indicar el directorio de este modelo: (Poncho Grande).
+Este diseño puede copiarse como un \nTemplate de KICAD. \n1)En el administrador de Proyectos:  \n   Proyecto Nuevo -> Nuevo Proyecto desde Template\n2)Ingresar el nombre del poncho a crear.\n3)Indicar el directorio de este modelo.
 Text Notes 7000 1800 0    118  ~ 24
 http://www.proyecto-ciaa.com.ar/
 $Comp
@@ -287,20 +280,9 @@ NoConn ~ 5300 1900
 NoConn ~ 5300 2000
 $Comp
 L GND #PWR011
-U 1 1 560EE313
-P 5400 2350
-F 0 "#PWR011" H 5400 2350 30  0001 C CNN
-F 1 "GND" H 5400 2280 30  0001 C CNN
-F 2 "" H 5400 2350 60  0000 C CNN
-F 3 "" H 5400 2350 60  0000 C CNN
-	1    5400 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR012
 U 1 1 560EE345
 P 5600 3350
-F 0 "#PWR012" H 5600 3350 30  0001 C CNN
+F 0 "#PWR011" H 5600 3350 30  0001 C CNN
 F 1 "GND" H 5600 3280 30  0001 C CNN
 F 2 "" H 5600 3350 60  0000 C CNN
 F 3 "" H 5600 3350 60  0000 C CNN
@@ -318,10 +300,10 @@ NoConn ~ 4900 6100
 NoConn ~ 4900 6300
 NoConn ~ 4400 1900
 $Comp
-L +5VP #PWR013
+L +5VP #PWR012
 U 1 1 560EE7D3
 P 4150 3150
-F 0 "#PWR013" H 4150 3240 20  0001 C CNN
+F 0 "#PWR012" H 4150 3240 20  0001 C CNN
 F 1 "+5VP" H 4150 3240 30  0000 C CNN
 F 2 "" H 4150 3150 60  0000 C CNN
 F 3 "" H 4150 3150 60  0000 C CNN
@@ -333,10 +315,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 3250 4150 3150
 $Comp
-L PWR_FLAG #FLG014
+L PWR_FLAG #FLG013
 U 1 1 560EE826
 P 3900 3250
-F 0 "#FLG014" H 3900 3345 30  0001 C CNN
+F 0 "#FLG013" H 3900 3345 30  0001 C CNN
 F 1 "PWR_FLAG" H 3900 3430 30  0000 C CNN
 F 2 "" H 3900 3250 60  0000 C CNN
 F 3 "" H 3900 3250 60  0000 C CNN
@@ -345,10 +327,10 @@ F 3 "" H 3900 3250 60  0000 C CNN
 $EndComp
 Connection ~ 4150 3250
 $Comp
-L +5VP #PWR015
+L +5VP #PWR014
 U 1 1 560EE8BF
 P 5300 6100
-F 0 "#PWR015" H 5300 6190 20  0001 C CNN
+F 0 "#PWR014" H 5300 6190 20  0001 C CNN
 F 1 "+5VP" H 5300 6190 30  0000 C CNN
 F 2 "" H 5300 6100 60  0000 C CNN
 F 3 "" H 5300 6100 60  0000 C CNN
@@ -373,4 +355,6 @@ NoConn ~ 5300 2200
 NoConn ~ 4400 2200
 NoConn ~ 4400 2100
 NoConn ~ 4400 2000
+Text Notes 7000 3950 0    60   ~ 0
+Luego de abrir el nuevo proyecto:\n1)Editar datos del rótulo.\n2)Editar los archivos del subdirectorio "doc".\n2.1) Agregarse en el archivo de licencia.\n2.2) Colocar info mínima del Poncho en el LEEME.txt\n2.3) Colocar info mínima en el CAMBIOS.doc
 $EndSCHEMATC
