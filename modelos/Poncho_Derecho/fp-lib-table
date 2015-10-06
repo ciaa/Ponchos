@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Poncho_Esqueleto)(type Github)(uri https://github.com/LacieUnlam/Poncho_Esqueleto.pretty)(options "")(descr ""))
+  (lib (name Poncho_Modelos)(type Github)(uri https://github.com/LacieUnlam/Poncho_Modelos.pretty)(options "")(descr ""))
+)
