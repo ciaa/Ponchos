@@ -19,7 +19,7 @@
     (rev 1.0)
     (company "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA")
     (comment 1 https://github.com/ciaa/Ponchos/tree/master/modelos/doc)
-    (comment 2 "Autores y Licencia del template (Diego Brengi - LACIE-UNLaM)")
+    (comment 2 "Autores y Licencia del template (Diego Brengi - UNLaM)")
     (comment 3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\"")
     (comment 4 "CÓDIGO PONCHO:")
   )
@@ -199,7 +199,7 @@
   )
 
   (module Poncho_Esqueleto:Logo_EDU-CIAA (layer F.Cu) (tedit 560D8BDB) (tstamp 560EE0E7)
-    (at 89.535 116.205)
+    (at 87.63 116.205)
     (fp_text reference G*** (at 0 7.112) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -293,7 +293,7 @@
   )
 
   (module Poncho_Esqueleto:Logo_Poncho (layer F.Cu) (tedit 560DAFF4) (tstamp 560EEA4B)
-    (at 88.265 91.44)
+    (at 86.995 91.44)
     (fp_text reference G*** (at 0.127 5.588) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
@@ -396,7 +396,7 @@
   )
 
   (module Poncho_Esqueleto:Logo_OSHWA (layer F.Cu) (tedit 560D8B85) (tstamp 560EEA57)
-    (at 88.9 101.6)
+    (at 87.63 102.235)
     (fp_text reference G101 (at 0 4.2418) (layer F.SilkS) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
     )

@@ -16,13 +16,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Poncho Izquierdo - Modelo - Ejemplo - Template"
-Date "2015-10-05"
+Date "2015-10-06"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
-Comment2 "Autores y Licencia del template"
-Comment3 "CÓDIGO PONCHO:"
-Comment4 ""
+Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
+Comment3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\""
+Comment4 "CÓDIGO PONCHO: "
 $EndDescr
 $Comp
 L OSHWA #G2
