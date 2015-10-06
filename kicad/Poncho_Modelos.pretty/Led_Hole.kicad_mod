@@ -1,0 +1,9 @@
+(module Poncho_Modelos:Led_Hole (layer F.Cu) (tedit 5613342C)
+  (fp_text reference H2 (at 0.127 3.937) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PCB_HOLE (at 0.127 -3.429) (layer Dwgs.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
+)
