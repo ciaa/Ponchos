@@ -1,4 +1,4 @@
-(module Plantilla_EDU-CIAA (layer F.Cu) (tedit 561303DB)
+(module Poncho_Esqueleto:Plantilla_EDU-CIAA (layer F.Cu) (tedit 5613351C)
   (tags "plantilla poncho EDU CIAA")
   (fp_text reference MP? (at -0.762 -2.032) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
@@ -6,6 +6,7 @@
   (fp_text value Plantilla_EDU-CIAA (at -0.03 50.9) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
+  (fp_circle (center -71.12 0) (end -70.612 0) (layer F.SilkS) (width 0.15))
   (fp_line (start -30.099 48.641) (end -30.226 48.641) (layer F.SilkS) (width 0.15))
   (fp_line (start -29.845 48.641) (end -30.099 48.641) (layer F.SilkS) (width 0.15))
   (fp_line (start -29.845 48.641) (end -29.464 48.641) (layer F.SilkS) (width 0.15))
