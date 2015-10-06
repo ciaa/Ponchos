@@ -1,4 +1,4 @@
-update=vie 02 oct 2015 13:52:20 ART
+update=lun 05 oct 2015 17:45:28 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -31,11 +31,4 @@ version=1
 LibDir=../../kicad/libModelos;../../kicad/libPonchos
 [eeschema/libraries]
 LibName1=Misc_Poncho_Grande
-LibName2=conn
-LibName3=diode
-LibName4=interface
-LibName5=maxim
-LibName6=onsemi
-LibName7=relays
-LibName8=transistors
-LibName9=Poncho_Esqueleto
+LibName2=Poncho_Esqueleto
