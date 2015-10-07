@@ -1,15 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:Misc_Poncho_Grande
 LIBS:Poncho_Esqueleto
-LIBS:device
-LIBS:conn
-LIBS:contrib
-LIBS:graphic
-LIBS:logo
-LIBS:references
-LIBS:special
-LIBS:supertex
-LIBS:Poncho_Izquierdo-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -67,7 +58,7 @@ U 1 1 560ED139
 P 5000 4150
 F 0 "P1" V 4950 4150 50  0000 C CNN
 F 1 "CONN_5" V 5050 4150 50  0000 C CNN
-F 2 "Poncho_Modelos:bornier5" H 5450 4500 60  0000 C CNN
+F 2 "Poncho_Modelos:bornier5" H 5450 4550 60  0000 C CNN
 F 3 "" H 5000 4150 60  0000 C CNN
 	1    5000 4150
 	1    0    0    1   

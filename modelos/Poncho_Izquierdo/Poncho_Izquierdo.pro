@@ -1,4 +1,4 @@
-update=lun 05 oct 2015 23:08:17 ART
+update=mié 07 oct 2015 14:28:17 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -32,11 +32,3 @@ LibDir=../../kicad/libModelos;../../kicad/libPonchos
 [eeschema/libraries]
 LibName1=Misc_Poncho_Grande
 LibName2=Poncho_Esqueleto
-LibName3=device
-LibName4=conn
-LibName5=contrib
-LibName6=graphic
-LibName7=logo
-LibName8=references
-LibName9=special
-LibName10=supertex
