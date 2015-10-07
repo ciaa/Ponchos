@@ -8,13 +8,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "Poncho Grande - Modelo - Ejemplo - Template"
-Date "2015-10-02"
+Date "2015-10-06"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
-Comment2 "Autores y Licencias ver el siguiente enlace:"
-Comment3 ""
-Comment4 ""
+Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
+Comment3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\""
+Comment4 "CÓDIGO PONCHO:"
 $EndDescr
 Text HLabel 4450 4200 0    60   BiDi ~ 0
 GPIO1

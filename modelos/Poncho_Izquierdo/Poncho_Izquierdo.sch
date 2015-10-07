@@ -271,4 +271,6 @@ F 3 "PCB HOLE" H 7950 6100 60  0001 C CNN
 $EndComp
 NoConn ~ 8000 5950
 NoConn ~ 8550 5950
+Text Notes 7450 5650 0    60   ~ 0
+Agujeros para visualización de LEDs
 $EndSCHEMATC

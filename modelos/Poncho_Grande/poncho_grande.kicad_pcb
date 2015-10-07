@@ -3,7 +3,7 @@
   (general
     (links 337)
     (no_connects 0)
-    (area 73.584999 25.324999 159.460001 162.635001)
+    (area 54.087144 20.219999 283.73971 182.405001)
     (thickness 1.6)
     (drawings 199)
     (tracks 437)
@@ -15,11 +15,13 @@
   (page A4)
   (title_block
     (title "Poncho Grande - Modelo - Ejemplo - Template")
-    (date "mar 29 sep 2015")
+    (date 2015-10-06)
     (rev 1.0)
     (company "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA")
     (comment 1 https://github.com/ciaa/Ponchos/tree/master/modelos/doc)
-    (comment 2 "Autores y Licencias ver el siguiente enlace:")
+    (comment 2 "Autores y Licencia del template (Diego Brengi - UNLaM)")
+    (comment 3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\"")
+    (comment 4 "CÓDIGO PONCHO: ")
   )
 
   (layers
@@ -3149,7 +3151,7 @@
   (gr_text 5V (at 148.844 62.484) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "PONCHO GRANDE\nhttp://www.proyecto-ciaa.com.ar/" (at 113.538 30.734) (layer Dwgs.User)
+  (gr_text "PONCHO GRANDE\nhttp://www.proyecto-ciaa.com.ar/" (at 34.925 21.59) (layer Dwgs.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 77.47 43.815) (end 76.2 43.815) (angle 90) (layer Edge.Cuts) (width 0.15))

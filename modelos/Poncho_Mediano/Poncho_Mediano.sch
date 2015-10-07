@@ -12,9 +12,9 @@ Date "lun 05 oct 2015"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
-Comment2 "Autores y Licencia del template"
-Comment3 "CÓDIGO PONCHO:"
-Comment4 ""
+Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
+Comment3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\""
+Comment4 "CÓDIGO PONCHO:"
 $EndDescr
 $Comp
 L OSHWA #G2

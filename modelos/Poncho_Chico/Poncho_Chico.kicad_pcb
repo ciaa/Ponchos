@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-05-19 BZR 5670)-product")
+(kicad_pcb (version 4) (host pcbnew "(2015-08-26 BZR 6128)-product")
 
   (general
     (links 13)
     (no_connects 0)
-    (area 97.206999 60.165 231.735717 161.715)
+    (area 17.422141 15.774999 279.500001 167.165001)
     (thickness 1.6)
     (drawings 40)
     (tracks 61)
@@ -18,9 +18,9 @@
     (date "lun 05 oct 2015")
     (rev 1.0)
     (company "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA")
-    (comment 1 "Autores: Ver '../doc/CAMBIOS.txt'   Licencia: Ver '../doc/LICENCIA.txt'")
-    (comment 2 https://github.com/ciaa/Ponchos/tree/master/modelos/doc)
-    (comment 3 "Autores y Licencia del template")
+    (comment 1 https://github.com/ciaa/Ponchos/tree/master/modelos/doc)
+    (comment 2 "Autores y Licencia del template (Diego Brengi - UNLaM)")
+    (comment 3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\"")
     (comment 4 "CÓDIGO PONCHO:")
   )
 

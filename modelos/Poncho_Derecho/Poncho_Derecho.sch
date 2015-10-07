@@ -288,4 +288,6 @@ Wire Wire Line
 	4100 2450 4000 2450
 Connection ~ 4000 2450
 NoConn ~ 4100 2050
+Text Notes 7450 5650 0    60   ~ 0
+Agujeros para visualización de LEDs
 $EndSCHEMATC
