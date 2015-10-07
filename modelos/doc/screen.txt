@@ -1,0 +1,3 @@
+Las capturas de pantalla ejemplifican el uso de Templates de Kicad.
+La documentación completa se coloca en la wiki de la CIAA, en la sección
+Ponchos.
