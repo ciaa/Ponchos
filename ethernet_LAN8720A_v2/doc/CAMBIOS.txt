@@ -1,0 +1,14 @@
+Cambios realizados al Poncho Ethernet
+=====================================
+
+* Fecha: 9/9/2015
+* Autores: Diego Brengi.
+* Archivos: Se toma como base la hoja Ethernet del esquemático de la CIAA-NXP.
+* Descripción: Inicialización del repositorio GIT.Se realizan ajustes según versión de Kicad, se crea la estructura de directorios en el git y se sube.
+
+* Fecha: 24/10/2015
+* Autores: Ignacio Zaradnik.
+* Archivos: Se toman los generados por el Template Poncho Grande, Chico y los previemanete trabajados
+* Descripción: Se genera un nuevo proyecto tomando como base el template del poncho grande para esquematico, se agrega esquemático de Ethernet.
+Se agregan notas de diseño, se cambian valores de capacitores y se agregan algunas resistencias.
+Se cambia pcb generado por template Poncho grande por el del template poncho chico.
