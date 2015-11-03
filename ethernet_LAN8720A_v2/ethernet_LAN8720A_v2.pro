@@ -1,4 +1,4 @@
-update=24/10/2015 09:30:01 p.m.
+update=02/11/2015 09:24:40 p.m.
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,8 +28,9 @@ ModuleOutlineThickness=0.15
 version=1
 [eeschema]
 version=1
-LibDir=../kicad/libModelos;../kicad/libPonchos;lib;mod
+LibDir=../kicad/libModelos;../kicad/libPonchos;lib;mod;../../Hardware/Hardware/PCB/FSL/CIAA_K60/kicadlibs
 [eeschema/libraries]
 LibName1=Poncho_Esqueleto
 LibName2=Misc_Poncho_Grande
 LibName3=lib/poncho_eth
+LibName4=CIAAK60LIB

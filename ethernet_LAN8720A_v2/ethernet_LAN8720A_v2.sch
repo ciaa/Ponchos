@@ -2,6 +2,7 @@ EESchema Schematic File Version 2
 LIBS:Poncho_Esqueleto
 LIBS:Misc_Poncho_Grande
 LIBS:poncho_eth
+LIBS:CIAAK60LIB
 LIBS:ethernet_LAN8720A_v2-cache
 EELAYER 25 0
 EELAYER END
