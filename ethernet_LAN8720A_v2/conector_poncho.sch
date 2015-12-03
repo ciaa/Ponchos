@@ -453,7 +453,7 @@ U 2 1 560C5732
 P 5350 4250
 F 0 "XA1" H 5650 4650 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 5700 2550 60  0000 C CNN
-F 2 "mod:poncho_grande" H 5600 2450 60  0000 C CNN
+F 2 "eth:Conn_Poncho_Chico" H 5600 2450 60  0000 C CNN
 F 3 "" H 5350 4250 60  0000 C CNN
 	2    5350 4250
 	1    0    0    -1  
@@ -464,7 +464,7 @@ U 1 1 560C57B9
 P 5350 1500
 F 0 "XA1" H 5650 1900 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 5700 -200 60  0000 C CNN
-F 2 "mod:poncho_grande" H 5650 -300 60  0000 C CNN
+F 2 "eth:Conn_Poncho_Chico" H 5650 -300 60  0000 C CNN
 F 3 "" H 5350 1500 60  0000 C CNN
 	1    5350 1500
 	1    0    0    -1  
