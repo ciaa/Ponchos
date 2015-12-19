@@ -3,7 +3,7 @@
   (general
     (links 130)
     (no_connects 130)
-    (area 85.649999 69.901999 172.287001 131.012001)
+    (area 17.422141 15.774999 279.500001 167.443)
     (thickness 1.6)
     (drawings 18)
     (tracks 0)
@@ -581,7 +581,7 @@
   )
 
   (module eth:RJ45_SI-52003-F_PoE_ETH (layer F.Cu) (tedit 54299A60) (tstamp 565FA98F)
-    (at 127.381 125.984)
+    (at 127.635 125.095)
     (path /560A0C1A/53F384B4)
     (fp_text reference P1 (at 0 -15.748 90) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.2032)))
