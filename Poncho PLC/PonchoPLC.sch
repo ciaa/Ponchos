@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:EESTN5
+LIBS:power
 LIBS:PonchoPLC-cache
 EELAYER 25 0
 EELAYER END
@@ -7,10 +8,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Esquema principal - Poncho PLC"
-Date "2016-01-29"
+Date "2016-06-15"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
-Comment1 "https://github.com/ciaa/Ponchos/COMPLETAR"
+Comment1 "https://github.com/ciaa/Ponchos/Poncho PLC"
 Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
 Comment3 "Autor del poncho (Mariano Bustos - E.E.S.T. N°5, Jorge Osio)"
 Comment4 "CÓDIGO PONCHO: PLC"

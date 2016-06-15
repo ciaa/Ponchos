@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:EESTN5
+LIBS:power
 LIBS:PonchoPLC-cache
 EELAYER 25 0
 EELAYER END
@@ -7,13 +8,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "CIAA Entradas Digitales"
-Date "11 may 2015"
+Date "2016-06-15"
 Rev "1.0"
-Comp ""
-Comment1 "El circuito fue adaptado a componentes de proveedores locales"
+Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comment1 "https://github.com/ciaa/Ponchos/Poncho PLC"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "CÓDIGO PONCHO: PLC"
 $EndDescr
 $Comp
 L R R2
@@ -48,8 +49,6 @@ F 3 "" H 5250 1350 60  0000 C CNN
 	1    5250 1350
 	1    0    0    -1  
 $EndComp
-Text Label 2250 3000 2    60   ~ 0
-COM
 Text HLabel 6450 1200 2    60   Output ~ 0
 DIN0
 $Comp
@@ -64,13 +63,11 @@ F 3 "" H 6450 950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 1050 6400 1050
+	6400 1050 6200 1050
 Wire Wire Line
 	4000 900  4350 900 
 Wire Wire Line
-	3400 900  3800 900 
-Text Label 3400 900  0    60   ~ 0
-IN0
+	2450 900  3800 900 
 Text Label 2250 1600 2    60   ~ 0
 IN0
 Text Label 2250 1800 2    60   ~ 0
@@ -80,19 +77,19 @@ IN2
 Text Label 2250 2200 2    60   ~ 0
 IN3
 Wire Wire Line
-	2050 1600 2250 1600
+	2050 1600 2450 1600
 Wire Wire Line
-	2050 1800 2250 1800
+	2050 1800 2500 1800
 Wire Wire Line
-	2250 2000 2050 2000
+	2050 2000 2950 2000
 Wire Wire Line
-	2050 2200 2250 2200
+	2050 2200 2850 2200
 Wire Wire Line
-	2250 2400 2050 2400
+	2050 2400 2650 2400
 Wire Wire Line
-	2250 2600 2050 2600
+	2050 2600 2500 2600
 Wire Wire Line
-	2250 2800 2050 2800
+	2050 2800 2400 2800
 Text Label 2250 2400 2    60   ~ 0
 IN4
 Text Label 2250 2600 2    60   ~ 0
@@ -123,8 +120,6 @@ F 4 "Esqueleto EDU-CIAA" H 1700 2300 60  0001 C CNN "Title"
 	1    1700 2300
 	1    0    0    -1  
 $EndComp
-Text Label 3400 1400 0    60   ~ 0
-COM
 Wire Wire Line
 	4350 900  4350 1050
 Wire Wire Line
@@ -154,7 +149,7 @@ F 3 "~" H 6100 850 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6400 1050 6400 850 
+	6400 850  6400 1050
 Wire Wire Line
 	6400 850  6200 850 
 Wire Wire Line
@@ -244,13 +239,11 @@ F 3 "" H 6450 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 1850 6400 1850
+	6400 1850 6200 1850
 Wire Wire Line
 	4000 1700 4350 1700
 Wire Wire Line
-	3400 1700 3800 1700
-Text Label 3400 1700 0    60   ~ 0
-IN1
+	2500 1700 3800 1700
 $Comp
 L R R10
 U 1 1 56D425CD
@@ -262,8 +255,6 @@ F 3 "~" H 4150 1950 30  0000 C CNN
 	1    4150 1950
 	-1   0    0    1   
 $EndComp
-Text Label 3400 2200 0    60   ~ 0
-COM
 Wire Wire Line
 	4350 1700 4350 1850
 Wire Wire Line
@@ -293,7 +284,7 @@ F 3 "~" H 6100 1650 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6400 1850 6400 1650
+	6400 1650 6400 1850
 Wire Wire Line
 	6400 1650 6200 1650
 Wire Wire Line
@@ -383,13 +374,11 @@ F 3 "" H 6450 2550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 2650 6400 2650
+	6400 2650 6200 2650
 Wire Wire Line
 	4000 2500 4350 2500
 Wire Wire Line
-	3400 2500 3800 2500
-Text Label 3400 2500 0    60   ~ 0
-IN2
+	2950 2500 3800 2500
 $Comp
 L R R11
 U 1 1 56D42779
@@ -401,8 +390,6 @@ F 3 "~" H 4150 2750 30  0000 C CNN
 	1    4150 2750
 	-1   0    0    1   
 $EndComp
-Text Label 3400 3000 0    60   ~ 0
-COM
 Wire Wire Line
 	4350 2500 4350 2650
 Wire Wire Line
@@ -432,7 +419,7 @@ F 3 "~" H 6100 2450 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6400 2650 6400 2450
+	6400 2450 6400 2650
 Wire Wire Line
 	6400 2450 6200 2450
 Wire Wire Line
@@ -523,13 +510,11 @@ F 3 "" H 6450 3350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 3450 6400 3450
+	6400 3450 6200 3450
 Wire Wire Line
 	4000 3300 4350 3300
 Wire Wire Line
-	3400 3300 3800 3300
-Text Label 3400 3300 0    60   ~ 0
-IN3
+	2850 3300 3800 3300
 $Comp
 L R R12
 U 1 1 56D427C6
@@ -541,8 +526,6 @@ F 3 "~" H 4150 3550 30  0000 C CNN
 	1    4150 3550
 	-1   0    0    1   
 $EndComp
-Text Label 3400 3800 0    60   ~ 0
-COM
 Wire Wire Line
 	4350 3300 4350 3450
 Wire Wire Line
@@ -572,7 +555,7 @@ F 3 "~" H 6100 3250 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6400 3450 6400 3250
+	6400 3250 6400 3450
 Wire Wire Line
 	6400 3250 6200 3250
 Wire Wire Line
@@ -650,13 +633,11 @@ F 3 "" H 6450 4200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 4300 6400 4300
+	6400 4300 6200 4300
 Wire Wire Line
 	4000 4150 4350 4150
 Wire Wire Line
-	3400 4150 3800 4150
-Text Label 3400 4150 0    60   ~ 0
-IN4
+	2650 4150 3800 4150
 $Comp
 L R R13
 U 1 1 56D42E6A
@@ -668,8 +649,6 @@ F 3 "~" H 4150 4400 30  0000 C CNN
 	1    4150 4400
 	-1   0    0    1   
 $EndComp
-Text Label 3400 4650 0    60   ~ 0
-COM
 Wire Wire Line
 	4350 4150 4350 4300
 Wire Wire Line
@@ -699,7 +678,7 @@ F 3 "~" H 6100 4100 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6400 4300 6400 4100
+	6400 4100 6400 4300
 Wire Wire Line
 	6400 4100 6200 4100
 Wire Wire Line
@@ -790,13 +769,11 @@ F 3 "" H 6450 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 5100 6400 5100
+	6400 5100 6200 5100
 Wire Wire Line
 	4000 4950 4350 4950
 Wire Wire Line
-	3400 4950 3800 4950
-Text Label 3400 4950 0    60   ~ 0
-IN5
+	2500 4950 3800 4950
 $Comp
 L R R14
 U 1 1 56D42EB7
@@ -808,8 +785,6 @@ F 3 "~" H 4150 5200 30  0000 C CNN
 	1    4150 5200
 	-1   0    0    1   
 $EndComp
-Text Label 3400 5450 0    60   ~ 0
-COM
 Wire Wire Line
 	4350 4950 4350 5100
 Wire Wire Line
@@ -839,7 +814,7 @@ F 3 "~" H 6100 4900 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6400 5100 6400 4900
+	6400 4900 6400 5100
 Wire Wire Line
 	6400 4900 6200 4900
 Wire Wire Line
@@ -930,13 +905,11 @@ F 3 "" H 6450 5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6200 5900 6400 5900
+	6400 5900 6200 5900
 Wire Wire Line
 	4000 5750 4350 5750
 Wire Wire Line
-	3400 5750 3800 5750
-Text Label 3400 5750 0    60   ~ 0
-IN6
+	2400 5750 3800 5750
 $Comp
 L R R15
 U 1 1 56D42F04
@@ -948,8 +921,6 @@ F 3 "~" H 4150 6000 30  0000 C CNN
 	1    4150 6000
 	-1   0    0    1   
 $EndComp
-Text Label 3400 6250 0    60   ~ 0
-COM
 Wire Wire Line
 	4350 5750 4350 5900
 Wire Wire Line
@@ -979,7 +950,7 @@ F 3 "~" H 6100 5700 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6400 5900 6400 5700
+	6400 5700 6400 5900
 Wire Wire Line
 	6400 5700 6200 5700
 Wire Wire Line
@@ -1049,7 +1020,7 @@ F 4 "Esqueleto EDU-CIAA" H 1700 2900 60  0001 C CNN "Title"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 3000 2050 3000
+	2050 3000 2200 3000
 NoConn ~ 5200 6900
 NoConn ~ 5200 6700
 NoConn ~ 4400 6700
@@ -1079,4 +1050,126 @@ F 5 "LTV846" H 4800 3550 60  0001 C CNN "Reemplazos "
 	4    4800 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L GNDD #PWR033
+U 1 1 57621299
+P 2200 3400
+F 0 "#PWR033" H 2200 3150 50  0001 C CNN
+F 1 "GNDD" H 2200 3250 50  0000 C CNN
+F 2 "" H 2200 3400 60  0000 C CNN
+F 3 "" H 2200 3400 60  0000 C CNN
+	1    2200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR034
+U 1 1 576214A7
+P 3400 1400
+F 0 "#PWR034" H 3400 1150 50  0001 C CNN
+F 1 "GNDD" H 3400 1250 50  0000 C CNN
+F 2 "" H 3400 1400 60  0000 C CNN
+F 3 "" H 3400 1400 60  0000 C CNN
+	1    3400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR035
+U 1 1 5762179B
+P 3400 2200
+F 0 "#PWR035" H 3400 1950 50  0001 C CNN
+F 1 "GNDD" H 3400 2050 50  0000 C CNN
+F 2 "" H 3400 2200 60  0000 C CNN
+F 3 "" H 3400 2200 60  0000 C CNN
+	1    3400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR036
+U 1 1 576219D7
+P 3400 3000
+F 0 "#PWR036" H 3400 2750 50  0001 C CNN
+F 1 "GNDD" H 3400 2850 50  0000 C CNN
+F 2 "" H 3400 3000 60  0000 C CNN
+F 3 "" H 3400 3000 60  0000 C CNN
+	1    3400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR037
+U 1 1 57621B5B
+P 3400 3800
+F 0 "#PWR037" H 3400 3550 50  0001 C CNN
+F 1 "GNDD" H 3400 3650 50  0000 C CNN
+F 2 "" H 3400 3800 60  0000 C CNN
+F 3 "" H 3400 3800 60  0000 C CNN
+	1    3400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR038
+U 1 1 57621CB1
+P 3400 4650
+F 0 "#PWR038" H 3400 4400 50  0001 C CNN
+F 1 "GNDD" H 3400 4500 50  0000 C CNN
+F 2 "" H 3400 4650 60  0000 C CNN
+F 3 "" H 3400 4650 60  0000 C CNN
+	1    3400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR039
+U 1 1 57622115
+P 3400 5450
+F 0 "#PWR039" H 3400 5200 50  0001 C CNN
+F 1 "GNDD" H 3400 5300 50  0000 C CNN
+F 2 "" H 3400 5450 60  0000 C CNN
+F 3 "" H 3400 5450 60  0000 C CNN
+	1    3400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR040
+U 1 1 576226E9
+P 3400 6250
+F 0 "#PWR040" H 3400 6000 50  0001 C CNN
+F 1 "GNDD" H 3400 6100 50  0000 C CNN
+F 2 "" H 3400 6250 60  0000 C CNN
+F 3 "" H 3400 6250 60  0000 C CNN
+	1    3400 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3000 2200 3400
+Wire Wire Line
+	2450 1600 2450 900 
+Wire Wire Line
+	2500 1800 2500 1700
+Wire Wire Line
+	2950 2000 2950 2500
+Wire Wire Line
+	2850 2200 2850 3300
+Wire Wire Line
+	2650 2400 2650 4150
+Wire Wire Line
+	2500 2600 2500 4950
+Wire Wire Line
+	2400 2800 2400 5750
+Text Notes 7400 6300 0    60   ~ 0
+El circuito fue adaptado a componentes de proveedores locales.
+$Comp
+L PWR_FLAG #FLG041
+U 1 1 576339AF
+P 1900 3400
+F 0 "#FLG041" H 1900 3495 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 3580 50  0000 C CNN
+F 2 "" H 1900 3400 60  0000 C CNN
+F 3 "" H 1900 3400 60  0000 C CNN
+	1    1900 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 3400 1900 3250
+Wire Wire Line
+	1900 3250 2200 3250
+Connection ~ 2200 3250
 $EndSCHEMATC
