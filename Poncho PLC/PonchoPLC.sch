@@ -74,15 +74,13 @@ Text Notes 3750 2300 0    60   Italic 12
 RS-232
 Text Notes 3550 2900 0    60   Italic 12
 ENTRADAS DIGITALES
-Text Notes 3800 5050 0    60   Italic 12
+Text Notes 5050 5000 0    60   Italic 12
 DISPLAY
-Text Notes 3600 5700 0    60   Italic 12
+Text Notes 3200 7100 0    60   Italic 12
 SALIDAS DIGITALES
 Text Notes 7300 950  0    118  ~ 24
 http://www.proyecto-ciaa.com.ar/
-Text Notes 7000 3650 0    60   ~ 0
-Luego de abrir el nuevo proyecto:\n1)Editar datos del rótulo.\n2)Editar los archivos del subdirectorio "doc".\n2.1) Agregarse en el archivo de licencia.\n2.2) Colocar info mínima del Poncho en el LEEME.txt\n2.3) Colocar info mínima en el CAMBIOS.doc
-Text Notes 7000 2400 0    60   ~ 0
+Text Notes 7750 2000 0    100  ~ 0
 Indice:\n1- Esquematico Jerarquico\n2- Conector EDU-CIAA\n3- Entradas Digitales\n4- Salidas Digitales
 $Sheet
 S 5250 2850 550  800 
@@ -165,18 +163,18 @@ NoConn ~ 2900 1250
 NoConn ~ 2900 2750
 NoConn ~ 2900 2650
 $Sheet
-S 5650 6050 700  900 
+S 4600 6100 700  900 
 U 56AC5E66
 F0 "Salidas Digitales" 60
 F1 "DOut_PonchoPLC.sch" 60
-F2 "DOUT1" I L 5650 6250 60 
-F3 "DOUT3" I L 5650 6450 60 
-F4 "DOUT0" I L 5650 6150 60 
-F5 "DOUT2" I L 5650 6350 60 
-F6 "DOUT4" I L 5650 6550 60 
-F7 "DOUT5" I L 5650 6650 60 
-F8 "DOUT6" I L 5650 6750 60 
-F9 "DOUT7" I L 5650 6850 60 
+F2 "DOUT1" I L 4600 6300 60 
+F3 "DOUT3" I L 4600 6500 60 
+F4 "DOUT0" I L 4600 6200 60 
+F5 "DOUT2" I L 4600 6400 60 
+F6 "DOUT4" I L 4600 6600 60 
+F7 "DOUT5" I L 4600 6700 60 
+F8 "DOUT6" I L 4600 6800 60 
+F9 "DOUT7" I L 4600 6900 60 
 $EndSheet
 Wire Wire Line
 	8300 5600 2750 5600
@@ -269,69 +267,37 @@ Wire Wire Line
 Wire Wire Line
 	2900 2750 2750 2750
 Wire Wire Line
-	3000 5750 2750 5750
+	2750 5750 3850 5750
 Wire Wire Line
-	3000 5850 2750 5850
+	2750 5850 3750 5850
 Wire Wire Line
-	3000 5950 2750 5950
+	2750 5950 3650 5950
 Wire Wire Line
-	3000 6050 2750 6050
+	2750 6050 3550 6050
 Wire Wire Line
-	3000 6150 2750 6150
+	2750 6150 3450 6150
 Wire Wire Line
-	3000 6250 2750 6250
+	2750 6250 3350 6250
 Wire Wire Line
-	3000 6350 2750 6350
+	2750 6350 3250 6350
 Wire Wire Line
-	3000 6450 2750 6450
-Text Label 2800 5750 0    60   ~ 0
-DOUT0
-Text Label 2800 5850 0    60   ~ 0
-DOUT1
-Text Label 2800 5950 0    60   ~ 0
-DOUT2
-Text Label 2800 6050 0    60   ~ 0
-DOUT3
-Text Label 2800 6150 0    60   ~ 0
-DOUT4
-Text Label 2800 6250 0    60   ~ 0
-DOUT5
-Text Label 2800 6350 0    60   ~ 0
-DOUT6
-Text Label 2800 6450 0    60   ~ 0
-DOUT7
+	2750 6450 3150 6450
 Wire Wire Line
-	5350 6150 5650 6150
+	3850 6200 4600 6200
 Wire Wire Line
-	5350 6250 5650 6250
+	3750 6300 4600 6300
 Wire Wire Line
-	5350 6350 5650 6350
+	3650 6400 4600 6400
 Wire Wire Line
-	5350 6450 5650 6450
+	3550 6500 4600 6500
 Wire Wire Line
-	5350 6550 5650 6550
+	3450 6600 4600 6600
 Wire Wire Line
-	5350 6650 5650 6650
+	3350 6700 4600 6700
 Wire Wire Line
-	5350 6750 5650 6750
+	3250 6800 4600 6800
 Wire Wire Line
-	5350 6850 5650 6850
-Text Label 5350 6150 0    60   ~ 0
-DOUT0
-Text Label 5350 6250 0    60   ~ 0
-DOUT1
-Text Label 5350 6350 0    60   ~ 0
-DOUT2
-Text Label 5350 6450 0    60   ~ 0
-DOUT3
-Text Label 5350 6550 0    60   ~ 0
-DOUT4
-Text Label 5350 6650 0    60   ~ 0
-DOUT5
-Text Label 5350 6750 0    60   ~ 0
-DOUT6
-Text Label 5350 6850 0    60   ~ 0
-DOUT7
+	3150 6900 4600 6900
 Wire Wire Line
 	3000 6550 2750 6550
 NoConn ~ 3000 6550
@@ -438,7 +404,7 @@ F 4 "Esqueleto EDU-CIAA" H 7150 4800 60  0001 C CNN "Title"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7150 4700 7150 4400
+	7150 4400 7150 4700
 Wire Wire Line
 	7150 4650 8100 4650
 Wire Wire Line
@@ -498,4 +464,20 @@ NoConn ~ 8600 4600
 NoConn ~ 8700 4600
 NoConn ~ 8800 4600
 NoConn ~ 8900 4600
+Wire Wire Line
+	3850 5750 3850 6200
+Wire Wire Line
+	3750 5850 3750 6300
+Wire Wire Line
+	3650 5950 3650 6400
+Wire Wire Line
+	3550 6050 3550 6500
+Wire Wire Line
+	3450 6150 3450 6600
+Wire Wire Line
+	3350 6250 3350 6700
+Wire Wire Line
+	3250 6350 3250 6800
+Wire Wire Line
+	3150 6450 3150 6900
 $EndSCHEMATC
