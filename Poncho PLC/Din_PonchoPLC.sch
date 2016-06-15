@@ -13,7 +13,7 @@ Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/Poncho PLC"
 Comment2 ""
-Comment3 ""
+Comment3 "Autor del poncho (Mariano Bustos - E.E.S.T. N°5, Jorge Osio)"
 Comment4 "CÓDIGO PONCHO: PLC"
 $EndDescr
 $Comp

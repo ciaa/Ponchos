@@ -13,7 +13,7 @@ Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/Poncho PLC"
 Comment2 ""
-Comment3 ""
+Comment3 "Autor del poncho (Mariano Bustos - E.E.S.T. N°5, Jorge Osio)"
 Comment4 "CÓDIGO PONCHO: PLC"
 $EndDescr
 $Comp
@@ -1748,7 +1748,7 @@ F 4 "Esqueleto EDU-CIAA" H 6850 2150 60  0001 C CNN "Title"
 	1    6850 2150
 	0    -1   -1   0   
 $EndComp
-Text Notes 3700 7450 0    60   ~ 0
+Text Notes 7000 6500 0    60   ~ 0
 El circuito fue adaptado a componentes de proveedores locales.
 Wire Wire Line
 	3100 1550 3050 1550
