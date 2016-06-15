@@ -1,0 +1,13 @@
+IDE4PLC SECUNDARIA
+=============
+
+<< Este poncho tiene como propósito complementar a la EDU-CIAA con salidas y entradas analógicas y digitales para que pueda ser utilizada como PLC didáctico en el entorno de escuelas técnicas.>>
+
+URL: (URL en la wiki de la CIAA)
+FUNCIÓN: Adaptar la EDU-CIAA para el uso de software IDE4PLC.
+AUTORES/INSTITUCIONES: 
+Mariano Matias Bustos - E.E.S.T. N°5 Lomas de Zamora.
+
+
+
+<<Detalle y explicaciÃ³n de directorios o archivos adicionales que se incorporen.>>
