@@ -1,4 +1,4 @@
-update=08/03/2016 20:39:52
+update=mié 15 jun 2016 21:16:21 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -24,10 +24,10 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=components/EESTN5
-[general]
-version=1
+LibName1=components/PonchoPLC

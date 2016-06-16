@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:EESTN5
-LIBS:power
+LIBS:PonchoPLC
 LIBS:PonchoPLC-cache
 EELAYER 25 0
 EELAYER END
@@ -1751,13 +1750,13 @@ $EndComp
 Text Notes 7000 6500 0    60   ~ 0
 El circuito fue adaptado a componentes de proveedores locales.
 Wire Wire Line
-	3100 1550 3050 1550
+	2950 1550 3100 1550
 Wire Wire Line
-	3100 3100 3050 3100
+	2950 3100 3100 3100
 Wire Wire Line
-	3050 4650 3100 4650
+	2950 4650 3100 4650
 Wire Wire Line
-	3050 6200 3100 6200
+	2950 6200 3100 6200
 Wire Wire Line
 	1400 7250 1400 6700
 Connection ~ 1400 6700
@@ -1782,4 +1781,16 @@ Connection ~ 1400 2050
 Wire Wire Line
 	2550 7250 2550 6550
 Connection ~ 2550 6550
+Wire Wire Line
+	2950 6300 2950 6200
+Connection ~ 3050 6200
+Wire Wire Line
+	2950 4750 2950 4650
+Connection ~ 3050 4650
+Wire Wire Line
+	2950 3200 2950 3100
+Connection ~ 3050 3100
+Wire Wire Line
+	2950 1650 2950 1550
+Connection ~ 3050 1550
 $EndSCHEMATC

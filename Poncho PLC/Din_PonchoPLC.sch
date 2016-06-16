@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:EESTN5
-LIBS:power
+LIBS:PonchoPLC
 LIBS:PonchoPLC-cache
 EELAYER 25 0
 EELAYER END
