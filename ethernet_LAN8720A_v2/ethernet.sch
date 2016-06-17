@@ -669,7 +669,7 @@ U 1 1 53F384B4
 P 9400 3400
 F 0 "P1" H 9400 4500 60  0000 C CNN
 F 1 "SI-52003-F" H 9650 4350 60  0000 C CNN
-F 2 "eth:RJ45_SI-52003-F_PoE_ETH" H 9400 3400 60  0000 C CNN
+F 2 "eth:RJ45_SI-52003-F_PoE_ETH" V 9500 3400 60  0000 C CNN
 F 3 "~" H 9400 3400 60  0000 C CNN
 	1    9400 3400
 	1    0    0    -1  
@@ -1464,4 +1464,12 @@ Wire Notes Line
 Wire Notes Line
 	9900 5050 9300 5050
 Connection ~ 3500 900 
+Text Label 7750 2600 0    60   ~ 0
+Tx_P
+Text Label 7750 2700 0    60   ~ 0
+Tx_N
+Text Label 7750 2900 0    60   ~ 0
+Rx_P
+Text Label 7750 3000 0    60   ~ 0
+Rx_N
 $EndSCHEMATC
