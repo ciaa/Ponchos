@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name EESTN5)(type KiCad)(uri "$(KIPRJMOD)/footprints/EESTN5.pretty")(options "")(descr ""))
+  (lib (name edu-ciaa)(type Legacy)(uri "$(KIPRJMOD)/footprints/edu-ciaa.mod")(options "")(descr ""))
+)

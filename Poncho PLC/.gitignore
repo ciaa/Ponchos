@@ -1,0 +1,6 @@
+*.kicad_pcb-bak
+*.bak
+*.ini
+_autosave*
+*.xml
+*.net
