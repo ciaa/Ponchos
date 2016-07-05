@@ -1,4 +1,4 @@
-update=05/07/2016 14:42:24
+update=5 Jul. 2016 17:59:24
 version=1
 last_client=kicad
 [general]
@@ -30,5 +30,5 @@ ModuleOutlineThickness=0.15
 version=1
 LibDir=../trabajo_final
 [eeschema/libraries]
-LibName1=C:/workspace/workspace.kicad/trabajo_final/falling_detector-cache
-LibName2=C:/workspace/workspace.kicad/trabajo_final/poncho_grande-cache
+LibName1=lib/falling_detector-cache
+LibName2=lib/poncho_grande-cache
