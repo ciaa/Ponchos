@@ -823,46 +823,6 @@ F 3 "~" H 2800 2600 30  0000 C CNN
 	1    2800 2600
 	0    -1   -1   0   
 $EndComp
-Text HLabel 1000 950  0    60   BiDi ~ 0
-RESET
-Text HLabel 1000 1050 0    60   BiDi ~ 0
-ISP
-Text HLabel 1000 1150 0    60   BiDi ~ 0
-WAKEUP
-Text HLabel 1000 1250 0    60   BiDi ~ 0
-ADC1
-Text HLabel 1000 1350 0    60   BiDi ~ 0
-ADC2
-Text HLabel 1000 1450 0    60   BiDi ~ 0
-ADC3
-Text HLabel 1000 1550 0    60   BiDi ~ 0
-DAC
-Text HLabel 1000 1650 0    60   BiDi ~ 0
-SDA
-Text HLabel 1000 1750 0    60   BiDi ~ 0
-SCL
-Text HLabel 1000 1850 0    60   BiDi ~ 0
-RXD
-Text HLabel 1000 1950 0    60   BiDi ~ 0
-TXD
-Text HLabel 1000 2050 0    60   BiDi ~ 0
-RD
-Text HLabel 1000 2150 0    60   BiDi ~ 0
-TD
-Text HLabel 1000 2250 0    60   BiDi ~ 0
-COL0
-Text HLabel 1000 2350 0    60   BiDi ~ 0
-COL1
-Text HLabel 1000 2450 0    60   BiDi ~ 0
-COL2
-Text HLabel 1000 2550 0    60   BiDi ~ 0
-F0
-Text HLabel 1000 2650 0    60   BiDi ~ 0
-F1
-Text HLabel 1650 950  0    60   BiDi ~ 0
-F2
-Text HLabel 1650 1050 0    60   BiDi ~ 0
-F3
 Text HLabel 1650 1150 0    60   BiDi ~ 0
 spiSCK
 Text HLabel 1650 1250 0    60   BiDi ~ 0
@@ -871,26 +831,6 @@ Text HLabel 1650 1350 0    60   BiDi ~ 0
 MISO
 Text HLabel 1650 1450 0    60   BiDi ~ 0
 LCD1
-NoConn ~ 1150 950 
-NoConn ~ 1150 1050
-NoConn ~ 1150 1150
-NoConn ~ 1150 1250
-NoConn ~ 1150 1350
-NoConn ~ 1150 1450
-NoConn ~ 1150 1550
-NoConn ~ 1150 1650
-NoConn ~ 1150 1750
-NoConn ~ 1150 1850
-NoConn ~ 1150 1950
-NoConn ~ 1150 2050
-NoConn ~ 1150 2150
-NoConn ~ 1150 2250
-NoConn ~ 1150 2350
-NoConn ~ 1150 2450
-NoConn ~ 1150 2550
-NoConn ~ 1150 2650
-NoConn ~ 1800 950 
-NoConn ~ 1800 1050
 NoConn ~ 1800 1150
 NoConn ~ 1800 1250
 NoConn ~ 1800 1350
@@ -901,8 +841,6 @@ Text HLabel 1650 1650 0    60   BiDi ~ 0
 LCD3
 Text HLabel 1650 1750 0    60   BiDi ~ 0
 LCD4
-Text HLabel 1650 1850 0    60   BiDi ~ 0
-LCD_EN
 Text HLabel 1650 1950 0    60   BiDi ~ 0
 RS
 NoConn ~ 1800 1550
@@ -1306,46 +1244,6 @@ Connection ~ 3550 3200
 Wire Wire Line
 	3050 3200 3950 3200
 Wire Wire Line
-	1150 950  1000 950 
-Wire Wire Line
-	1000 1050 1150 1050
-Wire Wire Line
-	1000 1150 1150 1150
-Wire Wire Line
-	1000 1250 1150 1250
-Wire Wire Line
-	1000 1350 1150 1350
-Wire Wire Line
-	1000 1450 1150 1450
-Wire Wire Line
-	1000 1550 1150 1550
-Wire Wire Line
-	1000 1650 1150 1650
-Wire Wire Line
-	1150 1750 1000 1750
-Wire Wire Line
-	1000 1850 1150 1850
-Wire Wire Line
-	1000 1950 1150 1950
-Wire Wire Line
-	1000 2050 1150 2050
-Wire Wire Line
-	1000 2150 1150 2150
-Wire Wire Line
-	1000 2250 1150 2250
-Wire Wire Line
-	1000 2350 1150 2350
-Wire Wire Line
-	1000 2450 1150 2450
-Wire Wire Line
-	1150 2550 1000 2550
-Wire Wire Line
-	1000 2650 1150 2650
-Wire Wire Line
-	1650 950  1800 950 
-Wire Wire Line
-	1650 1050 1800 1050
-Wire Wire Line
 	1650 1150 1800 1150
 Wire Wire Line
 	1650 1250 1800 1250
@@ -1472,4 +1370,6 @@ Text Label 7750 2900 0    60   ~ 0
 Rx_P
 Text Label 7750 3000 0    60   ~ 0
 Rx_N
+Text HLabel 1650 1850 0    60   BiDi ~ 0
+LCD_EN
 $EndSCHEMATC
