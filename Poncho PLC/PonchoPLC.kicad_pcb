@@ -1,15 +1,15 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-09-12 BZR 6188)-product")
+(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
 
   (general
     (links 265)
     (no_connects 265)
     (area 73.584999 25.324999 159.460001 162.635001)
     (thickness 1.6)
-    (drawings 149)
+    (drawings 146)
     (tracks 0)
     (zones 0)
     (modules 113)
-    (nets 90)
+    (nets 127)
   )
 
   (page A4)
@@ -79,7 +79,7 @@
     (pad_drill 4)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFEF7FF)
+    (visible_elements 7FFEFFFF)
     (pcbplotparams
       (layerselection 0x00020_80000000)
       (usegerberextensions false)
@@ -197,6 +197,43 @@
   (net 87 "Net-(JP2-Pad2)")
   (net 88 "Net-(JP3-Pad2)")
   (net 89 "Net-(JP4-Pad2)")
+  (net 90 "Net-(DS1-Pad7)")
+  (net 91 "Net-(DS1-Pad8)")
+  (net 92 "Net-(DS1-Pad9)")
+  (net 93 "Net-(DS1-Pad10)")
+  (net 94 "Net-(U2-Pad7)")
+  (net 95 "Net-(U2-Pad8)")
+  (net 96 "Net-(U2-Pad9)")
+  (net 97 "Net-(U2-Pad10)")
+  (net 98 "Net-(U3-Pad1)")
+  (net 99 "Net-(U4-Pad1)")
+  (net 100 "Net-(U5-Pad1)")
+  (net 101 "Net-(U6-Pad1)")
+  (net 102 "/Conector del Poncho/ADC2")
+  (net 103 "/Conector del Poncho/ADC1")
+  (net 104 "/Conector del Poncho/WAKEUP")
+  (net 105 "/Conector del Poncho/DAC")
+  (net 106 +3.3VADC)
+  (net 107 "/Conector del Poncho/RD")
+  (net 108 "/Conector del Poncho/TD")
+  (net 109 "/Conector del Poncho/RESET")
+  (net 110 "/Conector del Poncho/ISP")
+  (net 111 "/Conector del Poncho/ADC3")
+  (net 112 +3.3VP)
+  (net 113 +5VP)
+  (net 114 "/Conector del Poncho/RXD1")
+  (net 115 "/Conector del Poncho/TXEN")
+  (net 116 "/Conector del Poncho/MDC")
+  (net 117 "/Conector del Poncho/RXD0")
+  (net 118 "/Conector del Poncho/CRS")
+  (net 119 "/Conector del Poncho/MDIO")
+  (net 120 "/Conector del Poncho/TXD0")
+  (net 121 "/Conector del Poncho/RCLK")
+  (net 122 "/Conector del Poncho/TXD1")
+  (net 123 "/Conector del Poncho/MISO")
+  (net 124 "/Conector del Poncho/spiSCK")
+  (net 125 "/Conector del Poncho/MOSI")
+  (net 126 "/Conector del Poncho/GPIO8")
 
   (net_class Default "This is the default net class."
     (clearance 0.508)
@@ -205,21 +242,46 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net +3.3VADC)
+    (add_net +3.3VP)
     (add_net +3V3)
     (add_net +5V)
+    (add_net +5VP)
+    (add_net "/Conector del Poncho/ADC1")
+    (add_net "/Conector del Poncho/ADC2")
+    (add_net "/Conector del Poncho/ADC3")
     (add_net "/Conector del Poncho/COL0")
     (add_net "/Conector del Poncho/COL1")
     (add_net "/Conector del Poncho/COL2")
+    (add_net "/Conector del Poncho/CRS")
+    (add_net "/Conector del Poncho/DAC")
+    (add_net "/Conector del Poncho/GPIO8")
+    (add_net "/Conector del Poncho/ISP")
     (add_net "/Conector del Poncho/LCD1")
     (add_net "/Conector del Poncho/LCD2")
     (add_net "/Conector del Poncho/LCD3")
     (add_net "/Conector del Poncho/LCD4")
     (add_net "/Conector del Poncho/LCD_EN")
+    (add_net "/Conector del Poncho/MDC")
+    (add_net "/Conector del Poncho/MDIO")
+    (add_net "/Conector del Poncho/MISO")
+    (add_net "/Conector del Poncho/MOSI")
+    (add_net "/Conector del Poncho/RCLK")
+    (add_net "/Conector del Poncho/RD")
+    (add_net "/Conector del Poncho/RESET")
     (add_net "/Conector del Poncho/RS")
     (add_net "/Conector del Poncho/RXD")
+    (add_net "/Conector del Poncho/RXD0")
+    (add_net "/Conector del Poncho/RXD1")
     (add_net "/Conector del Poncho/SCL")
     (add_net "/Conector del Poncho/SDA")
+    (add_net "/Conector del Poncho/TD")
     (add_net "/Conector del Poncho/TXD")
+    (add_net "/Conector del Poncho/TXD0")
+    (add_net "/Conector del Poncho/TXD1")
+    (add_net "/Conector del Poncho/TXEN")
+    (add_net "/Conector del Poncho/WAKEUP")
+    (add_net "/Conector del Poncho/spiSCK")
     (add_net "/Entradas Optoacopladas/DIN3")
     (add_net "/Entradas Optoacopladas/DIN4")
     (add_net "/Entradas Optoacopladas/DIN5")
@@ -273,8 +335,12 @@
     (add_net "Net-(D7-Pad1)")
     (add_net "Net-(D8-Pad1)")
     (add_net "Net-(D9-Pad1)")
+    (add_net "Net-(DS1-Pad10)")
     (add_net "Net-(DS1-Pad16)")
     (add_net "Net-(DS1-Pad3)")
+    (add_net "Net-(DS1-Pad7)")
+    (add_net "Net-(DS1-Pad8)")
+    (add_net "Net-(DS1-Pad9)")
     (add_net "Net-(J6-Pad1)")
     (add_net "Net-(J6-Pad2)")
     (add_net "Net-(J7-Pad1)")
@@ -294,6 +360,14 @@
     (add_net "Net-(R14-Pad2)")
     (add_net "Net-(R15-Pad2)")
     (add_net "Net-(R2-Pad2)")
+    (add_net "Net-(U2-Pad10)")
+    (add_net "Net-(U2-Pad7)")
+    (add_net "Net-(U2-Pad8)")
+    (add_net "Net-(U2-Pad9)")
+    (add_net "Net-(U3-Pad1)")
+    (add_net "Net-(U4-Pad1)")
+    (add_net "Net-(U5-Pad1)")
+    (add_net "Net-(U6-Pad1)")
   )
 
   (module Poncho_Esqueleto:Plantilla_EDU-CIAA locked (layer F.Cu) (tedit 560FA1A7) (tstamp 560FA311)
@@ -742,15 +816,20 @@
       (net 38 +3V3))
     (pad 2 thru_hole oval (at 2.54 0 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 3 +5V))
-    (pad 11 thru_hole oval (at 0 12.7 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 11 thru_hole oval (at 0 12.7 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 102 "/Conector del Poncho/ADC2"))
     (pad 4 thru_hole oval (at 2.54 2.54 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 13 thru_hole oval (at 0 15.24 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-    (pad 6 thru_hole oval (at 2.54 5.08 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-    (pad 15 thru_hole oval (at 0 17.78 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 13 thru_hole oval (at 0 15.24 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 103 "/Conector del Poncho/ADC1"))
+    (pad 6 thru_hole oval (at 2.54 5.08 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 104 "/Conector del Poncho/WAKEUP"))
+    (pad 15 thru_hole oval (at 0 17.78 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 105 "/Conector del Poncho/DAC"))
     (pad 8 thru_hole oval (at 2.54 7.62 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GNDA))
-    (pad 17 thru_hole oval (at 0 20.32 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 17 thru_hole oval (at 0 20.32 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 106 +3.3VADC))
     (pad 10 thru_hole oval (at 2.54 10.16 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GNDA))
     (pad 19 thru_hole oval (at 0 22.86 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
@@ -769,10 +848,12 @@
       (net 42 "/Conector del Poncho/TXD"))
     (pad 18 thru_hole oval (at 2.54 20.32 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GNDA))
-    (pad 27 thru_hole oval (at 0 33.02 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 27 thru_hole oval (at 0 33.02 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 107 "/Conector del Poncho/RD"))
     (pad 20 thru_hole oval (at 2.54 22.86 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 29 thru_hole oval (at 0 35.56 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 29 thru_hole oval (at 0 35.56 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 108 "/Conector del Poncho/TD"))
     (pad 22 thru_hole oval (at 2.54 25.4 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
     (pad 31 thru_hole oval (at 0 38.1 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
@@ -797,45 +878,62 @@
       (net 17 "/Entradas Optoacopladas/DIN6"))
     (pad 37 thru_hole oval (at 0 45.72 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 15 "/Entradas Optoacopladas/DIN5"))
-    (pad 3 thru_hole oval (at 0 2.54 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-    (pad 5 thru_hole oval (at 0 5.08 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 3 thru_hole oval (at 0 2.54 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 109 "/Conector del Poncho/RESET"))
+    (pad 5 thru_hole oval (at 0 5.08 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 110 "/Conector del Poncho/ISP"))
     (pad 7 thru_hole oval (at 0 7.62 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GNDA))
-    (pad 9 thru_hole oval (at 0 10.16 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 9 thru_hole oval (at 0 10.16 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 111 "/Conector del Poncho/ADC3"))
     (pad 39 thru_hole oval (at 0 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 5 "/Conector del Poncho/COL0"))
     (pad 40 thru_hole oval (at 2.54 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
     (pad 30 thru_hole oval (at 2.54 35.56 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 41 thru_hole rect (at -71.12 0 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-    (pad 42 thru_hole oval (at -68.58 0 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 41 thru_hole rect (at -71.12 0 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 112 +3.3VP))
+    (pad 42 thru_hole oval (at -68.58 0 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 113 +5VP))
     (pad 43 thru_hole oval (at -71.12 2.54 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 44 thru_hole oval (at -68.58 2.54 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 44 thru_hole oval (at -68.58 2.54 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 114 "/Conector del Poncho/RXD1"))
     (pad 45 thru_hole oval (at -71.12 5.08 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 46 thru_hole oval (at -68.58 5.08 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 46 thru_hole oval (at -68.58 5.08 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 115 "/Conector del Poncho/TXEN"))
     (pad 47 thru_hole oval (at -71.12 7.62 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 48 thru_hole oval (at -68.58 7.62 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-    (pad 49 thru_hole oval (at -71.12 10.16 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-    (pad 50 thru_hole oval (at -68.58 10.16 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 48 thru_hole oval (at -68.58 7.62 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 116 "/Conector del Poncho/MDC"))
+    (pad 49 thru_hole oval (at -71.12 10.16 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 117 "/Conector del Poncho/RXD0"))
+    (pad 50 thru_hole oval (at -68.58 10.16 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 118 "/Conector del Poncho/CRS"))
     (pad 51 thru_hole oval (at -71.12 12.7 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 52 thru_hole oval (at -68.58 12.7 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 52 thru_hole oval (at -68.58 12.7 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 119 "/Conector del Poncho/MDIO"))
     (pad 53 thru_hole oval (at -71.12 15.24 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 54 thru_hole oval (at -68.58 15.24 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-    (pad 55 thru_hole oval (at -71.12 17.78 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-    (pad 56 thru_hole oval (at -68.58 17.78 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 54 thru_hole oval (at -68.58 15.24 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 120 "/Conector del Poncho/TXD0"))
+    (pad 55 thru_hole oval (at -71.12 17.78 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 121 "/Conector del Poncho/RCLK"))
+    (pad 56 thru_hole oval (at -68.58 17.78 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 122 "/Conector del Poncho/TXD1"))
     (pad 57 thru_hole oval (at -71.12 20.32 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 58 thru_hole oval (at -68.58 20.32 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 58 thru_hole oval (at -68.58 20.32 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 123 "/Conector del Poncho/MISO"))
     (pad 59 thru_hole oval (at -71.12 22.86 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 60 thru_hole oval (at -68.58 22.86 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-    (pad 61 thru_hole oval (at -71.12 25.4 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 60 thru_hole oval (at -68.58 22.86 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 124 "/Conector del Poncho/spiSCK"))
+    (pad 61 thru_hole oval (at -71.12 25.4 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 125 "/Conector del Poncho/MOSI"))
     (pad 62 thru_hole oval (at -68.58 25.4 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 36 "/Conector del Poncho/LCD4"))
     (pad 63 thru_hole oval (at -71.12 27.94 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
@@ -872,7 +970,8 @@
       (net 69 "/Salidas Digitales/DOUT7"))
     (pad 79 thru_hole oval (at -71.12 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (pad 80 thru_hole oval (at -68.58 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (pad 80 thru_hole oval (at -68.58 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 126 "/Conector del Poncho/GPIO8"))
     (pad ~ thru_hole circle (at -73.025 68.834) (size 7 7) (drill 4) (layers *.Cu *.Mask F.SilkS))
     (pad ~ thru_hole circle (at 3.302 68.834) (size 7 7) (drill 4) (layers *.Cu *.Mask F.SilkS))
     (pad ~ thru_hole circle (at -73.025 -58.547) (size 7 7) (drill 4) (layers *.Cu *.Mask F.SilkS))
@@ -899,7 +998,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model C_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -926,7 +1025,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model C_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -953,7 +1052,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model C_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -980,7 +1079,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model C_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1007,7 +1106,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model C_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1034,7 +1133,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model C_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1061,7 +1160,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model C_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1088,7 +1187,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model C_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1120,7 +1219,7 @@
       (net 4 "Net-(D1-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 5 "/Conector del Poncho/COL0"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1152,7 +1251,7 @@
       (net 6 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 7 "/Conector del Poncho/COL1"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1184,7 +1283,7 @@
       (net 8 "Net-(D3-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 9 "/Conector del Poncho/COL2"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1216,7 +1315,7 @@
       (net 10 "Net-(D4-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 11 "/Entradas Optoacopladas/DIN3"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1248,7 +1347,7 @@
       (net 12 "Net-(D5-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 13 "/Entradas Optoacopladas/DIN4"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1280,7 +1379,7 @@
       (net 14 "Net-(D6-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 15 "/Entradas Optoacopladas/DIN5"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1312,7 +1411,7 @@
       (net 16 "Net-(D7-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 17 "/Entradas Optoacopladas/DIN6"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1344,7 +1443,7 @@
       (net 18 "Net-(D8-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1376,7 +1475,7 @@
       (net 19 "Net-(D9-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1408,7 +1507,7 @@
       (net 20 "Net-(D10-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1440,7 +1539,7 @@
       (net 21 "Net-(D11-Pad1)"))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1472,7 +1571,7 @@
       (net 3 +5V))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 22 "Net-(D12-Pad2)"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1504,7 +1603,7 @@
       (net 3 +5V))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 23 "Net-(D13-Pad2)"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1532,7 +1631,7 @@
       (net 24 "Net-(D14-Pad1)"))
     (pad 2 smd rect (at 1.84912 0) (size 1.00076 1.99898) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model SOD-80C.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOD-80C.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1560,7 +1659,7 @@
       (net 25 "Net-(D15-Pad1)"))
     (pad 2 smd rect (at 1.84912 0) (size 1.00076 1.99898) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model SOD-80C.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOD-80C.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1592,7 +1691,7 @@
       (net 3 +5V))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 26 "Net-(D16-Pad2)"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1624,7 +1723,7 @@
       (net 3 +5V))
     (pad 2 smd rect (at 1.74752 0) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 27 "Net-(D17-Pad2)"))
-    (model LED_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LED_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1652,7 +1751,7 @@
       (net 28 "Net-(D18-Pad1)"))
     (pad 2 smd rect (at 1.84912 0) (size 1.00076 1.99898) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model SOD-80C.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOD-80C.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1680,7 +1779,7 @@
       (net 29 "Net-(D19-Pad1)"))
     (pad 2 smd rect (at 1.84912 0) (size 1.00076 1.99898) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (model SOD-80C.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOD-80C.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1729,10 +1828,14 @@
       (net 1 GND))
     (pad 6 thru_hole oval (at -19.3 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 32 "/Conector del Poncho/LCD_EN"))
-    (pad 7 thru_hole oval (at -16.76 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-    (pad 8 thru_hole oval (at -14.22 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-    (pad 9 thru_hole oval (at -11.68 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-    (pad 10 thru_hole oval (at -9.14 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+    (pad 7 thru_hole oval (at -16.76 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS)
+      (net 90 "Net-(DS1-Pad7)"))
+    (pad 8 thru_hole oval (at -14.22 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS)
+      (net 91 "Net-(DS1-Pad8)"))
+    (pad 9 thru_hole oval (at -11.68 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS)
+      (net 92 "Net-(DS1-Pad9)"))
+    (pad 10 thru_hole oval (at -9.14 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS)
+      (net 93 "Net-(DS1-Pad10)"))
     (pad 11 thru_hole oval (at -6.6 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 33 "/Conector del Poncho/LCD1"))
     (pad 12 thru_hole oval (at -4.06 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS)
@@ -1745,7 +1848,7 @@
       (net 3 +5V))
     (pad 16 thru_hole oval (at 6.1 -15.5) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 37 "Net-(DS1-Pad16)"))
-    (model LCD_16x2.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/LCD_16x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1818,7 +1921,7 @@
       (net 40 "/Conector del Poncho/SCL"))
     (pad 4 thru_hole oval (at 0 7.62) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model Pin_Header_Angled_1x04.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Pin_Header_Angled_1x04.wrl
       (at (xyz 0 -0.15 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1891,7 +1994,7 @@
       (net 42 "/Conector del Poncho/TXD"))
     (pad 4 thru_hole oval (at 0 7.62) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model Pin_Header_Angled_1x04.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Pin_Header_Angled_1x04.wrl
       (at (xyz 0 -0.15 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1926,7 +2029,7 @@
       (net 44 "/Entradas Optoacopladas/IN0"))
     (pad 2 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS)
       (net 45 "/Entradas Optoacopladas/IN1"))
-    (model Bornera3.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Bornera3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1961,7 +2064,7 @@
       (net 47 "/Entradas Optoacopladas/IN3"))
     (pad 2 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS)
       (net 48 "/Entradas Optoacopladas/IN4"))
-    (model Bornera3.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Bornera3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1992,7 +2095,7 @@
       (net 49 "/Entradas Optoacopladas/IN6"))
     (pad 2 thru_hole circle (at 2.5 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS)
       (net 85 GNDD))
-    (model Bornera2.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Bornera2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2026,7 +2129,7 @@
       (net 50 "Net-(J6-Pad1)"))
     (pad 2 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS)
       (net 51 "Net-(J6-Pad2)"))
-    (model Bornera3.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Bornera3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2060,7 +2163,7 @@
       (net 52 "Net-(J7-Pad1)"))
     (pad 2 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS)
       (net 53 "Net-(J7-Pad2)"))
-    (model Bornera3.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Bornera3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2095,7 +2198,7 @@
       (net 55 "/Salidas Digitales/NC1A"))
     (pad 2 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS)
       (net 56 "/Salidas Digitales/NO1A"))
-    (model Bornera3.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Bornera3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2130,7 +2233,7 @@
       (net 58 "/Salidas Digitales/NC1B"))
     (pad 2 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS)
       (net 59 "/Salidas Digitales/NO1B"))
-    (model Bornera3.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Bornera3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2165,7 +2268,7 @@
       (net 61 "/Salidas Digitales/NC1C"))
     (pad 2 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS)
       (net 62 "/Salidas Digitales/NO1C"))
-    (model Bornera3.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Bornera3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2200,7 +2303,7 @@
       (net 64 "/Salidas Digitales/NC1D"))
     (pad 2 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS)
       (net 65 "/Salidas Digitales/NO1D"))
-    (model Bornera3.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Bornera3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2227,7 +2330,7 @@
       (net 66 "/Salidas Digitales/DOUT5"))
     (pad 2 thru_hole oval (at 1.27 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 86 "Net-(JP1-Pad2)"))
-    (model pin_strip_2.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/pin_strip_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2254,7 +2357,7 @@
       (net 67 "/Salidas Digitales/DOUT4"))
     (pad 2 thru_hole oval (at 1.27 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 87 "Net-(JP2-Pad2)"))
-    (model pin_strip_2.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/pin_strip_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2281,7 +2384,7 @@
       (net 68 "/Salidas Digitales/DOUT6"))
     (pad 2 thru_hole oval (at 1.27 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 88 "Net-(JP3-Pad2)"))
-    (model pin_strip_2.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/pin_strip_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2308,7 +2411,7 @@
       (net 69 "/Salidas Digitales/DOUT7"))
     (pad 2 thru_hole oval (at 1.27 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 89 "Net-(JP4-Pad2)"))
-    (model pin_strip_2.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/pin_strip_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2356,7 +2459,7 @@
       (net 3 +5V))
     (pad 1 thru_hole circle (at 0 -8.1) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask)
       (net 60 "/Salidas Digitales/C1C"))
-    (model Relay_C.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Relay_C.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2404,7 +2507,7 @@
       (net 3 +5V))
     (pad 1 thru_hole circle (at 0 -8.1) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask)
       (net 54 "/Salidas Digitales/C1A"))
-    (model Relay_C.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Relay_C.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2452,7 +2555,7 @@
       (net 3 +5V))
     (pad 1 thru_hole circle (at 0 -8.1) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask)
       (net 63 "/Salidas Digitales/C1D"))
-    (model Relay_C.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Relay_C.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2500,7 +2603,7 @@
       (net 3 +5V))
     (pad 1 thru_hole circle (at 0 -8.1) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask)
       (net 57 "/Salidas Digitales/C1B"))
-    (model Relay_C.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/Relay_C.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2541,7 +2644,7 @@
       (net 1 GND))
     (pad 4 smd rect (at 0 -2.99974) (size 3.79984 1.80086) (layers F.Cu F.Paste F.Mask)
       (net 70 "Net-(Q1-Pad2)"))
-    (model SOT-223.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2582,7 +2685,7 @@
       (net 1 GND))
     (pad 4 smd rect (at 0 -2.99974) (size 3.79984 1.80086) (layers F.Cu F.Paste F.Mask)
       (net 71 "Net-(Q2-Pad2)"))
-    (model SOT-223.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2623,7 +2726,7 @@
       (net 1 GND))
     (pad 4 smd rect (at 0 -2.99974) (size 3.79984 1.80086) (layers F.Cu F.Paste F.Mask)
       (net 72 "Net-(Q3-Pad2)"))
-    (model SOT-223.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2664,7 +2767,7 @@
       (net 1 GND))
     (pad 4 smd rect (at 0 -2.99974) (size 3.79984 1.80086) (layers F.Cu F.Paste F.Mask)
       (net 73 "Net-(Q4-Pad2)"))
-    (model SOT-223.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2694,7 +2797,7 @@
       (net 24 "Net-(D14-Pad1)"))
     (pad 3 smd rect (at 0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SOT-23.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2724,7 +2827,7 @@
       (net 25 "Net-(D15-Pad1)"))
     (pad 3 smd rect (at 0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SOT-23.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2754,7 +2857,7 @@
       (net 28 "Net-(D18-Pad1)"))
     (pad 3 smd rect (at 0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SOT-23.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2784,7 +2887,7 @@
       (net 29 "Net-(D19-Pad1)"))
     (pad 3 smd rect (at 0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SOT-23.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2811,7 +2914,7 @@
       (net 37 "Net-(DS1-Pad16)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2838,7 +2941,7 @@
       (net 44 "/Entradas Optoacopladas/IN0"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 78 "Net-(R2-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2865,7 +2968,7 @@
       (net 45 "/Entradas Optoacopladas/IN1"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 79 "Net-(R10-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2892,7 +2995,7 @@
       (net 43 "/Entradas Optoacopladas/IN2"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 80 "Net-(R11-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2919,7 +3022,7 @@
       (net 47 "/Entradas Optoacopladas/IN3"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 81 "Net-(R12-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2946,7 +3049,7 @@
       (net 48 "/Entradas Optoacopladas/IN4"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 82 "Net-(R13-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2973,7 +3076,7 @@
       (net 46 "/Entradas Optoacopladas/IN5"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 83 "Net-(R14-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3000,7 +3103,7 @@
       (net 49 "/Entradas Optoacopladas/IN6"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 84 "Net-(R15-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3027,7 +3130,7 @@
       (net 85 GNDD))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 78 "Net-(R2-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3054,7 +3157,7 @@
       (net 85 GNDD))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 79 "Net-(R10-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3081,7 +3184,7 @@
       (net 85 GNDD))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 80 "Net-(R11-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3108,7 +3211,7 @@
       (net 85 GNDD))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 81 "Net-(R12-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3135,7 +3238,7 @@
       (net 85 GNDD))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 82 "Net-(R13-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3162,7 +3265,7 @@
       (net 85 GNDD))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 83 "Net-(R14-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3189,7 +3292,7 @@
       (net 85 GNDD))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 84 "Net-(R15-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3216,7 +3319,7 @@
       (net 4 "Net-(D1-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3243,7 +3346,7 @@
       (net 5 "/Conector del Poncho/COL0"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3270,7 +3373,7 @@
       (net 6 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3297,7 +3400,7 @@
       (net 7 "/Conector del Poncho/COL1"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3324,7 +3427,7 @@
       (net 8 "Net-(D3-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3351,7 +3454,7 @@
       (net 9 "/Conector del Poncho/COL2"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3378,7 +3481,7 @@
       (net 10 "Net-(D4-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3405,7 +3508,7 @@
       (net 11 "/Entradas Optoacopladas/DIN3"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3432,7 +3535,7 @@
       (net 12 "Net-(D5-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3459,7 +3562,7 @@
       (net 13 "/Entradas Optoacopladas/DIN4"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3486,7 +3589,7 @@
       (net 14 "Net-(D6-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3513,7 +3616,7 @@
       (net 15 "/Entradas Optoacopladas/DIN5"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3540,7 +3643,7 @@
       (net 16 "Net-(D7-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3567,7 +3670,7 @@
       (net 17 "/Entradas Optoacopladas/DIN6"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 38 +3V3))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3594,7 +3697,7 @@
       (net 67 "/Salidas Digitales/DOUT4"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3621,7 +3724,7 @@
       (net 66 "/Salidas Digitales/DOUT5"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3648,7 +3751,7 @@
       (net 68 "/Salidas Digitales/DOUT6"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3675,7 +3778,7 @@
       (net 69 "/Salidas Digitales/DOUT7"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3702,7 +3805,7 @@
       (net 19 "Net-(D9-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 87 "Net-(JP2-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3729,7 +3832,7 @@
       (net 20 "Net-(D10-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 86 "Net-(JP1-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3756,7 +3859,7 @@
       (net 21 "Net-(D11-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 88 "Net-(JP3-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3783,7 +3886,7 @@
       (net 18 "Net-(D8-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 89 "Net-(JP4-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3810,7 +3913,7 @@
       (net 74 "/Salidas Digitales/DOUT2"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3837,7 +3940,7 @@
       (net 75 "/Salidas Digitales/DOUT0"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3864,7 +3967,7 @@
       (net 24 "Net-(D14-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 22 "Net-(D12-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3891,7 +3994,7 @@
       (net 25 "Net-(D15-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 23 "Net-(D13-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3918,7 +4021,7 @@
       (net 76 "/Salidas Digitales/DOUT3"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3945,7 +4048,7 @@
       (net 77 "/Salidas Digitales/DOUT1"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3972,7 +4075,7 @@
       (net 28 "Net-(D18-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 26 "Net-(D16-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3999,7 +4102,7 @@
       (net 29 "Net-(D19-Pad1)"))
     (pad 2 smd rect (at -1.397 0) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 27 "Net-(D17-Pad2)"))
-    (model R_1206.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/R_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4036,7 +4139,7 @@
       (net 30 "Net-(DS1-Pad3)"))
     (pad 3 thru_hole circle (at -2.49936 -2.49936) (size 1.75006 1.75006) (drill 0.89916) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model trimmer_piher_pt6-xv.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/trimmer_piher_pt6-xv.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4064,7 +4167,7 @@
       (net 70 "Net-(Q1-Pad2)"))
     (pad 2 smd rect (at -1.5 0) (size 1 2.6) (layers F.Cu F.Paste F.Mask)
       (net 50 "Net-(J6-Pad1)"))
-    (model PTC_1210.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/PTC_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4092,7 +4195,7 @@
       (net 71 "Net-(Q2-Pad2)"))
     (pad 2 smd rect (at -1.5 0) (size 1 2.6) (layers F.Cu F.Paste F.Mask)
       (net 51 "Net-(J6-Pad2)"))
-    (model PTC_1210.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/PTC_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4120,7 +4223,7 @@
       (net 72 "Net-(Q3-Pad2)"))
     (pad 2 smd rect (at -1.5 0) (size 1 2.6) (layers F.Cu F.Paste F.Mask)
       (net 52 "Net-(J7-Pad1)"))
-    (model PTC_1210.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/PTC_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4148,7 +4251,7 @@
       (net 73 "Net-(Q4-Pad2)"))
     (pad 2 smd rect (at -1.5 0) (size 1 2.6) (layers F.Cu F.Paste F.Mask)
       (net 53 "Net-(J7-Pad2)"))
-    (model PTC_1210.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/PTC_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4214,7 +4317,7 @@
       (net 1 GND))
     (pad 16 thru_hole oval (at -8.89 -3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
       (net 5 "/Conector del Poncho/COL0"))
-    (model DIP_16-300_socket.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/DIP_16-300_socket.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4260,10 +4363,14 @@
       (net 84 "Net-(R15-Pad2)"))
     (pad 6 thru_hole oval (at 3.81 3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
       (net 85 GNDD))
-    (pad 7 thru_hole oval (at 6.35 3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
-    (pad 8 thru_hole oval (at 8.89 3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
-    (pad 9 thru_hole oval (at 8.89 -3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
-    (pad 10 thru_hole oval (at 6.35 -3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
+    (pad 7 thru_hole oval (at 6.35 3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
+      (net 94 "Net-(U2-Pad7)"))
+    (pad 8 thru_hole oval (at 8.89 3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
+      (net 95 "Net-(U2-Pad8)"))
+    (pad 9 thru_hole oval (at 8.89 -3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
+      (net 96 "Net-(U2-Pad9)"))
+    (pad 10 thru_hole oval (at 6.35 -3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
+      (net 97 "Net-(U2-Pad10)"))
     (pad 11 thru_hole oval (at 3.81 -3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
     (pad 12 thru_hole oval (at 1.27 -3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
@@ -4276,7 +4383,7 @@
       (net 1 GND))
     (pad 16 thru_hole oval (at -8.89 -3.81) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
       (net 13 "/Entradas Optoacopladas/DIN4"))
-    (model DIP_16-300_socket.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/DIP_16-300_socket.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4304,7 +4411,8 @@
     (fp_line (start 1.4986 -0.6985) (end 1.4986 0.6985) (layer F.SilkS) (width 0.127))
     (fp_line (start 1.4986 0.6985) (end -1.4986 0.6985) (layer F.SilkS) (width 0.127))
     (fp_line (start -1.4986 0.6985) (end -1.4986 -0.6985) (layer F.SilkS) (width 0.127))
-    (pad 1 smd rect (at -0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd rect (at -0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
+      (net 98 "Net-(U3-Pad1)"))
     (pad 3 smd rect (at 0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 67 "/Salidas Digitales/DOUT4"))
     (pad 2 smd rect (at 0 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
@@ -4313,7 +4421,7 @@
       (net 1 GND))
     (pad 5 smd rect (at -0.9525 -1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 87 "Net-(JP2-Pad2)"))
-    (model SOT-23-5.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-23-5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4341,7 +4449,8 @@
     (fp_line (start 1.4986 -0.6985) (end 1.4986 0.6985) (layer F.SilkS) (width 0.127))
     (fp_line (start 1.4986 0.6985) (end -1.4986 0.6985) (layer F.SilkS) (width 0.127))
     (fp_line (start -1.4986 0.6985) (end -1.4986 -0.6985) (layer F.SilkS) (width 0.127))
-    (pad 1 smd rect (at -0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd rect (at -0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
+      (net 99 "Net-(U4-Pad1)"))
     (pad 3 smd rect (at 0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 66 "/Salidas Digitales/DOUT5"))
     (pad 2 smd rect (at 0 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
@@ -4350,7 +4459,7 @@
       (net 1 GND))
     (pad 5 smd rect (at -0.9525 -1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 86 "Net-(JP1-Pad2)"))
-    (model SOT-23-5.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-23-5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4378,7 +4487,8 @@
     (fp_line (start 1.4986 -0.6985) (end 1.4986 0.6985) (layer F.SilkS) (width 0.127))
     (fp_line (start 1.4986 0.6985) (end -1.4986 0.6985) (layer F.SilkS) (width 0.127))
     (fp_line (start -1.4986 0.6985) (end -1.4986 -0.6985) (layer F.SilkS) (width 0.127))
-    (pad 1 smd rect (at -0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd rect (at -0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
+      (net 100 "Net-(U5-Pad1)"))
     (pad 3 smd rect (at 0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 68 "/Salidas Digitales/DOUT6"))
     (pad 2 smd rect (at 0 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
@@ -4387,7 +4497,7 @@
       (net 1 GND))
     (pad 5 smd rect (at -0.9525 -1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 88 "Net-(JP3-Pad2)"))
-    (model SOT-23-5.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-23-5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4415,7 +4525,8 @@
     (fp_line (start 1.4986 -0.6985) (end 1.4986 0.6985) (layer F.SilkS) (width 0.127))
     (fp_line (start 1.4986 0.6985) (end -1.4986 0.6985) (layer F.SilkS) (width 0.127))
     (fp_line (start -1.4986 0.6985) (end -1.4986 -0.6985) (layer F.SilkS) (width 0.127))
-    (pad 1 smd rect (at -0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd rect (at -0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
+      (net 101 "Net-(U6-Pad1)"))
     (pad 3 smd rect (at 0.9525 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 69 "/Salidas Digitales/DOUT7"))
     (pad 2 smd rect (at 0 1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
@@ -4424,7 +4535,7 @@
       (net 1 GND))
     (pad 5 smd rect (at -0.9525 -1.05664) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 89 "Net-(JP4-Pad2)"))
-    (model SOT-23-5.wrl
+    (model ${KIPRJMOD}/footprints/EESTN5.3dshapes/SOT-23-5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4467,9 +4578,6 @@
   (gr_line (start 278.13 21.59) (end 278.13 60.96) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAF22))
   (gr_line (start 278.13 60.96) (end 213.36 60.96) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAF21))
   (gr_line (start 213.36 60.96) (end 213.36 21.59) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAF20))
-  (gr_text "STACK-UP\n\nPCB de xx capas\nCOMPLETAR Stackup" (at 245.11 27.305) (layer Dwgs.User) (tstamp 560FAF1F)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
   (gr_line (start 219.71 67.945) (end 219.71 62.865) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAF1E))
   (gr_line (start 219.71 62.865) (end 219.075 63.5) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAF1D))
   (gr_line (start 219.075 63.5) (end 219.71 62.865) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAF1C))
@@ -4494,7 +4602,7 @@
   (gr_line (start 219.075 63.5) (end 219.71 62.865) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAF09))
   (gr_line (start 219.71 62.865) (end 219.075 63.5) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAF08))
   (gr_line (start 219.71 67.945) (end 219.71 62.865) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAF07))
-  (gr_text "STACK-UP\n\nPCB de simple faz\nSin requisitos de Stackup" (at 245.11 27.305) (layer Dwgs.User) (tstamp 560FAF06)
+  (gr_text "STACK-UP\n\nPCB de simple faz\nSin requisitos de Stackup" (at 244.348 32.004) (layer Dwgs.User) (tstamp 560FAF06)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 213.36 60.96) (end 213.36 21.59) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAF05))
@@ -4545,9 +4653,6 @@
   (gr_line (start 278.13 21.59) (end 278.13 60.96) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAEE9))
   (gr_line (start 278.13 60.96) (end 213.36 60.96) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAEE8))
   (gr_line (start 213.36 60.96) (end 213.36 21.59) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAEE7))
-  (gr_text "STACK-UP\n\nPCB de simple faz\nSin requisitos de Stackup" (at 245.11 27.305) (layer Dwgs.User) (tstamp 560FAEE6)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
   (gr_line (start 219.71 67.945) (end 219.71 62.865) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAEE5))
   (gr_line (start 219.71 62.865) (end 219.075 63.5) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAEE4))
   (gr_line (start 219.075 63.5) (end 219.71 62.865) (angle 90) (layer Dwgs.User) (width 0.2) (tstamp 560FAEE3))
@@ -4572,9 +4677,6 @@
   (gr_line (start 219.075 63.5) (end 219.71 62.865) (angle 90) (layer Dwgs.User) (width 0.2))
   (gr_line (start 219.71 62.865) (end 219.075 63.5) (angle 90) (layer Dwgs.User) (width 0.2))
   (gr_line (start 219.71 67.945) (end 219.71 62.865) (angle 90) (layer Dwgs.User) (width 0.2))
-  (gr_text "STACK-UP\n\nPCB de simple faz\nSin requisitos de Stackup" (at 245.11 27.305) (layer Dwgs.User)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
   (gr_line (start 213.36 60.96) (end 213.36 21.59) (angle 90) (layer Dwgs.User) (width 0.2))
   (gr_line (start 278.13 60.96) (end 213.36 60.96) (angle 90) (layer Dwgs.User) (width 0.2))
   (gr_line (start 278.13 21.59) (end 278.13 60.96) (angle 90) (layer Dwgs.User) (width 0.2))
