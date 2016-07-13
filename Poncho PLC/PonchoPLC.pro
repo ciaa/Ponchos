@@ -1,4 +1,4 @@
-update=10/07/2016 09:36:26 p.m.
+update=13/07/2016 06:51:13 p.m.
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,5 +29,15 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=components/PonchoPLC
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
