@@ -35,10 +35,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
-Title ""
-Date ""
+Title "Diagrama de conectores, para acoplar con la EDU-CIAA."
+Date "2016-07-04"
 Rev ""
-Comp ""
+Comp "Felipe Rey"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -67,10 +67,10 @@ F 3 "" H 7750 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR020
 U 1 1 5785D5F4
 P 5250 4400
-F 0 "#PWR?" H 5250 4150 50  0001 C CNN
+F 0 "#PWR020" H 5250 4150 50  0001 C CNN
 F 1 "GND" H 5250 4250 50  0000 C CNN
 F 2 "" H 5250 4400 60  0000 C CNN
 F 3 "" H 5250 4400 60  0000 C CNN
@@ -78,10 +78,10 @@ F 3 "" H 5250 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L +5V #PWR021
 U 1 1 5785D61E
 P 5000 2150
-F 0 "#PWR?" H 5000 2000 50  0001 C CNN
+F 0 "#PWR021" H 5000 2000 50  0001 C CNN
 F 1 "+5V" H 5000 2290 50  0000 C CNN
 F 2 "" H 5000 2150 60  0000 C CNN
 F 3 "" H 5000 2150 60  0000 C CNN
@@ -133,20 +133,38 @@ lcd4
 Text HLabel 9100 3750 2    60   Output ~ 0
 alert
 $Comp
-L GND #PWR?
+L GND #PWR022
 U 1 1 5785DC81
 P 7250 4450
-F 0 "#PWR?" H 7250 4200 50  0001 C CNN
+F 0 "#PWR022" H 7250 4200 50  0001 C CNN
 F 1 "GND" H 7250 4300 50  0000 C CNN
 F 2 "" H 7250 4450 60  0000 C CNN
 F 3 "" H 7250 4450 60  0000 C CNN
 	1    7250 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 2350 5000 2350
-Wire Wire Line
-	5000 2350 5000 2150
+NoConn ~ 7500 3950
+NoConn ~ 7500 3850
+NoConn ~ 7500 3750
+NoConn ~ 7500 3650
+NoConn ~ 7500 3250
+NoConn ~ 7500 2950
+NoConn ~ 7500 2650
+NoConn ~ 7500 2250
+NoConn ~ 8700 2350
+NoConn ~ 8700 2450
+NoConn ~ 8700 2550
+NoConn ~ 8700 2650
+NoConn ~ 8700 2750
+NoConn ~ 8700 2850
+NoConn ~ 8700 2950
+NoConn ~ 8700 3050
+NoConn ~ 8700 3150
+NoConn ~ 8700 3850
+NoConn ~ 8700 3950
+NoConn ~ 8700 4050
+NoConn ~ 8700 4150
+NoConn ~ 3650 2350
 Wire Wire Line
 	4850 4250 5250 4250
 Wire Wire Line
@@ -234,41 +252,9 @@ Connection ~ 7250 4050
 Wire Wire Line
 	7500 4150 7250 4150
 Connection ~ 7250 4150
-NoConn ~ 7500 3950
-NoConn ~ 7500 3850
-NoConn ~ 7500 3750
-NoConn ~ 7500 3650
-NoConn ~ 7500 3250
-NoConn ~ 7500 2950
-NoConn ~ 7500 2650
-NoConn ~ 7500 2250
-NoConn ~ 8700 2350
-NoConn ~ 8700 2450
-NoConn ~ 8700 2550
-NoConn ~ 8700 2650
-NoConn ~ 8700 2750
-NoConn ~ 8700 2850
-NoConn ~ 8700 2950
-NoConn ~ 8700 3050
-NoConn ~ 8700 3150
-NoConn ~ 8700 3850
-NoConn ~ 8700 3950
-NoConn ~ 8700 4050
-NoConn ~ 8700 4150
-$Comp
-L +5V #PWR?
-U 1 1 5785E114
-P 8800 2150
-F 0 "#PWR?" H 8800 2000 50  0001 C CNN
-F 1 "+5V" H 8800 2290 50  0000 C CNN
-F 2 "" H 8800 2150 60  0000 C CNN
-F 3 "" H 8800 2150 60  0000 C CNN
-	1    8800 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8800 2150 8800 2250
+	5000 2150 5000 2350
 Wire Wire Line
-	8800 2250 8700 2250
-NoConn ~ 3650 2350
+	5000 2350 4850 2350
+NoConn ~ 8700 2250
 $EndSCHEMATC
