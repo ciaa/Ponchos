@@ -51,7 +51,7 @@ U 1 1 5785D591
 P 3900 2650
 F 0 "XA1" H 4200 3050 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 4250 950 60  0000 C CNN
-F 2 "ej2cese:Conn_ponchoMediano" H 3900 2650 60  0001 C CNN
+F 2 "ej2cese:PonchoGrande" H 3900 2650 60  0001 C CNN
 F 3 "" H 3900 2650 60  0000 C CNN
 	1    3900 2650
 	1    0    0    -1  
@@ -62,7 +62,7 @@ U 2 1 5785D5D9
 P 7750 2550
 F 0 "XA1" H 8050 2950 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 8100 850 60  0000 C CNN
-F 2 "ej2cese:Conn_ponchoMediano" H 7750 2550 60  0001 C CNN
+F 2 "ej2cese:PonchoGrande" H 7750 2550 60  0001 C CNN
 F 3 "" H 7750 2550 60  0000 C CNN
 	2    7750 2550
 	1    0    0    -1  
@@ -151,7 +151,6 @@ NoConn ~ 7500 3650
 NoConn ~ 7500 3250
 NoConn ~ 7500 2950
 NoConn ~ 7500 2650
-NoConn ~ 7500 2250
 NoConn ~ 8700 2350
 NoConn ~ 8700 2450
 NoConn ~ 8700 2550
@@ -165,7 +164,6 @@ NoConn ~ 8700 3850
 NoConn ~ 8700 3950
 NoConn ~ 8700 4050
 NoConn ~ 8700 4150
-NoConn ~ 3650 2350
 Wire Wire Line
 	4850 4250 5250 4250
 Wire Wire Line
@@ -258,4 +256,21 @@ Wire Wire Line
 Wire Wire Line
 	5000 2350 4850 2350
 NoConn ~ 8700 2250
+NoConn ~ 7500 2250
+Wire Wire Line
+	3350 2100 3350 2350
+Connection ~ 3350 2350
+Wire Wire Line
+	3350 2350 3650 2350
+$Comp
+L +3.3V #PWR023
+U 1 1 578EC122
+P 3350 2100
+F 0 "#PWR023" H 3350 1950 50  0001 C CNN
+F 1 "+3.3V" H 3350 2240 50  0000 C CNN
+F 2 "" H 3350 2100 50  0000 C CNN
+F 3 "" H 3350 2100 50  0000 C CNN
+	1    3350 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
