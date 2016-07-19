@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ej2cese
+LIBS:ADS1113IDGSR
 LIBS:poncho_celda-cache
 EELAYER 25 0
 EELAYER END

@@ -1,4 +1,4 @@
-update=12/07/2016 7:23:26
+update=19/07/2016 03:47:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=ejlibcese/ej2cese
+LibName31=ejlibcese/ADS1113IDGSR

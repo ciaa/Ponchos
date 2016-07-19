@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ej2cese
+LIBS:ADS1113IDGSR
 LIBS:poncho_celda-cache
 EELAYER 25 0
 EELAYER END
@@ -50,7 +51,7 @@ U 1 1 5785D591
 P 3900 2650
 F 0 "XA1" H 4200 3050 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 4250 950 60  0000 C CNN
-F 2 "" H 3900 2650 60  0000 C CNN
+F 2 "ej2cese:Conn_ponchoMediano" H 3900 2650 60  0001 C CNN
 F 3 "" H 3900 2650 60  0000 C CNN
 	1    3900 2650
 	1    0    0    -1  
@@ -61,7 +62,7 @@ U 2 1 5785D5D9
 P 7750 2550
 F 0 "XA1" H 8050 2950 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 8100 850 60  0000 C CNN
-F 2 "" H 7750 2550 60  0000 C CNN
+F 2 "ej2cese:Conn_ponchoMediano" H 7750 2550 60  0001 C CNN
 F 3 "" H 7750 2550 60  0000 C CNN
 	2    7750 2550
 	1    0    0    -1  
