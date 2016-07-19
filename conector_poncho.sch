@@ -1,6 +1,84 @@
 EESchema Schematic File Version 2
 LIBS:falling_detector-cache
 LIBS:poncho_grande-cache
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
+LIBS:buzzer
 LIBS:trabajo_final-cache
 EELAYER 25 0
 EELAYER END
@@ -218,7 +296,7 @@ F 3 "" H 4850 1500 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5100 1400 4750 1400
-Text HLabel 4050 1600 0    60   BiDi ~ 0
+Text HLabel 4050 1600 0    60   Input ~ 0
 ADC3
 Text HLabel 4050 1700 0    60   BiDi ~ 0
 ADC2
@@ -251,9 +329,9 @@ Text HLabel 3650 2100 0    60   BiDi ~ 0
 SDA
 Text HLabel 3650 2200 0    60   BiDi ~ 0
 SCL
-Text HLabel 4250 2300 0    60   BiDi ~ 0
+Text HLabel 4250 2300 0    60   Input ~ 0
 RXD
-Text HLabel 4250 2400 0    60   BiDi ~ 0
+Text HLabel 4250 2400 0    60   Output ~ 0
 TXD
 Wire Wire Line
 	4250 2400 5100 2400
@@ -341,11 +419,11 @@ Text HLabel 4050 5050 0    60   Input ~ 0
 LCD_EN
 Text HLabel 4250 5350 0    60   BiDi ~ 0
 GPIO0
-Text HLabel 4250 5450 0    60   BiDi ~ 0
+Text HLabel 4250 5450 0    60   Input ~ 0
 GPIO2
-Text HLabel 4250 5550 0    60   BiDi ~ 0
+Text HLabel 4250 5550 0    60   Output ~ 0
 GPIO4
-Text HLabel 4250 5650 0    60   BiDi ~ 0
+Text HLabel 4250 5650 0    60   Output ~ 0
 GPIO6
 Text HLabel 7100 4050 2    60   BiDi ~ 0
 RXD1
@@ -375,13 +453,13 @@ Text HLabel 6850 5250 2    60   BiDi ~ 0
 LCD2
 Text HLabel 6850 5350 2    60   BiDi ~ 0
 LCD1
-Text HLabel 7500 5450 2    60   BiDi ~ 0
+Text HLabel 7500 5450 2    60   Output ~ 0
 GPIO1
-Text HLabel 7500 5550 2    60   BiDi ~ 0
+Text HLabel 7500 5550 2    60   Output ~ 0
 GPIO3
-Text HLabel 7500 5650 2    60   BiDi ~ 0
+Text HLabel 7500 5650 2    60   Output ~ 0
 GPIO5
-Text HLabel 7500 5750 2    60   BiDi ~ 0
+Text HLabel 7500 5750 2    60   Output ~ 0
 GPIO7
 Text HLabel 7500 5850 2    60   BiDi ~ 0
 GPIO8

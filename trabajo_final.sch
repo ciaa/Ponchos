@@ -1,6 +1,84 @@
 EESchema Schematic File Version 2
 LIBS:falling_detector-cache
 LIBS:poncho_grande-cache
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
+LIBS:buzzer
 LIBS:trabajo_final-cache
 EELAYER 25 0
 EELAYER END
@@ -34,7 +112,7 @@ F0 "Conector del Poncho" 50
 F1 "conector_poncho.sch" 50
 F2 "RESET" I R 2750 1250 60 
 F3 "ISP" B R 2750 1350 60 
-F4 "ADC3" B R 2750 1750 60 
+F4 "ADC3" I R 2750 1750 60 
 F5 "ADC2" B R 2750 1650 60 
 F6 "ADC1" B R 2750 1550 60 
 F7 "DAC" B R 2750 1850 60 
@@ -75,7 +153,7 @@ F41 "LCD1" B R 2750 5100 60
 F42 "GPIO1" O R 2750 5850 60 
 F43 "GPIO3" O R 2750 6050 60 
 F44 "GPIO5" O R 2750 6250 60 
-F45 "GPIO7" B R 2750 6450 60 
+F45 "GPIO7" O R 2750 6450 60 
 F46 "GPIO8" B R 2750 6550 60 
 F47 "COL2" B R 2750 3150 60 
 F48 "WAKEUP" B R 2750 1450 60 
@@ -86,26 +164,6 @@ Text Notes 3700 2300 0    60   Italic 12
 RS-232
 Text Notes 3300 5800 0    60   Italic 12
 E/S PROPÓSITOS GENERALES
-Wire Wire Line
-	5250 6350 2750 6350
-Wire Wire Line
-	2750 6250 5250 6250
-Wire Wire Line
-	5250 6150 2750 6150
-Wire Wire Line
-	2750 6050 5250 6050
-Wire Wire Line
-	5250 5950 2750 5950
-Wire Wire Line
-	5250 5850 2750 5850
-Wire Wire Line
-	5250 2450 2750 2450
-Wire Wire Line
-	2750 2350 5250 2350
-Wire Wire Line
-	2750 2150 5250 2150
-Wire Wire Line
-	5250 2050 2750 2050
 $Comp
 L Logo_Poncho #G1
 U 1 1 560CFFC0
@@ -132,13 +190,14 @@ F8 "GPIO4" I L 5250 6150 60
 F9 "GPIO5" I L 5250 6250 60 
 F10 "U0_TXD" I L 5250 5850 60 
 F11 "U0_RXD" O L 5250 5950 60 
+F12 "ADC3" O L 5250 1750 60 
+F13 "GPIO7" I L 5250 6450 60 
 $EndSheet
 NoConn ~ 2750 1250
 NoConn ~ 2750 1350
 NoConn ~ 2750 1450
 NoConn ~ 2750 1550
 NoConn ~ 2750 1650
-NoConn ~ 2750 1750
 NoConn ~ 2750 1850
 NoConn ~ 2750 2650
 NoConn ~ 2750 2750
@@ -169,5 +228,30 @@ NoConn ~ 2750 5500
 NoConn ~ 2750 5600
 NoConn ~ 2750 5750
 NoConn ~ 2750 6550
-NoConn ~ 2750 6450
+Text Notes 3700 1700 0    60   Italic 12
+ADC_CH3
+Wire Wire Line
+	5250 6450 2750 6450
+Wire Wire Line
+	5250 1750 2750 1750
+Wire Wire Line
+	5250 2050 2750 2050
+Wire Wire Line
+	2750 2150 5250 2150
+Wire Wire Line
+	2750 2350 5250 2350
+Wire Wire Line
+	5250 2450 2750 2450
+Wire Wire Line
+	5250 5850 2750 5850
+Wire Wire Line
+	5250 5950 2750 5950
+Wire Wire Line
+	2750 6050 5250 6050
+Wire Wire Line
+	5250 6150 2750 6150
+Wire Wire Line
+	2750 6250 5250 6250
+Wire Wire Line
+	5250 6350 2750 6350
 $EndSCHEMATC
