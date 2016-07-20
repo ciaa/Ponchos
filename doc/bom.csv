@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"R14,R12,R14,R18";"Resistor_Horizontal_RM7mm";4;"680";;;
+2;"R13,R11,R13,R17";"Resistor_Horizontal_RM7mm";4;"10K";;;
+3;"R2,R1,R9,R1,R2,R3,R4,R6,R7";"Resistor_Horizontal_RM7mm";9;"3K3";;;
+4;"SW2,SW1,SW1,SW2,SW3,SW4,SW6,SW7";"SW_PUSH_SMALL";8;"SW_PUSH";;;
+5;"Q3,Q1,Q3,Q2,Q5";"TO-92_Molded_Narrow";5;"BC547";;;
+6;"D2,D2,D1,D4";"LED-5MM";4;"LED";;;
+7;"C1";"C_Disc_D3_P2.5";1;"C_100nF";;;
+8;"P1";"Pin_Header_Straight_2x02";1;"PWR_JUMPER";;;
+9;"U1";"MagneticBuzzer_ProSignal_ABT-410-RC";1;"BUZZER";;;
+10;"XA1,XA2";"Pin_Header_Straight_2x20";2;"Conn_Poncho2P_2x_20x2";;;
+11;"R10";"Resistor_Horizontal_RM7mm";1;"1K";;;

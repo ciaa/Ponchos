@@ -1,0 +1,28 @@
+Drill report for /home/mint/googleDrive/estudios/cese/disenoPcb/proyectos/simonShield/simonShield.kicad_pcb
+Created on mié 20 jul 2016 10:10:37 ART
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'simonShield.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,60mm  0,024"  (15 holes)
+    T2  0,71mm  0,028"  (21 holes)
+    T3  0,80mm  0,031"  (1 hole)
+    T4  0,80mm  0,032"  (1 hole)
+    T5  0,81mm  0,032"  (32 holes)
+    T6  1,00mm  0,039"  (46 holes)
+    T7  1,02mm  0,040"  (84 holes)
+
+    Total plated holes count 200
+
+
+Drill file 'simonShield-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
