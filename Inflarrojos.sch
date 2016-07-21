@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:PONCHO-CIAA-rescue
-LIBS:PONCHO-CIAA-cache
+LIBS:power
+LIBS:PonchoSumoRobot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -109,7 +109,7 @@ U 1 1 578F92A3
 P 8600 2600
 F 0 "R19" V 8680 2600 50  0000 C CNN
 F 1 "220" V 8600 2600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 8530 2600 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 8530 2600 50  0001 C CNN
 F 3 "" H 8600 2600 50  0000 C CNN
 	1    8600 2600
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 578F92B9
 P 7650 2600
 F 0 "R17" V 7730 2600 50  0000 C CNN
 F 1 "220" V 7650 2600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7580 2600 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 7580 2600 50  0001 C CNN
 F 3 "" H 7650 2600 50  0000 C CNN
 	1    7650 2600
 	1    0    0    -1  
@@ -131,7 +131,7 @@ U 1 1 578F92F1
 P 6650 2600
 F 0 "R15" V 6730 2600 50  0000 C CNN
 F 1 "220" V 6650 2600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6580 2600 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 6580 2600 50  0001 C CNN
 F 3 "" H 6650 2600 50  0000 C CNN
 	1    6650 2600
 	1    0    0    -1  
@@ -142,7 +142,7 @@ U 1 1 578F9332
 P 5700 2600
 F 0 "R13" V 5780 2600 50  0000 C CNN
 F 1 "220" V 5700 2600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 5630 2600 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 5630 2600 50  0001 C CNN
 F 3 "" H 5700 2600 50  0000 C CNN
 	1    5700 2600
 	1    0    0    -1  
@@ -153,7 +153,7 @@ U 1 1 578F9378
 P 4700 2600
 F 0 "R12" V 4780 2600 50  0000 C CNN
 F 1 "180" V 4700 2600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 4630 2600 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 4630 2600 50  0001 C CNN
 F 3 "" H 4700 2600 50  0000 C CNN
 	1    4700 2600
 	1    0    0    -1  
@@ -164,7 +164,7 @@ U 1 1 578F93E3
 P 3700 2600
 F 0 "R11" V 3780 2600 50  0000 C CNN
 F 1 "180" V 3700 2600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 3630 2600 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 3630 2600 50  0001 C CNN
 F 3 "" H 3700 2600 50  0000 C CNN
 	1    3700 2600
 	1    0    0    -1  
@@ -175,7 +175,7 @@ U 1 1 578F9453
 P 2700 2600
 F 0 "R10" V 2780 2600 50  0000 C CNN
 F 1 "180" V 2700 2600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 2630 2600 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 2630 2600 50  0001 C CNN
 F 3 "" H 2700 2600 50  0000 C CNN
 	1    2700 2600
 	1    0    0    -1  
@@ -186,7 +186,7 @@ U 1 1 578F94C2
 P 1750 2600
 F 0 "R9" V 1830 2600 50  0000 C CNN
 F 1 "180" V 1750 2600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 1680 2600 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 1680 2600 50  0001 C CNN
 F 3 "" H 1750 2600 50  0000 C CNN
 	1    1750 2600
 	1    0    0    -1  
@@ -197,7 +197,7 @@ U 1 1 578F9588
 P 1950 3000
 F 0 "P11" H 1950 3150 50  0000 C CNN
 F 1 "CONN_01X02" V 2050 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1950 3000 50  0001 C CNN
+F 2 "sumo_robot:Pin_Header_Straight_1x02" H 1950 3000 50  0001 C CNN
 F 3 "" H 1950 3000 50  0000 C CNN
 	1    1950 3000
 	1    0    0    -1  
@@ -208,7 +208,7 @@ U 1 1 578F95C4
 P 2900 3000
 F 0 "P12" H 2900 3150 50  0000 C CNN
 F 1 "CONN_01X02" V 3000 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2900 3000 50  0001 C CNN
+F 2 "sumo_robot:Pin_Header_Straight_1x02" H 2900 3000 50  0001 C CNN
 F 3 "" H 2900 3000 50  0000 C CNN
 	1    2900 3000
 	1    0    0    -1  
@@ -219,7 +219,7 @@ U 1 1 578F9614
 P 3900 3000
 F 0 "P13" H 3900 3150 50  0000 C CNN
 F 1 "CONN_01X02" V 4000 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3900 3000 50  0001 C CNN
+F 2 "sumo_robot:Pin_Header_Straight_1x02" H 3900 3000 50  0001 C CNN
 F 3 "" H 3900 3000 50  0000 C CNN
 	1    3900 3000
 	1    0    0    -1  
@@ -230,7 +230,7 @@ U 1 1 578F9683
 P 4900 3000
 F 0 "P14" H 4900 3150 50  0000 C CNN
 F 1 "CONN_01X02" V 5000 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4900 3000 50  0001 C CNN
+F 2 "sumo_robot:Pin_Header_Straight_1x02" H 4900 3000 50  0001 C CNN
 F 3 "" H 4900 3000 50  0000 C CNN
 	1    4900 3000
 	1    0    0    -1  
@@ -241,7 +241,7 @@ U 1 1 578F96FF
 P 5900 3000
 F 0 "P15" H 5900 3150 50  0000 C CNN
 F 1 "CONN_01X02" V 6000 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5900 3000 50  0001 C CNN
+F 2 "sumo_robot:Pin_Header_Straight_1x02" H 5900 3000 50  0001 C CNN
 F 3 "" H 5900 3000 50  0000 C CNN
 	1    5900 3000
 	1    0    0    -1  
@@ -252,7 +252,7 @@ U 1 1 578F9801
 P 6850 3000
 F 0 "P16" H 6850 3150 50  0000 C CNN
 F 1 "CONN_01X02" V 6950 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6850 3000 50  0001 C CNN
+F 2 "sumo_robot:Pin_Header_Straight_1x02" H 6850 3000 50  0001 C CNN
 F 3 "" H 6850 3000 50  0000 C CNN
 	1    6850 3000
 	1    0    0    -1  
@@ -263,7 +263,7 @@ U 1 1 578F986B
 P 7850 3000
 F 0 "P17" H 7850 3150 50  0000 C CNN
 F 1 "CONN_01X02" V 7950 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7850 3000 50  0001 C CNN
+F 2 "sumo_robot:Pin_Header_Straight_1x02" H 7850 3000 50  0001 C CNN
 F 3 "" H 7850 3000 50  0000 C CNN
 	1    7850 3000
 	1    0    0    -1  
@@ -274,7 +274,7 @@ U 1 1 578F98F2
 P 8800 3000
 F 0 "P18" H 8800 3150 50  0000 C CNN
 F 1 "CONN_01X02" V 8900 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8800 3000 50  0001 C CNN
+F 2 "sumo_robot:Pin_Header_Straight_1x02" H 8800 3000 50  0001 C CNN
 F 3 "" H 8800 3000 50  0000 C CNN
 	1    8800 3000
 	1    0    0    -1  
@@ -285,7 +285,7 @@ U 1 1 578F9978
 P 8600 3450
 F 0 "R20" V 8680 3450 50  0000 C CNN
 F 1 "10K" V 8600 3450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 8530 3450 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 8530 3450 50  0001 C CNN
 F 3 "" H 8600 3450 50  0000 C CNN
 	1    8600 3450
 	1    0    0    -1  
@@ -296,7 +296,7 @@ U 1 1 578F99D9
 P 7650 3450
 F 0 "R18" V 7730 3450 50  0000 C CNN
 F 1 "10K" V 7650 3450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7580 3450 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 7580 3450 50  0001 C CNN
 F 3 "" H 7650 3450 50  0000 C CNN
 	1    7650 3450
 	1    0    0    -1  
@@ -307,7 +307,7 @@ U 1 1 578F9A41
 P 6650 3450
 F 0 "R16" V 6730 3450 50  0000 C CNN
 F 1 "10K" V 6650 3450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6580 3450 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 6580 3450 50  0001 C CNN
 F 3 "" H 6650 3450 50  0000 C CNN
 	1    6650 3450
 	1    0    0    -1  
@@ -318,7 +318,7 @@ U 1 1 578F9AAE
 P 5700 3450
 F 0 "R14" V 5780 3450 50  0000 C CNN
 F 1 "10K" V 5700 3450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 5630 3450 50  0001 C CNN
+F 2 "sumo_robot:Resistor_Horizontal_RM7mm" V 5630 3450 50  0001 C CNN
 F 3 "" H 5700 3450 50  0000 C CNN
 	1    5700 3450
 	1    0    0    -1  
@@ -493,7 +493,7 @@ U 1 1 5790CAAE
 P 6150 3750
 F 0 "U5" H 6250 3900 50  0000 L CNN
 F 1 "40106" H 6200 3600 50  0000 L CNN
-F 2 "40xx:40xx-DIL14" H 6150 3750 60  0001 C CNN
+F 2 "sumo_robot:40xx-DIL14" H 6150 3750 60  0001 C CNN
 F 3 "" H 6150 3750 60  0000 C CNN
 	1    6150 3750
 	0    1    1    0   
@@ -504,7 +504,7 @@ U 2 1 5790CBE1
 P 7100 3750
 F 0 "U5" H 7200 3900 50  0000 L CNN
 F 1 "40106" H 7150 3600 50  0000 L CNN
-F 2 "40xx:40xx-DIL14" H 7100 3750 60  0001 C CNN
+F 2 "sumo_robot:40xx-DIL14" H 7100 3750 60  0001 C CNN
 F 3 "" H 7100 3750 60  0000 C CNN
 	2    7100 3750
 	0    1    1    0   
@@ -515,7 +515,7 @@ U 3 1 5790CC34
 P 8100 3750
 F 0 "U5" H 8200 3900 50  0000 L CNN
 F 1 "40106" H 8150 3600 50  0000 L CNN
-F 2 "40xx:40xx-DIL14" H 8100 3750 60  0001 C CNN
+F 2 "sumo_robot:40xx-DIL14" H 8100 3750 60  0001 C CNN
 F 3 "" H 8100 3750 60  0000 C CNN
 	3    8100 3750
 	0    1    1    0   
@@ -526,7 +526,7 @@ U 4 1 5790CC81
 P 9050 3750
 F 0 "U5" H 9150 3900 50  0000 L CNN
 F 1 "40106" H 9100 3600 50  0000 L CNN
-F 2 "40xx:40xx-DIL14" H 9050 3750 60  0001 C CNN
+F 2 "sumo_robot:40xx-DIL14" H 9050 3750 60  0001 C CNN
 F 3 "" H 9050 3750 60  0000 C CNN
 	4    9050 3750
 	0    1    1    0   

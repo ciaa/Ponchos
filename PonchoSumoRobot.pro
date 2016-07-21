@@ -1,4 +1,4 @@
-update=jue 21 jul 2016 15:54:35 ART
+update=jue 21 jul 2016 16:49:23 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,3 +29,5 @@ NetIExt=net
 [eeschema]
 version=1
 LibDir=../../kicad/libModelos;../../kicad/libPonchos
+[eeschema/libraries]
+LibName1=lib/ponchosumo

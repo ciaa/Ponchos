@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:PONCHO-CIAA-rescue
-LIBS:PONCHO-CIAA-cache
+LIBS:power
+LIBS:PonchoSumoRobot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -81,7 +81,7 @@ U 1 1 5791A62B
 P 3750 2350
 F 0 "P2" H 3750 2600 50  0000 C CNN
 F 1 "CONN_01X04" V 3850 2350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 3750 2350 50  0001 C CNN
+F 2 "sumo_robot:Pin_Header_Straight_1x04" H 3750 2350 50  0001 C CNN
 F 3 "" H 3750 2350 50  0000 C CNN
 	1    3750 2350
 	0    1    1    0   
@@ -92,7 +92,7 @@ U 1 1 5791A66D
 P 5050 2350
 F 0 "P6" H 5050 2600 50  0000 C CNN
 F 1 "CONN_01X04" V 5150 2350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 5050 2350 50  0001 C CNN
+F 2 "sumo_robot:Pin_Header_Straight_1x04" H 5050 2350 50  0001 C CNN
 F 3 "" H 5050 2350 50  0000 C CNN
 	1    5050 2350
 	0    1    1    0   
