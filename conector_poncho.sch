@@ -85,12 +85,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "Conectores CIAA"
-Date "2016-05-17"
-Rev "1.0"
-Comp "GMotion"
-Comment1 "Autor: Matías Dell'Oso"
-Comment2 ""
+Title "EDU-CIAA-NXP"
+Date "2016-07-23"
+Rev "2.0"
+Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comment1 "https://github.com/mdelloso/falling_detector"
+Comment2 "Autores y Licencia del template (Matías Dell'Oso - UNLP)"
 Comment3 ""
 Comment4 ""
 $EndDescr
