@@ -101,7 +101,7 @@ Text HLabel 10300 1950 2    60   BiDi ~ 0
 DAC
 Text HLabel 10300 1650 2    60   BiDi ~ 0
 ADC3
-Text HLabel 6800 2400 2    60   BiDi ~ 0
+Text HLabel 6800 2200 2    60   BiDi ~ 0
 ADC2
 NoConn ~ 1450 1000
 NoConn ~ 1450 1100
@@ -143,7 +143,7 @@ Wire Wire Line
 	4400 2800 5050 2800
 Wire Wire Line
 	4400 2950 5050 2950
-Text HLabel 6800 2200 2    60   BiDi ~ 0
+Text HLabel 6800 2400 2    60   BiDi ~ 0
 ADC1
 Wire Wire Line
 	6800 2200 6150 2200
