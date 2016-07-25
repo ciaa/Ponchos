@@ -1,4 +1,4 @@
-update=13/07/2016 06:51:13 p.m.
+update=25/07/2016 08:20:13 p.m.
 version=1
 last_client=kicad
 [cvpcb]
@@ -24,11 +24,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=components/PonchoPLC
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -39,5 +34,10 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=components/PonchoPLC
 [general]
 version=1
