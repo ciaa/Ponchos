@@ -35,13 +35,13 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 3
 Title "Diagrama de conectores, para acoplar con la EDU-CIAA."
 Date "2016-07-04"
 Rev ""
 Comp "Felipe Rey"
-Comment1 ""
-Comment2 ""
+Comment1 "Diagrama esquematico de modulos para poncho celda para el curso de Diseño de PCB del CESE."
+Comment2 "Licencia GPL V3"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -51,7 +51,7 @@ U 1 1 5785D591
 P 3900 2650
 F 0 "XA1" H 4200 3050 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 4250 950 60  0000 C CNN
-F 2 "ej2cese:PonchoGrande" H 3900 2650 60  0001 C CNN
+F 2 "celda:Conn_Poncho_SinBorde" H 3900 2650 60  0001 C CNN
 F 3 "" H 3900 2650 60  0000 C CNN
 	1    3900 2650
 	1    0    0    -1  
@@ -62,16 +62,16 @@ U 2 1 5785D5D9
 P 7750 2550
 F 0 "XA1" H 8050 2950 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 8100 850 60  0000 C CNN
-F 2 "ej2cese:PonchoGrande" H 7750 2550 60  0001 C CNN
+F 2 "celda:Conn_Poncho_SinBorde" H 7750 2550 60  0001 C CNN
 F 3 "" H 7750 2550 60  0000 C CNN
 	2    7750 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND #PWR017
 U 1 1 5785D5F4
 P 5250 4400
-F 0 "#PWR019" H 5250 4150 50  0001 C CNN
+F 0 "#PWR017" H 5250 4150 50  0001 C CNN
 F 1 "GND" H 5250 4250 50  0000 C CNN
 F 2 "" H 5250 4400 60  0000 C CNN
 F 3 "" H 5250 4400 60  0000 C CNN
@@ -79,10 +79,10 @@ F 3 "" H 5250 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR020
+L +5V #PWR018
 U 1 1 5785D61E
 P 5000 2150
-F 0 "#PWR020" H 5000 2000 50  0001 C CNN
+F 0 "#PWR018" H 5000 2000 50  0001 C CNN
 F 1 "+5V" H 5000 2290 50  0000 C CNN
 F 2 "" H 5000 2150 60  0000 C CNN
 F 3 "" H 5000 2150 60  0000 C CNN
@@ -134,10 +134,10 @@ lcd4
 Text HLabel 9100 3750 2    60   Output ~ 0
 alert
 $Comp
-L GND #PWR021
+L GND #PWR019
 U 1 1 5785DC81
 P 7250 4450
-F 0 "#PWR021" H 7250 4200 50  0001 C CNN
+F 0 "#PWR019" H 7250 4200 50  0001 C CNN
 F 1 "GND" H 7250 4300 50  0000 C CNN
 F 2 "" H 7250 4450 60  0000 C CNN
 F 3 "" H 7250 4450 60  0000 C CNN
@@ -263,10 +263,10 @@ Connection ~ 3350 2350
 Wire Wire Line
 	3350 2350 3650 2350
 $Comp
-L +3.3V #PWR022
+L +3.3V #PWR020
 U 1 1 578EC122
 P 3350 2100
-F 0 "#PWR022" H 3350 1950 50  0001 C CNN
+F 0 "#PWR020" H 3350 1950 50  0001 C CNN
 F 1 "+3.3V" H 3350 2240 50  0000 C CNN
 F 2 "" H 3350 2100 50  0000 C CNN
 F 3 "" H 3350 2100 50  0000 C CNN

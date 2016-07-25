@@ -35,13 +35,13 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 3 4
 Title "Diagrama de conexion a una LCD 16x2"
 Date "2016-07-04"
 Rev ""
 Comp "Felipe Rey"
-Comment1 ""
-Comment2 ""
+Comment1 "Diagrama esquematico de modulos para poncho celda para el curso de Diseño de PCB del CESE."
+Comment2 "Licencia GPL V3"
 Comment3 ""
 Comment4 ""
 $EndDescr
