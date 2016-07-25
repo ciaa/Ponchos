@@ -39,7 +39,7 @@ Sheet 1 3
 Title "Diagrama esquematico de poncho Celda."
 Date "2016-07-04"
 Rev ""
-Comp "Felipe Rey"
+Comp "Felipe Rey Hernandez"
 Comment1 "Diagrama esquematico de modulos para poncho celda para el curso de Diseño de PCB del CESE."
 Comment2 "Licencia GPL V3"
 Comment3 ""
