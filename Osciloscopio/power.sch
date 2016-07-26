@@ -6,6 +6,7 @@ LIBS:texas
 LIBS:osc
 LIBS:power
 LIBS:conn
+LIBS:ej2cese
 LIBS:Oscilloscopio-cache
 EELAYER 25 0
 EELAYER END
@@ -18,7 +19,7 @@ Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
 Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
-Comment3 "Autor del poncho Nicolás Dassieu Blanchet. Ver directorio \"doc\""
+Comment3 "Autor Nicolás Dassieu Blanchet - Curso Diseño de PCB del CESE - Ver directorio \"doc\" "
 Comment4 "CÓDIGO PONCHO:"
 $EndDescr
 $Comp

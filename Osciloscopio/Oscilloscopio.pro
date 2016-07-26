@@ -1,4 +1,4 @@
-update=7/10/2016 7:58:17 PM
+update=7/26/2016 5:15:38 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -37,3 +37,4 @@ LibName4=texas
 LibName5=lib/osc
 LibName6=power
 LibName7=conn
+LibName8=F:/TP/TP2/ejlibcese/ej2cese

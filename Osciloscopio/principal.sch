@@ -6,6 +6,7 @@ LIBS:texas
 LIBS:osc
 LIBS:power
 LIBS:conn
+LIBS:ej2cese
 LIBS:Oscilloscopio-cache
 EELAYER 25 0
 EELAYER END
@@ -18,20 +19,20 @@ Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
 Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
-Comment3 "Autor del poncho Nicolás Dassieu Blanchet. Ver directorio \"doc\""
+Comment3 "Autor Nicolás Dassieu Blanchet - Curso Diseño de PCB del CESE - Ver directorio \"doc\" "
 Comment4 "CÓDIGO PONCHO:"
 $EndDescr
 Text HLabel 1300 1000 0    60   BiDi ~ 0
 WAKEUP
 Text HLabel 1300 1500 0    60   BiDi ~ 0
 COL2
-Text HLabel 4400 4200 0    60   BiDi ~ 0
+Text HLabel 4400 3750 0    60   BiDi ~ 0
 GPIO8
 Text HLabel 4400 4050 0    60   BiDi ~ 0
 GPIO7
 Text HLabel 4400 3900 0    60   BiDi ~ 0
 GPIO6
-Text HLabel 4400 3750 0    60   BiDi ~ 0
+Text HLabel 4400 4200 0    60   BiDi ~ 0
 GPIO5
 Text HLabel 1350 3500 0    60   BiDi ~ 0
 RS
@@ -127,9 +128,9 @@ U 5782B92E
 F0 "power" 60
 F1 "power.sch" 60
 $EndSheet
-Text HLabel 4400 2700 0    60   BiDi ~ 0
-GPIO1
 Text HLabel 4400 2600 0    60   BiDi ~ 0
+GPIO1
+Text HLabel 4400 2700 0    60   BiDi ~ 0
 GPIO0
 Text HLabel 4400 2950 0    60   BiDi ~ 0
 GPIO3
@@ -274,4 +275,40 @@ GPIO4
 NoConn ~ 10150 3400
 Wire Wire Line
 	10150 3400 10300 3400
+$Comp
+L FIDUCIAL F1
+U 1 1 5797EA60
+P 2550 5750
+F 0 "F1" H 2630 5800 40  0000 L CNN
+F 1 "FIDUCIAL" H 2550 5650 30  0001 C CNN
+F 2 "osc:Fiducial_1mm" H 2550 5800 60  0001 C CNN
+F 3 "" H 2550 5800 60  0001 C CNN
+F 4 "FIDUCIAL" H 2600 5550 60  0001 C CNN "Descripcion"
+	1    2550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F2
+U 1 1 5797EC0A
+P 2900 5750
+F 0 "F2" H 2980 5800 40  0000 L CNN
+F 1 "FIDUCIAL" H 2900 5650 30  0001 C CNN
+F 2 "osc:Fiducial_1mm" H 2900 5800 60  0001 C CNN
+F 3 "" H 2900 5800 60  0001 C CNN
+F 4 "FIDUCIAL" H 2950 5550 60  0001 C CNN "Descripcion"
+	1    2900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F3
+U 1 1 5797FEC6
+P 3250 5750
+F 0 "F3" H 3330 5800 40  0000 L CNN
+F 1 "FIDUCIAL" H 3250 5650 30  0001 C CNN
+F 2 "osc:Fiducial_1mm" H 3250 5800 60  0001 C CNN
+F 3 "" H 3250 5800 60  0001 C CNN
+F 4 "FIDUCIAL" H 3300 5550 60  0001 C CNN "Descripcion"
+	1    3250 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
