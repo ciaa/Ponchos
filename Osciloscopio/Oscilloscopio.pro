@@ -1,4 +1,4 @@
-update=7/26/2016 5:15:38 PM
+update=7/26/2016 7:38:41 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,13 +28,6 @@ ModuleOutlineThickness=0.15
 version=1
 [eeschema]
 version=1
-LibDir=../kicad/libModelos;../kicad/libPonchos
+LibDir=
 [eeschema/libraries]
-LibName1=Poncho_Esqueleto
-LibName2=Misc_Poncho_Grande
-LibName3=device
-LibName4=texas
-LibName5=lib/osc
-LibName6=power
-LibName7=conn
-LibName8=F:/TP/TP2/ejlibcese/ej2cese
+LibName1=lib/osc

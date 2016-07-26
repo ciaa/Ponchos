@@ -1,18 +1,11 @@
 EESchema Schematic File Version 2
-LIBS:Poncho_Esqueleto
-LIBS:Misc_Poncho_Grande
-LIBS:device
-LIBS:texas
 LIBS:osc
-LIBS:power
-LIBS:conn
-LIBS:ej2cese
 LIBS:Oscilloscopio-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 5
 Title "Poncho Osciloscopio"
 Date "2015-10-06"
 Rev "1.0"
@@ -133,12 +126,6 @@ Wire Wire Line
 	5100 3950 4750 3950
 Wire Wire Line
 	4750 3950 4750 3900
-Text HLabel 4900 1300 0    60   Input ~ 0
-RESET
-Wire Wire Line
-	4900 1300 5100 1300
-Text HLabel 4750 1400 0    60   BiDi ~ 0
-ISP
 Wire Wire Line
 	5100 1600 4050 1600
 Wire Wire Line
@@ -146,29 +133,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 1800 4050 1800
 Wire Wire Line
-	5100 1900 4050 1900
-Wire Wire Line
 	4850 2000 5100 2000
-Wire Wire Line
-	5100 2100 3650 2100
-Wire Wire Line
-	5100 2200 3650 2200
-Wire Wire Line
-	5100 2300 4250 2300
-Wire Wire Line
-	5100 2500 3650 2500
-Wire Wire Line
-	5100 2600 3650 2600
-Wire Wire Line
-	5100 2700 3250 2700
-Wire Wire Line
-	5100 2800 3250 2800
-Wire Wire Line
-	5100 2900 3250 2900
-Wire Wire Line
-	5100 3000 3250 3000
-Wire Wire Line
-	5100 3100 3250 3100
 $Comp
 L GNDA #PWR030
 U 1 1 560A1A14
@@ -180,16 +145,12 @@ F 3 "" H 4850 1500 60  0000 C CNN
 	1    4850 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 1400 4750 1400
 Text HLabel 4050 1600 0    60   BiDi ~ 0
 ADC3
 Text HLabel 4050 1700 0    60   BiDi ~ 0
 ADC2
 Text HLabel 4050 1800 0    60   BiDi ~ 0
 ADC1
-Text HLabel 4050 1900 0    60   BiDi ~ 0
-DAC
 $Comp
 L +3.3VADC #PWR031
 U 1 1 560A1ACD
@@ -211,46 +172,8 @@ Wire Wire Line
 	4850 1450 4950 1450
 Wire Wire Line
 	4950 1450 4950 1500
-Text HLabel 3650 2100 0    60   BiDi ~ 0
-SDA
-Text HLabel 3650 2200 0    60   BiDi ~ 0
-SCL
-Text HLabel 4250 2300 0    60   BiDi ~ 0
-RXD
-Text HLabel 4250 2400 0    60   BiDi ~ 0
-TXD
-Wire Wire Line
-	4250 2400 5100 2400
-Text HLabel 3650 2500 0    60   BiDi ~ 0
-RD
-Text HLabel 3650 2600 0    60   BiDi ~ 0
-TD
-Text HLabel 3250 2700 0    60   BiDi ~ 0
-COL1
-Text HLabel 3250 2800 0    60   BiDi ~ 0
-F0
-Text HLabel 3250 2900 0    60   BiDi ~ 0
-F3
-Text HLabel 3250 3000 0    60   BiDi ~ 0
-F2
-Text HLabel 3250 3100 0    60   BiDi ~ 0
-COL0
-Text HLabel 7250 2800 2    60   BiDi ~ 0
-COL2
-Text HLabel 7250 2900 2    60   BiDi ~ 0
-F1
-Wire Wire Line
-	7250 2800 6300 2800
-Wire Wire Line
-	6300 2900 7250 2900
-Wire Wire Line
-	5100 4350 4250 4350
-Wire Wire Line
-	4250 4650 5100 4650
 Wire Wire Line
 	5100 4950 4250 4950
-Wire Wire Line
-	5100 5050 4050 5050
 Wire Wire Line
 	4250 5350 5100 5350
 Wire Wire Line
@@ -260,33 +183,9 @@ Wire Wire Line
 Wire Wire Line
 	5100 5650 4250 5650
 Wire Wire Line
-	6300 4050 7100 4050
-Wire Wire Line
-	6300 4150 7100 4150
-Wire Wire Line
-	6300 4250 7100 4250
-Wire Wire Line
-	6300 4350 7100 4350
-Wire Wire Line
-	6300 4450 7100 4450
-Wire Wire Line
-	6300 4550 7100 4550
-Wire Wire Line
-	6300 4650 7100 4650
-Wire Wire Line
 	6300 4750 7400 4750
 Wire Wire Line
 	6300 4850 7400 4850
-Wire Wire Line
-	6300 4950 6850 4950
-Wire Wire Line
-	6300 5050 6850 5050
-Wire Wire Line
-	6300 5150 6850 5150
-Wire Wire Line
-	6300 5250 6850 5250
-Wire Wire Line
-	6300 5350 6850 5350
 Wire Wire Line
 	6300 5550 7500 5550
 Wire Wire Line
@@ -295,14 +194,8 @@ Wire Wire Line
 	6300 5750 7500 5750
 Wire Wire Line
 	6300 5850 7500 5850
-Text HLabel 4250 4350 0    60   BiDi ~ 0
-RXD0
-Text HLabel 4250 4650 0    60   BiDi ~ 0
-RCLK
 Text HLabel 4250 4950 0    60   BiDi ~ 0
 MOSI
-Text HLabel 4050 5050 0    60   Input ~ 0
-LCD_EN
 Text HLabel 4250 5350 0    60   BiDi ~ 0
 GPIO0
 Text HLabel 4250 5450 0    60   BiDi ~ 0
@@ -311,34 +204,10 @@ Text HLabel 4250 5550 0    60   BiDi ~ 0
 GPIO4
 Text HLabel 4250 5650 0    60   BiDi ~ 0
 GPIO6
-Text HLabel 7100 4050 2    60   BiDi ~ 0
-RXD1
-Text HLabel 7100 4150 2    60   BiDi ~ 0
-TXEN
-Text HLabel 7100 4250 2    60   BiDi ~ 0
-MDC
-Text HLabel 7100 4350 2    60   BiDi ~ 0
-CRS
-Text HLabel 7100 4450 2    60   BiDi ~ 0
-MDIO
-Text HLabel 7100 4550 2    60   Input ~ 0
-TXD0
-Text HLabel 7100 4650 2    60   BiDi ~ 0
-TXD1
 Text HLabel 7400 4750 2    60   BiDi ~ 0
 MISO
 Text HLabel 7400 4850 2    60   BiDi ~ 0
 spiSCK
-Text HLabel 6850 4950 2    60   BiDi ~ 0
-LCD4
-Text HLabel 6850 5050 2    60   BiDi ~ 0
-RS
-Text HLabel 6850 5150 2    60   BiDi ~ 0
-LCD3
-Text HLabel 6850 5250 2    60   BiDi ~ 0
-LCD2
-Text HLabel 6850 5350 2    60   BiDi ~ 0
-LCD1
 Text HLabel 7500 5450 2    60   BiDi ~ 0
 GPIO1
 Text HLabel 7500 5550 2    60   BiDi ~ 0
@@ -349,10 +218,6 @@ Text HLabel 7500 5750 2    60   BiDi ~ 0
 GPIO7
 Text HLabel 7500 5850 2    60   BiDi ~ 0
 GPIO8
-Wire Wire Line
-	6300 1400 6950 1400
-Text HLabel 6950 1400 2    60   BiDi ~ 0
-WAKEUP
 $Comp
 L PWR_FLAG #FLG032
 U 1 1 560A61E2
@@ -453,4 +318,36 @@ NoConn ~ 6300 2700
 NoConn ~ 6300 3000
 NoConn ~ 6300 3100
 NoConn ~ 6300 1300
+NoConn ~ 5100 1300
+NoConn ~ 5100 1400
+NoConn ~ 5100 1900
+NoConn ~ 5100 2100
+NoConn ~ 5100 2200
+NoConn ~ 5100 2300
+NoConn ~ 5100 2400
+NoConn ~ 5100 2500
+NoConn ~ 5100 2600
+NoConn ~ 5100 2700
+NoConn ~ 5100 2800
+NoConn ~ 5100 2900
+NoConn ~ 5100 3000
+NoConn ~ 5100 3100
+NoConn ~ 6300 2800
+NoConn ~ 6300 2900
+NoConn ~ 6300 1400
+NoConn ~ 5100 4350
+NoConn ~ 5100 4650
+NoConn ~ 6300 4050
+NoConn ~ 6300 4150
+NoConn ~ 6300 4250
+NoConn ~ 6300 4350
+NoConn ~ 6300 4450
+NoConn ~ 6300 4550
+NoConn ~ 6300 4650
+NoConn ~ 6300 4950
+NoConn ~ 6300 5050
+NoConn ~ 6300 5150
+NoConn ~ 6300 5250
+NoConn ~ 6300 5350
+NoConn ~ 5100 5050
 $EndSCHEMATC

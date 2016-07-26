@@ -1,12 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:Poncho_Esqueleto
-LIBS:Misc_Poncho_Grande
-LIBS:device
-LIBS:texas
 LIBS:osc
-LIBS:power
-LIBS:conn
-LIBS:ej2cese
 LIBS:Oscilloscopio-cache
 EELAYER 25 0
 EELAYER END
@@ -22,10 +15,6 @@ Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
 Comment3 "Autor Nicolás Dassieu Blanchet - Curso Diseño de PCB del CESE - Ver directorio \"doc\" "
 Comment4 "CÓDIGO PONCHO:"
 $EndDescr
-Text HLabel 1300 1000 0    60   BiDi ~ 0
-WAKEUP
-Text HLabel 1300 1500 0    60   BiDi ~ 0
-COL2
 Text HLabel 4400 3750 0    60   BiDi ~ 0
 GPIO8
 Text HLabel 4400 4050 0    60   BiDi ~ 0
@@ -34,94 +23,16 @@ Text HLabel 4400 3900 0    60   BiDi ~ 0
 GPIO6
 Text HLabel 4400 4200 0    60   BiDi ~ 0
 GPIO5
-Text HLabel 1350 3500 0    60   BiDi ~ 0
-RS
-Text HLabel 1300 1100 0    60   BiDi ~ 0
-LCD_EN
-Text HLabel 1350 3400 0    60   BiDi ~ 0
-LCD4
-Text HLabel 1350 3600 0    60   BiDi ~ 0
-LCD3
-Text HLabel 1350 3700 0    60   BiDi ~ 0
-LCD2
-Text HLabel 1350 3800 0    60   BiDi ~ 0
-LCD1
 Text HLabel 6800 3650 2    60   BiDi ~ 0
 MISO
 Text HLabel 4400 3650 0    60   BiDi ~ 0
 MOSI
 Text HLabel 4400 3550 0    60   BiDi ~ 0
 spiCCK
-Text HLabel 1350 2900 0    60   BiDi ~ 0
-MDIO
-Text HLabel 1350 2800 0    60   BiDi ~ 0
-CRS
-Text HLabel 1350 2700 0    60   BiDi ~ 0
-MDC
-Text HLabel 1350 2500 0    60   BiDi ~ 0
-RXD1
-Text HLabel 1300 1300 0    60   BiDi ~ 0
-RXD0
-Text HLabel 1350 2600 0    60   BiDi ~ 0
-TXEN
-Text HLabel 1350 3100 0    60   BiDi ~ 0
-TXD1
-Text HLabel 1350 3000 0    60   BiDi ~ 0
-TXD0
-Text HLabel 1300 1200 0    60   BiDi ~ 0
-RCLK
-Text HLabel 10300 2950 2    60   BiDi ~ 0
-F3
-Text HLabel 10300 3050 2    60   BiDi ~ 0
-F2
-Text HLabel 1300 1600 0    60   BiDi ~ 0
-F1
-Text HLabel 10300 2850 2    60   BiDi ~ 0
-F0
-Text HLabel 10300 2750 2    60   BiDi ~ 0
-COL1
-Text HLabel 10300 3150 2    60   BiDi ~ 0
-COL0
-Text HLabel 10300 2650 2    60   BiDi ~ 0
-TD
-Text HLabel 10300 2550 2    60   BiDi ~ 0
-RD
-Text HLabel 10300 2450 2    60   BiDi ~ 0
-TXD
-Text HLabel 10300 2350 2    60   BiDi ~ 0
-RXD
-Text HLabel 10300 2250 2    60   BiDi ~ 0
-SCL
-Text HLabel 10300 2150 2    60   BiDi ~ 0
-SDA
-Text HLabel 10300 1450 2    60   BiDi ~ 0
-ISP
-Text HLabel 10300 1350 2    60   Output ~ 0
-RESET
-Text HLabel 10300 1950 2    60   BiDi ~ 0
-DAC
 Text HLabel 10300 1650 2    60   BiDi ~ 0
 ADC3
 Text HLabel 6800 2200 2    60   BiDi ~ 0
 ADC2
-NoConn ~ 1450 1000
-NoConn ~ 1450 1100
-NoConn ~ 1450 1200
-NoConn ~ 1450 1300
-NoConn ~ 1450 1500
-NoConn ~ 1450 1600
-Wire Wire Line
-	1450 1000 1300 1000
-Wire Wire Line
-	1300 1100 1450 1100
-Wire Wire Line
-	1300 1200 1450 1200
-Wire Wire Line
-	1300 1300 1450 1300
-Wire Wire Line
-	1300 1500 1450 1500
-Wire Wire Line
-	1300 1600 1450 1600
 $Sheet
 S 5050 1500 1100 350 
 U 5782B92E
@@ -189,42 +100,6 @@ Wire Wire Line
 	4400 4200 5050 4200
 Wire Wire Line
 	6150 3650 6800 3650
-NoConn ~ 1500 2900
-NoConn ~ 1500 3000
-NoConn ~ 1500 3100
-Wire Wire Line
-	1350 2900 1500 2900
-Wire Wire Line
-	1350 3000 1500 3000
-Wire Wire Line
-	1350 3100 1500 3100
-NoConn ~ 1500 2600
-NoConn ~ 1500 2700
-NoConn ~ 1500 2800
-Wire Wire Line
-	1350 2600 1500 2600
-Wire Wire Line
-	1350 2700 1500 2700
-Wire Wire Line
-	1350 2800 1500 2800
-NoConn ~ 1500 2500
-Wire Wire Line
-	1350 2500 1500 2500
-NoConn ~ 1500 3600
-NoConn ~ 1500 3700
-NoConn ~ 1500 3800
-Wire Wire Line
-	1350 3600 1500 3600
-Wire Wire Line
-	1350 3700 1500 3700
-Wire Wire Line
-	1350 3800 1500 3800
-NoConn ~ 1500 3400
-NoConn ~ 1500 3500
-Wire Wire Line
-	1350 3400 1500 3400
-Wire Wire Line
-	1350 3500 1500 3500
 NoConn ~ 10150 2450
 NoConn ~ 10150 2350
 NoConn ~ 10150 2250
