@@ -17,7 +17,7 @@
     (title "PCB de poncho Celda.")
     (date 2016-07-04)
     (company "Felipe Rey Hernandez")
-    (comment 1 "Diagrama esquematico de modulos para poncho celda para el curso de Diseño de PCB del CESE.")
+    (comment 1 "PCB de modulos para poncho celda para el curso de Diseño de PCB del CESE.")
     (comment 2 "Licencia GPL V3")
   )
 
