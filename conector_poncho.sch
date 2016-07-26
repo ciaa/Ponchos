@@ -1,84 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:falling_detector-cache
 LIBS:poncho_grande-cache
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
 LIBS:buzzer
+LIBS:power
+LIBS:ej2cese
 LIBS:trabajo_final-cache
 EELAYER 25 0
 EELAYER END
@@ -478,20 +403,7 @@ F 3 "" H 6750 1100 60  0000 C CNN
 	1    6750 1100
 	1    0    0    -1  
 $EndComp
-$Comp
-L PWR_FLAG #FLG09
-U 1 1 560A61F6
-P 6550 1650
-F 0 "#FLG09" H 6550 1745 30  0001 C CNN
-F 1 "PWR_FLAG" H 6550 1830 30  0000 C CNN
-F 2 "" H 6550 1650 60  0000 C CNN
-F 3 "" H 6550 1650 60  0000 C CNN
-	1    6550 1650
-	1    0    0    -1  
-$EndComp
 Connection ~ 6750 1300
-Wire Wire Line
-	6550 1650 6450 1650
 Connection ~ 6450 1650
 Wire Wire Line
 	6300 5450 7500 5450
@@ -500,10 +412,10 @@ Wire Wire Line
 Wire Wire Line
 	6450 1200 6300 1200
 $Comp
-L +5V #PWR010
+L +5V #PWR09
 U 1 1 560C551F
 P 6450 1050
-F 0 "#PWR010" H 6450 1140 20  0001 C CNN
+F 0 "#PWR09" H 6450 1140 20  0001 C CNN
 F 1 "+5V" H 6450 1140 30  0000 C CNN
 F 2 "" H 6450 1050 60  0000 C CNN
 F 3 "" H 6450 1050 60  0000 C CNN
@@ -515,10 +427,10 @@ Wire Wire Line
 Wire Wire Line
 	6550 3950 6300 3950
 $Comp
-L +5VP #PWR011
+L +5VP #PWR010
 U 1 1 560CBF57
 P 6550 3800
-F 0 "#PWR011" H 6550 3890 20  0001 C CNN
+F 0 "#PWR010" H 6550 3890 20  0001 C CNN
 F 1 "+5VP" H 6550 3890 30  0000 C CNN
 F 2 "" H 6550 3800 60  0000 C CNN
 F 3 "" H 6550 3800 60  0000 C CNN

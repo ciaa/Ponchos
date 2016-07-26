@@ -1,84 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:falling_detector-cache
 LIBS:poncho_grande-cache
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
 LIBS:buzzer
+LIBS:power
+LIBS:ej2cese
 LIBS:trabajo_final-cache
 EELAYER 25 0
 EELAYER END
@@ -257,4 +182,42 @@ Wire Wire Line
 NoConn ~ 2750 6150
 Text Notes 3800 5800 0    60   Italic 12
 UART0
+$Comp
+L FIDUCIAL F1
+U 1 1 579982BE
+P 7500 1350
+F 0 "F1" H 7580 1400 40  0000 L CNN
+F 1 "FIDUCIAL" H 7500 1250 30  0001 C CNN
+F 2 "footprints:Fiducial_1mm" H 7500 1400 60  0001 C CNN
+F 3 "" H 7500 1400 60  0001 C CNN
+F 4 "FIDUCIAL" H 7550 1150 60  0001 C CNN "Descripcion"
+	1    7500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F2
+U 1 1 57999260
+P 7850 1350
+F 0 "F2" H 7930 1400 40  0000 L CNN
+F 1 "FIDUCIAL" H 7850 1250 30  0001 C CNN
+F 2 "footprints:Fiducial_1mm" H 7850 1400 60  0001 C CNN
+F 3 "" H 7850 1400 60  0001 C CNN
+F 4 "FIDUCIAL" H 7900 1150 60  0001 C CNN "Descripcion"
+	1    7850 1350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7350 1200 7350 1500
+Wire Notes Line
+	8050 1500 8050 1200
+Wire Notes Line
+	8050 1200 7350 1200
+Wire Notes Line
+	7350 1500 8050 1500
+Wire Notes Line
+	7950 1150 8050 1000
+Wire Notes Line
+	8050 1000 8200 1000
+Text Notes 8250 1000 0    60   ~ 0
+Fidusiales
 $EndSCHEMATC
