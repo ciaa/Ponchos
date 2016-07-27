@@ -1,35 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:ej2cese
-LIBS:ADS1113IDGSR
 LIBS:poncho_celda-cache
 EELAYER 25 0
 EELAYER END
@@ -40,7 +10,7 @@ Title "Diagrama de conectores, para acoplar con la EDU-CIAA."
 Date "2016-07-04"
 Rev ""
 Comp "Felipe Rey Hernandez"
-Comment1 "Diagrama esquematico de modulos para poncho celda para el curso de Diseño de PCB del CESE."
+Comment1 "Esquematico de modulos para poncho celda para el curso de Diseño de PCB del CESE."
 Comment2 "Licencia GPL V3"
 Comment3 ""
 Comment4 ""

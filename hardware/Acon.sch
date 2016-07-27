@@ -1,35 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:ej2cese
-LIBS:ADS1113IDGSR
 LIBS:poncho_celda-cache
 EELAYER 25 0
 EELAYER END
@@ -40,7 +10,7 @@ Title "Diagrama de acondicionamiento de señal."
 Date "2016-07-04"
 Rev ""
 Comp "Felipe Rey Hernandez"
-Comment1 "Diagrama esquematico de modulos para poncho celda para el curso de Diseño de PCB del CESE."
+Comment1 "Esquematico de modulos para poncho celda para el curso de Diseño de PCB del CESE."
 Comment2 "Licencia GPL V3"
 Comment3 ""
 Comment4 ""
@@ -78,17 +48,6 @@ F 1 "GND" H 5700 4500 50  0000 C CNN
 F 2 "" H 5700 4650 60  0000 C CNN
 F 3 "" H 5700 4650 60  0000 C CNN
 	1    5700 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C1
-U 1 1 57856F17
-P 5150 3350
-F 0 "C1" H 5175 3450 50  0000 L CNN
-F 1 "1nF" H 5175 3250 50  0000 L CNN
-F 2 "celda:C_0603_HandSoldering" H 5188 3200 30  0001 C CNN
-F 3 "" H 5150 3350 60  0000 C CNN
-	1    5150 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -149,12 +108,12 @@ $EndComp
 $Comp
 L GND #PWR08
 U 1 1 57857780
-P 4850 3050
-F 0 "#PWR08" H 4850 2800 50  0001 C CNN
-F 1 "GND" H 4850 2900 50  0000 C CNN
-F 2 "" H 4850 3050 60  0000 C CNN
-F 3 "" H 4850 3050 60  0000 C CNN
-	1    4850 3050
+P 4850 3000
+F 0 "#PWR08" H 4850 2750 50  0001 C CNN
+F 1 "GND" H 4850 2850 50  0000 C CNN
+F 2 "" H 4850 3000 60  0000 C CNN
+F 3 "" H 4850 3000 60  0000 C CNN
+	1    4850 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -268,39 +227,17 @@ F 3 "" H 3500 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 3750 5750 3750
+	5500 3550 5500 3750
 Wire Wire Line
-	5500 3600 5500 3750
+	5500 4100 5500 3950
 Wire Wire Line
-	4800 3600 5500 3600
+	5150 2950 4850 2950
 Wire Wire Line
-	5150 3500 5150 3650
-Connection ~ 5150 3600
-Wire Wire Line
-	5500 3950 5750 3950
-Wire Wire Line
-	5500 4050 5500 3950
-Wire Wire Line
-	4800 4050 5500 4050
-Wire Wire Line
-	5150 3950 5150 4200
-Connection ~ 5150 4050
-Wire Wire Line
-	5150 3200 5150 3000
-Wire Wire Line
-	5150 3000 4850 3000
-Wire Wire Line
-	4850 3000 4850 3050
-Wire Wire Line
-	5150 4500 5150 4650
+	4850 2950 4850 3000
 Wire Wire Line
 	5950 2500 5950 3550
 Wire Wire Line
 	6150 1750 6150 3550
-Wire Wire Line
-	4150 3600 4500 3600
-Wire Wire Line
-	3550 4050 4500 4050
 Wire Wire Line
 	5950 4150 5950 4200
 Wire Wire Line
@@ -308,23 +245,11 @@ Wire Wire Line
 Wire Wire Line
 	5700 4200 5700 4650
 Wire Wire Line
-	6150 4400 6150 4150
-Wire Wire Line
-	6050 4150 6050 4750
-Wire Wire Line
-	6050 4750 6150 4750
-Wire Wire Line
-	6150 4750 6150 4700
-Wire Wire Line
 	3850 1900 3700 1900
 Wire Wire Line
 	3700 1900 3700 2100
 Wire Wire Line
 	5750 1150 5750 1450
-Wire Wire Line
-	5750 1450 5600 1450
-Wire Wire Line
-	5300 1450 5100 1450
 Wire Wire Line
 	5100 1750 6150 1750
 Wire Wire Line
@@ -390,10 +315,6 @@ $EndComp
 Wire Wire Line
 	8600 4000 10050 4000
 Wire Wire Line
-	9150 4000 9150 3750
-Wire Wire Line
-	9450 3750 9450 4150
-Wire Wire Line
 	8600 4150 10050 4150
 $Comp
 L +3.3V #PWR014
@@ -407,13 +328,9 @@ F 3 "" H 9300 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 3450 9150 3200
-Wire Wire Line
 	9150 3200 9450 3200
 Wire Wire Line
 	9300 3200 9300 3100
-Wire Wire Line
-	9450 3200 9450 3450
 Connection ~ 9300 3200
 $Comp
 L GND #PWR015
@@ -494,8 +411,73 @@ Wire Wire Line
 	5600 2650 5950 2650
 Connection ~ 5950 2650
 Wire Wire Line
+	5750 1450 5700 1450
+Wire Wire Line
+	5200 1450 5100 1450
+Wire Wire Line
+	4150 3600 4400 3600
+$Comp
+L C C1
+U 1 1 57856F17
+P 5150 3300
+F 0 "C1" H 5175 3400 50  0000 L CNN
+F 1 "1nF" H 5175 3200 50  0000 L CNN
+F 2 "celda:C_0603_HandSoldering" H 5188 3150 30  0001 C CNN
+F 3 "" H 5150 3300 60  0000 C CNN
+	1    5150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2950 5150 3100
+Wire Wire Line
 	5600 3000 5600 3100
 Wire Wire Line
-	5600 3100 5150 3100
-Connection ~ 5150 3100
+	5600 3100 5300 3100
+Wire Wire Line
+	5300 3100 5300 3000
+Wire Wire Line
+	5300 3000 5150 3000
+Connection ~ 5150 3000
+Wire Wire Line
+	5150 3500 5150 3600
+Wire Wire Line
+	4900 3600 5000 3600
+Wire Wire Line
+	5000 3600 5000 3550
+Wire Wire Line
+	5000 3550 5500 3550
+Connection ~ 5150 3550
+Wire Wire Line
+	5150 4650 5150 4550
+Wire Wire Line
+	3550 4050 4400 4050
+Wire Wire Line
+	5150 4150 5150 4000
+Wire Wire Line
+	4900 4050 5050 4050
+Wire Wire Line
+	5050 4050 5050 4100
+Wire Wire Line
+	5050 4100 5500 4100
+Connection ~ 5150 4100
+Wire Wire Line
+	5500 3950 5750 3950
+Wire Wire Line
+	5500 3750 5750 3750
+Wire Wire Line
+	9450 3850 9450 4150
+Wire Wire Line
+	9150 3850 9150 4000
+Wire Wire Line
+	9150 3200 9150 3350
+Wire Wire Line
+	9450 3200 9450 3350
+Wire Wire Line
+	6050 4150 6050 5050
+Wire Wire Line
+	6050 5050 6150 5050
+Wire Wire Line
+	6150 5050 6150 4800
+Wire Wire Line
+	6150 4300 6150 4150
 $EndSCHEMATC
