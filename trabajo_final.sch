@@ -14,8 +14,8 @@ Title "Detector de caídas - Esquemático jerárquico"
 Date "2016-07-23"
 Rev "2.0"
 Comp "CESE - Trabajo final de la materia \"Diseño de Circuitos Impresos\""
-Comment1 "https://github.com/mdelloso/falling_detector"
-Comment2 "Autores: Ver 'doc/CAMBIOS.txt'      Licencia: Ver  'doc/LICENCIA.txt'"
+Comment1 "Autores: Ver 'doc/CAMBIOS.txt'      Licencia: Ver  'doc/LICENCIA.txt'"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -219,5 +219,5 @@ Wire Notes Line
 Wire Notes Line
 	8050 1000 8200 1000
 Text Notes 8250 1000 0    60   ~ 0
-Fidusiales
+Fiduciales
 $EndSCHEMATC

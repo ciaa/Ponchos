@@ -3,7 +3,7 @@
   (general
     (links 107)
     (no_connects 0)
-    (area 73.584999 25.324999 159.460001 162.635001)
+    (area 26.802857 18.105 270.463338 182.405001)
     (thickness 1.6)
     (drawings 39)
     (tracks 260)
@@ -18,8 +18,7 @@
     (date 2016-07-23)
     (rev 2.0)
     (company "CESE - Trabajo final de la materia \"Diseño de Circuitos Impresos\"")
-    (comment 1 https://github.com/mdelloso/falling_detector)
-    (comment 2 "Autores: Ver 'doc/CAMBIOS.txt'      Licencia: Ver  'doc/LICENCIA.txt'")
+    (comment 1 "Autores: Ver 'doc/CAMBIOS.txt'      Licencia: Ver  'doc/LICENCIA.txt'")
   )
 
   (layers
