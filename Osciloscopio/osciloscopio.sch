@@ -5,7 +5,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 3 5
 Title "Poncho Osciloscopio"
 Date ""
 Rev "1.0"
@@ -208,7 +208,7 @@ U 1 1 578342B4
 P 2800 2400
 AR Path="/560A0C1A/57832D16/578342B4" Ref="R6"  Part="1" 
 AR Path="/579AD191/578342B4" Ref="R6"  Part="1" 
-F 0 "R6" V 2880 2400 50  0000 C CNN
+F 0 "R6" V 2700 2400 50  0000 C CNN
 F 1 "910k" V 2800 2400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2730 2400 50  0001 C CNN
 F 3 "" H 2800 2400 50  0000 C CNN
@@ -1176,4 +1176,8 @@ Wire Wire Line
 Connection ~ 6950 3200
 Wire Wire Line
 	6950 3800 6950 3750
+Wire Wire Line
+	2400 2600 2800 2600
+Text Label 2450 2600 0    60   ~ 0
+OscGND
 $EndSCHEMATC
