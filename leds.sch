@@ -1,99 +1,19 @@
 EESchema Schematic File Version 2
-LIBS:simonShield-rescue
 LIBS:simonLib
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
 LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
-LIBS:ej2cese
 LIBS:simonShield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
-Title "Poncho juego Simon para EDU-CIAA NXP"
-Date "2016-07-14"
+Sheet 3 4
+Title "Poncho Simon EDU-CIAA"
+Date "2016-07-26"
 Rev "1.0"
 Comp "Proyecto CIAA"
 Comment1 "Juan Agustin Bassi"
-Comment2 "Licencia BSD"
-Comment3 ""
+Comment2 "CESE - Diseño PCB"
+Comment3 "Licencia BSD"
 Comment4 ""
 $EndDescr
 $Comp
@@ -113,7 +33,7 @@ U 1 1 57780BC0
 P 4650 2600
 F 0 "Q2" H 4850 2675 50  0000 L CNN
 F 1 "BC547" H 4850 2600 50  0000 L CNN
-F 2 "simonShield:TO-92_Molded_Narrow" H 4850 2525 50  0000 L CIN
+F 2 "simonShield:TO-92_Molded_Narrow" H 4850 2525 50  0001 L CIN
 F 3 "" H 4650 2600 50  0000 L CNN
 F 4 "BC33725TACT-ND" H 4650 2600 60  0001 C CNN "Digikey#"
 	1    4650 2600
@@ -125,7 +45,7 @@ U 1 1 57780BC7
 P 4750 2150
 F 0 "R12" V 4830 2150 50  0000 C CNN
 F 1 "680" V 4750 2150 50  0000 C CNN
-F 2 "footprints:Resistor_Horizontal_RM7mm" V 4680 2150 50  0001 C CNN
+F 2 "simonShield:Resistor_Horizontal_RM7mm" V 4680 2150 50  0001 C CNN
 F 3 "" H 4750 2150 50  0000 C CNN
 F 4 "680EBK-ND" H 4750 2150 60  0001 C CNN "Digikey#"
 	1    4750 2150
@@ -137,7 +57,7 @@ U 1 1 57780BCE
 P 4200 2600
 F 0 "R11" V 4280 2600 50  0000 C CNN
 F 1 "10K" V 4200 2600 50  0000 C CNN
-F 2 "footprints:Resistor_Horizontal_RM7mm" V 4130 2600 50  0001 C CNN
+F 2 "simonShield:Resistor_Horizontal_RM7mm" V 4130 2600 50  0001 C CNN
 F 3 "" H 4200 2600 50  0000 C CNN
 F 4 "680EBK-ND" H 4200 2600 60  0001 C CNN "Digikey#"
 	1    4200 2600
@@ -148,7 +68,7 @@ L LED_5_MM D1
 U 1 1 57780BD5
 P 4750 3100
 F 0 "D1" H 4750 3200 50  0000 C CNN
-F 1 "LED" H 4750 3000 50  0000 C CNN
+F 1 "AMARILLO" H 4750 3000 50  0000 C CNN
 F 2 "simonShield:LED-5MM" H 4750 3100 50  0001 C CNN
 F 3 "" H 4750 3100 50  0000 C CNN
 F 4 "1497-1031-ND" H 4750 3100 60  0001 C CNN "Digikey#"
@@ -172,28 +92,17 @@ U 1 1 57780BE3
 P 7100 2650
 F 0 "Q3" H 7300 2725 50  0000 L CNN
 F 1 "BC547" H 7300 2650 50  0000 L CNN
-F 2 "simonShield:TO-92_Molded_Narrow" H 7300 2575 50  0000 L CIN
+F 2 "simonShield:TO-92_Molded_Narrow" H 7300 2575 50  0001 L CIN
 F 3 "" H 7100 2650 50  0000 L CNN
 F 4 "BC33725TACT-ND" H 7100 2650 60  0001 C CNN "Digikey#"
 	1    7100 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD-RESCUE-simonShield #PWR021
-U 1 1 57780BEA
-P 7200 1950
-F 0 "#PWR021" H 7200 1800 50  0001 C CNN
-F 1 "VDD" H 7200 2100 50  0000 C CNN
-F 2 "" H 7200 1950 50  0000 C CNN
-F 3 "" H 7200 1950 50  0000 C CNN
-	1    7200 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR022
+L GND #PWR021
 U 1 1 57780C06
 P 4800 5850
-F 0 "#PWR022" H 4800 5600 50  0001 C CNN
+F 0 "#PWR021" H 4800 5600 50  0001 C CNN
 F 1 "GND" H 4800 5700 50  0000 C CNN
 F 2 "" H 4800 5850 50  0000 C CNN
 F 3 "" H 4800 5850 50  0000 C CNN
@@ -206,28 +115,17 @@ U 1 1 57780C0C
 P 4700 4950
 F 0 "Q4" H 4900 5025 50  0000 L CNN
 F 1 "BC547" H 4900 4950 50  0000 L CNN
-F 2 "simonShield:TO-92_Molded_Narrow" H 4900 4875 50  0000 L CIN
+F 2 "simonShield:TO-92_Molded_Narrow" H 4900 4875 50  0001 L CIN
 F 3 "" H 4700 4950 50  0000 L CNN
 F 4 "BC33725TACT-ND" H 4700 4950 60  0001 C CNN "Digikey#"
 	1    4700 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD-RESCUE-simonShield #PWR023
-U 1 1 57780C13
-P 4800 4250
-F 0 "#PWR023" H 4800 4100 50  0001 C CNN
-F 1 "VDD" H 4800 4400 50  0000 C CNN
-F 2 "" H 4800 4250 50  0000 C CNN
-F 3 "" H 4800 4250 50  0000 C CNN
-	1    4800 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR024
+L GND #PWR022
 U 1 1 57780C2F
 P 7150 5850
-F 0 "#PWR024" H 7150 5600 50  0001 C CNN
+F 0 "#PWR022" H 7150 5600 50  0001 C CNN
 F 1 "GND" H 7150 5700 50  0000 C CNN
 F 2 "" H 7150 5850 50  0000 C CNN
 F 3 "" H 7150 5850 50  0000 C CNN
@@ -240,32 +138,10 @@ U 1 1 57780C35
 P 7050 4950
 F 0 "Q5" H 7250 5025 50  0000 L CNN
 F 1 "BC547" H 7250 4950 50  0000 L CNN
-F 2 "simonShield:TO-92_Molded_Narrow" H 7250 4875 50  0000 L CIN
+F 2 "simonShield:TO-92_Molded_Narrow" H 7250 4875 50  0001 L CIN
 F 3 "" H 7050 4950 50  0000 L CNN
 F 4 "BC33725TACT-ND" H 7050 4950 60  0001 C CNN "Digikey#"
 	1    7050 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD-RESCUE-simonShield #PWR025
-U 1 1 57780C3C
-P 7150 4250
-F 0 "#PWR025" H 7150 4100 50  0001 C CNN
-F 1 "VDD" H 7150 4400 50  0000 C CNN
-F 2 "" H 7150 4250 50  0000 C CNN
-F 3 "" H 7150 4250 50  0000 C CNN
-	1    7150 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD-RESCUE-simonShield #PWR026
-U 1 1 57780C58
-P 4750 1900
-F 0 "#PWR026" H 4750 1750 50  0001 C CNN
-F 1 "VDD" H 4750 2050 50  0000 C CNN
-F 2 "" H 4750 1900 50  0000 C CNN
-F 3 "" H 4750 1900 50  0000 C CNN
-	1    4750 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -334,7 +210,7 @@ U 1 1 57796FE6
 P 6650 2650
 F 0 "R13" V 6730 2650 50  0000 C CNN
 F 1 "10K" V 6650 2650 50  0000 C CNN
-F 2 "footprints:Resistor_Horizontal_RM7mm" V 6580 2650 50  0001 C CNN
+F 2 "simonShield:Resistor_Horizontal_RM7mm" V 6580 2650 50  0001 C CNN
 F 3 "" H 6650 2650 50  0000 C CNN
 F 4 "680EBK-ND" H 6650 2650 60  0001 C CNN "Digikey#"
 	1    6650 2650
@@ -346,7 +222,7 @@ U 1 1 5779705E
 P 4250 4950
 F 0 "R15" V 4330 4950 50  0000 C CNN
 F 1 "10K" V 4250 4950 50  0000 C CNN
-F 2 "footprints:Resistor_Horizontal_RM7mm" V 4180 4950 50  0001 C CNN
+F 2 "simonShield:Resistor_Horizontal_RM7mm" V 4180 4950 50  0001 C CNN
 F 3 "" H 4250 4950 50  0000 C CNN
 F 4 "680EBK-ND" H 4250 4950 60  0001 C CNN "Digikey#"
 	1    4250 4950
@@ -358,7 +234,7 @@ U 1 1 577970B7
 P 6600 4950
 F 0 "R17" V 6680 4950 50  0000 C CNN
 F 1 "10K" V 6600 4950 50  0000 C CNN
-F 2 "footprints:Resistor_Horizontal_RM7mm" V 6530 4950 50  0001 C CNN
+F 2 "simonShield:Resistor_Horizontal_RM7mm" V 6530 4950 50  0001 C CNN
 F 3 "" H 6600 4950 50  0000 C CNN
 F 4 "680EBK-ND" H 6600 4950 60  0001 C CNN "Digikey#"
 	1    6600 4950
@@ -370,7 +246,7 @@ U 1 1 57797169
 P 7200 2200
 F 0 "R14" V 7280 2200 50  0000 C CNN
 F 1 "680" V 7200 2200 50  0000 C CNN
-F 2 "footprints:Resistor_Horizontal_RM7mm" V 7130 2200 50  0001 C CNN
+F 2 "simonShield:Resistor_Horizontal_RM7mm" V 7130 2200 50  0001 C CNN
 F 3 "" H 7200 2200 50  0000 C CNN
 F 4 "680EBK-ND" H 7200 2200 60  0001 C CNN "Digikey#"
 	1    7200 2200
@@ -382,7 +258,7 @@ U 1 1 577971BC
 P 4800 4500
 F 0 "R16" V 4880 4500 50  0000 C CNN
 F 1 "680" V 4800 4500 50  0000 C CNN
-F 2 "footprints:Resistor_Horizontal_RM7mm" V 4730 4500 50  0001 C CNN
+F 2 "simonShield:Resistor_Horizontal_RM7mm" V 4730 4500 50  0001 C CNN
 F 3 "" H 4800 4500 50  0000 C CNN
 F 4 "680EBK-ND" H 4800 4500 60  0001 C CNN "Digikey#"
 	1    4800 4500
@@ -394,7 +270,7 @@ U 1 1 57797248
 P 7150 4500
 F 0 "R18" V 7230 4500 50  0000 C CNN
 F 1 "680" V 7150 4500 50  0000 C CNN
-F 2 "footprints:Resistor_Horizontal_RM7mm" V 7080 4500 50  0001 C CNN
+F 2 "simonShield:Resistor_Horizontal_RM7mm" V 7080 4500 50  0001 C CNN
 F 3 "" H 7150 4500 50  0000 C CNN
 F 4 "680EBK-ND" H 7150 4500 60  0001 C CNN "Digikey#"
 	1    7150 4500
@@ -405,7 +281,7 @@ L LED_5_MM D2
 U 1 1 5779749F
 P 7200 3150
 F 0 "D2" H 7200 3250 50  0000 C CNN
-F 1 "LED" H 7200 3050 50  0000 C CNN
+F 1 "AZUL" H 7200 3050 50  0000 C CNN
 F 2 "simonShield:LED-5MM" H 7200 3150 50  0001 C CNN
 F 3 "" H 7200 3150 50  0000 C CNN
 F 4 "1497-1031-ND" H 7200 3150 60  0001 C CNN "Digikey#"
@@ -417,7 +293,7 @@ L LED_5_MM D3
 U 1 1 5779752F
 P 4800 5450
 F 0 "D3" H 4800 5550 50  0000 C CNN
-F 1 "LED" H 4800 5350 50  0000 C CNN
+F 1 "ROJO" H 4800 5350 50  0000 C CNN
 F 2 "simonShield:LED-5MM" H 4800 5450 50  0001 C CNN
 F 3 "" H 4800 5450 50  0000 C CNN
 F 4 "1497-1031-ND" H 4800 5450 60  0001 C CNN "Digikey#"
@@ -429,7 +305,7 @@ L LED_5_MM D4
 U 1 1 577975B8
 P 7150 5450
 F 0 "D4" H 7150 5550 50  0000 C CNN
-F 1 "LED" H 7150 5350 50  0000 C CNN
+F 1 "VERDE" H 7150 5350 50  0000 C CNN
 F 2 "simonShield:LED-5MM" H 7150 5450 50  0001 C CNN
 F 3 "" H 7150 5450 50  0000 C CNN
 F 4 "1497-1031-ND" H 7150 5450 60  0001 C CNN "Digikey#"
@@ -452,4 +328,48 @@ Wire Notes Line
 	8800 1000 3100 1000
 Text Notes 5800 1250 0    60   ~ 12
 LEDS
+$Comp
+L VCC #PWR023
+U 1 1 5798BF43
+P 4800 4250
+F 0 "#PWR023" H 4800 4100 50  0001 C CNN
+F 1 "VCC" H 4800 4400 50  0000 C CNN
+F 2 "" H 4800 4250 50  0000 C CNN
+F 3 "" H 4800 4250 50  0000 C CNN
+	1    4800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR024
+U 1 1 5798C0E6
+P 7150 4250
+F 0 "#PWR024" H 7150 4100 50  0001 C CNN
+F 1 "VCC" H 7150 4400 50  0000 C CNN
+F 2 "" H 7150 4250 50  0000 C CNN
+F 3 "" H 7150 4250 50  0000 C CNN
+	1    7150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR025
+U 1 1 5798C2B1
+P 7200 1950
+F 0 "#PWR025" H 7200 1800 50  0001 C CNN
+F 1 "VCC" H 7200 2100 50  0000 C CNN
+F 2 "" H 7200 1950 50  0000 C CNN
+F 3 "" H 7200 1950 50  0000 C CNN
+	1    7200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR026
+U 1 1 5798C42E
+P 4750 1900
+F 0 "#PWR026" H 4750 1750 50  0001 C CNN
+F 1 "VCC" H 4750 2050 50  0000 C CNN
+F 2 "" H 4750 1900 50  0000 C CNN
+F 3 "" H 4750 1900 50  0000 C CNN
+	1    4750 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,99 +1,19 @@
 EESchema Schematic File Version 2
-LIBS:simonShield-rescue
 LIBS:simonLib
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
 LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
-LIBS:ej2cese
 LIBS:simonShield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
-Title "Poncho juego Simon para EDU-CIAA NXP"
-Date "2016-07-14"
+Sheet 4 4
+Title "Poncho Simon EDU-CIAA"
+Date "2016-07-26"
 Rev "1.0"
 Comp "Proyecto CIAA"
 Comment1 "Juan Agustin Bassi"
-Comment2 "Licencia BSD"
-Comment3 ""
+Comment2 "CESE - Diseño PCB"
+Comment3 "Licencia BSD"
 Comment4 ""
 $EndDescr
 $Comp
@@ -117,7 +37,7 @@ F 0 "XA1" H 4200 3450 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 4250 1350 60  0000 C CNN
 F 2 "simonShield:Conn_Poncho_SinBorde" H 3900 3050 60  0001 C CNN
 F 3 "" H 3900 3050 60  0000 C CNN
-F 4 "952­2121­ND" H 3900 3050 60  0001 C CNN "Digikey#"
+F 4 "952-2121-ND" H 3900 3050 60  0001 C CNN "Digikey#"
 	2    3900 3050
 	1    0    0    -1  
 $EndComp
@@ -129,7 +49,7 @@ F 0 "P1" H 4250 2400 50  0000 C CNN
 F 1 "PWR_JUMPER" H 4250 2100 50  0000 C CNN
 F 2 "simonShield:Pin_Header_Straight_2x02" H 4250 1050 50  0001 C CNN
 F 3 "" H 4250 1050 50  0000 C CNN
-F 4 "952­2121­ND" H 4250 2250 60  0001 C CNN "Digikey#"
+F 4 "952-2121-ND" H 4250 2250 60  0001 C CNN "Digikey#"
 	1    4250 2250
 	1    0    0    -1  
 $EndComp
@@ -159,7 +79,7 @@ Text HLabel 5250 3950 2    60   Input ~ 0
 BTN_CFG_1
 Text HLabel 2900 4150 0    60   Input ~ 0
 BTN_CFG_2
-Text HLabel 2900 4350 0    60   Input ~ 0
+Text HLabel 5250 4350 2    60   Input ~ 0
 BTN_CFG_3
 Text HLabel 5250 4450 2    60   Input ~ 0
 BTN_CFG_4
@@ -173,7 +93,7 @@ Text HLabel 5250 3750 2    60   Input ~ 0
 LED_1
 Text HLabel 5250 4550 2    60   Input ~ 0
 BTN_LED_4
-Text HLabel 5250 4350 2    60   Input ~ 0
+Text HLabel 2900 4350 0    60   Input ~ 0
 BTN_LED_3
 Text HLabel 5250 4150 2    60   Input ~ 0
 BTN_LED_2
@@ -182,17 +102,6 @@ BTN_LED_1
 Text HLabel 2900 4450 0    60   Input ~ 0
 PWM
 $Comp
-L VDD #PWR028
-U 1 1 577872E9
-P 4800 2050
-F 0 "#PWR028" H 4800 1900 50  0001 C CNN
-F 1 "VDD" H 4800 2200 50  0000 C CNN
-F 2 "" H 4800 2050 50  0000 C CNN
-F 3 "" H 4800 2050 50  0000 C CNN
-	1    4800 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Conn_Poncho2P_2x_20x2 XA1
 U 1 1 577946F6
 P 7400 3000
@@ -200,7 +109,7 @@ F 0 "XA1" H 7700 3400 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 7750 1300 60  0000 C CNN
 F 2 "simonShield:Conn_Poncho_SinBorde" H 7400 3000 60  0001 C CNN
 F 3 "" H 7400 3000 60  0000 C CNN
-F 4 "952­2121­ND" H 7400 3000 60  0001 C CNN "Digikey#"
+F 4 "952-2121-ND" H 7400 3000 60  0001 C CNN "Digikey#"
 	1    7400 3000
 	1    0    0    -1  
 $EndComp
@@ -251,10 +160,10 @@ P2
 Text Notes 7700 1300 0    60   ~ 12
 P1
 $Comp
-L GND #PWR029
+L GND #PWR028
 U 1 1 578F601E
 P 3400 4750
-F 0 "#PWR029" H 3400 4500 50  0001 C CNN
+F 0 "#PWR028" H 3400 4500 50  0001 C CNN
 F 1 "GND" H 3400 4600 50  0000 C CNN
 F 2 "" H 3400 4750 50  0000 C CNN
 F 3 "" H 3400 4750 50  0000 C CNN
@@ -337,13 +246,11 @@ Wire Wire Line
 Connection ~ 4800 2200
 Wire Wire Line
 	4500 2200 5150 2200
-Wire Wire Line
-	5150 2200 5150 2350
 $Comp
-L GND #PWR028
+L GND #PWR029
 U 1 1 57781D17
 P 5150 2900
-F 0 "#PWR028" H 5150 2650 50  0001 C CNN
+F 0 "#PWR029" H 5150 2650 50  0001 C CNN
 F 1 "GND" H 5150 2750 50  0000 C CNN
 F 2 "" H 5150 2900 50  0000 C CNN
 F 3 "" H 5150 2900 50  0000 C CNN
@@ -364,4 +271,17 @@ F 4 "BC1160TR­ND" H 5150 2550 60  0001 C CNN "Digikey#"
 	1    5150 2550
 	1    0    0    -1  
 $EndComp
+$Comp
+L VCC #PWR030
+U 1 1 5798B140
+P 4800 2050
+F 0 "#PWR030" H 4800 1900 50  0001 C CNN
+F 1 "VCC" H 4800 2200 50  0000 C CNN
+F 2 "" H 4800 2050 50  0000 C CNN
+F 3 "" H 4800 2050 50  0000 C CNN
+	1    4800 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2200 5150 2350
 $EndSCHEMATC

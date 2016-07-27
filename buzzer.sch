@@ -11,7 +11,6 @@ LIBS:analog_devices
 LIBS:analog_switches
 LIBS:atmel
 LIBS:audio
-LIBS:bbd
 LIBS:brooktre
 LIBS:cmos4000
 LIBS:cmos_ieee
@@ -80,20 +79,19 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
-LIBS:ej2cese
 LIBS:simonShield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title "Poncho juego Simon para EDU-CIAA NXP"
-Date "2016-07-14"
+Title "Poncho Simon EDU-CIAA"
+Date "2016-07-26"
 Rev "1.0"
 Comp "Proyecto CIAA"
 Comment1 "Juan Agustin Bassi"
-Comment2 "Licencia BSD"
-Comment3 ""
+Comment2 "CESE - Diseño PCB"
+Comment3 "Licencia BSD"
 Comment4 ""
 $EndDescr
 $Comp

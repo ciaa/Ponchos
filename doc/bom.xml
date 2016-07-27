@@ -2,70 +2,57 @@
 <export version="D">
   <design>
     <source>/home/mint/googleDrive/estudios/cese/disenoPcb/proyectos/simonShield/simonShield.sch</source>
-    <date>jue 07 jul 2016 02:16:50 ART</date>
+    <date>mar 26 jul 2016 22:15:30 ART</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Poncho juego Simon para EDU-CIAA NXP</title>
+        <title>Poncho Simon EDU-CIAA</title>
         <company>Proyecto CIAA</company>
-        <rev>0.1</rev>
-        <date>2016-07-01</date>
+        <rev>1.0</rev>
+        <date>2016-07-26</date>
         <source>simonShield.sch</source>
         <comment number="1" value="Juan Agustin Bassi"/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="2" value="CESE - Diseño PCB"/>
+        <comment number="3" value="Licencia BSD"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
     <sheet number="2" name="/buttons/" tstamps="/5777D5BA/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Poncho Simon EDU-CIAA</title>
+        <company>Proyecto CIAA</company>
+        <rev>1.0</rev>
+        <date>2016-07-26</date>
         <source>buttons.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="1" value="Juan Agustin Bassi"/>
+        <comment number="2" value="CESE - Diseño PCB"/>
+        <comment number="3" value="Licencia BSD"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/buzzer/" tstamps="/5777F9A1/">
+    <sheet number="3" name="/leds/" tstamps="/57780685/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>buzzer.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="4" name="/leds/" tstamps="/57780685/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Poncho Simon EDU-CIAA</title>
+        <company>Proyecto CIAA</company>
+        <rev>1.0</rev>
+        <date>2016-07-26</date>
         <source>leds.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="1" value="Juan Agustin Bassi"/>
+        <comment number="2" value="CESE - Diseño PCB"/>
+        <comment number="3" value="Licencia BSD"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/ciaaConector/" tstamps="/57781B52/">
+    <sheet number="4" name="/ciaaConector/" tstamps="/57781B52/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Poncho Simon EDU-CIAA</title>
+        <company>Proyecto CIAA</company>
+        <rev>1.0</rev>
+        <date>2016-07-26</date>
         <source>ciaaConector.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="1" value="Juan Agustin Bassi"/>
+        <comment number="2" value="CESE - Diseño PCB"/>
+        <comment number="3" value="Licencia BSD"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -73,39 +60,79 @@
   <components>
     <comp ref="F1">
       <value>FIDUCIAL</value>
-      <footprint>footprints:Fiducial_1mm</footprint>
+      <footprint>simonShield:Fiducial_1mm</footprint>
       <fields>
         <field name="Descripcion">FIDUCIAL</field>
       </fields>
-      <libsource lib="ej2cese" part="FIDUCIAL"/>
+      <libsource lib="simonShield-cache" part="FIDUCIAL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>577D561F</tstamp>
     </comp>
     <comp ref="F2">
       <value>FIDUCIAL</value>
-      <footprint>footprints:Fiducial_1mm</footprint>
+      <footprint>simonShield:Fiducial_1mm</footprint>
       <fields>
         <field name="Descripcion">FIDUCIAL</field>
       </fields>
-      <libsource lib="ej2cese" part="FIDUCIAL"/>
+      <libsource lib="simonShield-cache" part="FIDUCIAL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>577D5F36</tstamp>
     </comp>
     <comp ref="F3">
       <value>FIDUCIAL</value>
-      <footprint>footprints:Fiducial_1mm</footprint>
+      <footprint>simonShield:Fiducial_1mm</footprint>
       <fields>
         <field name="Descripcion">FIDUCIAL</field>
       </fields>
-      <libsource lib="ej2cese" part="FIDUCIAL"/>
+      <libsource lib="simonShield-cache" part="FIDUCIAL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>577D5FF6</tstamp>
     </comp>
+    <comp ref="U1">
+      <value>BUZZER</value>
+      <footprint>simonShield:MagneticBuzzer_ProSignal_ABT-410-RC</footprint>
+      <fields>
+        <field name="Digikey#">445-2525-1-ND</field>
+      </fields>
+      <libsource lib="simonLib" part="BUZZER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5797F3F6</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC547</value>
+      <footprint>simonShield:TO-92_Molded_Narrow</footprint>
+      <fields>
+        <field name="Digikey#">BC33725TACT-ND</field>
+      </fields>
+      <libsource lib="simonLib" part="BC547"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5797F3FE</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>3K3</value>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
+      <fields>
+        <field name="Digikey#">680EBK-ND</field>
+      </fields>
+      <libsource lib="simonLib" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5797F406</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
+      <fields>
+        <field name="Digikey#">680EBK-ND</field>
+      </fields>
+      <libsource lib="simonLib" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5797F41B</tstamp>
+    </comp>
     <comp ref="SW1">
       <value>SW_PUSH</value>
-      <footprint>footprints:SW_PUSH_SMALL</footprint>
+      <footprint>simonShield:SW_PUSH_SMALL</footprint>
       <fields>
-        <field name="Digikey#">450­1804­ND</field>
+        <field name="Digikey#">450-1804-ND</field>
       </fields>
       <libsource lib="simonLib" part="SW_PUSH"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -113,9 +140,9 @@
     </comp>
     <comp ref="R1">
       <value>3K3</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
-        <field name="Digikey#">680EBK­ND</field>
+        <field name="Digikey#">680EBK-ND</field>
       </fields>
       <libsource lib="simonLib" part="R"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -123,9 +150,9 @@
     </comp>
     <comp ref="SW3">
       <value>SW_PUSH</value>
-      <footprint>footprints:SW_PUSH_SMALL</footprint>
+      <footprint>simonShield:SW_PUSH_SMALL</footprint>
       <fields>
-        <field name="Digikey#">450­1804­ND</field>
+        <field name="Digikey#">450-1804-ND</field>
       </fields>
       <libsource lib="simonLib" part="SW_PUSH"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -133,9 +160,9 @@
     </comp>
     <comp ref="SW5">
       <value>SW_PUSH</value>
-      <footprint>footprints:SW_PUSH_SMALL</footprint>
+      <footprint>simonShield:SW_PUSH_SMALL</footprint>
       <fields>
-        <field name="Digikey#">450­1804­ND</field>
+        <field name="Digikey#">450-1804-ND</field>
       </fields>
       <libsource lib="simonLib" part="SW_PUSH"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -143,9 +170,9 @@
     </comp>
     <comp ref="SW7">
       <value>SW_PUSH</value>
-      <footprint>footprints:SW_PUSH_SMALL</footprint>
+      <footprint>simonShield:SW_PUSH_SMALL</footprint>
       <fields>
-        <field name="Digikey#">450­1804­ND</field>
+        <field name="Digikey#">450-1804-ND</field>
       </fields>
       <libsource lib="simonLib" part="SW_PUSH"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -153,9 +180,9 @@
     </comp>
     <comp ref="SW2">
       <value>SW_PUSH</value>
-      <footprint>footprints:SW_PUSH_SMALL</footprint>
+      <footprint>simonShield:SW_PUSH_SMALL</footprint>
       <fields>
-        <field name="Digikey#">450­1804­ND</field>
+        <field name="Digikey#">450-1804-ND</field>
       </fields>
       <libsource lib="simonLib" part="SW_PUSH"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -163,9 +190,9 @@
     </comp>
     <comp ref="SW4">
       <value>SW_PUSH</value>
-      <footprint>footprints:SW_PUSH_SMALL</footprint>
+      <footprint>simonShield:SW_PUSH_SMALL</footprint>
       <fields>
-        <field name="Digikey#">450­1804­ND</field>
+        <field name="Digikey#">450-1804-ND</field>
       </fields>
       <libsource lib="simonLib" part="SW_PUSH"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -173,9 +200,9 @@
     </comp>
     <comp ref="SW6">
       <value>SW_PUSH</value>
-      <footprint>footprints:SW_PUSH_SMALL</footprint>
+      <footprint>simonShield:SW_PUSH_SMALL</footprint>
       <fields>
-        <field name="Digikey#">450­1804­ND</field>
+        <field name="Digikey#">450-1804-ND</field>
       </fields>
       <libsource lib="simonLib" part="SW_PUSH"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -183,9 +210,9 @@
     </comp>
     <comp ref="SW8">
       <value>SW_PUSH</value>
-      <footprint>footprints:SW_PUSH_SMALL</footprint>
+      <footprint>simonShield:SW_PUSH_SMALL</footprint>
       <fields>
-        <field name="Digikey#">450­1804­ND</field>
+        <field name="Digikey#">450-1804-ND</field>
       </fields>
       <libsource lib="simonLib" part="SW_PUSH"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -193,9 +220,9 @@
     </comp>
     <comp ref="R3">
       <value>3K3</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
-        <field name="Digikey#">680EBK­ND</field>
+        <field name="Digikey#">680EBK-ND</field>
       </fields>
       <libsource lib="simonLib" part="R"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -203,9 +230,9 @@
     </comp>
     <comp ref="R5">
       <value>3K3</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
-        <field name="Digikey#">680EBK­ND</field>
+        <field name="Digikey#">680EBK-ND</field>
       </fields>
       <libsource lib="simonLib" part="R"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -213,9 +240,9 @@
     </comp>
     <comp ref="R7">
       <value>3K3</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
-        <field name="Digikey#">680EBK­ND</field>
+        <field name="Digikey#">680EBK-ND</field>
       </fields>
       <libsource lib="simonLib" part="R"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -223,9 +250,9 @@
     </comp>
     <comp ref="R2">
       <value>3K3</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
-        <field name="Digikey#">680EBK­ND</field>
+        <field name="Digikey#">680EBK-ND</field>
       </fields>
       <libsource lib="simonLib" part="R"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -233,9 +260,9 @@
     </comp>
     <comp ref="R4">
       <value>3K3</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
-        <field name="Digikey#">680EBK­ND</field>
+        <field name="Digikey#">680EBK-ND</field>
       </fields>
       <libsource lib="simonLib" part="R"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -243,9 +270,9 @@
     </comp>
     <comp ref="R6">
       <value>3K3</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
-        <field name="Digikey#">680EBK­ND</field>
+        <field name="Digikey#">680EBK-ND</field>
       </fields>
       <libsource lib="simonLib" part="R"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
@@ -253,57 +280,17 @@
     </comp>
     <comp ref="R8">
       <value>3K3</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
-        <field name="Digikey#">680EBK­ND</field>
+        <field name="Digikey#">680EBK-ND</field>
       </fields>
       <libsource lib="simonLib" part="R"/>
       <sheetpath names="/buttons/" tstamps="/5777D5BA/"/>
       <tstamp>57796AEC</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>BUZZER</value>
-      <footprint>footprints:MagneticBuzzer_ProSignal_ABT-410-RC</footprint>
-      <fields>
-        <field name="Digikey#">445-2525-1-ND</field>
-      </fields>
-      <libsource lib="simonLib" part="BUZZER"/>
-      <sheetpath names="/buzzer/" tstamps="/5777F9A1/"/>
-      <tstamp>5777FCBE</tstamp>
-    </comp>
-    <comp ref="Q1">
-      <value>BC547</value>
-      <footprint>footprints:TO-92_Molded_Narrow</footprint>
-      <fields>
-        <field name="Digikey#">BC33725TACT-ND</field>
-      </fields>
-      <libsource lib="simonLib" part="BC547"/>
-      <sheetpath names="/buzzer/" tstamps="/5777F9A1/"/>
-      <tstamp>5777FCC6</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>3K3</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
-      <fields>
-        <field name="Digikey#">680EBK-ND</field>
-      </fields>
-      <libsource lib="simonLib" part="R"/>
-      <sheetpath names="/buzzer/" tstamps="/5777F9A1/"/>
-      <tstamp>5777FCCD</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>1K</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
-      <fields>
-        <field name="Digikey#">680EBK-ND</field>
-      </fields>
-      <libsource lib="simonLib" part="R"/>
-      <sheetpath names="/buzzer/" tstamps="/5777F9A1/"/>
-      <tstamp>577960FD</tstamp>
-    </comp>
     <comp ref="Q2">
       <value>BC547</value>
-      <footprint>footprints:TO-92_Molded_Narrow</footprint>
+      <footprint>simonShield:TO-92_Molded_Narrow</footprint>
       <fields>
         <field name="Digikey#">BC33725TACT-ND</field>
       </fields>
@@ -313,7 +300,7 @@
     </comp>
     <comp ref="R12">
       <value>680</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
         <field name="Digikey#">680EBK-ND</field>
       </fields>
@@ -323,7 +310,7 @@
     </comp>
     <comp ref="R11">
       <value>10K</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
         <field name="Digikey#">680EBK-ND</field>
       </fields>
@@ -332,8 +319,8 @@
       <tstamp>57780BCE</tstamp>
     </comp>
     <comp ref="D1">
-      <value>LED</value>
-      <footprint>footprints:LED-5MM</footprint>
+      <value>AMARILLO</value>
+      <footprint>simonShield:LED-5MM</footprint>
       <fields>
         <field name="Digikey#">1497-1031-ND</field>
       </fields>
@@ -343,7 +330,7 @@
     </comp>
     <comp ref="Q3">
       <value>BC547</value>
-      <footprint>footprints:TO-92_Molded_Narrow</footprint>
+      <footprint>simonShield:TO-92_Molded_Narrow</footprint>
       <fields>
         <field name="Digikey#">BC33725TACT-ND</field>
       </fields>
@@ -353,7 +340,7 @@
     </comp>
     <comp ref="Q4">
       <value>BC547</value>
-      <footprint>footprints:TO-92_Molded_Narrow</footprint>
+      <footprint>simonShield:TO-92_Molded_Narrow</footprint>
       <fields>
         <field name="Digikey#">BC33725TACT-ND</field>
       </fields>
@@ -363,7 +350,7 @@
     </comp>
     <comp ref="Q5">
       <value>BC547</value>
-      <footprint>footprints:TO-92_Molded_Narrow</footprint>
+      <footprint>simonShield:TO-92_Molded_Narrow</footprint>
       <fields>
         <field name="Digikey#">BC33725TACT-ND</field>
       </fields>
@@ -373,7 +360,7 @@
     </comp>
     <comp ref="R13">
       <value>10K</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
         <field name="Digikey#">680EBK-ND</field>
       </fields>
@@ -383,7 +370,7 @@
     </comp>
     <comp ref="R15">
       <value>10K</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
         <field name="Digikey#">680EBK-ND</field>
       </fields>
@@ -393,7 +380,7 @@
     </comp>
     <comp ref="R17">
       <value>10K</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
         <field name="Digikey#">680EBK-ND</field>
       </fields>
@@ -403,7 +390,7 @@
     </comp>
     <comp ref="R14">
       <value>680</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
         <field name="Digikey#">680EBK-ND</field>
       </fields>
@@ -413,7 +400,7 @@
     </comp>
     <comp ref="R16">
       <value>680</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
         <field name="Digikey#">680EBK-ND</field>
       </fields>
@@ -423,7 +410,7 @@
     </comp>
     <comp ref="R18">
       <value>680</value>
-      <footprint>footprints:Resistor_Horizontal_RM7mm</footprint>
+      <footprint>simonShield:Resistor_Horizontal_RM7mm</footprint>
       <fields>
         <field name="Digikey#">680EBK-ND</field>
       </fields>
@@ -432,8 +419,8 @@
       <tstamp>57797248</tstamp>
     </comp>
     <comp ref="D2">
-      <value>LED</value>
-      <footprint>footprints:LED-5MM</footprint>
+      <value>AZUL</value>
+      <footprint>simonShield:LED-5MM</footprint>
       <fields>
         <field name="Digikey#">1497-1031-ND</field>
       </fields>
@@ -442,8 +429,8 @@
       <tstamp>5779749F</tstamp>
     </comp>
     <comp ref="D3">
-      <value>LED</value>
-      <footprint>footprints:LED-5MM</footprint>
+      <value>ROJO</value>
+      <footprint>simonShield:LED-5MM</footprint>
       <fields>
         <field name="Digikey#">1497-1031-ND</field>
       </fields>
@@ -452,8 +439,8 @@
       <tstamp>5779752F</tstamp>
     </comp>
     <comp ref="D4">
-      <value>LED</value>
-      <footprint>footprints:LED-5MM</footprint>
+      <value>VERDE</value>
+      <footprint>simonShield:LED-5MM</footprint>
       <fields>
         <field name="Digikey#">1497-1031-ND</field>
       </fields>
@@ -463,9 +450,9 @@
     </comp>
     <comp ref="XA1">
       <value>Conn_Poncho2P_2x_20x2</value>
-      <footprint>footprints:Pin_Header_Straight_2x20</footprint>
+      <footprint>simonShield:Conn_Poncho_SinBorde</footprint>
       <fields>
-        <field name="Digikey#">952­2121­ND</field>
+        <field name="Digikey#">952-2121-ND</field>
       </fields>
       <libsource lib="simonLib" part="Conn_Poncho2P_2x_20x2"/>
       <sheetpath names="/ciaaConector/" tstamps="/57781B52/"/>
@@ -473,9 +460,9 @@
     </comp>
     <comp ref="P1">
       <value>PWR_JUMPER</value>
-      <footprint>footprints:Pin_Header_Straight_2x02</footprint>
+      <footprint>simonShield:Pin_Header_Straight_2x02</footprint>
       <fields>
-        <field name="Digikey#">952­2121­ND</field>
+        <field name="Digikey#">952-2121-ND</field>
       </fields>
       <libsource lib="simonLib" part="PWR_JUMPER"/>
       <sheetpath names="/ciaaConector/" tstamps="/57781B52/"/>
@@ -483,23 +470,13 @@
     </comp>
     <comp ref="C1">
       <value>C_100nF</value>
-      <footprint>footprints:C_Disc_D3_P2.5</footprint>
+      <footprint>simonShield:C_Disc_D3_P2.5</footprint>
       <fields>
         <field name="Digikey#">BC1160TR­ND</field>
       </fields>
       <libsource lib="simonLib" part="C_100nF"/>
       <sheetpath names="/ciaaConector/" tstamps="/57781B52/"/>
       <tstamp>57781D10</tstamp>
-    </comp>
-    <comp ref="XA2">
-      <value>Conn_Poncho2P_2x_20x2</value>
-      <footprint>footprints:Pin_Header_Straight_2x20</footprint>
-      <fields>
-        <field name="Digikey#">952­2121­ND</field>
-      </fields>
-      <libsource lib="simonLib" part="Conn_Poncho2P_2x_20x2"/>
-      <sheetpath names="/ciaaConector/" tstamps="/57781B52/"/>
-      <tstamp>577946F6</tstamp>
     </comp>
   </components>
   <libparts>
@@ -634,7 +611,7 @@
         <pin num="80" name="GPIO8" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ej2cese" part="FIDUCIAL">
+    <libpart lib="simonShield-cache" part="FIDUCIAL">
       <fields>
         <field name="Reference">F</field>
         <field name="Value">FIDUCIAL</field>
@@ -705,403 +682,373 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="simonShield-cache">
+      <uri>/home/mint/googleDrive/estudios/cese/disenoPcb/proyectos/simonShield/simonShield-cache.lib</uri>
+    </library>
     <library logical="simonLib">
       <uri>/home/mint/googleDrive/estudios/cese/disenoPcb/proyectos/simonShield/libs/simonLib.lib</uri>
     </library>
-    <library logical="ej2cese">
-      <uri>/home/mint/googleDrive/estudios/cese/disenoPcb/proyectos/ejercicio2/ejlibcese/ej2cese.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="/ciaaConector/LED_2">
-      <node ref="XA1" pin="72"/>
-      <node ref="R13" pin="1"/>
-    </net>
-    <net code="2" name="Net-(F2-Pad1)">
-      <node ref="F2" pin="1"/>
-    </net>
-    <net code="3" name="Net-(F3-Pad1)">
-      <node ref="F3" pin="1"/>
-    </net>
-    <net code="4" name="/buttons/BTN_CFG_1">
-      <node ref="XA1" pin="66"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="5" name="/buttons/BTN_CFG_2">
-      <node ref="R4" pin="1"/>
-      <node ref="SW4" pin="1"/>
-      <node ref="XA1" pin="69"/>
-    </net>
-    <net code="6" name="/buttons/BTN_CFG_3">
-      <node ref="R6" pin="1"/>
-      <node ref="SW6" pin="1"/>
-      <node ref="XA1" pin="74"/>
-    </net>
-    <net code="7" name="/buttons/BTN_CFG_4">
-      <node ref="SW8" pin="1"/>
-      <node ref="XA1" pin="78"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="8" name="/buttons/BTN_LED_4">
-      <node ref="R7" pin="1"/>
-      <node ref="XA1" pin="76"/>
-      <node ref="SW7" pin="1"/>
-    </net>
-    <net code="9" name="/buttons/BTN_LED_3">
-      <node ref="R5" pin="1"/>
-      <node ref="XA1" pin="71"/>
-      <node ref="SW5" pin="1"/>
-    </net>
-    <net code="10" name="/buttons/BTN_LED_2">
-      <node ref="SW3" pin="1"/>
-      <node ref="XA1" pin="70"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="11" name="/buttons/BTN_LED_1">
-      <node ref="SW1" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="XA1" pin="62"/>
-    </net>
-    <net code="12" name="/ciaaConector/LED_1">
-      <node ref="XA1" pin="68"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="13" name="/ciaaConector/LED_3">
+    <net code="1" name="/ciaaConector/LED_3">
       <node ref="R15" pin="1"/>
-      <node ref="XA1" pin="73"/>
+      <node ref="XA1" pin="72"/>
     </net>
-    <net code="14" name="/ciaaConector/LED_4">
-      <node ref="XA1" pin="80"/>
-      <node ref="R17" pin="1"/>
+    <net code="2" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R10" pin="2"/>
     </net>
-    <net code="15" name="/buzzer/PWM">
-      <node ref="R9" pin="2"/>
-      <node ref="XA1" pin="75"/>
-    </net>
-    <net code="16" name="Net-(F1-Pad1)">
-      <node ref="F1" pin="1"/>
-    </net>
-    <net code="17" name="Net-(R8-Pad2)">
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="18" name="GND">
+    <net code="3" name="GND">
+      <node ref="SW6" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="SW7" pin="2"/>
       <node ref="C1" pin="2"/>
       <node ref="XA1" pin="43"/>
-      <node ref="D1" pin="1"/>
+      <node ref="XA1" pin="79"/>
       <node ref="D4" pin="1"/>
       <node ref="D3" pin="1"/>
       <node ref="D2" pin="1"/>
-      <node ref="SW8" pin="2"/>
-      <node ref="SW4" pin="2"/>
-      <node ref="SW7" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="SW5" pin="2"/>
-      <node ref="SW3" pin="2"/>
-      <node ref="SW6" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="XA1" pin="77"/>
       <node ref="U1" pin="2"/>
-      <node ref="SW2" pin="2"/>
     </net>
-    <net code="19" name="Net-(R6-Pad2)">
-      <node ref="R6" pin="2"/>
-    </net>
-    <net code="20" name="Net-(R4-Pad2)">
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="21" name="Net-(R2-Pad2)">
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="22" name="Net-(R5-Pad2)">
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="23" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="24" name="Net-(R1-Pad2)">
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="25" name="Net-(R7-Pad2)">
-      <node ref="R7" pin="2"/>
-    </net>
-    <net code="26" name="Net-(Q1-Pad3)">
+    <net code="4" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3"/>
       <node ref="U1" pin="1"/>
     </net>
-    <net code="27" name="Net-(Q1-Pad2)">
-      <node ref="Q1" pin="2"/>
-      <node ref="R9" pin="1"/>
+    <net code="5" name="/ciaaConector/PWM">
+      <node ref="R9" pin="2"/>
+      <node ref="XA1" pin="75"/>
     </net>
-    <net code="28" name="Net-(R10-Pad1)">
+    <net code="6" name="/ciaaConector/LED_4">
+      <node ref="XA1" pin="80"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="7" name="Net-(Q1-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="8" name="/ciaaConector/LED_2">
+      <node ref="R13" pin="1"/>
+      <node ref="XA1" pin="71"/>
+    </net>
+    <net code="9" name="/ciaaConector/LED_1">
+      <node ref="R11" pin="1"/>
+      <node ref="XA1" pin="62"/>
+    </net>
+    <net code="10" name="/buttons/BTN_LED_1">
+      <node ref="R1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="XA1" pin="64"/>
+    </net>
+    <net code="11" name="VCC">
+      <node ref="R18" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P1" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R2" pin="2"/>
       <node ref="R10" pin="1"/>
     </net>
-    <net code="29" name="Net-(Q1-Pad1)">
-      <node ref="R10" pin="2"/>
-      <node ref="Q1" pin="1"/>
+    <net code="12" name="/buttons/BTN_LED_2">
+      <node ref="XA1" pin="70"/>
+      <node ref="R3" pin="1"/>
+      <node ref="SW3" pin="1"/>
     </net>
-    <net code="30" name="Net-(D3-Pad2)">
-      <node ref="Q4" pin="3"/>
-      <node ref="D3" pin="2"/>
+    <net code="13" name="/buttons/BTN_CFG_4">
+      <node ref="XA1" pin="76"/>
+      <node ref="R8" pin="1"/>
+      <node ref="SW8" pin="1"/>
     </net>
-    <net code="31" name="Net-(R12-Pad2)">
-      <node ref="R12" pin="2"/>
+    <net code="14" name="/buttons/BTN_CFG_3">
+      <node ref="SW6" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="XA1" pin="74"/>
     </net>
-    <net code="32" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2"/>
-      <node ref="Q5" pin="3"/>
+    <net code="15" name="/buttons/BTN_CFG_2">
+      <node ref="XA1" pin="69"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="33" name="Net-(Q5-Pad1)">
-      <node ref="Q5" pin="1"/>
-      <node ref="R18" pin="1"/>
+    <net code="16" name="/buttons/BTN_CFG_1">
+      <node ref="SW2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="XA1" pin="66"/>
     </net>
-    <net code="34" name="Net-(R18-Pad2)">
-      <node ref="R18" pin="2"/>
+    <net code="17" name="/buttons/BTN_LED_4">
+      <node ref="SW7" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="XA1" pin="78"/>
     </net>
-    <net code="35" name="Net-(Q5-Pad2)">
+    <net code="18" name="/buttons/BTN_LED_3">
+      <node ref="R5" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="XA1" pin="73"/>
+    </net>
+    <net code="19" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="20" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(Q5-Pad2)">
       <node ref="Q5" pin="2"/>
       <node ref="R17" pin="2"/>
     </net>
-    <net code="36" name="Net-(Q4-Pad1)">
-      <node ref="Q4" pin="1"/>
+    <net code="23" name="Net-(Q4-Pad1)">
       <node ref="R16" pin="1"/>
+      <node ref="Q4" pin="1"/>
     </net>
-    <net code="37" name="Net-(R16-Pad2)">
-      <node ref="R16" pin="2"/>
+    <net code="24" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="Q5" pin="3"/>
     </net>
-    <net code="38" name="Net-(Q4-Pad2)">
+    <net code="25" name="Net-(Q5-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="26" name="Net-(Q4-Pad2)">
       <node ref="Q4" pin="2"/>
       <node ref="R15" pin="2"/>
     </net>
-    <net code="39" name="Net-(R14-Pad2)">
-      <node ref="R14" pin="2"/>
-    </net>
-    <net code="40" name="Net-(D2-Pad2)">
+    <net code="27" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2"/>
       <node ref="Q3" pin="3"/>
     </net>
-    <net code="41" name="Net-(Q3-Pad2)">
-      <node ref="Q3" pin="2"/>
+    <net code="28" name="Net-(Q3-Pad2)">
       <node ref="R13" pin="2"/>
+      <node ref="Q3" pin="2"/>
     </net>
-    <net code="42" name="Net-(Q3-Pad1)">
-      <node ref="Q3" pin="1"/>
+    <net code="29" name="Net-(Q3-Pad1)">
       <node ref="R14" pin="1"/>
+      <node ref="Q3" pin="1"/>
     </net>
-    <net code="43" name="Net-(D1-Pad2)">
+    <net code="30" name="Net-(D1-Pad2)">
       <node ref="Q2" pin="3"/>
       <node ref="D1" pin="2"/>
     </net>
-    <net code="44" name="Net-(Q2-Pad2)">
+    <net code="31" name="Net-(Q2-Pad2)">
       <node ref="Q2" pin="2"/>
       <node ref="R11" pin="2"/>
     </net>
-    <net code="45" name="Net-(Q2-Pad1)">
-      <node ref="R12" pin="1"/>
+    <net code="32" name="Net-(Q2-Pad1)">
       <node ref="Q2" pin="1"/>
+      <node ref="R12" pin="1"/>
     </net>
-    <net code="46" name="Net-(XA2-Pad54)">
-      <node ref="XA2" pin="54"/>
+    <net code="33" name="Net-(D3-Pad2)">
+      <node ref="Q4" pin="3"/>
+      <node ref="D3" pin="2"/>
     </net>
-    <net code="47" name="Net-(XA2-Pad44)">
-      <node ref="XA2" pin="44"/>
+    <net code="34" name="Net-(XA1-Pad37)">
+      <node ref="XA1" pin="37"/>
     </net>
-    <net code="48" name="Net-(XA2-Pad73)">
-      <node ref="XA2" pin="73"/>
+    <net code="35" name="Net-(XA1-Pad35)">
+      <node ref="XA1" pin="35"/>
     </net>
-    <net code="49" name="Net-(XA2-Pad63)">
-      <node ref="XA2" pin="63"/>
+    <net code="36" name="Net-(XA1-Pad33)">
+      <node ref="XA1" pin="33"/>
     </net>
-    <net code="50" name="Net-(XA2-Pad53)">
-      <node ref="XA2" pin="53"/>
+    <net code="37" name="Net-(XA1-Pad31)">
+      <node ref="XA1" pin="31"/>
     </net>
-    <net code="51" name="Net-(XA2-Pad43)">
-      <node ref="XA2" pin="43"/>
+    <net code="38" name="Net-(XA1-Pad29)">
+      <node ref="XA1" pin="29"/>
     </net>
-    <net code="52" name="Net-(XA2-Pad72)">
-      <node ref="XA2" pin="72"/>
+    <net code="39" name="Net-(XA1-Pad27)">
+      <node ref="XA1" pin="27"/>
     </net>
-    <net code="53" name="Net-(XA2-Pad62)">
-      <node ref="XA2" pin="62"/>
+    <net code="40" name="Net-(XA1-Pad25)">
+      <node ref="XA1" pin="25"/>
     </net>
-    <net code="54" name="Net-(XA2-Pad52)">
-      <node ref="XA2" pin="52"/>
+    <net code="41" name="Net-(XA1-Pad23)">
+      <node ref="XA1" pin="23"/>
     </net>
-    <net code="55" name="Net-(XA2-Pad42)">
-      <node ref="XA2" pin="42"/>
+    <net code="42" name="Net-(XA1-Pad21)">
+      <node ref="XA1" pin="21"/>
     </net>
-    <net code="56" name="Net-(XA2-Pad71)">
-      <node ref="XA2" pin="71"/>
+    <net code="43" name="Net-(XA1-Pad19)">
+      <node ref="XA1" pin="19"/>
     </net>
-    <net code="57" name="Net-(XA2-Pad61)">
-      <node ref="XA2" pin="61"/>
+    <net code="44" name="Net-(XA1-Pad17)">
+      <node ref="XA1" pin="17"/>
     </net>
-    <net code="58" name="Net-(XA2-Pad64)">
-      <node ref="XA2" pin="64"/>
+    <net code="45" name="Net-(XA1-Pad15)">
+      <node ref="XA1" pin="15"/>
     </net>
-    <net code="59" name="Net-(XA2-Pad74)">
-      <node ref="XA2" pin="74"/>
+    <net code="46" name="Net-(XA1-Pad13)">
+      <node ref="XA1" pin="13"/>
     </net>
-    <net code="60" name="Net-(XA2-Pad45)">
-      <node ref="XA2" pin="45"/>
+    <net code="47" name="Net-(XA1-Pad39)">
+      <node ref="XA1" pin="39"/>
     </net>
-    <net code="61" name="Net-(XA2-Pad55)">
-      <node ref="XA2" pin="55"/>
+    <net code="48" name="Net-(XA1-Pad40)">
+      <node ref="XA1" pin="40"/>
     </net>
-    <net code="62" name="Net-(XA2-Pad65)">
-      <node ref="XA2" pin="65"/>
+    <net code="49" name="Net-(XA1-Pad38)">
+      <node ref="XA1" pin="38"/>
     </net>
-    <net code="63" name="Net-(XA2-Pad75)">
-      <node ref="XA2" pin="75"/>
+    <net code="50" name="Net-(XA1-Pad36)">
+      <node ref="XA1" pin="36"/>
     </net>
-    <net code="64" name="Net-(XA2-Pad46)">
-      <node ref="XA2" pin="46"/>
+    <net code="51" name="Net-(XA1-Pad34)">
+      <node ref="XA1" pin="34"/>
     </net>
-    <net code="65" name="Net-(XA2-Pad56)">
-      <node ref="XA2" pin="56"/>
+    <net code="52" name="Net-(XA1-Pad32)">
+      <node ref="XA1" pin="32"/>
     </net>
-    <net code="66" name="Net-(XA2-Pad66)">
-      <node ref="XA2" pin="66"/>
+    <net code="53" name="Net-(XA1-Pad30)">
+      <node ref="XA1" pin="30"/>
     </net>
-    <net code="67" name="Net-(XA2-Pad76)">
-      <node ref="XA2" pin="76"/>
+    <net code="54" name="Net-(XA1-Pad28)">
+      <node ref="XA1" pin="28"/>
     </net>
-    <net code="68" name="Net-(XA2-Pad47)">
-      <node ref="XA2" pin="47"/>
+    <net code="55" name="Net-(XA1-Pad26)">
+      <node ref="XA1" pin="26"/>
     </net>
-    <net code="69" name="Net-(XA2-Pad57)">
-      <node ref="XA2" pin="57"/>
+    <net code="56" name="Net-(XA1-Pad24)">
+      <node ref="XA1" pin="24"/>
     </net>
-    <net code="70" name="Net-(P1-Pad3)">
-      <node ref="P1" pin="3"/>
+    <net code="57" name="Net-(XA1-Pad22)">
+      <node ref="XA1" pin="22"/>
+    </net>
+    <net code="58" name="Net-(XA1-Pad20)">
+      <node ref="XA1" pin="20"/>
+    </net>
+    <net code="59" name="Net-(XA1-Pad14)">
+      <node ref="XA1" pin="14"/>
+    </net>
+    <net code="60" name="Net-(XA1-Pad16)">
+      <node ref="XA1" pin="16"/>
+    </net>
+    <net code="61" name="Net-(XA1-Pad11)">
+      <node ref="XA1" pin="11"/>
+    </net>
+    <net code="62" name="Net-(XA1-Pad18)">
+      <node ref="XA1" pin="18"/>
+    </net>
+    <net code="63" name="Net-(XA1-Pad1)">
+      <node ref="XA1" pin="1"/>
+    </net>
+    <net code="64" name="Net-(XA1-Pad3)">
+      <node ref="XA1" pin="3"/>
+    </net>
+    <net code="65" name="Net-(XA1-Pad5)">
+      <node ref="XA1" pin="5"/>
+    </net>
+    <net code="66" name="Net-(XA1-Pad7)">
+      <node ref="XA1" pin="7"/>
+    </net>
+    <net code="67" name="Net-(XA1-Pad9)">
+      <node ref="XA1" pin="9"/>
+    </net>
+    <net code="68" name="Net-(P1-Pad3)">
       <node ref="XA1" pin="42"/>
+      <node ref="P1" pin="3"/>
     </net>
-    <net code="71" name="Net-(P1-Pad1)">
-      <node ref="P1" pin="1"/>
+    <net code="69" name="Net-(P1-Pad1)">
       <node ref="XA1" pin="41"/>
+      <node ref="P1" pin="1"/>
     </net>
-    <net code="72" name="Net-(XA2-Pad51)">
-      <node ref="XA2" pin="51"/>
+    <net code="70" name="Net-(XA1-Pad12)">
+      <node ref="XA1" pin="12"/>
     </net>
-    <net code="73" name="Net-(XA2-Pad50)">
-      <node ref="XA2" pin="50"/>
+    <net code="71" name="Net-(XA1-Pad10)">
+      <node ref="XA1" pin="10"/>
     </net>
-    <net code="74" name="Net-(XA2-Pad60)">
-      <node ref="XA2" pin="60"/>
+    <net code="72" name="Net-(XA1-Pad8)">
+      <node ref="XA1" pin="8"/>
     </net>
-    <net code="75" name="Net-(XA2-Pad70)">
-      <node ref="XA2" pin="70"/>
+    <net code="73" name="Net-(XA1-Pad6)">
+      <node ref="XA1" pin="6"/>
     </net>
-    <net code="76" name="Net-(XA2-Pad80)">
-      <node ref="XA2" pin="80"/>
+    <net code="74" name="Net-(XA1-Pad4)">
+      <node ref="XA1" pin="4"/>
     </net>
-    <net code="77" name="Net-(XA2-Pad41)">
-      <node ref="XA2" pin="41"/>
+    <net code="75" name="Net-(XA1-Pad2)">
+      <node ref="XA1" pin="2"/>
     </net>
-    <net code="78" name="Net-(XA2-Pad77)">
-      <node ref="XA2" pin="77"/>
+    <net code="76" name="Net-(XA1-Pad68)">
+      <node ref="XA1" pin="68"/>
     </net>
-    <net code="79" name="Net-(XA2-Pad79)">
-      <node ref="XA2" pin="79"/>
-    </net>
-    <net code="80" name="Net-(XA2-Pad78)">
-      <node ref="XA2" pin="78"/>
-    </net>
-    <net code="81" name="Net-(XA2-Pad68)">
-      <node ref="XA2" pin="68"/>
-    </net>
-    <net code="82" name="Net-(XA2-Pad69)">
-      <node ref="XA2" pin="69"/>
-    </net>
-    <net code="83" name="Net-(XA2-Pad58)">
-      <node ref="XA2" pin="58"/>
-    </net>
-    <net code="84" name="Net-(XA2-Pad48)">
-      <node ref="XA2" pin="48"/>
-    </net>
-    <net code="85" name="Net-(XA2-Pad49)">
-      <node ref="XA2" pin="49"/>
-    </net>
-    <net code="86" name="Net-(XA2-Pad59)">
-      <node ref="XA2" pin="59"/>
-    </net>
-    <net code="87" name="Net-(XA2-Pad67)">
-      <node ref="XA2" pin="67"/>
-    </net>
-    <net code="88" name="Net-(XA1-Pad46)">
+    <net code="77" name="Net-(XA1-Pad46)">
       <node ref="XA1" pin="46"/>
     </net>
-    <net code="89" name="Net-(XA1-Pad56)">
+    <net code="78" name="Net-(XA1-Pad56)">
       <node ref="XA1" pin="56"/>
     </net>
-    <net code="90" name="Net-(XA1-Pad47)">
+    <net code="79" name="Net-(XA1-Pad47)">
       <node ref="XA1" pin="47"/>
     </net>
-    <net code="91" name="Net-(XA1-Pad57)">
+    <net code="80" name="Net-(XA1-Pad57)">
       <node ref="XA1" pin="57"/>
     </net>
-    <net code="92" name="Net-(XA1-Pad67)">
+    <net code="81" name="Net-(XA1-Pad67)">
       <node ref="XA1" pin="67"/>
     </net>
-    <net code="93" name="Net-(XA1-Pad77)">
-      <node ref="XA1" pin="77"/>
-    </net>
-    <net code="94" name="Net-(XA1-Pad48)">
+    <net code="82" name="Net-(XA1-Pad48)">
       <node ref="XA1" pin="48"/>
     </net>
-    <net code="95" name="Net-(XA1-Pad58)">
+    <net code="83" name="Net-(XA1-Pad58)">
       <node ref="XA1" pin="58"/>
     </net>
-    <net code="96" name="Net-(XA1-Pad65)">
+    <net code="84" name="Net-(XA1-Pad65)">
       <node ref="XA1" pin="65"/>
     </net>
-    <net code="97" name="Net-(XA1-Pad49)">
+    <net code="85" name="Net-(XA1-Pad49)">
       <node ref="XA1" pin="49"/>
     </net>
-    <net code="98" name="Net-(XA1-Pad59)">
+    <net code="86" name="Net-(XA1-Pad59)">
       <node ref="XA1" pin="59"/>
     </net>
-    <net code="99" name="Net-(XA1-Pad79)">
-      <node ref="XA1" pin="79"/>
-    </net>
-    <net code="100" name="Net-(XA1-Pad50)">
-      <node ref="XA1" pin="50"/>
-    </net>
-    <net code="101" name="Net-(XA1-Pad60)">
-      <node ref="XA1" pin="60"/>
-    </net>
-    <net code="102" name="Net-(XA1-Pad51)">
-      <node ref="XA1" pin="51"/>
-    </net>
-    <net code="103" name="Net-(XA1-Pad61)">
-      <node ref="XA1" pin="61"/>
-    </net>
-    <net code="104" name="Net-(XA1-Pad52)">
-      <node ref="XA1" pin="52"/>
-    </net>
-    <net code="105" name="Net-(XA1-Pad53)">
-      <node ref="XA1" pin="53"/>
-    </net>
-    <net code="106" name="Net-(XA1-Pad63)">
-      <node ref="XA1" pin="63"/>
-    </net>
-    <net code="107" name="Net-(XA1-Pad44)">
+    <net code="87" name="Net-(XA1-Pad44)">
       <node ref="XA1" pin="44"/>
     </net>
-    <net code="108" name="Net-(XA1-Pad54)">
+    <net code="88" name="Net-(XA1-Pad50)">
+      <node ref="XA1" pin="50"/>
+    </net>
+    <net code="89" name="Net-(XA1-Pad60)">
+      <node ref="XA1" pin="60"/>
+    </net>
+    <net code="90" name="Net-(XA1-Pad51)">
+      <node ref="XA1" pin="51"/>
+    </net>
+    <net code="91" name="Net-(XA1-Pad61)">
+      <node ref="XA1" pin="61"/>
+    </net>
+    <net code="92" name="Net-(XA1-Pad52)">
+      <node ref="XA1" pin="52"/>
+    </net>
+    <net code="93" name="Net-(XA1-Pad53)">
+      <node ref="XA1" pin="53"/>
+    </net>
+    <net code="94" name="Net-(XA1-Pad63)">
+      <node ref="XA1" pin="63"/>
+    </net>
+    <net code="95" name="Net-(XA1-Pad54)">
       <node ref="XA1" pin="54"/>
     </net>
-    <net code="109" name="Net-(XA1-Pad64)">
-      <node ref="XA1" pin="64"/>
-    </net>
-    <net code="110" name="Net-(XA1-Pad45)">
+    <net code="96" name="Net-(XA1-Pad45)">
       <node ref="XA1" pin="45"/>
     </net>
-    <net code="111" name="Net-(XA1-Pad55)">
+    <net code="97" name="Net-(XA1-Pad55)">
       <node ref="XA1" pin="55"/>
-    </net>
-    <net code="112" name="Net-(C1-Pad1)">
-      <node ref="P1" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="P1" pin="4"/>
     </net>
   </nets>
 </export>
