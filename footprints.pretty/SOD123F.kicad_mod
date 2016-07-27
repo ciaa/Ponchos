@@ -1,12 +1,12 @@
-(module SOD123F (layer F.Cu) (tedit 550DEC61)
+(module mod:SOD123F (layer F.Cu) (tedit 5793F1FB)
   (descr SOD123F)
   (tags "SMD SODF DEV")
   (autoplace_cost90 10)
   (autoplace_cost180 10)
-  (fp_text reference ZA1 (at -3.1118 -0.033 90) (layer F.SilkS)
-    (effects (font (size 0.762 0.762) (thickness 0.12)))
+  (fp_text reference D6 (at -3.302 0.254 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SMAZ5V6 (at 0 4.0005) (layer F.SilkS)
+  (fp_text value SMAZ5V6 (at 0 4.0005) (layer F.SilkS) hide
     (effects (font (size 1.524 1.143) (thickness 0.2032)))
   )
   (fp_line (start 2.4 -1.1) (end 2.5 -1.1) (layer F.SilkS) (width 0.15))
@@ -23,7 +23,7 @@
   (fp_line (start -2.2479 -0.9525) (end -2.2479 0.94742) (layer F.SilkS) (width 0.1524))
   (pad 1 smd rect (at -1.42494 0 90) (size 1.80086 1.34112) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.43002 0 90) (size 1.80086 1.34112) (layers F.Cu F.Paste F.Mask))
-  (model oaa/SOD123F.wrl
+  (model D:/workspace/workspace.kicad/proyecto_final/footprints.3dshapes/sod123.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

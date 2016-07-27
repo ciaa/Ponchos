@@ -1,4 +1,4 @@
-(module Pin_Headers:Pin_Header_Straight_1x07 (layer F.Cu) (tedit 5796C164)
+(module footprints:sim800l (layer F.Cu) (tedit 5796C164)
   (descr "Through hole pin header")
   (tags "pin header")
   (fp_text reference SIM800 (at 3.048 8.382 90) (layer F.SilkS)

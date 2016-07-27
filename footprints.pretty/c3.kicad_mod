@@ -1,7 +1,7 @@
-(module c_elec_8x10 (layer F.Cu) (tedit 49F5C68A)
+(module mod:c3 (layer F.Cu) (tedit 5793F216)
   (descr "SMT capacitor, aluminium electrolytic, 8x10")
-  (fp_text reference C17 (at 0 -4.826) (layer F.SilkS)
-    (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
+  (fp_text reference C3 (at -5.08 3.175 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value 330uF (at 0 4.826) (layer F.SilkS) hide
     (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
@@ -23,7 +23,7 @@
   (fp_line (start 3.302 -0.381) (end 3.302 0.381) (layer F.SilkS) (width 0.127))
   (pad 1 smd rect (at 3.2512 0) (size 3.50012 2.4003) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -3.2512 0) (size 3.50012 2.4003) (layers F.Cu F.Paste F.Mask))
-  (model smd/capacitors/c_elec_8x10.wrl
+  (model D:/workspace/workspace.kicad/proyecto_final/footprints.3dshapes/c_elec_8x10.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -10,12 +10,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "Connections"
+Title "Detector de caídas - Esquemático jerárquico"
 Date "2016-07-23"
 Rev "2.0"
-Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comp "CESE - Trabajo final de la materia \"Diseño de Circuitos Impresos\""
 Comment1 "https://github.com/mdelloso/falling_detector"
-Comment2 "Autores y Licencia del template (Matías Dell'Oso - UNLP)"
+Comment2 "Autores: Ver 'doc/CAMBIOS.txt'      Licencia: Ver  'doc/LICENCIA.txt'"
 Comment3 ""
 Comment4 ""
 $EndDescr

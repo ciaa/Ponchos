@@ -10,12 +10,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "EDU-CIAA-NXP"
+Title "Detector de caídas - EDU-CIAA-NXP"
 Date "2016-07-23"
 Rev "2.0"
-Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comp "CESE - Trabajo final de la materia \"Diseño de Circuitos Impresos\""
 Comment1 "https://github.com/mdelloso/falling_detector"
-Comment2 "Autores y Licencia del template (Matías Dell'Oso - UNLP)"
+Comment2 "Autores: Ver 'doc/CAMBIOS.txt'      Licencia: Ver  'doc/LICENCIA.txt'"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -443,7 +443,7 @@ U 2 1 560C5732
 P 5350 4250
 F 0 "XA1" H 5650 4650 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 5700 2550 60  0000 C CNN
-F 2 "mod:Conn_Poncho_Completo" H 5600 2450 60  0000 C CNN
+F 2 "footprints:Conn_Poncho_Completo" H 5600 2450 60  0000 C CNN
 F 3 "" H 5350 4250 60  0000 C CNN
 F 4 "Adafruit Industries LLC" H 5350 4250 60  0001 C CNN "Manf"
 F 5 "2223" H 5350 4250 60  0001 C CNN "Manf#"
@@ -457,7 +457,7 @@ U 1 1 560C57B9
 P 5350 1500
 F 0 "XA1" H 5650 1900 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 5700 -200 60  0000 C CNN
-F 2 "mod:Conn_Poncho_Completo" H 5650 -300 60  0000 C CNN
+F 2 "footprints:Conn_Poncho_Completo" H 5650 -300 60  0000 C CNN
 F 3 "" H 5350 1500 60  0000 C CNN
 F 4 "Adafruit Industries LLC" H 5350 1500 60  0001 C CNN "Manf"
 F 5 "2223" H 5350 1500 60  0001 C CNN "Manf#"

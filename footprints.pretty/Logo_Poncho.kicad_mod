@@ -1,4 +1,4 @@
-(module LOGO (layer F.Cu) (tedit 560DAFF4)
+(module footprints:Logo_Poncho (layer F.Cu) (tedit 560DAFF4)
   (fp_text reference G*** (at 0.127 5.588) (layer F.SilkS) hide
     (effects (font (thickness 0.3)))
   )

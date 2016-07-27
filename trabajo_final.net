@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/workspace/workspace.kicad/proyecto_final/trabajo_final.sch)
-    (date "25 Jul. 2016 23:10:21")
+    (date "26 Jul. 2016 18:54:37")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -55,7 +55,7 @@
       (tstamp 57999260))
     (comp (ref XA1)
       (value Conn_Poncho2P_2x_20x2)
-      (footprint mod:Conn_Poncho_Completo)
+      (footprint footprints:Conn_Poncho_Completo)
       (fields
         (field (name Manf) "Adafruit Industries LLC")
         (field (name Manf#) 2223)
@@ -95,7 +95,7 @@
       (tstamp 571FC5DB))
     (comp (ref R3)
       (value 330K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) "Stackpole Electronics Inc")
         (field (name Manf#) RMCF0805JT330K)
@@ -105,7 +105,7 @@
       (tstamp 572E2369))
     (comp (ref R2)
       (value 10K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) "Panasonic Electronic Components")
         (field (name Manf#) ERJ-6GEYJ103V)
@@ -115,7 +115,7 @@
       (tstamp 572E23E1))
     (comp (ref R1)
       (value 680)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) Susumu)
         (field (name Manf#) RR1220P-681-D)
@@ -125,7 +125,7 @@
       (tstamp 572E245A))
     (comp (ref D1)
       (value LED)
-      (footprint LEDs:LED-3MM)
+      (footprint footprints:LED-3MM)
       (fields
         (field (name Manf) Kingbright)
         (field (name Manf#) WP710A10ID)
@@ -135,7 +135,7 @@
       (tstamp 572E24A8))
     (comp (ref Q1)
       (value 2N7002)
-      (footprint TO_SOT_Packages_SMD:SOT-23_Handsoldering)
+      (footprint footprints:SOT-23_Handsoldering)
       (fields
         (field (name Manf) "Fairchild Semiconductor")
         (field (name Manf#) 2N7002)
@@ -145,7 +145,7 @@
       (tstamp 572EBB0D))
     (comp (ref D2)
       (value LED)
-      (footprint LEDs:LED-3MM)
+      (footprint footprints:LED-3MM)
       (fields
         (field (name Manf) Kingbright)
         (field (name Manf#) WP710A10YD)
@@ -155,7 +155,7 @@
       (tstamp 572F0E34))
     (comp (ref R4)
       (value 680)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) Susumu)
         (field (name Manf#) RR1220P-681-D)
@@ -165,7 +165,7 @@
       (tstamp 572F0EC2))
     (comp (ref R5)
       (value 10K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) "Panasonic Electronic Components")
         (field (name Manf#) ERJ-6GEYJ103V)
@@ -175,7 +175,7 @@
       (tstamp 572F0F1A))
     (comp (ref Q2)
       (value 2N7002)
-      (footprint TO_SOT_Packages_SMD:SOT-23_Handsoldering)
+      (footprint footprints:SOT-23_Handsoldering)
       (fields
         (field (name Manf) "Fairchild Semiconductor")
         (field (name Manf#) 2N7002)
@@ -185,7 +185,7 @@
       (tstamp 572F0F6F))
     (comp (ref R6)
       (value 330K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) "Stackpole Electronics Inc")
         (field (name Manf#) RMCF0805JT330K)
@@ -195,7 +195,7 @@
       (tstamp 572F1061))
     (comp (ref D3)
       (value LED)
-      (footprint LEDs:LED-3MM)
+      (footprint footprints:LED-3MM)
       (fields
         (field (name Manf) Kingbright)
         (field (name Manf#) WP710A10GD)
@@ -205,7 +205,7 @@
       (tstamp 572F1264))
     (comp (ref R7)
       (value 680)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) Susumu)
         (field (name Manf#) RR1220P-681-D)
@@ -215,7 +215,7 @@
       (tstamp 572F131B))
     (comp (ref Q3)
       (value 2N7002)
-      (footprint TO_SOT_Packages_SMD:SOT-23_Handsoldering)
+      (footprint footprints:SOT-23_Handsoldering)
       (fields
         (field (name Manf) "Fairchild Semiconductor")
         (field (name Manf#) 2N7002)
@@ -225,7 +225,7 @@
       (tstamp 572F1380))
     (comp (ref R8)
       (value 10K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) "Panasonic Electronic Components")
         (field (name Manf#) ERJ-6GEYJ103V)
@@ -235,7 +235,7 @@
       (tstamp 572F144A))
     (comp (ref R9)
       (value 330K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) "Stackpole Electronics Inc")
         (field (name Manf#) RMCF0805JT330K)
@@ -245,7 +245,7 @@
       (tstamp 572F14B9))
     (comp (ref U1)
       (value 24LC64)
-      (footprint Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm)
+      (footprint footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm)
       (fields
         (field (name Digikey#) 24LC64-I/SN-ND)
         (field (name Manf) "Microchip Technology")
@@ -255,7 +255,7 @@
       (tstamp 573391B1))
     (comp (ref C1)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0805_HandSoldering)
+      (footprint footprints:C_0805_HandSoldering)
       (fields
         (field (name Manf) Kemet)
         (field (name Manf#) C0603C104K5RACTU)
@@ -265,7 +265,7 @@
       (tstamp 5733B19E))
     (comp (ref C4)
       (value 10uF)
-      (footprint Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering)
+      (footprint footprints:TantalC_SizeA_EIA-3216_HandSoldering)
       (fields
         (field (name Manf) Kemet)
         (field (name Manf#) T491A106K006AT7280)
@@ -275,7 +275,7 @@
       (tstamp 573B86BF))
     (comp (ref D5)
       (value B540C-13-F)
-      (footprint mod:SMC_Handsoldering)
+      (footprint footprints:SMC_Handsoldering)
       (fields
         (field (name Manf) "Diodes Incorporated")
         (field (name Manf#) B540C-13-F)
@@ -285,7 +285,7 @@
       (tstamp 573B8C9C))
     (comp (ref U3)
       (value NCP1117ST33T3G)
-      (footprint TO_SOT_Packages_SMD:SOT-223)
+      (footprint footprints:SOT-223)
       (fields
         (field (name Manf) "ON Semiconductor")
         (field (name Manf#) NCP1117ST33T3G)
@@ -295,7 +295,7 @@
       (tstamp 573B8DA4))
     (comp (ref U2)
       (value LM2596)
-      (footprint TO_SOT_Packages_SMD:TO-263-5Lead)
+      (footprint footprints:TO-263-5Lead)
       (fields
         (field (name Manf) "Texas Instruments")
         (field (name Manf#) LM2596SX-5.0/NOPB)
@@ -305,7 +305,7 @@
       (tstamp 573B8E1D))
     (comp (ref C2)
       (value 470uF)
-      (footprint mod:c2)
+      (footprint footprints:c2)
       (fields
         (field (name Manf) Nichicon)
         (field (name Manf#) UCL1V471MNL1GS)
@@ -315,7 +315,7 @@
       (tstamp 573B953F))
     (comp (ref L1)
       (value 47uH)
-      (footprint mod:SRN1060)
+      (footprint footprints:SRN1060)
       (fields
         (field (name Manf) "Bourns Inc")
         (field (name Manf#) SRN1060-470M)
@@ -325,7 +325,7 @@
       (tstamp 573BCE95))
     (comp (ref C3)
       (value 330uF)
-      (footprint mod:c3)
+      (footprint footprints:c3)
       (fields
         (field (name Manf) Nichicon)
         (field (name Manf#) UCW1C331MNL1GS)
@@ -335,7 +335,7 @@
       (tstamp 573BD58A))
     (comp (ref P2)
       (value CONN_02X01)
-      (footprint Pin_Headers:Pin_Header_Straight_2x01)
+      (footprint footprints:Pin_Header_Straight_2x01)
       (fields
         (field (name Manf) "TE Connectivity AMP Connectors")
         (field (name Manf#) 640456-2)
@@ -345,7 +345,7 @@
       (tstamp 573C59E3))
     (comp (ref D4)
       (value PMEG3020EH)
-      (footprint mod:SOD123F)
+      (footprint footprints:SOD123F)
       (fields
         (field (name Manf) "NXP Semiconductors")
         (field (name Manf#) PMEG3020EH,115)
@@ -355,7 +355,7 @@
       (tstamp 573BDCBC))
     (comp (ref D6)
       (value SMAZ5V6)
-      (footprint mod:SOD123F)
+      (footprint footprints:SOD123F)
       (fields
         (field (name Manf) "ON Semiconductor")
         (field (name Manf#) MMSZ5V6T1G)
@@ -365,7 +365,7 @@
       (tstamp 573C30C6))
     (comp (ref J1)
       (value TB_1X2)
-      (footprint mod:bornier2)
+      (footprint footprints:bornier2)
       (fields
         (field (name Manf) "On Shore Technology Inc")
         (field (name Manf#) OSTTC022162)
@@ -375,7 +375,7 @@
       (tstamp 573E45FC))
     (comp (ref R10)
       (value 470K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Digikey#) RMCF0805JT470KCT-ND)
         (field (name Manf) "Stackpole Electronics Inc.")
@@ -385,7 +385,7 @@
       (tstamp 578ECB22))
     (comp (ref R11)
       (value 270K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Digikey#) "	RMCF0805JT270KDKR-ND")
         (field (name Manf) "Stackpole Electronics Inc.")
@@ -401,7 +401,7 @@
       (tstamp 578E54F8))
     (comp (ref R13)
       (value 330K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) "Stackpole Electronics Inc")
         (field (name Manf#) RMCF0805JT330K)
@@ -411,7 +411,7 @@
       (tstamp 5792AF32))
     (comp (ref R12)
       (value 10K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) "Panasonic Electronic Components")
         (field (name Manf#) ERJ-6GEYJ103V)
@@ -421,7 +421,7 @@
       (tstamp 5792AF3B))
     (comp (ref Q4)
       (value 2N7002)
-      (footprint TO_SOT_Packages_SMD:SOT-23_Handsoldering)
+      (footprint footprints:SOT-23_Handsoldering)
       (fields
         (field (name Manf) "Fairchild Semiconductor")
         (field (name Manf#) 2N7002)
@@ -431,7 +431,7 @@
       (tstamp 5792AF5C))
     (comp (ref R14)
       (value 680)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint footprints:R_0805_HandSoldering)
       (fields
         (field (name Manf) Susumu)
         (field (name Manf#) RR1220P-681-D)
@@ -441,7 +441,7 @@
       (tstamp 5792B2A6))
     (comp (ref C5)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0805_HandSoldering)
+      (footprint footprints:C_0805_HandSoldering)
       (fields
         (field (name Manf) Kemet)
         (field (name Manf#) C0603C104K5RACTU)
@@ -749,12 +749,12 @@
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive)))))
   (libraries
+    (library (logical falling_detector-cache)
+      (uri D:\workspace\workspace.kicad\proyecto_final\lib\falling_detector-cache.lib))
     (library (logical buzzer)
       (uri D:\workspace\workspace.kicad\proyecto_final\lib\buzzer.lib))
     (library (logical ej2cese)
-      (uri D:\workspace\workspace.kicad\proyecto_final\lib\ej2cese.lib))
-    (library (logical falling_detector-cache)
-      (uri D:\workspace\workspace.kicad\proyecto_final\lib\falling_detector-cache.lib)))
+      (uri D:\workspace\workspace.kicad\proyecto_final\lib\ej2cese.lib)))
   (nets
     (net (code 1) (name "/Conector del Poncho/COL1")
       (node (ref XA1) (pin 31)))
