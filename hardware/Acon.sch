@@ -24,7 +24,7 @@ AR Path="/578568AB/5785695D" Ref="U1"  Part="1"
 F 0 "U1" H 6350 4100 70  0000 C CNN
 F 1 "AD620" H 6450 3600 70  0000 C CNN
 F 2 "celda:SOIC-8" H 6050 3850 60  0001 C CNN
-F 3 "" H 6050 3850 60  0000 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf" H 6050 3850 60  0001 C CNN
 	1    6050 3850
 	1    0    0    -1  
 $EndComp
@@ -145,7 +145,7 @@ P 4500 1650
 F 0 "U2" H 4500 1200 60  0000 C CNN
 F 1 "REF1004-2.5" H 4450 2050 60  0000 C CNN
 F 2 "celda:SOIC-8" H 4500 1400 60  0001 C CNN
-F 3 "" H 4500 1400 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/sbvs002/sbvs002.pdf" H 4500 1400 60  0001 C CNN
 	1    4500 1650
 	1    0    0    -1  
 $EndComp
@@ -286,7 +286,7 @@ P 8100 4400
 F 0 "U3" H 8050 3650 60  0000 C CNN
 F 1 "ADS1113/15" H 8050 5200 60  0000 C CNN
 F 2 "celda:TSSOP-10_3x3mm_Pitch0.5mm" H 8050 3650 60  0001 C CNN
-F 3 "" H 8050 3650 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1115.pdf" H 8050 3650 60  0001 C CNN
 	1    8100 4400
 	1    0    0    -1  
 $EndComp
