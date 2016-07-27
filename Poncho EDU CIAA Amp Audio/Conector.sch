@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ej2cese
 LIBS:Poncho EDU CIAA Amp Audio-cache
 EELAYER 25 0
 EELAYER END
