@@ -193,16 +193,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 3450 2750 3450
 Wire Wire Line
-	2750 3350 5250 3350
-Wire Wire Line
-	5250 3250 2750 3250
-Wire Wire Line
-	2750 3150 5250 3150
-Wire Wire Line
-	5250 3050 2750 3050
-Wire Wire Line
-	2750 2950 5250 2950
-Wire Wire Line
 	2750 2450 6450 2450
 Wire Wire Line
 	2750 2350 6450 2350
@@ -480,4 +470,36 @@ Wire Wire Line
 	3250 6350 3250 6800
 Wire Wire Line
 	3150 6450 3150 6900
+Wire Wire Line
+	4900 3350 5250 3350
+Text Label 2850 2950 0    60   ~ 0
+DIN4
+Text Label 4900 3350 0    60   ~ 0
+DIN4
+Wire Wire Line
+	2750 3050 3500 3050
+Wire Wire Line
+	3500 3050 3600 2950
+Wire Wire Line
+	3600 2950 5250 2950
+Wire Wire Line
+	2750 3250 3500 3250
+Wire Wire Line
+	2750 3350 3500 3350
+Wire Wire Line
+	2750 3150 3500 3150
+Wire Wire Line
+	3500 3150 3600 3050
+Wire Wire Line
+	3600 3050 5250 3050
+Wire Wire Line
+	3500 3250 3600 3150
+Wire Wire Line
+	3600 3150 5250 3150
+Wire Wire Line
+	3500 3350 3600 3250
+Wire Wire Line
+	3600 3250 5250 3250
+Wire Wire Line
+	2750 2950 3100 2950
 $EndSCHEMATC
