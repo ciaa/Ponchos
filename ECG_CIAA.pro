@@ -1,4 +1,4 @@
-update=dom 31 jul 2016 17:44:20 ART
+update=dom 31 jul 2016 19:40:32 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,3 +60,5 @@ LibName30=valves
 LibName31=analog_devices
 LibName32=Libs/ECG_LIB
 LibName33=Libs/ej2cese
+[general]
+version=1
