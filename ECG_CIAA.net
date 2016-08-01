@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/jorge/Escritorio/ECG CIAA/ECG_CIAA.sch")
-    (date "dom 31 jul 2016 17:48:48 ART")
+    (date "dom 31 jul 2016 20:41:13 ART")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -149,7 +149,7 @@
       (tstamp 579AC8D1))
     (comp (ref P1)
       (value CONN_01X03)
-      (footprint ECG:AK300-3)
+      (footprint Connect:bornier3)
       (libsource (lib conn) (part CONN_01X03))
       (sheetpath (names /) (tstamps /))
       (tstamp 579AD41A))
@@ -400,14 +400,14 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical ej2cese)
+      (uri "/home/jorge/Escritorio/ECG CIAA/Libs/ej2cese.lib"))
     (library (logical ECG_LIB)
       (uri "/home/jorge/Escritorio/ECG CIAA/Libs/ECG_LIB.lib"))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical ej2cese)
-      (uri "/home/jorge/Escritorio/ECG CIAA/Libs/ej2cese.lib"))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name "Net-(C3-Pad1)")
       (node (ref R9) (pin 2))
