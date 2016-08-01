@@ -396,11 +396,11 @@ F 3 "" H 10550 5150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 9200 3950 2    60   ~ 0
-SDN
+LO-
 Text Label 9200 4150 2    60   ~ 0
 LO+
 Text Label 9200 4350 2    60   ~ 0
-LO-
+SDN
 NoConn ~ 9650 4350
 NoConn ~ 9650 2950
 NoConn ~ 9650 3050
