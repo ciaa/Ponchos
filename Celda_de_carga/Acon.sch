@@ -1,0 +1,483 @@
+EESchema Schematic File Version 2
+LIBS:ej2cese
+LIBS:poncho_celda-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "Diagrama de acondicionamiento de señal."
+Date "2016-07-04"
+Rev ""
+Comp "Felipe Rey Hernandez"
+Comment1 "Esquematico de modulos para poncho celda para el curso de Diseño de PCB del CESE."
+Comment2 "Licencia GPL V3"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AD620 U1
+U 1 1 5785695D
+P 6050 3850
+AR Path="/5785695D" Ref="U1"  Part="1" 
+AR Path="/578568AB/5785695D" Ref="U1"  Part="1" 
+F 0 "U1" H 6350 4100 70  0000 C CNN
+F 1 "AD620" H 6450 3600 70  0000 C CNN
+F 2 "celda:SOIC-8" H 6050 3850 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf" H 6050 3850 60  0001 C CNN
+	1    6050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 57856E05
+P 5950 2500
+F 0 "#PWR05" H 5950 2350 50  0001 C CNN
+F 1 "+5V" H 5950 2640 50  0000 C CNN
+F 2 "" H 5950 2500 60  0000 C CNN
+F 3 "" H 5950 2500 60  0000 C CNN
+	1    5950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 57856E1C
+P 5700 4650
+F 0 "#PWR06" H 5700 4400 50  0001 C CNN
+F 1 "GND" H 5700 4500 50  0000 C CNN
+F 2 "" H 5700 4650 60  0000 C CNN
+F 3 "" H 5700 4650 60  0000 C CNN
+	1    5700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 57856F86
+P 5150 3800
+F 0 "C2" H 5175 3900 50  0000 L CNN
+F 1 "10nF" H 5175 3700 50  0000 L CNN
+F 2 "celda:C_0603_HandSoldering" H 5188 3650 30  0001 C CNN
+F 3 "" H 5150 3800 60  0000 C CNN
+	1    5150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 57856FF3
+P 5150 4350
+F 0 "C3" H 5175 4450 50  0000 L CNN
+F 1 "1nF" H 5175 4250 50  0000 L CNN
+F 2 "celda:C_0603_HandSoldering" H 5188 4200 30  0001 C CNN
+F 3 "" H 5150 4350 60  0000 C CNN
+	1    5150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 578572AD
+P 4650 3600
+F 0 "R1" V 4730 3600 50  0000 C CNN
+F 1 "1k" V 4650 3600 50  0000 C CNN
+F 2 "celda:R_1206_HandSoldering" V 4580 3600 30  0001 C CNN
+F 3 "" H 4650 3600 30  0000 C CNN
+	1    4650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 578572E8
+P 4650 4050
+F 0 "R2" V 4730 4050 50  0000 C CNN
+F 1 "1k" V 4650 4050 50  0000 C CNN
+F 2 "celda:R_1206_HandSoldering" V 4580 4050 30  0001 C CNN
+F 3 "" H 4650 4050 30  0000 C CNN
+	1    4650 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 578576D0
+P 5150 4650
+F 0 "#PWR07" H 5150 4400 50  0001 C CNN
+F 1 "GND" H 5150 4500 50  0000 C CNN
+F 2 "" H 5150 4650 60  0000 C CNN
+F 3 "" H 5150 4650 60  0000 C CNN
+	1    5150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 57857780
+P 4850 3000
+F 0 "#PWR08" H 4850 2750 50  0001 C CNN
+F 1 "GND" H 4850 2850 50  0000 C CNN
+F 2 "" H 4850 3000 60  0000 C CNN
+F 3 "" H 4850 3000 60  0000 C CNN
+	1    4850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C4
+U 1 1 57857A9C
+P 5600 2850
+F 0 "C4" H 5625 2950 50  0000 L CNN
+F 1 "100nF" H 5625 2750 50  0000 L CNN
+F 2 "celda:C_0805_HandSoldering" H 5600 2850 60  0001 C CNN
+F 3 "" H 5600 2850 60  0000 C CNN
+	1    5600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 57858288
+P 6150 4550
+F 0 "R3" V 6230 4550 50  0000 C CNN
+F 1 "499" V 6150 4550 50  0000 C CNN
+F 2 "celda:R_1206_HandSoldering" V 6080 4550 30  0001 C CNN
+F 3 "" H 6150 4550 30  0000 C CNN
+	1    6150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L REF1004-2.5 U2
+U 1 1 57858C81
+P 4500 1650
+F 0 "U2" H 4500 1200 60  0000 C CNN
+F 1 "REF1004-2.5" H 4450 2050 60  0000 C CNN
+F 2 "celda:SOIC-8" H 4500 1400 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/sbvs002/sbvs002.pdf" H 4500 1400 60  0001 C CNN
+	1    4500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 57858D35
+P 3700 2100
+F 0 "#PWR09" H 3700 1850 50  0001 C CNN
+F 1 "GND" H 3700 1950 50  0000 C CNN
+F 2 "" H 3700 2100 60  0000 C CNN
+F 3 "" H 3700 2100 60  0000 C CNN
+	1    3700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 57858DA8
+P 5450 1450
+F 0 "R4" V 5530 1450 50  0000 C CNN
+F 1 "51k" V 5450 1450 50  0000 C CNN
+F 2 "celda:R_1206_HandSoldering" V 5380 1450 30  0001 C CNN
+F 3 "" H 5450 1450 30  0000 C CNN
+	1    5450 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR010
+U 1 1 5785922C
+P 5750 1150
+F 0 "#PWR010" H 5750 1000 50  0001 C CNN
+F 1 "+5V" H 5750 1290 50  0000 C CNN
+F 2 "" H 5750 1150 60  0000 C CNN
+F 3 "" H 5750 1150 60  0000 C CNN
+	1    5750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 conn1
+U 1 1 57859E2F
+P 2200 3700
+F 0 "conn1" H 2250 3350 60  0000 C CNN
+F 1 "CONN_CELDA" H 2200 4000 60  0000 C CNN
+F 2 "celda:bornier4" H 2200 3450 60  0001 C CNN
+F 3 "" H 2200 3450 60  0000 C CNN
+	1    2200 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP1 C5
+U 1 1 5785A2E7
+P 2750 4550
+F 0 "C5" H 2775 4650 50  0000 L CNN
+F 1 "100nF" H 2775 4450 50  0000 L CNN
+F 2 "celda:C_0805_HandSoldering" H 2750 4550 60  0001 C CNN
+F 3 "" H 2750 4550 60  0000 C CNN
+	1    2750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 5785A32A
+P 2750 4800
+F 0 "#PWR011" H 2750 4550 50  0001 C CNN
+F 1 "GND" H 2750 4650 50  0000 C CNN
+F 2 "" H 2750 4800 60  0000 C CNN
+F 3 "" H 2750 4800 60  0000 C CNN
+	1    2750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5785A356
+P 3500 3300
+F 0 "#PWR012" H 3500 3050 50  0001 C CNN
+F 1 "GND" H 3500 3150 50  0000 C CNN
+F 2 "" H 3500 3300 60  0000 C CNN
+F 3 "" H 3500 3300 60  0000 C CNN
+	1    3500 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3550 5500 3750
+Wire Wire Line
+	5500 4100 5500 3950
+Wire Wire Line
+	5150 2950 4850 2950
+Wire Wire Line
+	4850 2950 4850 3000
+Wire Wire Line
+	5950 2500 5950 3550
+Wire Wire Line
+	6150 1750 6150 3550
+Wire Wire Line
+	5950 4150 5950 4200
+Wire Wire Line
+	5950 4200 5700 4200
+Wire Wire Line
+	5700 4200 5700 4650
+Wire Wire Line
+	3850 1900 3700 1900
+Wire Wire Line
+	3700 1900 3700 2100
+Wire Wire Line
+	5750 1150 5750 1450
+Wire Wire Line
+	5100 1750 6150 1750
+Wire Wire Line
+	3500 3300 2550 3300
+Wire Wire Line
+	2550 3300 2550 3500
+Wire Wire Line
+	2750 4700 2750 4800
+$Comp
+L +5V #PWR013
+U 1 1 5785AD35
+P 3100 4200
+F 0 "#PWR013" H 3100 4050 50  0001 C CNN
+F 1 "+5V" H 3100 4340 50  0000 C CNN
+F 2 "" H 3100 4200 60  0000 C CNN
+F 3 "" H 3100 4200 60  0000 C CNN
+	1    3100 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4200 3100 4200
+Wire Wire Line
+	2750 4200 2750 4400
+Wire Wire Line
+	2550 3800 2650 3800
+Wire Wire Line
+	2650 3800 2650 4200
+Connection ~ 2750 4200
+Connection ~ 3000 4200
+$Comp
+L ADS1113/15 U3
+U 1 1 579654CC
+P 8100 4400
+F 0 "U3" H 8050 3650 60  0000 C CNN
+F 1 "ADS1113/15" H 8050 5200 60  0000 C CNN
+F 2 "celda:TSSOP-10_3x3mm_Pitch0.5mm" H 8050 3650 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1115.pdf" H 8050 3650 60  0001 C CNN
+	1    8100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 57965641
+P 9150 3600
+F 0 "R5" V 9230 3600 50  0000 C CNN
+F 1 "1k" V 9150 3600 50  0000 C CNN
+F 2 "celda:R_1206_HandSoldering" V 9080 3600 50  0001 C CNN
+F 3 "" H 9150 3600 50  0000 C CNN
+	1    9150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 57965698
+P 9450 3600
+F 0 "R6" V 9530 3600 50  0000 C CNN
+F 1 "1k" V 9450 3600 50  0000 C CNN
+F 2 "celda:R_1206_HandSoldering" V 9380 3600 50  0001 C CNN
+F 3 "" H 9450 3600 50  0000 C CNN
+	1    9450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 4000 10050 4000
+Wire Wire Line
+	8600 4150 10050 4150
+$Comp
+L +3.3V #PWR014
+U 1 1 57965DA3
+P 9300 3100
+F 0 "#PWR014" H 9300 2950 50  0001 C CNN
+F 1 "+3.3V" H 9300 3240 50  0000 C CNN
+F 2 "" H 9300 3100 50  0000 C CNN
+F 3 "" H 9300 3100 50  0000 C CNN
+	1    9300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3200 9450 3200
+Wire Wire Line
+	9300 3200 9300 3100
+Connection ~ 9300 3200
+$Comp
+L GND #PWR015
+U 1 1 57965FFD
+P 8800 5400
+F 0 "#PWR015" H 8800 5150 50  0001 C CNN
+F 1 "GND" H 8800 5250 50  0000 C CNN
+F 2 "" H 8800 5400 50  0000 C CNN
+F 3 "" H 8800 5400 50  0000 C CNN
+	1    8800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3850 8800 3850
+Wire Wire Line
+	8800 3850 8800 5400
+Wire Wire Line
+	8600 4950 8800 4950
+Connection ~ 8800 4950
+$Comp
+L +5V #PWR016
+U 1 1 579660CA
+P 9200 4700
+F 0 "#PWR016" H 9200 4550 50  0001 C CNN
+F 1 "+5V" H 9200 4840 50  0000 C CNN
+F 2 "" H 9200 4700 50  0000 C CNN
+F 3 "" H 9200 4700 50  0000 C CNN
+	1    9200 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4700 9200 4900
+Wire Wire Line
+	9200 4800 8600 4800
+$Comp
+L CP1 C6
+U 1 1 5796615D
+P 9200 5050
+F 0 "C6" H 9225 5150 50  0000 L CNN
+F 1 "100nF" H 9225 4950 50  0000 L CNN
+F 2 "celda:C_0805_HandSoldering" H 9200 5050 50  0001 C CNN
+F 3 "" H 9200 5050 50  0000 C CNN
+	1    9200 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 4800
+Wire Wire Line
+	9200 5200 9200 5300
+Wire Wire Line
+	9200 5300 8800 5300
+Connection ~ 8800 5300
+NoConn ~ 7500 4300
+NoConn ~ 7500 4150
+NoConn ~ 7500 4000
+Text HLabel 10050 4000 2    60   Output ~ 0
+scl
+Connection ~ 9150 4000
+Text HLabel 10050 4150 2    60   Output ~ 0
+sda
+Connection ~ 9450 4150
+Text HLabel 10050 4500 2    60   Output ~ 0
+alert
+Wire Wire Line
+	10050 4500 8600 4500
+Wire Wire Line
+	6350 3850 7500 3850
+Wire Wire Line
+	2550 3600 3550 3600
+Wire Wire Line
+	3550 3600 3550 4050
+Wire Wire Line
+	2550 3700 4150 3700
+Wire Wire Line
+	4150 3700 4150 3600
+Wire Wire Line
+	5600 2700 5600 2650
+Wire Wire Line
+	5600 2650 5950 2650
+Connection ~ 5950 2650
+Wire Wire Line
+	5750 1450 5700 1450
+Wire Wire Line
+	5200 1450 5100 1450
+Wire Wire Line
+	4150 3600 4400 3600
+$Comp
+L C C1
+U 1 1 57856F17
+P 5150 3300
+F 0 "C1" H 5175 3400 50  0000 L CNN
+F 1 "1nF" H 5175 3200 50  0000 L CNN
+F 2 "celda:C_0603_HandSoldering" H 5188 3150 30  0001 C CNN
+F 3 "" H 5150 3300 60  0000 C CNN
+	1    5150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2950 5150 3100
+Wire Wire Line
+	5600 3000 5600 3100
+Wire Wire Line
+	5600 3100 5300 3100
+Wire Wire Line
+	5300 3100 5300 3000
+Wire Wire Line
+	5300 3000 5150 3000
+Connection ~ 5150 3000
+Wire Wire Line
+	5150 3500 5150 3600
+Wire Wire Line
+	4900 3600 5000 3600
+Wire Wire Line
+	5000 3600 5000 3550
+Wire Wire Line
+	5000 3550 5500 3550
+Connection ~ 5150 3550
+Wire Wire Line
+	5150 4650 5150 4550
+Wire Wire Line
+	3550 4050 4400 4050
+Wire Wire Line
+	5150 4150 5150 4000
+Wire Wire Line
+	4900 4050 5050 4050
+Wire Wire Line
+	5050 4050 5050 4100
+Wire Wire Line
+	5050 4100 5500 4100
+Connection ~ 5150 4100
+Wire Wire Line
+	5500 3950 5750 3950
+Wire Wire Line
+	5500 3750 5750 3750
+Wire Wire Line
+	9450 3850 9450 4150
+Wire Wire Line
+	9150 3850 9150 4000
+Wire Wire Line
+	9150 3200 9150 3350
+Wire Wire Line
+	9450 3200 9450 3350
+Wire Wire Line
+	6050 4150 6050 5050
+Wire Wire Line
+	6050 5050 6150 5050
+Wire Wire Line
+	6150 5050 6150 4800
+Wire Wire Line
+	6150 4300 6150 4150
+$EndSCHEMATC
