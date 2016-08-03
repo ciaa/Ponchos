@@ -1,2 +1,0 @@
-Esta es una versión que se le dió a una estudiante para que la continuara, pero que fue abandonada.
-Ver ethernet_LAN8720A_v2 para los últimos avances en el Poncho Ethernet.

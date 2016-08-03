@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# VDD-RESCUE-simonShield
+#
+DEF VDD-RESCUE-simonShield #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "VDD-RESCUE-simonShield" 0 150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0  0 0  0 50 N
+X VDD 1 0 0 0 U 50 50 1 1 P N
+ENDDRAW
+ENDDEF
+#
+#End Library
