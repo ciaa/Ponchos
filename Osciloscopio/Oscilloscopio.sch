@@ -1,24 +1,18 @@
 EESchema Schematic File Version 2
-LIBS:Poncho_Esqueleto
-LIBS:Misc_Poncho_Grande
-LIBS:device
-LIBS:texas
 LIBS:osc
-LIBS:power
-LIBS:conn
 LIBS:Oscilloscopio-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title "Poncho Osciloscopio"
 Date "2015-10-06"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
 Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
-Comment3 "Autor del poncho Nicolás Dassieu Blanchet. Ver directorio \"doc\""
+Comment3 "Autor Nicolás Dassieu Blanchet - Curso Diseño de PCB del CESE - Ver directorio \"doc\" "
 Comment4 "CÓDIGO PONCHO:"
 $EndDescr
 $Comp
@@ -32,224 +26,6 @@ F 3 "" H 10800 6050 60  0000 C CNN
 	1    10800 6050
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 5250 1200 1350 5600
-U 560A0C1A
-F0 "Circuito Principal" 50
-F1 "principal.sch" 50
-F2 "RESET" B L 5250 1250 60 
-F3 "ISP" B L 5250 1350 60 
-F4 "ADC1" B L 5250 1550 60 
-F5 "ADC2" B L 5250 1650 60 
-F6 "ADC3" B L 5250 1750 60 
-F7 "DAC" B L 5250 1850 60 
-F8 "SDA" B L 5250 2050 60 
-F9 "SCL" B L 5250 2150 60 
-F10 "RXD" B L 5250 2350 60 
-F11 "TXD" B L 5250 2450 60 
-F12 "RD" B L 5250 2650 60 
-F13 "TD" B L 5250 2750 60 
-F14 "COL0" B L 5250 2950 60 
-F15 "COL1" B L 5250 3050 60 
-F16 "F0" B L 5250 3250 60 
-F17 "F1" B L 5250 3350 60 
-F18 "F2" B L 5250 3450 60 
-F19 "F3" B L 5250 3550 60 
-F20 "RCLK" B L 5250 3750 60 
-F21 "TXD0" B L 5250 3850 60 
-F22 "TXD1" B L 5250 3950 60 
-F23 "TXEN" B L 5250 4050 60 
-F24 "RXD0" B L 5250 4150 60 
-F25 "RXD1" B L 5250 4250 60 
-F26 "MDC" B L 5250 4350 60 
-F27 "CRS" B L 5250 4450 60 
-F28 "MDIO" B L 5250 4550 60 
-F29 "spiCCK" B L 5250 4750 60 
-F30 "MOSI" B L 5250 4850 60 
-F31 "MISO" B L 5250 4950 60 
-F32 "LCD1" B L 5250 5100 60 
-F33 "LCD2" B L 5250 5200 60 
-F34 "LCD3" B L 5250 5300 60 
-F35 "LCD4" B L 5250 5400 60 
-F36 "LCD_EN" B L 5250 5500 60 
-F37 "RS" B L 5250 5600 60 
-F38 "GPIO2" B L 5250 5950 60 
-F39 "GPIO3" B L 5250 6050 60 
-F40 "GPIO4" B L 5250 6150 60 
-F41 "GPIO5" B L 5250 6250 60 
-F42 "GPIO6" B L 5250 6350 60 
-F43 "GPIO7" B L 5250 6450 60 
-F44 "GPIO8" B L 5250 6550 60 
-F45 "COL2" B L 5250 3150 60 
-F46 "WAKEUP" B L 5250 1450 60 
-F47 "GPIO1" B L 5250 5850 60 
-F48 "GPIO0" B L 5250 5750 60 
-$EndSheet
-$Sheet
-S 1400 1200 1350 5600
-U 560A0C15
-F0 "Conector del Poncho" 50
-F1 "conector_poncho.sch" 50
-F2 "RESET" I R 2750 1250 60 
-F3 "ISP" B R 2750 1350 60 
-F4 "ADC3" B R 2750 1750 60 
-F5 "ADC2" B R 2750 1650 60 
-F6 "ADC1" B R 2750 1550 60 
-F7 "DAC" B R 2750 1850 60 
-F8 "SDA" B R 2750 2050 60 
-F9 "SCL" B R 2750 2150 60 
-F10 "RXD" B R 2750 2350 60 
-F11 "TXD" B R 2750 2450 60 
-F12 "RD" B R 2750 2650 60 
-F13 "TD" B R 2750 2750 60 
-F14 "COL1" B R 2750 3050 60 
-F15 "F0" B R 2750 3250 60 
-F16 "F3" B R 2750 3550 60 
-F17 "F2" B R 2750 3450 60 
-F18 "COL0" B R 2750 2950 60 
-F19 "F1" B R 2750 3350 60 
-F20 "RXD0" B R 2750 4150 60 
-F21 "RCLK" B R 2750 3750 60 
-F22 "MOSI" B R 2750 4850 60 
-F23 "LCD_EN" I R 2750 5500 60 
-F24 "GPIO0" B R 2750 5750 60 
-F25 "GPIO2" B R 2750 5950 60 
-F26 "GPIO4" B R 2750 6150 60 
-F27 "GPIO6" B R 2750 6350 60 
-F28 "RXD1" B R 2750 4250 60 
-F29 "TXEN" B R 2750 4050 60 
-F30 "MDC" B R 2750 4350 60 
-F31 "CRS" B R 2750 4450 60 
-F32 "MDIO" B R 2750 4550 60 
-F33 "TXD0" I R 2750 3850 60 
-F34 "TXD1" B R 2750 3950 60 
-F35 "MISO" B R 2750 4950 60 
-F36 "spiSCK" B R 2750 4750 60 
-F37 "LCD4" B R 2750 5400 60 
-F38 "RS" B R 2750 5600 60 
-F39 "LCD3" B R 2750 5300 60 
-F40 "LCD2" B R 2750 5200 60 
-F41 "LCD1" B R 2750 5100 60 
-F42 "GPIO1" B R 2750 5850 60 
-F43 "GPIO3" B R 2750 6050 60 
-F44 "GPIO5" B R 2750 6250 60 
-F45 "GPIO7" B R 2750 6450 60 
-F46 "GPIO8" B R 2750 6550 60 
-F47 "COL2" B R 2750 3150 60 
-F48 "WAKEUP" B R 2750 1450 60 
-$EndSheet
-Text Notes 3800 1550 0    60   Italic 12
-AD y DA
-Text Notes 3800 2000 0    60   Italic 12
-I2C
-Text Notes 3750 2300 0    60   Italic 12
-RS-232
-Text Notes 3800 2600 0    60   Italic 12
-CAN
-Text Notes 3750 2900 0    60   Italic 12
-TECLADO
-Text Notes 3600 3700 0    60   Italic 12
-ETHERNET (RMII)
-Text Notes 3850 4700 0    60   Italic 12
-SPI
-Text Notes 3800 5050 0    60   Italic 12
-DSIPLAY
-Text Notes 3300 5700 0    60   Italic 12
-E/S PROPÓSITOS GENERALES
-Wire Wire Line
-	5250 6550 2750 6550
-Wire Wire Line
-	2750 6450 5250 6450
-Wire Wire Line
-	5250 6350 2750 6350
-Wire Wire Line
-	2750 6250 5250 6250
-Wire Wire Line
-	5250 6150 2750 6150
-Wire Wire Line
-	2750 6050 5250 6050
-Wire Wire Line
-	5250 5950 2750 5950
-Wire Wire Line
-	5250 5850 2750 5850
-Wire Wire Line
-	2750 5750 5250 5750
-Wire Wire Line
-	5250 5600 2750 5600
-Wire Wire Line
-	2750 5500 5250 5500
-Wire Wire Line
-	5250 5400 2750 5400
-Wire Wire Line
-	2750 5300 5250 5300
-Wire Wire Line
-	5250 5200 2750 5200
-Wire Wire Line
-	2750 5100 5250 5100
-Wire Wire Line
-	5250 4950 2750 4950
-Wire Wire Line
-	2750 4850 5250 4850
-Wire Wire Line
-	5250 4750 2750 4750
-Wire Wire Line
-	2750 4550 5250 4550
-Wire Wire Line
-	5250 4450 2750 4450
-Wire Wire Line
-	5250 4350 2750 4350
-Wire Wire Line
-	2750 4250 5250 4250
-Wire Wire Line
-	5250 4150 2750 4150
-Wire Wire Line
-	2750 4050 5250 4050
-Wire Wire Line
-	5250 3950 2750 3950
-Wire Wire Line
-	2750 3850 5250 3850
-Wire Wire Line
-	5250 3750 2750 3750
-Wire Wire Line
-	2750 3550 5250 3550
-Wire Wire Line
-	5250 3450 2750 3450
-Wire Wire Line
-	2750 3350 5250 3350
-Wire Wire Line
-	5250 3250 2750 3250
-Wire Wire Line
-	2750 3150 5250 3150
-Wire Wire Line
-	5250 3050 2750 3050
-Wire Wire Line
-	2750 2950 5250 2950
-Wire Wire Line
-	5250 2750 2750 2750
-Wire Wire Line
-	2750 2650 5250 2650
-Wire Wire Line
-	5250 2450 2750 2450
-Wire Wire Line
-	2750 2350 5250 2350
-Wire Wire Line
-	2750 2150 5250 2150
-Wire Wire Line
-	5250 2050 2750 2050
-Wire Wire Line
-	2750 1850 5250 1850
-Wire Wire Line
-	5250 1750 2750 1750
-Wire Wire Line
-	2750 1650 5250 1650
-Wire Wire Line
-	5250 1550 2750 1550
-Wire Wire Line
-	2750 1450 5250 1450
-Wire Wire Line
-	5250 1350 2750 1350
-Wire Wire Line
-	2750 1250 5250 1250
 $Comp
 L Logo_Poncho #G1
 U 1 1 560CFFC0
@@ -261,10 +37,136 @@ F 3 "" H 10150 6000 60  0000 C CNN
 	1    10150 6000
 	1    0    0    -1  
 $EndComp
-Text Notes 6950 2850 0    79   Italic 16
-Este diseño puede copiarse como un \nTemplate de KICAD. \n1)En el administrador de Proyectos:  \n   Proyecto Nuevo -> Nuevo Proyecto desde Template\n2)Ingresar el nombre del poncho a crear.\n3)Indicar el directorio de este modelo: (Poncho Grande).
-Text Notes 7300 950  0    118  ~ 24
-http://www.proyecto-ciaa.com.ar/
-Text Notes 7000 3650 0    60   ~ 0
-Luego de abrir el nuevo proyecto:\n1)Editar datos del rótulo.\n2)Editar los archivos del subdirectorio "doc".\n2.1) Agregarse en el archivo de licencia.\n2.2) Colocar info mínima del Poncho en el LEEME.txt\n2.3) Colocar info mínima en el CAMBIOS.doc
+$Sheet
+S 6250 1400 1100 350 
+U 579AD17E
+F0 "Power" 60
+F1 "power.sch" 60
+$EndSheet
+Wire Wire Line
+	4850 2950 6250 2950
+Wire Wire Line
+	4850 3050 6250 3050
+Wire Wire Line
+	4850 3150 6250 3150
+Wire Wire Line
+	4850 3300 6250 3300
+$Sheet
+S 6250 2450 1100 1100
+U 579AD191
+F0 "Osciloscopio" 60
+F1 "osciloscopio.sch" 60
+F2 "GAIN2" B L 6250 3050 60 
+F3 "GAIN1" B L 6250 2950 60 
+F4 "AC_DC" B L 6250 3300 60 
+F5 "GAIN3" B L 6250 3150 60 
+F6 "CH0" B R 7350 2550 60 
+F7 "Trigger" B R 7350 2750 60 
+$EndSheet
+$Sheet
+S 6250 4150 1100 850 
+U 579AD1AC
+F0 "Display" 60
+F1 "Display.sch" 60
+F2 "MISO" B R 7350 4350 60 
+F3 "MOSI" B L 6250 4350 60 
+F4 "CS" B L 6250 4450 60 
+F5 "C/D" B L 6250 4600 60 
+F6 "LED" B L 6250 4750 60 
+F7 "Rst" B L 6250 4900 60 
+F8 "SCK" B L 6250 4250 60 
+$EndSheet
+Wire Wire Line
+	4850 4250 6250 4250
+Wire Wire Line
+	4850 4350 6250 4350
+Wire Wire Line
+	4850 4450 6250 4450
+Wire Wire Line
+	4850 4600 6250 4600
+Wire Wire Line
+	4850 4750 6250 4750
+Wire Wire Line
+	4850 4900 6250 4900
+$Comp
+L FIDUCIAL F1
+U 1 1 579AF5DB
+P 4900 6800
+F 0 "F1" H 4980 6850 40  0000 L CNN
+F 1 "FIDUCIAL" H 4900 6700 30  0001 C CNN
+F 2 "osc:Fiducial_1mm" H 4900 6850 60  0001 C CNN
+F 3 "" H 4900 6850 60  0001 C CNN
+F 4 "FIDUCIAL" H 4950 6600 60  0001 C CNN "Descripcion"
+	1    4900 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F2
+U 1 1 579AF5E3
+P 5250 6800
+F 0 "F2" H 5330 6850 40  0000 L CNN
+F 1 "FIDUCIAL" H 5250 6700 30  0001 C CNN
+F 2 "osc:Fiducial_1mm" H 5250 6850 60  0001 C CNN
+F 3 "" H 5250 6850 60  0001 C CNN
+F 4 "FIDUCIAL" H 5300 6600 60  0001 C CNN "Descripcion"
+	1    5250 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F3
+U 1 1 579AF5EB
+P 5600 6800
+F 0 "F3" H 5680 6850 40  0000 L CNN
+F 1 "FIDUCIAL" H 5600 6700 30  0001 C CNN
+F 2 "osc:Fiducial_1mm" H 5600 6850 60  0001 C CNN
+F 3 "" H 5600 6850 60  0001 C CNN
+F 4 "FIDUCIAL" H 5650 6600 60  0001 C CNN "Descripcion"
+	1    5600 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2300 5200 2300
+NoConn ~ 5200 2300
+$Sheet
+S 3500 1750 1350 3650
+U 560A0C15
+F0 "Conector del Poncho" 50
+F1 "conector_poncho.sch" 50
+F2 "ADC3" B R 4850 2300 60 
+F3 "ADC2" B R 4850 2200 60 
+F4 "ADC1" B R 4850 2100 60 
+F5 "MOSI" B R 4850 4350 60 
+F6 "GPIO0" B R 4850 3050 60 
+F7 "GPIO2" B R 4850 3150 60 
+F8 "GPIO4" B R 4850 5250 60 
+F9 "GPIO6" B R 4850 4600 60 
+F10 "MISO" B R 4850 3950 60 
+F11 "spiSCK" B R 4850 4250 60 
+F12 "GPIO1" B R 4850 2950 60 
+F13 "GPIO3" B R 4850 3300 60 
+F14 "GPIO5" B R 4850 4900 60 
+F15 "GPIO7" B R 4850 4750 60 
+F16 "GPIO8" B R 4850 4450 60 
+$EndSheet
+Wire Wire Line
+	7500 4350 7500 3950
+Wire Wire Line
+	7500 3950 4850 3950
+Wire Wire Line
+	4850 5250 5150 5250
+NoConn ~ 5150 5250
+Wire Wire Line
+	7500 4350 7350 4350
+Wire Wire Line
+	7350 2550 7500 2550
+Wire Wire Line
+	7500 2550 7500 2200
+Wire Wire Line
+	7500 2200 4850 2200
+Wire Wire Line
+	7650 2750 7650 2100
+Wire Wire Line
+	7650 2100 4850 2100
+Wire Wire Line
+	7350 2750 7650 2750
 $EndSCHEMATC
