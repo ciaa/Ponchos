@@ -1,0 +1,224 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Poncho EDU CIAA Amp Audio-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_Poncho2P_2x_20x2 XA1
+U 1 1 578542FE
+P 5150 2300
+F 0 "XA1" H 5450 2700 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 5500 600 60  0000 C CNN
+F 2 "footprints:Conn_Poncho_Derecha" H 5150 2300 60  0001 C CNN
+F 3 "" H 5150 2300 60  0000 C CNN
+F 4 "952-1387-ND" H 5150 2300 60  0001 C CNN "Digikey#"
+F 5 "CONN HDR 1.27MM VERT AU 40POS" H 5150 2300 60  0001 C CNN "Desc"
+F 6 "Harwin Inc." H 5150 2300 60  0001 C CNN "Manf"
+F 7 "M50-3502042" H 5150 2300 60  0001 C CNN "Manf#"
+F 8 "Value" H 5150 2300 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 5150 2300 60  0001 C CNN "Mouser#"
+F 10 "Value" H 5150 2300 60  0001 C CNN "Newark#"
+	1    5150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR01
+U 1 1 578543F7
+P 6400 1850
+F 0 "#PWR01" H 6400 1700 50  0001 C CNN
+F 1 "+5V" H 6400 1990 50  0000 C CNN
+F 2 "" H 6400 1850 50  0000 C CNN
+F 3 "" H 6400 1850 50  0000 C CNN
+	1    6400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR02
+U 1 1 5785440D
+P 4600 1850
+F 0 "#PWR02" H 4600 1810 30  0001 C CNN
+F 1 "+3,3V" H 4600 1960 30  0000 C CNN
+F 2 "" H 4600 1850 60  0000 C CNN
+F 3 "" H 4600 1850 60  0000 C CNN
+	1    4600 1850
+	1    0    0    -1  
+$EndComp
+Text HLabel 4250 2700 0    60   Output ~ 0
+DAC
+Text HLabel 4250 2600 0    60   Input ~ 0
+ADC1
+NoConn ~ 6100 2200
+NoConn ~ 6100 3600
+NoConn ~ 6100 3700
+NoConn ~ 4900 3900
+NoConn ~ 4900 3800
+NoConn ~ 4900 3700
+NoConn ~ 4900 3600
+NoConn ~ 4900 3500
+NoConn ~ 4900 3400
+NoConn ~ 4900 3300
+NoConn ~ 4900 3200
+NoConn ~ 4900 3100
+NoConn ~ 4900 3000
+NoConn ~ 4900 2900
+$Comp
+L GNDA #PWR03
+U 1 1 57854963
+P 7350 4250
+F 0 "#PWR03" H 7350 4000 50  0001 C CNN
+F 1 "GNDA" H 7350 4100 50  0000 C CNN
+F 2 "" H 7350 4250 50  0000 C CNN
+F 3 "" H 7350 4250 50  0000 C CNN
+	1    7350 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1850 6400 2000
+Wire Wire Line
+	6400 2000 6100 2000
+Wire Wire Line
+	4900 2000 4600 2000
+Wire Wire Line
+	4600 2000 4600 1850
+Wire Wire Line
+	4900 2700 4250 2700
+Wire Wire Line
+	4900 2600 4250 2600
+Wire Wire Line
+	6100 2300 7350 2300
+Wire Wire Line
+	7350 1950 7350 4250
+Wire Wire Line
+	6100 2400 7350 2400
+Connection ~ 7350 2400
+Wire Wire Line
+	6100 2500 7350 2500
+Connection ~ 7350 2500
+Wire Wire Line
+	6100 2600 7350 2600
+Connection ~ 7350 2600
+Wire Wire Line
+	6100 2700 7350 2700
+Connection ~ 7350 2700
+Wire Wire Line
+	6100 2800 7350 2800
+Connection ~ 7350 2800
+$Comp
+L GNDA #PWR04
+U 1 1 57854B8A
+P 3700 2350
+F 0 "#PWR04" H 3700 2100 50  0001 C CNN
+F 1 "GNDA" H 3700 2200 50  0000 C CNN
+F 2 "" H 3700 2350 50  0000 C CNN
+F 3 "" H 3700 2350 50  0000 C CNN
+	1    3700 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2300 3700 2300
+Wire Wire Line
+	3700 2300 3700 2350
+NoConn ~ 4900 2200
+NoConn ~ 4900 2100
+NoConn ~ 4900 2800
+NoConn ~ 4900 2500
+NoConn ~ 4900 2400
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 578599FE
+P 7350 1950
+F 0 "#FLG05" H 7350 2045 50  0001 C CNN
+F 1 "PWR_FLAG" H 7350 2130 50  0000 C CNN
+F 2 "" H 7350 1950 50  0000 C CNN
+F 3 "" H 7350 1950 50  0000 C CNN
+	1    7350 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 2300
+NoConn ~ 6100 2100
+NoConn ~ 6100 2900
+NoConn ~ 6100 3000
+NoConn ~ 6100 3100
+NoConn ~ 6100 3200
+NoConn ~ 6100 3300
+NoConn ~ 6100 3400
+NoConn ~ 6100 3500
+NoConn ~ 6100 3800
+NoConn ~ 6100 3900
+$Comp
+L FIDUCIAL F1
+U 1 1 578D5EFC
+P 3400 5400
+F 0 "F1" H 3480 5450 40  0000 L CNN
+F 1 "FIDUCIAL" H 3400 5300 30  0001 C CNN
+F 2 "ej2cese:Fiducial_1mm" H 3400 5450 60  0001 C CNN
+F 3 "" H 3400 5450 60  0001 C CNN
+F 4 "Value" H 3400 5400 60  0001 C CNN "Desc"
+F 5 "Value" H 3400 5400 60  0001 C CNN "Manf"
+F 6 "Value" H 3400 5400 60  0001 C CNN "Manf#"
+F 7 "Value" H 3400 5400 60  0001 C CNN "Path datasheet"
+F 8 "Value" H 3400 5400 60  0001 C CNN "Mouser#"
+F 9 "Value" H 3400 5400 60  0001 C CNN "Newark#"
+F 10 "FIDUCIAL" H 3450 5200 60  0001 C CNN "Descripcion"
+	1    3400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F2
+U 1 1 578D5FA2
+P 4050 5400
+F 0 "F2" H 4130 5450 40  0000 L CNN
+F 1 "FIDUCIAL" H 4050 5300 30  0001 C CNN
+F 2 "ej2cese:Fiducial_1mm" H 4050 5450 60  0001 C CNN
+F 3 "" H 4050 5450 60  0001 C CNN
+F 4 "Value" H 4050 5400 60  0001 C CNN "Desc"
+F 5 "Value" H 4050 5400 60  0001 C CNN "Manf"
+F 6 "Value" H 4050 5400 60  0001 C CNN "Manf#"
+F 7 "Value" H 4050 5400 60  0001 C CNN "Path datasheet"
+F 8 "Value" H 4050 5400 60  0001 C CNN "Mouser#"
+F 9 "Value" H 4050 5400 60  0001 C CNN "Newark#"
+F 10 "FIDUCIAL" H 4100 5200 60  0001 C CNN "Descripcion"
+	1    4050 5400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
