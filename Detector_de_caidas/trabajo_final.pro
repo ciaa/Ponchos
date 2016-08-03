@@ -1,0 +1,37 @@
+update=25 Jul. 2016 19:51:53
+version=1
+last_client=kicad
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=poncho_grande.net
+UseCmpFile=0
+PadDrill=0.6
+PadDrillOvalY=0.6
+PadSizeH=1.4
+PadSizeV=1.4
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1e-06
+ModuleTextSizeH=1e-06
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
+[eeschema]
+version=1
+LibDir=../trabajo_final
+[eeschema/libraries]
+LibName1=lib/falling_detector-cache
+LibName2=lib/poncho_grande-cache
+LibName3=lib/buzzer
+LibName4=C:/Program Files/KiCad/share/kicad/library/power
+LibName5=lib/ej2cese
