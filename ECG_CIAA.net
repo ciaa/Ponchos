@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/jorge/Escritorio/ECG CIAA/ECG_CIAA.sch")
-    (date "lun 01 ago 2016 19:10:10 ART")
+    (date "mié 03 ago 2016 21:11:28 ART")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -150,6 +150,9 @@
     (comp (ref P1)
       (value CONN_01X03)
       (footprint Connect:bornier3)
+      (datasheet http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf)
+      (fields
+        (field (name "Cd Digikey") " ED2601-ND "))
       (libsource (lib conn) (part CONN_01X03))
       (sheetpath (names /) (tstamps /))
       (tstamp 579AD41A))
@@ -174,6 +177,9 @@
     (comp (ref P2)
       (value Conn_Poncho2P_2x_20x2)
       (footprint ej2cese:Conn_Poncho_Derecha)
+      (datasheet http://portal.fciconnect.com/Comergent//fci/drawing/57102.pdf)
+      (fields
+        (field (name "Cd. Digikey") "609-2589-ND "))
       (libsource (lib ej2cese) (part Conn_Poncho2P_2x_20x2))
       (sheetpath (names /) (tstamps /))
       (tstamp 579C62B9))
@@ -222,8 +228,12 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 579DFFFB))
     (comp (ref U1)
-      (value AD6232)
+      (value AD8232)
       (footprint ECG:LFCSP_WQ)
+      (datasheet https://ay12-14.moodle.wisc.edu/prod/pluginfile.php/189091/mod_resource/content/1/AD8232.pdf)
+      (fields
+        (field (name Fabricante) "Analog Device")
+        (field (name "Cd. Digikey") "AD8232ACPZ-R7TR-ND "))
       (libsource (lib ECG_LIB) (part AD6232))
       (sheetpath (names /) (tstamps /))
       (tstamp 579F003F)))
@@ -400,14 +410,14 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical ej2cese)
       (uri "/home/jorge/Escritorio/ECG CIAA/Libs/ej2cese.lib"))
     (library (logical ECG_LIB)
-      (uri "/home/jorge/Escritorio/ECG CIAA/Libs/ECG_LIB.lib")))
+      (uri "/home/jorge/Escritorio/ECG CIAA/Libs/ECG_LIB.lib"))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(C3-Pad1)")
       (node (ref R9) (pin 2))

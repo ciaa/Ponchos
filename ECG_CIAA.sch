@@ -296,7 +296,8 @@ P 1500 2750
 F 0 "P1" H 1500 2950 50  0000 C CNN
 F 1 "CONN_01X03" V 1600 2750 50  0000 C CNN
 F 2 "Connect:bornier3" H 1500 2750 50  0001 C CNN
-F 3 "" H 1500 2750 50  0000 C CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf" H 1500 2750 50  0001 C CNN
+F 4 " ED2601-ND " H 1500 2750 60  0001 C CNN "Cd Digikey"
 	1    1500 2750
 	-1   0    0    1   
 $EndComp
@@ -350,7 +351,8 @@ P 9900 2750
 F 0 "P2" H 10200 3150 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 10250 1050 60  0000 C CNN
 F 2 "ej2cese:Conn_Poncho_Derecha" H 9900 2750 60  0001 C CNN
-F 3 "" H 9900 2750 60  0000 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/57102.pdf" H 9900 2750 60  0001 C CNN
+F 4 "609-2589-ND " H 9900 2750 60  0001 C CNN "Cd. Digikey"
 	1    9900 2750
 	1    0    0    -1  
 $EndComp
@@ -773,9 +775,11 @@ L AD6232 U1
 U 1 1 579F003F
 P 5500 3450
 F 0 "U1" H 5450 4850 60  0000 C CNN
-F 1 "AD6232" H 5500 2150 60  0000 C CNN
-F 2 "ECG:LFCSP_WQ" H 5550 2000 60  0000 C CNN
-F 3 "" H 5500 3450 60  0000 C CNN
+F 1 "AD8232" H 5500 2150 60  0000 C CNN
+F 2 "ECG:LFCSP_WQ" H 5550 2000 60  0001 C CNN
+F 3 "https://ay12-14.moodle.wisc.edu/prod/pluginfile.php/189091/mod_resource/content/1/AD8232.pdf" H 5500 3450 60  0001 C CNN
+F 4 "Analog Device" H 5500 3450 60  0001 C CNN "Fabricante"
+F 5 "AD8232ACPZ-R7TR-ND " H 5500 3450 60  0001 C CNN "Cd. Digikey"
 	1    5500 3450
 	1    0    0    -1  
 $EndComp
