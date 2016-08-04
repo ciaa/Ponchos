@@ -3,9 +3,9 @@
   (general
     (links 63)
     (no_connects 0)
-    (area 127.432999 45.644999 180.415001 106.755001)
+    (area 127.432999 26.394999 249.451761 164.105001)
     (thickness 1.6)
-    (drawings 7)
+    (drawings 8)
     (tracks 192)
     (zones 0)
     (modules 37)
@@ -224,13 +224,13 @@
     (add_net "Net-(R6-Pad1)")
   )
 
-  (module ECG:LFCSP_WQ (layer F.Cu) (tedit 579E77C7) (tstamp 579E6AC2)
+  (module ECG:LFCSP_WQ (layer F.Cu) (tedit 57A3CC76) (tstamp 579E6AC2)
     (at 154.432 75.692 180)
     (path /579F003F)
     (fp_text reference U1 (at -2.159 4.953 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value AD6232 (at 0 -3.81 180) (layer F.Fab)
+    (fp_text value AD8232 (at -3.302 -0.254 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 1.27 -1.016) (end 1.27 -1.143) (layer F.SilkS) (width 0.1))
@@ -278,15 +278,20 @@
       (net 54 "Net-(R14-Pad2)"))
     (pad 20 smd rect (at 1.016 -1.778 270) (size 0.4 0.25) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(C4-Pad1)"))
+    (model "../../../../../home/jorge/Escritorio/ECG CIAA/ECG.3dshapes/User Library-LFCSP-20.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 0.395 0.395 0.395))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module ECG:Plantilla_EDU-CIAA (layer F.Cu) (tedit 579FCAB6) (tstamp 579E7328)
+  (module ECG:Plantilla_EDU-CIAA (layer F.Cu) (tedit 57A3D690) (tstamp 579E7328)
     (at 171.45 100.33 180)
     (tags "plantilla poncho EDU CIAA")
-    (fp_text reference MP? (at 2.54 -2.032 180) (layer F.SilkS)
+    (fp_text reference MP? (at 2.54 -2.032 180) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value Plantilla_EDU-CIAA (at -0.03 50.9 180) (layer F.SilkS)
+    (fp_text value Plantilla_EDU-CIAA (at -0.254 56.896 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_circle (center -71.12 0) (end -70.612 0) (layer F.SilkS) (width 0.15))
@@ -740,11 +745,11 @@
       (net 16 "Net-(F4-Pad1)") (solder_mask_margin 1.5))
   )
 
-  (module ej2cese:Conn_Poncho_Derecha (layer F.Cu) (tedit 565779F5) (tstamp 579E69C1)
+  (module ej2cese:Conn_Poncho_Derecha (layer F.Cu) (tedit 57A3D69B) (tstamp 579E69C1)
     (at 171.45 100.33 180)
     (tags "CONN Poncho")
     (path /579C62B9)
-    (fp_text reference P2 (at -0.508 -2.032 180) (layer F.SilkS)
+    (fp_text reference P2 (at 1.016 -2.032 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
     )
     (fp_text value Conn_Poncho2P_2x_20x2 (at -1.905 51.181 180) (layer F.SilkS) hide
@@ -957,8 +962,8 @@
       (net 49 "Net-(P2-Pad40)"))
     (pad 30 thru_hole oval (at 2.54 35.56 90) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask)
       (net 50 "Net-(P2-Pad30)"))
-    (model ${KIPRJMOD}/ej2.3dshapes/pin_strip_20x2.wrl
-      (at (xyz 0.05 -0.95 -0.063))
+    (model "../../../../../home/jorge/Escritorio/ECG CIAA/ECG.3dshapes/pin_strip_20x2.wrl"
+      (at (xyz 0.05 -0.95 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
     )
@@ -1545,7 +1550,7 @@
   )
 
   (module ej2cese:Logo_Poncho (layer F.Cu) (tedit 560DAFF4) (tstamp 57A10249)
-    (at 137.414 57.404)
+    (at 139.192 51.562)
     (fp_text reference G*** (at 0.127 5.588) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
@@ -1727,6 +1732,9 @@
       (xy -2.42316 3.59156)) (layer F.SilkS) (width 0.00254))
   )
 
+  (gr_text "ECG EDU-CIAA" (at 138.684 58.166) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text LA (at 137.414 81.28) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
