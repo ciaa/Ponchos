@@ -1,7 +1,7 @@
 Source:,/home/jorge/Escritorio/ECG CIAA/ECG_CIAA.sch
-Date:,mié 03 ago 2016 21:11:39 ART
+Date:,mié 03 ago 2016 21:23:37 ART
 Tool:,Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable
-Generator:,/home/jorge/Documentos/BK Ubuntu/12. Diseño de circuitos impersos/CLASE2/ej2tools/bom_csv_grouped_by_value.py
+Generator:,/home/jorge/Escritorio/ECG CIAA/ECGtools/bom_csv_grouped_by_value.py
 Component Count:,34
 
 Individual Components:
