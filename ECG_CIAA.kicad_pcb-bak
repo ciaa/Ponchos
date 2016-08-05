@@ -3,7 +3,7 @@
   (general
     (links 63)
     (no_connects 0)
-    (area 127.432999 45.644999 180.415001 106.755001)
+    (area 127.432999 26.394999 249.451761 164.105001)
     (thickness 1.6)
     (drawings 8)
     (tracks 192)
@@ -285,10 +285,10 @@
     )
   )
 
-  (module ECG:Plantilla_EDU-CIAA (layer F.Cu) (tedit 57A3D265) (tstamp 579E7328)
+  (module ECG:Plantilla_EDU-CIAA (layer F.Cu) (tedit 57A3D690) (tstamp 579E7328)
     (at 171.45 100.33 180)
     (tags "plantilla poncho EDU CIAA")
-    (fp_text reference MP? (at 2.54 -2.032 180) (layer F.SilkS)
+    (fp_text reference MP? (at 2.54 -2.032 180) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
     (fp_text value Plantilla_EDU-CIAA (at -0.254 56.896 180) (layer F.SilkS)
@@ -745,11 +745,11 @@
       (net 16 "Net-(F4-Pad1)") (solder_mask_margin 1.5))
   )
 
-  (module ej2cese:Conn_Poncho_Derecha (layer F.Cu) (tedit 565779F5) (tstamp 579E69C1)
+  (module ej2cese:Conn_Poncho_Derecha (layer F.Cu) (tedit 57A3D69B) (tstamp 579E69C1)
     (at 171.45 100.33 180)
     (tags "CONN Poncho")
     (path /579C62B9)
-    (fp_text reference P2 (at -0.508 -2.032 180) (layer F.SilkS)
+    (fp_text reference P2 (at 1.016 -2.032 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
     )
     (fp_text value Conn_Poncho2P_2x_20x2 (at -1.905 51.181 180) (layer F.SilkS) hide
