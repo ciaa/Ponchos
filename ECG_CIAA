@@ -1,12 +1,12 @@
 Source:,/home/jorge/Escritorio/ECG CIAA/ECG_CIAA.sch
-Date:,mié 03 ago 2016 21:23:37 ART
+Date:,dom 07 ago 2016 15:22:41 ART
 Tool:,Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable
 Generator:,/home/jorge/Escritorio/ECG CIAA/ECGtools/bom_csv_grouped_by_value.py
 Component Count:,34
 
 Individual Components:
 
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Cd Digikey,Cd. Digikey,Descripcion,Fabricante
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Descripcion,Digikey#,Manf,Manf#
 ,,C1,1nF,device:C,ECG:C_0805,,,,,
 ,,C2,10nF,device:C,ECG:C_0805,,,,,
 ,,C3,1.5nF,device:C,ECG:C_0805,,,,,
@@ -15,12 +15,12 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Cd Digikey,Cd. Digikey,D
 ,,C6,0.1uF,device:C,ECG:C_0805,,,,,
 ,,C7,0.1uF,device:C,ECG:C_0805,,,,,
 ,,D1,LED,device:LED,ECG:LED_0805,,,,,
-,,F1,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,,,FIDUCIAL,
-,,F2,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,,,FIDUCIAL,
-,,F3,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,,,FIDUCIAL,
-,,F4,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,,,FIDUCIAL,
-,,P1,CONN_01X03,conn:CONN_01X03,Connect:bornier3,http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf, ED2601-ND ,,,
-,,P2,Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho_Derecha,http://portal.fciconnect.com/Comergent//fci/drawing/57102.pdf,,609-2589-ND ,,
+,,F1,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,FIDUCIAL,,,
+,,F2,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,FIDUCIAL,,,
+,,F3,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,FIDUCIAL,,,
+,,F4,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,FIDUCIAL,,,
+,,P1,CONN_01X03,conn:CONN_01X03,Connect:bornier3,http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf,, ED2601-ND ,OSTT,OSTTC030152
+,,P2,Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho_Derecha,http://portal.fciconnect.com/Comergent//fci/drawing/57102.pdf,,609-2589-ND ,FCI,57102
 ,,R1,0,device:R,ECG:R_0805,,,,,
 ,,R2,No montar,device:R,ECG:R_0805,,,,,
 ,,R3,10M ,device:R,ECG:R_0805,,,,,
@@ -40,22 +40,22 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Cd Digikey,Cd. Digikey,D
 ,,R19,0,device:R,ECG:R_0805,,,,,
 ,,R20,No montar,device:R,ECG:R_0805,,,,,
 ,,R22,1K,device:R,ECG:R_0805,,,,,
-,,U1,AD8232,ECG_LIB:AD6232,ECG:LFCSP_WQ,https://ay12-14.moodle.wisc.edu/prod/pluginfile.php/189091/mod_resource/content/1/AD8232.pdf,,AD8232ACPZ-R7TR-ND ,,Analog Device
+,,U1,AD8232,ECG_LIB:AD6232,ECG:LFCSP_WQ,https://ay12-14.moodle.wisc.edu/prod/pluginfile.php/189091/mod_resource/content/1/AD8232.pdf,,AD8232ACPZ-R7TR-ND ,Analog Device,AD8232
 
 
 
 Collated Components:
 
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Cd Digikey,Cd. Digikey,Descripcion,Fabricante
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Descripcion,Digikey#,Manf,Manf#
 1,1,C1,1nF,device:C,ECG:C_0805,,,,,
 2,1,C2,10nF,device:C,ECG:C_0805,,,,,
 3,1,C3,1.5nF,device:C,ECG:C_0805,,,,,
 4,2,"C4, C5",0.33uF,device:C,ECG:C_0805,,,,,
 5,2,"C6, C7",0.1uF,device:C,ECG:C_0805,,,,,
 6,1,D1,LED,device:LED,ECG:LED_0805,,,,,
-7,4,"F1, F2, F3, F4",FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,,,FIDUCIAL,
-8,1,P1,CONN_01X03,conn:CONN_01X03,Connect:bornier3,http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf, ED2601-ND ,,,
-9,1,P2,Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho_Derecha,http://portal.fciconnect.com/Comergent//fci/drawing/57102.pdf,,609-2589-ND ,,
+7,4,"F1, F2, F3, F4",FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,FIDUCIAL,,,
+8,1,P1,CONN_01X03,conn:CONN_01X03,Connect:bornier3,http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf,, ED2601-ND ,OSTT,OSTTC030152
+9,1,P2,Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho_Derecha,http://portal.fciconnect.com/Comergent//fci/drawing/57102.pdf,,609-2589-ND ,FCI,57102
 10,2,"R1, R19",0,device:R,ECG:R_0805,,,,,
 11,2,"R2, R20",No montar,device:R,ECG:R_0805,,,,,
 12,1,R3,10M ,device:R,ECG:R_0805,,,,,
@@ -66,4 +66,4 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Cd Digikey,Cd. Digikey,D
 17,1,R11,100K,device:R,ECG:R_0805,,,,,
 18,1,R15,1.4M,device:R,ECG:R_0805,,,,,
 19,1,R22,1K,device:R,ECG:R_0805,,,,,
-20,1,U1,AD8232,ECG_LIB:AD6232,ECG:LFCSP_WQ,https://ay12-14.moodle.wisc.edu/prod/pluginfile.php/189091/mod_resource/content/1/AD8232.pdf,,AD8232ACPZ-R7TR-ND ,,Analog Device
+20,1,U1,AD8232,ECG_LIB:AD6232,ECG:LFCSP_WQ,https://ay12-14.moodle.wisc.edu/prod/pluginfile.php/189091/mod_resource/content/1/AD8232.pdf,,AD8232ACPZ-R7TR-ND ,Analog Device,AD8232
