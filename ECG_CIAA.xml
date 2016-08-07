@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jorge/Escritorio/ECG CIAA/ECG_CIAA.sch</source>
-    <date>dom 07 ago 2016 15:22:41 ART</date>
+    <date>dom 07 ago 2016 18:56:07 ART</date>
     <tool>Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,6 +22,11 @@
     <comp ref="R1">
       <value>0</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-070RL</field>
+        <field name="Digikey#">311-0.0ARTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579A9C06</tstamp>
@@ -36,6 +41,11 @@
     <comp ref="R3">
       <value>10M </value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">LTR</field>
+        <field name="Manf#">RMCF0805JT10M0</field>
+        <field name="Digikey#">RMCF0805JT10M0TR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579A9C8C</tstamp>
@@ -43,6 +53,11 @@
     <comp ref="R4">
       <value>10M</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">LDR</field>
+        <field name="Manf#">RMCF0805JT10M0</field>
+        <field name="Digikey#">RMCF0805JT10M0TR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579A9CD1</tstamp>
@@ -50,6 +65,11 @@
     <comp ref="R5">
       <value>180K</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-07180KL</field>
+        <field name="Digikey#">311-180KARTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579A9D02</tstamp>
@@ -57,6 +77,11 @@
     <comp ref="R6">
       <value>180K</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-07180KL </field>
+        <field name="Digikey#">311-180KARTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579A9D3D</tstamp>
@@ -64,6 +89,11 @@
     <comp ref="C1">
       <value>1nF</value>
       <footprint>ECG:C_0805</footprint>
+      <fields>
+        <field name="Manf">Wurth</field>
+        <field name="Manf#">885012007008</field>
+        <field name="Digikey#">732-7813-2-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AA1C0</tstamp>
@@ -71,6 +101,11 @@
     <comp ref="R7">
       <value>360K</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-07360KL</field>
+        <field name="Digikey#">311-360KCRTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AA37D</tstamp>
@@ -78,6 +113,11 @@
     <comp ref="C4">
       <value>0.33uF</value>
       <footprint>ECG:C_0805</footprint>
+      <fields>
+        <field name="Manf">Wurth</field>
+        <field name="Manf#">885012207019</field>
+        <field name="Digikey#">732-7651-2-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AA4B4</tstamp>
@@ -85,6 +125,11 @@
     <comp ref="R8">
       <value>1M</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-071ML</field>
+        <field name="Digikey#">311-1.00MCRTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AA559</tstamp>
@@ -92,6 +137,11 @@
     <comp ref="R9">
       <value>1M</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Rohm</field>
+        <field name="Manf#">LTR10EZPJ105</field>
+        <field name="Digikey#">RHM1.0MBUTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AA5BC</tstamp>
@@ -99,6 +149,11 @@
     <comp ref="R14">
       <value>10M</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RMCF0805JT10M0</field>
+        <field name="Digikey#">RMCF0805JT10M0TR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AA68D</tstamp>
@@ -106,6 +161,11 @@
     <comp ref="R15">
       <value>1.4M</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Panasonic</field>
+        <field name="Manf#">ERJ-6ENF1404V</field>
+        <field name="Digikey#">P1.4BTTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AA787</tstamp>
@@ -113,6 +173,11 @@
     <comp ref="R13">
       <value>10M</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RMCF0805JT10M0</field>
+        <field name="Digikey#">RMCF0805JT10M0TR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AA816</tstamp>
@@ -120,6 +185,11 @@
     <comp ref="C5">
       <value>0.33uF</value>
       <footprint>ECG:C_0805</footprint>
+      <fields>
+        <field name="Manf">Wurth</field>
+        <field name="Manf#">885012207019</field>
+        <field name="Digikey#">732-7651-2-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AAA9F</tstamp>
@@ -127,6 +197,11 @@
     <comp ref="C6">
       <value>0.1uF</value>
       <footprint>ECG:C_0805</footprint>
+      <fields>
+        <field name="Manf">Kamet</field>
+        <field name="Manf#">C0805C104K8RACTU</field>
+        <field name="Digikey#">399-7999-2-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AB618</tstamp>
@@ -134,6 +209,11 @@
     <comp ref="R16">
       <value>10M</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RMCF0805JT10M0</field>
+        <field name="Digikey#">RMCF0805JT10M0TR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AB73A</tstamp>
@@ -141,6 +221,11 @@
     <comp ref="R17">
       <value>10M</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RMCF0805JT10M0</field>
+        <field name="Digikey#">RMCF0805JT10M0TR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AB7AB</tstamp>
@@ -148,6 +233,11 @@
     <comp ref="C7">
       <value>0.1uF</value>
       <footprint>ECG:C_0805</footprint>
+      <fields>
+        <field name="Manf">Kamet</field>
+        <field name="Manf#">C0805C104K8RACTU</field>
+        <field name="Digikey#">399-7999-2-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AB8C5</tstamp>
@@ -155,6 +245,11 @@
     <comp ref="R19">
       <value>0</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-070RL</field>
+        <field name="Digikey#">311-0.0ARTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579ABF8A</tstamp>
@@ -169,6 +264,11 @@
     <comp ref="C3">
       <value>1.5nF</value>
       <footprint>ECG:C_0805</footprint>
+      <fields>
+        <field name="Manf">Wurth</field>
+        <field name="Manf#">885012207008</field>
+        <field name="Digikey#">732-8018-2-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AC8D1</tstamp>
@@ -189,6 +289,11 @@
     <comp ref="C2">
       <value>10nF</value>
       <footprint>ECG:C_0805</footprint>
+      <fields>
+        <field name="Manf">Wurth</field>
+        <field name="Manf#">732-8018-2-ND</field>
+        <field name="Digikey#">732-8021-2-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579C0A92</tstamp>
@@ -196,6 +301,11 @@
     <comp ref="R11">
       <value>100K</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-07100KL</field>
+        <field name="Degikey#">311-100KCRTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579C17DD</tstamp>
@@ -203,6 +313,11 @@
     <comp ref="R12">
       <value>1M</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-071ML</field>
+        <field name="Digikey#">311-1.00MCRTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579C1888</tstamp>
@@ -223,6 +338,11 @@
     <comp ref="R22">
       <value>1K</value>
       <footprint>ECG:R_0805</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Digikey#">311-1.0KARTR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579D00CF</tstamp>
@@ -230,6 +350,11 @@
     <comp ref="D1">
       <value>LED</value>
       <footprint>ECG:LED_0805</footprint>
+      <fields>
+        <field name="Manf">OSRAM</field>
+        <field name="Manf#">LG R971-KN-1</field>
+        <field name="Digikey#">475-1410-2-ND</field>
+      </fields>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579D0264</tstamp>
@@ -487,17 +612,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="ECG_LIB">
-      <uri>/home/jorge/Escritorio/ECG CIAA/Libs/ECG_LIB.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="ej2cese">
       <uri>/home/jorge/Escritorio/ECG CIAA/Libs/ej2cese.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="ECG_LIB">
+      <uri>/home/jorge/Escritorio/ECG CIAA/Libs/ECG_LIB.lib</uri>
     </library>
   </libraries>
   <nets>
