@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jorge/Escritorio/ECG CIAA/ECG_CIAA.sch</source>
-    <date>dom 07 ago 2016 18:56:07 ART</date>
+    <date>dom 07 ago 2016 19:01:05 ART</date>
     <tool>Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -612,17 +612,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="ej2cese">
       <uri>/home/jorge/Escritorio/ECG CIAA/Libs/ej2cese.lib</uri>
     </library>
     <library logical="ECG_LIB">
       <uri>/home/jorge/Escritorio/ECG CIAA/Libs/ECG_LIB.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
