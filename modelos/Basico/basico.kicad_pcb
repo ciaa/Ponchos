@@ -502,6 +502,16 @@
     (pad 79 thru_hole oval (at -71.12 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
     (pad 80 thru_hole oval (at -68.58 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+    (model ${KIPRJMOD}/footprint.3dshapes/pin_strip_20x2.wrl
+      (at (xyz 0.05 -0.95 -0.063))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
+    (model ${KIPRJMOD}/footprint.3dshapes/pin_strip_20x2.wrl
+      (at (xyz -2.75 -0.95 -0.063))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
   )
 
   (module footprint:Logo_EDU-CIAA (layer F.Cu) (tedit 560D8BDB) (tstamp 57A7E3E8)
