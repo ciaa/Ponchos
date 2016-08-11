@@ -1,7 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:Poncho_Esqueleto
-LIBS:power
-LIBS:powerint
+LIBS:basico
 LIBS:basico-cache
 EELAYER 25 0
 EELAYER END
@@ -130,8 +128,6 @@ F 3 "" H 3400 3150 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3400 1150 3400 3150
-Wire Wire Line
-	3200 2950 3650 2950
 Wire Wire Line
 	3400 2850 3200 2850
 Connection ~ 3400 2950
@@ -276,19 +272,6 @@ F 3 "" H 1800 6900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG013
-U 1 1 57A7AB94
-P 3650 2850
-F 0 "#FLG013" H 3650 2945 30  0001 C CNN
-F 1 "PWR_FLAG" H 3650 3030 30  0000 C CNN
-F 2 "" H 3650 2850 60  0000 C CNN
-F 3 "" H 3650 2850 60  0000 C CNN
-	1    3650 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 2950 3650 2850
-$Comp
 L GNDD #PWR014
 U 1 1 57A7AD84
 P 2150 4150
@@ -378,4 +361,54 @@ Wire Wire Line
 	3600 1050 3600 850 
 Wire Wire Line
 	1500 1050 2000 1050
+Wire Wire Line
+	3200 2950 3400 2950
+NoConn ~ 3200 4950
+NoConn ~ 3200 5050
+NoConn ~ 3200 5150
+NoConn ~ 3200 5250
+NoConn ~ 3200 5350
+NoConn ~ 3200 5450
+NoConn ~ 3200 5550
+NoConn ~ 3200 5650
+NoConn ~ 3200 5750
+NoConn ~ 3200 5850
+NoConn ~ 3200 5950
+NoConn ~ 3200 6050
+NoConn ~ 3200 6150
+NoConn ~ 3200 6250
+NoConn ~ 3200 6350
+NoConn ~ 3200 6450
+NoConn ~ 3200 6550
+NoConn ~ 3200 6650
+NoConn ~ 3200 6750
+NoConn ~ 2000 5250
+NoConn ~ 2000 5550
+NoConn ~ 2000 5850
+NoConn ~ 2000 5950
+NoConn ~ 2000 6250
+NoConn ~ 2000 6350
+NoConn ~ 2000 6450
+NoConn ~ 2000 6550
+NoConn ~ 2000 1150
+NoConn ~ 2000 1250
+NoConn ~ 2000 1450
+NoConn ~ 2000 1550
+NoConn ~ 2000 1650
+NoConn ~ 2000 1750
+NoConn ~ 2000 1850
+NoConn ~ 2000 1950
+NoConn ~ 2000 2050
+NoConn ~ 2000 2150
+NoConn ~ 2000 2250
+NoConn ~ 2000 2350
+NoConn ~ 2000 2450
+NoConn ~ 2000 2550
+NoConn ~ 2000 2650
+NoConn ~ 2000 2750
+NoConn ~ 2000 2850
+NoConn ~ 2000 2950
+NoConn ~ 3200 2650
+NoConn ~ 3200 2750
+NoConn ~ 3200 1250
 $EndSCHEMATC

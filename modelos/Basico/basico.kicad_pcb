@@ -3,7 +3,7 @@
   (general
     (links 28)
     (no_connects 28)
-    (area 59.614999 80.569999 145.490001 141.045001)
+    (area 17.422141 15.774999 279.500001 163.930001)
     (thickness 1.6)
     (drawings 35)
     (tracks 0)
@@ -49,12 +49,14 @@
   (setup
     (last_trace_width 0.381)
     (user_trace_width 0.508)
-    (user_trace_width 0.635)
-    (user_trace_width 0.762)
+    (user_trace_width 0.6)
+    (user_trace_width 0.6)
+    (user_trace_width 0.8)
+    (user_trace_width 1)
     (user_trace_width 1.016)
     (user_trace_width 1.27)
-    (user_trace_width 1.524)
-    (trace_clearance 0.508)
+    (user_trace_width 2)
+    (trace_clearance 0.51)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
@@ -113,7 +115,7 @@
   (net 4 GNDA)
 
   (net_class Default "This is the default net class."
-    (clearance 0.508)
+    (clearance 0.51)
     (trace_width 0.381)
     (via_dia 0.6)
     (via_drill 0.4)
@@ -125,7 +127,7 @@
     (add_net GNDA)
   )
 
-  (module footprint:Conn_Poncho_SinBorde (layer F.Cu) (tedit 560F0DC0) (tstamp 57A7DEE4)
+  (module footprint:Conn_Poncho_SinBorde locked (layer F.Cu) (tedit 560F0DC0) (tstamp 57A7DEE4)
     (at 137.16 86.36)
     (tags "CONN Poncho")
     (path /57A7A0F8)
