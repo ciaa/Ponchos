@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2+e4-6225~38~ubuntu16.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.3+e1-6302~38~ubuntu16.04.1-stable)
 
   (general
     (links 63)
     (no_connects 0)
-    (area 20.460571 26.394999 249.451761 164.105001)
+    (area 20.610571 26.394999 249.451761 164.105001)
     (thickness 1.6)
     (drawings 9)
     (tracks 189)
@@ -17,6 +17,8 @@
     (title "ECG CIAA")
     (date 17/08/16)
     (rev V1)
+    (company "Autor: Jorge Fonseca")
+    (comment 1 "Licencia: https://github.com/ciaa/Ponchos/blob/master/expansores_ciaa/licencia.txt")
   )
 
   (layers
