@@ -1,4 +1,4 @@
-update=jue 21 jul 2016 16:55:35 ART
+update=mar 26 jul 2016 11:33:46 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -26,11 +26,6 @@ version=1
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=../../kicad/libModelos;../../kicad/libPonchos
-[eeschema/libraries]
-LibName1=lib/ponchosumo
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -41,3 +36,10 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=../../kicad/libModelos;../../kicad/libPonchos
+[eeschema/libraries]
+LibName1=lib/ponchosumo
+LibName2=transistors
+LibName3=power
