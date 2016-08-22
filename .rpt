@@ -1,8 +1,14 @@
 ** Drc report for /home/jorge/Escritorio/ECG CIAA/ECG_CIAA.kicad_pcb **
-** Created on 2016-08-19 22:20:07 **
+** Created on 2016-08-22 19:16:30 **
 
 ** Found 0 DRC errors **
 
-** Found 0 unconnected pads **
+** Found 2 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (160,086 mm,90,932 mm): Pad 1 on F.Cu, Non-copper of R17 net Net-(C7-Pad1)
+    @ (152,334 mm,98,044 mm): Pad 2 on F.Cu, Non-copper of R16
+ErrType(2): Unconnected pads
+    @ (154,432 mm,77,470 mm): Pad 18 on F.Cu, Non-copper of U1 net Net-(C7-Pad1)
+    @ (160,036 mm,87,376 mm): Pad 1 on F.Cu, Non-copper of C7
 
 ** End of Report **

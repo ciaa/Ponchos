@@ -42,7 +42,7 @@ Title "ECG CIAA"
 Date "17/08/16"
 Rev "V.1"
 Comp "Autor: Jorge Fonseca"
-Comment1 "Licencia: https://github.com/ciaa/Ponchos/blob/master/expansores_ciaa/licencia.txt"
+Comment1 "Licencia: https://creativecommons.org/licenses/by-sa/3.0/legalcode"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -542,12 +542,12 @@ $EndComp
 $Comp
 L +3,3V #PWR02
 U 1 1 57A76708
-P 8100 2300
-F 0 "#PWR02" H 8100 2260 30  0001 C CNN
-F 1 "+3,3V" H 8100 2450 47  0000 C CNN
-F 2 "" H 8100 2300 60  0000 C CNN
-F 3 "" H 8100 2300 60  0000 C CNN
-	1    8100 2300
+P 8400 2550
+F 0 "#PWR02" H 8400 2510 30  0001 C CNN
+F 1 "+3,3V" H 8400 2700 47  0000 C CNN
+F 2 "" H 8400 2550 60  0000 C CNN
+F 3 "" H 8400 2550 60  0000 C CNN
+	1    8400 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -595,7 +595,7 @@ F 3 "" H 9000 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 3450 6000 0    60   ~ 0
-Basado en el ejemplo de aplicacion\nde la hoja de dato del AD8232\nPagina 25 (Figura 66).
+Basado en la aplicacion SparkFun Single Lead Heart Rate Monitor - AD8232\nhttps://www.sparkfun.com/products/12650
 $Comp
 L +3,3V #PWR07
 U 1 1 57B5067F
@@ -758,18 +758,13 @@ Wire Wire Line
 	1700 2650 1850 2650
 Wire Wire Line
 	6400 3750 7100 3750
-Connection ~ 7700 2750
 Connection ~ 7100 2750
 Connection ~ 7100 3300
 Wire Wire Line
 	8100 3200 8100 3600
-Wire Wire Line
-	8100 2300 8100 2900
 Connection ~ 7100 2900
 Wire Wire Line
 	7100 2750 7100 2950
-Wire Wire Line
-	6900 2750 8100 2750
 Wire Wire Line
 	6600 2750 6400 2750
 Wire Wire Line
@@ -811,9 +806,8 @@ Wire Wire Line
 Wire Wire Line
 	4000 4500 4000 4200
 Connection ~ 4000 4200
-Connection ~ 8100 2750
 Wire Wire Line
-	7700 2750 7700 2900
+	7700 2600 7700 2900
 Wire Wire Line
 	7700 3200 7700 3550
 Wire Wire Line
@@ -897,8 +891,6 @@ Wire Wire Line
 	6900 3300 8100 3300
 Wire Wire Line
 	6900 3000 6900 2900
-Wire Wire Line
-	6900 2900 7100 2900
 Connection ~ 11000 5400
 $Comp
 L PWR_FLAG #FLG09
@@ -915,14 +907,28 @@ Wire Wire Line
 	10750 5150 10750 5400
 Connection ~ 10750 5400
 $Comp
-L AD6232 U?
+L AD6232 U1
 U 1 1 57B63399
 P 5500 3450
 F 0 "U1" H 5450 4850 60  0000 C CNN
-F 1 "AD6232" H 5500 2150 60  0000 C CNN
+F 1 "AD8232" H 5500 2150 60  0000 C CNN
 F 2 "" H 5500 3450 60  0000 C CNN
 F 3 "" H 5500 3450 60  0000 C CNN
 	1    5500 3450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8100 2600 8100 2900
+Wire Wire Line
+	6900 2750 8400 2750
+Wire Wire Line
+	6500 2600 8100 2600
+Wire Wire Line
+	6500 2600 6500 2750
+Connection ~ 6500 2750
+Connection ~ 7700 2600
+Wire Wire Line
+	6900 2900 7100 2900
+Wire Wire Line
+	8400 2750 8400 2550
 $EndSCHEMATC
