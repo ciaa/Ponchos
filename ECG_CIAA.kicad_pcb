@@ -3,7 +3,7 @@
   (general
     (links 63)
     (no_connects 0)
-    (area 20.610571 26.394999 249.451761 164.105001)
+    (area 127.432999 45.644999 180.415001 106.755001)
     (thickness 1.6)
     (drawings 11)
     (tracks 194)
@@ -309,10 +309,10 @@
       (net 49 "Net-(R14-Pad2)"))
     (pad 20 smd rect (at 1.016 -1.778 270) (size 0.4 0.25) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C4-Pad1)"))
-    (model "../../../../../home/jorge/Escritorio/ECG CIAA/ECG.3dshapes/User Library-LFCSP-20.wrl"
-      (at (xyz 0 0 0))
+    (model "../../../../../home/jorge/Escritorio/ECG CIAA/ECG.3dshapes/LFCSP20.wrl"
+      (at (xyz 0.04 0.08 0))
       (scale (xyz 0.395 0.395 0.395))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 

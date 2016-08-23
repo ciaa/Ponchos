@@ -3,7 +3,7 @@
   (general
     (links 63)
     (no_connects 0)
-    (area 127.432999 45.644999 180.415001 106.755001)
+    (area 20.610571 26.394999 249.451761 164.105001)
     (thickness 1.6)
     (drawings 11)
     (tracks 194)
@@ -18,7 +18,7 @@
     (date 17/08/16)
     (rev V1)
     (company "Autor: Jorge Fonseca")
-    (comment 1 "Licencia: https://github.com/ciaa/Ponchos/blob/master/expansores_ciaa/licencia.txt")
+    (comment 1 "Licencia: https://creativecommons.org/licenses/by-sa/3.0/legalcode")
   )
 
   (layers
