@@ -1,0 +1,69 @@
+Source:,/home/jorge/Escritorio/ECG CIAA/ECG_CIAA.sch
+Date:,dom 07 ago 2016 19:01:05 ART
+Tool:,Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable
+Generator:,/home/jorge/Escritorio/ECG CIAA/ECGtools/bom_csv_grouped_by_value.py
+Component Count:,34
+
+Individual Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Degikey#,Descripcion,Digikey#,Manf,Manf#
+,,C1,1nF,device:C,ECG:C_0805,,,,732-7813-2-ND,Wurth,885012007008
+,,C2,10nF,device:C,ECG:C_0805,,,,732-8021-2-ND,Wurth,732-8018-2-ND
+,,C3,1.5nF,device:C,ECG:C_0805,,,,732-8018-2-ND,Wurth,885012207008
+,,C4,0.33uF,device:C,ECG:C_0805,,,,732-7651-2-ND,Wurth,885012207019
+,,C5,0.33uF,device:C,ECG:C_0805,,,,732-7651-2-ND,Wurth,885012207019
+,,C6,0.1uF,device:C,ECG:C_0805,,,,399-7999-2-ND,Kamet,C0805C104K8RACTU
+,,C7,0.1uF,device:C,ECG:C_0805,,,,399-7999-2-ND,Kamet,C0805C104K8RACTU
+,,D1,LED,device:LED,ECG:LED_0805,,,,475-1410-2-ND,OSRAM,LG R971-KN-1
+,,F1,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,,FIDUCIAL,,,
+,,F2,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,,FIDUCIAL,,,
+,,F3,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,,FIDUCIAL,,,
+,,F4,FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,,FIDUCIAL,,,
+,,P1,CONN_01X03,conn:CONN_01X03,Connect:bornier3,http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf,,, ED2601-ND ,OSTT,OSTTC030152
+,,P2,Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho_Derecha,http://portal.fciconnect.com/Comergent//fci/drawing/57102.pdf,,,609-2589-ND ,FCI,57102
+,,R1,0,device:R,ECG:R_0805,,,,311-0.0ARTR-ND,Yageo,RC0805JR-070RL
+,,R2,No montar,device:R,ECG:R_0805,,,,,,
+,,R3,10M ,device:R,ECG:R_0805,,,,RMCF0805JT10M0TR-ND,LTR,RMCF0805JT10M0
+,,R4,10M,device:R,ECG:R_0805,,,,RMCF0805JT10M0TR-ND,LDR,RMCF0805JT10M0
+,,R5,180K,device:R,ECG:R_0805,,,,311-180KARTR-ND,Yageo,RC0805JR-07180KL
+,,R6,180K,device:R,ECG:R_0805,,,,311-180KARTR-ND,Yageo,RC0805JR-07180KL 
+,,R7,360K,device:R,ECG:R_0805,,,,311-360KCRTR-ND,Yageo,RC0805FR-07360KL
+,,R8,1M,device:R,ECG:R_0805,,,,311-1.00MCRTR-ND,Yageo,RC0805FR-071ML
+,,R9,1M,device:R,ECG:R_0805,,,,RHM1.0MBUTR-ND,Rohm,LTR10EZPJ105
+,,R11,100K,device:R,ECG:R_0805,,311-100KCRTR-ND,,,Yageo,RC0805FR-07100KL
+,,R12,1M,device:R,ECG:R_0805,,,,311-1.00MCRTR-ND,Yageo,RC0805FR-071ML
+,,R13,10M,device:R,ECG:R_0805,,,,RMCF0805JT10M0TR-ND,Yageo,RMCF0805JT10M0
+,,R14,10M,device:R,ECG:R_0805,,,,RMCF0805JT10M0TR-ND,Yageo,RMCF0805JT10M0
+,,R15,1.4M,device:R,ECG:R_0805,,,,P1.4BTTR-ND,Panasonic,ERJ-6ENF1404V
+,,R16,10M,device:R,ECG:R_0805,,,,RMCF0805JT10M0TR-ND,Yageo,RMCF0805JT10M0
+,,R17,10M,device:R,ECG:R_0805,,,,RMCF0805JT10M0TR-ND,Yageo,RMCF0805JT10M0
+,,R19,0,device:R,ECG:R_0805,,,,311-0.0ARTR-ND,Yageo,RC0805JR-070RL
+,,R20,No montar,device:R,ECG:R_0805,,,,,,
+,,R22,1K,device:R,ECG:R_0805,,,,311-1.0KARTR-ND,Yageo,RC0805JR-071KL
+,,U1,AD8232,ECG_LIB:AD6232,ECG:LFCSP_WQ,https://ay12-14.moodle.wisc.edu/prod/pluginfile.php/189091/mod_resource/content/1/AD8232.pdf,,,AD8232ACPZ-R7TR-ND ,Analog Device,AD8232
+
+
+
+Collated Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Degikey#,Descripcion,Digikey#,Manf,Manf#
+1,1,C1,1nF,device:C,ECG:C_0805,,,,732-7813-2-ND,Wurth,885012007008
+2,1,C2,10nF,device:C,ECG:C_0805,,,,732-8021-2-ND,Wurth,732-8018-2-ND
+3,1,C3,1.5nF,device:C,ECG:C_0805,,,,732-8018-2-ND,Wurth,885012207008
+4,2,"C4, C5",0.33uF,device:C,ECG:C_0805,,,,732-7651-2-ND,Wurth,885012207019
+5,2,"C6, C7",0.1uF,device:C,ECG:C_0805,,,,399-7999-2-ND,Kamet,C0805C104K8RACTU
+6,1,D1,LED,device:LED,ECG:LED_0805,,,,475-1410-2-ND,OSRAM,LG R971-KN-1
+7,4,"F1, F2, F3, F4",FIDUCIAL,ej2cese:FIDUCIAL,ECG:Fiducial_1mm,,,FIDUCIAL,,,
+8,1,P1,CONN_01X03,conn:CONN_01X03,Connect:bornier3,http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx0162.pdf,,, ED2601-ND ,OSTT,OSTTC030152
+9,1,P2,Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho2P_2x_20x2,ej2cese:Conn_Poncho_Derecha,http://portal.fciconnect.com/Comergent//fci/drawing/57102.pdf,,,609-2589-ND ,FCI,57102
+10,2,"R1, R19",0,device:R,ECG:R_0805,,,,311-0.0ARTR-ND,Yageo,RC0805JR-070RL
+11,2,"R2, R20",No montar,device:R,ECG:R_0805,,,,,,
+12,1,R3,10M ,device:R,ECG:R_0805,,,,RMCF0805JT10M0TR-ND,LTR,RMCF0805JT10M0
+13,5,"R4, R13, R14, R16, R17",10M,device:R,ECG:R_0805,,,,RMCF0805JT10M0TR-ND,LDR,RMCF0805JT10M0
+14,2,"R5, R6",180K,device:R,ECG:R_0805,,,,311-180KARTR-ND,Yageo,RC0805JR-07180KL
+15,1,R7,360K,device:R,ECG:R_0805,,,,311-360KCRTR-ND,Yageo,RC0805FR-07360KL
+16,3,"R8, R9, R12",1M,device:R,ECG:R_0805,,,,311-1.00MCRTR-ND,Yageo,RC0805FR-071ML
+17,1,R11,100K,device:R,ECG:R_0805,,311-100KCRTR-ND,,,Yageo,RC0805FR-07100KL
+18,1,R15,1.4M,device:R,ECG:R_0805,,,,P1.4BTTR-ND,Panasonic,ERJ-6ENF1404V
+19,1,R22,1K,device:R,ECG:R_0805,,,,311-1.0KARTR-ND,Yageo,RC0805JR-071KL
+20,1,U1,AD8232,ECG_LIB:AD6232,ECG:LFCSP_WQ,https://ay12-14.moodle.wisc.edu/prod/pluginfile.php/189091/mod_resource/content/1/AD8232.pdf,,,AD8232ACPZ-R7TR-ND ,Analog Device,AD8232
