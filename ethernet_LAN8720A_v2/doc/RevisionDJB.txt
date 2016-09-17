@@ -1,0 +1,6 @@
+Revisión del 17/9/16:
+-Falta colocar huella JP1.
+-Faltan fiduciales.
+-Faltan Agujeros de sujeción.
+-Faltan tamaños de vías adecuados para Mayer en calidad 10 mils. 1mm/0,5mm.
+
