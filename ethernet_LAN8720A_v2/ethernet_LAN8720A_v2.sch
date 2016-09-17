@@ -7,13 +7,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "Poncho Ethernet LAN8720A "
+Title "Poncho Ethernet LAN8720A - Principal"
 Date "2015-10-24"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/ethernet_LAN8720A_v2/doc"
 Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
-Comment3 "Autores del poncho (Ignacio Zaradnik - UNLaM). Ver directorio \"doc\""
+Comment3 "Autores del poncho (Ignacio Zaradnik/Gerardo García/Diego Brengi - UNLaM). "
 Comment4 "CÓDIGO PONCHO:"
 $EndDescr
 $Comp
