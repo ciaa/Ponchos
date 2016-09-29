@@ -8,8 +8,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "Poncho Ethernet LAN8720A - Ethernet"
-Date "2016-09-17"
-Rev "1.0"
+Date "2016-09-28"
+Rev "1.3"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/ethernet_LAN8720A_v2/doc"
 Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
@@ -848,7 +848,7 @@ NoConn ~ 1800 1650
 NoConn ~ 1800 1750
 NoConn ~ 1800 1850
 NoConn ~ 1800 1950
-Text HLabel 1150 3350 0    60   BiDi ~ 0
+Text HLabel 900  3350 0    60   BiDi ~ 0
 GPIO0
 Text HLabel 1650 2150 0    60   BiDi ~ 0
 GPIO1
@@ -865,7 +865,7 @@ Text HLabel 1650 2550 0    60   BiDi ~ 0
 GPIO5
 Text HLabel 1650 2650 0    60   BiDi ~ 0
 GPIO6
-Text HLabel 1150 3850 0    60   BiDi ~ 0
+Text HLabel 900  3850 0    60   BiDi ~ 0
 GPIO7
 NoConn ~ 1800 2450
 NoConn ~ 1800 2550
@@ -902,12 +902,12 @@ GPIO8
 $Comp
 L JUMPER3 JP1
 U 1 1 5635F63A
-P 1300 3600
-F 0 "JP1" H 1350 3500 40  0000 L CNN
-F 1 "JUMPER3" H 1300 3700 40  0000 C CNN
-F 2 "" H 1300 3600 60  0001 C CNN
-F 3 "" H 1300 3600 60  0000 C CNN
-	1    1300 3600
+P 1050 3600
+F 0 "JP1" H 1100 3500 40  0000 L CNN
+F 1 "JUMPER3" H 1050 3700 40  0000 C CNN
+F 2 "Oddities:NetTie-II_SMD" H 1050 3600 60  0001 C CNN
+F 3 "" H 1050 3600 60  0000 C CNN
+	1    1050 3600
 	0    -1   -1   0   
 $EndComp
 Text Label 2350 3600 2    60   ~ 0
@@ -976,7 +976,7 @@ $EndComp
 Text Notes 7900 5050 0    60   ~ 0
 Debe ser 1210.\nFlexibilidad durante \nEMC pruebas. 
 Text Notes 3800 6000 0    60   ~ 0
-Ubicar oscilador y sus componentes\nal menos a 12mm del PHY.
+Ubicar oscilador y sus componentes\nequidistante entre el PHY y el procesador.
 Text Notes 3750 4300 0    60   ~ 0
 Ubicar PHY al menos a\n25mm del conector y del \nborde de la placa.
 Text Notes 7050 1800 0    60   ~ 0
@@ -1073,7 +1073,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3700 3950 3700
 Wire Wire Line
-	1400 3600 3950 3600
+	1150 3600 3950 3600
 Wire Wire Line
 	3050 2600 3950 2600
 Wire Wire Line
@@ -1262,7 +1262,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1950 1800 1950
 Wire Wire Line
-	1150 3350 1300 3350
+	900  3350 1050 3350
 Wire Wire Line
 	1650 2150 1800 2150
 Wire Wire Line
@@ -1276,7 +1276,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 2650 1800 2650
 Wire Wire Line
-	1150 3850 1300 3850
+	900  3850 1050 3850
 Wire Wire Line
 	2550 3200 2350 3200
 Wire Wire Line
@@ -1376,4 +1376,31 @@ Wire Wire Line
 	8900 5225 8900 5150
 Text Label 8900 4300 3    60   ~ 0
 CHASIS
+$Comp
+L R R25
+U 1 1 57ED6371
+P 1350 3250
+F 0 "R25" V 1400 3500 40  0000 C CNN
+F 1 "100K" V 1350 3250 40  0000 C CNN
+F 2 "eth:SM0603_Resistor" V 1280 3250 30  0001 C CNN
+F 3 "~" H 1350 3250 30  0000 C CNN
+	1    1350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR034
+U 1 1 57ED666B
+P 1350 2925
+F 0 "#PWR034" H 1350 2885 30  0001 C CNN
+F 1 "+3.3V" H 1350 3035 30  0000 C CNN
+F 2 "" H 1350 2925 60  0000 C CNN
+F 3 "" H 1350 2925 60  0000 C CNN
+	1    1350 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2925 1350 3000
+Wire Wire Line
+	1350 3500 1350 3600
+Connection ~ 1350 3600
 $EndSCHEMATC
