@@ -1,4 +1,4 @@
-update=mié 02 dic 2015 21:20:51 ART
+update=vie 30 sep 2016 18:19:45 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -30,5 +30,4 @@ version=1
 version=1
 LibDir=../kicad/libPonchos;lib
 [eeschema/libraries]
-LibName1=Poncho_Esqueleto
-LibName2=lib/poncho_eth
+LibName1=lib/poncho_eth
