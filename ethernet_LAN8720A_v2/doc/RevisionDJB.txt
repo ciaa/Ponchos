@@ -4,3 +4,12 @@ Revisión del 17/9/16:
 -Faltan Agujeros de sujeción.
 -Faltan tamaños de vías adecuados para Mayer en calidad 10 mils. 1mm/0,5mm.
 
+Modificaciones del 30/9/16
+- Se agregó JP1.
+- Se agregaron fiduciales.
+- Se agregaron dos agujeros de sujeción.
+- Se editaron todas las vías.
+
+TODO del 30/9/16
+- Agregar campos Digikey e integrar el esquemático con KiCost.
+- Completar la vista 3D.
