@@ -48,7 +48,7 @@
   )
 
   (setup
-    (last_trace_width 0.2032)
+    (last_trace_width 0.2)
     (user_trace_width 0.2032)
     (user_trace_width 0.26)
     (user_trace_width 0.32)
@@ -2080,7 +2080,7 @@
   (gr_text "UNLaM\n2016\nLACIE\nGPCB\n" (at 111.896 90.086) (layer F.SilkS)
     (effects (font (size 1.1 1.1) (thickness 0.25)))
   )
-  (gr_text "PONCHO \nETHERNET\nPROYECTO CIAA" (at 111.007 99.357) (layer F.SilkS)
+  (gr_text "PONCHO \nETHERNET v0.1\nPROYECTO CIAA" (at 111.007 99.357) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.3)) (justify left))
   )
   (gr_line (start 110.29 122.91) (end 111.49 122.91) (angle 90) (layer F.SilkS) (width 0.2))
