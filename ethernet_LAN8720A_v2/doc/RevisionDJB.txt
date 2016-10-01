@@ -1,8 +1,8 @@
 Revisión del 17/9/16:
--Falta colocar huella JP1.
--Faltan fiduciales.
--Faltan Agujeros de sujeción.
--Faltan tamaños de vías adecuados para Mayer en calidad 10 mils. 1mm/0,5mm.
+-X Falta colocar huella JP1.
+-X Faltan fiduciales.
+-X Faltan Agujeros de sujeción.
+-X Faltan tamaños de vías adecuados para Mayer en calidad 10 mils. 1mm/0,5mm.
 
 Modificaciones del 30/9/16
 - Se agregó JP1.
@@ -11,6 +11,14 @@ Modificaciones del 30/9/16
 - Se editaron todas las vías.
 
 PENDIENTE del 30/9/16
-- Agregar campos Digikey e integrar el esquemático con KiCost.
-- Completar la vista 3D.
-- Revisar footprint del oscilador ASV porque parece ser mucho mas chico que lo declarado en hoja de datos.
+-X Agregar campos Digikey e integrar el esquemático con KiCost.
+-X Completar la vista 3D.
+-X Revisar footprint del oscilador ASV porque parece ser mucho mas chico que lo declarado en hoja de datos.
+
+Modificado el 1/10/16
+- Se completa la vista 3D menos el conector RJ45.
+- Se cambió el footprint del oscilador de 50 Mhz.
+- Se agregaron campos Digikey# Manf# Manf y Desc para mayor información y para KiCost.
+
+PENDIENTE al 1/10/16
+X Ver problemas con KiCost porque algunos componentes no se encuentran en Digikey.
