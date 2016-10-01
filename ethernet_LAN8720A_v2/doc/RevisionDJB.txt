@@ -10,6 +10,7 @@ Modificaciones del 30/9/16
 - Se agregaron dos agujeros de sujeción.
 - Se editaron todas las vías.
 
-TODO del 30/9/16
+PENDIENTE del 30/9/16
 - Agregar campos Digikey e integrar el esquemático con KiCost.
 - Completar la vista 3D.
+- Revisar footprint del oscilador ASV porque parece ser mucho mas chico que lo declarado en hoja de datos.
