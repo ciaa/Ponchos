@@ -1,4 +1,4 @@
-update=vie 30 sep 2016 18:19:45 ART
+update=lun 17 oct 2016 16:14:28 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -31,3 +31,13 @@ version=1
 LibDir=../kicad/libPonchos;lib
 [eeschema/libraries]
 LibName1=lib/poncho_eth
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=fabricacion1/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
