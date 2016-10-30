@@ -927,7 +927,7 @@ F 2 "Poncho-PLC:BORNERA2" H 4650 3450 60  0001 C CNN
 F 3 "" H 4650 3450 60  0000 C CNN
 F 4 "Esqueleto EDU-CIAA" H 4700 3400 60  0001 C CNN "Title"
 	1    4700 3400
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L TB_1X2 J7
@@ -939,7 +939,7 @@ F 2 "Poncho-PLC:BORNERA2" H 4650 3850 60  0001 C CNN
 F 3 "" H 4650 3850 60  0000 C CNN
 F 4 "Esqueleto EDU-CIAA" H 4700 3800 60  0001 C CNN "Title"
 	1    4700 3800
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Notes 1150 7450 0    60   ~ 0
 Los mosfet deben ser con Vg(th) menor a 5V
