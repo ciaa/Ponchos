@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.3+e1-6302~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-2~bpo8+1-stable)
 
   (general
     (links 116)
     (no_connects 1)
-    (area 41.398667 29.134999 127.583001 166.445001)
+    (area 41.580999 29.134999 127.583001 166.445001)
     (thickness 1.6)
-    (drawings 22)
+    (drawings 23)
     (tracks 566)
     (zones 0)
     (modules 58)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -24,7 +24,7 @@
     (37 F.SilkS user)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
@@ -67,7 +67,7 @@
     (pad_drill 0.6)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 46.355 161.544)
-    (visible_elements 7FFC7D1F)
+    (visible_elements 7FFEFD3F)
     (pcbplotparams
       (layerselection 0x01020_80000000)
       (usegerberextensions false)
@@ -3539,6 +3539,9 @@
       (xy 3.778435 -0.1467) (xy 3.778435 -0.1467)) (layer F.SilkS) (width 0.1))
   )
 
+  (gr_text "*cambiar a TO92.\n*Falta una conexión.\n*Referencias debajo de componentes.\n* Modelos 3D.\n" (at 130 95) (layer Dwgs.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_line (start 41.656 166.37) (end 42.418 166.37) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 41.656 46.99) (end 41.656 166.37) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 49.276 46.99) (end 41.656 46.99) (angle 90) (layer Edge.Cuts) (width 0.15))
