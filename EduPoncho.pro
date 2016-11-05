@@ -1,6 +1,6 @@
-update=mié 10 ago 2016 00:58:04 ART
+update=sáb 05 nov 2016 17:58:38 ART
 version=1
-last_client=kicad4
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -29,5 +29,3 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=lib/basico
