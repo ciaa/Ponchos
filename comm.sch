@@ -36,25 +36,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "Poncho EDU-CIAA-NXP IoT"
-Date "2016-11-09"
-Rev "1"
-Comp "Ernesto Gigliotti"
-Comment1 "License: GPL3"
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 2250 1700 1550 2350
-U 5823AA9A
-F0 "gpios" 60
-F1 "gpios.sch" 60
-$EndSheet
-$Sheet
-S 4800 1700 1600 2350
-U 5823AAC6
-F0 "comm" 60
-F1 "comm.sch" 60
-$EndSheet
 $EndSCHEMATC
