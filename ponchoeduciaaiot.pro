@@ -1,4 +1,4 @@
-update=09/11/2016 20:51:39
+update=10/11/2016 21:28:04
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=libs/w_device
 LibName31=libs/relay
+LibName32=libs/lm35
+LibName33=libs/rn1810e
