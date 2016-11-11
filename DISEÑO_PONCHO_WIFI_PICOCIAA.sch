@@ -1,1 +1,244 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP8266
+LIBS:DISEÑO_PONCHO_WIFI_PICOCIAA-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Poncho Wifi PICO-CIAA"
+Date "2016-11-11"
+Rev "V1.0"
+Comp "FIUBA"
+Comment1 "Diseñado por: Sergio De Jesús"
+Comment2 "Licencias en: LICENCIA_Y_COLABORADORES/LICENSE"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP-12E U?
+U 1 1 58263FA5
+P 5550 3050
+F 0 "U?" H 5550 2950 50  0000 C CNN
+F 1 "ESP-12E" H 5550 3150 50  0000 C CNN
+F 2 "" H 5550 3050 50  0001 C CNN
+F 3 "" H 5550 3050 50  0001 C CNN
+	1    5550 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 3950
+NoConn ~ 5400 3950
+NoConn ~ 5500 3950
+NoConn ~ 5600 3950
+NoConn ~ 5700 3950
+NoConn ~ 5800 3950
+NoConn ~ 4650 2850
+NoConn ~ 4650 3050
+NoConn ~ 4650 3150
+NoConn ~ 4650 3250
+$Comp
+L +3.3V #PWR?
+U 1 1 58264084
+P 4000 2600
+F 0 "#PWR?" H 4000 2450 50  0001 C CNN
+F 1 "+3.3V" H 4000 2740 50  0000 C CNN
+F 2 "" H 4000 2600 50  0000 C CNN
+F 3 "" H 4000 2600 50  0000 C CNN
+	1    4000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 582640A9
+P 4300 2750
+F 0 "R?" V 4250 2900 50  0000 C CNN
+F 1 "R" V 4300 2750 50  0000 C CNN
+F 2 "" V 4230 2750 50  0000 C CNN
+F 3 "" H 4300 2750 50  0000 C CNN
+	1    4300 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 582640EC
+P 4300 2950
+F 0 "R?" V 4250 3100 50  0000 C CNN
+F 1 "R" V 4300 2950 50  0000 C CNN
+F 2 "" V 4230 2950 50  0000 C CNN
+F 3 "" H 4300 2950 50  0000 C CNN
+	1    4300 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5826410D
+P 6750 3150
+F 0 "R?" V 6700 3300 50  0000 C CNN
+F 1 "R" V 6750 3150 50  0000 C CNN
+F 2 "" V 6680 3150 50  0000 C CNN
+F 3 "" H 6750 3150 50  0000 C CNN
+	1    6750 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58264213
+P 6750 3250
+F 0 "R?" V 6700 3400 50  0000 C CNN
+F 1 "R" V 6750 3250 50  0000 C CNN
+F 2 "" V 6680 3250 50  0000 C CNN
+F 3 "" H 6750 3250 50  0000 C CNN
+	1    6750 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58264232
+P 6750 3350
+F 0 "R?" V 6700 3500 50  0000 C CNN
+F 1 "R" V 6750 3350 50  0000 C CNN
+F 2 "" V 6680 3350 50  0000 C CNN
+F 3 "" H 6750 3350 50  0000 C CNN
+	1    6750 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58264413
+P 6450 3550
+F 0 "#PWR?" H 6450 3300 50  0001 C CNN
+F 1 "GND" H 6450 3400 50  0000 C CNN
+F 2 "" H 6450 3550 50  0000 C CNN
+F 3 "" H 6450 3550 50  0000 C CNN
+	1    6450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58264473
+P 6850 2400
+F 0 "R?" V 6800 2550 50  0000 C CNN
+F 1 "R" V 6850 2400 50  0000 C CNN
+F 2 "" V 6780 2400 50  0000 C CNN
+F 3 "" H 6850 2400 50  0000 C CNN
+	1    6850 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 582644BC
+P 7100 2400
+F 0 "R?" V 7050 2550 50  0000 C CNN
+F 1 "R" V 7100 2400 50  0000 C CNN
+F 2 "" V 7030 2400 50  0000 C CNN
+F 3 "" H 7100 2400 50  0000 C CNN
+	1    7100 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 58264502
+P 7000 2150
+F 0 "#PWR?" H 7000 2000 50  0001 C CNN
+F 1 "+3.3V" H 7000 2290 50  0000 C CNN
+F 2 "" H 7000 2150 50  0000 C CNN
+F 3 "" H 7000 2150 50  0000 C CNN
+	1    7000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2250 7350 2250
+Wire Wire Line
+	7000 2150 7000 2250
+Connection ~ 7000 2250
+Wire Wire Line
+	6850 2550 6850 2950
+Wire Wire Line
+	6850 2950 6450 2950
+Wire Wire Line
+	7100 2550 7100 3050
+Wire Wire Line
+	7100 3050 6450 3050
+Wire Wire Line
+	6450 3150 6600 3150
+Wire Wire Line
+	6450 3250 6600 3250
+Wire Wire Line
+	6450 3350 6600 3350
+Wire Wire Line
+	6450 3450 6450 3550
+$Comp
+L +3.3V #PWR?
+U 1 1 582646D6
+P 4350 3550
+F 0 "#PWR?" H 4350 3400 50  0001 C CNN
+F 1 "+3.3V" H 4350 3690 50  0000 C CNN
+F 2 "" H 4350 3550 50  0000 C CNN
+F 3 "" H 4350 3550 50  0000 C CNN
+	1    4350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3450 4650 3600
+Wire Wire Line
+	4650 3600 4350 3600
+Wire Wire Line
+	4350 3600 4350 3550
+Wire Wire Line
+	4650 2750 4450 2750
+Wire Wire Line
+	4650 2950 4450 2950
+Wire Wire Line
+	4000 2600 4000 2950
+Wire Wire Line
+	4000 2950 4150 2950
+Wire Wire Line
+	4150 2750 4000 2750
+Connection ~ 4000 2750
+Wire Wire Line
+	6900 3350 6900 3500
+Wire Wire Line
+	6900 3500 6450 3500
+Connection ~ 6450 3500
+Wire Wire Line
+	7350 2250 7350 3200
+Wire Wire Line
+	7350 3200 7050 3200
+Wire Wire Line
+	7050 3150 7050 3250
+Wire Wire Line
+	7050 3150 6900 3150
+Connection ~ 7100 2250
+Wire Wire Line
+	7050 3250 6900 3250
+Connection ~ 7050 3200
+$EndSCHEMATC
