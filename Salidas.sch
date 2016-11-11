@@ -1,0 +1,493 @@
+EESchema Schematic File Version 2
+LIBS:device
+LIBS:dsp
+LIBS:power
+LIBS:sensors
+LIBS:ir
+LIBS:powerint
+LIBS:siliconi
+LIBS:switches
+LIBS:references
+LIBS:maxim
+LIBS:atmel
+LIBS:motorola
+LIBS:interface
+LIBS:cmos_ieee
+LIBS:analog_devices
+LIBS:nordicsemi
+LIBS:microchip_pic32mcu
+LIBS:74xgxx
+LIBS:transistors
+LIBS:philips
+LIBS:nxp_armmcu
+LIBS:supertex
+LIBS:logo
+LIBS:Power_Management
+LIBS:Altera
+LIBS:contrib
+LIBS:cmos4000
+LIBS:ac-dc
+LIBS:memory
+LIBS:digital-audio
+LIBS:rfcom
+LIBS:video
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic10mcu
+LIBS:onsemi
+LIBS:brooktre
+LIBS:Oscillators
+LIBS:stm32
+LIBS:elec-unifil
+LIBS:graphic
+LIBS:display
+LIBS:intel
+LIBS:Zilog
+LIBS:dc-dc
+LIBS:ftdi
+LIBS:microchip_pic18mcu
+LIBS:msp430
+LIBS:hc11
+LIBS:Lattice
+LIBS:cypress
+LIBS:Xicor
+LIBS:silabs
+LIBS:microchip
+LIBS:opto
+LIBS:transf
+LIBS:analog_switches
+LIBS:regul
+LIBS:gennum
+LIBS:conn
+LIBS:relays
+LIBS:linear
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:motor_drivers
+LIBS:adc-dac
+LIBS:texas
+LIBS:microchip_pic12mcu
+LIBS:actel
+LIBS:74xx
+LIBS:stm8
+LIBS:diode
+LIBS:ESD_Protection
+LIBS:microcontrollers
+LIBS:audio
+LIBS:microchip_dspic33dsc
+LIBS:pspice
+LIBS:xilinx
+LIBS:Symbols_EN60617_13Mar2013
+LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
+LIBS:Symbols_Transformer-Diskrete_RevA
+LIBS:Symbols_ICs-Diskrete_RevD10
+LIBS:Symbols_ICs-Opto_RevB_16Sep2013
+LIBS:Symbols_Socket-DIN41612_RevA
+LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
+LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
+LIBS:w_device
+LIBS:tvs
+LIBS:sw_push
+LIBS:s25fl032p0xmfi013
+LIBS:rs485_rs232_can
+LIBS:regulators
+LIBS:pbss5240xf
+LIBS:nsi50010yt1g
+LIBS:net-phy
+LIBS:mcu-st
+LIBS:mcu-nxp
+LIBS:mcp1416
+LIBS:mcp1415
+LIBS:lm2596
+LIBS:g5v2
+LIBS:fqt13n06l
+LIBS:bat54_c
+LIBS:audio-vlsi
+LIBS:amesser-usb
+LIBS:amesser-power
+LIBS:amesser-linear
+LIBS:amesser-discrete
+LIBS:amesser-conn
+LIBS:amesser-cmos4000
+LIBS:amesser-ad
+LIBS:Transil_diode
+LIBS:TXB0108
+LIBS:TJA1040
+LIBS:Si50x
+LIBS:SCHA5B0200
+LIBS:PS2805
+LIBS:PRTR5V0U2X
+LIBS:PBSS5240
+LIBS:MIC2025
+LIBS:LPC4337JBD144
+LIBS:IS42S16400F
+LIBS:FT2232H
+LIBS:BLM15HG6015N1D
+LIBS:93CXX
+LIBS:74LVC1G04GW
+LIBS:EduPoncho-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RELAY_2RT K1
+U 1 1 582526EF
+P 3350 1500
+F 0 "K1" H 3300 1900 50  0000 C CNN
+F 1 "RELAY_2RT" H 3500 1000 50  0000 C CNN
+F 2 "" H 3350 1500 50  0000 C CNN
+F 3 "" H 3350 1500 50  0000 C CNN
+	1    3350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 582527C0
+P 2400 3150
+F 0 "R3" V 2480 3150 50  0000 C CNN
+F 1 "R" V 2400 3150 50  0000 C CNN
+F 2 "" V 2330 3150 50  0000 C CNN
+F 3 "" H 2400 3150 50  0000 C CNN
+	1    2400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 58252883
+P 2200 2450
+F 0 "R1" V 2280 2450 50  0000 C CNN
+F 1 "R" V 2200 2450 50  0000 C CNN
+F 2 "" V 2130 2450 50  0000 C CNN
+F 3 "" H 2200 2450 50  0000 C CNN
+	1    2200 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Led_Small D2
+U 1 1 58252AB3
+P 2650 2450
+F 0 "D2" H 2600 2575 50  0000 L CNN
+F 1 "Led_Small" H 2475 2350 50  0000 L CNN
+F 2 "" V 2650 2450 50  0000 C CNN
+F 3 "" V 2650 2450 50  0000 C CNN
+	1    2650 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D1
+U 1 1 58252B6F
+P 2650 1850
+F 0 "D1" H 2750 1800 50  0000 C CNN
+F 1 "D" H 2650 1750 50  0000 C CNN
+F 2 "" H 2650 1850 50  0000 C CNN
+F 3 "" H 2650 1850 50  0000 C CNN
+	1    2650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q1
+U 1 1 58252C08
+P 2850 2900
+F 0 "Q1" H 2860 3070 60  0000 R CNN
+F 1 "MOSFET_N" H 3450 2900 60  0000 R CNN
+F 2 "" H 2850 2900 60  0000 C CNN
+F 3 "" H 2850 2900 60  0000 C CNN
+	1    2850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1850 2950 2700
+Wire Wire Line
+	2750 2450 2950 2450
+Connection ~ 2950 2450
+Wire Wire Line
+	2550 2450 2350 2450
+Wire Wire Line
+	2800 1850 2950 1850
+Wire Wire Line
+	2000 2900 2650 2900
+Wire Wire Line
+	2400 3000 2400 2900
+Connection ~ 2400 2900
+Wire Wire Line
+	2950 1750 2250 1750
+Wire Wire Line
+	2250 1600 2250 1850
+Wire Wire Line
+	2250 1850 2500 1850
+$Comp
+L +5V #PWR20
+U 1 1 5825374C
+P 1900 2350
+F 0 "#PWR20" H 1900 2200 50  0001 C CNN
+F 1 "+5V" H 1900 2490 50  0000 C CNN
+F 2 "" H 1900 2350 50  0000 C CNN
+F 3 "" H 1900 2350 50  0000 C CNN
+	1    1900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR22
+U 1 1 5825376C
+P 2250 1600
+F 0 "#PWR22" H 2250 1450 50  0001 C CNN
+F 1 "+5V" H 2250 1740 50  0000 C CNN
+F 2 "" H 2250 1600 50  0000 C CNN
+F 3 "" H 2250 1600 50  0000 C CNN
+	1    2250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR26
+U 1 1 582537B0
+P 2950 3550
+F 0 "#PWR26" H 2950 3300 50  0001 C CNN
+F 1 "GND" H 2950 3400 50  0000 C CNN
+F 2 "" H 2950 3550 50  0000 C CNN
+F 3 "" H 2950 3550 50  0000 C CNN
+	1    2950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR24
+U 1 1 582537CE
+P 2400 3550
+F 0 "#PWR24" H 2400 3300 50  0001 C CNN
+F 1 "GND" H 2400 3400 50  0000 C CNN
+F 2 "" H 2400 3550 50  0000 C CNN
+F 3 "" H 2400 3550 50  0000 C CNN
+	1    2400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3100 2950 3550
+Wire Wire Line
+	2400 3550 2400 3300
+Wire Wire Line
+	2050 2450 1900 2450
+Wire Wire Line
+	1900 2450 1900 2350
+Connection ~ 2250 1750
+$Comp
+L TB_1X3 J1
+U 1 1 582546A2
+P 4900 1350
+F 0 "J1" H 4900 1650 60  0000 C CNN
+F 1 "TB_1X3" H 4950 900 60  0000 C CNN
+F 2 "" H 4850 1400 60  0000 C CNN
+F 3 "" H 4850 1400 60  0000 C CNN
+	1    4900 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 1450 3900 1450
+Wire Wire Line
+	3900 1450 3900 1350
+Wire Wire Line
+	3900 1350 3750 1350
+Wire Wire Line
+	4550 1050 3900 1050
+Wire Wire Line
+	3900 1050 3900 1150
+Wire Wire Line
+	3900 1150 3750 1150
+Wire Wire Line
+	2950 1250 2800 1250
+Wire Wire Line
+	4300 1250 4550 1250
+Text Label 4300 1250 0    60   ~ 0
+C1A
+Text Label 2800 1250 0    60   ~ 0
+C1A
+NoConn ~ 3750 1450
+NoConn ~ 3750 1650
+NoConn ~ 2950 1550
+Text HLabel 2000 2900 0    60   Input ~ 0
+GPIO0
+$Comp
+L RELAY_2RT K2
+U 1 1 58256878
+P 3400 4750
+F 0 "K2" H 3350 5150 50  0000 C CNN
+F 1 "RELAY_2RT" H 3550 4250 50  0000 C CNN
+F 2 "" H 3400 4750 50  0000 C CNN
+F 3 "" H 3400 4750 50  0000 C CNN
+	1    3400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5825687E
+P 2450 6400
+F 0 "R4" V 2530 6400 50  0000 C CNN
+F 1 "R" V 2450 6400 50  0000 C CNN
+F 2 "" V 2380 6400 50  0000 C CNN
+F 3 "" H 2450 6400 50  0000 C CNN
+	1    2450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 58256884
+P 2250 5700
+F 0 "R2" V 2330 5700 50  0000 C CNN
+F 1 "R" V 2250 5700 50  0000 C CNN
+F 2 "" V 2180 5700 50  0000 C CNN
+F 3 "" H 2250 5700 50  0000 C CNN
+	1    2250 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Led_Small D4
+U 1 1 5825688A
+P 2700 5700
+F 0 "D4" H 2650 5825 50  0000 L CNN
+F 1 "Led_Small" H 2525 5600 50  0000 L CNN
+F 2 "" V 2700 5700 50  0000 C CNN
+F 3 "" V 2700 5700 50  0000 C CNN
+	1    2700 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D3
+U 1 1 58256890
+P 2700 5100
+F 0 "D3" H 2700 5200 50  0000 C CNN
+F 1 "D" H 2700 5000 50  0000 C CNN
+F 2 "" H 2700 5100 50  0000 C CNN
+F 3 "" H 2700 5100 50  0000 C CNN
+	1    2700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q2
+U 1 1 58256896
+P 2900 6150
+F 0 "Q2" H 2910 6320 60  0000 R CNN
+F 1 "MOSFET_N" H 2910 6000 60  0000 R CNN
+F 2 "" H 2900 6150 60  0000 C CNN
+F 3 "" H 2900 6150 60  0000 C CNN
+	1    2900 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5100 3000 5950
+Wire Wire Line
+	2800 5700 3000 5700
+Connection ~ 3000 5700
+Wire Wire Line
+	2600 5700 2400 5700
+Wire Wire Line
+	2850 5100 3000 5100
+Wire Wire Line
+	2050 6150 2700 6150
+Wire Wire Line
+	2450 6250 2450 6150
+Connection ~ 2450 6150
+Wire Wire Line
+	3000 5000 2300 5000
+Wire Wire Line
+	2300 4850 2300 5100
+Wire Wire Line
+	2300 5100 2550 5100
+$Comp
+L +5V #PWR21
+U 1 1 582568A7
+P 1950 5600
+F 0 "#PWR21" H 1950 5450 50  0001 C CNN
+F 1 "+5V" H 1950 5740 50  0000 C CNN
+F 2 "" H 1950 5600 50  0000 C CNN
+F 3 "" H 1950 5600 50  0000 C CNN
+	1    1950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR23
+U 1 1 582568AD
+P 2300 4850
+F 0 "#PWR23" H 2300 4700 50  0001 C CNN
+F 1 "+5V" H 2300 4990 50  0000 C CNN
+F 2 "" H 2300 4850 50  0000 C CNN
+F 3 "" H 2300 4850 50  0000 C CNN
+	1    2300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR27
+U 1 1 582568B3
+P 3000 6800
+F 0 "#PWR27" H 3000 6550 50  0001 C CNN
+F 1 "GND" H 3000 6650 50  0000 C CNN
+F 2 "" H 3000 6800 50  0000 C CNN
+F 3 "" H 3000 6800 50  0000 C CNN
+	1    3000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR25
+U 1 1 582568B9
+P 2450 6800
+F 0 "#PWR25" H 2450 6550 50  0001 C CNN
+F 1 "GND" H 2450 6650 50  0000 C CNN
+F 2 "" H 2450 6800 50  0000 C CNN
+F 3 "" H 2450 6800 50  0000 C CNN
+	1    2450 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6350 3000 6800
+Wire Wire Line
+	2450 6800 2450 6550
+Wire Wire Line
+	2100 5700 1950 5700
+Wire Wire Line
+	1950 5700 1950 5600
+Connection ~ 2300 5000
+$Comp
+L TB_1X3 J2
+U 1 1 582568C4
+P 4950 4600
+F 0 "J2" H 4950 4900 60  0000 C CNN
+F 1 "TB_1X3" H 5000 4150 60  0000 C CNN
+F 2 "" H 4900 4650 60  0000 C CNN
+F 3 "" H 4900 4650 60  0000 C CNN
+	1    4950 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 4700 3950 4700
+Wire Wire Line
+	3950 4700 3950 4600
+Wire Wire Line
+	3950 4600 3800 4600
+Wire Wire Line
+	4600 4300 3950 4300
+Wire Wire Line
+	3950 4300 3950 4400
+Wire Wire Line
+	3950 4400 3800 4400
+Wire Wire Line
+	3000 4500 2850 4500
+Wire Wire Line
+	4350 4500 4600 4500
+Text Label 4350 4500 0    60   ~ 0
+C1B
+Text Label 2850 4500 0    60   ~ 0
+C1B
+NoConn ~ 3800 4700
+NoConn ~ 3800 4900
+NoConn ~ 3000 4800
+Text HLabel 2050 6150 0    60   Input ~ 0
+GPIO1
+$EndSCHEMATC
