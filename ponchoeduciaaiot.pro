@@ -1,4 +1,4 @@
-update=10/11/2016 21:28:04
+update=11/11/2016 18:51:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=libs/w_device
 LibName31=libs/relay
 LibName32=libs/lm35
 LibName33=libs/rn1810e
+LibName34=libs/Poncho_Esqueleto

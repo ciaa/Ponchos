@@ -1,1788 +1,268 @@
-
-
-
-
-<!DOCTYPE html>
-<html lang="en" class=" is-copy-enabled is-u2f-enabled">
-  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
-    <meta charset='utf-8'>
-    
-
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-c90d888b6f5151dadd198c29754c69062ad2d2b96ccd6484e1439cff77089623.css" integrity="sha256-yQ2Ii29RUdrdGYwpdUxpBirS0rlszWSE4UOc/3cIliM=" media="all" rel="stylesheet" />
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-51d7ca53f875f8dbf5503dc602af8a5928f5fe081007acef2efd34920c7ef7b8.css" integrity="sha256-UdfKU/h1+Nv1UD3GAq+KWSj1/ggQB6zvLv00kgx+97g=" media="all" rel="stylesheet" />
-    
-    
-    
-    
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Language" content="en">
-    <meta name="viewport" content="width=device-width">
-    
-    <title>Ponchos/Poncho_Esqueleto.lib at master · ciaa/Ponchos</title>
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-    <meta property="fb:app_id" content="1401488693436528">
-
-      <meta content="https://avatars0.githubusercontent.com/u/6998305?v=3&amp;s=400" name="twitter:image:src" /><meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="ciaa/Ponchos" name="twitter:title" /><meta content="Contribute to Ponchos development by creating an account on GitHub." name="twitter:description" />
-      <meta content="https://avatars0.githubusercontent.com/u/6998305?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="ciaa/Ponchos" property="og:title" /><meta content="https://github.com/ciaa/Ponchos" property="og:url" /><meta content="Contribute to Ponchos development by creating an account on GitHub." property="og:description" />
-      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
-    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
-    <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MzUzNTY5MDozZTMxNGJkOWUwZDkwOTdmMTMyNjBhY2U0OGIyOGFlZDpjYTFmZGI5MjA5YTg4Y2Q5ZTAxNDAyOTI0ZmU3MTE3NmJjMjBkYjU1MTdiNGJhZTEzNTY3ZTQxYWZjY2VlMzdm--d8f34350bc2407a1ef6a3489fc44d3a78179dd39">
-    <meta name="pjax-timeout" content="1000">
-    <link rel="sudo-modal" href="/sessions/sudo_modal">
-    <meta name="request-id" content="BEBF3C50:226F:3E25079:5823A97D" data-pjax-transient>
-
-    <meta name="msapplication-TileImage" content="/windows-tile.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="selected-link" value="repo_source" data-pjax-transient>
-
-    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
-<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
-    <meta name="google-analytics" content="UA-3769691-2">
-
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="BEBF3C50:226F:3E25079:5823A97D" name="octolytics-dimension-request_id" /><meta content="3535690" name="octolytics-actor-id" /><meta content="ernesto-g" name="octolytics-actor-login" /><meta content="4357f8971d2d6a419fc8a3fc2d52d3cc55f629e9bd40572b35a2d0272f724baa" name="octolytics-actor-hash" />
-<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
-
-
-
-  <meta class="js-ga-set" name="dimension1" content="Logged In">
-
-
-
-        <meta name="hostname" content="github.com">
-    <meta name="user-login" content="ernesto-g">
-
-        <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="MzMyYjVlM2RiOTYxMzBhZGFiOTY5NzM0NzJjOGI2ZGI3MmJjZDFiZTc5Y2ZjZGRhNGM0ZGRjOGY5NjQ0YTFkN3x7InJlbW90ZV9hZGRyZXNzIjoiMTkwLjE5MS42MC44MCIsInJlcXVlc3RfaWQiOiJCRUJGM0M1MDoyMjZGOjNFMjUwNzk6NTgyM0E5N0QiLCJ0aW1lc3RhbXAiOjE0Nzg3MzIxNjMsImhvc3QiOiJnaXRodWIuY29tIn0=">
-
-
-      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
-      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
-
-    <meta name="html-safe-nonce" content="3a47a4a8026d2694a21cc21b305ab8b75eb0c32a">
-    <meta content="369779c24055f4dc52f97fad07ff1d57a97b5990" name="form-nonce" />
-
-    <meta http-equiv="x-pjax-version" content="5496a6d4d3502e1caa28ee9f4eb52495">
-    
-
-      
-  <meta name="description" content="Contribute to Ponchos development by creating an account on GitHub.">
-  <meta name="go-import" content="github.com/ciaa/Ponchos git https://github.com/ciaa/Ponchos.git">
-
-  <meta content="6998305" name="octolytics-dimension-user_id" /><meta content="ciaa" name="octolytics-dimension-user_login" /><meta content="39026328" name="octolytics-dimension-repository_id" /><meta content="ciaa/Ponchos" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="39026328" name="octolytics-dimension-repository_network_root_id" /><meta content="ciaa/Ponchos" name="octolytics-dimension-repository_network_root_nwo" />
-  <link href="https://github.com/ciaa/Ponchos/commits/master.atom" rel="alternate" title="Recent Commits to Ponchos:master" type="application/atom+xml">
-
-
-      <link rel="canonical" href="https://github.com/ciaa/Ponchos/blob/master/kicad/libPonchos/Poncho_Esqueleto.lib" data-pjax-transient>
-  </head>
-
-
-  <body class="logged-in  env-production windows vis-public page-blob">
-    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
-    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
-
-    
-    
-    
-
-
-
-        <div class="header header-logged-in true" role="banner">
-  <div class="container clearfix">
-
-    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
-  <svg aria-hidden="true" class="octicon octicon-mark-github" height="28" version="1.1" viewBox="0 0 16 16" width="28"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-
-
-        <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ciaa/Ponchos/search" class="js-site-search-form" data-scoped-search-url="/ciaa/Ponchos/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
-    <label class="form-control header-search-wrapper js-chromeless-input-container">
-      <div class="header-search-scope">This repository</div>
-      <input type="text"
-        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
-        data-hotkey="s"
-        name="q"
-        placeholder="Search"
-        aria-label="Search this repository"
-        data-unscoped-placeholder="Search GitHub"
-        data-scoped-placeholder="Search"
-        autocapitalize="off">
-    </label>
-</form></div>
-
-
-      <ul class="header-nav float-left" role="navigation">
-        <li class="header-nav-item">
-          <a href="/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
-            Pull requests
-</a>        </li>
-        <li class="header-nav-item">
-          <a href="/issues" aria-label="Issues you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
-            Issues
-</a>        </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
-          </li>
-      </ul>
-
-    
-<ul class="header-nav user-nav float-right" id="user-links">
-  <li class="header-nav-item">
-    
-    <a href="/notifications" aria-label="You have no unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s js-socket-channel js-notification-indicator" data-channel="tenant:1:notification-changed:3535690" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
-        <span class="mail-status "></span>
-        <svg aria-hidden="true" class="octicon octicon-bell" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
-</a>
-  </li>
-
-  <li class="header-nav-item dropdown js-menu-container">
-    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="/new"
-       aria-label="Create new…"
-       data-ga-click="Header, create new, icon:add">
-      <svg aria-hidden="true" class="octicon octicon-plus float-left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"/></svg>
-      <span class="dropdown-caret"></span>
-    </a>
-
-    <div class="dropdown-menu-content js-menu-content">
-      <ul class="dropdown-menu dropdown-menu-sw">
-        
-<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
-  New repository
-</a>
-
-  <a class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
-    Import repository
-  </a>
-
-<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
-  New gist
-</a>
-
-  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
-    New organization
-  </a>
-
-
-
-  <div class="dropdown-divider"></div>
-  <div class="dropdown-header">
-    <span title="ciaa/Ponchos">This repository</span>
-  </div>
-    <a class="dropdown-item" href="/ciaa/Ponchos/issues/new" data-ga-click="Header, create new issue">
-      New issue
-    </a>
-
-      </ul>
-    </div>
-  </li>
-
-  <li class="header-nav-item dropdown js-menu-container">
-    <a class="header-nav-link name tooltipped tooltipped-sw js-menu-target" href="/ernesto-g"
-       aria-label="View profile and more"
-       data-ga-click="Header, show menu, icon:avatar">
-      <img alt="@ernesto-g" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/3535690?v=3&amp;s=40" width="20" />
-      <span class="dropdown-caret"></span>
-    </a>
-
-    <div class="dropdown-menu-content js-menu-content">
-      <div class="dropdown-menu dropdown-menu-sw">
-        <div class="dropdown-header header-nav-current-user css-truncate">
-          Signed in as <strong class="css-truncate-target">ernesto-g</strong>
-        </div>
-
-        <div class="dropdown-divider"></div>
-
-        <a class="dropdown-item" href="/ernesto-g" data-ga-click="Header, go to profile, text:your profile">
-          Your profile
-        </a>
-        <a class="dropdown-item" href="/ernesto-g?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
-          Your stars
-        </a>
-        <a class="dropdown-item" href="/explore" data-ga-click="Header, go to explore, text:explore">
-          Explore
-        </a>
-          <a class="dropdown-item" href="/integrations" data-ga-click="Header, go to integrations, text:integrations">
-            Integrations
-          </a>
-        <a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
-          Help
-        </a>
-
-        <div class="dropdown-divider"></div>
-
-        <a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
-          Settings
-        </a>
-
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="369779c24055f4dc52f97fad07ff1d57a97b5990" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="57UAzsD/2AAJFSuPBBoA2s4LiRrH/bP58G5ha6q9FXPzKLFwsw5N11WttnDTaB2ItpczTfj6duzBbLiquNnhTg==" /></div>
-          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
-            Sign out
-          </button>
-</form>      </div>
-    </div>
-  </li>
-</ul>
-
-
-    
-  </div>
-</div>
-
-
-      
-
-
-    <div id="start-of-content" class="accessibility-aid"></div>
-
-      <div id="js-flash-container">
-</div>
-
-
-    <div role="main">
-        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
-    <div id="js-repo-pjax-container" data-pjax-container>
-      
-<div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
-  <div class="container repohead-details-container">
-
-    
-
-<ul class="pagehead-actions">
-
-  <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="369779c24055f4dc52f97fad07ff1d57a97b5990" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="7rNumxGhgbbejRd1G1uTBl6o8yb3brKUZSU1htLmIYtW7QLCjn208KTOLNYkUwOuiOEtQ++31FdgTXW0sHl7nA==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="39026328" />
-
-        <div class="select-menu js-menu-container js-select-menu">
-          <a href="/ciaa/Ponchos/subscription"
-            class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true"
-            data-ga-click="Repository, click Watch settings, action:blob#show">
-            <span class="js-select-button">
-              <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-              Watch
-            </span>
-          </a>
-          <a class="social-count js-social-count"
-            href="/ciaa/Ponchos/watchers"
-            aria-label="25 users are watching this repository">
-            25
-          </a>
-
-        <div class="select-menu-modal-holder">
-          <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
-            <div class="select-menu-header js-navigation-enable" tabindex="-1">
-              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-              <span class="select-menu-title">Notifications</span>
-            </div>
-
-              <div class="select-menu-list js-navigation-container" role="menu">
-
-                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
-                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-                  <div class="select-menu-item-text">
-                    <input checked="checked" id="do_included" name="do" type="radio" value="included" />
-                    <span class="select-menu-item-heading">Not watching</span>
-                    <span class="description">Be notified when participating or @mentioned.</span>
-                    <span class="js-select-button-text hidden-select-button-text">
-                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-                      Watch
-                    </span>
-                  </div>
-                </div>
-
-                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
-                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-                  <div class="select-menu-item-text">
-                    <input id="do_subscribed" name="do" type="radio" value="subscribed" />
-                    <span class="select-menu-item-heading">Watching</span>
-                    <span class="description">Be notified of all conversations.</span>
-                    <span class="js-select-button-text hidden-select-button-text">
-                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-                      Unwatch
-                    </span>
-                  </div>
-                </div>
-
-                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
-                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-                  <div class="select-menu-item-text">
-                    <input id="do_ignore" name="do" type="radio" value="ignore" />
-                    <span class="select-menu-item-heading">Ignoring</span>
-                    <span class="description">Never be notified.</span>
-                    <span class="js-select-button-text hidden-select-button-text">
-                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
-                      Stop ignoring
-                    </span>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-        </div>
-</form>
-  </li>
-
-  <li>
-    
-  <div class="js-toggler-container js-social-container starring-container ">
-
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ciaa/Ponchos/unstar" class="starred" data-form-nonce="369779c24055f4dc52f97fad07ff1d57a97b5990" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0urMiJeGrvqDlE8D60eVN5lyIpdEaCZ5kMkm4BpZZsW1JB0Q56ZSbNXPjH3hMBbrn+XJ48VTSTPlx3UpPp27vw==" /></div>
-      <button
-        type="submit"
-        class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Unstar this repository" title="Unstar ciaa/Ponchos"
-        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
-        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
-        Unstar
-      </button>
-        <a class="social-count js-social-count" href="/ciaa/Ponchos/stargazers"
-           aria-label="3 users starred this repository">
-          3
-        </a>
-</form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ciaa/Ponchos/star" class="unstarred" data-form-nonce="369779c24055f4dc52f97fad07ff1d57a97b5990" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tqjZhdI6qgwF7INUf9d4bwun6FJ3kMFPJ+YOA0YC1VWGTU0+xneIMounl1qD0ya5FCZkiepV9MIJKykK7GVpFg==" /></div>
-      <button
-        type="submit"
-        class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Star this repository" title="Star ciaa/Ponchos"
-        data-ga-click="Repository, click star button, action:blob#show; text:Star">
-        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
-        Star
-      </button>
-        <a class="social-count js-social-count" href="/ciaa/Ponchos/stargazers"
-           aria-label="3 users starred this repository">
-          3
-        </a>
-</form>  </div>
-
-  </li>
-
-  <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ciaa/Ponchos/fork" class="btn-with-count" data-form-nonce="369779c24055f4dc52f97fad07ff1d57a97b5990" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="jHZqtewu6zguwV/m5jzljtraOzeJ8WUWvxLprjElzq8zkhvCcv8dYKgHg5hmFUkf/JPQ70Ys7P0GhkvrrMdWOQ==" /></div>
-            <button
-                type="submit"
-                class="btn btn-sm btn-with-count"
-                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
-                title="Fork your own copy of ciaa/Ponchos to your account"
-                aria-label="Fork your own copy of ciaa/Ponchos to your account">
-              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-              Fork
-            </button>
-</form>
-    <a href="/ciaa/Ponchos/network" class="social-count"
-       aria-label="11 users forked this repository">
-      11
-    </a>
-  </li>
-</ul>
-
-    <h1 class="public ">
-  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-  <span class="author" itemprop="author"><a href="/ciaa" class="url fn" rel="author">ciaa</a></span><!--
---><span class="path-divider">/</span><!--
---><strong itemprop="name"><a href="/ciaa/Ponchos" data-pjax="#js-repo-pjax-container">Ponchos</a></strong>
-
-</h1>
-
-  </div>
-  <div class="container">
-    
-<nav class="reponav js-repo-nav js-sidenav-container-pjax"
-     itemscope
-     itemtype="http://schema.org/BreadcrumbList"
-     role="navigation"
-     data-pjax="#js-repo-pjax-container">
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a href="/ciaa/Ponchos" aria-selected="true" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /ciaa/Ponchos" itemprop="url">
-      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
-      <span itemprop="name">Code</span>
-      <meta itemprop="position" content="1">
-</a>  </span>
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a href="/ciaa/Ponchos/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /ciaa/Ponchos/issues" itemprop="url">
-        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
-        <span itemprop="name">Issues</span>
-        <span class="counter">0</span>
-        <meta itemprop="position" content="2">
-</a>    </span>
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a href="/ciaa/Ponchos/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /ciaa/Ponchos/pulls" itemprop="url">
-      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-      <span itemprop="name">Pull requests</span>
-      <span class="counter">0</span>
-      <meta itemprop="position" content="3">
-</a>  </span>
-
-  <a href="/ciaa/Ponchos/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /ciaa/Ponchos/projects">
-    <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
-    Projects
-    <span class="counter">0</span>
-</a>
-    <a href="/ciaa/Ponchos/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /ciaa/Ponchos/wiki">
-      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
-      Wiki
-</a>
-
-  <a href="/ciaa/Ponchos/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /ciaa/Ponchos/pulse">
-    <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"/></svg>
-    Pulse
-</a>
-  <a href="/ciaa/Ponchos/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /ciaa/Ponchos/graphs">
-    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
-    Graphs
-</a>
-
-</nav>
-
-  </div>
-</div>
-
-<div class="container new-discussion-timeline experiment-repo-nav">
-  <div class="repository-content">
-
-    
-
-<a href="/ciaa/Ponchos/blob/cb618caf801bb1a4023867d149a87011a26a62a9/kicad/libPonchos/Poncho_Esqueleto.lib" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
-
-<!-- blob contrib key: blob_contributors:v21:5388a4883c6605b7537fa9831d18d01e -->
-
-<div class="file-navigation js-zeroclipboard-container">
-  
-<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
-  <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
-    
-    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
-    <i>Branch:</i>
-    <span class="js-select-button css-truncate-target">master</span>
-  </button>
-
-  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
-
-    <div class="select-menu-modal">
-      <div class="select-menu-header">
-        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-        <span class="select-menu-title">Switch branches/tags</span>
-      </div>
-
-      <div class="select-menu-filters">
-        <div class="select-menu-text-filter">
-          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
-        </div>
-        <div class="select-menu-tabs">
-          <ul>
-            <li class="select-menu-tab">
-              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
-            </li>
-            <li class="select-menu-tab">
-              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
-
-        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-
-
-            <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/ciaa/Ponchos/blob/master/kicad/libPonchos/Poncho_Esqueleto.lib"
-               data-name="master"
-               data-skip-pjax="true"
-               rel="nofollow">
-              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-                master
-              </span>
-            </a>
-            <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/ciaa/Ponchos/blob/ponchoOsciloscopio/kicad/libPonchos/Poncho_Esqueleto.lib"
-               data-name="ponchoOsciloscopio"
-               data-skip-pjax="true"
-               rel="nofollow">
-              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-                ponchoOsciloscopio
-              </span>
-            </a>
-        </div>
-
-          <div class="select-menu-no-results">Nothing to show</div>
-      </div>
-
-      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
-        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-
-
-        </div>
-
-        <div class="select-menu-no-results">Nothing to show</div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-  <div class="BtnGroup float-right">
-    <a href="/ciaa/Ponchos/find/master"
-          class="js-pjax-capture-input btn btn-sm BtnGroup-item"
-          data-pjax
-          data-hotkey="t">
-      Find file
-    </a>
-    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
-  </div>
-  <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/ciaa/Ponchos"><span>Ponchos</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/ciaa/Ponchos/tree/master/kicad"><span>kicad</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/ciaa/Ponchos/tree/master/kicad/libPonchos"><span>libPonchos</span></a></span><span class="separator">/</span><strong class="final-path">Poncho_Esqueleto.lib</strong>
-  </div>
-</div>
-
-
-  <div class="commit-tease">
-      <span class="float-right">
-        <a class="commit-tease-sha" href="/ciaa/Ponchos/commit/eb51c57fde3ef1111cb5d3ce09928d906ea3c007" data-pjax>
-          eb51c57
-        </a>
-        <relative-time datetime="2015-10-01T20:32:29Z">Oct 1, 2015</relative-time>
-      </span>
-      <div>
-        <img alt="@brengi" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/11397178?v=3&amp;s=40" width="20" />
-        <a href="/brengi" class="user-mention" rel="contributor">brengi</a>
-          <a href="/ciaa/Ponchos/commit/eb51c57fde3ef1111cb5d3ce09928d906ea3c007" class="message" data-pjax="true" title="* Moviendo y renombrando archivos .lib.">* Moviendo y renombrando archivos .lib.</a>
-      </div>
-
-    <div class="commit-tease-contributors">
-      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
-        <strong>1</strong>
-         contributor
-      </button>
-      
-    </div>
-
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list" data-facebox-id="facebox-description">
-          <li class="facebox-user-list-item">
-            <img alt="@brengi" height="24" src="https://avatars3.githubusercontent.com/u/11397178?v=3&amp;s=48" width="24" />
-            <a href="/brengi">brengi</a>
-          </li>
-      </ul>
-    </div>
-  </div>
-
-<div class="file">
-  <div class="file-header">
-  <div class="file-actions">
-
-    <div class="BtnGroup">
-      <a href="/ciaa/Ponchos/raw/master/kicad/libPonchos/Poncho_Esqueleto.lib" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/ciaa/Ponchos/blame/master/kicad/libPonchos/Poncho_Esqueleto.lib" class="btn btn-sm js-update-url-with-hash BtnGroup-item">Blame</a>
-      <a href="/ciaa/Ponchos/commits/master/kicad/libPonchos/Poncho_Esqueleto.lib" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
-    </div>
-
-        <a class="btn-octicon tooltipped tooltipped-nw"
-           href="github-windows://openRepo/https://github.com/ciaa/Ponchos?branch=master&amp;filepath=kicad%2FlibPonchos%2FPoncho_Esqueleto.lib"
-           aria-label="Open this file in GitHub Desktop"
-           data-ga-click="Repository, open with desktop, type:windows">
-            <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
-        </a>
-
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ciaa/Ponchos/edit/master/kicad/libPonchos/Poncho_Esqueleto.lib" class="inline-form js-update-url-with-hash" data-form-nonce="369779c24055f4dc52f97fad07ff1d57a97b5990" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="9b2W94M6XJh0LkAssoENY3iIkBUrONVBQe0irxObeMgNhotf/5xD0snp+iIF60/18MyImIkpO0hkWhXHUrArUA==" /></div>
-          <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
-            aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
-            <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
-          </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ciaa/Ponchos/delete/master/kicad/libPonchos/Poncho_Esqueleto.lib" class="inline-form" data-form-nonce="369779c24055f4dc52f97fad07ff1d57a97b5990" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/rK2dCW4UXT+mAqJP3npaaG3lJ6YT8Ra0l0YeGO5CsQ0xAFFG8M4m9g7eN9T5KUhd0Hj+8usjLfcGaVw++mwKw==" /></div>
-          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
-            aria-label="Fork this project and delete the file" data-disable-with>
-            <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
-          </button>
-</form>  </div>
-
-  <div class="file-info">
-      269 lines (268 sloc)
-      <span class="file-info-divider"></span>
-    20.4 KB
-  </div>
-</div>
-
-  
-
-  <div itemprop="text" class="blob-wrapper data type-text">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line">EESchema-LIBRARY Version 2.3  Date: Thu Oct  1 17:29:34 2015</td>
-      </tr>
-      <tr>
-        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line">#encoding utf-8</td>
-      </tr>
-      <tr>
-        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"># Conn_PonchoMP_2x_20x2</td>
-      </tr>
-      <tr>
-        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">DEF Conn_PonchoMP_2x_20x2 XA 0 40 Y Y 12 L N</td>
-      </tr>
-      <tr>
-        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">F0 &quot;XA&quot; 0 550 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">F1 &quot;Conn_PonchoMP_2x_20x2&quot; 0 450 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">F2 &quot;&quot; -150 350 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">F3 &quot;&quot; -150 350 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">DRAW</td>
-      </tr>
-      <tr>
-        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">T 0 0 -350 60 0 1 0 ALIM-P1  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">S -250 300 250 -300 1 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">T 0 0 -400 60 0 2 0 ALIM-P2  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">S -250 350 250 -350 2 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">T 0 0 -250 60 0 3 0 CONTROL  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">S 200 200 -200 -200 3 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">T 0 0 -500 60 0 4 0 ANALOGICO  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">S 250 350 -250 -450 4 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">T 0 0 -300 60 0 5 0 I2C  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">S 200 150 -150 -200 5 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">T 0 -50 -200 60 0 6 0 UART  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">S 100 150 -150 -150 6 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">T 0 0 -200 60 0 7 0 CAN  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">S 150 150 -100 -150 7 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">T 0 0 -250 60 0 8 0 TECLADO  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">S -200 200 200 -200 8 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">T 0 0 -300 60 0 9 0 ETH-RMII  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">S -250 250 300 -250 9 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">T 0 -100 -200 60 0 10 0 SPI  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">S 150 150 -150 -150 10 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">T 0 -100 -600 60 0 11 0 E/S  Normal 0 C C</td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">S 250 350 -200 -550 11 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">S 200 300 -150 -300 12 0 0 N</td>
-      </tr>
-      <tr>
-        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">X +3.3V 1 -450 250 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">X +5V 2 -450 150 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">X GND 4 -450 50 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">X GND 20 -450 -50 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">X GND 30 450 -50 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">X GND 40 450 250 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">X GND 22 -450 -150 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">X GND 32 450 50 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">X GND 24 -450 -250 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line">X GND 26 450 -250 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">X GND 28 450 -150 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">X GND 38 450 150 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">X +3.3V 41 -450 300 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">X GND 51 -450 -200 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">X +5V 42 -450 200 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">X GND 43 -450 100 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">X GND 53 450 -300 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">X GND 45 -450 0 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line">X GND 65 450 0 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line">X GND 47 -450 -100 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line">X GND 57 450 -200 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">X GND 67 450 100 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">X GND 77 450 200 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">X GND 59 450 -100 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">X GND 79 450 300 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">X RESET 3 400 100 200 L 50 50 3 1 P</td>
-      </tr>
-      <tr>
-        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">X ISP 5 400 0 200 L 50 50 3 1 P</td>
-      </tr>
-      <tr>
-        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">X WAKEUP 6 400 -100 200 L 50 50 3 1 P</td>
-      </tr>
-      <tr>
-        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">X GNDA 7 450 200 200 L 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">X GNDA 8 450 100 200 L 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line">X ADC3 9 -450 -100 200 R 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">X GNDA 10 450 0 200 L 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line">X ADC2 11 -450 0 200 R 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line">X GNDA 12 450 -100 200 L 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code blob-code-inner js-file-line">X ADC1 13 -450 100 200 R 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code blob-code-inner js-file-line">X GNDA 14 450 -200 200 L 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="LC71" class="blob-code blob-code-inner js-file-line">X DAC 15 -450 -200 200 R 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line">X GNDA 16 450 -300 200 L 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">X VDDA 17 450 300 200 L 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">X GNDA 18 450 -400 200 L 50 50 4 1 P</td>
-      </tr>
-      <tr>
-        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line">X SCL 21 400 -50 200 L 50 50 5 1 P</td>
-      </tr>
-      <tr>
-        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line">X SDA 19 400 50 200 L 50 50 5 1 P</td>
-      </tr>
-      <tr>
-        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code blob-code-inner js-file-line">X RXD 23 300 50 200 L 50 50 6 1 P</td>
-      </tr>
-      <tr>
-        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line">X TXD 25 300 -50 200 L 50 50 6 1 P</td>
-      </tr>
-      <tr>
-        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code blob-code-inner js-file-line">X RD 27 350 50 200 L 50 50 7 1 P</td>
-      </tr>
-      <tr>
-        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code blob-code-inner js-file-line">X TD 29 350 -50 200 L 50 50 7 1 P</td>
-      </tr>
-      <tr>
-        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
-        <td id="LC81" class="blob-code blob-code-inner js-file-line">X COL1 31 -400 50 200 R 50 50 8 1 P</td>
-      </tr>
-      <tr>
-        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
-        <td id="LC82" class="blob-code blob-code-inner js-file-line">X F0 33 400 150 200 L 50 50 8 1 P</td>
-      </tr>
-      <tr>
-        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
-        <td id="LC83" class="blob-code blob-code-inner js-file-line">X COL2 34 -400 -50 200 R 50 50 8 1 P</td>
-      </tr>
-      <tr>
-        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
-        <td id="LC84" class="blob-code blob-code-inner js-file-line">X F3 35 400 -150 200 L 50 50 8 1 P</td>
-      </tr>
-      <tr>
-        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
-        <td id="LC85" class="blob-code blob-code-inner js-file-line">X F1 36 400 50 200 L 50 50 8 1 P</td>
-      </tr>
-      <tr>
-        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
-        <td id="LC86" class="blob-code blob-code-inner js-file-line">X F2 37 400 -50 200 L 50 50 8 1 P</td>
-      </tr>
-      <tr>
-        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
-        <td id="LC87" class="blob-code blob-code-inner js-file-line">X COL0 39 -400 150 200 R 50 50 8 1 P</td>
-      </tr>
-      <tr>
-        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
-        <td id="LC88" class="blob-code blob-code-inner js-file-line">X CRS 50 -450 0 200 R 50 50 9 1 P</td>
-      </tr>
-      <tr>
-        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
-        <td id="LC89" class="blob-code blob-code-inner js-file-line">X MDIO 52 -450 -100 200 R 50 50 9 1 P</td>
-      </tr>
-      <tr>
-        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
-        <td id="LC90" class="blob-code blob-code-inner js-file-line">X RXD1 44 500 -200 200 L 50 50 9 1 P</td>
-      </tr>
-      <tr>
-        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
-        <td id="LC91" class="blob-code blob-code-inner js-file-line">X TXD0 54 500 100 200 L 50 50 9 1 P</td>
-      </tr>
-      <tr>
-        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
-        <td id="LC92" class="blob-code blob-code-inner js-file-line">X RCLCK 55 -450 -200 200 R 50 50 9 1 P</td>
-      </tr>
-      <tr>
-        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
-        <td id="LC93" class="blob-code blob-code-inner js-file-line">X TXEN 46 -450 200 200 R 50 50 9 1 P</td>
-      </tr>
-      <tr>
-        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
-        <td id="LC94" class="blob-code blob-code-inner js-file-line">X TXD1 56 500 0 200 L 50 50 9 1 P</td>
-      </tr>
-      <tr>
-        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
-        <td id="LC95" class="blob-code blob-code-inner js-file-line">X MDC 48 -450 100 200 R 50 50 9 1 P</td>
-      </tr>
-      <tr>
-        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
-        <td id="LC96" class="blob-code blob-code-inner js-file-line">X RXD0 49 500 -100 200 L 50 50 9 1 P</td>
-      </tr>
-      <tr>
-        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
-        <td id="LC97" class="blob-code blob-code-inner js-file-line">X SCK 60 350 100 200 L 50 50 10 1 P</td>
-      </tr>
-      <tr>
-        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
-        <td id="LC98" class="blob-code blob-code-inner js-file-line">X MOSI 61 350 0 200 L 50 50 10 1 P</td>
-      </tr>
-      <tr>
-        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
-        <td id="LC99" class="blob-code blob-code-inner js-file-line">X MISO 58 350 -100 200 L 50 50 10 1 P</td>
-      </tr>
-      <tr>
-        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
-        <td id="LC100" class="blob-code blob-code-inner js-file-line">X GPIO8 80 450 -500 200 L 50 50 11 1 P</td>
-      </tr>
-      <tr>
-        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
-        <td id="LC101" class="blob-code blob-code-inner js-file-line">X GPIO2 71 450 100 200 L 50 50 11 1 P</td>
-      </tr>
-      <tr>
-        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
-        <td id="LC102" class="blob-code blob-code-inner js-file-line">X GPIO1 72 450 200 200 L 50 50 11 1 P</td>
-      </tr>
-      <tr>
-        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
-        <td id="LC103" class="blob-code blob-code-inner js-file-line">X GPIO4 73 450 -100 200 L 50 50 11 1 P</td>
-      </tr>
-      <tr>
-        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
-        <td id="LC104" class="blob-code blob-code-inner js-file-line">X GPIO3 74 450 0 200 L 50 50 11 1 P</td>
-      </tr>
-      <tr>
-        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
-        <td id="LC105" class="blob-code blob-code-inner js-file-line">X GPIO6 75 450 -300 200 L 50 50 11 1 P</td>
-      </tr>
-      <tr>
-        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
-        <td id="LC106" class="blob-code blob-code-inner js-file-line">X GPIO5 76 450 -200 200 L 50 50 11 1 P</td>
-      </tr>
-      <tr>
-        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
-        <td id="LC107" class="blob-code blob-code-inner js-file-line">X GPIO7 78 450 -400 200 L 50 50 11 1 P</td>
-      </tr>
-      <tr>
-        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
-        <td id="LC108" class="blob-code blob-code-inner js-file-line">X GPIO0 69 450 300 200 L 50 50 11 1 P</td>
-      </tr>
-      <tr>
-        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
-        <td id="LC109" class="blob-code blob-code-inner js-file-line">X LCD1 70 400 250 200 L 50 50 12 1 P</td>
-      </tr>
-      <tr>
-        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
-        <td id="LC110" class="blob-code blob-code-inner js-file-line">X LCD4 62 400 -50 200 L 50 50 12 1 P</td>
-      </tr>
-      <tr>
-        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
-        <td id="LC111" class="blob-code blob-code-inner js-file-line">X EN 63 400 -250 200 L 50 50 12 1 P</td>
-      </tr>
-      <tr>
-        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
-        <td id="LC112" class="blob-code blob-code-inner js-file-line">X LCD3 63 400 50 200 L 50 50 12 1 P</td>
-      </tr>
-      <tr>
-        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
-        <td id="LC113" class="blob-code blob-code-inner js-file-line">X RS 64 400 -150 200 L 50 50 12 1 P</td>
-      </tr>
-      <tr>
-        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
-        <td id="LC114" class="blob-code blob-code-inner js-file-line">X LCD2 68 400 150 200 L 50 50 12 1 P</td>
-      </tr>
-      <tr>
-        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
-        <td id="LC115" class="blob-code blob-code-inner js-file-line">ENDDRAW</td>
-      </tr>
-      <tr>
-        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
-        <td id="LC116" class="blob-code blob-code-inner js-file-line">ENDDEF</td>
-      </tr>
-      <tr>
-        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
-        <td id="LC117" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
-        <td id="LC118" class="blob-code blob-code-inner js-file-line"># LOGO</td>
-      </tr>
-      <tr>
-        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
-        <td id="LC119" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
-        <td id="LC120" class="blob-code blob-code-inner js-file-line">DEF ~LOGO #G 0 40 Y Y 1 F N</td>
-      </tr>
-      <tr>
-        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
-        <td id="LC121" class="blob-code blob-code-inner js-file-line">F0 &quot;#G&quot; 0 -403 60 H I C CNN</td>
-      </tr>
-      <tr>
-        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
-        <td id="LC122" class="blob-code blob-code-inner js-file-line">F1 &quot;LOGO&quot; 0 403 60 H I C CNN</td>
-      </tr>
-      <tr>
-        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
-        <td id="LC123" class="blob-code blob-code-inner js-file-line">F2 &quot;&quot; 0 0 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
-        <td id="LC124" class="blob-code blob-code-inner js-file-line">F3 &quot;&quot; 0 0 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
-        <td id="LC125" class="blob-code blob-code-inner js-file-line">DRAW</td>
-      </tr>
-      <tr>
-        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
-        <td id="LC126" class="blob-code blob-code-inner js-file-line">P 10 0 0 1  -3 -210  -4 -132  -4 -53  -14 -53  -23 -53  -23 -132  -23 -210  -13 -210  -3 -210  -3 -210 F</td>
-      </tr>
-      <tr>
-        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
-        <td id="LC127" class="blob-code blob-code-inner js-file-line">P 14 0 0 1  -227 243  -231 254  -239 261  -252 263  -263 263  -263 238  -264 213  -251 213  -244 214  -234 217  -229 225  -227 239  -227 243  -227 243 F</td>
-      </tr>
-      <tr>
-        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
-        <td id="LC128" class="blob-code blob-code-inner js-file-line">P 36 0 0 1  205 -207  204 -203  202 -196  198 -186  193 -171  185 -152  175 -127  169 -110  161 -91  155 -77  151 -67  147 -60  144 -56  142 -54  139 -54  133 -53  130 -54  131 -58  134 -66  139 -79  144 -94  151 -112  158 -131  164 -149  171 -167  176 -182  181 -193  184 -201  184 -202  189 -208  197 -210  200 -210  203 -210  204 -209  205 -207  205 -207 F</td>
-      </tr>
-      <tr>
-        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
-        <td id="LC129" class="blob-code blob-code-inner js-file-line">P 47 0 0 1  -90 -76  -91 -66  -92 -60  -95 -55  -103 -52  -114 -50  -134 -51  -154 -55  -172 -63  -186 -74  -197 -90  -204 -110  -207 -132  -206 -148  -200 -170  -190 -187  -174 -201  -154 -210  -150 -211  -138 -212  -124 -211  -110 -210  -99 -207  -93 -203  -90 -195  -90 -191  -92 -189  -96 -189  -106 -192  -107 -192  -125 -196  -140 -195  -155 -190  -160 -188  -174 -177  -182 -162  -186 -143  -187 -130  -185 -113  -181 -99  -173 -88  -158 -75  -140 -68  -121 -67  -102 -71  -90 -76  -90 -76 F</td>
-      </tr>
-      <tr>
-        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
-        <td id="LC130" class="blob-code blob-code-inner js-file-line">P 64 0 0 1  166 -205  165 -203  162 -196  158 -183  152 -167  145 -148  137 -127  133 -117  125 -96  118 -80  114 -69  110 -61  107 -57  104 -54  101 -53  98 -53  96 -53  93 -54  91 -55  88 -59  85 -65  81 -74  75 -87  68 -105  59 -129  53 -144  46 -164  39 -181  34 -195  31 -204  30 -207  32 -209  39 -210  42 -210  45 -209  47 -206  50 -201  54 -193  59 -181  65 -164  73 -141  77 -132  84 -113  90 -98  95 -86  98 -79  99 -77  99 -78  101 -83  105 -94  110 -108  117 -126  124 -146  130 -162  137 -180  141 -192  145 -201  148 -206  151 -209  154 -210  157 -210  164 -209  166 -205  166 -205 F</td>
-      </tr>
-      <tr>
-        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
-        <td id="LC131" class="blob-code blob-code-inner js-file-line">P 102 0 0 1  433 433  370 433  370 370  370 36  370 33  370 -22  370 -70  370 -113  370 -149  370 -181  370 -370  0 -370  -370 -370  -369 -339  -368 -308  -352 -306  -346 -305  -301 -299  -259 -294  -219 -290  -180 -287  -140 -285  -97 -283  -51 -282  0 -282  6 -282  57 -282  102 -283  144 -285  184 -287  223 -290  263 -294  305 -300  352 -306  368 -308  369 -339  370 -370  370 -181  369 -208  369 -231  369 -249  369 -264  368 -275  368 -284  367 -290  366 -293  366 -295  365 -295  357 -293  344 -290  327 -287  307 -283  285 -280  263 -276  241 -273  222 -270  208 -268  120 -260  30 -257  -60 -257  -149 -262  -235 -272  -318 -285  -320 -286  -336 -289  -350 -292  -360 -294  -365 -295  -366 -295  -367 -294  -367 -291  -368 -286  -369 -278  -369 -266  -369 -251  -370 -233  -370 -209  -370 -181  -370 -147  -370 -108  -370 -62  -370 173  -390 173  -410 173  -410 242  -410 310  -390 310  -370 310  -370 340  -370 370  0 370  370 370  370 433  0 433  -433 433  -433 0  -433 -433  0 -433  433 -433  433 0  433 433  433 433 F</td>
-      </tr>
-      <tr>
-        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
-        <td id="LC132" class="blob-code blob-code-inner js-file-line">P 127 0 0 1  -83 300  -133 300  -133 246  -134 230  -135 219  -136 212  -139 207  -147 201  -161 198  -170 197  -178 199  -185 204  -189 208  -192 213  -194 219  -195 229  -196 245  -198 277  -189 277  -180 277  -180 249  -180 242  -179 227  -176 217  -171 212  -163 210  -160 210  -154 213  -150 220  -147 231  -147 249  -147 258  -146 268  -145 274  -143 276  -140 277  -137 276  -135 274  -134 269  -134 260  -133 246  -133 300  -212 300  -212 242  -212 227  -217 214  -224 205  -227 204  -238 201  -254 200  -277 200  -277 239  -277 278  -254 276  -248 276  -237 274  -228 272  -222 267  -222 266  -215 255  -212 242  -212 300  -243 300  -293 300  -293 270  -294 267  -297 265  -303 264  -315 263  -319 263  -329 263  -334 262  -336 260  -337 255  -336 250  -334 248  -328 247  -317 247  -308 247  -301 246  -298 244  -297 240  -297 237  -300 235  -306 234  -317 233  -320 233  -330 233  -335 232  -337 229  -337 223  -337 213  -315 213  -313 213  -302 213  -297 212  -294 210  -293 206  -294 203  -295 200  -300 199  -308 199  -322 198  -328 199  -340 199  -348 199  -352 200  -352 203  -353 212  -353 224  -353 239  -353 277  -323 277  -312 277  -302 276  -296 275  -294 273  -293 270  -293 300  -403 300  -403 242  -403 183  -243 183  -83 183  -83 242  -83 300  -83 300 F</td>
-      </tr>
-      <tr>
-        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
-        <td id="LC133" class="blob-code blob-code-inner js-file-line">ENDDRAW</td>
-      </tr>
-      <tr>
-        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
-        <td id="LC134" class="blob-code blob-code-inner js-file-line">ENDDEF</td>
-      </tr>
-      <tr>
-        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
-        <td id="LC135" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
-        <td id="LC136" class="blob-code blob-code-inner js-file-line"># Logo_Poncho</td>
-      </tr>
-      <tr>
-        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
-        <td id="LC137" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
-        <td id="LC138" class="blob-code blob-code-inner js-file-line">DEF ~Logo_Poncho #G 0 0 N N 1 F N</td>
-      </tr>
-      <tr>
-        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
-        <td id="LC139" class="blob-code blob-code-inner js-file-line">F0 &quot;#G&quot; -50 -400 60 H I C CNN</td>
-      </tr>
-      <tr>
-        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
-        <td id="LC140" class="blob-code blob-code-inner js-file-line">F1 &quot;Logo_Poncho&quot; 200 -400 60 H I C CNN</td>
-      </tr>
-      <tr>
-        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
-        <td id="LC141" class="blob-code blob-code-inner js-file-line">F2 &quot;&quot; 0 0 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
-        <td id="LC142" class="blob-code blob-code-inner js-file-line">F3 &quot;&quot; 0 0 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
-        <td id="LC143" class="blob-code blob-code-inner js-file-line">DRAW</td>
-      </tr>
-      <tr>
-        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
-        <td id="LC144" class="blob-code blob-code-inner js-file-line">P 23 0 0 1  38 23  34 27  27 28  20 28  12 23  8 15  7 5  12 -4  16 -7  24 -10  32 -10  37 -7  35 -4  29 -3  24 -2  19 1  17 8  18 16  23 21  32 21  38 20  38 23  38 23 F</td>
-      </tr>
-      <tr>
-        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
-        <td id="LC145" class="blob-code blob-code-inner js-file-line">P 27 0 0 1  0 14  -3 23  -9 27  -19 28  -32 28  -32 9  -32 1  -31 -7  -29 -10  -28 -10  -27 -5  -26 3  -25 8  -23 17  -18 21  -13 21  -12 20  -10 14  -10 5  -9 -1  -8 -8  -5 -10  -3 -10  -1 -6  0 3  0 14  0 14 F</td>
-      </tr>
-      <tr>
-        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
-        <td id="LC146" class="blob-code blob-code-inner js-file-line">P 30 0 0 1  -42 10  -44 21  -49 27  -50 28  -50 14  -50 5  -52 0  -58 -3  -63 -2  -67 4  -67 12  -64 19  -61 21  -58 22  -53 19  -50 14  -50 28  -58 29  -67 27  -73 21  -75 10  -74 8  -73 0  -71 -6  -66 -8  -58 -10  -49 -8  -44 -2  -42 10  -42 10 F</td>
-      </tr>
-      <tr>
-        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
-        <td id="LC147" class="blob-code blob-code-inner js-file-line">P 30 0 0 1  -20 -139  -24 -136  -35 -134  -44 -134  -55 -139  -62 -149  -65 -163  -64 -174  -59 -184  -50 -191  -42 -194  -32 -194  -28 -194  -22 -191  -20 -186  -20 -185  -20 -181  -24 -179  -32 -179  -40 -178  -45 -176  -47 -171  -48 -167  -48 -158  -43 -152  -33 -148  -29 -147  -21 -143  -20 -139  -20 -139 F</td>
-      </tr>
-      <tr>
-        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
-        <td id="LC148" class="blob-code blob-code-inner js-file-line">P 30 0 0 1  120 10  119 21  114 27  113 28  113 5  110 0  104 -3  99 -2  96 4  95 12  99 19  101 21  105 22  109 19  112 14  113 5  113 28  104 29  95 27  90 21  88 10  88 8  89 0  92 -6  96 -8  104 -10  113 -8  119 -2  120 10  120 10 F</td>
-      </tr>
-      <tr>
-        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
-        <td id="LC149" class="blob-code blob-code-inner js-file-line">P 31 0 0 1  75 -85  74 -75  73 -68  72 -65  71 -66  69 -71  68 -79  68 -87  66 -100  61 -108  55 -110  51 -109  48 -106  47 -99  46 -88  44 -75  42 -68  40 -68  38 -74  37 -86  36 -96  38 -105  41 -111  48 -115  57 -117  66 -116  71 -111  73 -105  74 -96  75 -85  75 -85 F</td>
-      </tr>
-      <tr>
-        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
-        <td id="LC150" class="blob-code blob-code-inner js-file-line">P 33 0 0 1  -78 24  -80 32  -86 37  -88 38  -88 25  -90 20  -96 17  -98 16  -103 18  -104 24  -104 26  -102 31  -95 32  -93 32  -89 30  -88 25  -88 38  -99 41  -110 43  -110 16  -110 14  -110 1  -109 -7  -107 -10  -105 -7  -104 0  -104 3  -102 8  -97 10  -88 11  -81 16  -78 24  -78 24 F</td>
-      </tr>
-      <tr>
-        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
-        <td id="LC151" class="blob-code blob-code-inner js-file-line">P 34 0 0 1  29 -94  28 -83  21 -74  19 -72  19 -86  19 -95  17 -103  12 -107  4 -109  -6 -111  -6 -93  -6 -83  -5 -77  -2 -75  3 -75  10 -76  16 -79  19 -86  19 -72  10 -68  8 -68  -2 -65  -8 -65  -11 -69  -13 -77  -13 -91  -13 -117  0 -117  1 -117  12 -115  21 -109  25 -105  29 -94  29 -94 F</td>
-      </tr>
-      <tr>
-        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
-        <td id="LC152" class="blob-code blob-code-inner js-file-line">P 35 0 0 1  -23 -72  -24 -70  -30 -67  -40 -66  -55 -65  -55 -91  -55 -117  -39 -117  -33 -117  -25 -116  -23 -114  -23 -113  -27 -111  -36 -111  -37 -111  -44 -110  -48 -108  -49 -102  -48 -98  -45 -95  -37 -94  -36 -94  -29 -93  -26 -91  -30 -89  -37 -88  -42 -88  -47 -86  -49 -81  -48 -77  -44 -75  -35 -75  -28 -74  -23 -72  -23 -72 F</td>
-      </tr>
-      <tr>
-        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
-        <td id="LC153" class="blob-code blob-code-inner js-file-line">P 35 0 0 1  78 10  76 22  70 28  62 28  61 28  56 29  55 34  54 39  50 42  48 41  47 37  46 29  46 16  46 5  47 -4  48 -9  50 -10  52 -9  55 -5  55 5  55 8  57 17  59 21  61 22  66 19  70 13  72 3  72 0  73 -7  75 -10  76 -9  77 -3  78 6  78 10  78 10 F</td>
-      </tr>
-      <tr>
-        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
-        <td id="LC154" class="blob-code blob-code-inner js-file-line">P 57 0 0 1  76 -185  72 -172  66 -158  60 -146  55 -137  51 -134  48 -133  46 -135  46 -138  48 -146  51 -159  51 -161  48 -158  44 -150  42 -146  36 -137  31 -134  26 -137  21 -146  14 -160  4 -186  2 -160  2 -157  0 -143  -2 -136  -5 -133  -6 -134  -9 -139  -11 -149  -12 -162  -12 -175  -12 -182  -10 -188  -6 -190  2 -191  9 -191  17 -189  22 -183  26 -172  31 -159  38 -175  43 -184  47 -190  52 -192  56 -191  58 -189  57 -184  54 -174  53 -170  56 -174  59 -179  64 -188  67 -191  73 -193  76 -191  76 -185  76 -185 F</td>
-      </tr>
-      <tr>
-        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
-        <td id="LC155" class="blob-code blob-code-inner js-file-line">P 58 0 0 1  117 -42  111 -42  111 -49  111 -129  111 -208  111 -240  7 -240  -98 -240  -97 -233  -97 -232  -95 -229  -92 -227  -85 -225  -76 -223  -63 -223  -45 -222  -22 -222  7 -222  13 -222  40 -222  62 -222  79 -223  92 -224  100 -225  106 -227  109 -230  110 -233  111 -240  111 -208  77 -206  67 -205  46 -204  25 -203  5 -203  -7 -203  -28 -204  -49 -205  -66 -206  -97 -209  -97 -129  -97 -49  7 -49  111 -49  111 -42  5 -42  -108 -42  -106 -96  -106 -102  -105 -126  -104 -152  -104 -177  -104 -199  -104 -247  7 -247  117 -247  117 -145  117 -42  117 -42 F</td>
-      </tr>
-      <tr>
-        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
-        <td id="LC156" class="blob-code blob-code-inner js-file-line">P 286 0 0 1  325 59  320 64  311 73  309 75  309 54  307 49  303 39  297 25  290 7  282 -13  273 -35  254 -80  231 -131  210 -177  189 -217  169 -251  150 -281  144 -289  135 -303  127 -313  121 -321  119 -323  118 -323  112 -321  102 -316  91 -310  82 -304  56 -292  32 -285  9 -283  -14 -286  -40 -294  -68 -307  -75 -311  -86 -316  -94 -320  -98 -322  -99 -321  -104 -316  -112 -307  -122 -296  -133 -284  -144 -271  -155 -258  -165 -246  -172 -237  -183 -222  -200 -197  -216 -169  -232 -140  -241 -121  -251 -100  -262 -79  -272 -57  -281 -37  -290 -18  -297 -1  -303 12  -306 21  -308 25  -307 26  -301 32  -292 41  -281 52  -267 65  -251 79  -235 94  -218 108  -203 122  -189 134  -176 144  -155 161  -135 174  -116 186  -94 198  -67 211  -53 196  -38 181  -50 133  -52 126  -56 109  -60 95  -62 85  -63 80  -64 79  -63 78  -61 76  -56 76  -47 75  -35 75  -17 75  6 75  16 75  36 75  53 75  66 75  75 76  78 77  78 78  76 86  73 98  69 113  65 130  51 182  63 193  67 197  74 202  77 204  82 203  90 200  102 195  116 189  129 182  141 176  151 171  156 168  170 159  186 149  203 136  222 123  240 110  258 97  274 84  288 73  299 64  306 58  309 54  309 75  297 85  278 100  245 125  207 152  173 174  143 192  118 204  104 210  93 216  87 220  86 223  89 234  90 248  90 263  88 275  81 293  75 302  75 252  72 231  64 214  50 198  38 187  49 143  50 138  54 122  58 108  60 98  61 93  61 92  60 90  57 89  51 88  41 88  27 88  7 88  -7 88  -23 88  -35 88  -42 89  -46 90  -48 91  -48 93  -48 94  -46 101  -43 112  -40 127  -35 143  -25 187  -37 198  -47 209  -57 227  -62 246  -62 266  -56 284  -55 285  -43 303  -28 315  -11 322  6 324  23 322  39 316  53 305  65 291  72 273  75 252  75 302  68 311  52 325  33 334  12 337  -10 336  -32 329  -43 323  -59 308  -70 289  -76 267  -77 244  -75 225  -97 214  -98 214  -115 205  -132 194  -150 183  -170 168  -191 151  -215 131  -242 108  -273 80  -284 70  -301 54  -314 41  -322 32  -324 27  -323 23  -320 13  -314 -1  -306 -19  -296 -40  -286 -63  -274 -88  -261 -114  -248 -140  -245 -146  -233 -169  -223 -188  -212 -206  -200 -224  -187 -241  -172 -261  -154 -282  -132 -308  -128 -311  -118 -323  -109 -332  -103 -338  -100 -340  -96 -338  -87 -334  -75 -328  -61 -321  -60 -320  -35 -308  -13 -301  6 -298  25 -298  45 -303  66 -313  91 -327  96 -329  107 -335  117 -339  122 -341  124 -340  129 -336  137 -327  147 -313  160 -293  170 -277  184 -256  196 -237  205 -220  215 -202  224 -183  235 -161  242 -144  251 -125  260 -102  270 -79  280 -55  290 -32  299 -9  308 11  315 29  320 43  324 53  325 58  325 59  325 59 F</td>
-      </tr>
-      <tr>
-        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
-        <td id="LC157" class="blob-code blob-code-inner js-file-line">X ~ ~ 0 250 20 U 50 50 1 1 N N</td>
-      </tr>
-      <tr>
-        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
-        <td id="LC158" class="blob-code blob-code-inner js-file-line">ENDDRAW</td>
-      </tr>
-      <tr>
-        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
-        <td id="LC159" class="blob-code blob-code-inner js-file-line">ENDDEF</td>
-      </tr>
-      <tr>
-        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
-        <td id="LC160" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
-        <td id="LC161" class="blob-code blob-code-inner js-file-line"># OSHWA</td>
-      </tr>
-      <tr>
-        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
-        <td id="LC162" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
-        <td id="LC163" class="blob-code blob-code-inner js-file-line">DEF ~OSHWA #G 0 40 Y Y 1 F N</td>
-      </tr>
-      <tr>
-        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
-        <td id="LC164" class="blob-code blob-code-inner js-file-line">F0 &quot;#G&quot; -30 400 60 H I C CNN</td>
-      </tr>
-      <tr>
-        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
-        <td id="LC165" class="blob-code blob-code-inner js-file-line">F1 &quot;OSHWA&quot; 0 303 60 H I C CNN</td>
-      </tr>
-      <tr>
-        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
-        <td id="LC166" class="blob-code blob-code-inner js-file-line">F2 &quot;&quot; 0 0 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
-        <td id="LC167" class="blob-code blob-code-inner js-file-line">F3 &quot;&quot; 0 0 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
-        <td id="LC168" class="blob-code blob-code-inner js-file-line">DRAW</td>
-      </tr>
-      <tr>
-        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
-        <td id="LC169" class="blob-code blob-code-inner js-file-line">T 0 -1 -270 70 0 0 0 hardware  Normal 1 C C</td>
-      </tr>
-      <tr>
-        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
-        <td id="LC170" class="blob-code blob-code-inner js-file-line">T 0 -175 -175 70 0 0 0 open  Normal 1 C C</td>
-      </tr>
-      <tr>
-        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
-        <td id="LC171" class="blob-code blob-code-inner js-file-line">T 0 140 -175 70 0 0 0 source  Normal 1 C C</td>
-      </tr>
-      <tr>
-        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
-        <td id="LC172" class="blob-code blob-code-inner js-file-line">P 289 0 0 1  228 105  218 107  216 108  216 74  216 72  216 63  216 58  213 54  208 52  197 50  182 47  180 46  170 44  164 41  159 35  155 26  151 16  145 3  142 -7  141 -14  143 -21  148 -29  154 -39  170 -61  155 -76  141 -91  120 -77  110 -70  101 -65  94 -64  87 -64  75 -66  59 -28  44 9  55 20  62 26  71 40  76 55  78 73  78 76  77 89  75 100  69 111  58 125  42 138  23 145  4 147  -16 144  -35 135  -51 120  -53 118  -64 99  -69 79  -67 59  -59 39  -45 20  -34 8  -49 -29  -65 -66  -77 -64  -83 -64  -90 -65  -98 -69  -109 -76  -129 -89  -144 -75  -158 -60  -143 -38  -129 -16  -135 1  -136 4  -142 20  -147 31  -153 39  -161 43  -172 47  -188 50  -207 54  -206 75  -205 95  -178 100  -152 105  -141 128  -140 130  -134 142  -131 153  -129 159  -131 166  -136 175  -143 186  -144 187  -150 198  -155 205  -157 209  -157 210  -153 215  -147 222  -139 229  -133 235  -129 237  -124 234  -116 229  -106 222  -103 220  -93 213  -85 209  -80 207  -74 209  -64 212  -52 217  -49 218  -36 224  -28 230  -25 235  -24 240  -22 251  -19 263  -15 285  5 285  25 285  29 265  31 255  34 243  37 234  41 229  46 225  53 221  57 219  70 214  80 210  86 208  91 208  97 210  105 214  116 222  140 238  155 224  169 209  154 187  151 182  145 170  141 161  142 151  145 139  153 124  162 105  188 100  215 95  216 74  216 108  213 108  201 111  189 114  169 117  160 139  150 161  167 186  184 211  162 233  141 254  115 237  90 219  69 228  47 238  43 258  42 268  39 279  38 288  36 297  5 297  -26 297  -30 273  -32 263  -35 250  -38 241  -43 236  -50 232  -60 227  -80 220  -105 237  -131 255  -152 233  -174 211  -157 186  -140 161  -149 140  -149 139  -153 129  -157 121  -158 118  -159 117  -165 116  -175 114  -188 111  -217 106  -217 75  -217 45  -193 40  -192 40  -179 38  -169 35  -163 33  -162 32  -158 26  -153 17  -148 6  -145 -4  -144 -12  -146 -18  -152 -27  -159 -38  -174 -60  -153 -82  -149 -87  -140 -95  -133 -101  -131 -103  -130 -103  -126 -100  -118 -95  -107 -88  -101 -83  -92 -77  -86 -75  -81 -75  -75 -76  -67 -79  -62 -81  -61 -80  -58 -74  -53 -64  -46 -50  -39 -34  -19 14  -33 26  -40 32  -50 48  -56 65  -56 83  -51 99  -43 114  -30 126  -14 134  6 137  19 135  36 129  50 117  61 102  66 85  66 72  64 57  58 43  46 30  30 14  49 -32  52 -40  58 -55  64 -68  68 -77  70 -81  74 -82  80 -79  86 -75  91 -74  98 -75  107 -80  119 -88  141 -104  163 -82  184 -60  169 -38  166 -34  160 -24  155 -15  153 -11  153 -10  155 -3  159 7  163 18  167 27  170 31  171 32  177 34  187 37  200 40  228 45  228 75  228 105  228 105 F</td>
-      </tr>
-      <tr>
-        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
-        <td id="LC173" class="blob-code blob-code-inner js-file-line">ENDDRAW</td>
-      </tr>
-      <tr>
-        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
-        <td id="LC174" class="blob-code blob-code-inner js-file-line">ENDDEF</td>
-      </tr>
-      <tr>
-        <td id="L175" class="blob-num js-line-number" data-line-number="175"></td>
-        <td id="LC175" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L176" class="blob-num js-line-number" data-line-number="176"></td>
-        <td id="LC176" class="blob-code blob-code-inner js-file-line"># Conn_Poncho2P_2x_20x2</td>
-      </tr>
-      <tr>
-        <td id="L177" class="blob-num js-line-number" data-line-number="177"></td>
-        <td id="LC177" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L178" class="blob-num js-line-number" data-line-number="178"></td>
-        <td id="LC178" class="blob-code blob-code-inner js-file-line">DEF Conn_Poncho2P_2x_20x2 XA 0 40 Y Y 2 L N</td>
-      </tr>
-      <tr>
-        <td id="L179" class="blob-num js-line-number" data-line-number="179"></td>
-        <td id="LC179" class="blob-code blob-code-inner js-file-line">F0 &quot;XA&quot; 300 400 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L180" class="blob-num js-line-number" data-line-number="180"></td>
-        <td id="LC180" class="blob-code blob-code-inner js-file-line">F1 &quot;Conn_Poncho2P_2x_20x2&quot; 350 -1700 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L181" class="blob-num js-line-number" data-line-number="181"></td>
-        <td id="LC181" class="blob-code blob-code-inner js-file-line">F2 &quot;&quot; 0 0 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L182" class="blob-num js-line-number" data-line-number="182"></td>
-        <td id="LC182" class="blob-code blob-code-inner js-file-line">F3 &quot;&quot; 0 0 60 H V C CNN</td>
-      </tr>
-      <tr>
-        <td id="L183" class="blob-num js-line-number" data-line-number="183"></td>
-        <td id="LC183" class="blob-code blob-code-inner js-file-line">DRAW</td>
-      </tr>
-      <tr>
-        <td id="L184" class="blob-num js-line-number" data-line-number="184"></td>
-        <td id="LC184" class="blob-code blob-code-inner js-file-line">S -50 350 750 -1650 0 1 0 N</td>
-      </tr>
-      <tr>
-        <td id="L185" class="blob-num js-line-number" data-line-number="185"></td>
-        <td id="LC185" class="blob-code blob-code-inner js-file-line">X +3.3V 1 -250 300 200 R 50 50 1 1 w</td>
-      </tr>
-      <tr>
-        <td id="L186" class="blob-num js-line-number" data-line-number="186"></td>
-        <td id="LC186" class="blob-code blob-code-inner js-file-line">X +5V 2 950 300 200 L 50 50 1 1 w</td>
-      </tr>
-      <tr>
-        <td id="L187" class="blob-num js-line-number" data-line-number="187"></td>
-        <td id="LC187" class="blob-code blob-code-inner js-file-line">X RESET 3 -250 200 200 R 50 50 1 1 I</td>
-      </tr>
-      <tr>
-        <td id="L188" class="blob-num js-line-number" data-line-number="188"></td>
-        <td id="LC188" class="blob-code blob-code-inner js-file-line">X GND 4 950 200 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L189" class="blob-num js-line-number" data-line-number="189"></td>
-        <td id="LC189" class="blob-code blob-code-inner js-file-line">X ISP 5 -250 100 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L190" class="blob-num js-line-number" data-line-number="190"></td>
-        <td id="LC190" class="blob-code blob-code-inner js-file-line">X WAKEUP 6 950 100 200 L 50 50 1 1 I</td>
-      </tr>
-      <tr>
-        <td id="L191" class="blob-num js-line-number" data-line-number="191"></td>
-        <td id="LC191" class="blob-code blob-code-inner js-file-line">X GNDA 7 -250 0 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L192" class="blob-num js-line-number" data-line-number="192"></td>
-        <td id="LC192" class="blob-code blob-code-inner js-file-line">X GNDA 8 950 0 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L193" class="blob-num js-line-number" data-line-number="193"></td>
-        <td id="LC193" class="blob-code blob-code-inner js-file-line">X ADC3 9 -250 -100 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L194" class="blob-num js-line-number" data-line-number="194"></td>
-        <td id="LC194" class="blob-code blob-code-inner js-file-line">X GNDA 10 950 -100 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L195" class="blob-num js-line-number" data-line-number="195"></td>
-        <td id="LC195" class="blob-code blob-code-inner js-file-line">X GND 20 950 -600 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L196" class="blob-num js-line-number" data-line-number="196"></td>
-        <td id="LC196" class="blob-code blob-code-inner js-file-line">X GND 30 950 -1100 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L197" class="blob-num js-line-number" data-line-number="197"></td>
-        <td id="LC197" class="blob-code blob-code-inner js-file-line">X GND 40 950 -1600 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L198" class="blob-num js-line-number" data-line-number="198"></td>
-        <td id="LC198" class="blob-code blob-code-inner js-file-line">X ADC2 11 -250 -200 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L199" class="blob-num js-line-number" data-line-number="199"></td>
-        <td id="LC199" class="blob-code blob-code-inner js-file-line">X i2cSCL 21 -250 -700 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L200" class="blob-num js-line-number" data-line-number="200"></td>
-        <td id="LC200" class="blob-code blob-code-inner js-file-line">X tecCOL1 31 -250 -1200 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L201" class="blob-num js-line-number" data-line-number="201"></td>
-        <td id="LC201" class="blob-code blob-code-inner js-file-line">X GNDA 12 950 -200 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L202" class="blob-num js-line-number" data-line-number="202"></td>
-        <td id="LC202" class="blob-code blob-code-inner js-file-line">X GND 22 950 -700 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L203" class="blob-num js-line-number" data-line-number="203"></td>
-        <td id="LC203" class="blob-code blob-code-inner js-file-line">X GND 32 950 -1200 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L204" class="blob-num js-line-number" data-line-number="204"></td>
-        <td id="LC204" class="blob-code blob-code-inner js-file-line">X ADC1 13 -250 -300 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L205" class="blob-num js-line-number" data-line-number="205"></td>
-        <td id="LC205" class="blob-code blob-code-inner js-file-line">X rs232RXD 23 -250 -800 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L206" class="blob-num js-line-number" data-line-number="206"></td>
-        <td id="LC206" class="blob-code blob-code-inner js-file-line">X tecF0 33 -250 -1300 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L207" class="blob-num js-line-number" data-line-number="207"></td>
-        <td id="LC207" class="blob-code blob-code-inner js-file-line">X GNDA 14 950 -300 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L208" class="blob-num js-line-number" data-line-number="208"></td>
-        <td id="LC208" class="blob-code blob-code-inner js-file-line">X GND 24 950 -800 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L209" class="blob-num js-line-number" data-line-number="209"></td>
-        <td id="LC209" class="blob-code blob-code-inner js-file-line">X tecCOL2 34 950 -1300 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L210" class="blob-num js-line-number" data-line-number="210"></td>
-        <td id="LC210" class="blob-code blob-code-inner js-file-line">X DAC 15 -250 -400 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L211" class="blob-num js-line-number" data-line-number="211"></td>
-        <td id="LC211" class="blob-code blob-code-inner js-file-line">X rs232TXD 25 -250 -900 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L212" class="blob-num js-line-number" data-line-number="212"></td>
-        <td id="LC212" class="blob-code blob-code-inner js-file-line">X tecF3 35 -250 -1400 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L213" class="blob-num js-line-number" data-line-number="213"></td>
-        <td id="LC213" class="blob-code blob-code-inner js-file-line">X GNDA 16 950 -400 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L214" class="blob-num js-line-number" data-line-number="214"></td>
-        <td id="LC214" class="blob-code blob-code-inner js-file-line">X GND 26 950 -900 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L215" class="blob-num js-line-number" data-line-number="215"></td>
-        <td id="LC215" class="blob-code blob-code-inner js-file-line">X tecF1 36 950 -1400 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L216" class="blob-num js-line-number" data-line-number="216"></td>
-        <td id="LC216" class="blob-code blob-code-inner js-file-line">X VDDA 17 -250 -500 200 R 50 50 1 1 w</td>
-      </tr>
-      <tr>
-        <td id="L217" class="blob-num js-line-number" data-line-number="217"></td>
-        <td id="LC217" class="blob-code blob-code-inner js-file-line">X canRD 27 -250 -1000 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L218" class="blob-num js-line-number" data-line-number="218"></td>
-        <td id="LC218" class="blob-code blob-code-inner js-file-line">X tecF2 37 -250 -1500 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L219" class="blob-num js-line-number" data-line-number="219"></td>
-        <td id="LC219" class="blob-code blob-code-inner js-file-line">X GNDA 18 950 -500 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L220" class="blob-num js-line-number" data-line-number="220"></td>
-        <td id="LC220" class="blob-code blob-code-inner js-file-line">X GND 28 950 -1000 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L221" class="blob-num js-line-number" data-line-number="221"></td>
-        <td id="LC221" class="blob-code blob-code-inner js-file-line">X GND 38 950 -1500 200 L 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L222" class="blob-num js-line-number" data-line-number="222"></td>
-        <td id="LC222" class="blob-code blob-code-inner js-file-line">X i2cSDA 19 -250 -600 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L223" class="blob-num js-line-number" data-line-number="223"></td>
-        <td id="LC223" class="blob-code blob-code-inner js-file-line">X canTD 29 -250 -1100 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L224" class="blob-num js-line-number" data-line-number="224"></td>
-        <td id="LC224" class="blob-code blob-code-inner js-file-line">X tecCOL0 39 -250 -1600 200 R 50 50 1 1 P</td>
-      </tr>
-      <tr>
-        <td id="L225" class="blob-num js-line-number" data-line-number="225"></td>
-        <td id="LC225" class="blob-code blob-code-inner js-file-line">X ethCRS 50 950 -100 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L226" class="blob-num js-line-number" data-line-number="226"></td>
-        <td id="LC226" class="blob-code blob-code-inner js-file-line">X spiSCK 60 950 -600 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L227" class="blob-num js-line-number" data-line-number="227"></td>
-        <td id="LC227" class="blob-code blob-code-inner js-file-line">X lcd1 70 950 -1100 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L228" class="blob-num js-line-number" data-line-number="228"></td>
-        <td id="LC228" class="blob-code blob-code-inner js-file-line">X GPIO8 80 950 -1600 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L229" class="blob-num js-line-number" data-line-number="229"></td>
-        <td id="LC229" class="blob-code blob-code-inner js-file-line">X +3.3V 41 -250 300 200 R 50 50 2 1 w</td>
-      </tr>
-      <tr>
-        <td id="L230" class="blob-num js-line-number" data-line-number="230"></td>
-        <td id="LC230" class="blob-code blob-code-inner js-file-line">X GND 51 -250 -200 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L231" class="blob-num js-line-number" data-line-number="231"></td>
-        <td id="LC231" class="blob-code blob-code-inner js-file-line">X spiMOSI 61 -250 -700 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L232" class="blob-num js-line-number" data-line-number="232"></td>
-        <td id="LC232" class="blob-code blob-code-inner js-file-line">X GPIO2 71 -250 -1200 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L233" class="blob-num js-line-number" data-line-number="233"></td>
-        <td id="LC233" class="blob-code blob-code-inner js-file-line">X +5V 42 950 300 200 L 50 50 2 1 w</td>
-      </tr>
-      <tr>
-        <td id="L234" class="blob-num js-line-number" data-line-number="234"></td>
-        <td id="LC234" class="blob-code blob-code-inner js-file-line">X ethMDIO 52 950 -200 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L235" class="blob-num js-line-number" data-line-number="235"></td>
-        <td id="LC235" class="blob-code blob-code-inner js-file-line">X lcd4 62 950 -700 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L236" class="blob-num js-line-number" data-line-number="236"></td>
-        <td id="LC236" class="blob-code blob-code-inner js-file-line">X GPIO1 72 950 -1200 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L237" class="blob-num js-line-number" data-line-number="237"></td>
-        <td id="LC237" class="blob-code blob-code-inner js-file-line">X GND 43 -250 200 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L238" class="blob-num js-line-number" data-line-number="238"></td>
-        <td id="LC238" class="blob-code blob-code-inner js-file-line">X GND 53 -250 -300 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L239" class="blob-num js-line-number" data-line-number="239"></td>
-        <td id="LC239" class="blob-code blob-code-inner js-file-line">X lcdEN 63 -250 -800 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L240" class="blob-num js-line-number" data-line-number="240"></td>
-        <td id="LC240" class="blob-code blob-code-inner js-file-line">X GPIO4 73 -250 -1300 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L241" class="blob-num js-line-number" data-line-number="241"></td>
-        <td id="LC241" class="blob-code blob-code-inner js-file-line">X ethRXD1 44 950 200 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L242" class="blob-num js-line-number" data-line-number="242"></td>
-        <td id="LC242" class="blob-code blob-code-inner js-file-line">X ethTXD0 54 950 -300 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L243" class="blob-num js-line-number" data-line-number="243"></td>
-        <td id="LC243" class="blob-code blob-code-inner js-file-line">X lcdRS 64 950 -800 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L244" class="blob-num js-line-number" data-line-number="244"></td>
-        <td id="LC244" class="blob-code blob-code-inner js-file-line">X GPIO3 74 950 -1300 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L245" class="blob-num js-line-number" data-line-number="245"></td>
-        <td id="LC245" class="blob-code blob-code-inner js-file-line">X GND 45 -250 100 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L246" class="blob-num js-line-number" data-line-number="246"></td>
-        <td id="LC246" class="blob-code blob-code-inner js-file-line">X ethRCLCK 55 -250 -400 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L247" class="blob-num js-line-number" data-line-number="247"></td>
-        <td id="LC247" class="blob-code blob-code-inner js-file-line">X GND 65 -250 -900 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L248" class="blob-num js-line-number" data-line-number="248"></td>
-        <td id="LC248" class="blob-code blob-code-inner js-file-line">X GPIO6 75 -250 -1400 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L249" class="blob-num js-line-number" data-line-number="249"></td>
-        <td id="LC249" class="blob-code blob-code-inner js-file-line">X ethTXEN 46 950 100 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L250" class="blob-num js-line-number" data-line-number="250"></td>
-        <td id="LC250" class="blob-code blob-code-inner js-file-line">X ethTXD1 56 950 -400 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L251" class="blob-num js-line-number" data-line-number="251"></td>
-        <td id="LC251" class="blob-code blob-code-inner js-file-line">X lcd3 66 950 -900 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L252" class="blob-num js-line-number" data-line-number="252"></td>
-        <td id="LC252" class="blob-code blob-code-inner js-file-line">X GPIO5 76 950 -1400 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L253" class="blob-num js-line-number" data-line-number="253"></td>
-        <td id="LC253" class="blob-code blob-code-inner js-file-line">X GND 47 -250 0 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L254" class="blob-num js-line-number" data-line-number="254"></td>
-        <td id="LC254" class="blob-code blob-code-inner js-file-line">X GND 57 -250 -500 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L255" class="blob-num js-line-number" data-line-number="255"></td>
-        <td id="LC255" class="blob-code blob-code-inner js-file-line">X GND 67 -250 -1000 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L256" class="blob-num js-line-number" data-line-number="256"></td>
-        <td id="LC256" class="blob-code blob-code-inner js-file-line">X GND 77 -250 -1500 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L257" class="blob-num js-line-number" data-line-number="257"></td>
-        <td id="LC257" class="blob-code blob-code-inner js-file-line">X ethMDC 48 950 0 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L258" class="blob-num js-line-number" data-line-number="258"></td>
-        <td id="LC258" class="blob-code blob-code-inner js-file-line">X spiMISO 58 950 -500 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L259" class="blob-num js-line-number" data-line-number="259"></td>
-        <td id="LC259" class="blob-code blob-code-inner js-file-line">X lcd2 68 950 -1000 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L260" class="blob-num js-line-number" data-line-number="260"></td>
-        <td id="LC260" class="blob-code blob-code-inner js-file-line">X GPIO7 78 950 -1500 200 L 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L261" class="blob-num js-line-number" data-line-number="261"></td>
-        <td id="LC261" class="blob-code blob-code-inner js-file-line">X ethRXD0 49 -250 -100 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L262" class="blob-num js-line-number" data-line-number="262"></td>
-        <td id="LC262" class="blob-code blob-code-inner js-file-line">X GND 59 -250 -600 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L263" class="blob-num js-line-number" data-line-number="263"></td>
-        <td id="LC263" class="blob-code blob-code-inner js-file-line">X GPIO0 69 -250 -1100 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L264" class="blob-num js-line-number" data-line-number="264"></td>
-        <td id="LC264" class="blob-code blob-code-inner js-file-line">X GND 79 -250 -1600 200 R 50 50 2 1 P</td>
-      </tr>
-      <tr>
-        <td id="L265" class="blob-num js-line-number" data-line-number="265"></td>
-        <td id="LC265" class="blob-code blob-code-inner js-file-line">ENDDRAW</td>
-      </tr>
-      <tr>
-        <td id="L266" class="blob-num js-line-number" data-line-number="266"></td>
-        <td id="LC266" class="blob-code blob-code-inner js-file-line">ENDDEF</td>
-      </tr>
-      <tr>
-        <td id="L267" class="blob-num js-line-number" data-line-number="267"></td>
-        <td id="LC267" class="blob-code blob-code-inner js-file-line">#</td>
-      </tr>
-      <tr>
-        <td id="L268" class="blob-num js-line-number" data-line-number="268"></td>
-        <td id="LC268" class="blob-code blob-code-inner js-file-line">#End Library</td>
-      </tr>
-</table>
-
-  </div>
-
-</div>
-
-<button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
-<div id="jump-to-line" style="display:none">
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
-    <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
-    <button type="submit" class="btn">Go</button>
-</form></div>
-
-  </div>
-  <div class="modal-backdrop js-touch-events"></div>
-</div>
-
-
-    </div>
-  </div>
-
-    </div>
-
-        <div class="container site-footer-container">
-  <div class="site-footer" role="contentinfo">
-    <ul class="site-footer-links float-right">
-        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
-      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
-      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
-      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
-        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
-        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
-
-    </ul>
-
-    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
-      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-    <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.17825s from github-fe161-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
-        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
-        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
-        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
-        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
-        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
-    </ul>
-  </div>
-</div>
-
-
-
-    
-
-    <div id="ajax-error-message" class="ajax-error-message flash flash-error">
-      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
-      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-        <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-      </button>
-      You can't perform that action at this time.
-    </div>
-
-
-      
-      <script crossorigin="anonymous" integrity="sha256-LkSqcbUyVnVb/pNN00YzECBYVDe2mFf3k8aPbA39LP4=" src="https://assets-cdn.github.com/assets/frameworks-2e44aa71b53256755bfe934dd346331020585437b69857f793c68f6c0dfd2cfe.js"></script>
-      <script async="async" crossorigin="anonymous" integrity="sha256-+M5qFKD7fC+xgCt999T/HFICrX/Fi1C8F+5TVChSfIE=" src="https://assets-cdn.github.com/assets/github-f8ce6a14a0fb7c2fb1802b7df7d4ff1c5202ad7fc58b50bc17ee535428527c81.js"></script>
-      
-      
-      
-      
-    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
-      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
-      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
-      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
-    </div>
-    <div class="facebox" id="facebox" style="display:none;">
-  <div class="facebox-popup">
-    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
-    </div>
-    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
-      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-    </button>
-  </div>
-</div>
-
-  </body>
-</html>
-
+EESchema-LIBRARY Version 2.3  Date: Thu Oct  1 17:29:34 2015
+#encoding utf-8
+#
+# Conn_PonchoMP_2x_20x2
+#
+DEF Conn_PonchoMP_2x_20x2 XA 0 40 Y Y 12 L N
+F0 "XA" 0 550 60 H V C CNN
+F1 "Conn_PonchoMP_2x_20x2" 0 450 60 H V C CNN
+F2 "" -150 350 60 H V C CNN
+F3 "" -150 350 60 H V C CNN
+DRAW
+T 0 0 -350 60 0 1 0 ALIM-P1  Normal 0 C C
+S -250 300 250 -300 1 0 0 N
+T 0 0 -400 60 0 2 0 ALIM-P2  Normal 0 C C
+S -250 350 250 -350 2 0 0 N
+T 0 0 -250 60 0 3 0 CONTROL  Normal 0 C C
+S 200 200 -200 -200 3 0 0 N
+T 0 0 -500 60 0 4 0 ANALOGICO  Normal 0 C C
+S 250 350 -250 -450 4 0 0 N
+T 0 0 -300 60 0 5 0 I2C  Normal 0 C C
+S 200 150 -150 -200 5 0 0 N
+T 0 -50 -200 60 0 6 0 UART  Normal 0 C C
+S 100 150 -150 -150 6 0 0 N
+T 0 0 -200 60 0 7 0 CAN  Normal 0 C C
+S 150 150 -100 -150 7 0 0 N
+T 0 0 -250 60 0 8 0 TECLADO  Normal 0 C C
+S -200 200 200 -200 8 0 0 N
+T 0 0 -300 60 0 9 0 ETH-RMII  Normal 0 C C
+S -250 250 300 -250 9 0 0 N
+T 0 -100 -200 60 0 10 0 SPI  Normal 0 C C
+S 150 150 -150 -150 10 0 0 N
+T 0 -100 -600 60 0 11 0 E/S  Normal 0 C C
+S 250 350 -200 -550 11 0 0 N
+S 200 300 -150 -300 12 0 0 N
+X +3.3V 1 -450 250 200 R 50 50 1 1 P
+X +5V 2 -450 150 200 R 50 50 1 1 P
+X GND 4 -450 50 200 R 50 50 1 1 P
+X GND 20 -450 -50 200 R 50 50 1 1 P
+X GND 30 450 -50 200 L 50 50 1 1 P
+X GND 40 450 250 200 L 50 50 1 1 P
+X GND 22 -450 -150 200 R 50 50 1 1 P
+X GND 32 450 50 200 L 50 50 1 1 P
+X GND 24 -450 -250 200 R 50 50 1 1 P
+X GND 26 450 -250 200 L 50 50 1 1 P
+X GND 28 450 -150 200 L 50 50 1 1 P
+X GND 38 450 150 200 L 50 50 1 1 P
+X +3.3V 41 -450 300 200 R 50 50 2 1 P
+X GND 51 -450 -200 200 R 50 50 2 1 P
+X +5V 42 -450 200 200 R 50 50 2 1 P
+X GND 43 -450 100 200 R 50 50 2 1 P
+X GND 53 450 -300 200 L 50 50 2 1 P
+X GND 45 -450 0 200 R 50 50 2 1 P
+X GND 65 450 0 200 L 50 50 2 1 P
+X GND 47 -450 -100 200 R 50 50 2 1 P
+X GND 57 450 -200 200 L 50 50 2 1 P
+X GND 67 450 100 200 L 50 50 2 1 P
+X GND 77 450 200 200 L 50 50 2 1 P
+X GND 59 450 -100 200 L 50 50 2 1 P
+X GND 79 450 300 200 L 50 50 2 1 P
+X RESET 3 400 100 200 L 50 50 3 1 P
+X ISP 5 400 0 200 L 50 50 3 1 P
+X WAKEUP 6 400 -100 200 L 50 50 3 1 P
+X GNDA 7 450 200 200 L 50 50 4 1 P
+X GNDA 8 450 100 200 L 50 50 4 1 P
+X ADC3 9 -450 -100 200 R 50 50 4 1 P
+X GNDA 10 450 0 200 L 50 50 4 1 P
+X ADC2 11 -450 0 200 R 50 50 4 1 P
+X GNDA 12 450 -100 200 L 50 50 4 1 P
+X ADC1 13 -450 100 200 R 50 50 4 1 P
+X GNDA 14 450 -200 200 L 50 50 4 1 P
+X DAC 15 -450 -200 200 R 50 50 4 1 P
+X GNDA 16 450 -300 200 L 50 50 4 1 P
+X VDDA 17 450 300 200 L 50 50 4 1 P
+X GNDA 18 450 -400 200 L 50 50 4 1 P
+X SCL 21 400 -50 200 L 50 50 5 1 P
+X SDA 19 400 50 200 L 50 50 5 1 P
+X RXD 23 300 50 200 L 50 50 6 1 P
+X TXD 25 300 -50 200 L 50 50 6 1 P
+X RD 27 350 50 200 L 50 50 7 1 P
+X TD 29 350 -50 200 L 50 50 7 1 P
+X COL1 31 -400 50 200 R 50 50 8 1 P
+X F0 33 400 150 200 L 50 50 8 1 P
+X COL2 34 -400 -50 200 R 50 50 8 1 P
+X F3 35 400 -150 200 L 50 50 8 1 P
+X F1 36 400 50 200 L 50 50 8 1 P
+X F2 37 400 -50 200 L 50 50 8 1 P
+X COL0 39 -400 150 200 R 50 50 8 1 P
+X CRS 50 -450 0 200 R 50 50 9 1 P
+X MDIO 52 -450 -100 200 R 50 50 9 1 P
+X RXD1 44 500 -200 200 L 50 50 9 1 P
+X TXD0 54 500 100 200 L 50 50 9 1 P
+X RCLCK 55 -450 -200 200 R 50 50 9 1 P
+X TXEN 46 -450 200 200 R 50 50 9 1 P
+X TXD1 56 500 0 200 L 50 50 9 1 P
+X MDC 48 -450 100 200 R 50 50 9 1 P
+X RXD0 49 500 -100 200 L 50 50 9 1 P
+X SCK 60 350 100 200 L 50 50 10 1 P
+X MOSI 61 350 0 200 L 50 50 10 1 P
+X MISO 58 350 -100 200 L 50 50 10 1 P
+X GPIO8 80 450 -500 200 L 50 50 11 1 P
+X GPIO2 71 450 100 200 L 50 50 11 1 P
+X GPIO1 72 450 200 200 L 50 50 11 1 P
+X GPIO4 73 450 -100 200 L 50 50 11 1 P
+X GPIO3 74 450 0 200 L 50 50 11 1 P
+X GPIO6 75 450 -300 200 L 50 50 11 1 P
+X GPIO5 76 450 -200 200 L 50 50 11 1 P
+X GPIO7 78 450 -400 200 L 50 50 11 1 P
+X GPIO0 69 450 300 200 L 50 50 11 1 P
+X LCD1 70 400 250 200 L 50 50 12 1 P
+X LCD4 62 400 -50 200 L 50 50 12 1 P
+X EN 63 400 -250 200 L 50 50 12 1 P
+X LCD3 63 400 50 200 L 50 50 12 1 P
+X RS 64 400 -150 200 L 50 50 12 1 P
+X LCD2 68 400 150 200 L 50 50 12 1 P
+ENDDRAW
+ENDDEF
+#
+# LOGO
+#
+DEF ~LOGO #G 0 40 Y Y 1 F N
+F0 "#G" 0 -403 60 H I C CNN
+F1 "LOGO" 0 403 60 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 10 0 0 1  -3 -210  -4 -132  -4 -53  -14 -53  -23 -53  -23 -132  -23 -210  -13 -210  -3 -210  -3 -210 F
+P 14 0 0 1  -227 243  -231 254  -239 261  -252 263  -263 263  -263 238  -264 213  -251 213  -244 214  -234 217  -229 225  -227 239  -227 243  -227 243 F
+P 36 0 0 1  205 -207  204 -203  202 -196  198 -186  193 -171  185 -152  175 -127  169 -110  161 -91  155 -77  151 -67  147 -60  144 -56  142 -54  139 -54  133 -53  130 -54  131 -58  134 -66  139 -79  144 -94  151 -112  158 -131  164 -149  171 -167  176 -182  181 -193  184 -201  184 -202  189 -208  197 -210  200 -210  203 -210  204 -209  205 -207  205 -207 F
+P 47 0 0 1  -90 -76  -91 -66  -92 -60  -95 -55  -103 -52  -114 -50  -134 -51  -154 -55  -172 -63  -186 -74  -197 -90  -204 -110  -207 -132  -206 -148  -200 -170  -190 -187  -174 -201  -154 -210  -150 -211  -138 -212  -124 -211  -110 -210  -99 -207  -93 -203  -90 -195  -90 -191  -92 -189  -96 -189  -106 -192  -107 -192  -125 -196  -140 -195  -155 -190  -160 -188  -174 -177  -182 -162  -186 -143  -187 -130  -185 -113  -181 -99  -173 -88  -158 -75  -140 -68  -121 -67  -102 -71  -90 -76  -90 -76 F
+P 64 0 0 1  166 -205  165 -203  162 -196  158 -183  152 -167  145 -148  137 -127  133 -117  125 -96  118 -80  114 -69  110 -61  107 -57  104 -54  101 -53  98 -53  96 -53  93 -54  91 -55  88 -59  85 -65  81 -74  75 -87  68 -105  59 -129  53 -144  46 -164  39 -181  34 -195  31 -204  30 -207  32 -209  39 -210  42 -210  45 -209  47 -206  50 -201  54 -193  59 -181  65 -164  73 -141  77 -132  84 -113  90 -98  95 -86  98 -79  99 -77  99 -78  101 -83  105 -94  110 -108  117 -126  124 -146  130 -162  137 -180  141 -192  145 -201  148 -206  151 -209  154 -210  157 -210  164 -209  166 -205  166 -205 F
+P 102 0 0 1  433 433  370 433  370 370  370 36  370 33  370 -22  370 -70  370 -113  370 -149  370 -181  370 -370  0 -370  -370 -370  -369 -339  -368 -308  -352 -306  -346 -305  -301 -299  -259 -294  -219 -290  -180 -287  -140 -285  -97 -283  -51 -282  0 -282  6 -282  57 -282  102 -283  144 -285  184 -287  223 -290  263 -294  305 -300  352 -306  368 -308  369 -339  370 -370  370 -181  369 -208  369 -231  369 -249  369 -264  368 -275  368 -284  367 -290  366 -293  366 -295  365 -295  357 -293  344 -290  327 -287  307 -283  285 -280  263 -276  241 -273  222 -270  208 -268  120 -260  30 -257  -60 -257  -149 -262  -235 -272  -318 -285  -320 -286  -336 -289  -350 -292  -360 -294  -365 -295  -366 -295  -367 -294  -367 -291  -368 -286  -369 -278  -369 -266  -369 -251  -370 -233  -370 -209  -370 -181  -370 -147  -370 -108  -370 -62  -370 173  -390 173  -410 173  -410 242  -410 310  -390 310  -370 310  -370 340  -370 370  0 370  370 370  370 433  0 433  -433 433  -433 0  -433 -433  0 -433  433 -433  433 0  433 433  433 433 F
+P 127 0 0 1  -83 300  -133 300  -133 246  -134 230  -135 219  -136 212  -139 207  -147 201  -161 198  -170 197  -178 199  -185 204  -189 208  -192 213  -194 219  -195 229  -196 245  -198 277  -189 277  -180 277  -180 249  -180 242  -179 227  -176 217  -171 212  -163 210  -160 210  -154 213  -150 220  -147 231  -147 249  -147 258  -146 268  -145 274  -143 276  -140 277  -137 276  -135 274  -134 269  -134 260  -133 246  -133 300  -212 300  -212 242  -212 227  -217 214  -224 205  -227 204  -238 201  -254 200  -277 200  -277 239  -277 278  -254 276  -248 276  -237 274  -228 272  -222 267  -222 266  -215 255  -212 242  -212 300  -243 300  -293 300  -293 270  -294 267  -297 265  -303 264  -315 263  -319 263  -329 263  -334 262  -336 260  -337 255  -336 250  -334 248  -328 247  -317 247  -308 247  -301 246  -298 244  -297 240  -297 237  -300 235  -306 234  -317 233  -320 233  -330 233  -335 232  -337 229  -337 223  -337 213  -315 213  -313 213  -302 213  -297 212  -294 210  -293 206  -294 203  -295 200  -300 199  -308 199  -322 198  -328 199  -340 199  -348 199  -352 200  -352 203  -353 212  -353 224  -353 239  -353 277  -323 277  -312 277  -302 276  -296 275  -294 273  -293 270  -293 300  -403 300  -403 242  -403 183  -243 183  -83 183  -83 242  -83 300  -83 300 F
+ENDDRAW
+ENDDEF
+#
+# Logo_Poncho
+#
+DEF ~Logo_Poncho #G 0 0 N N 1 F N
+F0 "#G" -50 -400 60 H I C CNN
+F1 "Logo_Poncho" 200 -400 60 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 23 0 0 1  38 23  34 27  27 28  20 28  12 23  8 15  7 5  12 -4  16 -7  24 -10  32 -10  37 -7  35 -4  29 -3  24 -2  19 1  17 8  18 16  23 21  32 21  38 20  38 23  38 23 F
+P 27 0 0 1  0 14  -3 23  -9 27  -19 28  -32 28  -32 9  -32 1  -31 -7  -29 -10  -28 -10  -27 -5  -26 3  -25 8  -23 17  -18 21  -13 21  -12 20  -10 14  -10 5  -9 -1  -8 -8  -5 -10  -3 -10  -1 -6  0 3  0 14  0 14 F
+P 30 0 0 1  -42 10  -44 21  -49 27  -50 28  -50 14  -50 5  -52 0  -58 -3  -63 -2  -67 4  -67 12  -64 19  -61 21  -58 22  -53 19  -50 14  -50 28  -58 29  -67 27  -73 21  -75 10  -74 8  -73 0  -71 -6  -66 -8  -58 -10  -49 -8  -44 -2  -42 10  -42 10 F
+P 30 0 0 1  -20 -139  -24 -136  -35 -134  -44 -134  -55 -139  -62 -149  -65 -163  -64 -174  -59 -184  -50 -191  -42 -194  -32 -194  -28 -194  -22 -191  -20 -186  -20 -185  -20 -181  -24 -179  -32 -179  -40 -178  -45 -176  -47 -171  -48 -167  -48 -158  -43 -152  -33 -148  -29 -147  -21 -143  -20 -139  -20 -139 F
+P 30 0 0 1  120 10  119 21  114 27  113 28  113 5  110 0  104 -3  99 -2  96 4  95 12  99 19  101 21  105 22  109 19  112 14  113 5  113 28  104 29  95 27  90 21  88 10  88 8  89 0  92 -6  96 -8  104 -10  113 -8  119 -2  120 10  120 10 F
+P 31 0 0 1  75 -85  74 -75  73 -68  72 -65  71 -66  69 -71  68 -79  68 -87  66 -100  61 -108  55 -110  51 -109  48 -106  47 -99  46 -88  44 -75  42 -68  40 -68  38 -74  37 -86  36 -96  38 -105  41 -111  48 -115  57 -117  66 -116  71 -111  73 -105  74 -96  75 -85  75 -85 F
+P 33 0 0 1  -78 24  -80 32  -86 37  -88 38  -88 25  -90 20  -96 17  -98 16  -103 18  -104 24  -104 26  -102 31  -95 32  -93 32  -89 30  -88 25  -88 38  -99 41  -110 43  -110 16  -110 14  -110 1  -109 -7  -107 -10  -105 -7  -104 0  -104 3  -102 8  -97 10  -88 11  -81 16  -78 24  -78 24 F
+P 34 0 0 1  29 -94  28 -83  21 -74  19 -72  19 -86  19 -95  17 -103  12 -107  4 -109  -6 -111  -6 -93  -6 -83  -5 -77  -2 -75  3 -75  10 -76  16 -79  19 -86  19 -72  10 -68  8 -68  -2 -65  -8 -65  -11 -69  -13 -77  -13 -91  -13 -117  0 -117  1 -117  12 -115  21 -109  25 -105  29 -94  29 -94 F
+P 35 0 0 1  -23 -72  -24 -70  -30 -67  -40 -66  -55 -65  -55 -91  -55 -117  -39 -117  -33 -117  -25 -116  -23 -114  -23 -113  -27 -111  -36 -111  -37 -111  -44 -110  -48 -108  -49 -102  -48 -98  -45 -95  -37 -94  -36 -94  -29 -93  -26 -91  -30 -89  -37 -88  -42 -88  -47 -86  -49 -81  -48 -77  -44 -75  -35 -75  -28 -74  -23 -72  -23 -72 F
+P 35 0 0 1  78 10  76 22  70 28  62 28  61 28  56 29  55 34  54 39  50 42  48 41  47 37  46 29  46 16  46 5  47 -4  48 -9  50 -10  52 -9  55 -5  55 5  55 8  57 17  59 21  61 22  66 19  70 13  72 3  72 0  73 -7  75 -10  76 -9  77 -3  78 6  78 10  78 10 F
+P 57 0 0 1  76 -185  72 -172  66 -158  60 -146  55 -137  51 -134  48 -133  46 -135  46 -138  48 -146  51 -159  51 -161  48 -158  44 -150  42 -146  36 -137  31 -134  26 -137  21 -146  14 -160  4 -186  2 -160  2 -157  0 -143  -2 -136  -5 -133  -6 -134  -9 -139  -11 -149  -12 -162  -12 -175  -12 -182  -10 -188  -6 -190  2 -191  9 -191  17 -189  22 -183  26 -172  31 -159  38 -175  43 -184  47 -190  52 -192  56 -191  58 -189  57 -184  54 -174  53 -170  56 -174  59 -179  64 -188  67 -191  73 -193  76 -191  76 -185  76 -185 F
+P 58 0 0 1  117 -42  111 -42  111 -49  111 -129  111 -208  111 -240  7 -240  -98 -240  -97 -233  -97 -232  -95 -229  -92 -227  -85 -225  -76 -223  -63 -223  -45 -222  -22 -222  7 -222  13 -222  40 -222  62 -222  79 -223  92 -224  100 -225  106 -227  109 -230  110 -233  111 -240  111 -208  77 -206  67 -205  46 -204  25 -203  5 -203  -7 -203  -28 -204  -49 -205  -66 -206  -97 -209  -97 -129  -97 -49  7 -49  111 -49  111 -42  5 -42  -108 -42  -106 -96  -106 -102  -105 -126  -104 -152  -104 -177  -104 -199  -104 -247  7 -247  117 -247  117 -145  117 -42  117 -42 F
+P 286 0 0 1  325 59  320 64  311 73  309 75  309 54  307 49  303 39  297 25  290 7  282 -13  273 -35  254 -80  231 -131  210 -177  189 -217  169 -251  150 -281  144 -289  135 -303  127 -313  121 -321  119 -323  118 -323  112 -321  102 -316  91 -310  82 -304  56 -292  32 -285  9 -283  -14 -286  -40 -294  -68 -307  -75 -311  -86 -316  -94 -320  -98 -322  -99 -321  -104 -316  -112 -307  -122 -296  -133 -284  -144 -271  -155 -258  -165 -246  -172 -237  -183 -222  -200 -197  -216 -169  -232 -140  -241 -121  -251 -100  -262 -79  -272 -57  -281 -37  -290 -18  -297 -1  -303 12  -306 21  -308 25  -307 26  -301 32  -292 41  -281 52  -267 65  -251 79  -235 94  -218 108  -203 122  -189 134  -176 144  -155 161  -135 174  -116 186  -94 198  -67 211  -53 196  -38 181  -50 133  -52 126  -56 109  -60 95  -62 85  -63 80  -64 79  -63 78  -61 76  -56 76  -47 75  -35 75  -17 75  6 75  16 75  36 75  53 75  66 75  75 76  78 77  78 78  76 86  73 98  69 113  65 130  51 182  63 193  67 197  74 202  77 204  82 203  90 200  102 195  116 189  129 182  141 176  151 171  156 168  170 159  186 149  203 136  222 123  240 110  258 97  274 84  288 73  299 64  306 58  309 54  309 75  297 85  278 100  245 125  207 152  173 174  143 192  118 204  104 210  93 216  87 220  86 223  89 234  90 248  90 263  88 275  81 293  75 302  75 252  72 231  64 214  50 198  38 187  49 143  50 138  54 122  58 108  60 98  61 93  61 92  60 90  57 89  51 88  41 88  27 88  7 88  -7 88  -23 88  -35 88  -42 89  -46 90  -48 91  -48 93  -48 94  -46 101  -43 112  -40 127  -35 143  -25 187  -37 198  -47 209  -57 227  -62 246  -62 266  -56 284  -55 285  -43 303  -28 315  -11 322  6 324  23 322  39 316  53 305  65 291  72 273  75 252  75 302  68 311  52 325  33 334  12 337  -10 336  -32 329  -43 323  -59 308  -70 289  -76 267  -77 244  -75 225  -97 214  -98 214  -115 205  -132 194  -150 183  -170 168  -191 151  -215 131  -242 108  -273 80  -284 70  -301 54  -314 41  -322 32  -324 27  -323 23  -320 13  -314 -1  -306 -19  -296 -40  -286 -63  -274 -88  -261 -114  -248 -140  -245 -146  -233 -169  -223 -188  -212 -206  -200 -224  -187 -241  -172 -261  -154 -282  -132 -308  -128 -311  -118 -323  -109 -332  -103 -338  -100 -340  -96 -338  -87 -334  -75 -328  -61 -321  -60 -320  -35 -308  -13 -301  6 -298  25 -298  45 -303  66 -313  91 -327  96 -329  107 -335  117 -339  122 -341  124 -340  129 -336  137 -327  147 -313  160 -293  170 -277  184 -256  196 -237  205 -220  215 -202  224 -183  235 -161  242 -144  251 -125  260 -102  270 -79  280 -55  290 -32  299 -9  308 11  315 29  320 43  324 53  325 58  325 59  325 59 F
+X ~ ~ 0 250 20 U 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# OSHWA
+#
+DEF ~OSHWA #G 0 40 Y Y 1 F N
+F0 "#G" -30 400 60 H I C CNN
+F1 "OSHWA" 0 303 60 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+T 0 -1 -270 70 0 0 0 hardware  Normal 1 C C
+T 0 -175 -175 70 0 0 0 open  Normal 1 C C
+T 0 140 -175 70 0 0 0 source  Normal 1 C C
+P 289 0 0 1  228 105  218 107  216 108  216 74  216 72  216 63  216 58  213 54  208 52  197 50  182 47  180 46  170 44  164 41  159 35  155 26  151 16  145 3  142 -7  141 -14  143 -21  148 -29  154 -39  170 -61  155 -76  141 -91  120 -77  110 -70  101 -65  94 -64  87 -64  75 -66  59 -28  44 9  55 20  62 26  71 40  76 55  78 73  78 76  77 89  75 100  69 111  58 125  42 138  23 145  4 147  -16 144  -35 135  -51 120  -53 118  -64 99  -69 79  -67 59  -59 39  -45 20  -34 8  -49 -29  -65 -66  -77 -64  -83 -64  -90 -65  -98 -69  -109 -76  -129 -89  -144 -75  -158 -60  -143 -38  -129 -16  -135 1  -136 4  -142 20  -147 31  -153 39  -161 43  -172 47  -188 50  -207 54  -206 75  -205 95  -178 100  -152 105  -141 128  -140 130  -134 142  -131 153  -129 159  -131 166  -136 175  -143 186  -144 187  -150 198  -155 205  -157 209  -157 210  -153 215  -147 222  -139 229  -133 235  -129 237  -124 234  -116 229  -106 222  -103 220  -93 213  -85 209  -80 207  -74 209  -64 212  -52 217  -49 218  -36 224  -28 230  -25 235  -24 240  -22 251  -19 263  -15 285  5 285  25 285  29 265  31 255  34 243  37 234  41 229  46 225  53 221  57 219  70 214  80 210  86 208  91 208  97 210  105 214  116 222  140 238  155 224  169 209  154 187  151 182  145 170  141 161  142 151  145 139  153 124  162 105  188 100  215 95  216 74  216 108  213 108  201 111  189 114  169 117  160 139  150 161  167 186  184 211  162 233  141 254  115 237  90 219  69 228  47 238  43 258  42 268  39 279  38 288  36 297  5 297  -26 297  -30 273  -32 263  -35 250  -38 241  -43 236  -50 232  -60 227  -80 220  -105 237  -131 255  -152 233  -174 211  -157 186  -140 161  -149 140  -149 139  -153 129  -157 121  -158 118  -159 117  -165 116  -175 114  -188 111  -217 106  -217 75  -217 45  -193 40  -192 40  -179 38  -169 35  -163 33  -162 32  -158 26  -153 17  -148 6  -145 -4  -144 -12  -146 -18  -152 -27  -159 -38  -174 -60  -153 -82  -149 -87  -140 -95  -133 -101  -131 -103  -130 -103  -126 -100  -118 -95  -107 -88  -101 -83  -92 -77  -86 -75  -81 -75  -75 -76  -67 -79  -62 -81  -61 -80  -58 -74  -53 -64  -46 -50  -39 -34  -19 14  -33 26  -40 32  -50 48  -56 65  -56 83  -51 99  -43 114  -30 126  -14 134  6 137  19 135  36 129  50 117  61 102  66 85  66 72  64 57  58 43  46 30  30 14  49 -32  52 -40  58 -55  64 -68  68 -77  70 -81  74 -82  80 -79  86 -75  91 -74  98 -75  107 -80  119 -88  141 -104  163 -82  184 -60  169 -38  166 -34  160 -24  155 -15  153 -11  153 -10  155 -3  159 7  163 18  167 27  170 31  171 32  177 34  187 37  200 40  228 45  228 75  228 105  228 105 F
+ENDDRAW
+ENDDEF
+#
+# Conn_Poncho2P_2x_20x2
+#
+DEF Conn_Poncho2P_2x_20x2 XA 0 40 Y Y 2 L N
+F0 "XA" 300 400 60 H V C CNN
+F1 "Conn_Poncho2P_2x_20x2" 350 -1700 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -50 350 750 -1650 0 1 0 N
+X +3.3V 1 -250 300 200 R 50 50 1 1 w
+X +5V 2 950 300 200 L 50 50 1 1 w
+X RESET 3 -250 200 200 R 50 50 1 1 I
+X GND 4 950 200 200 L 50 50 1 1 P
+X ISP 5 -250 100 200 R 50 50 1 1 P
+X WAKEUP 6 950 100 200 L 50 50 1 1 I
+X GNDA 7 -250 0 200 R 50 50 1 1 P
+X GNDA 8 950 0 200 L 50 50 1 1 P
+X ADC3 9 -250 -100 200 R 50 50 1 1 P
+X GNDA 10 950 -100 200 L 50 50 1 1 P
+X GND 20 950 -600 200 L 50 50 1 1 P
+X GND 30 950 -1100 200 L 50 50 1 1 P
+X GND 40 950 -1600 200 L 50 50 1 1 P
+X ADC2 11 -250 -200 200 R 50 50 1 1 P
+X i2cSCL 21 -250 -700 200 R 50 50 1 1 P
+X tecCOL1 31 -250 -1200 200 R 50 50 1 1 P
+X GNDA 12 950 -200 200 L 50 50 1 1 P
+X GND 22 950 -700 200 L 50 50 1 1 P
+X GND 32 950 -1200 200 L 50 50 1 1 P
+X ADC1 13 -250 -300 200 R 50 50 1 1 P
+X rs232RXD 23 -250 -800 200 R 50 50 1 1 P
+X tecF0 33 -250 -1300 200 R 50 50 1 1 P
+X GNDA 14 950 -300 200 L 50 50 1 1 P
+X GND 24 950 -800 200 L 50 50 1 1 P
+X tecCOL2 34 950 -1300 200 L 50 50 1 1 P
+X DAC 15 -250 -400 200 R 50 50 1 1 P
+X rs232TXD 25 -250 -900 200 R 50 50 1 1 P
+X tecF3 35 -250 -1400 200 R 50 50 1 1 P
+X GNDA 16 950 -400 200 L 50 50 1 1 P
+X GND 26 950 -900 200 L 50 50 1 1 P
+X tecF1 36 950 -1400 200 L 50 50 1 1 P
+X VDDA 17 -250 -500 200 R 50 50 1 1 w
+X canRD 27 -250 -1000 200 R 50 50 1 1 P
+X tecF2 37 -250 -1500 200 R 50 50 1 1 P
+X GNDA 18 950 -500 200 L 50 50 1 1 P
+X GND 28 950 -1000 200 L 50 50 1 1 P
+X GND 38 950 -1500 200 L 50 50 1 1 P
+X i2cSDA 19 -250 -600 200 R 50 50 1 1 P
+X canTD 29 -250 -1100 200 R 50 50 1 1 P
+X tecCOL0 39 -250 -1600 200 R 50 50 1 1 P
+X ethCRS 50 950 -100 200 L 50 50 2 1 P
+X spiSCK 60 950 -600 200 L 50 50 2 1 P
+X lcd1 70 950 -1100 200 L 50 50 2 1 P
+X GPIO8 80 950 -1600 200 L 50 50 2 1 P
+X +3.3V 41 -250 300 200 R 50 50 2 1 w
+X GND 51 -250 -200 200 R 50 50 2 1 P
+X spiMOSI 61 -250 -700 200 R 50 50 2 1 P
+X GPIO2 71 -250 -1200 200 R 50 50 2 1 P
+X +5V 42 950 300 200 L 50 50 2 1 w
+X ethMDIO 52 950 -200 200 L 50 50 2 1 P
+X lcd4 62 950 -700 200 L 50 50 2 1 P
+X GPIO1 72 950 -1200 200 L 50 50 2 1 P
+X GND 43 -250 200 200 R 50 50 2 1 P
+X GND 53 -250 -300 200 R 50 50 2 1 P
+X lcdEN 63 -250 -800 200 R 50 50 2 1 P
+X GPIO4 73 -250 -1300 200 R 50 50 2 1 P
+X ethRXD1 44 950 200 200 L 50 50 2 1 P
+X ethTXD0 54 950 -300 200 L 50 50 2 1 P
+X lcdRS 64 950 -800 200 L 50 50 2 1 P
+X GPIO3 74 950 -1300 200 L 50 50 2 1 P
+X GND 45 -250 100 200 R 50 50 2 1 P
+X ethRCLCK 55 -250 -400 200 R 50 50 2 1 P
+X GND 65 -250 -900 200 R 50 50 2 1 P
+X GPIO6 75 -250 -1400 200 R 50 50 2 1 P
+X ethTXEN 46 950 100 200 L 50 50 2 1 P
+X ethTXD1 56 950 -400 200 L 50 50 2 1 P
+X lcd3 66 950 -900 200 L 50 50 2 1 P
+X GPIO5 76 950 -1400 200 L 50 50 2 1 P
+X GND 47 -250 0 200 R 50 50 2 1 P
+X GND 57 -250 -500 200 R 50 50 2 1 P
+X GND 67 -250 -1000 200 R 50 50 2 1 P
+X GND 77 -250 -1500 200 R 50 50 2 1 P
+X ethMDC 48 950 0 200 L 50 50 2 1 P
+X spiMISO 58 950 -500 200 L 50 50 2 1 P
+X lcd2 68 950 -1000 200 L 50 50 2 1 P
+X GPIO7 78 950 -1500 200 L 50 50 2 1 P
+X ethRXD0 49 -250 -100 200 R 50 50 2 1 P
+X GND 59 -250 -600 200 R 50 50 2 1 P
+X GPIO0 69 -250 -1100 200 R 50 50 2 1 P
+X GND 79 -250 -1600 200 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
