@@ -1,4 +1,4 @@
-update=jue 10 nov 2016 23:11:35 ART
+update=sáb 12 nov 2016 15:40:42 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -156,3 +156,6 @@ LibName123=lib/components/FT2232H
 LibName124=lib/components/BLM15HG6015N1D
 LibName125=lib/components/93CXX
 LibName126=lib/components/74LVC1G04GW
+LibName127=lib/buzzer
+LibName128=lib/ps2805-1
+LibName129=lib/encoder_rotativo

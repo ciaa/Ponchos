@@ -1,4 +1,4 @@
-Copyright (c) <year> <INSERT YOUR NAME>
+Copyright (c) <2016> <Guillermo Evangelista>
 
 Based on Templates by:
 Copyright (c) 2015 Diego Brengi.
