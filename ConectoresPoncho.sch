@@ -54,7 +54,7 @@ U 1 1 58266328
 P 3250 2250
 F 0 "XA1" H 3550 2650 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 3600 550 60  0000 C CNN
-F 2 "" H 3250 2250 60  0000 C CNN
+F 2 "ponchoeduciaaiot:Conn_Poncho_Mediano" H 3250 2250 60  0001 C CNN
 F 3 "" H 3250 2250 60  0000 C CNN
 	1    3250 2250
 	1    0    0    -1  
@@ -65,7 +65,7 @@ U 2 1 582663B5
 P 6150 2200
 F 0 "XA1" H 6450 2600 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 6500 500 60  0000 C CNN
-F 2 "" H 6150 2200 60  0000 C CNN
+F 2 "ponchoeduciaaiot:Conn_Poncho_Mediano" H 6150 2200 60  0001 C CNN
 F 3 "" H 6150 2200 60  0000 C CNN
 	2    6150 2200
 	1    0    0    -1  
