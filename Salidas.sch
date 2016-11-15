@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:device
-LIBS:dsp
 LIBS:power
 LIBS:sensors
 LIBS:ir
@@ -8,50 +7,22 @@ LIBS:powerint
 LIBS:siliconi
 LIBS:switches
 LIBS:references
-LIBS:maxim
-LIBS:atmel
-LIBS:motorola
 LIBS:interface
 LIBS:cmos_ieee
 LIBS:analog_devices
 LIBS:nordicsemi
-LIBS:microchip_pic32mcu
 LIBS:74xgxx
 LIBS:transistors
-LIBS:philips
 LIBS:nxp_armmcu
-LIBS:supertex
 LIBS:logo
 LIBS:Power_Management
 LIBS:Altera
 LIBS:contrib
 LIBS:cmos4000
-LIBS:ac-dc
-LIBS:memory
-LIBS:digital-audio
-LIBS:rfcom
-LIBS:video
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic10mcu
-LIBS:onsemi
-LIBS:brooktre
-LIBS:Oscillators
-LIBS:stm32
 LIBS:elec-unifil
 LIBS:graphic
 LIBS:display
-LIBS:intel
-LIBS:Zilog
 LIBS:dc-dc
-LIBS:ftdi
-LIBS:microchip_pic18mcu
-LIBS:msp430
-LIBS:hc11
-LIBS:Lattice
-LIBS:cypress
-LIBS:Xicor
-LIBS:silabs
-LIBS:microchip
 LIBS:opto
 LIBS:transf
 LIBS:analog_switches
@@ -76,15 +47,6 @@ LIBS:audio
 LIBS:microchip_dspic33dsc
 LIBS:pspice
 LIBS:xilinx
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:w_device
 LIBS:tvs
 LIBS:sw_push
@@ -93,17 +55,9 @@ LIBS:rs485_rs232_can
 LIBS:regulators
 LIBS:pbss5240xf
 LIBS:nsi50010yt1g
-LIBS:net-phy
 LIBS:mcu-st
-LIBS:mcu-nxp
-LIBS:mcp1416
-LIBS:mcp1415
-LIBS:lm2596
-LIBS:g5v2
 LIBS:fqt13n06l
 LIBS:bat54_c
-LIBS:audio-vlsi
-LIBS:amesser-usb
 LIBS:amesser-power
 LIBS:amesser-linear
 LIBS:amesser-discrete
@@ -111,17 +65,7 @@ LIBS:amesser-conn
 LIBS:amesser-cmos4000
 LIBS:amesser-ad
 LIBS:Transil_diode
-LIBS:TXB0108
-LIBS:TJA1040
-LIBS:Si50x
-LIBS:SCHA5B0200
 LIBS:PS2805
-LIBS:PRTR5V0U2X
-LIBS:PBSS5240
-LIBS:MIC2025
-LIBS:LPC4337JBD144
-LIBS:IS42S16400F
-LIBS:FT2232H
 LIBS:BLM15HG6015N1D
 LIBS:93CXX
 LIBS:74LVC1G04GW
@@ -149,7 +93,7 @@ U 1 1 582526EF
 P 3350 1600
 F 0 "K1" H 3300 2000 50  0000 C CNN
 F 1 "RELAY_2RT" H 3500 1100 50  0000 C CNN
-F 2 "" H 3350 1600 50  0000 C CNN
+F 2 "Relays_ThroughHole:Relay_DPDT_Schrack-RT2_RM5mm" H 3350 1600 50  0001 C CNN
 F 3 "" H 3350 1600 50  0000 C CNN
 	1    3350 1600
 	1    0    0    -1  
@@ -160,7 +104,7 @@ U 1 1 582527C0
 P 2400 3250
 F 0 "R3" V 2480 3250 50  0000 C CNN
 F 1 "R" V 2400 3250 50  0000 C CNN
-F 2 "" V 2330 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2330 3250 50  0001 C CNN
 F 3 "" H 2400 3250 50  0000 C CNN
 	1    2400 3250
 	1    0    0    -1  
@@ -171,7 +115,7 @@ U 1 1 58252883
 P 2200 2550
 F 0 "R1" V 2280 2550 50  0000 C CNN
 F 1 "R" V 2200 2550 50  0000 C CNN
-F 2 "" V 2130 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2130 2550 50  0001 C CNN
 F 3 "" H 2200 2550 50  0000 C CNN
 	1    2200 2550
 	0    1    1    0   
@@ -182,7 +126,7 @@ U 1 1 58252AB3
 P 2650 2550
 F 0 "D2" H 2600 2675 50  0000 L CNN
 F 1 "Led_Small" H 2475 2450 50  0000 L CNN
-F 2 "" V 2650 2550 50  0000 C CNN
+F 2 "LEDs:LED_0603" V 2650 2550 50  0001 C CNN
 F 3 "" V 2650 2550 50  0000 C CNN
 	1    2650 2550
 	-1   0    0    1   
@@ -193,7 +137,7 @@ U 1 1 58252B6F
 P 2650 1950
 F 0 "D1" H 2750 1900 50  0000 C CNN
 F 1 "D" H 2650 1850 50  0000 C CNN
-F 2 "" H 2650 1950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2650 1950 50  0001 C CNN
 F 3 "" H 2650 1950 50  0000 C CNN
 	1    2650 1950
 	1    0    0    -1  
@@ -204,7 +148,7 @@ U 1 1 58252C08
 P 2850 3000
 F 0 "Q1" H 2860 3170 60  0000 R CNN
 F 1 "MOSFET_N" H 3450 3000 60  0000 R CNN
-F 2 "" H 2850 3000 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 2850 3000 60  0001 C CNN
 F 3 "" H 2850 3000 60  0000 C CNN
 	1    2850 3000
 	1    0    0    -1  
@@ -288,8 +232,9 @@ U 1 1 582546A2
 P 4900 1450
 F 0 "J1" H 4900 1750 60  0000 C CNN
 F 1 "TB_1X3" H 4950 1000 60  0000 C CNN
-F 2 "" H 4850 1500 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_3pol" H 4850 1500 60  0001 C CNN
 F 3 "" H 4850 1500 60  0000 C CNN
+F 4 "ED2610-ND" H 4900 1450 60  0001 C CNN "Digikey#"
 	1    4900 1450
 	-1   0    0    1   
 $EndComp
@@ -324,7 +269,7 @@ U 1 1 58256878
 P 3400 4850
 F 0 "K2" H 3350 5250 50  0000 C CNN
 F 1 "RELAY_2RT" H 3550 4350 50  0000 C CNN
-F 2 "" H 3400 4850 50  0000 C CNN
+F 2 "Relays_ThroughHole:Relay_DPDT_Schrack-RT2_RM5mm" H 3400 4850 50  0001 C CNN
 F 3 "" H 3400 4850 50  0000 C CNN
 	1    3400 4850
 	1    0    0    -1  
@@ -335,7 +280,7 @@ U 1 1 5825687E
 P 2450 6500
 F 0 "R4" V 2530 6500 50  0000 C CNN
 F 1 "R" V 2450 6500 50  0000 C CNN
-F 2 "" V 2380 6500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2380 6500 50  0001 C CNN
 F 3 "" H 2450 6500 50  0000 C CNN
 	1    2450 6500
 	1    0    0    -1  
@@ -346,7 +291,7 @@ U 1 1 58256884
 P 2250 5800
 F 0 "R2" V 2330 5800 50  0000 C CNN
 F 1 "R" V 2250 5800 50  0000 C CNN
-F 2 "" V 2180 5800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2180 5800 50  0001 C CNN
 F 3 "" H 2250 5800 50  0000 C CNN
 	1    2250 5800
 	0    1    1    0   
@@ -357,7 +302,7 @@ U 1 1 5825688A
 P 2700 5800
 F 0 "D4" H 2650 5925 50  0000 L CNN
 F 1 "Led_Small" H 2525 5700 50  0000 L CNN
-F 2 "" V 2700 5800 50  0000 C CNN
+F 2 "LEDs:LED_0603" V 2700 5800 50  0001 C CNN
 F 3 "" V 2700 5800 50  0000 C CNN
 	1    2700 5800
 	-1   0    0    1   
@@ -368,7 +313,7 @@ U 1 1 58256890
 P 2700 5200
 F 0 "D3" H 2700 5300 50  0000 C CNN
 F 1 "D" H 2700 5100 50  0000 C CNN
-F 2 "" H 2700 5200 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2700 5200 50  0001 C CNN
 F 3 "" H 2700 5200 50  0000 C CNN
 	1    2700 5200
 	1    0    0    -1  
@@ -379,7 +324,7 @@ U 1 1 58256896
 P 2900 6250
 F 0 "Q2" H 2910 6420 60  0000 R CNN
 F 1 "MOSFET_N" H 2910 6100 60  0000 R CNN
-F 2 "" H 2900 6250 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 2900 6250 60  0001 C CNN
 F 3 "" H 2900 6250 60  0000 C CNN
 	1    2900 6250
 	1    0    0    -1  
@@ -463,8 +408,9 @@ U 1 1 582568C4
 P 4950 4700
 F 0 "J2" H 4950 5000 60  0000 C CNN
 F 1 "TB_1X3" H 5000 4250 60  0000 C CNN
-F 2 "" H 4900 4750 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_3pol" H 4900 4750 60  0001 C CNN
 F 3 "" H 4900 4750 60  0000 C CNN
+F 4 "ED2610-ND" H 4950 4700 60  0001 C CNN "Digikey#"
 	1    4950 4700
 	-1   0    0    1   
 $EndComp
@@ -509,7 +455,7 @@ U 1 1 582742B1
 P 7100 1400
 F 0 "R19" V 7180 1400 50  0000 C CNN
 F 1 "R" V 7100 1400 50  0000 C CNN
-F 2 "" V 7030 1400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7030 1400 50  0001 C CNN
 F 3 "" H 7100 1400 50  0000 C CNN
 	1    7100 1400
 	1    0    0    -1  
@@ -520,7 +466,7 @@ U 1 1 5827430A
 P 6500 1850
 F 0 "R18" V 6580 1850 50  0000 C CNN
 F 1 "3K3" V 6500 1850 50  0000 C CNN
-F 2 "" V 6430 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6430 1850 50  0001 C CNN
 F 3 "" H 6500 1850 50  0000 C CNN
 	1    6500 1850
 	0    1    1    0   
@@ -548,7 +494,7 @@ U 1 1 58275BC7
 P 7000 1850
 F 0 "Q3" H 7200 1925 50  0000 L CNN
 F 1 "BC849" H 7200 1850 50  0000 L CNN
-F 2 "SOT-23" H 7200 1775 50  0000 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7200 1775 50  0000 L CIN
 F 3 "" H 7000 1850 50  0000 L CNN
 	1    7000 1850
 	1    0    0    -1  
@@ -559,7 +505,7 @@ U 1 1 582762C8
 P 7500 2550
 F 0 "U4" H 7500 2850 60  0000 C CNN
 F 1 "Buzzer" H 7500 2350 60  0000 C CNN
-F 2 "" H 7500 2550 60  0000 C CNN
+F 2 "Buzzers_Beepers:Buzzer_12x9.5RM7.6" H 7500 2550 60  0001 C CNN
 F 3 "" H 7500 2550 60  0000 C CNN
 	1    7500 2550
 	1    0    0    -1  

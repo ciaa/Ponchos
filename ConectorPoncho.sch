@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:device
-LIBS:dsp
 LIBS:power
 LIBS:sensors
 LIBS:ir
@@ -8,50 +7,22 @@ LIBS:powerint
 LIBS:siliconi
 LIBS:switches
 LIBS:references
-LIBS:maxim
-LIBS:atmel
-LIBS:motorola
 LIBS:interface
 LIBS:cmos_ieee
 LIBS:analog_devices
 LIBS:nordicsemi
-LIBS:microchip_pic32mcu
 LIBS:74xgxx
 LIBS:transistors
-LIBS:philips
 LIBS:nxp_armmcu
-LIBS:supertex
 LIBS:logo
 LIBS:Power_Management
 LIBS:Altera
 LIBS:contrib
 LIBS:cmos4000
-LIBS:ac-dc
-LIBS:memory
-LIBS:digital-audio
-LIBS:rfcom
-LIBS:video
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic10mcu
-LIBS:onsemi
-LIBS:brooktre
-LIBS:Oscillators
-LIBS:stm32
 LIBS:elec-unifil
 LIBS:graphic
 LIBS:display
-LIBS:intel
-LIBS:Zilog
 LIBS:dc-dc
-LIBS:ftdi
-LIBS:microchip_pic18mcu
-LIBS:msp430
-LIBS:hc11
-LIBS:Lattice
-LIBS:cypress
-LIBS:Xicor
-LIBS:silabs
-LIBS:microchip
 LIBS:opto
 LIBS:transf
 LIBS:analog_switches
@@ -76,15 +47,6 @@ LIBS:audio
 LIBS:microchip_dspic33dsc
 LIBS:pspice
 LIBS:xilinx
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:w_device
 LIBS:tvs
 LIBS:sw_push
@@ -93,17 +55,9 @@ LIBS:rs485_rs232_can
 LIBS:regulators
 LIBS:pbss5240xf
 LIBS:nsi50010yt1g
-LIBS:net-phy
 LIBS:mcu-st
-LIBS:mcu-nxp
-LIBS:mcp1416
-LIBS:mcp1415
-LIBS:lm2596
-LIBS:g5v2
 LIBS:fqt13n06l
 LIBS:bat54_c
-LIBS:audio-vlsi
-LIBS:amesser-usb
 LIBS:amesser-power
 LIBS:amesser-linear
 LIBS:amesser-discrete
@@ -111,17 +65,7 @@ LIBS:amesser-conn
 LIBS:amesser-cmos4000
 LIBS:amesser-ad
 LIBS:Transil_diode
-LIBS:TXB0108
-LIBS:TJA1040
-LIBS:Si50x
-LIBS:SCHA5B0200
 LIBS:PS2805
-LIBS:PRTR5V0U2X
-LIBS:PBSS5240
-LIBS:MIC2025
-LIBS:LPC4337JBD144
-LIBS:IS42S16400F
-LIBS:FT2232H
 LIBS:BLM15HG6015N1D
 LIBS:93CXX
 LIBS:74LVC1G04GW
@@ -149,7 +93,7 @@ U 2 1 5825775F
 P 4050 2700
 F 0 "XA1" H 4350 3100 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 4400 1000 60  0000 C CNN
-F 2 "" H 4050 2700 60  0000 C CNN
+F 2 "" H 4050 2700 60  0001 C CNN
 F 3 "" H 4050 2700 60  0000 C CNN
 	2    4050 2700
 	1    0    0    -1  
@@ -189,8 +133,6 @@ F 3 "" H 5250 2300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5250 2300 5250 2400
-Wire Wire Line
-	5250 2400 5000 2400
 Wire Wire Line
 	3800 2500 3450 2500
 Wire Wire Line
@@ -372,7 +314,7 @@ AR Path="/582733D5" Ref="XA?"  Part="1"
 AR Path="/58255BD2/582733D5" Ref="XA1"  Part="1" 
 F 0 "XA1" H 7950 3100 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 8000 1000 60  0000 C CNN
-F 2 "footprint:Conn_Poncho_SinBorde" H 7650 2700 60  0001 C CNN
+F 2 "" H 7650 2700 60  0001 C CNN
 F 3 "" H 7650 2700 60  0000 C CNN
 F 4 "Harwin" H 7650 2700 60  0001 C CNN "Manf"
 F 5 "M50-3502042" H 7650 2700 60  0001 C CNN "Manf#"
@@ -447,25 +389,15 @@ Wire Wire Line
 Wire Wire Line
 	7150 2700 7150 2750
 Wire Wire Line
-	8600 2700 8650 2700
+	8600 2700 8700 2700
 Wire Wire Line
-	8650 2700 8650 3200
+	8700 3200 8600 3200
 Wire Wire Line
-	8650 3200 8600 3200
+	8600 3100 8700 3100
 Wire Wire Line
-	8600 3100 8650 3100
-Connection ~ 8650 3100
+	8600 3000 8700 3000
 Wire Wire Line
-	8600 3000 8650 3000
-Connection ~ 8650 3000
-Wire Wire Line
-	8600 2900 8650 2900
-Connection ~ 8650 2900
-Wire Wire Line
-	8600 2800 9100 2800
-Connection ~ 8650 2800
-Wire Wire Line
-	9100 2800 9100 2850
+	8600 2900 8700 2900
 Wire Wire Line
 	6900 2400 6900 2250
 Wire Wire Line
@@ -547,4 +479,16 @@ Text HLabel 8950 4000 2    60   Input ~ 0
 CNY_IN
 Wire Wire Line
 	8950 4000 8600 4000
+Wire Wire Line
+	5250 2400 5000 2400
+Wire Wire Line
+	8600 2800 9100 2800
+Wire Wire Line
+	9100 2800 9100 2850
+Wire Wire Line
+	8700 2700 8700 3200
+Connection ~ 8700 2800
+Connection ~ 8700 2900
+Connection ~ 8700 3000
+Connection ~ 8700 3100
 $EndSCHEMATC

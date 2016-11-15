@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:device
-LIBS:dsp
 LIBS:power
 LIBS:sensors
 LIBS:ir
@@ -8,50 +7,22 @@ LIBS:powerint
 LIBS:siliconi
 LIBS:switches
 LIBS:references
-LIBS:maxim
-LIBS:atmel
-LIBS:motorola
 LIBS:interface
 LIBS:cmos_ieee
 LIBS:analog_devices
 LIBS:nordicsemi
-LIBS:microchip_pic32mcu
 LIBS:74xgxx
 LIBS:transistors
-LIBS:philips
 LIBS:nxp_armmcu
-LIBS:supertex
 LIBS:logo
 LIBS:Power_Management
 LIBS:Altera
 LIBS:contrib
 LIBS:cmos4000
-LIBS:ac-dc
-LIBS:memory
-LIBS:digital-audio
-LIBS:rfcom
-LIBS:video
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic10mcu
-LIBS:onsemi
-LIBS:brooktre
-LIBS:Oscillators
-LIBS:stm32
 LIBS:elec-unifil
 LIBS:graphic
 LIBS:display
-LIBS:intel
-LIBS:Zilog
 LIBS:dc-dc
-LIBS:ftdi
-LIBS:microchip_pic18mcu
-LIBS:msp430
-LIBS:hc11
-LIBS:Lattice
-LIBS:cypress
-LIBS:Xicor
-LIBS:silabs
-LIBS:microchip
 LIBS:opto
 LIBS:transf
 LIBS:analog_switches
@@ -76,15 +47,6 @@ LIBS:audio
 LIBS:microchip_dspic33dsc
 LIBS:pspice
 LIBS:xilinx
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:w_device
 LIBS:tvs
 LIBS:sw_push
@@ -93,17 +55,9 @@ LIBS:rs485_rs232_can
 LIBS:regulators
 LIBS:pbss5240xf
 LIBS:nsi50010yt1g
-LIBS:net-phy
 LIBS:mcu-st
-LIBS:mcu-nxp
-LIBS:mcp1416
-LIBS:mcp1415
-LIBS:lm2596
-LIBS:g5v2
 LIBS:fqt13n06l
 LIBS:bat54_c
-LIBS:audio-vlsi
-LIBS:amesser-usb
 LIBS:amesser-power
 LIBS:amesser-linear
 LIBS:amesser-discrete
@@ -111,17 +65,7 @@ LIBS:amesser-conn
 LIBS:amesser-cmos4000
 LIBS:amesser-ad
 LIBS:Transil_diode
-LIBS:TXB0108
-LIBS:TJA1040
-LIBS:Si50x
-LIBS:SCHA5B0200
 LIBS:PS2805
-LIBS:PRTR5V0U2X
-LIBS:PBSS5240
-LIBS:MIC2025
-LIBS:LPC4337JBD144
-LIBS:IS42S16400F
-LIBS:FT2232H
 LIBS:BLM15HG6015N1D
 LIBS:93CXX
 LIBS:74LVC1G04GW
@@ -149,7 +93,7 @@ U 1 1 5825993E
 P 8100 4650
 F 0 "R17" H 8100 4950 50  0000 C CNN
 F 1 "5K" H 8100 4500 50  0000 C CNN
-F 2 "" H 8100 4650 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps-RK16-single_largePads" H 8100 4650 50  0001 C CNN
 F 3 "" H 8100 4650 50  0000 C CNN
 	1    8100 4650
 	-1   0    0    1   
@@ -186,7 +130,7 @@ U 1 1 58277A92
 P 2850 2150
 F 0 "R10" V 2930 2150 50  0000 C CNN
 F 1 "4K7" V 2850 2150 50  0000 C CNN
-F 2 "" V 2780 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 2150 50  0001 C CNN
 F 3 "" H 2850 2150 50  0000 C CNN
 	1    2850 2150
 	1    0    0    -1  
@@ -197,7 +141,7 @@ U 1 1 58277AEB
 P 2600 1950
 F 0 "R7" V 2680 1950 50  0000 C CNN
 F 1 "3K3" V 2600 1950 50  0000 C CNN
-F 2 "" V 2530 1950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2530 1950 50  0001 C CNN
 F 3 "" H 2600 1950 50  0000 C CNN
 	1    2600 1950
 	0    1    1    0   
@@ -208,7 +152,7 @@ U 1 1 58277C43
 P 4700 1800
 F 0 "R13" V 4780 1800 50  0000 C CNN
 F 1 "2K2" V 4700 1800 50  0000 C CNN
-F 2 "" V 4630 1800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4630 1800 50  0001 C CNN
 F 3 "" H 4700 1800 50  0000 C CNN
 	1    4700 1800
 	0    1    1    0   
@@ -219,7 +163,7 @@ U 1 1 58277CF2
 P 4700 2050
 F 0 "R14" V 4780 2050 50  0000 C CNN
 F 1 "100K" V 4700 2050 50  0000 C CNN
-F 2 "" V 4630 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4630 2050 50  0001 C CNN
 F 3 "" H 4700 2050 50  0000 C CNN
 	1    4700 2050
 	0    1    1    0   
@@ -230,7 +174,7 @@ U 1 1 58277D5F
 P 4200 1800
 F 0 "D6" H 4200 1900 50  0000 C CNN
 F 1 "LED" H 4200 1700 50  0000 C CNN
-F 2 "" H 4200 1800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 4200 1800 50  0001 C CNN
 F 3 "" H 4200 1800 50  0000 C CNN
 	1    4200 1800
 	1    0    0    -1  
@@ -263,7 +207,7 @@ U 1 1 5827917D
 P 3750 5050
 F 0 "Enc_r1" H 3850 5400 50  0000 C CNN
 F 1 "Encoder_rotativo" H 3750 4701 50  0000 C CNN
-F 2 "" H 3750 5050 50  0000 C CNN
+F 2 "" H 3750 5050 50  0001 C CNN
 F 3 "" H 3750 5050 50  0000 C CNN
 	1    3750 5050
 	-1   0    0    -1  
@@ -274,7 +218,7 @@ U 1 1 5827933E
 P 2800 4550
 F 0 "R9" V 2880 4550 50  0000 C CNN
 F 1 "4K7" V 2800 4550 50  0000 C CNN
-F 2 "" V 2730 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2730 4550 50  0001 C CNN
 F 3 "" H 2800 4550 50  0000 C CNN
 	1    2800 4550
 	-1   0    0    -1  
@@ -285,7 +229,7 @@ U 1 1 58279393
 P 2500 4550
 F 0 "R5" V 2580 4550 50  0000 C CNN
 F 1 "4K7" V 2500 4550 50  0000 C CNN
-F 2 "" V 2430 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 4550 50  0001 C CNN
 F 3 "" H 2500 4550 50  0000 C CNN
 	1    2500 4550
 	-1   0    0    -1  
@@ -337,7 +281,7 @@ U 1 1 5827A7A4
 P 1400 2550
 F 0 "J3" H 1400 2850 60  0000 C CNN
 F 1 "TB_1X3" H 1450 2100 60  0000 C CNN
-F 2 "" H 1350 2600 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_3pol" H 1350 2600 60  0001 C CNN
 F 3 "" H 1350 2600 60  0000 C CNN
 	1    1400 2550
 	1    0    0    -1  
@@ -348,7 +292,7 @@ U 1 1 5827AC31
 P 2800 3150
 F 0 "R8" V 2880 3150 50  0000 C CNN
 F 1 "4K7" V 2800 3150 50  0000 C CNN
-F 2 "" V 2730 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2730 3150 50  0001 C CNN
 F 3 "" H 2800 3150 50  0000 C CNN
 	1    2800 3150
 	1    0    0    -1  
@@ -359,7 +303,7 @@ U 1 1 5827AC37
 P 2550 2950
 F 0 "R6" V 2630 2950 50  0000 C CNN
 F 1 "3K3" V 2550 2950 50  0000 C CNN
-F 2 "" V 2480 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2480 2950 50  0001 C CNN
 F 3 "" H 2550 2950 50  0000 C CNN
 	1    2550 2950
 	0    1    1    0   
@@ -370,7 +314,7 @@ U 1 1 5827AC3D
 P 4650 2800
 F 0 "R11" V 4730 2800 50  0000 C CNN
 F 1 "2K2" V 4650 2800 50  0000 C CNN
-F 2 "" V 4580 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4580 2800 50  0001 C CNN
 F 3 "" H 4650 2800 50  0000 C CNN
 	1    4650 2800
 	0    1    1    0   
@@ -381,7 +325,7 @@ U 1 1 5827AC43
 P 4650 3050
 F 0 "R12" V 4730 3050 50  0000 C CNN
 F 1 "100K" V 4650 3050 50  0000 C CNN
-F 2 "" V 4580 3050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4580 3050 50  0001 C CNN
 F 3 "" H 4650 3050 50  0000 C CNN
 	1    4650 3050
 	0    1    1    0   
@@ -392,7 +336,7 @@ U 1 1 5827AC49
 P 4150 2800
 F 0 "D5" H 4150 2900 50  0000 C CNN
 F 1 "LED" H 4150 2700 50  0000 C CNN
-F 2 "" H 4150 2800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 4150 2800 50  0001 C CNN
 F 3 "" H 4150 2800 50  0000 C CNN
 	1    4150 2800
 	1    0    0    -1  
@@ -587,7 +531,7 @@ U 1 1 5828434B
 P 7600 2150
 F 0 "U3" H 7390 2340 50  0000 L CNN
 F 1 "CNY70" H 7600 2350 50  0000 L CNN
-F 2 "" H 7400 1950 50  0000 L CIN
+F 2 "" H 7400 1950 50  0001 L CIN
 F 3 "" H 7600 2150 50  0000 L CNN
 	1    7600 2150
 	1    0    0    -1  
@@ -598,7 +542,7 @@ U 1 1 582845D2
 P 7250 2550
 F 0 "R15" V 7330 2550 50  0000 C CNN
 F 1 "220" V 7250 2550 50  0000 C CNN
-F 2 "" V 7180 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7180 2550 50  0001 C CNN
 F 3 "" H 7250 2550 50  0000 C CNN
 	1    7250 2550
 	1    0    0    -1  
@@ -609,7 +553,7 @@ U 1 1 5828470E
 P 7950 2550
 F 0 "R16" V 8030 2550 50  0000 C CNN
 F 1 "4K7" V 7950 2550 50  0000 C CNN
-F 2 "" V 7880 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7880 2550 50  0001 C CNN
 F 3 "" H 7950 2550 50  0000 C CNN
 	1    7950 2550
 	1    0    0    -1  
