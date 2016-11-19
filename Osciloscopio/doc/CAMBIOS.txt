@@ -1,0 +1,6 @@
+﻿Historial de cambios realizados 
+================================
+
+Ver información de los commits del repositorio git.
+
+

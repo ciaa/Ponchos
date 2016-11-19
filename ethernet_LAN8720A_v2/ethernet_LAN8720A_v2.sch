@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Poncho_Esqueleto
 LIBS:poncho_eth
 LIBS:ethernet_LAN8720A_v2-cache
 EELAYER 25 0
@@ -7,26 +6,15 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "Poncho Ethernet LAN8720A "
+Title "Poncho Ethernet LAN8720A - Principal"
 Date "2015-10-24"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/ethernet_LAN8720A_v2/doc"
 Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
-Comment3 "Autores del poncho (Ignacio Zaradnik - UNLaM). Ver directorio \"doc\""
+Comment3 "Autores del poncho (Ignacio Zaradnik/Gerardo García/Diego Brengi - UNLaM). "
 Comment4 "CÓDIGO PONCHO:"
 $EndDescr
-$Comp
-L OSHWA #G2
-U 1 1 560A0A28
-P 10800 6050
-F 0 "#G2" H 10770 6450 60  0001 C CNN
-F 1 "OSHWA" H 10800 6353 60  0001 C CNN
-F 2 "mod:OSHWA" H 10800 6050 60  0001 C CNN
-F 3 "" H 10800 6050 60  0000 C CNN
-	1    10800 6050
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 5250 1200 1350 5600
 U 560A0C1A
@@ -59,6 +47,7 @@ F25 "GPIO7" B L 5250 6450 60
 F26 "GPIO8" B L 5250 6550 60 
 F27 "GPIO1" B L 5250 5850 60 
 F28 "GPIO0" B L 5250 5750 60 
+F29 "CHASIS" O R 6600 6300 60 
 $EndSheet
 $Sheet
 S 1400 1200 1350 5600
@@ -93,6 +82,94 @@ F26 "GPIO5" B R 2750 6250 60
 F27 "GPIO7" B R 2750 6450 60 
 F28 "GPIO8" B R 2750 6550 60 
 $EndSheet
+$Comp
+L OSHWA #G2
+U 1 1 560A0A28
+P 10800 6050
+F 0 "#G2" H 10770 6450 60  0001 C CNN
+F 1 "OSHWA" H 10800 6353 60  0001 C CNN
+F 2 "mod:OSHWA" H 10800 6050 60  0001 C CNN
+F 3 "" H 10800 6050 60  0000 C CNN
+	1    10800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logo_Poncho #G1
+U 1 1 560CFFC0
+P 10150 6000
+F 0 "#G1" H 10100 5600 60  0001 C CNN
+F 1 "Logo_Poncho" H 10350 5600 60  0001 C CNN
+F 2 "" H 10150 6000 60  0000 C CNN
+F 3 "" H 10150 6000 60  0000 C CNN
+	1    10150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID1
+U 1 1 57F02AEB
+P 8800 6050
+F 0 "FID1" H 8800 6175 60  0000 C CNN
+F 1 "FIDUCIAL" H 8800 5925 60  0001 C CNN
+F 2 "eth:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 8800 6050 60  0001 C CNN
+F 3 "" H 8800 6050 60  0000 C CNN
+	1    8800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID2
+U 1 1 57F03058
+P 9050 6050
+F 0 "FID2" H 9050 6175 60  0000 C CNN
+F 1 "FIDUCIAL" H 9050 5925 60  0001 C CNN
+F 2 "eth:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9050 6050 60  0001 C CNN
+F 3 "" H 9050 6050 60  0000 C CNN
+	1    9050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID3
+U 1 1 57F031C2
+P 9300 6050
+F 0 "FID3" H 9300 6175 60  0000 C CNN
+F 1 "FIDUCIAL" H 9300 5925 60  0001 C CNN
+F 2 "eth:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9300 6050 60  0001 C CNN
+F 3 "" H 9300 6050 60  0000 C CNN
+	1    9300 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DUMMY_MOUNTING-HOLE_RevE_Date22jun2010 MH1
+U 1 1 57F03330
+P 7750 6050
+F 0 "MH1" H 7750 6250 50  0000 C CNN
+F 1 "MOUNTING-HOLE" H 7750 5850 50  0001 C CNN
+F 2 "eth:MountingHole_2.2mm_M2_Pad" H 7750 6050 50  0001 C CNN
+F 3 "" H 7750 6050 50  0000 C CNN
+	1    7750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DUMMY_MOUNTING-HOLE_RevE_Date22jun2010 MH2
+U 1 1 57F045A8
+P 8150 6050
+F 0 "MH2" H 8150 6250 50  0000 C CNN
+F 1 "MOUNTING-HOLE" H 8150 5850 50  0001 C CNN
+F 2 "eth:MountingHole_2.2mm_M2_Pad" H 8150 6050 50  0001 C CNN
+F 3 "" H 8150 6050 50  0000 C CNN
+	1    8150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 57F05CAA
+P 8150 6300
+F 0 "#PWR01" H 8150 6300 30  0001 C CNN
+F 1 "GND" H 8150 6230 30  0001 C CNN
+F 2 "" H 8150 6300 60  0000 C CNN
+F 3 "" H 8150 6300 60  0000 C CNN
+	1    8150 6300
+	1    0    0    -1  
+$EndComp
 Text Notes 3600 3700 0    60   Italic 12
 ETHERNET (RMII)
 Text Notes 3850 4700 0    60   Italic 12
@@ -101,6 +178,8 @@ Text Notes 3800 5050 0    60   Italic 12
 DSIPLAY
 Text Notes 3300 5700 0    60   Italic 12
 E/S PROPÓSITOS GENERALES
+Text Notes 7300 950  0    118  ~ 24
+http://www.proyecto-ciaa.com.ar/
 Wire Wire Line
 	5250 6550 2750 6550
 Wire Wire Line
@@ -155,17 +234,10 @@ Wire Wire Line
 	2750 3850 5250 3850
 Wire Wire Line
 	5250 3750 2750 3750
-$Comp
-L Logo_Poncho #G1
-U 1 1 560CFFC0
-P 10150 6000
-F 0 "#G1" H 10100 5600 60  0001 C CNN
-F 1 "Logo_Poncho" H 10350 5600 60  0001 C CNN
-F 2 "" H 10150 6000 60  0000 C CNN
-F 3 "" H 10150 6000 60  0000 C CNN
-	1    10150 6000
-	1    0    0    -1  
-$EndComp
-Text Notes 7300 950  0    118  ~ 24
-http://www.proyecto-ciaa.com.ar/
+Wire Wire Line
+	6600 6300 7750 6300
+Wire Wire Line
+	7750 6300 7750 6050
+Wire Wire Line
+	8150 6300 8150 6050
 $EndSCHEMATC

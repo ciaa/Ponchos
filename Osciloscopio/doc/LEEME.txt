@@ -1,0 +1,11 @@
+﻿PONCHO OSCILOSCOPIO
+===================
+
+Este circuito implementa un poncho para la EDU-CIAA que le agrega la posibilidad de adquirir un canal de osciloscopio, con escala seleccionable, opción acoplamiento en AC y DC y con cierto nivel de protección sobre las entradas analogicas de la EDU-CIAA.
+
+
+URL: N/A
+FUNCIÓN: Osciloscopio de 1 canal para la EDU-CIAA.
+AUTORES/INSTITUCIONES: 
+	Nicolás Dassieu Blanchet - CESE
+

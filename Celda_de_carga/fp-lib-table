@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name celda)(type KiCad)(uri "$(KIPRJMOD)\\celda.pretty")(options "")(descr ""))
+)

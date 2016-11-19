@@ -1,0 +1,5 @@
+Autor: Diego Javier Brengi (INTI/UNLaM).
+
+Proyecto simple para colocar todos los símbolos y huellas y visualizarlas
+de un solo vistazo.
+

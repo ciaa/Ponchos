@@ -1,0 +1,12 @@
+Historial de cambios realizados 
+================================
+
+* Fecha: 
+* Autores: 
+* Archivos: 
+* Descripción: Se parte del Modelo básico de Poncho en: 
+               https://github.com/ciaa/Ponchos/tree/master/Basico
+               <<Colocar aquí información de cambios importantes y de gran volumen, releases, contribuciones
+                de terceros, etc.>>
+
+
