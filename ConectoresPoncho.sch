@@ -114,8 +114,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 2850 4600 2850
 Wire Wire Line
-	4600 2050 4600 3950
-Wire Wire Line
 	4200 2950 4600 2950
 Connection ~ 4600 2950
 Wire Wire Line
@@ -150,21 +148,6 @@ F 3 "" H 5700 1550 50  0000 C CNN
 	1    5700 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR033
-U 1 1 582667C6
-P 7300 1550
-F 0 "#PWR033" H 7300 1400 50  0001 C CNN
-F 1 "+5V" H 7300 1690 50  0000 C CNN
-F 2 "" H 7300 1550 50  0000 C CNN
-F 3 "" H 7300 1550 50  0000 C CNN
-	1    7300 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 1900 7300 1900
-Wire Wire Line
-	7300 1900 7300 1550
 Wire Wire Line
 	5900 1900 5700 1900
 Wire Wire Line
@@ -273,8 +256,6 @@ Wire Wire Line
 	2350 3150 2350 3250
 Wire Wire Line
 	2350 3250 2250 3250
-Wire Wire Line
-	4200 2050 4600 2050
 Connection ~ 4600 2850
 Text HLabel 2250 2850 0    60   Output ~ 0
 ANALOG_IN
@@ -284,17 +265,17 @@ Wire Wire Line
 	2350 2550 2350 2850
 Wire Wire Line
 	2350 2850 2250 2850
-Text HLabel 5150 3250 0    60   Input ~ 0
+Text HLabel 7500 3700 2    60   Input ~ 0
 IN_0
-Text HLabel 5150 3400 0    60   Input ~ 0
+Text HLabel 7500 3800 2    60   Input ~ 0
 IN_1
 Text HLabel 5150 3550 0    60   Input ~ 0
 OUT_0
 Text HLabel 5150 3700 0    60   Input ~ 0
 OUT_1
-Text HLabel 7500 3400 2    60   Output ~ 0
-MODULE_RESET
 Text HLabel 7500 3550 2    60   Output ~ 0
+MODULE_RESET
+Text HLabel 7500 3400 2    60   Output ~ 0
 MODULE_CMD_CTRL
 Wire Wire Line
 	5900 3600 5250 3600
@@ -308,14 +289,6 @@ Wire Wire Line
 	5200 3500 5200 3550
 Wire Wire Line
 	5200 3550 5150 3550
-Wire Wire Line
-	5900 3400 5150 3400
-Wire Wire Line
-	5900 3300 5200 3300
-Wire Wire Line
-	5200 3300 5200 3250
-Wire Wire Line
-	5200 3250 5150 3250
 Wire Wire Line
 	7100 3400 7500 3400
 Wire Wire Line
@@ -360,8 +333,6 @@ NoConn ~ 7100 3000
 NoConn ~ 7100 3100
 NoConn ~ 7100 3200
 NoConn ~ 7100 3300
-NoConn ~ 7100 3600
-NoConn ~ 7100 3700
 NoConn ~ 7100 3800
 $Comp
 L PWR_FLAG #FLG037
@@ -375,4 +346,22 @@ F 3 "" H 4850 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4850 2250
+Wire Wire Line
+	7100 3600 7400 3600
+Wire Wire Line
+	7400 3600 7400 3700
+Wire Wire Line
+	7400 3700 7500 3700
+Wire Wire Line
+	7100 3700 7300 3700
+Wire Wire Line
+	7300 3700 7300 3800
+Wire Wire Line
+	7300 3800 7500 3800
+NoConn ~ 5900 3300
+NoConn ~ 5900 3400
+NoConn ~ 7100 1900
+Wire Wire Line
+	4600 2850 4600 3950
+NoConn ~ 4200 2050
 $EndSCHEMATC
