@@ -1,90 +1,18 @@
 EESchema Schematic File Version 2
-LIBS:device
 LIBS:power
-LIBS:sensors
-LIBS:ir
-LIBS:powerint
-LIBS:siliconi
-LIBS:switches
-LIBS:references
-LIBS:interface
-LIBS:cmos_ieee
-LIBS:analog_devices
-LIBS:nordicsemi
-LIBS:74xgxx
-LIBS:transistors
-LIBS:nxp_armmcu
-LIBS:logo
-LIBS:Power_Management
-LIBS:Altera
-LIBS:contrib
-LIBS:cmos4000
-LIBS:elec-unifil
-LIBS:graphic
-LIBS:display
-LIBS:dc-dc
-LIBS:opto
-LIBS:transf
-LIBS:analog_switches
-LIBS:regul
-LIBS:gennum
-LIBS:conn
-LIBS:relays
-LIBS:linear
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:motor_drivers
-LIBS:adc-dac
-LIBS:texas
-LIBS:microchip_pic12mcu
-LIBS:actel
-LIBS:74xx
-LIBS:stm8
-LIBS:diode
-LIBS:ESD_Protection
-LIBS:microcontrollers
-LIBS:audio
-LIBS:microchip_dspic33dsc
-LIBS:pspice
-LIBS:xilinx
-LIBS:w_device
-LIBS:tvs
-LIBS:sw_push
-LIBS:s25fl032p0xmfi013
-LIBS:rs485_rs232_can
-LIBS:regulators
-LIBS:pbss5240xf
-LIBS:nsi50010yt1g
-LIBS:mcu-st
-LIBS:fqt13n06l
-LIBS:bat54_c
-LIBS:amesser-power
-LIBS:amesser-linear
-LIBS:amesser-discrete
-LIBS:amesser-conn
-LIBS:amesser-cmos4000
-LIBS:amesser-ad
-LIBS:Transil_diode
-LIBS:PS2805
-LIBS:BLM15HG6015N1D
-LIBS:93CXX
-LIBS:74LVC1G04GW
-LIBS:buzzer
-LIBS:ps2805-1
-LIBS:encoder_rotativo
 LIBS:EduPoncho-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "Poncho Básico (Editar y colocar el nombre final)"
-Date "2016-08-07"
+Title "EduPoncho"
+Date "2016-11-17"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
-Comment1 "https://github.com/ciaa/Ponchos/tree/master/Basico/doc"
+Comment1 "https://github.com/guille411/EduPoncho"
 Comment2 "Autores y Licencia del modelo (Diego Brengi - UNLaM)"
-Comment3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\""
+Comment3 "Autor del poncho (Evangelista Guillermo). Ver directorio \"doc\""
 Comment4 ""
 $EndDescr
 $Comp
@@ -109,115 +37,58 @@ F 3 "" H 10150 6000 60  0001 C CNN
 	1    10150 6000
 	1    0    0    -1  
 $EndComp
-Text Notes 7500 1850 0    79   Italic 16
-Este diseño puede copiarse para iniciar un poncho simple. \n1) Copiar toda la carpeta "Basico" , renombrando \n   la misma al nombre del poncho.\n2) Renombrar los archivos "basico.xxx" manteniendo \n    las extensiones pero cambiando a un nombre \n    descriptivo del poncho. Evitar acentos, espacios y \n    caracteres ascii esxtendidos.
-Text Notes 7550 800  0    118  ~ 24
-http://www.proyecto-ciaa.com.ar/
-Text Notes 7250 6400 0    60   ~ 0
-Luego de abrir el nuevo proyecto:\n1)Editar datos del rótulo.\n2)Editar los archivos del subdirectorio "doc".\n2.1) Agregarse en el archivo de licencia.\n2.2) Colocar info mínima del Poncho en el LEEME.txt\n2.3) Colocar info mínima en el CAMBIOS.txt
-$Comp
-L +5V #PWR01
-U 1 1 57A7AAA1
-P 3000 3800
-F 0 "#PWR01" H 3000 3890 20  0001 C CNN
-F 1 "+5V" H 3000 3950 30  0000 C CNN
-F 2 "" H 3000 3800 60  0000 C CNN
-F 3 "" H 3000 3800 60  0000 C CNN
-	1    3000 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 3800 2150 3850
-Wire Wire Line
-	2150 3850 2450 3850
-Wire Wire Line
-	2450 3850 2450 3800
-Wire Wire Line
-	2800 3800 2800 3850
-Wire Wire Line
-	2800 3850 3000 3850
-Wire Wire Line
-	3000 3850 3000 3800
-$Comp
-L GND #PWR02
-U 1 1 57A7ADB5
-P 2450 4150
-F 0 "#PWR02" H 2450 4150 30  0001 C CNN
-F 1 "GND" H 2450 4080 30  0001 C CNN
-F 2 "" H 2450 4150 60  0000 C CNN
-F 3 "" H 2450 4150 60  0000 C CNN
-	1    2450 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 4150 2150 4050
-Wire Wire Line
-	2450 4050 2450 4150
-Wire Wire Line
-	2150 4050 2450 4050
 $Sheet
-S 4450 2600 1000 1550
+S 3750 2600 1000 1550
 U 581E4A63
 F0 "Entradas" 60
 F1 "Entradas.sch" 60
-F2 "Pote" O R 5450 2950 60 
-F3 "Encoder_A" O R 5450 3150 60 
-F4 "Encoder_B" O R 5450 3300 60 
-F5 "OPTO_IN0" O R 5450 3500 60 
-F6 "OPTO_IN1" O R 5450 3650 60 
-F7 "CNY_IN" O R 5450 3850 60 
+F2 "Pote" O R 4750 2950 60 
+F3 "Encoder_A" O R 4750 3150 60 
+F4 "Encoder_B" O R 4750 3300 60 
+F5 "OPTO_IN0" O R 4750 3500 60 
+F6 "OPTO_IN1" O R 4750 3650 60 
+F7 "CNY_IN" O R 4750 3850 60 
 $EndSheet
 $Sheet
-S 7350 2600 1000 1500
+S 6650 2600 1000 1500
 U 581E4ABE
 F0 "Salidas" 60
 F1 "Salidas.sch" 60
-F2 "GPIO0" I L 7350 2950 60 
-F3 "GPIO1" I L 7350 3100 60 
-F4 "Buzzer" I L 7350 3300 60 
+F2 "GPIO0" I L 6650 2950 60 
+F3 "GPIO1" I L 6650 3100 60 
+F4 "Buzzer" I L 6650 3300 60 
 $EndSheet
 $Sheet
-S 5900 2600 1000 1500
+S 5200 2600 1000 1500
 U 58255BD2
 F0 "Conector Poncho" 60
 F1 "ConectorPoncho.sch" 60
-F2 "GPIO0" O R 6900 2950 60 
-F3 "GPIO1" O R 6900 3100 60 
-F4 "Pote" I L 5900 2950 60 
-F5 "Buzzer" O R 6900 3300 60 
-F6 "Encoder_A" I L 5900 3150 60 
-F7 "Encoder_B" I L 5900 3300 60 
-F8 "OPTO_IN0" I L 5900 3500 60 
-F9 "OPTO_IN1" I L 5900 3650 60 
-F10 "CNY_IN" I L 5900 3850 60 
+F2 "GPIO0" O R 6200 2950 60 
+F3 "GPIO1" O R 6200 3100 60 
+F4 "Pote" I L 5200 2950 60 
+F5 "Buzzer" O R 6200 3300 60 
+F6 "Encoder_A" I L 5200 3150 60 
+F7 "Encoder_B" I L 5200 3300 60 
+F8 "OPTO_IN0" I L 5200 3500 60 
+F9 "OPTO_IN1" I L 5200 3650 60 
+F10 "CNY_IN" I L 5200 3850 60 
 $EndSheet
 Wire Wire Line
-	7350 2950 6900 2950
+	6650 2950 6200 2950
 Wire Wire Line
-	6900 3100 7350 3100
+	6200 3100 6650 3100
 Wire Wire Line
-	5900 2950 5450 2950
-$Comp
-L GNDD #PWR03
-U 1 1 58272F09
-P 2150 4150
-F 0 "#PWR03" H 2150 3900 50  0001 C CNN
-F 1 "GNDD" H 2150 4000 50  0000 C CNN
-F 2 "" H 2150 4150 50  0000 C CNN
-F 3 "" H 2150 4150 50  0000 C CNN
-	1    2150 4150
-	1    0    0    -1  
-$EndComp
+	5200 2950 4750 2950
 Wire Wire Line
-	6900 3300 7350 3300
+	6200 3300 6650 3300
 Wire Wire Line
-	5450 3150 5900 3150
+	4750 3150 5200 3150
 Wire Wire Line
-	5450 3300 5900 3300
+	4750 3300 5200 3300
 Wire Wire Line
-	5450 3500 5900 3500
+	4750 3500 5200 3500
 Wire Wire Line
-	5900 3650 5450 3650
+	5200 3650 4750 3650
 Wire Wire Line
-	5900 3850 5450 3850
+	5200 3850 4750 3850
 $EndSCHEMATC
