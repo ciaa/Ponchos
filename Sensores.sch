@@ -1,0 +1,137 @@
+EESchema Schematic File Version 2
+LIBS:Mision_SAE-rescue
+LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:mpu-6050
+LIBS:power1
+LIBS:xbee
+LIBS:basico
+LIBS:GY-65
+LIBS:GY-521
+LIBS:Mision_SAE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6450 2650 0    60   Output ~ 0
+SDA_BMP
+Text HLabel 6450 2750 0    60   Output ~ 0
+SCL_BMP
+Text HLabel 6400 4200 0    60   BiDi ~ 0
+SDA_MPU
+Text HLabel 6400 4100 0    60   Output ~ 0
+SCL_MPU
+Text HLabel 7700 4100 2    60   Output ~ 0
+AD0_MPU
+Text HLabel 7700 4200 2    60   Input ~ 0
+INT_MPU
+$Comp
+L GND #PWR016
+U 1 1 58323CF6
+P 7900 2850
+F 0 "#PWR016" H 7900 2600 50  0001 C CNN
+F 1 "GND" H 7900 2700 50  0000 C CNN
+F 2 "" H 7900 2850 50  0000 C CNN
+F 3 "" H 7900 2850 50  0000 C CNN
+	1    7900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR017
+U 1 1 58323E42
+P 6550 2450
+F 0 "#PWR017" H 6550 2300 50  0001 C CNN
+F 1 "+5V" H 6550 2590 50  0000 C CNN
+F 2 "" H 6550 2450 50  0000 C CNN
+F 3 "" H 6550 2450 50  0000 C CNN
+	1    6550 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2450 6550 2550
+Wire Wire Line
+	6550 2550 6650 2550
+Wire Wire Line
+	6450 2650 6650 2650
+Wire Wire Line
+	6650 2750 6450 2750
+NoConn ~ 7600 2550
+NoConn ~ 7600 2650
+Wire Wire Line
+	7900 2750 7900 2850
+Wire Wire Line
+	7600 2750 7900 2750
+$Comp
+L GY-521 U3
+U 1 1 583258D6
+P 7100 4050
+F 0 "U3" H 7100 4300 60  0000 C CNN
+F 1 "GY-521" H 7100 3800 60  0000 C CNN
+F 2 "footprints:GY-521" H 7100 4050 60  0001 C CNN
+F 3 "" H 7100 4050 60  0000 C CNN
+	1    7100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR018
+U 1 1 58325B09
+P 6550 3750
+F 0 "#PWR018" H 6550 3600 50  0001 C CNN
+F 1 "+5V" H 6550 3890 50  0000 C CNN
+F 2 "" H 6550 3750 50  0000 C CNN
+F 3 "" H 6550 3750 50  0000 C CNN
+	1    6550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 58325B36
+P 6550 4400
+F 0 "#PWR019" H 6550 4150 50  0001 C CNN
+F 1 "GND" H 6550 4250 50  0000 C CNN
+F 2 "" H 6550 4400 50  0000 C CNN
+F 3 "" H 6550 4400 50  0000 C CNN
+	1    6550 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4000 6550 4000
+Wire Wire Line
+	6550 4000 6550 4400
+Wire Wire Line
+	6400 4100 6650 4100
+Wire Wire Line
+	6650 4200 6400 4200
+Wire Wire Line
+	6550 3750 6550 3900
+Wire Wire Line
+	6550 3900 6650 3900
+NoConn ~ 7550 3900
+NoConn ~ 7550 4000
+Wire Wire Line
+	7550 4100 7700 4100
+Wire Wire Line
+	7700 4200 7550 4200
+$Comp
+L GY-65 U1
+U 1 1 583270C1
+P 7150 2650
+F 0 "U1" H 7150 2900 60  0000 C CNN
+F 1 "GY-65" H 7150 2400 60  0000 C CNN
+F 2 "footprints:GY-65" H 7150 2650 60  0001 C CNN
+F 3 "" H 7150 2650 60  0000 C CNN
+	1    7150 2650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
