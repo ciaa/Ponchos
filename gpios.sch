@@ -111,6 +111,7 @@ F 0 "Q1" H 7400 2525 50  0000 L CNN
 F 1 "BC548" H 7400 2450 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Rugged" H 7400 2375 50  0001 L CIN
 F 3 "" H 7200 2450 50  0000 L CNN
+F 4 "BC548BTATB-ND" H 7200 2450 60  0001 C CNN "Digikey#"
 	1    7200 2450
 	1    0    0    -1  
 $EndComp
@@ -122,6 +123,7 @@ F 0 "Q2" H 7450 4825 50  0000 L CNN
 F 1 "BC548" H 7450 4750 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Rugged" H 7450 4675 50  0001 L CIN
 F 3 "" H 7250 4750 50  0000 L CNN
+F 4 "BC548BTATB-ND" H 7250 4750 60  0001 C CNN "Digikey#"
 	1    7250 4750
 	1    0    0    -1  
 $EndComp
@@ -155,8 +157,9 @@ F 0 "D6" H 7500 2050 40  0000 C CNN
 F 1 "1N4007" H 7500 1850 40  0000 C CNN
 F 2 "Diodes_THT:Diode_DO-35_SOD27_Horizontal_RM10" H 7500 1950 60  0001 C CNN
 F 3 "" H 7500 1950 60  0000 C CNN
-F 4 "Value" H 7700 2000 60  0001 C CNN "Digikey"
-F 5 "Value" H 7500 1950 60  0001 C CNN "Fieldname"
+F 4 "1N4007-TPMSTR-ND" H 7500 1950 60  0001 C CNN "Digikey#"
+F 5 "Value" H 7700 2000 60  0001 C CNN "Digikey"
+F 6 "Value" H 7500 1950 60  0001 C CNN "Fieldname"
 	1    7500 1950
 	0    -1   -1   0   
 $EndComp
@@ -168,8 +171,9 @@ F 0 "D7" H 7500 4350 40  0000 C CNN
 F 1 "1N4007" H 7500 4150 40  0000 C CNN
 F 2 "Diodes_THT:Diode_DO-35_SOD27_Horizontal_RM10" H 7500 4250 60  0001 C CNN
 F 3 "" H 7500 4250 60  0000 C CNN
-F 4 "Value" H 7700 4300 60  0001 C CNN "Digikey"
-F 5 "Value" H 7500 4250 60  0001 C CNN "Fieldname"
+F 4 "1N4007-TPMSTR-ND" H 7500 4250 60  0001 C CNN "Digikey#"
+F 5 "Value" H 7700 4300 60  0001 C CNN "Digikey"
+F 6 "Value" H 7500 4250 60  0001 C CNN "Fieldname"
 	1    7500 4250
 	0    -1   -1   0   
 $EndComp
@@ -181,6 +185,7 @@ F 0 "D4" H 7200 2050 50  0000 C CNN
 F 1 "LED" H 7200 1850 50  0000 C CNN
 F 2 "LEDs:LED-3MM" H 7200 1950 50  0001 C CNN
 F 3 "" H 7200 1950 50  0000 C CNN
+F 4 "MV5054A3EL-ND" H 7200 1950 60  0001 C CNN "Digikey#"
 	1    7200 1950
 	0    -1   -1   0   
 $EndComp
@@ -192,6 +197,7 @@ F 0 "D5" H 7200 4350 50  0000 C CNN
 F 1 "LED" H 7200 4150 50  0000 C CNN
 F 2 "LEDs:LED-3MM" H 7200 4250 50  0001 C CNN
 F 3 "" H 7200 4250 50  0000 C CNN
+F 4 "MV5054A3EL-ND" H 7200 4250 60  0001 C CNN "Digikey#"
 	1    7200 4250
 	0    -1   -1   0   
 $EndComp
@@ -203,8 +209,9 @@ F 0 "R10" V 7280 1450 50  0000 C CNN
 F 1 "330" V 7200 1450 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 7130 1450 50  0001 C CNN
 F 3 "" H 7200 1450 50  0000 C CNN
-F 4 "Value" H 7050 1650 60  0001 C CNN "Digikey"
-F 5 "Value" H 7200 1450 60  0001 C CNN "Fieldname"
+F 4 "P330BATB-ND" H 7200 1450 60  0001 C CNN "Digikey#"
+F 5 "Value" H 7050 1650 60  0001 C CNN "Digikey"
+F 6 "Value" H 7200 1450 60  0001 C CNN "Fieldname"
 	1    7200 1450
 	1    0    0    -1  
 $EndComp
@@ -216,8 +223,9 @@ F 0 "R11" V 7280 3800 50  0000 C CNN
 F 1 "330" V 7200 3800 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 7130 3800 50  0001 C CNN
 F 3 "" H 7200 3800 50  0000 C CNN
-F 4 "Value" H 7050 3950 60  0001 C CNN "Digikey"
-F 5 "Value" H 7200 3800 60  0001 C CNN "Fieldname"
+F 4 "P330BATB-ND" H 7200 3800 60  0001 C CNN "Digikey#"
+F 5 "Value" H 7050 3950 60  0001 C CNN "Digikey"
+F 6 "Value" H 7200 3800 60  0001 C CNN "Fieldname"
 	1    7200 3800
 	1    0    0    -1  
 $EndComp
@@ -301,8 +309,9 @@ F 0 "R8" V 6830 2450 50  0000 C CNN
 F 1 "10k" V 6750 2450 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 6680 2450 50  0001 C CNN
 F 3 "" H 6750 2450 50  0000 C CNN
-F 4 "Value" H 6900 2250 60  0001 C CNN "Digikey"
-F 5 "Value" H 6750 2450 60  0001 C CNN "Fieldname"
+F 4 "CF14JT10K0TR-ND" H 6750 2450 60  0001 C CNN "Digikey#"
+F 5 "Value" H 6900 2250 60  0001 C CNN "Digikey"
+F 6 "Value" H 6750 2450 60  0001 C CNN "Fieldname"
 	1    6750 2450
 	0    1    1    0   
 $EndComp
@@ -314,8 +323,9 @@ F 0 "R9" V 6830 4750 50  0000 C CNN
 F 1 "10k" V 6750 4750 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 6680 4750 50  0001 C CNN
 F 3 "" H 6750 4750 50  0000 C CNN
-F 4 "Value" H 6950 4650 60  0001 C CNN "Digikey"
-F 5 "Value" H 6750 4750 60  0001 C CNN "Fieldname"
+F 4 "CF14JT10K0TR-ND" H 6750 4750 60  0001 C CNN "Digikey#"
+F 5 "Value" H 6950 4650 60  0001 C CNN "Digikey"
+F 6 "Value" H 6750 4750 60  0001 C CNN "Fieldname"
 	1    6750 4750
 	0    1    1    0   
 $EndComp
@@ -331,6 +341,8 @@ F 0 "U1" H 3250 1950 50  0000 L CNN
 F 1 "4N25" H 3450 1950 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm_LongPads" H 3250 1550 50  0001 L CIN
 F 3 "" H 3450 1750 50  0000 L CNN
+F 4 "160-1300-5-ND" H 3450 1750 60  0001 C CNN "Digikey#"
+F 5 "Value" H 3450 1750 60  0001 C CNN "Fieldname"
 	1    3450 1750
 	1    0    0    -1  
 $EndComp
@@ -342,6 +354,8 @@ F 0 "U3" H 3400 3950 50  0000 L CNN
 F 1 "4N25" H 3600 3950 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm_LongPads" H 3400 3550 50  0001 L CIN
 F 3 "" H 3600 3750 50  0000 L CNN
+F 4 "Value" H 3600 3750 60  0001 C CNN "Fieldname"
+F 5 "160-1300-5-ND" H 3600 3750 60  0001 C CNN "Digikey#"
 	1    3600 3750
 	1    0    0    -1  
 $EndComp
@@ -364,8 +378,9 @@ F 0 "R5" V 3930 1250 50  0000 C CNN
 F 1 "10k" V 3850 1250 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 3780 1250 50  0001 C CNN
 F 3 "" H 3850 1250 50  0000 C CNN
-F 4 "Value" H 3700 1400 60  0001 C CNN "Digikey"
-F 5 "Value" H 3850 1250 60  0001 C CNN "Fieldname"
+F 4 "CF14JT10K0TR-ND" H 3850 1250 60  0001 C CNN "Digikey#"
+F 5 "Value" H 3700 1400 60  0001 C CNN "Digikey"
+F 6 "Value" H 3850 1250 60  0001 C CNN "Fieldname"
 	1    3850 1250
 	1    0    0    -1  
 $EndComp
@@ -399,7 +414,7 @@ F 0 "R1" V 2380 1650 50  0000 C CNN
 F 1 "3.3k" V 2300 1650 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 2230 1650 50  0001 C CNN
 F 3 "" H 2300 1650 50  0000 C CNN
-F 4 "Value" H 2300 1650 60  0001 C CNN "Fieldname"
+F 4 "CF14JT3K30TR-ND" H 2300 1650 60  0001 C CNN "Digikey#"
 	1    2300 1650
 	0    1    1    0   
 $EndComp
@@ -411,7 +426,8 @@ F 0 "R3" V 2730 1850 50  0000 C CNN
 F 1 "4.7k" V 2650 1850 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 2580 1850 50  0001 C CNN
 F 3 "" H 2650 1850 50  0000 C CNN
-F 4 "Value" H 2650 1850 60  0001 C CNN "Fieldname"
+F 4 "CF14JT4K70TR-ND" H 2650 1850 60  0001 C CNN "Digikey#"
+F 5 "Value" H 2650 1850 60  0001 C CNN "Fieldname"
 	1    2650 1850
 	1    0    0    -1  
 $EndComp
@@ -423,8 +439,9 @@ F 0 "D1" H 2950 1950 50  0000 C CNN
 F 1 "1N4007" H 2950 1750 50  0000 C CNN
 F 2 "Diodes_THT:Diode_DO-35_SOD27_Horizontal_RM10" H 2950 1850 50  0001 C CNN
 F 3 "" H 2950 1850 50  0000 C CNN
-F 4 "Value" H 2600 1800 60  0001 C CNN "Digikey"
-F 5 "Value" H 2950 1850 60  0001 C CNN "Fieldname"
+F 4 "1N4007-TPMSTR-ND" H 2950 1850 60  0001 C CNN "Digikey#"
+F 5 "Value" H 2600 1800 60  0001 C CNN "Digikey"
+F 6 "Value" H 2950 1850 60  0001 C CNN "Fieldname"
 	1    2950 1850
 	0    1    1    0   
 $EndComp
@@ -460,8 +477,9 @@ F 0 "R6" V 4180 3250 50  0000 C CNN
 F 1 "10k" V 4100 3250 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 4030 3250 50  0001 C CNN
 F 3 "" H 4100 3250 50  0000 C CNN
-F 4 "Value" H 3950 3400 60  0001 C CNN "Digikey"
-F 5 "Value" H 4100 3250 60  0001 C CNN "Fieldname"
+F 4 "CF14JT10K0TR-ND" H 4100 3250 60  0001 C CNN "Digikey#"
+F 5 "Value" H 3950 3400 60  0001 C CNN "Digikey"
+F 6 "Value" H 4100 3250 60  0001 C CNN "Fieldname"
 	1    4100 3250
 	1    0    0    -1  
 $EndComp
@@ -473,7 +491,8 @@ F 0 "R4" V 2780 3850 50  0000 C CNN
 F 1 "4.7k" V 2700 3850 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 2630 3850 50  0001 C CNN
 F 3 "" H 2700 3850 50  0000 C CNN
-F 4 "Value" H 2700 3850 60  0001 C CNN "Fieldname"
+F 4 "CF14JT4K70TR-ND" H 2700 3850 60  0001 C CNN "Digikey#"
+F 5 "Value" H 2700 3850 60  0001 C CNN "Fieldname"
 	1    2700 3850
 	1    0    0    -1  
 $EndComp
@@ -485,7 +504,8 @@ F 0 "R2" V 2430 3650 50  0000 C CNN
 F 1 "3.3k" V 2350 3650 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 2280 3650 50  0001 C CNN
 F 3 "" H 2350 3650 50  0000 C CNN
-F 4 "Value" H 2350 3650 60  0001 C CNN "Fieldname"
+F 4 "CF14JT3K30TR-ND" H 2350 3650 60  0001 C CNN "Digikey#"
+F 5 "Value" H 2350 3650 60  0001 C CNN "Fieldname"
 	1    2350 3650
 	0    1    1    0   
 $EndComp
@@ -502,8 +522,9 @@ F 0 "D2" H 3000 3950 50  0000 C CNN
 F 1 "1N4007" H 3000 3750 50  0000 C CNN
 F 2 "Diodes_THT:Diode_DO-35_SOD27_Horizontal_RM10" H 3000 3850 50  0001 C CNN
 F 3 "" H 3000 3850 50  0000 C CNN
-F 4 "Value" H 3450 3800 60  0001 C CNN "Digikey"
-F 5 "Value" H 3000 3850 60  0001 C CNN "Fieldname"
+F 4 "1N4007-TPMSTR-ND" H 3000 3850 60  0001 C CNN "Digikey#"
+F 5 "Value" H 3450 3800 60  0001 C CNN "Digikey"
+F 6 "Value" H 3000 3850 60  0001 C CNN "Fieldname"
 	1    3000 3850
 	0    1    1    0   
 $EndComp
@@ -595,7 +616,8 @@ F 0 "U2" H 3450 5900 60  0000 C CNN
 F 1 "LM35" H 3300 6500 60  0000 C CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Rugged" H 3450 5900 60  0001 C CNN
 F 3 "" H 3450 5900 60  0001 C CNN
-F 4 "Value" H 3450 5900 60  0001 C CNN "Fieldname"
+F 4 "LM35DZ/NOPB-ND" H 3450 5900 60  0001 C CNN "Digikey#"
+F 5 "Value" H 3450 5900 60  0001 C CNN "Fieldname"
 	1    3450 5900
 	1    0    0    -1  
 $EndComp
@@ -624,8 +646,9 @@ F 0 "R7" V 4280 5750 50  0000 C CNN
 F 1 "150" V 4200 5750 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" V 4130 5750 50  0001 C CNN
 F 3 "" H 4200 5750 50  0000 C CNN
-F 4 "Value" H 4200 5750 60  0001 C CNN "Fieldname"
-F 5 "Value" H 4000 5650 60  0001 C CNN "Digikey"
+F 4 "CF14JT150RTR-ND" H 4200 5750 60  0001 C CNN "Digikey#"
+F 5 "Value" H 4200 5750 60  0001 C CNN "Fieldname"
+F 6 "Value" H 4000 5650 60  0001 C CNN "Digikey"
 	1    4200 5750
 	0    1    1    0   
 $EndComp
