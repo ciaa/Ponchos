@@ -372,6 +372,11 @@
       (net 18 "Net-(J3-Pad1)"))
     (pad 5 thru_hole circle (at 5.842 6.35) (size 2.5 2.5) (drill 1) (layers *.Cu *.Mask)
       (net 34 "Net-(U5-Pad5)"))
+    (model ${KIPRJMOD}/ponchoeduciaaiot.3dshapes/relay_HJR-3FF_H.wrl
+      (at (xyz -0.005 0.007 0))
+      (scale (xyz 0.95 0.9 0.9))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Diodes_THT:Diode_DO-35_SOD27_Horizontal_RM10 (layer TOP) (tedit 552FFC30) (tstamp 582796CA)
@@ -1336,9 +1341,9 @@
       (net 3 "Net-(D1-Pad2)"))
     (pad 3 thru_hole circle (at 5.08 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask F.SilkS)
       (net 15 "Net-(J1-Pad3)"))
-    (model device/bornier_3.wrl
+    (model ${KIPRJMOD}/ponchoeduciaaiot.3dshapes/gmkds_3-3-7,62.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.7 0.7 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1363,9 +1368,9 @@
       (net 16 "Net-(J2-Pad1)"))
     (pad 2 thru_hole circle (at 2.54 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask F.SilkS)
       (net 17 "Net-(J2-Pad2)"))
-    (model device/bornier_2.wrl
+    (model ${KIPRJMOD}/ponchoeduciaaiot.3dshapes/gmkds_3-2-7,62.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.7 0.7 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1390,9 +1395,9 @@
       (net 18 "Net-(J3-Pad1)"))
     (pad 2 thru_hole circle (at 2.54 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask F.SilkS)
       (net 19 "Net-(J3-Pad2)"))
-    (model device/bornier_2.wrl
+    (model ${KIPRJMOD}/ponchoeduciaaiot.3dshapes/gmkds_3-2-7,62.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.7 0.7 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1570,6 +1575,11 @@
       (net 1 +3V3))
     (pad 2 thru_hole circle (at 7.62 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 23 /gpios/IN1))
+    (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
+      (at (xyz 0.15 0 0))
+      (scale (xyz 0.3 0.395 0.395))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_THT:Resistor_Horizontal_RM7mm (layer TOP) (tedit 569FCF07) (tstamp 58279733)
@@ -1625,6 +1635,11 @@
       (net 20 "Net-(Q1-Pad2)"))
     (pad 2 thru_hole circle (at 7.62 0 90) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 25 /gpios/OUT0))
+    (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
+      (at (xyz 0.15 0 0))
+      (scale (xyz 0.3 0.395 0.395))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_THT:Resistor_Horizontal_RM7mm (layer TOP) (tedit 569FCF07) (tstamp 5827973F)
@@ -1680,6 +1695,11 @@
       (net 12 +5V))
     (pad 2 thru_hole circle (at 7.62 0 90) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 9 "Net-(D4-Pad2)"))
+    (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
+      (at (xyz 0.15 0 0))
+      (scale (xyz 0.3 0.395 0.395))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_THT:Resistor_Horizontal_RM7mm (layer TOP) (tedit 569FCF07) (tstamp 5827974B)
@@ -1705,6 +1725,11 @@
       (net 12 +5V))
     (pad 2 thru_hole circle (at 7.62 0 90) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 11 "Net-(D5-Pad2)"))
+    (model Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl
+      (at (xyz 0.15 0 0))
+      (scale (xyz 0.3 0.395 0.395))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_THT:Resistor_Horizontal_RM7mm (layer TOP) (tedit 569FCF07) (tstamp 58279751)
@@ -1966,6 +1991,11 @@
       (net 16 "Net-(J2-Pad1)"))
     (pad 5 thru_hole circle (at 5.842 6.35) (size 2.5 2.5) (drill 1) (layers *.Cu *.Mask)
       (net 33 "Net-(U4-Pad5)"))
+    (model ${KIPRJMOD}/ponchoeduciaaiot.3dshapes/relay_HJR-3FF_H.wrl
+      (at (xyz -0.005 0.007 0))
+      (scale (xyz 0.95 0.9 0.9))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module ponchoeduciaaiot:RN1810 (layer BOTTOM) (tedit 58278AEA) (tstamp 582797B9)
@@ -2070,6 +2100,11 @@
       (net 55 "Net-(U6-Pad22)"))
     (pad 23 smd rect (at 13.97 0 90) (size 1.524 1.016) (layers BOTTOM B.Paste B.Mask)
       (net 2 GND))
+    (model D:/especializacion/kicad/ponchoeduciaaiot/ponchoeduciaaiot.3dshapes/roving_rn-42.wrl
+      (at (xyz 0.35 0.5 0))
+      (scale (xyz 1.45 1.1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TO_SOT_Packages_THT:TO-92_Rugged (layer TOP) (tedit 54F24473) (tstamp 582799A4)
