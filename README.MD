@@ -1,4 +1,4 @@
-#Poncho para EDU-CIAA-NXP IOT
+#Poncho IOT (Internet Of Things) para EDU-CIAA-NXP 
 
 ##Características Poncho
 
