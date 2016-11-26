@@ -1,0 +1,28 @@
+Drill report for D:/especializacion/kicad/ponchoeduciaaiot/ponchoeduciaaiot.kicad_pcb
+Created on 25/11/2016 20:16:00
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  TOP                       front
+    L2 :  BOTTOM                    back
+
+
+Drill file 'D:ponchoeduciaaiot.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.70mm  0.028"  (10 holes)
+    T2  0.80mm  0.031"  (42 holes)
+    T3  0.90mm  0.035"  (6 holes)
+    T4  1.00mm  0.039"  (19 holes)
+    T5  1.00mm  0.039"  (36 holes)
+    T6  1.02mm  0.040"  (80 holes)
+    T7  1.52mm  0.060"  (7 holes)
+
+    Total plated holes count 200
+
+
+Drill file 'D:ponchoeduciaaiot-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

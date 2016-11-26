@@ -56,6 +56,7 @@ F 0 "J1" H 1300 2300 60  0000 C CNN
 F 1 "TB_1X3" H 1350 1550 60  0000 C CNN
 F 2 "ponchoeduciaaiot:bornier3" H 1250 2050 60  0001 C CNN
 F 3 "" H 1250 2050 60  0000 C CNN
+F 4 "ED2610-ND" H 1300 2000 60  0001 C CNN "Digikey#"
 	1    1300 2000
 	1    0    0    -1  
 $EndComp
@@ -67,6 +68,7 @@ F 0 "J2" H 9650 2350 60  0000 C CNN
 F 1 "TB_1X2" H 9700 1750 60  0000 C CNN
 F 2 "ponchoeduciaaiot:bornier2" H 9600 2100 60  0001 C CNN
 F 3 "" H 9600 2100 60  0000 C CNN
+F 4 "ED2609-ND" H 9650 2050 60  0001 C CNN "Digikey#"
 	1    9650 2050
 	-1   0    0    1   
 $EndComp
@@ -78,6 +80,7 @@ F 0 "J3" H 9650 4650 60  0000 C CNN
 F 1 "TB_1X2" H 9700 4050 60  0000 C CNN
 F 2 "ponchoeduciaaiot:bornier2" H 9600 4400 60  0001 C CNN
 F 3 "" H 9600 4400 60  0000 C CNN
+F 4 "ED2609-ND" H 9650 4350 60  0001 C CNN "Digikey#"
 	1    9650 4350
 	-1   0    0    1   
 $EndComp
@@ -89,6 +92,7 @@ F 0 "U4" H 7700 1650 60  0000 C CNN
 F 1 "RELAY" H 7600 1950 60  0000 C CNN
 F 2 "ponchoeduciaaiot:Relay5vSI" H 7700 1650 60  0001 C CNN
 F 3 "" H 7700 1650 60  0001 C CNN
+F 4 "PB2029-ND" H 7700 1650 60  0001 C CNN "Digikey#"
 	1    7700 1650
 	-1   0    0    1   
 $EndComp
@@ -100,6 +104,7 @@ F 0 "U5" H 7700 3950 60  0000 C CNN
 F 1 "RELAY" H 7600 4250 60  0000 C CNN
 F 2 "ponchoeduciaaiot:Relay5vSI" H 7700 3950 60  0001 C CNN
 F 3 "" H 7700 3950 60  0001 C CNN
+F 4 "PB2029-ND" H 7700 3950 60  0001 C CNN "Digikey#"
 	1    7700 3950
 	-1   0    0    1   
 $EndComp
@@ -660,8 +665,9 @@ F 0 "D3" H 4600 6050 50  0000 C CNN
 F 1 "1N4728A" H 4600 5850 50  0000 C CNN
 F 2 "Diodes_THT:Diode_DO-35_SOD27_Horizontal_RM10" H 4600 5950 50  0001 C CNN
 F 3 "" H 4600 5950 50  0000 C CNN
-F 4 "Value" H 4800 6100 60  0001 C CNN "Digikey"
-F 5 "Value" H 4600 5950 60  0001 C CNN "Fieldname"
+F 4 "1N4728AVSTR-ND" H 4600 5950 60  0001 C CNN "Digikey#"
+F 5 "Value" H 4800 6100 60  0001 C CNN "Digikey"
+F 6 "Value" H 4600 5950 60  0001 C CNN "Fieldname"
 	1    4600 5950
 	0    1    1    0   
 $EndComp
