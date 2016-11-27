@@ -1,4 +1,4 @@
-update=sáb 05 nov 2016 17:04:43 ART
+update=sáb 26 nov 2016 22:15:11 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,16 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=lib/DanCustom_Components
+LibName31=lib/ML_Kicad
+LibName32=lib/open-project
+LibName33=lib/PCA9685-TSSOP
+LibName34=lib/SparkFun
+LibName35=lib/w_connectors
+LibName36=/home/martinez/Documentos/materias_5_bimestre/diseño_de_placas/ejercicio2/ejlibcese/ej2cese
+LibName37=lib/aod417
+LibName38=/home/martinez/Documentos/materias_5_bimestre/diseño_de_placas/repo_de_lib/toshiba_tb6560ahq/tb6560ahq
+LibName39=lib/tb6612fng
+LibName40=lib/24c32
+LibName41=lib/gs4
+LibName42=tp_final/tp_final
