@@ -1,4 +1,4 @@
-update=vie 11 nov 2016 19:00:32 ART
+update=vie 25 nov 2016 21:17:37 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../tpfinal/Repos_tpfinal/pico/components;/home/sergio/Documentos/Especialización/5to_Bimestre/Diseno_de_PCB/tpfinal/Repos_tpfinal/Ponchos/ethernet_LAN8720A_v2/lib;/home/sergio/Documentos/Especialización/5to_Bimestre/Diseno_de_PCB/tpfinal/Repos_tpfinal/Ponchos/Poncho PLC;/home/sergio/Documentos/Especialización/5to_Bimestre/Diseno_de_PCB/tpfinal/Repos_tpfinal/Ponchos/kicad/libPonchos
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,3 +59,7 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=BIBLIOTECAS/kicad-ESP8266/ESP8266
+LibName31=logo
+LibName32=poncho_eth
+LibName33=PonchoPLC-cache
+LibName34=Poncho_Esqueleto
