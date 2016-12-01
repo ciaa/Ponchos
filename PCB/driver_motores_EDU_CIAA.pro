@@ -1,4 +1,4 @@
-update=sáb 26 nov 2016 22:15:11 ART
+update=dom 27 nov 2016 21:16:56 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -71,3 +69,5 @@ LibName39=lib/tb6612fng
 LibName40=lib/24c32
 LibName41=lib/gs4
 LibName42=tp_final/tp_final
+[general]
+version=1
