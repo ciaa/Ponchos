@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/especializacion/kicad/ponchoeduciaaiot/ponchoeduciaaiot.sch)
-    (date "26/11/2016 15:00:24")
+    (date "30/11/2016 22:15:32")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
