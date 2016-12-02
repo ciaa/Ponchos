@@ -1,38 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:w_device
-LIBS:relay
-LIBS:lm35
-LIBS:rn1810e
-LIBS:Poncho_Esqueleto
 LIBS:ponchoeduciaaiot-cache
 EELAYER 25 0
 EELAYER END
@@ -44,7 +11,7 @@ Date "2016-11-09"
 Rev "1"
 Comp "Ernesto Gigliotti"
 Comment1 "License: GPL3"
-Comment2 ""
+Comment2 "Reviewer: Facundo Larosa"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -737,60 +704,4 @@ Connection ~ 2000 2100
 Connection ~ 2700 4150
 Text Notes 4800 6400 0    60   ~ 0
 Zenner 3.3V\n(Protección A/D 3.3v Max)\nRango: \n0V => 0°C\n0.5V => 50°C\n(10mV/°C)
-$Comp
-L PWR_FLAG #FLG012
-U 1 1 582F3FFE
-P 8850 1350
-F 0 "#FLG012" H 8850 1445 50  0001 C CNN
-F 1 "PWR_FLAG" H 8850 1530 50  0000 C CNN
-F 2 "" H 8850 1350 50  0000 C CNN
-F 3 "" H 8850 1350 50  0000 C CNN
-	1    8850 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG013
-U 1 1 582F404A
-P 9250 1350
-F 0 "#FLG013" H 9250 1445 50  0001 C CNN
-F 1 "PWR_FLAG" H 9250 1530 50  0000 C CNN
-F 2 "" H 9250 1350 50  0000 C CNN
-F 3 "" H 9250 1350 50  0000 C CNN
-	1    9250 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 1350 8850 1950
-Connection ~ 8850 1950
-Wire Wire Line
-	9250 1350 9250 2150
-Connection ~ 9250 2150
-$Comp
-L PWR_FLAG #FLG014
-U 1 1 582F58B7
-P 8850 3750
-F 0 "#FLG014" H 8850 3845 50  0001 C CNN
-F 1 "PWR_FLAG" H 8850 3930 50  0000 C CNN
-F 2 "" H 8850 3750 50  0000 C CNN
-F 3 "" H 8850 3750 50  0000 C CNN
-	1    8850 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG015
-U 1 1 582F5903
-P 9250 3750
-F 0 "#FLG015" H 9250 3845 50  0001 C CNN
-F 1 "PWR_FLAG" H 9250 3930 50  0000 C CNN
-F 2 "" H 9250 3750 50  0000 C CNN
-F 3 "" H 9250 3750 50  0000 C CNN
-	1    9250 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 3750 8850 4250
-Connection ~ 8850 4250
-Wire Wire Line
-	9250 3750 9250 4450
-Connection ~ 9250 4450
 $EndSCHEMATC

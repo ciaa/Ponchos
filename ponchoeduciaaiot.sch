@@ -1,38 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:w_device
-LIBS:relay
-LIBS:lm35
-LIBS:rn1810e
-LIBS:Poncho_Esqueleto
 LIBS:ponchoeduciaaiot-cache
 EELAYER 25 0
 EELAYER END
@@ -44,7 +11,7 @@ Date "2016-11-09"
 Rev "1"
 Comp "Ernesto Gigliotti"
 Comment1 "License: GPL3"
-Comment2 ""
+Comment2 "Reviewer: Facundo Larosa"
 Comment3 ""
 Comment4 ""
 $EndDescr
