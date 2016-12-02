@@ -126,7 +126,7 @@ F 0 "Enc_r1" H 3850 5400 50  0000 C CNN
 F 1 "Encoder_rotativo" H 3750 4701 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Alps-RK16-single_largePads" H 3750 5050 50  0001 C CNN
 F 3 "" H 3750 5050 50  0000 C CNN
-F 4 "987-1190-ND" H 3750 5050 60  0001 C CNN "Digikey#"
+F 4 "987-1193-ND" H 3750 5050 60  0001 C CNN "Digikey#"
 	1    3750 5050
 	-1   0    0    -1  
 $EndComp
