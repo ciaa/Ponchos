@@ -1,8 +1,8 @@
 "Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"U5,U4";"Relay5vSI";2;"RELAY";;;
-2;"D6,D1,D2,D7";"Diode_DO-35_SOD27_Horizontal_RM10";4;"1N4007";;;
-3;"D3";"Diode_DO-35_SOD27_Horizontal_RM10";1;"1N4728A";;;
-4;"XA1";"Conn_Poncho_Mediano";1;"Conn_Poncho2P_2x_20x2";;;
+1;"XA1";"Conn_Poncho_Mediano";1;"Conn_Poncho2P_2x_20x2";;;
+2;"U5,U4";"Relay5vSI";2;"RELAY";;;
+3;"D6,D1,D2,D7";"Diode_DO-35_SOD27_Horizontal_RM10";4;"1N4007";;;
+4;"D3";"Diode_DO-35_SOD27_Horizontal_RM10";1;"1N4728A";;;
 5;"C1,C4,C5";"C_Disc_D6_P5";3;"100nF";;;
 6;"C2,C3,C6";"C_Radial_D5_L11_P2";3;"2.2uF";;;
 7;"D4,D5,D8";"LED-3MM";3;"LED";;;
@@ -19,3 +19,4 @@
 18;"U6";"RN1810";1;"RN1810E";;;
 19;"Q1,Q2";"TO-92_Rugged";2;"BC548";;;
 20;"MP?";"Plantilla_EDU-CIAA";1;"Plantilla_EDU-CIAA";;;
+21;"G***";"Logo_Poncho";1;"LOGO";;;
