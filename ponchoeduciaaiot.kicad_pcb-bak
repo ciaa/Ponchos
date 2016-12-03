@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 88.424999 15.544 280.84238 170.035001)
+    (area 88.424999 72.724999 175.575001 154.075001)
     (thickness 1.6)
     (drawings 19)
     (tracks 623)
@@ -2101,8 +2101,8 @@
     (pad 23 smd rect (at 13.97 0 90) (size 1.524 1.016) (layers BOTTOM B.Paste B.Mask)
       (net 2 GND))
     (model ${KIPRJMOD}/ponchoeduciaaiot.3dshapes/roving_rn-42.wrl
-      (at (xyz 0.35 0.5 0))
-      (scale (xyz 1.45 1.1 1))
+      (at (xyz 0.35 0.51 0))
+      (scale (xyz 1.35 1.05 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2441,10 +2441,10 @@
       (xy 3.778435 -0.1467) (xy 3.778435 -0.1467)) (layer F.SilkS) (width 0.1))
   )
 
-  (gr_text "Poncho IoT" (at 111.5 85.75) (layer F.SilkS)
+  (gr_text "Poncho IoT" (at 132 75.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Ind. Arg.\n2016" (at 94.25 76) (layer F.SilkS)
+  (gr_text "Ind. Arg.\n2016" (at 132.5 80) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 89 154) (end 88.5 154) (layer Edge.Cuts) (width 0.15))
