@@ -8,7 +8,7 @@ encoding utf-8
 Sheet 2 4
 Title "Poncho EDU-CIAA-NXP IoT. GPIOs"
 Date "2016-11-09"
-Rev "1"
+Rev "2"
 Comp "Ernesto Gigliotti"
 Comment1 "License: GPL3"
 Comment2 "Reviewer: Facundo Larosa"

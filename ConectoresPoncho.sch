@@ -8,7 +8,7 @@ encoding utf-8
 Sheet 4 4
 Title "Poncho EDU-CIAA-NXP IoT. Poncho connectors"
 Date "2016-11-09"
-Rev "1"
+Rev "2"
 Comp "Ernesto Gigliotti"
 Comment1 "License: GPL3"
 Comment2 "Reviewer: Facundo Larosa"
