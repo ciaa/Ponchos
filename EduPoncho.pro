@@ -1,4 +1,4 @@
-update=dom 20 nov 2016 18:41:40 ART
+update=dom 11 dic 2016 20:40:36 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -30,5 +30,4 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=power
-LibName2=EduPoncho-cache
+LibName1=EduPoncho-cache

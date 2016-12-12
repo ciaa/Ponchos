@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
 LIBS:EduPoncho-cache
 EELAYER 25 0
 EELAYER END
@@ -7,13 +6,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "Salidas-EduPoncho"
-Date "2016-11-17"
+Date "2016-12-11"
 Rev ""
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/guille411/EduPoncho"
 Comment2 "Autores y Licencia del modelo (Diego Brengi - UNLaM)"
 Comment3 "Autor del poncho (Evangelista Guillermo). Ver directorio \"doc\""
-Comment4 ""
+Comment4 "Revisor: Martinez Horacio"
 $EndDescr
 $Comp
 L R R3
@@ -32,7 +31,7 @@ U 1 1 58252883
 P 2150 2750
 F 0 "R1" V 2230 2750 50  0000 C CNN
 F 1 "330" V 2150 2750 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2080 2750 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2080 2750 50  0001 C CNN
 F 3 "" H 2150 2750 50  0000 C CNN
 	1    2150 2750
 	0    1    1    0   
@@ -142,7 +141,7 @@ U 1 1 58256884
 P 2200 6000
 F 0 "R2" V 2280 6000 50  0000 C CNN
 F 1 "330" V 2200 6000 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2130 6000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2130 6000 50  0001 C CNN
 F 3 "" H 2200 6000 50  0000 C CNN
 	1    2200 6000
 	0    1    1    0   

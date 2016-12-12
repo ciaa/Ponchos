@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
 LIBS:EduPoncho-cache
 EELAYER 25 0
 EELAYER END
@@ -13,7 +12,7 @@ Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/guille411/EduPoncho"
 Comment2 "Autores y Licencia del modelo (Diego Brengi - UNLaM)"
 Comment3 "Autor del poncho (Evangelista Guillermo). Ver directorio \"doc\""
-Comment4 ""
+Comment4 "Revisor: Martinez Horacio"
 $EndDescr
 Text HLabel 4550 4450 0    60   Output ~ 0
 GPIO0
@@ -128,13 +127,9 @@ Encoder_A
 Text HLabel 6550 4250 2    60   Input ~ 0
 Encoder_B
 Text HLabel 4550 4350 0    60   Input ~ 0
-OPTO_IN0
-Text HLabel 4550 4250 0    60   Input ~ 0
 OPTO_IN1
 Wire Wire Line
 	5000 4150 4550 4150
-Wire Wire Line
-	4550 4250 5000 4250
 Wire Wire Line
 	5000 4350 4550 4350
 Wire Wire Line
@@ -223,4 +218,8 @@ F 3 "" H 6400 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6400 2650
+Text HLabel 4550 4250 0    60   Input ~ 0
+OPTO_IN0
+Wire Wire Line
+	5000 4250 4550 4250
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
 LIBS:EduPoncho-cache
 EELAYER 25 0
 EELAYER END
@@ -13,7 +12,7 @@ Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/guille411/EduPoncho"
 Comment2 "Autores y Licencia del modelo (Diego Brengi - UNLaM)"
 Comment3 "Autor del poncho (Evangelista Guillermo). Ver directorio \"doc\""
-Comment4 ""
+Comment4 "Revisor: Martinez Horacio"
 $EndDescr
 $Comp
 L OSHWA #G2
@@ -45,9 +44,9 @@ F1 "Entradas.sch" 60
 F2 "Pote" O R 4750 2950 60 
 F3 "Encoder_A" O R 4750 3150 60 
 F4 "Encoder_B" O R 4750 3300 60 
-F5 "OPTO_IN0" O R 4750 3500 60 
-F6 "OPTO_IN1" O R 4750 3650 60 
-F7 "CNY_IN" O R 4750 3850 60 
+F5 "OPTO_IN0" O R 4750 3550 60 
+F6 "CNY_IN" O R 4750 3850 60 
+F7 "OPTO_IN1" O R 4750 3700 60 
 $EndSheet
 $Sheet
 S 6650 2600 1000 1500
@@ -69,9 +68,9 @@ F4 "Pote" I L 5200 2950 60
 F5 "Buzzer" O R 6200 3300 60 
 F6 "Encoder_A" I L 5200 3150 60 
 F7 "Encoder_B" I L 5200 3300 60 
-F8 "OPTO_IN0" I L 5200 3500 60 
-F9 "OPTO_IN1" I L 5200 3650 60 
-F10 "CNY_IN" I L 5200 3850 60 
+F8 "OPTO_IN0" I L 5200 3550 60 
+F9 "CNY_IN" I L 5200 3850 60 
+F10 "OPTO_IN1" I L 5200 3700 60 
 $EndSheet
 Wire Wire Line
 	6650 2950 6200 2950
@@ -86,9 +85,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 3300 5200 3300
 Wire Wire Line
-	4750 3500 5200 3500
-Wire Wire Line
-	5200 3650 4750 3650
-Wire Wire Line
 	5200 3850 4750 3850
+Wire Wire Line
+	5200 3550 4750 3550
+Wire Wire Line
+	5200 3700 4750 3700
 $EndSCHEMATC
