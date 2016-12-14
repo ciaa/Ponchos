@@ -1,12 +1,14 @@
 Historial de cambios realizados 
 ================================
 
-* Fecha: 
-* Autores: 
+* Fecha: 5 noviembre 2016
+* Autores: Evangelista Guillermo
 * Archivos: 
 * Descripción: Se parte del Modelo básico de Poncho en: 
                https://github.com/ciaa/Ponchos/tree/master/Basico
-               <<Colocar aquí información de cambios importantes y de gran volumen, releases, contribuciones
-                de terceros, etc.>>
+
+                
+ Para ver historial de cambios, revisar historial de commits de repositorio del poncho.
+ Enlace: https://github.com/guille411/EduPoncho
 
 
