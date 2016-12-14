@@ -1,4 +1,4 @@
-update=dom 27 nov 2016 21:16:56 ART
+update=mar 13 dic 2016 22:56:56 ART
 version=1
 last_client=kicad
 [pcbnew]
