@@ -1,4 +1,4 @@
-update=mié 14 dic 2016 23:47:11 ART
+update=mié 14 dic 2016 23:55:02 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=lib;../Ponchos/modelos/Basico/lib;/home/julian/Documents/CESE/12-PCBs/switch/mod_switch
+[general]
+version=1
