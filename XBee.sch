@@ -15,12 +15,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
-Rev ""
+Title "Poncho Misión SAEv2 - Módulo XBee"
+Date "2016-12-14"
+Rev "1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Autores: Julián Iglesias / Elli Carlos"
+Comment2 "Licencia: BSD"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -151,18 +151,18 @@ Wire Wire Line
 	2850 3500 2850 3800
 $Comp
 L XBEE U2
-U 1 1 58325202
+U 1 1 5851DFE8
 P 3900 3200
 F 0 "U2" H 3900 2650 60  0000 C CNN
-F 1 "XBP24-AWI-001" H 3900 3950 60  0000 C CNN
-F 2 "XBee:XBee-pro" H 3900 3200 60  0001 C CNN
+F 1 "XBEE" H 3900 3950 60  0000 C CNN
+F 2 "footprints:XBee-pro" H 3900 3200 60  0001 C CNN
 F 3 "https://www.digi.com/pdf/ds_xbeemultipointmodules.pdf" H 3900 3200 60  0001 C CNN
-F 4 "DIGI" H 3900 3200 60  0001 C CNN "Manf"
-F 5 "XB24-AWI-001
-" H 3900 3200 60  0001 C CNN "Manf#"
-F 6 "XB24-AWI-001-ND
+F 4 "XBee-PRO S1 802.15.4 extended-range module w/ wire antenna" H 3900 3200 60  0001 C CNN "Desc"
+F 5 "DIGI" H 3900 3200 60  0001 C CNN "Manf"
+F 6 "XBP24-AWI-001" H 3900 3200 60  0001 C CNN "Manf#"
+F 7 "XBP24-AWI-001-ND
 " H 3900 3200 60  0001 C CNN "Digikey#"
-F 7 "888-XB24-AWI-001
+F 8 "888-XBP24-AWI-001
 " H 3900 3200 60  0001 C CNN "Mouser#"
 	1    3900 3200
 	1    0    0    -1  

@@ -15,12 +15,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "Poncho Misión SAEv2"
-Date "2016-11-20"
+Title "Poncho Misión SAEv2 - Esquemático jerárquico"
+Date "2016-12-14"
 Rev "1.0"
-Comp "Julián Iglesias"
-Comment1 ""
-Comment2 ""
+Comp ""
+Comment1 "Autores: Julián Iglesias / Elli Carlos"
+Comment2 "Licencia: BSD"
 Comment3 ""
 Comment4 ""
 $EndDescr

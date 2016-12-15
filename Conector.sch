@@ -15,12 +15,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title ""
-Date ""
-Rev ""
+Title "Poncho Misión SAEv2 - Conectores EDU-CIAA"
+Date "2016-12-14"
+Rev "1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Autores: Julián Iglesias / Elli Carlos"
+Comment2 "Licencia: BSD"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -325,7 +325,7 @@ U 1 1 5832D5BC
 P 2200 5250
 F 0 "P1" H 2200 5400 50  0000 C CNN
 F 1 "CONN_01X02" V 2300 5250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2200 5250 50  0001 C CNN
+F 2 "footprints:Pin_Header_Angled_1x02" H 2200 5250 50  0001 C CNN
 F 3 "" H 2200 5250 50  0000 C CNN
 	1    2200 5250
 	-1   0    0    -1  
@@ -347,7 +347,7 @@ U 1 1 5832D601
 P 3050 4950
 F 0 "SW1" H 3050 5050 50  0000 C CNN
 F 1 "SPST" H 3050 4850 50  0000 C CNN
-F 2 "footprints:SW_DIP_x1_Slide" H 3050 4950 50  0001 C CNN
+F 2 "footprints:SW_Micro_SPST" H 3050 4950 50  0001 C CNN
 F 3 "" H 3050 4950 50  0000 C CNN
 	1    3050 4950
 	1    0    0    -1  

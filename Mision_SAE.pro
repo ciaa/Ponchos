@@ -1,4 +1,4 @@
-update=sáb 03 dic 2016 15:35:30 ART
+update=mié 14 dic 2016 23:47:11 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,19 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=lib;../Ponchos/modelos/Basico/lib
-[eeschema/libraries]
-LibName1=Mision_SAE-rescue
-LibName2=power
-LibName3=device
-LibName4=conn
-LibName5=lib/mpu-6050
-LibName6=lib/power1
-LibName7=lib/xbee
-LibName8=/home/julian/Documents/CESE/12-PCBs/Ponchos/modelos/Basico/lib/basico
-LibName9=lib/GY-65
-LibName10=lib/GY-521
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=lib;../Ponchos/modelos/Basico/lib;/home/julian/Documents/CESE/12-PCBs/switch/mod_switch
