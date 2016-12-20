@@ -1,14 +1,102 @@
 Historial de cambios realizados 
 ================================
-
-* Fecha: 5 noviembre 2016
-* Autores: Evangelista Guillermo
-* Archivos: 
-* Descripción: Se parte del Modelo básico de Poncho en: 
-               https://github.com/ciaa/Ponchos/tree/master/Basico
-
                 
  Para ver historial de cambios, revisar historial de commits de repositorio del poncho.
  Enlace: https://github.com/guille411/EduPoncho
 
+commit 96ca4efdd7176d3772dcbab32ee2c389a8ec9e66
+Author: Guillermo <guille411@hotmail.com>
+Date:   Sun Dec 11 23:27:06 2016 -0300
+
+    Reubicacion de optoacopladores, cambio de footoprins de resistencias a 0805,
+
+commit 19a3beac1dab0ee2de5eb201ca972c01c21069f8
+Author: Guillermo <guille411@hotmail.com>
+Date:   Sat Dec 3 14:04:16 2016 -0300
+
+    Se agregaron cotas, fiducidales y escrituras en cobre. Tambien se corrigiero
+
+commit 30044835d0920b023496e882037701eafb6c62b2
+Author: Guillermo <guille411@hotmail.com>
+Date:   Fri Dec 2 15:52:42 2016 -0300
+
+    Se termino de rutear la placa y se acomodaron ref de los componentes, se agr
+
+commit b9a112bde8bfceb60255edcefa7bb1e38385f757
+Author: Guillermo <guille411@hotmail.com>
+Date:   Mon Nov 28 16:41:02 2016 -0300
+
+    Se definió contorno de la placa y se ubicaron los componentes. También se ru
+:...skipping...
+commit 96ca4efdd7176d3772dcbab32ee2c389a8ec9e66
+Author: Guillermo <guille411@hotmail.com>
+Date:   Sun Dec 11 23:27:06 2016 -0300
+
+    Reubicacion de optoacopladores, cambio de footoprins de resistencias a 0805, correcion general.Falta arreglar archivos vista 3d y completar 
+
+commit 19a3beac1dab0ee2de5eb201ca972c01c21069f8
+Author: Guillermo <guille411@hotmail.com>
+Date:   Sat Dec 3 14:04:16 2016 -0300
+
+    Se agregaron cotas, fiducidales y escrituras en cobre. Tambien se corrigieron algunos errores.
+
+commit 30044835d0920b023496e882037701eafb6c62b2
+Author: Guillermo <guille411@hotmail.com>
+Date:   Fri Dec 2 15:52:42 2016 -0300
+
+    Se termino de rutear la placa y se acomodaron ref de los componentes, se agrego nombres y fiduciales
+
+commit b9a112bde8bfceb60255edcefa7bb1e38385f757
+Author: Guillermo <guille411@hotmail.com>
+Date:   Mon Nov 28 16:41:02 2016 -0300
+
+    Se definió contorno de la placa y se ubicaron los componentes. También se ruteo la placa completa, falta revisión
+
+commit cd3c6acffddb2071ce49db4d4d2df4f6ad6eb4e6
+Author: Guillermo <guille411@hotmail.com>
+Date:   Thu Nov 24 23:11:46 2016 -0300
+
+    Se agruparon componentes por bloques funcionales. Falta definir contorno de la placa y posicion final de los bloques.
+
+commit d8dab5fd6cc56c8a1e74660f5d9c8dac7a8ff344
+Author: Guillermo <guille411@hotmail.com>
+Date:   Sun Nov 20 21:34:10 2016 -0300
+
+    Correcion de errores, asignacion de footprints y ubicacion prelimilar de componentes.
+
+commit 11aca1d1b0662f61689178e4ff9805f52a183f19
+Author: Guillermo <guille411@hotmail.com>
+Date:   Mon Nov 14 23:36:16 2016 -0300
+
+    se agregaron casi todos los footprint faltan el conector del poncho, encoder y CNY70
+
+commit 7751c03105789901edcf36aeaca6e37e7509f47b
+Author: Guillermo <guille411@hotmail.com>
+Date:   Sat Nov 12 18:12:24 2016 -0300
+
+    Se completaron los circuitos esquematicos, falta revision.
+
+commit d611465cffcc4c0f437b2e26dbb77b9760884785
+Author: Guillermo <guille411@hotmail.com>
+Date:   Fri Nov 11 00:27:14 2016 -0300
+
+    Se dividio el esquematico en bloques, se agrego conexion a reles y potenciometro
+
+commit d8644a0f8f4160e4bf12dbf2aed8f654130f1e11
+Author: Guillermo <guille411@hotmail.com>
+Date:   Sat Nov 5 18:02:02 2016 -0300
+
+    se modificó el nombre de los archivos
+
+commit aa5e39e9e3f638fcc2b052899e397575310de332
+Author: Guillermo <guille411@hotmail.com>
+Date:   Sat Nov 5 17:41:19 2016 -0300
+
+    se agregaron archivos basicos para empezar a trabajar
+
+commit d3c434b61f8c533b64f63e9bc1beb161fdb4123f
+Author: guille411 <guille411@hotmail.com>
+Date:   Sat Nov 5 17:26:06 2016 -0300
+
+    Initial commit
 

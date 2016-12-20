@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "Entradas- EduPoncho"
-Date "2016-11-17"
+Date "2016-12-19"
 Rev ""
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/guille411/EduPoncho"
@@ -416,24 +416,12 @@ F 3 "" H 7500 4400 50  0000 C CNN
 	1    7500 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Encoder_rotativo ENC1
-U 1 1 584E0465
-P 3700 5050
-F 0 "ENC1" H 3800 5400 50  0000 C CNN
-F 1 "Encoder_rotativo" H 3700 4701 50  0000 C CNN
-F 2 "footprint:Encoder_rotativo" H 3700 5050 50  0001 C CNN
-F 3 "" H 3700 5050 50  0000 C CNN
-F 4 "987-1188-ND" H 3700 5050 60  0001 C CNN "Digikey#"
-	1    3700 5050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	3100 5050 2900 5050
+	2900 5050 3150 5050
 Wire Wire Line
-	2000 5250 3100 5250
+	2000 5250 3150 5250
 Wire Wire Line
-	2000 4850 3100 4850
+	2000 4850 3150 4850
 Text HLabel 5450 3050 2    60   Output ~ 0
 OPTO_IN1
 $Comp
@@ -605,4 +593,15 @@ Wire Wire Line
 	3750 2350 3850 2350
 Wire Wire Line
 	3850 2350 3850 2400
+$Comp
+L Encoder_rotativo S1
+U 1 1 58585C66
+P 3750 5050
+F 0 "S1" H 3850 5400 50  0000 C CNN
+F 1 "Encoder_rotativo" H 3750 4701 50  0000 C CNN
+F 2 "footprint:Encoder_rotativo" H 3750 5050 50  0001 C CNN
+F 3 "" H 3750 5050 50  0000 C CNN
+	1    3750 5050
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
