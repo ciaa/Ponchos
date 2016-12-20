@@ -4,6 +4,19 @@ Historial de cambios realizados
  Para ver historial de cambios, revisar historial de commits de repositorio del poncho.
  Enlace: https://github.com/guille411/EduPoncho
 
+commit a6f8c1ef5a7ec2dc87f64ed69c8b34fa2c5f817f
+Author: Guillermo <guille411@hotmail.com>
+Date:   Mon Dec 19 21:42:47 2016 -0300
+
+    Correcion de pistas a octoacopladores, rutas de modelos 3d, id encoder y otras correcciones menores
+
+commit e9c2931b6838ecae41d5e5c9e6e473b8981600d3
+Author: Guillermo <guille411@hotmail.com>
+Date:   Tue Dec 13 22:48:40 2016 -0300
+
+    Se corrigieron las cotas
+
+
 commit 96ca4efdd7176d3772dcbab32ee2c389a8ec9e66
 Author: Guillermo <guille411@hotmail.com>
 Date:   Sun Dec 11 23:27:06 2016 -0300
