@@ -1,27 +1,18 @@
 EESchema Schematic File Version 2
-LIBS:Mision_SAE-rescue
 LIBS:power
-LIBS:device
-LIBS:conn
-LIBS:mpu-6050
-LIBS:power1
-LIBS:xbee
-LIBS:basico
-LIBS:GY-65
-LIBS:GY-521
 LIBS:Mision_SAE-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title "Poncho Misión SAEv2 - Módulo XBee"
-Date "2016-12-14"
+Title "Poncho Misión SAEv2 - Esquemático jerárquico"
+Date "2016-12-21"
 Rev "1.0"
 Comp ""
-Comment1 "Autores: Julián Iglesias / Elli Carlos"
-Comment2 "Licencia: BSD"
-Comment3 ""
+Comment1 "Autores: Julián Iglesias / Elli Carlos."
+Comment2 "Revisor: Matías Marando"
+Comment3 "Licencia: BSD"
 Comment4 ""
 $EndDescr
 Text HLabel 2500 3050 0    60   Input ~ 0
@@ -59,10 +50,10 @@ F 3 "" H 4750 3550 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L GND #PWR011
 U 1 1 583259FC
 P 5150 3700
-F 0 "#PWR013" H 5150 3450 50  0001 C CNN
+F 0 "#PWR011" H 5150 3450 50  0001 C CNN
 F 1 "GND" H 5150 3550 50  0000 C CNN
 F 2 "" H 5150 3700 50  0000 C CNN
 F 3 "" H 5150 3700 50  0000 C CNN
@@ -70,10 +61,10 @@ F 3 "" H 5150 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L GND #PWR012
 U 1 1 58325A17
 P 3200 3700
-F 0 "#PWR014" H 3200 3450 50  0001 C CNN
+F 0 "#PWR012" H 3200 3450 50  0001 C CNN
 F 1 "GND" H 3200 3550 50  0000 C CNN
 F 2 "" H 3200 3700 50  0000 C CNN
 F 3 "" H 3200 3700 50  0000 C CNN
@@ -81,10 +72,10 @@ F 3 "" H 3200 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND #PWR013
 U 1 1 58325A2B
 P 2850 3800
-F 0 "#PWR015" H 2850 3550 50  0001 C CNN
+F 0 "#PWR013" H 2850 3550 50  0001 C CNN
 F 1 "GND" H 2850 3650 50  0000 C CNN
 F 2 "" H 2850 3800 50  0000 C CNN
 F 3 "" H 2850 3800 50  0000 C CNN
@@ -92,10 +83,10 @@ F 3 "" H 2850 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR016
+L +3.3V #PWR014
 U 1 1 58325A3E
 P 3150 2350
-F 0 "#PWR016" H 3150 2200 50  0001 C CNN
+F 0 "#PWR014" H 3150 2200 50  0001 C CNN
 F 1 "+3.3V" H 3150 2490 50  0000 C CNN
 F 2 "" H 3150 2350 50  0000 C CNN
 F 3 "" H 3150 2350 50  0000 C CNN
@@ -127,10 +118,10 @@ NoConn ~ 4500 2950
 NoConn ~ 4500 3050
 NoConn ~ 4500 3150
 $Comp
-L +3.3V #PWR017
+L +3.3V #PWR015
 U 1 1 58325B5C
 P 4850 3150
-F 0 "#PWR017" H 4850 3000 50  0001 C CNN
+F 0 "#PWR015" H 4850 3000 50  0001 C CNN
 F 1 "+3.3V" H 4850 3290 50  0000 C CNN
 F 2 "" H 4850 3150 50  0000 C CNN
 F 3 "" H 4850 3150 50  0000 C CNN
@@ -151,19 +142,17 @@ Wire Wire Line
 	2850 3500 2850 3800
 $Comp
 L XBEE U2
-U 1 1 5851DFE8
+U 1 1 585B02E9
 P 3900 3200
 F 0 "U2" H 3900 2650 60  0000 C CNN
 F 1 "XBEE" H 3900 3950 60  0000 C CNN
 F 2 "footprints:XBee-pro" H 3900 3200 60  0001 C CNN
 F 3 "https://www.digi.com/pdf/ds_xbeemultipointmodules.pdf" H 3900 3200 60  0001 C CNN
-F 4 "XBee-PRO S1 802.15.4 extended-range module w/ wire antenna" H 3900 3200 60  0001 C CNN "Desc"
+F 4 "XBee Pro Series1 Wire antenna" H 3900 3200 60  0001 C CNN "Desc"
 F 5 "DIGI" H 3900 3200 60  0001 C CNN "Manf"
 F 6 "XBP24-AWI-001" H 3900 3200 60  0001 C CNN "Manf#"
-F 7 "XBP24-AWI-001-ND
-" H 3900 3200 60  0001 C CNN "Digikey#"
-F 8 "888-XBP24-AWI-001
-" H 3900 3200 60  0001 C CNN "Mouser#"
+F 7 "XBP24-AWI-001-ND" H 3900 3200 60  0001 C CNN "Digikey#"
+F 8 "888-XBP24-AWI-001" H 3900 3200 60  0001 C CNN "Mouser#"
 	1    3900 3200
 	1    0    0    -1  
 $EndComp

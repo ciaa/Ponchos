@@ -1,14 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:Mision_SAE-rescue
 LIBS:power
-LIBS:device
-LIBS:conn
-LIBS:mpu-6050
-LIBS:power1
-LIBS:xbee
-LIBS:basico
-LIBS:GY-65
-LIBS:GY-521
 LIBS:Mision_SAE-cache
 EELAYER 25 0
 EELAYER END
@@ -16,12 +7,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Poncho Misión SAEv2 - Esquemático jerárquico"
-Date "2016-12-14"
+Date "2016-12-21"
 Rev "1.0"
 Comp ""
-Comment1 "Autores: Julián Iglesias / Elli Carlos"
-Comment2 "Licencia: BSD"
-Comment3 ""
+Comment1 "Autores: Julián Iglesias / Elli Carlos."
+Comment2 "Revisor: Matías Marando"
+Comment3 "Licencia: BSD"
 Comment4 ""
 $EndDescr
 $Sheet
