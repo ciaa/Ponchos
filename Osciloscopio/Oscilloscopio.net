@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source C:/Ponchos/Osciloscopio/Oscilloscopio.sch)
-    (date "7/26/2016 11:58:13 PM")
-    (tool "Eeschema 4.0.2-stable")
+    (source /home/diego/git/github/Ponchos/Osciloscopio/Oscilloscopio.sch)
+    (date "mié 21 dic 2016 15:43:31 ART")
+    (tool "Eeschema 4.0.2+dfsg1-2~bpo8+1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Poncho Osciloscopio")
@@ -656,9 +656,9 @@
       (value Conn_Poncho2P_2x_20x2)
       (footprint osc:poncho_grande)
       (fields
-        (field (name Digikey#) S6104-ND)
-        (field (name Manf#) PPTC202LFBN-RC)
-        (field (name Manf) "Sullins Connector Solutions"))
+        (field (name Manf) "Sullins Connector Solutions")
+        (field (name Manf#) PEC20DAAN)
+        (field (name Digikey#) S2012E-20-ND))
       (libsource (lib Oscilloscopio-cache) (part Conn_Poncho2P_2x_20x2))
       (sheetpath (names "/Conector del Poncho/") (tstamps /560A0C15/))
       (tstamp 560C5732)))
@@ -928,9 +928,9 @@
         (pin (num 8) (name Vcc) (type power_in)))))
   (libraries
     (library (logical Oscilloscopio-cache)
-      (uri C:\Ponchos\Osciloscopio\Oscilloscopio-cache.lib))
+      (uri /home/diego/git/github/Ponchos/Osciloscopio/Oscilloscopio-cache.lib))
     (library (logical osc)
-      (uri C:\Ponchos\Osciloscopio\lib\osc.lib)))
+      (uri lib/osc.lib)))
   (nets
     (net (code 1) (name "/Conector del Poncho/ADC3")
       (node (ref XA1) (pin 9)))
