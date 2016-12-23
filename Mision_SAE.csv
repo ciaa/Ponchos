@@ -1,0 +1,37 @@
+"Source:","/home/julian/Documents/CESE/12-PCBs/TPFinal/Mision_SAE.sch"
+"Date:","vie 23 dic 2016 16:08:41 ART"
+"Tool:","Eeschema 4.0.2+dfsg1-stable"
+"Generator:","/usr/lib/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","13"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Desc","Digikey#","Manf","Manf#","Mouser#"
+"","","BT1","Battery","Mision_SAE-cache:Battery","footprints:bat_con","","","","","",""
+"","","D1","LED","Mision_SAE-cache:LED","footprints:LED-3MM","","","","","",""
+"","","D2","LED","Mision_SAE-cache:LED","footprints:LED-3MM","","","","","",""
+"","","D3","LED","Mision_SAE-cache:LED","footprints:LED-3MM","","","","","",""
+"","","P1","CONN_01X02","Mision_SAE-cache:CONN_01X02","footprints:Pin_Header_Angled_1x02","","","","","",""
+"","","R1","R","Mision_SAE-cache:R","footprints:R_0603","","","","","",""
+"","","R6","R","Mision_SAE-cache:R","footprints:R_0603","","","","","",""
+"","","R7","R","Mision_SAE-cache:R","footprints:R_0603","","","","","",""
+"","","SW1","SPST","Mision_SAE-cache:SPST","footprints:SW_Micro_SPST","","","","","",""
+"","","U1","GY-65","Mision_SAE-cache:GY-65","footprints:GY-65","","","","","",""
+"","","U2","XBEE","Mision_SAE-cache:XBEE","footprints:XBee-pro","https://www.digi.com/pdf/ds_xbeemultipointmodules.pdf","XBee Pro Series1 Wire antenna","XBP24-AWI-001-ND","DIGI","XBP24-AWI-001","888-XBP24-AWI-001"
+"","","U3","GY-521","Mision_SAE-cache:GY-521","footprints:GY-521","","","","","",""
+"","","XA1","Conn_Poncho2P_2x_20x2","Mision_SAE-cache:Conn_Poncho2P_2x_20x2","footprints:Conn_Poncho_SinBorde","","","","","",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Desc","Digikey#","Manf","Manf#","Mouser#"
+"1","1","BT1","Battery","Mision_SAE-cache:Battery","footprints:bat_con","","","","","",""
+"2","3","D1, D2, D3","LED","Mision_SAE-cache:LED","footprints:LED-3MM","","","","","",""
+"3","1","P1","CONN_01X02","Mision_SAE-cache:CONN_01X02","footprints:Pin_Header_Angled_1x02","","","","","",""
+"4","3","R1, R6, R7","R","Mision_SAE-cache:R","footprints:R_0603","","","","","",""
+"5","1","SW1","SPST","Mision_SAE-cache:SPST","footprints:SW_Micro_SPST","","","","","",""
+"6","1","U1","GY-65","Mision_SAE-cache:GY-65","footprints:GY-65","","","","","",""
+"7","1","U2","XBEE","Mision_SAE-cache:XBEE","footprints:XBee-pro","https://www.digi.com/pdf/ds_xbeemultipointmodules.pdf","XBee Pro Series1 Wire antenna","XBP24-AWI-001-ND","DIGI","XBP24-AWI-001","888-XBP24-AWI-001"
+"8","1","U3","GY-521","Mision_SAE-cache:GY-521","footprints:GY-521","","","","","",""
+"9","1","XA1","Conn_Poncho2P_2x_20x2","Mision_SAE-cache:Conn_Poncho2P_2x_20x2","footprints:Conn_Poncho_SinBorde","","","","","",""
