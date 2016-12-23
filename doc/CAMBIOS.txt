@@ -1,0 +1,7 @@
+Historial de cambios realizados 
+================================
+                
+ Para ver historial de cambios, revisar historial de commits de repositorio del poncho.
+ Enlace: https://github.com/Fermeira/Oximetro_CESE.git
+
+

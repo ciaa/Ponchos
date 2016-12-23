@@ -1,35 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Anastasia
-LIBS:basico
 LIBS:TP-cache
 EELAYER 25 0
 EELAYER END
@@ -37,13 +7,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Poncho Oximetro de Pulso para EDU-CIAA"
-Date "2016-12-09"
-Rev ""
-Comp "Fernando Meira"
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Date "2016-12-19"
+Rev "1.0"
+Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comment1 "https://github.com/Fermeira/Oximetro_CESE.git"
+Comment2 "Autores y Licencia del modelo (Diego Brengi - UNLaM)"
+Comment3 "Autor del poncho (Meira Fernando). Ver directorio \"doc\""
+Comment4 "Revisor: Martinez Horacio"
 $EndDescr
 $Comp
 L AFE4490 U1
@@ -130,59 +100,59 @@ $EndComp
 $Comp
 L +3.3V #PWR03
 U 1 1 584BF1B3
-P 3250 2500
-F 0 "#PWR03" H 3250 2350 50  0001 C CNN
-F 1 "+3.3V" H 3250 2640 50  0000 C CNN
-F 2 "" H 3250 2500 50  0000 C CNN
-F 3 "" H 3250 2500 50  0000 C CNN
-	1    3250 2500
+P 3250 2450
+F 0 "#PWR03" H 3250 2300 50  0001 C CNN
+F 1 "+3.3V" H 3400 2500 50  0000 C CNN
+F 2 "" H 3250 2450 50  0000 C CNN
+F 3 "" H 3250 2450 50  0000 C CNN
+	1    3250 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C3
 U 1 1 584BF1D7
-P 3850 2650
-F 0 "C3" H 3875 2750 50  0000 L CNN
-F 1 "0.01uF" H 3875 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3888 2500 50  0001 C CNN
-F 3 "" H 3850 2650 50  0000 C CNN
-F 4 "490-8297-1-ND" H 3850 2650 60  0001 C CNN "digikey#"
-	1    3850 2650
+P 3850 2700
+F 0 "C3" H 3875 2800 50  0000 L CNN
+F 1 "0.01uF" H 3875 2600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3888 2550 50  0001 C CNN
+F 3 "" H 3850 2700 50  0000 C CNN
+F 4 "490-8297-1-ND" H 3850 2700 60  0001 C CNN "digikey#"
+	1    3850 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C5
 U 1 1 584BF22E
-P 4200 2650
-F 0 "C5" H 4225 2750 50  0000 L CNN
-F 1 "0.01uF" H 4225 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4238 2500 50  0001 C CNN
-F 3 "" H 4200 2650 50  0000 C CNN
-F 4 "490-8297-1-ND" H 4200 2650 60  0001 C CNN "digikey#"
-	1    4200 2650
+P 4200 2700
+F 0 "C5" H 4225 2800 50  0000 L CNN
+F 1 "0.01uF" H 4225 2600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4238 2550 50  0001 C CNN
+F 3 "" H 4200 2700 50  0000 C CNN
+F 4 "490-8297-1-ND" H 4200 2700 60  0001 C CNN "digikey#"
+	1    4200 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C6
 U 1 1 584BF282
-P 4550 2650
-F 0 "C6" H 4575 2750 50  0000 L CNN
-F 1 "0.01uF" H 4575 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4588 2500 50  0001 C CNN
-F 3 "" H 4550 2650 50  0000 C CNN
-F 4 "490-8297-1-ND" H 4550 2650 60  0001 C CNN "digikey#"
-	1    4550 2650
+P 4550 2700
+F 0 "C6" H 4575 2800 50  0000 L CNN
+F 1 "0.01uF" H 4575 2600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4588 2550 50  0001 C CNN
+F 3 "" H 4550 2700 50  0000 C CNN
+F 4 "490-8297-1-ND" H 4550 2700 60  0001 C CNN "digikey#"
+	1    4550 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR04
 U 1 1 584BF4CE
-P 4200 2850
-F 0 "#PWR04" H 4200 2600 50  0001 C CNN
-F 1 "GND" H 4200 2700 50  0000 C CNN
-F 2 "" H 4200 2850 50  0000 C CNN
-F 3 "" H 4200 2850 50  0000 C CNN
-	1    4200 2850
+P 4200 2900
+F 0 "#PWR04" H 4200 2650 50  0001 C CNN
+F 1 "GND" H 4050 2850 50  0000 C CNN
+F 2 "" H 4200 2900 50  0000 C CNN
+F 3 "" H 4200 2900 50  0000 C CNN
+	1    4200 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -193,42 +163,43 @@ F 0 "Y1" H 3500 3300 50  0000 C CNN
 F 1 "8MHz" H 3400 3050 50  0000 C CNN
 F 2 "Crystals:Crystal_Round_Horizontal_3mm" H 3400 3200 50  0001 C CNN
 F 3 "" H 3400 3200 50  0000 C CNN
+F 4 "CTX768-ND" H 3400 3200 60  0001 C CNN "digikey#"
 	1    3400 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1
 U 1 1 584BF9A1
-P 3100 3350
-F 0 "C1" H 3125 3450 50  0000 L CNN
-F 1 "10pF" H 3100 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3138 3200 50  0001 C CNN
-F 3 "" H 3100 3350 50  0000 C CNN
-F 4 "1276-1109-1-ND" H 3100 3350 60  0001 C CNN "digikey#"
-	1    3100 3350
+P 3100 3400
+F 0 "C1" H 3125 3500 50  0000 L CNN
+F 1 "10pF" H 3100 3300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3138 3250 50  0001 C CNN
+F 3 "" H 3100 3400 50  0000 C CNN
+F 4 "1276-1109-1-ND" H 3100 3400 60  0001 C CNN "digikey#"
+	1    3100 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C2
 U 1 1 584BFA1C
-P 3700 3350
-F 0 "C2" H 3725 3450 50  0000 L CNN
-F 1 "10pF" H 3700 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3738 3200 50  0001 C CNN
-F 3 "" H 3700 3350 50  0000 C CNN
-F 4 "1276-1109-1-ND" H 3700 3350 60  0001 C CNN "digikey#"
-	1    3700 3350
+P 3700 3400
+F 0 "C2" H 3725 3500 50  0000 L CNN
+F 1 "10pF" H 3700 3300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3738 3250 50  0001 C CNN
+F 3 "" H 3700 3400 50  0000 C CNN
+F 4 "1276-1109-1-ND" H 3700 3400 60  0001 C CNN "digikey#"
+	1    3700 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 584BFCAE
-P 3400 3500
-F 0 "#PWR05" H 3400 3250 50  0001 C CNN
-F 1 "GND" H 3400 3350 50  0000 C CNN
-F 2 "" H 3400 3500 50  0000 C CNN
-F 3 "" H 3400 3500 50  0000 C CNN
-	1    3400 3500
+P 3400 3700
+F 0 "#PWR05" H 3400 3450 50  0001 C CNN
+F 1 "GND" H 3400 3550 50  0000 C CNN
+F 2 "" H 3400 3700 50  0000 C CNN
+F 3 "" H 3400 3700 50  0000 C CNN
+	1    3400 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -257,12 +228,12 @@ $EndComp
 $Comp
 L GND #PWR07
 U 1 1 584C07FF
-P 4150 3750
-F 0 "#PWR07" H 4150 3500 50  0001 C CNN
-F 1 "GND" H 4150 3600 50  0000 C CNN
-F 2 "" H 4150 3750 50  0000 C CNN
-F 3 "" H 4150 3750 50  0000 C CNN
-	1    4150 3750
+P 4150 3850
+F 0 "#PWR07" H 4150 3600 50  0001 C CNN
+F 1 "GND" H 4150 3700 50  0000 C CNN
+F 2 "" H 4150 3850 50  0000 C CNN
+F 3 "" H 4150 3850 50  0000 C CNN
+	1    4150 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -496,34 +467,22 @@ Wire Wire Line
 	5550 2750 5900 2750
 Connection ~ 5750 2750
 Wire Wire Line
-	3250 2500 5800 2500
-Connection ~ 4200 2500
-Wire Wire Line
 	5800 2450 5800 2550
 Wire Wire Line
 	5800 2450 5900 2450
-Connection ~ 4550 2500
 Wire Wire Line
 	5800 2550 5900 2550
 Connection ~ 5800 2500
-Connection ~ 3850 2500
-Wire Wire Line
-	4200 2800 4200 2850
-Wire Wire Line
-	3850 2800 4550 2800
-Connection ~ 4200 2800
 Wire Wire Line
 	3100 3200 3250 3200
 Wire Wire Line
-	3100 3200 3100 3050
+	3100 3050 3100 3250
 Wire Wire Line
 	3100 3050 5900 3050
 Wire Wire Line
 	3550 3200 5700 3200
 Connection ~ 3700 3200
-Wire Wire Line
-	3100 3500 3700 3500
-Connection ~ 3400 3500
+Connection ~ 3400 3600
 Wire Wire Line
 	5700 3200 5700 3150
 Wire Wire Line
@@ -536,9 +495,7 @@ Wire Wire Line
 	5700 3350 5900 3350
 Connection ~ 4400 3400
 Wire Wire Line
-	4150 3700 4350 3700
-Wire Wire Line
-	4350 3700 4350 3500
+	4350 3500 4350 3750
 Wire Wire Line
 	4350 3500 5750 3500
 Wire Wire Line
@@ -546,7 +503,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 3450 5900 3450
 Wire Wire Line
-	4150 3750 4150 3700
+	4150 3700 4150 3850
 Wire Wire Line
 	5150 3650 5900 3650
 Wire Wire Line
@@ -617,10 +574,6 @@ Wire Wire Line
 	5400 4800 5400 4950
 Wire Wire Line
 	5750 4900 5400 4900
-Wire Wire Line
-	5400 5250 5750 5250
-Wire Wire Line
-	5750 5250 5750 5100
 Wire Wire Line
 	5750 5100 5900 5100
 Connection ~ 5400 4900
@@ -735,4 +688,41 @@ Connection ~ 8600 3750
 Wire Wire Line
 	7950 2350 7950 2500
 Connection ~ 7950 2500
+Wire Wire Line
+	4350 3750 4150 3750
+Connection ~ 4150 3750
+Connection ~ 5400 5300
+Wire Wire Line
+	5400 5300 5750 5300
+Wire Wire Line
+	5750 5300 5750 5100
+Connection ~ 3100 3200
+Wire Wire Line
+	3700 3200 3700 3250
+Wire Wire Line
+	3100 3550 3100 3600
+Wire Wire Line
+	3100 3600 3700 3600
+Wire Wire Line
+	3700 3600 3700 3550
+Wire Wire Line
+	3400 3600 3400 3700
+Wire Wire Line
+	3250 2450 3250 2500
+Wire Wire Line
+	3250 2500 5800 2500
+Wire Wire Line
+	3850 2500 3850 2550
+Connection ~ 3850 2500
+Wire Wire Line
+	4200 2500 4200 2550
+Connection ~ 4200 2500
+Wire Wire Line
+	4550 2500 4550 2550
+Connection ~ 4550 2500
+Wire Wire Line
+	3850 2850 4550 2850
+Wire Wire Line
+	4200 2850 4200 2900
+Connection ~ 4200 2850
 $EndSCHEMATC

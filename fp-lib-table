@@ -1,5 +1,3 @@
 (fp_lib_table
-  (lib (name ej2cese)(type KiCad)(uri /home/fer/SE/PCBs/ejercicio2/ej2cese.pretty)(options "")(descr ""))
-  (lib (name footprint)(type KiCad)(uri /home/fer/SE/PCBs/Basico/footprint.pretty)(options "")(descr ""))
-  (lib (name Anastasia)(type KiCad)(uri /home/fer/Downloads/OSHW-Smartwatch-master/Anastasia.pretty)(options "")(descr ""))
+  (lib (name footprint)(type KiCad)(uri "$(KIPRJMOD)/TP.pretty")(options "")(descr ""))
 )
