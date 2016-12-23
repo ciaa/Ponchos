@@ -1,4 +1,4 @@
-update=lun 19 dic 2016 17:12:46 ART
+update=vie 23 dic 2016 00:03:32 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -74,3 +72,5 @@ LibName42=tp_final/tp_final
 LibName43=/home/martinez/Documentos/materias_5_bimestre/diseño_de_placas/ponchos_CIAA/Ponchos/modelos/Poncho_Grande/poncho_grande-cache
 LibName44=/home/martinez/Documentos/materias_5_bimestre/diseño_de_placas/ponchos_CIAA/Ponchos/modelos/Muestrario/Muestrario-cache
 LibName45=/home/martinez/Documentos/materias_5_bimestre/diseño_de_placas/ponchos_CIAA/Ponchos/modelos/Basico/basico-cache
+[general]
+version=1
