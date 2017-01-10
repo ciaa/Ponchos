@@ -1,0 +1,11 @@
+Poncho oxímetro
+=============
+
+La función del poncho es implementar un oximetro de pulso basado en el integrado AFE4490 de Texas Instruments y usando como configuración del sensor el estándar introducido por Nellcor. 
+
+URL: (URL en la wiki de la CIAA)
+FUNCIÓN: Poncho de oxímetro de pulso.
+AUTORES/INSTITUCIONES: Fernando Meira- CESE
+
+
+
