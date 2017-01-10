@@ -1,0 +1,491 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP8266
+LIBS:logo
+LIBS:poncho_eth
+LIBS:PonchoPLC-cache
+LIBS:Poncho_Esqueleto
+LIBS:DISEÑO_PONCHO_WIFI_PICOCIAA-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Poncho Wifi PICO-CIAA"
+Date "2016-11-11"
+Rev "V1.0"
+Comp "FIUBA"
+Comment1 "Diseñado por: Sergio De Jesús"
+Comment2 "Licencias en: LICENCIA_Y_COLABORADORES/LICENSE"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP-12E U1
+U 1 1 58263FA5
+P 5700 4500
+F 0 "U1" H 5700 4400 50  0000 C CNN
+F 1 "ESP-12E" H 5700 4600 50  0000 C CNN
+F 2 "pico_ciaa_ponchos:ESP-12E" H 5700 4500 50  0001 C CNN
+F 3 "" H 5700 4500 50  0001 C CNN
+	1    5700 4500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5450 5400
+NoConn ~ 5550 5400
+NoConn ~ 5650 5400
+NoConn ~ 5750 5400
+NoConn ~ 5850 5400
+NoConn ~ 5950 5400
+NoConn ~ 4800 4300
+NoConn ~ 4800 4500
+NoConn ~ 4800 4600
+NoConn ~ 4800 4700
+$Comp
+L +3.3V #PWR01
+U 1 1 58264084
+P 4150 4050
+F 0 "#PWR01" H 4150 3900 50  0001 C CNN
+F 1 "+3.3V" H 4150 4190 50  0000 C CNN
+F 2 "" H 4150 4050 50  0000 C CNN
+F 3 "" H 4150 4050 50  0000 C CNN
+	1    4150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 582640A9
+P 4450 4200
+F 0 "R1" V 4400 4350 50  0000 C CNN
+F 1 "R" V 4450 4200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4380 4200 50  0001 C CNN
+F 3 "" H 4450 4200 50  0000 C CNN
+	1    4450 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 582640EC
+P 4450 4400
+F 0 "R2" V 4400 4550 50  0000 C CNN
+F 1 "R" V 4450 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4380 4400 50  0001 C CNN
+F 3 "" H 4450 4400 50  0000 C CNN
+	1    4450 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 5826410D
+P 7600 4600
+F 0 "R6" V 7550 4750 50  0000 C CNN
+F 1 "R" V 7600 4600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 4600 50  0001 C CNN
+F 3 "" H 7600 4600 50  0000 C CNN
+	1    7600 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 58264213
+P 7600 4700
+F 0 "R7" V 7550 4850 50  0000 C CNN
+F 1 "R" V 7600 4700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 4700 50  0001 C CNN
+F 3 "" H 7600 4700 50  0000 C CNN
+	1    7600 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 58264232
+P 6900 4800
+F 0 "R3" V 6850 4950 50  0000 C CNN
+F 1 "R" V 6900 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6830 4800 50  0001 C CNN
+F 3 "" H 6900 4800 50  0000 C CNN
+	1    6900 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 58264413
+P 6600 5000
+F 0 "#PWR02" H 6600 4750 50  0001 C CNN
+F 1 "GND" H 6600 4850 50  0000 C CNN
+F 2 "" H 6600 5000 50  0000 C CNN
+F 3 "" H 6600 5000 50  0000 C CNN
+	1    6600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR03
+U 1 1 58264502
+P 7850 4250
+F 0 "#PWR03" H 7850 4100 50  0001 C CNN
+F 1 "+3.3V" H 7850 4390 50  0000 C CNN
+F 2 "" H 7850 4250 50  0000 C CNN
+F 3 "" H 7850 4250 50  0000 C CNN
+	1    7850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR04
+U 1 1 582646D6
+P 4500 5000
+F 0 "#PWR04" H 4500 4850 50  0001 C CNN
+F 1 "+3.3V" H 4500 5140 50  0000 C CNN
+F 2 "" H 4500 5000 50  0000 C CNN
+F 3 "" H 4500 5000 50  0000 C CNN
+	1    4500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 58264473
+P 7600 4400
+F 0 "R4" V 7650 4250 50  0000 C CNN
+F 1 "R" V 7600 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 4400 50  0001 C CNN
+F 3 "" H 7600 4400 50  0000 C CNN
+	1    7600 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R5
+U 1 1 582644BC
+P 7600 4500
+F 0 "R5" V 7650 4350 50  0000 C CNN
+F 1 "R" V 7600 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7530 4500 50  0001 C CNN
+F 3 "" H 7600 4500 50  0000 C CNN
+	1    7600 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 4400 7450 4400
+Wire Wire Line
+	6600 4500 7450 4500
+Wire Wire Line
+	6600 4600 7450 4600
+Wire Wire Line
+	6600 4700 7450 4700
+Wire Wire Line
+	6600 4800 6750 4800
+Wire Wire Line
+	6600 4900 6600 5000
+Wire Wire Line
+	4800 4900 4800 5050
+Wire Wire Line
+	4800 5050 4500 5050
+Wire Wire Line
+	4500 5050 4500 5000
+Wire Wire Line
+	4800 4200 4600 4200
+Wire Wire Line
+	4800 4400 4600 4400
+Wire Wire Line
+	4150 4050 4150 4400
+Wire Wire Line
+	4150 4400 4300 4400
+Wire Wire Line
+	4300 4200 4150 4200
+Connection ~ 4150 4200
+Wire Wire Line
+	7050 4800 7050 4950
+Wire Wire Line
+	7050 4950 6600 4950
+Connection ~ 6600 4950
+Wire Wire Line
+	7850 4650 7950 4650
+Connection ~ 7850 4650
+Connection ~ 6900 4500
+Connection ~ 6800 4400
+Wire Wire Line
+	7850 4700 7750 4700
+Wire Wire Line
+	7850 4250 7850 4700
+Wire Wire Line
+	7750 4600 7850 4600
+Wire Wire Line
+	7750 4500 7850 4500
+Connection ~ 7850 4600
+Wire Wire Line
+	7750 4400 7850 4400
+Connection ~ 7850 4500
+Connection ~ 7850 4400
+Connection ~ 7350 4600
+$Comp
+L +3.3V #PWR05
+U 1 1 5838EFE3
+P 1500 1150
+F 0 "#PWR05" H 1500 1000 50  0001 C CNN
+F 1 "+3.3V" H 1500 1290 50  0000 C CNN
+F 2 "" H 1500 1150 50  0000 C CNN
+F 3 "" H 1500 1150 50  0000 C CNN
+	1    1500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1150 1500 1350
+$Comp
+L GND #PWR06
+U 1 1 5838F06F
+P 1000 1200
+F 0 "#PWR06" H 1000 950 50  0001 C CNN
+F 1 "GND" H 1000 1050 50  0000 C CNN
+F 2 "" H 1000 1200 50  0000 C CNN
+F 3 "" H 1000 1200 50  0000 C CNN
+	1    1000 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1200 1000 1100
+Wire Wire Line
+	1000 1100 1200 1100
+Wire Wire Line
+	1200 1100 1200 1350
+$Comp
+L Logo_Poncho #G2
+U 1 1 5838FBE9
+P 3750 6900
+F 0 "#G2" H 3700 6500 60  0001 C CNN
+F 1 "Logo_Poncho" H 3950 6500 60  0001 C CNN
+F 2 "" H 3750 6900 60  0000 C CNN
+F 3 "" H 3750 6900 60  0000 C CNN
+	1    3750 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OSHWA #G1
+U 1 1 5838FC73
+P 2950 7050
+F 0 "#G1" H 2920 7450 60  0001 C CNN
+F 1 "OSHWA" H 2950 7353 60  0001 C CNN
+F 2 "" H 2950 7050 60  0000 C CNN
+F 3 "" H 2950 7050 60  0000 C CNN
+	1    2950 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P1
+U 1 1 58396B6A
+P 2100 6800
+F 0 "P1" H 2100 6900 50  0000 C CNN
+F 1 "MOUNT_HOLE" V 2200 6800 50  0000 C CNN
+F 2 "footprints:PIN_ARRAY_1" H 2100 6800 50  0001 C CNN
+F 3 "" H 2100 6800 50  0000 C CNN
+	1    2100 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P2
+U 1 1 58396C16
+P 2100 7350
+F 0 "P2" H 2100 7450 50  0000 C CNN
+F 1 "MOUNT_HOLE" V 2200 7350 50  0000 C CNN
+F 2 "footprints:PIN_ARRAY_1" H 2100 7350 50  0001 C CNN
+F 3 "" H 2100 7350 50  0000 C CNN
+	1    2100 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 58396D10
+P 1600 7100
+F 0 "#PWR07" H 1600 6850 50  0001 C CNN
+F 1 "GND" H 1600 6950 50  0000 C CNN
+F 2 "" H 1600 7100 50  0000 C CNN
+F 3 "" H 1600 7100 50  0000 C CNN
+	1    1600 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6800 1750 6800
+Wire Wire Line
+	1750 6800 1750 7350
+Wire Wire Line
+	1750 7350 1900 7350
+Wire Wire Line
+	1600 7100 1600 7050
+Wire Wire Line
+	1550 7050 1750 7050
+Connection ~ 1750 7050
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 5839792E
+P 1550 6950
+F 0 "#FLG08" H 1550 7045 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 7130 50  0000 C CNN
+F 2 "" H 1550 6950 50  0000 C CNN
+F 3 "" H 1550 6950 50  0000 C CNN
+	1    1550 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6950 1550 7050
+Connection ~ 1600 7050
+$Comp
+L PWR_FLAG #FLG09
+U 1 1 583979B3
+P 1800 1100
+F 0 "#FLG09" H 1800 1195 50  0001 C CNN
+F 1 "PWR_FLAG" H 1800 1280 50  0000 C CNN
+F 2 "" H 1800 1100 50  0000 C CNN
+F 3 "" H 1800 1100 50  0000 C CNN
+	1    1800 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1100 1800 1200
+Wire Wire Line
+	1800 1200 1500 1200
+Connection ~ 1500 1200
+$Comp
+L Conn_Pico_Ciaa_Esqueleto Conn1
+U 12 1 584E1052
+P 3100 4450
+F 0 "Conn1" H 3100 4950 60  0000 C CNN
+F 1 "Conn_Pico" H 3100 3850 60  0000 C CNN
+F 2 "pico_ciaa_ponchos:Conn_Pico_Ciaa" H 3250 4400 60  0001 C CNN
+F 3 "" H 3250 4400 60  0000 C CNN
+F 4 "Value" H 3100 4450 60  0001 C CNN "Digikey#"
+	12   3100 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4800 4550 4800
+Wire Wire Line
+	4550 4800 4550 4750
+Wire Wire Line
+	4550 4750 3900 4750
+NoConn ~ 3900 4650
+NoConn ~ 3900 4550
+NoConn ~ 3900 4450
+NoConn ~ 3900 4350
+NoConn ~ 3900 4250
+NoConn ~ 3900 4150
+NoConn ~ 2300 4750
+NoConn ~ 2300 4650
+NoConn ~ 2300 4550
+NoConn ~ 2300 4450
+NoConn ~ 2300 4350
+NoConn ~ 2300 4250
+NoConn ~ 2300 4150
+$Comp
+L Conn_Pico_Ciaa_Esqueleto Conn1
+U 1 1 584E1F08
+P 7500 2450
+F 0 "Conn1" H 7500 2800 60  0000 C CNN
+F 1 "Conn_Pico" H 7500 2000 60  0000 C CNN
+F 2 "pico_ciaa_ponchos:Conn_Pico_Ciaa" H 7500 2400 60  0001 C CNN
+F 3 "" H 7500 2400 60  0000 C CNN
+F 4 "Value" H 7500 2450 60  0001 C CNN "Digikey#"
+	1    7500 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4200 6700 4200
+Wire Wire Line
+	6700 4200 6700 2350
+Wire Wire Line
+	6600 4300 6750 4300
+Wire Wire Line
+	6750 4300 6750 2550
+Wire Wire Line
+	6750 2550 6850 2550
+Wire Wire Line
+	6700 2350 6850 2350
+NoConn ~ 8150 2300
+NoConn ~ 8150 2450
+NoConn ~ 8150 2600
+$Comp
+L Conn_Pico_Ciaa_Esqueleto Conn1
+U 6 1 584E2F21
+P 7550 3550
+F 0 "Conn1" H 7550 3850 60  0000 C CNN
+F 1 "Conn_Pico" H 7550 3150 60  0000 C CNN
+F 2 "pico_ciaa_ponchos:Conn_Pico_Ciaa" H 7550 3500 60  0001 C CNN
+F 3 "" H 7550 3500 60  0000 C CNN
+F 4 "Value" H 7550 3550 60  0001 C CNN "Digikey#"
+	6    7550 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 4500 6900 3650
+Wire Wire Line
+	6900 3650 7100 3650
+Wire Wire Line
+	6800 4400 6800 3450
+Wire Wire Line
+	6800 3450 7100 3450
+$Comp
+L Conn_Pico_Ciaa_Esqueleto Conn1
+U 10 1 584E316B
+P 9200 3300
+F 0 "Conn1" H 9200 3600 60  0000 C CNN
+F 1 "Conn_Pico" H 9200 2850 60  0000 C CNN
+F 2 "pico_ciaa_ponchos:Conn_Pico_Ciaa" H 9200 3250 60  0001 C CNN
+F 3 "" H 9200 3250 60  0000 C CNN
+F 4 "Value" H 9200 3300 60  0001 C CNN "Digikey#"
+	10   9200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4600 7350 4000
+Wire Wire Line
+	7350 4000 8300 4000
+Wire Wire Line
+	8300 4000 8300 3250
+Wire Wire Line
+	8300 3250 8450 3250
+NoConn ~ 8450 3150
+NoConn ~ 8450 3350
+NoConn ~ 8450 3450
+NoConn ~ 9950 3400
+NoConn ~ 9950 3300
+NoConn ~ 9950 3200
+$Comp
+L Conn_Pico Conn1
+U 14 1 584E37EC
+P 1350 1850
+F 0 "Conn1" H 1350 2150 60  0000 C CNN
+F 1 "Conn_Pico" H 1300 1350 60  0000 C CNN
+F 2 "pico_ciaa_ponchos:Conn_Pico_Ciaa" H 1350 1800 60  0001 C CNN
+F 3 "" H 1350 1800 60  0000 C CNN
+F 4 "Value" H 1350 1850 60  0001 C CNN "Digikey#"
+	14   1350 1850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1200 1350 1350 1350
+Connection ~ 1200 1350
+$EndSCHEMATC
