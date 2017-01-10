@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TB6612FNG
+D Toshiba PWM Chopper driver stepping motor control
+K Motor control
+F http://www.toshiba.com/taec/components2/Datasheet_Sync/382/27885.pdf
+$ENDCMP
+#
+#End Doc Library
