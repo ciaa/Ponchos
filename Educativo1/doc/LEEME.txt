@@ -1,0 +1,12 @@
+EDUPONCHO
+=============
+
+Este circuito tiene una  variedad de componentes para realizar ensayos variados y poder aplicar los conceptos aprendidos en la carrera.
+Implementa entradas Analógicas, salidas PWM, salidas a relé y  entradas optoacopladas.
+
+URL: (URL en la wiki de la CIAA)
+FUNCIÓN: Poncho Educativo.
+AUTORES/INSTITUCIONES: Evangelista Guillermo- CESE
+
+
+
