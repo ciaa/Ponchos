@@ -5,7 +5,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 5
+Sheet 5 5
 Title "Poncho Osciloscopio"
 Date "2015-10-06"
 Rev "1.0"
@@ -283,9 +283,9 @@ F 0 "XA1" H 5650 4650 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 5700 2550 60  0000 C CNN
 F 2 "osc:poncho_grande" H 5600 2450 60  0000 C CNN
 F 3 "" H 5350 4250 60  0000 C CNN
-F 4 "S6104-ND" H 5350 4250 60  0001 C CNN "Digikey#"
-F 5 "PPTC202LFBN-RC" H 5350 4250 60  0001 C CNN "Manf#"
-F 6 "Sullins Connector Solutions" H 5350 4250 60  0001 C CNN "Manf"
+F 4 "Sullins Connector Solutions" H 5350 4250 60  0001 C CNN "Manf"
+F 5 "PEC20DAAN" H 5350 4250 60  0001 C CNN "Manf#"
+F 6 "S2012E-20-ND" H 5350 4250 60  0001 C CNN "Digikey#"
 	2    5350 4250
 	1    0    0    -1  
 $EndComp
@@ -297,9 +297,9 @@ F 0 "XA1" H 5650 1900 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 5700 -200 60  0000 C CNN
 F 2 "osc:poncho_grande" H 5650 -300 60  0000 C CNN
 F 3 "" H 5350 1500 60  0000 C CNN
-F 4 "S6104-ND" H 5350 1500 60  0001 C CNN "Digikey#"
-F 5 "PPTC202LFBN-RC" H 5350 1500 60  0001 C CNN "Manf#"
-F 6 "Sullins Connector Solutions" H 5350 1500 60  0001 C CNN "Manf"
+F 4 "Sullins Connector Solutions" H 5350 1500 60  0001 C CNN "Manf"
+F 5 "PEC20DAAN" H 5350 1500 60  0001 C CNN "Manf#"
+F 6 "S2012E-20-ND" H 5350 1500 60  0001 C CNN "Digikey#"
 	1    5350 1500
 	1    0    0    -1  
 $EndComp
