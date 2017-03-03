@@ -1,9 +1,9 @@
-(module mod:poncho_grande locked (layer F.Cu) (tedit 560F9FE5)
+(module poncho_grande (layer F.Cu) (tedit 58B8916B)
   (tags CONN)
-  (fp_text reference XA1 (at -0.762 -2.032 180) (layer F.SilkS)
+  (fp_text reference XA1 (at -0.762 -2.032) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
-  (fp_text value Conn_Poncho2P_2x_20x2 (at 1.27 50.8) (layer F.SilkS)
+  (fp_text value Conn_Poncho2P_2x_20x2 (at 1.27 50.8) (layer F.SilkS) hide
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
   (fp_arc (start -74.803 70.739) (end -74.93 73.66) (angle 90) (layer F.SilkS) (width 0.15))
@@ -377,4 +377,14 @@
   (pad ~ thru_hole circle (at 3.302 68.834) (size 7 7) (drill 4) (layers *.Cu *.Mask F.SilkS))
   (pad ~ thru_hole circle (at -73.025 -58.547) (size 7 7) (drill 4) (layers *.Cu *.Mask F.SilkS))
   (pad ~ thru_hole circle (at 3.302 -58.674) (size 7 7) (drill 4) (layers *.Cu *.Mask F.SilkS))
+  (model pin_strip_20x2.wrl
+    (at (xyz 0.05 -0.95 -0.07000000000000001))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 270))
+  )
+  (model pin_strip_20x2.wrl
+    (at (xyz -2.75 -0.95 -0.07000000000000001))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 90))
+  )
 )
