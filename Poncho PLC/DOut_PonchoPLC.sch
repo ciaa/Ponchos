@@ -255,7 +255,7 @@ F 4 "Esqueleto EDU-CIAA" H 5900 6000 60  0001 C CNN "Title"
 	1    5900 6000
 	1    0    0    -1  
 $EndComp
-Text HLabel 5750 5700 0    60   Input ~ 0
+Text HLabel 7900 5700 0    60   Input ~ 0
 DOUT2
 Text Label 7050 5000 0    60   ~ 0
 C1C
@@ -389,7 +389,7 @@ F 4 "Esqueleto EDU-CIAA" H 8050 6000 60  0001 C CNN "Title"
 	1    8050 6000
 	1    0    0    -1  
 $EndComp
-Text HLabel 7900 5700 0    60   Input ~ 0
+Text HLabel 5750 5700 0    60   Input ~ 0
 DOUT3
 Text Label 9200 5000 0    60   ~ 0
 C1D

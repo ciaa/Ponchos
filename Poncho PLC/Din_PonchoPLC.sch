@@ -48,7 +48,7 @@ F 3 "" H 5250 1350 60  0000 C CNN
 	1    5250 1350
 	1    0    0    -1  
 $EndComp
-Text HLabel 6450 1200 2    60   Output ~ 0
+Text HLabel 6450 6050 2    60   Output ~ 0
 DIN0
 $Comp
 L +3.3V #PWR020
@@ -224,7 +224,7 @@ F 3 "" H 5250 2150 60  0000 C CNN
 	1    5250 2150
 	1    0    0    -1  
 $EndComp
-Text HLabel 6450 2000 2    60   Output ~ 0
+Text HLabel 6450 4450 2    60   Output ~ 0
 DIN1
 $Comp
 L +3.3V #PWR022
@@ -359,7 +359,7 @@ F 3 "" H 5250 2950 60  0000 C CNN
 	1    5250 2950
 	1    0    0    -1  
 $EndComp
-Text HLabel 6450 2800 2    60   Output ~ 0
+Text HLabel 6450 5250 2    60   Output ~ 0
 DIN2
 $Comp
 L +3.3V #PWR024
@@ -495,7 +495,7 @@ F 3 "" H 5250 3750 60  0000 C CNN
 	1    5250 3750
 	1    0    0    -1  
 $EndComp
-Text HLabel 6450 3600 2    60   Output ~ 0
+Text HLabel 6450 2800 2    60   Output ~ 0
 DIN3
 $Comp
 L +3.3V #PWR026
@@ -618,7 +618,7 @@ F 3 "" H 5250 4600 60  0000 C CNN
 	1    5250 4600
 	1    0    0    -1  
 $EndComp
-Text HLabel 6450 4450 2    60   Output ~ 0
+Text HLabel 6450 1200 2    60   Output ~ 0
 DIN4
 $Comp
 L +3.3V #PWR028
@@ -754,7 +754,7 @@ F 3 "" H 5250 5400 60  0000 C CNN
 	1    5250 5400
 	1    0    0    -1  
 $EndComp
-Text HLabel 6450 5250 2    60   Output ~ 0
+Text HLabel 6450 2000 2    60   Output ~ 0
 DIN5
 $Comp
 L +3.3V #PWR030
@@ -890,7 +890,7 @@ F 3 "" H 5250 6200 60  0000 C CNN
 	1    5250 6200
 	1    0    0    -1  
 $EndComp
-Text HLabel 6450 6050 2    60   Output ~ 0
+Text HLabel 6450 3600 2    60   Output ~ 0
 DIN6
 $Comp
 L +3.3V #PWR032
