@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Poncho_Superior_PicoCIAA)(type KiCad)(uri "$(KIPRJMOD)/Poncho_Superior_PicoCIAA.pretty")(options "")(descr ""))
+)
