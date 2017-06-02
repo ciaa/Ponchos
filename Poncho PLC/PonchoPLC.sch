@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:PonchoPLC
+LIBS:EESTN5
 LIBS:PonchoPLC-cache
 EELAYER 25 0
 EELAYER END
@@ -297,7 +298,7 @@ U 1 1 56E0166E
 P 5800 2100
 F 0 "J1" H 5800 2350 60  0000 C CNN
 F 1 "I2C" H 6000 2100 60  0000 C CNN
-F 2 "EESTN5:JST-4V" H 5800 2100 60  0001 C CNN
+F 2 "EESTN5:pin_strip_4" H 5800 2100 60  0001 C CNN
 F 3 "" H 5800 2100 60  0000 C CNN
 F 4 "Esqueleto EDU-CIAA" H 5800 2100 60  0001 C CNN "Title"
 	1    5800 2100
@@ -502,4 +503,48 @@ Wire Wire Line
 	3600 3250 5250 3250
 Wire Wire Line
 	2750 2950 3100 2950
+$Comp
+L Mounting_Hole H1
+U 1 1 592B9E9D
+P 8700 3030
+F 0 "H1" H 8700 3230 50  0000 C CNN
+F 1 "Mounting_Hole" H 8700 3155 50  0001 C CNN
+F 2 "Poncho-PLC:Separador_M3_5mm" H 8700 3030 60  0001 C CNN
+F 3 "" H 8700 3030 60  0001 C CNN
+	1    8700 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole H2
+U 1 1 592BD1A6
+P 8915 3030
+F 0 "H2" H 8915 3230 50  0000 C CNN
+F 1 "Mounting_Hole" H 8915 3155 50  0001 C CNN
+F 2 "Poncho-PLC:Separador_M3_5mm" H 8915 3030 60  0001 C CNN
+F 3 "" H 8915 3030 60  0001 C CNN
+	1    8915 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole H3
+U 1 1 592BD309
+P 9130 3030
+F 0 "H3" H 9130 3230 50  0000 C CNN
+F 1 "Mounting_Hole" H 9130 3155 50  0001 C CNN
+F 2 "Poncho-PLC:Separador_M3_5mm" H 9130 3030 60  0001 C CNN
+F 3 "" H 9130 3030 60  0001 C CNN
+	1    9130 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole H4
+U 1 1 592BD30F
+P 9350 3030
+F 0 "H4" H 9350 3230 50  0000 C CNN
+F 1 "Mounting_Hole" H 9350 3155 50  0001 C CNN
+F 2 "Poncho-PLC:Separador_M3_5mm" H 9350 3030 60  0001 C CNN
+F 3 "" H 9350 3030 60  0001 C CNN
+	1    9350 3030
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

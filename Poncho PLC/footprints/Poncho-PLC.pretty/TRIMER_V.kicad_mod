@@ -1,10 +1,10 @@
-(module EESTN5:TRIMER_V (layer F.Cu) (tedit 56DDBA52)
+(module TRIMER_V (layer F.Cu) (tedit 592B8675)
   (descr "trimmer, Piher PT6-xV")
   (tags trimmer)
   (fp_text reference RV1 (at 0 4.89966) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
-  (fp_text value 10K (at 0 -4.699) (layer F.SilkS)
+  (fp_text value 10K (at 0 -4.699) (layer F.SilkS) hide
     (effects (font (thickness 0.3048)))
   )
   (fp_arc (start 0 0) (end 2.32918 2.21996) (angle 90) (layer F.SilkS) (width 0.35052))
