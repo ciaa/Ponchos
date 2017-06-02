@@ -1,4 +1,4 @@
-update=13/03/2017 11:22:41 p.m.
+update=29/05/2017 1:05:48
 version=1
 last_client=kicad
 [cvpcb]
@@ -39,5 +39,6 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=components/PonchoPLC
+LibName2=G:/Dropbox/EEST5 Alumnos/Librerias Kicad/EESTN5
 [general]
 version=1

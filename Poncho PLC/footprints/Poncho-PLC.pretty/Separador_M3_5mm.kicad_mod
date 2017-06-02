@@ -1,0 +1,21 @@
+(module Separador_M3_5mm (layer F.Cu) (tedit 592B7BD9)
+  (descr "Separador M3 5mm de alto")
+  (fp_text reference Separador_M3_5mm (at 0 -3.302) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 5.334 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_line (start 0 -3) (end 0 3) (layer B.SilkS) (width 0.254))
+  (fp_line (start -3 0) (end 3 0) (layer B.SilkS) (width 0.254))
+  (fp_circle (center 0 0) (end 3 0) (layer B.SilkS) (width 0.254))
+  (fp_circle (center 0 0) (end 3 0) (layer F.SilkS) (width 0.254))
+  (fp_line (start -3 0) (end 3 0) (layer F.SilkS) (width 0.254))
+  (fp_line (start 0 -3) (end 0 3) (layer F.SilkS) (width 0.254))
+  (pad 1 thru_hole circle (at 0 0) (size 3.25 3.25) (drill 3.25) (layers *.Cu F.SilkS))
+  (model Separador_M3_5mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
