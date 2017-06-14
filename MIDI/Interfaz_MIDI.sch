@@ -10,8 +10,8 @@ Title "Interfaz MIDI"
 Date "2017-05-19"
 Rev "v0.1"
 Comp "FIUBA - LSE - CESE                                                        Licencia: BSD"
-Comment1 "Autor: Carlos I. Mancón"
-Comment2 ""
+Comment1 "Revisores: Marcelo Moreno  /  Diego Brengi"
+Comment2 "Autor: Carlos I. Mancón"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -22,7 +22,12 @@ P 2310 2025
 F 0 "J1" H 2635 1850 50  0000 C CNN
 F 1 "DIN_5" H 2635 1775 50  0000 C CNN
 F 2 "MIDI:DIN5_180" H 2310 2025 50  0001 C CNN
-F 3 "" H 2310 2025 50  0001 C CNN
+F 3 "/Datasheets/sdf-xxj.pdf" H 2310 2025 50  0001 C CNN
+F 4 "CONN DIN 5POS FEMALE SHIELDED " H 0   0   50  0001 C CNN "Desc"
+F 5 "CP-7050-ND " H 0   0   50  0001 C CNN "Digikey#"
+F 6 "CUI Inc." H 0   0   50  0001 C CNN "Manf"
+F 7 "SDF-50J" H 0   0   50  0001 C CNN "Manf#"
+F 8 "490-SDF-50J" H 0   0   50  0001 C CNN "Mouser#"
 	1    2310 2025
 	-1   0    0    1   
 $EndComp
@@ -49,13 +54,18 @@ F 3 "" H 1310 3795 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FILTER FB2
+L FILTER FB3
 U 1 1 591EF24F
 P 3465 3035
-F 0 "FB2" H 3465 3185 60  0000 C CNN
+F 0 "FB3" H 3465 3185 60  0000 C CNN
 F 1 "1k @100MHz" H 3465 2935 60  0000 C CNN
-F 2 "Choke_SMD:Choke_SMD_1206_Handsoldering" H 3465 3035 60  0001 C CNN
-F 3 "" H 3465 3035 60  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3465 3035 60  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload" H 3465 3035 60  0001 C CNN
+F 4 "FERRITE BEAD 1 KOHM 0805 1LN" H 0   0   50  0001 C CNN "Desc"
+F 5 "587-1904-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manf"
+F 7 "BK2125HS102-T" H 0   0   50  0001 C CNN "Manf#"
+F 8 "963-BK2125HS102-T" H 0   0   50  0001 C CNN "Mouser#"
 	1    3465 3035
 	1    0    0    -1  
 $EndComp
@@ -65,22 +75,14 @@ U 1 1 591EF4BE
 P 3465 2225
 F 0 "FB1" H 3465 2375 60  0000 C CNN
 F 1 "1k @100MHz" H 3465 2125 60  0000 C CNN
-F 2 "Choke_SMD:Choke_SMD_1206_Handsoldering" H 3465 2225 60  0001 C CNN
-F 3 "" H 3465 2225 60  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3465 2225 60  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload" H 3465 2225 60  0001 C CNN
+F 4 "FERRITE BEAD 1 KOHM 0805 1LN" H 0   0   50  0001 C CNN "Desc"
+F 5 "587-1904-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manf"
+F 7 "BK2125HS102-T" H 0   0   50  0001 C CNN "Manf#"
+F 8 "963-BK2125HS102-T" H 0   0   50  0001 C CNN "Mouser#"
 	1    3465 2225
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1910 2025
-NoConn ~ 2710 2025
-$Comp
-L +3,3V #PWR03
-U 1 1 591EFB9D
-P 5595 1705
-F 0 "#PWR03" H 5595 1665 30  0001 C CNN
-F 1 "+3,3V" H 5595 1815 30  0000 C CNN
-F 2 "" H 5595 1705 60  0000 C CNN
-F 3 "" H 5595 1705 60  0000 C CNN
-	1    5595 1705
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -90,15 +92,20 @@ P 9345 2500
 F 0 "J2" H 9020 2305 50  0000 C CNN
 F 1 "DIN_5" H 9020 2230 50  0000 C CNN
 F 2 "MIDI:DIN5_180" H 9345 2500 50  0001 C CNN
-F 3 "" H 9345 2500 50  0001 C CNN
+F 3 "/Datasheets/sdf-xxj.pdf" H 9345 2500 50  0001 C CNN
+F 4 "CONN DIN 5POS FEMALE SHIELDED " H 0   0   50  0001 C CNN "Desc"
+F 5 "CP-7050-ND " H 0   0   50  0001 C CNN "Digikey#"
+F 6 "CUI Inc." H 0   0   50  0001 C CNN "Manf"
+F 7 "SDF-50J" H 0   0   50  0001 C CNN "Manf#"
+F 8 "490-SDF-50J" H 0   0   50  0001 C CNN "Mouser#"
 	1    9345 2500
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR03
 U 1 1 591F2DFA
 P 9345 3000
-F 0 "#PWR04" H 9345 3000 30  0001 C CNN
+F 0 "#PWR03" H 9345 3000 30  0001 C CNN
 F 1 "GND" H 9345 2930 30  0001 C CNN
 F 2 "" H 9345 3000 60  0000 C CNN
 F 3 "" H 9345 3000 60  0000 C CNN
@@ -106,10 +113,10 @@ F 3 "" H 9345 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR04
 U 1 1 591F2E00
 P 8845 2000
-F 0 "#PWR05" H 8845 2000 30  0001 C CNN
+F 0 "#PWR04" H 8845 2000 30  0001 C CNN
 F 1 "GND" H 8845 1930 30  0001 C CNN
 F 2 "" H 8845 2000 60  0000 C CNN
 F 3 "" H 8845 2000 60  0000 C CNN
@@ -117,13 +124,18 @@ F 3 "" H 8845 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FILTER FB3
+L FILTER FB2
 U 1 1 591F2E06
 P 8345 2700
-F 0 "FB3" H 8345 2850 60  0000 C CNN
+F 0 "FB2" H 8345 2850 60  0000 C CNN
 F 1 "1k @100MHz" H 8345 2600 60  0000 C CNN
-F 2 "Choke_SMD:Choke_SMD_1206_Handsoldering" H 8345 2700 60  0001 C CNN
-F 3 "" H 8345 2700 60  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8345 2700 60  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload" H 8345 2700 60  0001 C CNN
+F 4 "FERRITE BEAD 1 KOHM 0805 1LN" H 0   0   50  0001 C CNN "Desc"
+F 5 "587-1904-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manf"
+F 7 "BK2125HS102-T" H 0   0   50  0001 C CNN "Manf#"
+F 8 "963-BK2125HS102-T" H 0   0   50  0001 C CNN "Mouser#"
 	1    8345 2700
 	1    0    0    -1  
 $EndComp
@@ -133,29 +145,37 @@ U 1 1 591F2E0C
 P 8345 3500
 F 0 "FB4" H 8345 3650 60  0000 C CNN
 F 1 "1k @100MHz" H 8345 3400 60  0000 C CNN
-F 2 "Choke_SMD:Choke_SMD_1206_Handsoldering" H 8345 3500 60  0001 C CNN
-F 3 "" H 8345 3500 60  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8345 3500 60  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload" H 8345 3500 60  0001 C CNN
+F 4 "FERRITE BEAD 1 KOHM 0805 1LN" H 0   0   50  0001 C CNN "Desc"
+F 5 "587-1904-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manf"
+F 7 "BK2125HS102-T" H 0   0   50  0001 C CNN "Manf#"
+F 8 "963-BK2125HS102-T" H 0   0   50  0001 C CNN "Mouser#"
 	1    8345 3500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8945 2500
-NoConn ~ 9745 2500
 $Comp
-L R R6
+L R R2
 U 1 1 591F2E1A
 P 7735 2280
-F 0 "R6" V 7815 2280 40  0000 C CNN
-F 1 "33R" V 7742 2281 40  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7665 2280 30  0001 C CNN
-F 3 "" H 7735 2280 30  0000 C CNN
+F 0 "R2" V 7815 2280 40  0000 C CNN
+F 1 "33R 0,5W" V 7742 2281 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7665 2280 30  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C291.pdf" H 7735 2280 30  0001 C CNN
+F 4 "RES SMD 33 OHM 5% 1/2W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "P33ADCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manf"
+F 7 "ERJ-P06J330V" H 0   0   50  0001 C CNN "Manf#"
+F 8 "667-ERJ-P06J330V" H 0   0   50  0001 C CNN "Mouser#"
 	1    7735 2280
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3,3V #PWR06
+L +3,3V #PWR05
 U 1 1 591F2E21
 P 7735 1930
-F 0 "#PWR06" H 7735 1890 30  0001 C CNN
+F 0 "#PWR05" H 7735 1890 30  0001 C CNN
 F 1 "+3,3V" H 7735 2040 30  0000 C CNN
 F 2 "" H 7735 1930 60  0000 C CNN
 F 3 "" H 7735 1930 60  0000 C CNN
@@ -163,13 +183,18 @@ F 3 "" H 7735 1930 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R R5
 U 1 1 591F2E28
 P 7495 3500
-F 0 "R4" V 7575 3500 40  0000 C CNN
+F 0 "R5" V 7575 3500 40  0000 C CNN
 F 1 "10R" V 7502 3501 40  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7425 3500 30  0001 C CNN
-F 3 "" H 7495 3500 30  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7425 3500 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 7495 3500 30  0001 C CNN
+F 4 "RES SMD 10 OHM 5% 1/4W 0603" H 0   0   50  0001 C CNN "Desc"
+F 5 "RHM10DCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ100" H 0   0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ100" H 0   0   50  0001 C CNN "Mouser#"
 	1    7495 3500
 	0    1    1    0   
 $EndComp
@@ -180,15 +205,20 @@ P 9345 4725
 F 0 "J3" H 9020 4550 50  0000 C CNN
 F 1 "DIN_5" H 9020 4450 50  0000 C CNN
 F 2 "MIDI:DIN5_180" H 9345 4725 50  0001 C CNN
-F 3 "" H 9345 4725 50  0001 C CNN
+F 3 "/Datasheets/sdf-xxj.pdf" H 9345 4725 50  0001 C CNN
+F 4 "CONN DIN 5POS FEMALE SHIELDED " H 0   0   50  0001 C CNN "Desc"
+F 5 "CP-7050-ND " H 0   0   50  0001 C CNN "Digikey#"
+F 6 "CUI Inc." H 0   0   50  0001 C CNN "Manf"
+F 7 "SDF-50J" H 0   0   50  0001 C CNN "Manf#"
+F 8 "490-SDF-50J" H 0   0   50  0001 C CNN "Mouser#"
 	1    9345 4725
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR07
+L GND #PWR06
 U 1 1 591F518A
 P 9345 5225
-F 0 "#PWR07" H 9345 5225 30  0001 C CNN
+F 0 "#PWR06" H 9345 5225 30  0001 C CNN
 F 1 "GND" H 9345 5155 30  0001 C CNN
 F 2 "" H 9345 5225 60  0000 C CNN
 F 3 "" H 9345 5225 60  0000 C CNN
@@ -196,10 +226,10 @@ F 3 "" H 9345 5225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR07
 U 1 1 591F5190
 P 8845 4225
-F 0 "#PWR08" H 8845 4225 30  0001 C CNN
+F 0 "#PWR07" H 8845 4225 30  0001 C CNN
 F 1 "GND" H 8845 4155 30  0001 C CNN
 F 2 "" H 8845 4225 60  0000 C CNN
 F 3 "" H 8845 4225 60  0000 C CNN
@@ -212,29 +242,37 @@ U 1 1 591F519C
 P 8345 5725
 F 0 "FB6" H 8345 5875 60  0000 C CNN
 F 1 "1k @100MHz" H 8345 5625 60  0000 C CNN
-F 2 "Choke_SMD:Choke_SMD_1206_Handsoldering" H 8345 5725 60  0001 C CNN
-F 3 "" H 8345 5725 60  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8345 5725 60  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload" H 8345 5725 60  0001 C CNN
+F 4 "FERRITE BEAD 1 KOHM 0805 1LN" H 0   0   50  0001 C CNN "Desc"
+F 5 "587-1904-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manf"
+F 7 "BK2125HS102-T" H 0   0   50  0001 C CNN "Manf#"
+F 8 "963-BK2125HS102-T" H 0   0   50  0001 C CNN "Mouser#"
 	1    8345 5725
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8945 4725
-NoConn ~ 9745 4725
 $Comp
-L R R7
+L R R6
 U 1 1 591F51AA
 P 7735 4505
-F 0 "R7" V 7815 4505 40  0000 C CNN
-F 1 "33R" V 7742 4506 40  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7665 4505 30  0001 C CNN
-F 3 "" H 7735 4505 30  0000 C CNN
+F 0 "R6" V 7815 4505 40  0000 C CNN
+F 1 "33R 0,5W" V 7742 4506 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7665 4505 30  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C291.pdf" H 7735 4505 30  0001 C CNN
+F 4 "RES SMD 33 OHM 5% 1/2W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "P33ADCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manf"
+F 7 "ERJ-P06J330V" H 0   0   50  0001 C CNN "Manf#"
+F 8 "667-ERJ-P06J330V" H 0   0   50  0001 C CNN "Mouser#"
 	1    7735 4505
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3,3V #PWR09
+L +3,3V #PWR08
 U 1 1 591F51B1
 P 7735 4155
-F 0 "#PWR09" H 7735 4115 30  0001 C CNN
+F 0 "#PWR08" H 7735 4115 30  0001 C CNN
 F 1 "+3,3V" H 7735 4265 30  0000 C CNN
 F 2 "" H 7735 4155 60  0000 C CNN
 F 3 "" H 7735 4155 60  0000 C CNN
@@ -242,13 +280,18 @@ F 3 "" H 7735 4155 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R R7
 U 1 1 591F51B8
 P 7495 5725
-F 0 "R5" V 7575 5725 40  0000 C CNN
+F 0 "R7" V 7575 5725 40  0000 C CNN
 F 1 "10R" V 7502 5726 40  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7425 5725 30  0001 C CNN
-F 3 "" H 7495 5725 30  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7425 5725 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 7495 5725 30  0001 C CNN
+F 4 "RES SMD 10 OHM 5% 1/4W 0603" H 0   0   50  0001 C CNN "Desc"
+F 5 "RHM10DCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ100" H 0   0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ100" H 0   0   50  0001 C CNN "Mouser#"
 	1    7495 5725
 	0    1    1    0   
 $EndComp
@@ -258,8 +301,13 @@ U 1 1 591F5196
 P 8345 4925
 F 0 "FB5" H 8345 5075 60  0000 C CNN
 F 1 "1k @100MHz" H 8345 4825 60  0000 C CNN
-F 2 "Choke_SMD:Choke_SMD_1206_Handsoldering" H 8345 4925 60  0001 C CNN
-F 3 "" H 8345 4925 60  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8345 4925 60  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload" H 8345 4925 60  0001 C CNN
+F 4 "FERRITE BEAD 1 KOHM 0805 1LN" H 0   0   50  0001 C CNN "Desc"
+F 5 "587-1904-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manf"
+F 7 "BK2125HS102-T" H 0   0   50  0001 C CNN "Manf#"
+F 8 "963-BK2125HS102-T" H 0   0   50  0001 C CNN "Mouser#"
 	1    8345 4925
 	1    0    0    -1  
 $EndComp
@@ -270,7 +318,12 @@ P 4855 2625
 F 0 "U1" H 4655 2950 50  0000 L CNN
 F 1 "6N138" H 4730 2300 50  0000 L CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 4655 2250 50  0001 L CIN
-F 3 "" V 4880 2600 50  0001 L CNN
+F 3 "/Datasheets/6n138.pdf" V 4880 2600 50  0001 L CNN
+F 4 "OPTOISO 5KV DARL W/BASE 8DIP" H 0   0   50  0001 C CNN "Desc"
+F 5 "160-1795-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Lite-On Inc." H 0   0   50  0001 C CNN "Manf"
+F 7 "6N138" H 0   0   50  0001 C CNN "Manf#"
+F 8 "859-6N138" H 0   0   50  0001 C CNN "Mouser#"
 	1    4855 2625
 	1    0    0    -1  
 $EndComp
@@ -281,7 +334,12 @@ P 4065 2635
 F 0 "D1" H 4065 2735 40  0000 C CNN
 F 1 "1N4148" H 4065 2535 40  0000 C CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4065 2635 60  0001 C CNN
-F 3 "" H 4065 2635 60  0000 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/1N/1N914.pdf" H 4065 2635 60  0001 C CNN
+F 4 "DIODE GEN PURP 100V 200MA DO35" H 0   0   50  0001 C CNN "Desc"
+F 5 "1N4148FS-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Fairchild/ON Semiconductor" H 0   0   50  0001 C CNN "Manf"
+F 7 "1N4148 " H 0   0   50  0001 C CNN "Manf#"
+F 8 "512-1N4148" H 0   0   50  0001 C CNN "Mouser#"
 	1    4065 2635
 	0    -1   -1   0   
 $EndComp
@@ -291,8 +349,13 @@ U 1 1 5920397A
 P 2310 3345
 F 0 "C2" H 2310 3445 40  0000 L CNN
 F 1 "100nF" H 2316 3260 40  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 2348 3195 30  0001 C CNN
-F 3 "" H 2310 3345 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2348 3195 30  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" H 2310 3345 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V X7R 0603 " H 0   0   50  0001 C CNN "Desc"
+F 5 "490-1532-1-ND " H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
+F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
+F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    2310 3345
 	1    0    0    -1  
 $EndComp
@@ -302,16 +365,21 @@ U 1 1 592045AD
 P 1310 3345
 F 0 "C1" H 1310 3445 40  0000 L CNN
 F 1 "100nF" H 1316 3260 40  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1348 3195 30  0001 C CNN
-F 3 "" H 1310 3345 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1348 3195 30  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" H 1310 3345 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V X7R 0603 " H 0   0   50  0001 C CNN "Desc"
+F 5 "490-1532-1-ND " H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
+F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
+F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    1310 3345
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR010
+L +5V #PWR09
 U 1 1 592048C3
 P 5145 1695
-F 0 "#PWR010" H 5145 1785 20  0001 C CNN
+F 0 "#PWR09" H 5145 1785 20  0001 C CNN
 F 1 "+5V" H 5145 1785 30  0000 C CNN
 F 2 "" H 5145 1695 60  0000 C CNN
 F 3 "" H 5145 1695 60  0000 C CNN
@@ -319,32 +387,42 @@ F 3 "" H 5145 1695 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R R1
 U 1 1 59204927
 P 5595 2145
-F 0 "R3" V 5675 2145 40  0000 C CNN
-F 1 "R" V 5602 2146 40  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5525 2145 30  0001 C CNN
-F 3 "" H 5595 2145 30  0000 C CNN
+F 0 "R1" V 5675 2145 40  0000 C CNN
+F 1 "1K" V 5602 2146 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5525 2145 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 5595 2145 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
 	1    5595 2145
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R R4
 U 1 1 59204AFB
 P 5385 3285
-F 0 "R2" V 5465 3285 40  0000 C CNN
-F 1 "R" V 5392 3286 40  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5315 3285 30  0001 C CNN
-F 3 "" H 5385 3285 30  0000 C CNN
+F 0 "R4" V 5465 3285 40  0000 C CNN
+F 1 "4K7" V 5392 3286 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5315 3285 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 5385 3285 30  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
+F 5 "RHM4.7KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ472" H 0   0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ472" H 0   0   50  0001 C CNN "Mouser#"
 	1    5385 3285
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L GND #PWR010
 U 1 1 59204F47
 P 5145 3785
-F 0 "#PWR011" H 5145 3785 30  0001 C CNN
+F 0 "#PWR010" H 5145 3785 30  0001 C CNN
 F 1 "GND" H 5145 3715 30  0001 C CNN
 F 2 "" H 5145 3785 60  0000 C CNN
 F 3 "" H 5145 3785 60  0000 C CNN
@@ -352,10 +430,10 @@ F 3 "" H 5145 3785 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L GND #PWR011
 U 1 1 59204FEC
 P 5385 3785
-F 0 "#PWR012" H 5385 3785 30  0001 C CNN
+F 0 "#PWR011" H 5385 3785 30  0001 C CNN
 F 1 "GND" H 5385 3715 30  0001 C CNN
 F 2 "" H 5385 3785 60  0000 C CNN
 F 3 "" H 5385 3785 60  0000 C CNN
@@ -369,7 +447,12 @@ P 6545 3500
 F 0 "U2" H 6740 3615 50  0000 C CNN
 F 1 "4050" H 6735 3375 50  0000 C CNN
 F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 6545 3500 60  0001 C CNN
-F 3 "" H 6545 3500 60  0001 C CNN
+F 3 "/Datasheets/cd4050b.pdf" H 6545 3500 60  0001 C CNN
+F 4 "IC BUFF/CONVERTER HEX 16DIP" H 0   0   50  0001 C CNN "Desc"
+F 5 "296-2056-5-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Manf"
+F 7 "CD4050BE" H 0   0   50  0001 C CNN "Manf#"
+F 8 "595-CD4050BE" H 0   0   50  0001 C CNN "Mouser#"
 	2    6545 3500
 	1    0    0    -1  
 $EndComp
@@ -380,19 +463,175 @@ P 6545 2700
 F 0 "U2" H 6740 2815 50  0000 C CNN
 F 1 "4050" H 6735 2575 50  0000 C CNN
 F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 6545 2700 60  0001 C CNN
-F 3 "" H 6545 2700 60  0001 C CNN
+F 3 "/Datasheets/cd4050b.pdf" H 6545 2700 60  0001 C CNN
+F 4 "IC BUFF/CONVERTER HEX 16DIP" H 0   0   50  0001 C CNN "Desc"
+F 5 "296-2056-5-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Manf"
+F 7 "CD4050BE" H 0   0   50  0001 C CNN "Manf#"
+F 8 "595-CD4050BE" H 0   0   50  0001 C CNN "Mouser#"
 	1    6545 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4050 U2
-U 3 1 59207B19
+U 6 1 59207B19
 P 6545 5725
 F 0 "U2" H 6740 5840 50  0000 C CNN
 F 1 "4050" H 6735 5600 50  0000 C CNN
 F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 6545 5725 60  0001 C CNN
-F 3 "" H 6545 5725 60  0001 C CNN
-	3    6545 5725
+F 3 "/Datasheets/cd4050b.pdf" H 6545 5725 60  0001 C CNN
+F 4 "IC BUFF/CONVERTER HEX 16DIP" H 0   0   50  0001 C CNN "Desc"
+F 5 "296-2056-5-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Manf"
+F 7 "CD4050BE" H 0   0   50  0001 C CNN "Manf#"
+F 8 "595-CD4050BE" H 0   0   50  0001 C CNN "Mouser#"
+	6    6545 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 59203121
+P 2785 3035
+F 0 "R3" V 2865 3035 40  0000 C CNN
+F 1 "220R" V 2792 3036 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2715 3035 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 2785 3035 30  0001 C CNN
+F 4 "RES SMD 220 OHM 5% 1/4W 0603" H 0   0   50  0001 C CNN "Desc"
+F 5 "RHM220DCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ221" H 0   0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ221" H 0   0   50  0001 C CNN "Mouser#"
+	1    2785 3035
+	0    1    1    0   
+$EndComp
+$Comp
+L +3,3V #PWR012
+U 1 1 592B8FC1
+P 6495 5540
+F 0 "#PWR012" H 6495 5500 30  0001 C CNN
+F 1 "+3,3V" H 6495 5650 30  0000 C CNN
+F 2 "" H 6495 5540 60  0000 C CNN
+F 3 "" H 6495 5540 60  0000 C CNN
+	1    6495 5540
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 592B9192
+P 6495 5925
+F 0 "#PWR013" H 6495 5925 30  0001 C CNN
+F 1 "GND" H 6495 5855 30  0001 C CNN
+F 2 "" H 6495 5925 60  0000 C CNN
+F 3 "" H 6495 5925 60  0000 C CNN
+	1    6495 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 592CE7E7
+P 6560 7380
+F 0 "#PWR014" H 6560 7380 30  0001 C CNN
+F 1 "GND" H 6560 7310 30  0001 C CNN
+F 2 "" H 6560 7380 60  0000 C CNN
+F 3 "" H 6560 7380 60  0000 C CNN
+	1    6560 7380
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR015
+U 1 1 592CE837
+P 6560 6780
+F 0 "#PWR015" H 6560 6740 30  0001 C CNN
+F 1 "+3,3V" H 6560 6890 30  0000 C CNN
+F 2 "" H 6560 6780 60  0000 C CNN
+F 3 "" H 6560 6780 60  0000 C CNN
+	1    6560 6780
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 592CE8FA
+P 6560 7080
+F 0 "C3" H 6560 7180 40  0000 L CNN
+F 1 "100nF" H 6566 6995 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6598 6930 30  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" H 6560 7080 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V X7R 0603 " H 0   0   50  0001 C CNN "Desc"
+F 5 "490-1532-1-ND " H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
+F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
+F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
+	1    6560 7080
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR016
+U 1 1 592EB13E
+P 1300 4500
+F 0 "#PWR016" H 1300 4460 30  0001 C CNN
+F 1 "+3,3V" H 1300 4610 30  0000 C CNN
+F 2 "" H 1300 4500 60  0000 C CNN
+F 3 "" H 1300 4500 60  0000 C CNN
+	1    1300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4050 U2
+U 3 1 592EB98D
+P 1850 4650
+F 0 "U2" H 2045 4765 50  0000 C CNN
+F 1 "4050" H 2040 4525 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 1850 4650 60  0001 C CNN
+F 3 "/Datasheets/cd4050b.pdf" H 1850 4650 60  0001 C CNN
+F 4 "IC BUFF/CONVERTER HEX 16DIP" H 0   0   50  0001 C CNN "Desc"
+F 5 "296-2056-5-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Manf"
+F 7 "CD4050BE" H 0   0   50  0001 C CNN "Manf#"
+F 8 "595-CD4050BE" H 0   0   50  0001 C CNN "Mouser#"
+	3    1850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4050 U2
+U 4 1 592EBF02
+P 1850 5050
+F 0 "U2" H 2045 5165 50  0000 C CNN
+F 1 "4050" H 2040 4925 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 1850 5050 60  0001 C CNN
+F 3 "/Datasheets/cd4050b.pdf" H 1850 5050 60  0001 C CNN
+F 4 "IC BUFF/CONVERTER HEX 16DIP" H 0   0   50  0001 C CNN "Desc"
+F 5 "296-2056-5-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Manf"
+F 7 "CD4050BE" H 0   0   50  0001 C CNN "Manf#"
+F 8 "595-CD4050BE" H 0   0   50  0001 C CNN "Mouser#"
+	4    1850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4050 U2
+U 5 1 592EC048
+P 1850 5450
+F 0 "U2" H 2045 5565 50  0000 C CNN
+F 1 "4050" H 2040 5325 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 1850 5450 60  0001 C CNN
+F 3 "/Datasheets/cd4050b.pdf" H 1850 5450 60  0001 C CNN
+F 4 "IC BUFF/CONVERTER HEX 16DIP" H 0   0   50  0001 C CNN "Desc"
+F 5 "296-2056-5-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Manf"
+F 7 "CD4050BE" H 0   0   50  0001 C CNN "Manf#"
+F 8 "595-CD4050BE" H 0   0   50  0001 C CNN "Mouser#"
+	5    1850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR017
+U 1 1 594043E3
+P 5595 1695
+F 0 "#PWR017" H 5595 1785 20  0001 C CNN
+F 1 "+5V" H 5595 1785 30  0000 C CNN
+F 2 "" H 5595 1695 60  0000 C CNN
+F 3 "" H 5595 1695 60  0000 C CNN
+	1    5595 1695
 	1    0    0    -1  
 $EndComp
 Text HLabel 6995 2700 2    60   Output ~ 0
@@ -405,17 +644,14 @@ Text Notes 9595 4450 0    60   ~ 0
 MIDI OUT
 Text Notes 9620 2230 0    60   ~ 0
 MIDI THRU
-$Comp
-L R R1
-U 1 1 59203121
-P 2785 3035
-F 0 "R1" V 2865 3035 40  0000 C CNN
-F 1 "220R" V 2792 3036 40  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2715 3035 30  0001 C CNN
-F 3 "" H 2785 3035 30  0000 C CNN
-	1    2785 3035
-	0    1    1    0   
-$EndComp
+Text Notes 6250 7760 0    60   ~ 0
+Colocar cerca\nde Hex Buffer
+Text Notes 2150 4300 0    60   ~ 0
+Nota 1
+Text Notes 600  6650 0    100  ~ 0
+Notas:
+Text Notes 1050 6800 0    60   ~ 0
+1. Segun recomendación del fabricante. Apartado 11 de Hoja de Datos.
 Wire Wire Line
 	9345 2900 9345 3000
 Wire Wire Line
@@ -478,10 +714,8 @@ Wire Wire Line
 	4345 2700 4345 3035
 Wire Wire Line
 	4065 2835 4065 3035
-Connection ~ 4065 3035
 Wire Wire Line
 	4065 2435 4065 2225
-Connection ~ 4065 2225
 Wire Wire Line
 	1660 3035 1660 2225
 Wire Wire Line
@@ -510,12 +744,10 @@ Wire Wire Line
 	5385 3785 5385 3535
 Wire Wire Line
 	5130 2700 6095 2700
-Connection ~ 5595 2700
-Connection ~ 5845 2700
 Wire Wire Line
 	5595 2395 5595 2700
 Wire Wire Line
-	5595 1895 5595 1705
+	5595 1695 5595 1895
 Wire Wire Line
 	1660 3035 2535 3035
 Wire Wire Line
@@ -534,65 +766,10 @@ Wire Wire Line
 	1310 1275 1310 3145
 Wire Wire Line
 	2310 2425 2310 3145
-$Comp
-L +3,3V #PWR013
-U 1 1 592B8FC1
-P 6495 5540
-F 0 "#PWR013" H 6495 5500 30  0001 C CNN
-F 1 "+3,3V" H 6495 5650 30  0000 C CNN
-F 2 "" H 6495 5540 60  0000 C CNN
-F 3 "" H 6495 5540 60  0000 C CNN
-	1    6495 5540
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6495 5540 6495 5625
-$Comp
-L GND #PWR014
-U 1 1 592B9192
-P 6495 5925
-F 0 "#PWR014" H 6495 5925 30  0001 C CNN
-F 1 "GND" H 6495 5855 30  0001 C CNN
-F 2 "" H 6495 5925 60  0000 C CNN
-F 3 "" H 6495 5925 60  0000 C CNN
-	1    6495 5925
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6495 5825 6495 5925
-$Comp
-L GND #PWR015
-U 1 1 592CE7E7
-P 6560 7380
-F 0 "#PWR015" H 6560 7380 30  0001 C CNN
-F 1 "GND" H 6560 7310 30  0001 C CNN
-F 2 "" H 6560 7380 60  0000 C CNN
-F 3 "" H 6560 7380 60  0000 C CNN
-	1    6560 7380
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3,3V #PWR016
-U 1 1 592CE837
-P 6560 6780
-F 0 "#PWR016" H 6560 6740 30  0001 C CNN
-F 1 "+3,3V" H 6560 6890 30  0000 C CNN
-F 2 "" H 6560 6780 60  0000 C CNN
-F 3 "" H 6560 6780 60  0000 C CNN
-	1    6560 6780
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C3
-U 1 1 592CE8FA
-P 6560 7080
-F 0 "C3" H 6560 7180 40  0000 L CNN
-F 1 "100nF" H 6566 6995 40  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6598 6930 30  0001 C CNN
-F 3 "" H 6560 7080 60  0000 C CNN
-	1    6560 7080
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6970 6535 6150 6535
 Wire Notes Line
@@ -601,29 +778,14 @@ Wire Wire Line
 	6560 7280 6560 7380
 Wire Wire Line
 	6560 6880 6560 6780
-Text Notes 6250 7760 0    60   ~ 0
-Colocar cerca\nde Hex Buffer
 Wire Wire Line
 	1300 4500 1300 5450
 Wire Wire Line
 	1300 5450 1400 5450
-$Comp
-L +3,3V #PWR017
-U 1 1 592EB13E
-P 1300 4500
-F 0 "#PWR017" H 1300 4460 30  0001 C CNN
-F 1 "+3,3V" H 1300 4610 30  0000 C CNN
-F 2 "" H 1300 4500 60  0000 C CNN
-F 3 "" H 1300 4500 60  0000 C CNN
-	1    1300 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 4650 1300 4650
-Connection ~ 1300 4650
 Wire Wire Line
 	1400 5050 1300 5050
-Connection ~ 1300 5050
 Wire Notes Line
 	1100 4200 1100 5800
 Wire Notes Line
@@ -632,46 +794,19 @@ Wire Notes Line
 	2500 5800 2500 4200
 Wire Notes Line
 	2500 4200 1100 4200
-Text Notes 2150 4300 0    60   ~ 0
-Nota 1
-Text Notes 600  6650 0    100  ~ 0
-Notas:
-Text Notes 1050 6800 0    60   ~ 0
-1. Segun recomendación del fabricante. Apartado 11 de Hoja de Datos.
+Connection ~ 4065 3035
+Connection ~ 4065 2225
+Connection ~ 5595 2700
+Connection ~ 5845 2700
+Connection ~ 1300 4650
+Connection ~ 1300 5050
+NoConn ~ 1910 2025
+NoConn ~ 2710 2025
+NoConn ~ 8945 2500
+NoConn ~ 9745 2500
+NoConn ~ 8945 4725
+NoConn ~ 9745 4725
 NoConn ~ 2300 4650
 NoConn ~ 2300 5050
 NoConn ~ 2300 5450
-$Comp
-L 4050 U2
-U 4 1 592EB98D
-P 1850 4650
-F 0 "U2" H 2045 4765 50  0000 C CNN
-F 1 "4050" H 2040 4525 50  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 1850 4650 60  0001 C CNN
-F 3 "" H 1850 4650 60  0001 C CNN
-	4    1850 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4050 U2
-U 5 1 592EBF02
-P 1850 5050
-F 0 "U2" H 2045 5165 50  0000 C CNN
-F 1 "4050" H 2040 4925 50  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 1850 5050 60  0001 C CNN
-F 3 "" H 1850 5050 60  0001 C CNN
-	5    1850 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4050 U2
-U 6 1 592EC048
-P 1850 5450
-F 0 "U2" H 2045 5565 50  0000 C CNN
-F 1 "4050" H 2040 5325 50  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 1850 5450 60  0001 C CNN
-F 3 "" H 1850 5450 60  0001 C CNN
-	6    1850 5450
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

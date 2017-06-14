@@ -10,8 +10,8 @@ Title "Poncho MIDI"
 Date "2017-05-19"
 Rev "v0.1"
 Comp "FIUBA - LSE - CESE                                                        Licencia: BSD"
-Comment1 "Autor: Carlos I. Mancón"
-Comment2 ""
+Comment1 "Revisores: Marcelo Moreno  /  Diego Brengi"
+Comment2 "Autor: Carlos I. Mancón"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -131,4 +131,10 @@ Wire Wire Line
 	3250 6400 4050 6400
 Wire Wire Line
 	3250 6550 4050 6550
+Wire Notes Line
+	6970 710  6975 710 
+Text Notes 7150 2700 0    120  ~ 0
+Indice:\n  1. Esquemático jerárquico\n  2. Interfaz MIDI\n  3. Conectores\n  4. Encoders\n  5. Pulsadores
+Text Notes 4250 1050 0    157  ~ 31
+Poncho EDU-CIAA - MIDI
 $EndSCHEMATC
