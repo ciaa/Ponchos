@@ -1,0 +1,31 @@
+Drill report for /home/diego/git/github/Ponchos/Osciloscopio/Oscilloscopio.kicad_pcb
+Created on lun 17 oct 2016 16:09:39 ART
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Oscilloscopio.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,71mm  0,028"  (14 holes)
+    T2  0,80mm  0,031"  (66 holes)
+    T3  0,81mm  0,032"  (3 holes)
+    T4  1,00mm  0,039"  (9 holes)
+    T5  1,00mm  0,039"  (2 holes)
+    T6  1,02mm  0,040"  (83 holes)
+    T7  1,20mm  0,047"  (3 holes)
+    T8  2,20mm  0,087"  (2 holes)
+    T9  3,20mm  0,126"  (4 holes)
+    T10  4,00mm  0,157"  (4 holes)
+
+    Total plated holes count 190
+
+
+Drill file 'Oscilloscopio-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

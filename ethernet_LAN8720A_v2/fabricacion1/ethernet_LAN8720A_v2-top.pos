@@ -1,0 +1,33 @@
+### Module positions - created on lun 17 oct 2016 16:58:20 ART ###
+### Printed by Pcbnew version kicad 4.0.2+dfsg1-2~bpo8+1-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                    PosX       PosY       Rot  Side
+L1        FBEAD 22  SM0603                 133.4860   -84.2440  180.0000  top
+R1        1k5       SM0603_Resistor        121.4120   -78.9940  270.0000  top
+R2        10k       SM0603_Resistor        117.2300   -77.2590   90.0000  top
+R3        49,9 1%   SM0603_Resistor        126.6280   -90.5940   90.0000  top
+R4        49,9 1%   SM0603_Resistor        123.0720   -90.5940   90.0000  top
+R5        49,9 1%   SM0603_Resistor        133.2320   -89.5780   90.0000  top
+R6        49,9 1%   SM0603_Resistor        128.1520   -90.5940   90.0000  top
+R7        0         SM0603_Resistor        107.4510   -99.2300    0.0000  top
+R8        0         SM0603_Resistor        107.4510  -101.6430    0.0000  top
+R9        0         SM0603_Resistor        111.6420   -82.2120    0.0000  top
+R10       22        SM0603_Resistor        127.6440   -75.2270  270.0000  top
+R11       22        SM0603_Resistor        129.4855   -75.2270  270.0000  top
+R12       22        SM0603_Resistor        124.3420   -77.3860  270.0000  top
+R13       0         SM0603_Resistor        107.4510   -96.6900    0.0000  top
+R14       0         SM0603_Resistor        111.6420   -79.7990    0.0000  top
+R15       10k       SM0603_Resistor        119.3800   -78.9940  270.0000  top
+R16       10k       SM0603_Resistor        131.9620   -81.7040  180.0000  top
+R17       270       SM0603_Resistor        120.7860  -105.5800  270.0000  top
+R18       270       SM0603_Resistor        141.2330  -105.7070   90.0000  top
+R19       12.1k 1%  SM0603_Resistor        130.3110   -85.5140    0.0000  top
+R20       33        SM0603_Resistor         98.2900   -78.1600    0.0000  top
+R21       100k      SM0603_Resistor        104.5300   -70.2740    0.0000  top
+R22       33        SM0603_Resistor        119.8970   -75.6080  270.0000  top
+R23       33        SM0603_Resistor         93.3540   -74.2110  270.0000  top
+R24       0         SM0603_Resistor        117.2300  -128.6940  180.0000  top
+R25       100k      SM0603_Resistor        115.2900   -79.0100  270.0000  top
+U2         50MHZ    Oscillator_7.0x5.0mm    98.5400   -73.6600  180.0000  top
+## End

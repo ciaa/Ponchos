@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name sw)(type KiCad)(uri C:\PROYECTOSPCB\TP_PONCHO_SAE_5\MISFOOTPRINT.pretty)(options "")(descr ""))
+  (lib (name res)(type KiCad)(uri C:\PROYECTOSPCB\TP_PONCHO_SAE_5\MISFOOTPRINT.pretty)(options "")(descr ""))
+  (lib (name led)(type KiCad)(uri C:\PROYECTOSPCB\TP_PONCHO_SAE_5\MISFOOTPRINT.pretty)(options "")(descr ""))
+  (lib (name con1)(type KiCad)(uri C:\PROYECTOSPCB\TP_PONCHO_SAE_5\MISFOOTPRINT.pretty)(options "")(descr ""))
+  (lib (name con)(type KiCad)(uri C:\PROYECTOSPCB\TP_PONCHO_SAE_5\MISFOOTPRINT.pretty)(options "")(descr ""))
+  (lib (name c)(type KiCad)(uri C:\PROYECTOSPCB\TP_PONCHO_SAE_5\MISFOOTPRINT.pretty)(options "")(descr ""))
+  (lib (name bat)(type KiCad)(uri C:\PROYECTOSPCB\TP_PONCHO_SAE_5\MISFOOTPRINT.pretty)(options "")(descr ""))
+  (lib (name XBEE)(type KiCad)(uri C:\PROYECTOSPCB\TP_PONCHO_SAE_5\MISFOOTPRINT.pretty)(options "")(descr ""))
+  (lib (name SP)(type KiCad)(uri C:\PROYECTOSPCB\TP_PONCHO_SAE_5\MISFOOTPRINT.pretty)(options "")(descr ""))
+  (lib (name ACEL)(type KiCad)(uri C:\PROYECTOSPCB\TP_PONCHO_SAE_5\MISFOOTPRINT.pretty)(options "")(descr ""))
+)

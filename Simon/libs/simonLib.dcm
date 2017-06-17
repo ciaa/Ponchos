@@ -1,0 +1,71 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V
+K POWER, PWR
+$ENDCMP
+#
+$CMP BC546
+D 65V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
+K BC546 NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+$CMP BC547
+D 45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
+K BC547 NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+$CMP BC548
+D 30V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
+K BC548 NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+$CMP BC549
+D 30V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
+K BC549 NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+$CMP BC550
+D 45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
+K BC550 NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP LED_5_MM
+K LED
+$ENDCMP
+#
+$CMP PWR_JUMPER
+D Connector 02x02
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP SW_PUSH
+D Button
+K Switch
+$ENDCMP
+#
+$CMP VDD
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library

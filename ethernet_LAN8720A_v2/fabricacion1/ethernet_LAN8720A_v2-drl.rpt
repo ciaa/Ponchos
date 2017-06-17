@@ -1,0 +1,27 @@
+Drill report for /home/diego/git/github/Ponchos/ethernet_LAN8720A_v2/ethernet_LAN8720A_v2.kicad_pcb
+Created on lun 17 oct 2016 17:04:11 ART
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ethernet_LAN8720A_v2.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,50mm  0,020"  (152 holes)
+    T2  0,89mm  0,035"  (9 holes)
+    T3  1,02mm  0,040"  (52 holes)
+    T4  1,57mm  0,062"  (2 holes)
+    T5  2,20mm  0,087"  (2 holes)
+    T6  3,25mm  0,128"  (2 holes)
+
+    Total plated holes count 219
+
+
+Drill file 'ethernet_LAN8720A_v2-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

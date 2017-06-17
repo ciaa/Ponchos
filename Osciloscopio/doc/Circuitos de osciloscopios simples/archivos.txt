@@ -1,0 +1,38 @@
+miniscope_v2b_20110623.pdf:
+	Fuente: http://tomeko.net/miniscope_v2b/
+	Notas: 
+		_ Circuito simple
+		_ Tiene protecciones en las entradas
+		_ Rango de entrada de -50V a 50V en x1
+		_ Componentes disponibles en el mercado local
+		_ Selección de rangos en llaves digitales
+		_ Opcion de acoplamiento en DC y AC con llaves analogicas
+		_ No tienen potenciometro de selección de nivel de disparo
+		_ Esquematicos y routeo en Eagle
+
+small-scope.pdf:
+	Fuente: https://github.com/marvin-sinister/small-scope-electronics
+	Notas: 
+		_ Circuito simple
+		_ No tiene protecciones en las entradas
+		_ No permite tensiones negativas
+		_ Rango de entrada 0V a 5V en x1
+		_ Selección de rangos con jumpers
+		_ Opcion de acoplamiento en DC y AC con jumpers
+		_ Potenciometro de selección de nivel de disparo
+		_ Esquematicos y routeo en kicad
+
+
+osciprime-schematic-dagobert.pdf:
+	Fuente: http://www.osciprime.com/index.php?p=source
+	Notas: 
+		- Circuito un poco más complejo
+		_ No tiene protecciones en las entradas		
+		_ Rango de entrada de -10v a 10V en x1
+		_ Selección de rangos en llaves digitales
+		_ Opcion de acoplamiento en DC y AC con llaves analogicas
+		_ No tienen potenciometro de selección de nivel de disparo
+		_ Esquematicos y routeo en Eagle
+		
+
+

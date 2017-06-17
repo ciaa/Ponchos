@@ -1,0 +1,1105 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Poncho EDU CIAA Amp Audio-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Poncho EDU CIAA Amp Audio"
+Date ""
+Rev ""
+Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA - Version EDU CIAA NXP"
+Comment1 "Autor: Valentin Giovagnoli                    Licencia: Ver 'doc/LICENCIA.txt'"
+Comment2 "Curso: Diseño de Circuitos Impresos CESE"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM741 U1
+U 1 1 5797220C
+P 3050 4500
+F 0 "U1" H 3050 4750 50  0000 L CNN
+F 1 "LM741" H 3050 4650 50  0000 L CNN
+F 2 "footprints:LM741_Texas_Instruments" H 3100 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 3200 4650 50  0001 C CNN
+F 4 "LM741CNNS/NOPB-ND" H 3050 4500 60  0001 C CNN "Digikey#"
+F 5 "lm741.pdf" H 3050 4500 60  0001 C CNN "Datasheet"
+F 6 "IC OPAMP GP 1.5MHZ 8DIP" H 3050 4500 60  0001 C CNN "Desc"
+F 7 "Texas Instrument" H 3050 4500 60  0001 C CNN "Manf"
+F 8 "LM741CN/NOPB" H 3050 4500 60  0001 C CNN "Manf#"
+F 9 "Value" H 3050 4500 60  0001 C CNN "Path datasheet"
+F 10 "Value" H 3050 4500 60  0001 C CNN "Mouser#"
+F 11 "Value" H 3050 4500 60  0001 C CNN "Newark#"
+	1    3050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_2P J1
+U 1 1 5797221B
+P 1400 1150
+F 0 "J1" H 1050 950 50  0000 C CNN
+F 1 "JACK_2P" H 1250 1400 50  0000 C CNN
+F 2 "footprints:Conector_mini_Plug" H 1400 1150 50  0001 C CNN
+F 3 "http://www.cui.com/product/resource/mj-3536ng.pdf" H 1400 1150 50  0001 C CNN
+F 4 "CP-3536NG-ND" H 1400 1150 60  0001 C CNN "Digikey#"
+F 5 "mj-3536ng.pdf" H 1400 1150 60  0001 C CNN "Datasheet"
+F 6 "3.50mm (0.141\", 1/8\", Mini Plug) - Headphone Phone Jack Mono Connector Solder Eyelet(s)" H 1400 1150 60  0001 C CNN "Desc"
+F 7 "CUI Inc." H 1400 1150 60  0001 C CNN "Manf"
+F 8 "MJ-3536NG" H 1400 1150 60  0001 C CNN "Manf#"
+F 9 "Value" H 1400 1150 60  0001 C CNN "Path datasheet"
+F 10 "Value" H 1400 1150 60  0001 C CNN "Mouser#"
+F 11 "Value" H 1400 1150 60  0001 C CNN "Newark#"
+	1    1400 1150
+	1    0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR3
+U 1 1 57972222
+P 1900 1750
+F 0 "#PWR3" H 1900 1500 50  0001 C CNN
+F 1 "GNDA" H 1900 1600 50  0000 C CNN
+F 2 "" H 1900 1750 50  0000 C CNN
+F 3 "" H 1900 1750 50  0000 C CNN
+	1    1900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV1
+U 1 1 5797222F
+P 2550 1150
+F 0 "RV1" H 2550 1050 50  0000 C CNN
+F 1 "20k" H 2550 1150 50  0000 C CNN
+F 2 "footprints:POT_20K_0.25W_Bourns_3310C" H 2550 1150 50  0001 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/3310.pdf" H 2550 1150 50  0001 C CNN
+F 4 "3310C-001-203L-ND" H 2550 1150 60  0001 C CNN "Digikey#"
+F 5 "POT 20K OHM 1/4W PLASTIC LINEAR" H 2550 1150 60  0001 C CNN "Desc"
+F 6 "Bourns Inc." H 2550 1150 60  0001 C CNN "Manf"
+F 7 "3310C-001-203L" H 2550 1150 60  0001 C CNN "Manf#"
+F 8 "Value" H 2550 1150 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 2550 1150 60  0001 C CNN "Mouser#"
+F 10 "Value" H 2550 1150 60  0001 C CNN "Newark#"
+	1    2550 1150
+	1    0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR7
+U 1 1 57972236
+P 3100 1250
+F 0 "#PWR7" H 3100 1000 50  0001 C CNN
+F 1 "GNDA" H 3100 1100 50  0000 C CNN
+F 2 "" H 3100 1250 50  0000 C CNN
+F 3 "" H 3100 1250 50  0000 C CNN
+	1    3100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 57972243
+P 3000 1900
+F 0 "R6" V 3080 1900 50  0000 C CNN
+F 1 "15k" V 3000 1900 50  0000 C CNN
+F 2 "footprints:R_1206_HandSoldering" V 2930 1900 50  0001 C CNN
+F 3 "" H 3000 1900 50  0000 C CNN
+F 4 "311-15.0KFRTR-ND" H 3000 1900 60  0001 C CNN "Digikey#"
+F 5 "RES SMD 15K OHM 1% 1/4W 1206" H 3000 1900 60  0001 C CNN "Desc"
+F 6 "Yageo" H 3000 1900 60  0001 C CNN "Manf"
+F 7 "RC1206FR-0715KL" H 3000 1900 60  0001 C CNN "Manf#"
+F 8 "Value" H 3000 1900 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 3000 1900 60  0001 C CNN "Mouser#"
+F 10 "Value" H 3000 1900 60  0001 C CNN "Newark#"
+	1    3000 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L C C3
+U 1 1 57972251
+P 2550 1600
+F 0 "C3" H 2575 1700 50  0000 L CNN
+F 1 "0,022 uF" H 2575 1500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2588 1450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_14.pdf" H 2550 1600 50  0001 C CNN
+F 4 "311-1176-2-ND" H 2550 1600 60  0001 C CNN "Digikey#"
+F 5 "0.022µF 50V Ceramic Capacitor X7R 1206 (3216 Metric) 0.126\" L x 0.063\" W (3.20mm x 1.60mm)" H 2550 1600 60  0001 C CNN "Desc"
+F 6 "Yageo" H 2550 1600 60  0001 C CNN "Manf"
+F 7 "CC1206KRX7R9BB223" H 2550 1600 60  0001 C CNN "Manf#"
+F 8 "Value" H 2550 1600 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 2550 1600 60  0001 C CNN "Mouser#"
+F 10 "Value" H 2550 1600 60  0001 C CNN "Newark#"
+	1    2550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR8
+U 1 1 57972258
+P 3450 2000
+F 0 "#PWR8" H 3450 1750 50  0001 C CNN
+F 1 "GNDA" H 3450 1850 50  0000 C CNN
+F 2 "" H 3450 2000 50  0000 C CNN
+F 3 "" H 3450 2000 50  0000 C CNN
+	1    3450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 57972265
+P 2550 2300
+F 0 "C4" H 2575 2400 50  0000 L CNN
+F 1 "1 uF" H 2575 2200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2588 2150 50  0001 C CNN
+F 3 "" H 2550 2300 50  0000 C CNN
+F 4 "311-1356-2-ND" H 2550 2300 60  0001 C CNN "Digikey#"
+F 5 "1µF 25V Ceramic Capacitor X7R 1206 (3216 Metric) 0.126\" L x 0.063\" W (3.20mm x 1.60mm)" H 2550 2300 60  0001 C CNN "Desc"
+F 6 "Yageo" H 2550 2300 60  0001 C CNN "Manf"
+F 7 "CC1206KKX7R8BB105" H 2550 2300 60  0001 C CNN "Manf#"
+F 8 "Value" H 2550 2300 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 2550 2300 60  0001 C CNN "Mouser#"
+F 10 "Value" H 2550 2300 60  0001 C CNN "Newark#"
+	1    2550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 57972273
+P 2100 2650
+F 0 "R3" V 2180 2650 50  0000 C CNN
+F 1 "47k" V 2100 2650 50  0000 C CNN
+F 2 "footprints:R_1206_HandSoldering" V 2030 2650 50  0001 C CNN
+F 3 "" H 2100 2650 50  0000 C CNN
+F 4 "311-47.0KFRTR-ND" H 2100 2650 60  0001 C CNN "Digikey#"
+F 5 "RES SMD 47K OHM 1% 1/4W 1206" H 2100 2650 60  0001 C CNN "Desc"
+F 6 "Yageo" H 2100 2650 60  0001 C CNN "Manf"
+F 7 "RC1206FR-0747KL" H 2100 2650 60  0001 C CNN "Manf#"
+F 8 "Value" H 2100 2650 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 2100 2650 60  0001 C CNN "Mouser#"
+F 10 "Value" H 2100 2650 60  0001 C CNN "Newark#"
+	1    2100 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 57972281
+P 1500 2350
+F 0 "R1" V 1580 2350 50  0000 C CNN
+F 1 "4,7k" V 1500 2350 50  0000 C CNN
+F 2 "footprints:R_1206_HandSoldering" V 1430 2350 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 1500 2350 50  0001 C CNN
+F 4 "311-4.70KFRTR-ND" H 1500 2350 60  0001 C CNN "Digikey#"
+F 5 "RES SMD 4.7K OHM 1% 1/4W 1206" H 1500 2350 60  0001 C CNN "Desc"
+F 6 "Yageo" H 1500 2350 60  0001 C CNN "Manf"
+F 7 "RC1206FR-074K7L" H 1500 2350 60  0001 C CNN "Manf#"
+F 8 "Value" H 1500 2350 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 1500 2350 60  0001 C CNN "Mouser#"
+F 10 "Value" H 1500 2350 60  0001 C CNN "Newark#"
+	1    1500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5797228F
+P 1500 2950
+F 0 "R2" V 1580 2950 50  0000 C CNN
+F 1 "4,7k" V 1500 2950 50  0000 C CNN
+F 2 "footprints:R_1206_HandSoldering" V 1430 2950 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 1500 2950 50  0001 C CNN
+F 4 "311-4.70KFRTR-ND" H 1500 2950 60  0001 C CNN "Digikey#"
+F 5 "RES SMD 4.7K OHM 1% 1/4W 1206" H 1500 2950 60  0001 C CNN "Desc"
+F 6 "Yageo" H 1500 2950 60  0001 C CNN "Manf"
+F 7 "RC1206FR-074K7L" H 1500 2950 60  0001 C CNN "Manf#"
+F 8 "Value" H 1500 2950 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 1500 2950 60  0001 C CNN "Mouser#"
+F 10 "Value" H 1500 2950 60  0001 C CNN "Newark#"
+	1    1500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR1
+U 1 1 57972296
+P 1300 3250
+F 0 "#PWR1" H 1300 3000 50  0001 C CNN
+F 1 "GNDA" H 1300 3100 50  0000 C CNN
+F 2 "" H 1300 3250 50  0000 C CNN
+F 3 "" H 1300 3250 50  0000 C CNN
+	1    1300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 579722A9
+P 2550 3600
+F 0 "R5" V 2630 3600 50  0000 C CNN
+F 1 "1k" V 2550 3600 50  0000 C CNN
+F 2 "footprints:R_1206_HandSoldering" V 2480 3600 50  0001 C CNN
+F 3 "" H 2550 3600 50  0000 C CNN
+F 4 "311-1.00KFRTR-ND" H 2550 3600 60  0001 C CNN "Digikey#"
+F 5 "RES SMD 1K OHM 1% 1/4W 1206" H 2550 3600 60  0001 C CNN "Desc"
+F 6 "Yageo" H 2550 3600 60  0001 C CNN "Manf"
+F 7 "RC1206FR-071KL" H 2550 3600 60  0001 C CNN "Manf#"
+F 8 "Value" H 2550 3600 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 2550 3600 60  0001 C CNN "Mouser#"
+F 10 "Value" H 2550 3600 60  0001 C CNN "Newark#"
+	1    2550 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R4
+U 1 1 579722B7
+P 2450 4600
+F 0 "R4" V 2530 4600 50  0000 C CNN
+F 1 "560" V 2450 4600 50  0000 C CNN
+F 2 "footprints:R_1206_HandSoldering" V 2380 4600 50  0001 C CNN
+F 3 "" H 2450 4600 50  0000 C CNN
+F 4 "YAG3891CT-ND" H 2450 4600 60  0001 C CNN "Digikey#"
+F 5 "Valor del campo" H 2450 4600 60  0001 C CNN "Desc"
+F 6 "Yageo" H 2450 4600 60  0001 C CNN "Manf"
+F 7 "AC1206FR-07560RL" H 2450 4600 60  0001 C CNN "Manf#"
+F 8 "Value" H 2450 4600 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 2450 4600 60  0001 C CNN "Mouser#"
+F 10 "Value" H 2450 4600 60  0001 C CNN "Newark#"
+	1    2450 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDA #PWR4
+U 1 1 579722BE
+P 2050 5150
+F 0 "#PWR4" H 2050 4900 50  0001 C CNN
+F 1 "GNDA" H 2050 5000 50  0000 C CNN
+F 2 "" H 2050 5150 50  0000 C CNN
+F 3 "" H 2050 5150 50  0000 C CNN
+	1    2050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 579722CC
+P 3050 5600
+F 0 "C5" H 3075 5700 50  0000 L CNN
+F 1 "100pF" H 3075 5500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3088 5450 50  0001 C CNN
+F 3 "http://www.kemet.com/Lists/ProductCatalog/Attachments/46/KEM_C1003_C0G_SMD.pdf" H 3050 5600 50  0001 C CNN
+F 4 "399-8127-2-ND" H 3050 5600 60  0001 C CNN "Digikey#"
+F 5 "KEM_C1003_C0G_SMD.pdf" H 3050 5600 60  0001 C CNN "Datasheet"
+F 6 "100pF 50V Ceramic Capacitor C0G, NP0 1206 (3216 Metric) 0.126\" L x 0.063\" W (3.20mm x 1.60mm)" H 3050 5600 60  0001 C CNN "Desc"
+F 7 "Kemet" H 3050 5600 60  0001 C CNN "Manf"
+F 8 "C1206C101K5GACTU" H 3050 5600 60  0001 C CNN "Manf#"
+F 9 "Value" H 3050 5600 60  0001 C CNN "Path datasheet"
+F 10 "Value" H 3050 5600 60  0001 C CNN "Mouser#"
+F 11 "Value" H 3050 5600 60  0001 C CNN "Newark#"
+	1    3050 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 579722DA
+P 3050 5350
+F 0 "R7" V 3130 5350 50  0000 C CNN
+F 1 "47k" V 3050 5350 50  0000 C CNN
+F 2 "footprints:R_1206_HandSoldering" V 2980 5350 50  0001 C CNN
+F 3 "" H 3050 5350 50  0000 C CNN
+F 4 "311-47.0KFRTR-ND" H 3050 5350 60  0001 C CNN "Digikey#"
+F 5 "RES SMD 47K OHM 1% 1/4W 1206" H 3050 5350 60  0001 C CNN "Desc"
+F 6 "Yageo" H 3050 5350 60  0001 C CNN "Manf"
+F 7 "RC1206FR-0747KL" H 3050 5350 60  0001 C CNN "Manf#"
+F 8 "Value" H 3050 5350 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 3050 5350 60  0001 C CNN "Mouser#"
+F 10 "Value" H 3050 5350 60  0001 C CNN "Newark#"
+	1    3050 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C1
+U 1 1 5797230E
+P 1050 2950
+F 0 "C1" H 1075 3050 50  0000 L CNN
+F 1 "100 uF" H 1075 2850 50  0000 L CNN
+F 2 "footprints:Kemet_ESH106M050AC3AA" H 1088 2800 50  0001 C CNN
+F 3 "http://www.kemet.com/Lists/ProductCatalog/Attachments/283/KEM_A4004_ESK.pdf" H 1050 2950 50  0001 C CNN
+F 4 "399-6650-3-ND" H 1050 2950 60  0001 C CNN "Digikey#"
+F 5 "	100µF 25V Aluminum Capacitors Radial, Can 2000 Hrs @ 85°C" H 1050 2950 60  0001 C CNN "Desc"
+F 6 "Kemet" H 1050 2950 60  0001 C CNN "Manf"
+F 7 "ESK107M025AE3EA" H 1050 2950 60  0001 C CNN "Manf#"
+F 8 "Value" H 1050 2950 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 1050 2950 60  0001 C CNN "Mouser#"
+F 10 "Value" H 1050 2950 60  0001 C CNN "Newark#"
+	1    1050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 5797231C
+P 2050 4850
+F 0 "C2" H 2075 4950 50  0000 L CNN
+F 1 "22 uF" H 2075 4750 50  0000 L CNN
+F 2 "footprints:Kemet_ESH106M050AC3AA" H 2088 4700 50  0001 C CNN
+F 3 "" H 2050 4850 50  0000 C CNN
+F 4 "399-6604-ND" H 2050 4850 60  0001 C CNN "Digikey#"
+F 5 "22µF 16V Aluminum Capacitors Radial, Can 2000 Hrs @ 85°C" H 2050 4850 60  0001 C CNN "Desc"
+F 6 "Kemet" H 2050 4850 60  0001 C CNN "Manf"
+F 7 "ESK226M016AC3AA" H 2050 4850 60  0001 C CNN "Manf#"
+F 8 "Value" H 2050 4850 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 2050 4850 60  0001 C CNN "Mouser#"
+F 10 "Value" H 2050 4850 60  0001 C CNN "Newark#"
+	1    2050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C6
+U 1 1 5797232A
+P 3900 4500
+F 0 "C6" H 3925 4600 50  0000 L CNN
+F 1 "10 uF" H 3925 4400 50  0000 L CNN
+F 2 "footprints:Kemet_ESH106M050AC3AA" H 3938 4350 50  0001 C CNN
+F 3 "" H 3900 4500 50  0000 C CNN
+F 4 "399-6543-ND" H 3900 4500 60  0001 C CNN "Digikey#"
+F 5 "	10µF 50V Aluminum Capacitors Radial, Can 2000 Hrs @ 105°C" H 3900 4500 60  0001 C CNN "Desc"
+F 6 "Kemet" H 3900 4500 60  0001 C CNN "Manf"
+F 7 "ESH106M050AC3AA" H 3900 4500 60  0001 C CNN "Manf#"
+F 8 "Value" H 3900 4500 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 3900 4500 60  0001 C CNN "Mouser#"
+F 10 "Value" H 3900 4500 60  0001 C CNN "Newark#"
+	1    3900 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R8
+U 1 1 57972338
+P 4450 4500
+F 0 "R8" V 4530 4500 50  0000 C CNN
+F 1 "4,7k" V 4450 4500 50  0000 C CNN
+F 2 "footprints:R_1206_HandSoldering" V 4380 4500 50  0001 C CNN
+F 3 "" H 4450 4500 50  0000 C CNN
+F 4 "311-4.70KFRTR-ND" H 4450 4500 60  0001 C CNN "Digikey#"
+F 5 "RES SMD 4.7K OHM 1% 1/4W 1206" H 4450 4500 60  0001 C CNN "Desc"
+F 6 "Yageo" H 4450 4500 60  0001 C CNN "Manf"
+F 7 "RC1206FR-074K7L" H 4450 4500 60  0001 C CNN "Manf#"
+F 8 "Value" H 4450 4500 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 4450 4500 60  0001 C CNN "Mouser#"
+F 10 "Value" H 4450 4500 60  0001 C CNN "Newark#"
+	1    4450 4500
+	0    1    1    0   
+$EndComp
+NoConn ~ 3050 4800
+NoConn ~ 3150 4800
+$Comp
+L LM386 U2
+U 1 1 57973D56
+P 7650 1450
+F 0 "U2" H 7700 1750 50  0000 L CNN
+F 1 "LM386" H 7700 1650 50  0000 L CNN
+F 2 "footprints:LM741_Texas_Instruments" H 7750 1550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 7850 1650 50  0001 C CNN
+F 4 "296-44414-5-ND" H 7650 1450 60  0001 C CNN "Digikey#"
+F 5 "lm386.pdf" H 7650 1450 60  0001 C CNN "Datasheet"
+F 6 "IC AMP AUDIO PWR .325W MONO 8DIP" H 7650 1450 60  0001 C CNN "Desc"
+F 7 "Texas Instruments" H 7650 1450 60  0001 C CNN "Manf"
+F 8 "LM386N-1/NOPB" H 7650 1450 60  0001 C CNN "Manf#"
+F 9 "C:\\Users\\giovagno\\Desktop\\CESE\\Diseño de Circuitos Impresos\\Trabajo Final\\Datasheet" H 7650 1450 60  0001 C CNN "Path datasheet"
+F 10 "Value" H 7650 1450 60  0001 C CNN "Mouser#"
+F 11 "Value" H 7650 1450 60  0001 C CNN "Newark#"
+	1    7650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV2
+U 1 1 57973D64
+P 5800 1950
+F 0 "RV2" H 5800 1850 50  0000 C CNN
+F 1 "10 k" H 5800 1950 50  0000 C CNN
+F 2 "footprints:POT_20K_0.25W_Bourns_3310C" H 5800 1950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 6800 1350 50  0001 C CNN
+F 4 "3310C-001-103L-ND" H 5800 1950 60  0001 C CNN "Digikey#"
+F 5 "POT 10K OHM 1/4W PLASTIC LINEAR" H 5800 1950 60  0001 C CNN "Desc"
+F 6 "Bourns Inc." H 5800 1950 60  0001 C CNN "Manf"
+F 7 "3310C-001-103L" H 5800 1950 60  0001 C CNN "Manf#"
+F 8 "Value" H 5800 1950 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 5800 1950 60  0001 C CNN "Mouser#"
+F 10 "Value" H 5800 1950 60  0001 C CNN "Newark#"
+	1    5800 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDA #PWR9
+U 1 1 57973D71
+P 5800 2500
+F 0 "#PWR9" H 5800 2250 50  0001 C CNN
+F 1 "GNDA" H 5800 2350 50  0000 C CNN
+F 2 "" H 5800 2500 50  0000 C CNN
+F 3 "" H 5800 2500 50  0000 C CNN
+	1    5800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR19
+U 1 1 57973D77
+P 9700 2500
+F 0 "#PWR19" H 9700 2250 50  0001 C CNN
+F 1 "GNDA" H 9700 2350 50  0000 C CNN
+F 2 "" H 9700 2500 50  0000 C CNN
+F 3 "" H 9700 2500 50  0000 C CNN
+	1    9700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR15
+U 1 1 57973D7D
+P 8600 2500
+F 0 "#PWR15" H 8600 2250 50  0001 C CNN
+F 1 "GNDA" H 8600 2350 50  0000 C CNN
+F 2 "" H 8600 2500 50  0000 C CNN
+F 3 "" H 8600 2500 50  0000 C CNN
+	1    8600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR12
+U 1 1 57973D83
+P 7050 1750
+F 0 "#PWR12" H 7050 1500 50  0001 C CNN
+F 1 "GNDA" H 7050 1600 50  0000 C CNN
+F 2 "" H 7050 1750 50  0000 C CNN
+F 3 "" H 7050 1750 50  0000 C CNN
+	1    7050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR14
+U 1 1 57973D95
+P 7650 850
+F 0 "#PWR14" H 7650 700 50  0001 C CNN
+F 1 "+5V" H 7650 990 50  0000 C CNN
+F 2 "" H 7650 850 50  0000 C CNN
+F 3 "" H 7650 850 50  0000 C CNN
+	1    7650 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 57973DA4
+P 8600 1750
+F 0 "C8" H 8625 1850 50  0000 L CNN
+F 1 "0,047 uF" H 8625 1650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8638 1600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_14.pdf" H 8600 1750 50  0001 C CNN
+F 4 "311-1178-2-ND" H 8600 1750 60  0001 C CNN "Digikey#"
+F 5 "UPY-GPHC_X7R_6.3V-to-50V_14.pdf" H 8600 1750 60  0001 C CNN "Datasheet"
+F 6 "0.047µF 50V Ceramic Capacitor X7R 1206 (3216 Metric) 0.126\" L x 0.063\" W (3.20mm x 1.60mm)" H 8600 1750 60  0001 C CNN "Desc"
+F 7 "Yageo" H 8600 1750 60  0001 C CNN "Manf"
+F 8 "CC1206KRX7R9BB473" H 8600 1750 60  0001 C CNN "Manf#"
+F 9 "C:\\Users\\giovagno\\Desktop\\CESE\\Diseño de Circuitos Impresos\\Trabajo Final\\Datasheet" H 8600 1750 60  0001 C CNN "Path datasheet"
+F 10 "Value" H 8600 1750 60  0001 C CNN "Mouser#"
+F 11 "Value" H 8600 1750 60  0001 C CNN "Newark#"
+	1    8600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 57973DB3
+P 8600 2200
+F 0 "R9" V 8680 2200 50  0000 C CNN
+F 1 "10" V 8600 2200 50  0000 C CNN
+F 2 "footprints:R_1206_HandSoldering" V 8530 2200 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 8600 2200 50  0001 C CNN
+F 4 "311-10.0FRTR-ND" H 8600 2200 60  0001 C CNN "Digikey#"
+F 5 "PYu-R_INT-thick_7.pdf" H 8600 2200 60  0001 C CNN "Datasheet"
+F 6 "RES SMD 10 OHM 1% 1/4W 1206" H 8600 2200 60  0001 C CNN "Desc"
+F 7 "Yageo" H 8600 2200 60  0001 C CNN "Manf"
+F 8 "RC1206FR-0710RL" H 8600 2200 60  0001 C CNN "Manf#"
+F 9 "C:\\Users\\giovagno\\Desktop\\CESE\\Diseño de Circuitos Impresos\\Trabajo Final\\Datasheet" H 8600 2200 60  0001 C CNN "Path datasheet"
+F 10 "Value" H 8600 2200 60  0001 C CNN "Mouser#"
+F 11 "Value" H 8600 2200 60  0001 C CNN "Newark#"
+	1    8600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C9
+U 1 1 57973DC6
+P 9200 1450
+F 0 "C9" H 9225 1550 50  0000 L CNN
+F 1 "270 uF" H 9225 1350 50  0000 L CNN
+F 2 "footprints:C_Kemet_ESY277M063AL3AA" H 9238 1300 50  0001 C CNN
+F 3 "http://capacitoredge.kemet.com/capedge2/DataSheet?pn=ESY277M063AL3AA" H 9200 1450 50  0001 C CNN
+F 4 "399-6124-ND" H 9200 1450 60  0001 C CNN "Digikey#"
+F 5 "DataSheet.pdf" H 9200 1450 60  0001 C CNN "Datasheet"
+F 6 "270µF 63V Aluminum Capacitors Radial, Can 60 mOhm @ 100kHz 5000 Hrs @ 105°C" H 9200 1450 60  0001 C CNN "Desc"
+F 7 "Kemet" H 9200 1450 60  0001 C CNN "Manf"
+F 8 "ESY277M063AL3AA" H 9200 1450 60  0001 C CNN "Manf#"
+F 9 "C:\\Users\\giovagno\\Desktop\\CESE\\Diseño de Circuitos Impresos\\Trabajo Final\\Datasheet" H 9200 1450 60  0001 C CNN "Path datasheet"
+F 10 "Value" H 9200 1450 60  0001 C CNN "Mouser#"
+F 11 "Value" H 9200 1450 60  0001 C CNN "Newark#"
+	1    9200 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C7
+U 1 1 57973DD8
+P 7800 2150
+F 0 "C7" H 7825 2250 50  0000 L CNN
+F 1 "10 uF" H 7825 2050 50  0000 L CNN
+F 2 "footprints:Kemet_ESH106M050AC3AA" H 7838 2000 50  0001 C CNN
+F 3 "http://www.kemet.com/Lists/ProductCatalog/Attachments/282/KEM_A4005_ESH.pdf" H 7800 2150 50  0001 C CNN
+F 4 "399-6543-ND" H 7800 2150 60  0001 C CNN "Digikey#"
+F 5 "KEM_A4005_ESH.pdf" H 7800 2150 60  0001 C CNN "Datasheet"
+F 6 "Value" H 7800 2150 60  0001 C CNN "Desc"
+F 7 "Kemet" H 7800 2150 60  0001 C CNN "Manf"
+F 8 "ESH106M050AC3AA" H 7800 2150 60  0001 C CNN "Manf#"
+F 9 "C:\\Users\\giovagno\\Desktop\\CESE\\Diseño de Circuitos Impresos\\Trabajo Final\\Datasheet" H 7800 2150 60  0001 C CNN "Path datasheet"
+F 10 "Value" H 7800 2150 60  0001 C CNN "Mouser#"
+F 11 "Value" H 7800 2150 60  0001 C CNN "Newark#"
+	1    7800 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P1
+U 1 1 57973DE7
+P 10250 1850
+F 0 "P1" H 10250 2000 50  0000 C CNN
+F 1 "CONN_01X02" V 10350 1850 50  0000 C CNN
+F 2 "Connect:bornier2" H 10250 1850 50  0001 C CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf" H 10250 1850 50  0001 C CNN
+F 4 "ED2609-ND" H 10250 1850 60  0001 C CNN "Digikey#"
+F 5 "osttcxx2162.pdf" H 10250 1850 60  0001 C CNN "Datasheet"
+F 6 "TERM BLOCK 5.08MM VERT 2POS PCB	" H 10250 1850 60  0001 C CNN "Desc"
+F 7 "On Shore Technology Inc." H 10250 1850 60  0001 C CNN "Manf"
+F 8 "OSTTC022162" H 10250 1850 60  0001 C CNN "Manf#"
+F 9 "Value" H 10250 1850 60  0001 C CNN "Path datasheet"
+F 10 "Value" H 10250 1850 60  0001 C CNN "Mouser#"
+F 11 "Value" H 10250 1850 60  0001 C CNN "Newark#"
+	1    10250 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR13
+U 1 1 57973DF1
+P 7450 2050
+F 0 "#PWR13" H 7450 1800 50  0001 C CNN
+F 1 "GND" H 7450 1900 50  0000 C CNN
+F 2 "" H 7450 2050 50  0000 C CNN
+F 3 "" H 7450 2050 50  0000 C CNN
+	1    7450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Poncho2P_2x_20x2 XA?
+U 1 1 5797474F
+P 7500 4150
+AR Path="/57853E94/5797474F" Ref="XA?"  Part="1" 
+AR Path="/5797474F" Ref="XA1"  Part="1" 
+F 0 "XA1" H 7800 4550 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 7850 2450 60  0000 C CNN
+F 2 "footprints:Conn_Poncho_Derecha" H 7500 4150 60  0001 C CNN
+F 3 "" H 7500 4150 60  0000 C CNN
+F 4 "952-1387-ND" H 7500 4150 60  0001 C CNN "Digikey#"
+F 5 "CONN HDR 1.27MM VERT AU 40POS" H 7500 4150 60  0001 C CNN "Desc"
+F 6 "Harwin Inc." H 7500 4150 60  0001 C CNN "Manf"
+F 7 "M50-3502042" H 7500 4150 60  0001 C CNN "Manf#"
+F 8 "Value" H 7500 4150 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 7500 4150 60  0001 C CNN "Mouser#"
+F 10 "Value" H 7500 4150 60  0001 C CNN "Newark#"
+	1    7500 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR16
+U 1 1 57974756
+P 8750 3700
+F 0 "#PWR16" H 8750 3550 50  0001 C CNN
+F 1 "+5V" H 8750 3840 50  0000 C CNN
+F 2 "" H 8750 3700 50  0000 C CNN
+F 3 "" H 8750 3700 50  0000 C CNN
+	1    8750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR11
+U 1 1 5797475C
+P 6950 3700
+F 0 "#PWR11" H 6950 3660 30  0001 C CNN
+F 1 "+3,3V" H 6950 3810 30  0000 C CNN
+F 2 "" H 6950 3700 60  0000 C CNN
+F 3 "" H 6950 3700 60  0000 C CNN
+	1    6950 3700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8450 4050
+NoConn ~ 8450 5450
+NoConn ~ 8450 5550
+NoConn ~ 7250 5750
+NoConn ~ 7250 5650
+NoConn ~ 7250 5550
+NoConn ~ 7250 5450
+NoConn ~ 7250 5350
+NoConn ~ 7250 5250
+NoConn ~ 7250 5150
+NoConn ~ 7250 5050
+NoConn ~ 7250 4950
+NoConn ~ 7250 4850
+NoConn ~ 7250 4750
+$Comp
+L GNDA #PWR20
+U 1 1 57974772
+P 9700 6100
+F 0 "#PWR20" H 9700 5850 50  0001 C CNN
+F 1 "GNDA" H 9700 5950 50  0000 C CNN
+F 2 "" H 9700 6100 50  0000 C CNN
+F 3 "" H 9700 6100 50  0000 C CNN
+	1    9700 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR10
+U 1 1 5797478A
+P 6050 4150
+F 0 "#PWR10" H 6050 3900 50  0001 C CNN
+F 1 "GNDA" H 6050 4000 50  0000 C CNN
+F 2 "" H 6050 4150 50  0000 C CNN
+F 3 "" H 6050 4150 50  0000 C CNN
+	1    6050 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7250 4050
+NoConn ~ 7250 3950
+NoConn ~ 7250 4650
+NoConn ~ 7250 4350
+NoConn ~ 7250 4250
+$Comp
+L PWR_FLAG #FLG2
+U 1 1 57974797
+P 9700 3800
+F 0 "#FLG2" H 9700 3895 50  0001 C CNN
+F 1 "PWR_FLAG" H 9700 3980 50  0000 C CNN
+F 2 "" H 9700 3800 50  0000 C CNN
+F 3 "" H 9700 3800 50  0000 C CNN
+	1    9700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F1
+U 1 1 579747AF
+P 4600 7250
+F 0 "F1" H 4680 7300 40  0000 L CNN
+F 1 "FIDUCIAL" H 4600 7150 30  0001 C CNN
+F 2 "ej2cese:Fiducial_1mm" H 4600 7300 60  0001 C CNN
+F 3 "" H 4600 7300 60  0001 C CNN
+F 4 "Value" H 4600 7250 60  0001 C CNN "Desc"
+F 5 "Value" H 4600 7250 60  0001 C CNN "Manf"
+F 6 "Value" H 4600 7250 60  0001 C CNN "Manf#"
+F 7 "Value" H 4600 7250 60  0001 C CNN "Path datasheet"
+F 8 "Value" H 4600 7250 60  0001 C CNN "Mouser#"
+F 9 "Value" H 4600 7250 60  0001 C CNN "Newark#"
+F 10 "FIDUCIAL" H 4650 7050 60  0001 C CNN "Descripcion"
+	1    4600 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F2
+U 1 1 579747BD
+P 5250 7250
+F 0 "F2" H 5330 7300 40  0000 L CNN
+F 1 "FIDUCIAL" H 5250 7150 30  0001 C CNN
+F 2 "ej2cese:Fiducial_1mm" H 5250 7300 60  0001 C CNN
+F 3 "" H 5250 7300 60  0001 C CNN
+F 4 "Value" H 5250 7250 60  0001 C CNN "Desc"
+F 5 "Value" H 5250 7250 60  0001 C CNN "Manf"
+F 6 "Value" H 5250 7250 60  0001 C CNN "Manf#"
+F 7 "Value" H 5250 7250 60  0001 C CNN "Path datasheet"
+F 8 "Value" H 5250 7250 60  0001 C CNN "Mouser#"
+F 9 "Value" H 5250 7250 60  0001 C CNN "Newark#"
+F 10 "FIDUCIAL" H 5300 7050 60  0001 C CNN "Descripcion"
+	1    5250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F3
+U 1 1 579747CB
+P 5850 7250
+F 0 "F3" H 5930 7300 40  0000 L CNN
+F 1 "FIDUCIAL" H 5850 7150 30  0001 C CNN
+F 2 "ej2cese:Fiducial_1mm" H 5850 7300 60  0001 C CNN
+F 3 "" H 5850 7300 60  0001 C CNN
+F 4 "Value" H 5850 7250 60  0001 C CNN "Desc"
+F 5 "Value" H 5850 7250 60  0001 C CNN "Manf"
+F 6 "Value" H 5850 7250 60  0001 C CNN "Manf#"
+F 7 "Value" H 5850 7250 60  0001 C CNN "Path datasheet"
+F 8 "Value" H 5850 7250 60  0001 C CNN "Mouser#"
+F 9 "Value" H 5850 7250 60  0001 C CNN "Newark#"
+F 10 "FIDUCIAL" H 5900 7050 60  0001 C CNN "Descripcion"
+	1    5850 7250
+	1    0    0    -1  
+$EndComp
+Text Label 4800 4500 0    60   ~ 0
+ADC
+Text Label 6600 4450 2    60   ~ 0
+ADC
+Text Label 5500 1550 2    60   ~ 0
+DAC
+Text Label 6600 4550 2    60   ~ 0
+DAC
+Text Notes 7250 2950 0    60   ~ 0
+Consumo en Reposo: 4mA.\nPotencia de Salida: 275 mW (resistencia de 8 Ohms).
+Text Notes 8650 3050 2    60   ~ 0
+Ganancia: de 20 hasta 200 dB
+Text Notes 8300 3150 2    60   ~ 0
+Distorsión (THD): 0.2%
+Wire Wire Line
+	2800 1150 3100 1150
+Wire Wire Line
+	3100 1150 3100 1250
+Wire Wire Line
+	2550 1300 2550 1450
+Wire Wire Line
+	2550 1750 2550 2150
+Wire Wire Line
+	2550 1900 2850 1900
+Wire Wire Line
+	3150 1900 3450 1900
+Wire Wire Line
+	3450 1900 3450 2000
+Connection ~ 2550 1900
+Wire Wire Line
+	2550 2450 2550 3450
+Wire Wire Line
+	1050 2650 1950 2650
+Wire Wire Line
+	1500 2500 1500 2800
+Connection ~ 1500 2650
+Wire Wire Line
+	1050 2800 1050 2650
+Wire Wire Line
+	1050 3100 1050 3150
+Wire Wire Line
+	1050 3150 1500 3150
+Wire Wire Line
+	1300 3150 1300 3250
+Wire Wire Line
+	1500 3150 1500 3100
+Connection ~ 1300 3150
+Wire Wire Line
+	1500 1950 1500 2200
+Connection ~ 2550 2650
+Wire Wire Line
+	2750 4600 2600 4600
+Wire Wire Line
+	2050 5150 2050 5000
+Wire Wire Line
+	2050 4700 2050 4600
+Wire Wire Line
+	2050 4600 2300 4600
+Wire Wire Line
+	2900 5350 2700 5350
+Wire Wire Line
+	2700 4600 2700 5600
+Connection ~ 2700 4600
+Wire Wire Line
+	2700 5600 2900 5600
+Connection ~ 2700 5350
+Wire Wire Line
+	3350 4500 3750 4500
+Wire Wire Line
+	3500 4500 3500 5600
+Wire Wire Line
+	3500 5350 3200 5350
+Wire Wire Line
+	3500 5600 3200 5600
+Connection ~ 3500 5350
+Connection ~ 3500 4500
+Wire Wire Line
+	4300 4500 4050 4500
+Wire Wire Line
+	4600 4500 4800 4500
+Wire Wire Line
+	2950 3950 2950 4200
+Wire Wire Line
+	1850 1300 1900 1300
+Wire Wire Line
+	1900 1300 1900 1750
+Wire Wire Line
+	1850 1150 2300 1150
+Wire Wire Line
+	1850 1050 2050 1050
+Wire Wire Line
+	2050 1050 2050 1150
+Connection ~ 2050 1150
+Wire Wire Line
+	5800 1700 5800 1550
+Wire Wire Line
+	5800 1550 5500 1550
+Wire Wire Line
+	5950 1950 6400 1950
+Wire Wire Line
+	6400 1950 6400 1350
+Wire Wire Line
+	6400 1350 7350 1350
+Wire Wire Line
+	7350 1550 7050 1550
+Wire Wire Line
+	7050 1550 7050 1750
+Wire Wire Line
+	5800 2200 5800 2500
+Wire Wire Line
+	7750 1750 7750 1900
+Wire Wire Line
+	7750 1900 7650 1900
+Wire Wire Line
+	7650 1900 7650 2150
+Wire Wire Line
+	7850 1750 7850 1900
+Wire Wire Line
+	7850 1900 7950 1900
+Wire Wire Line
+	7950 1900 7950 2150
+Wire Wire Line
+	7650 1750 7650 1850
+Wire Wire Line
+	7650 1850 7450 1850
+Wire Wire Line
+	7450 1850 7450 2050
+Wire Wire Line
+	8050 1450 9050 1450
+Wire Wire Line
+	8600 1450 8600 1600
+Wire Wire Line
+	8600 1900 8600 2050
+Wire Wire Line
+	8600 2350 8600 2500
+Connection ~ 8600 1450
+Wire Wire Line
+	9350 1450 9700 1450
+Wire Wire Line
+	9700 1900 9700 2500
+Wire Wire Line
+	9700 1450 9700 1800
+Wire Wire Line
+	9700 1800 10050 1800
+Wire Wire Line
+	9700 1900 10050 1900
+Wire Wire Line
+	8750 3700 8750 3850
+Wire Wire Line
+	8750 3850 8450 3850
+Wire Wire Line
+	7250 3850 6950 3850
+Wire Wire Line
+	6950 3850 6950 3700
+Wire Wire Line
+	7250 4550 6600 4550
+Wire Wire Line
+	8450 4150 9700 4150
+Wire Wire Line
+	9700 3800 9700 6100
+Wire Wire Line
+	8450 4250 9700 4250
+Connection ~ 9700 4250
+Wire Wire Line
+	8450 4350 9700 4350
+Connection ~ 9700 4350
+Wire Wire Line
+	8450 4450 9700 4450
+Connection ~ 9700 4450
+Wire Wire Line
+	8450 4550 9700 4550
+Connection ~ 9700 4550
+Wire Wire Line
+	8450 4650 9700 4650
+Connection ~ 9700 4650
+Wire Wire Line
+	7250 4150 6050 4150
+Connection ~ 9700 4150
+Wire Wire Line
+	2550 2650 2250 2650
+Wire Wire Line
+	2550 3750 2550 4400
+Wire Wire Line
+	2550 4400 2750 4400
+Wire Wire Line
+	7250 4450 6600 4450
+Wire Wire Line
+	7650 850  7650 1150
+Wire Notes Line
+	9850 2700 7200 2700
+Wire Notes Line
+	7200 2700 7200 3200
+Wire Notes Line
+	7200 3200 9850 3200
+Wire Notes Line
+	9850 3200 9850 2700
+$Comp
+L GND #PWR6
+U 1 1 57982529
+P 2950 5050
+F 0 "#PWR6" H 2950 4800 50  0001 C CNN
+F 1 "GND" H 2950 4900 50  0000 C CNN
+F 2 "" H 2950 5050 50  0000 C CNN
+F 3 "" H 2950 5050 50  0000 C CNN
+	1    2950 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 5797F200
+P 9200 4900
+F 0 "#FLG1" H 9200 4995 50  0001 C CNN
+F 1 "PWR_FLAG" H 9200 5080 50  0000 C CNN
+F 2 "" H 9200 4900 50  0000 C CNN
+F 3 "" H 9200 4900 50  0000 C CNN
+	1    9200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR18
+U 1 1 5797F66A
+P 9200 6100
+F 0 "#PWR18" H 9200 5850 50  0001 C CNN
+F 1 "GND" H 9200 5950 50  0000 C CNN
+F 2 "" H 9200 6100 50  0000 C CNN
+F 3 "" H 9200 6100 50  0000 C CNN
+	1    9200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR17
+U 1 1 5797F726
+P 9100 3950
+F 0 "#PWR17" H 9100 3700 50  0001 C CNN
+F 1 "GND" H 9100 3800 50  0000 C CNN
+F 2 "" H 9100 3950 50  0000 C CNN
+F 3 "" H 9100 3950 50  0000 C CNN
+	1    9100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3950 9100 3950
+Wire Wire Line
+	9200 4900 9200 6100
+Wire Wire Line
+	8450 4750 9000 4750
+Wire Wire Line
+	9000 4750 9000 4950
+Wire Wire Line
+	9000 4950 9200 4950
+Connection ~ 9200 4950
+Wire Wire Line
+	8450 4850 8900 4850
+Wire Wire Line
+	8900 4850 8900 5050
+Wire Wire Line
+	8900 5050 9200 5050
+Connection ~ 9200 5050
+Wire Wire Line
+	8450 4950 8800 4950
+Wire Wire Line
+	8800 4950 8800 5150
+Wire Wire Line
+	8800 5150 9200 5150
+Connection ~ 9200 5150
+Wire Wire Line
+	8450 5050 8700 5050
+Wire Wire Line
+	8700 5050 8700 5250
+Wire Wire Line
+	8700 5250 9200 5250
+Connection ~ 9200 5250
+Wire Wire Line
+	8450 5150 8650 5150
+Wire Wire Line
+	8650 5150 8650 5350
+Wire Wire Line
+	8650 5350 9200 5350
+Connection ~ 9200 5350
+Wire Wire Line
+	8450 5250 8600 5250
+Wire Wire Line
+	8600 5250 8600 5450
+Wire Wire Line
+	8600 5450 9200 5450
+Connection ~ 9200 5450
+Wire Wire Line
+	8450 5350 8550 5350
+Wire Wire Line
+	8550 5350 8550 5550
+Wire Wire Line
+	8550 5550 9200 5550
+Connection ~ 9200 5550
+Wire Wire Line
+	8450 5750 9200 5750
+Connection ~ 9200 5750
+Wire Wire Line
+	8450 5650 9200 5650
+Connection ~ 9200 5650
+Wire Wire Line
+	2950 4800 2950 5050
+$Comp
+L +3,3V #PWR5
+U 1 1 57985757
+P 2950 3950
+F 0 "#PWR5" H 2950 3910 30  0001 C CNN
+F 1 "+3,3V" H 2950 4060 30  0000 C CNN
+F 2 "" H 2950 3950 60  0000 C CNN
+F 3 "" H 2950 3950 60  0000 C CNN
+	1    2950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR2
+U 1 1 57986D38
+P 1500 1950
+F 0 "#PWR2" H 1500 1910 30  0001 C CNN
+F 1 "+3,3V" H 1500 2060 30  0000 C CNN
+F 2 "" H 1500 1950 60  0000 C CNN
+F 3 "" H 1500 1950 60  0000 C CNN
+	1    1500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 579879E3
+P 9450 5950
+F 0 "R10" V 9530 5950 50  0000 C CNN
+F 1 "0" V 9450 5950 50  0000 C CNN
+F 2 "footprints:R_1206_HandSoldering" V 9380 5950 50  0001 C CNN
+F 3 "" H 9450 5950 50  0000 C CNN
+F 4 "311-0.0ERTR-ND" H 9450 5950 60  0001 C CNN "Digikey#"
+F 5 "RES SMD 0.0 OHM JUMPER 1/4W 1206" H 9450 5950 60  0001 C CNN "Desc"
+F 6 "Yageo" H 9450 5950 60  0001 C CNN "Manf"
+F 7 "RC1206JR-070RL" H 9450 5950 60  0001 C CNN "Manf#"
+F 8 "Value" H 9450 5950 60  0001 C CNN "Path datasheet"
+F 9 "Value" H 9450 5950 60  0001 C CNN "Mouser#"
+F 10 "Value" H 9450 5950 60  0001 C CNN "Newark#"
+	1    9450 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 5950 9700 5950
+Connection ~ 9700 5950
+Wire Wire Line
+	9300 5950 9200 5950
+Connection ~ 9200 5950
+$EndSCHEMATC
