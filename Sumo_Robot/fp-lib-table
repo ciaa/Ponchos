@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name sumo_robot)(type KiCad)(uri "$(KIPRJMOD)/sumo_robot.pretty")(options "")(descr ""))
+)
