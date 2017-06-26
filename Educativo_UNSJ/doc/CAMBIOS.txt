@@ -1,0 +1,12 @@
+Historial de cambios realizados 
+================================
+
+* Fecha: 
+* Autores: 
+* Archivos: 
+* Descripción: Se parte de los Modelos de Ponchos en: 
+               http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:edu-ciaa:ponchos_modelos
+               <<Colocar aquí información de cambios importantes y de gran volumen, releases, contribuciones
+                de terceros, etc.>>
+
+
