@@ -30,7 +30,7 @@ Estructura de directorios
   * Poncho_Grande: Un Poncho del mismo tamaño que la CIAA, con área de prototipado.
   * Poncho_Chico: Un Poncho que usa ambos conectores, pero ningún agujero de sujeción.
 
-* ethernet_LAN8720A: Poncho Etherner con el LAN8720A de MicroChip.
+* ethernet_LAN8720A: Poncho Ethernet con el LAN8720A de MicroChip.
   * doc: Documentación particular del Poncho Ethernet.
   * info: Información adicional.
   * kicad: Archivos Kicad del Poncho Ethernet
@@ -43,7 +43,7 @@ Ponchos nuevos
 Al poner un Poncho en este repositorio intentar respetar como está organizado (abierto a debate). 
 Las pautas al momento son las siguientes:
 
-* Se abre un subdirectorio con el nombre del poncho: Por ejemplo xyz.
+* Se abre un subdirectorio con el nombre del poncho: Por ejemplo, xyz.
 * Dentro se ponen los archivos kicad y subdirectorios para la documentación, hojas de datos, etc.
 * Los símbolos utilizados se ponen a partir de la raíz principal del repo en /kicad/libXyz.
 * Los módulos utilizados se ponen a partir de la raíz principal del repo en /kicad/Poncho_Xyz.pretty
@@ -51,7 +51,7 @@ Las pautas al momento son las siguientes:
 
 Idioma
 ------
-El idioma de documetación de las EDU-CIAA es el castellano, por lo tanto los 
+El idioma de documentación de las EDU-CIAA es el castellano, por lo tanto los 
 ponchos seguirán esa misma pauta. Se recomienda usar UTF-8 para los textos.
 
 ---
