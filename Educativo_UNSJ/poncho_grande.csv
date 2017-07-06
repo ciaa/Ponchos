@@ -1,0 +1,19 @@
+Id;Identificador;Empaquetado;Cantidad;Identificación;Suministrador y ref
+1;XA1;poncho_grande;1;Conn_Poncho2P_2x_20x2;
+2;BZ1;Buzzer_12x9.5RM7.6;1;buzzer;
+3;C1,C2,C3,C4;CP_5x11mm;4;CP1;
+4;D1,D2;LED-3MM;2;Led_Small;
+5;DS1;WC1602A;1;LCD16X2;
+6;J1;DB_9F;1;DB9;
+7;JP1;pin_strip_2;1;JUMPER;
+8;KP-P1;pin_socket_7;1;Keypad_-_Phone;
+9;P1,P3,P4;pin_strip_5;3;CONN_01X05;
+10;P2,P7,P8;pin_strip_4;3;CONN_01X04;
+11;P6;pin_strip_1;1;CONN_01X01;
+12;Q1;TO-92_Inline_Narrow_Oval;1;BC548;
+13;R1,R3;Resistor_Horizontal_RM10mm;2;470;
+14;R2;Resistor_Horizontal_RM10mm;1;100;
+15;R4;Resistor_Horizontal_RM10mm;1;1K;
+16;RV1;trimmer_piher_pt10xv;1;10K;
+17;RV2;Potentiometer_Alps-RK16-single;1;10K;
+18;U1;DIP-16_W7.62mm_LongPads;1;MAX232;

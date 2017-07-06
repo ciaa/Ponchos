@@ -1,0 +1,21 @@
+Poncho Educativo para la EDU-CIAA desarrollado por la UNSJ
+==========================================================
+
+<<En el marco de un proyecto de cátedra, se realizó el diseño y la construcción de una placa tipo "poncho" complementando la reciente adquisición de EDU-CIAA para la enseñanza en el ámbito universitario. El poncho consta de elemento digitales y analógicos tales como: potenciómetro, buzzer, UART/RS-232, LCD 16x2, teclado matricial 4x3, y pinout para comunicaciones varias y pines de propósito general. Además, se desarrolló software mediante ejemplo para su uso y enseñanza en las cátedras relacionadas a los sistemas embebidos, en las carreras Ing. Electrónica y Bioingeniería. El diseño del hardware parte de la premisa de maximizar compatibilidad con los formatos pre-establecidos por el proyecto CIAA. El formato elegido es el poncho grande, el cual es de hardware libre como también lo es el presente proyecto. Se cumplió el objetivo principal planteado de aportar al proyecto EDU-CIAA funcionalidad adicional en el ámbito universitario.>>
+
+URL: (URL en la wiki de la CIAA)
+FUNCIÓN: Enseñar el "ABC" (puntapié inicial) respecto a la programacion de la EDU-CIAA mediante el uso de los perifericos que se encuentran en el poncho educativo.
+AUTORES/INSTITUCIONES: 
+
+Autor: Sarmiento, Leandro Gustavo
+Catedra: Microcontroladores
+Carrera: Ingeniería Electrónica
+Profesores: Dr. Ing. Eugenio Orosco, Ing. Carlos Gil, Ing. Gustavo Ensinck.
+Laboratorio de Electrónica Digital
+Dpto. de Electrónica y Automática
+Facultad de Ingeniería – Universidad Nacional de San Juan (FI-UNSJ)
+
+
+<<Detalle y explicación de directorios o archivos adicionales que se incorporen.>>
+
+
