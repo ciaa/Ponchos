@@ -43,7 +43,7 @@ U 1 1 592C61B9
 P 6595 2430
 F 0 "J5" H 6595 2780 50  0000 C CNN
 F 1 "CONN_01X06" V 6695 2430 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 6595 2430 50  0001 C CNN
+F 2 "MIDI:Pin_Header_Straight_1x06_Pitch2.54mm" H 6595 2430 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/75915.pdf" H 6595 2430 50  0001 C CNN
 F 4 "CONN RCPT 6POS .100\" SGL PCB" H 0   0   60  0001 C CNN "Desc"
 F 5 "609-3558-ND" H 0   0   50  0001 C CNN "Digikey#"
@@ -59,7 +59,7 @@ U 1 1 592C626C
 P 5045 2430
 F 0 "J4" H 5045 2780 50  0000 C CNN
 F 1 "CONN_01X06" V 5145 2430 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 5045 2430 50  0001 C CNN
+F 2 "MIDI:Pin_Header_Straight_1x06_Pitch2.54mm" H 5045 2430 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/75915.pdf" H 5045 2430 50  0001 C CNN
 F 4 "CONN RCPT 6POS .100\" SGL PCB" H 0   0   60  0001 C CNN "Desc"
 F 5 "609-3558-ND" H 0   0   50  0001 C CNN "Digikey#"

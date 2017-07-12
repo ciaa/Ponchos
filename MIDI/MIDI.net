@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source /home/cmancon/CESE/DCI/Ponchos/MIDI/MIDI.sch)
-    (date "dom 18 jun 2017 21:26:23 ART")
+    (date "mié 12 jul 2017 12:34:24 ART")
     (tool "Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Poncho MIDI")
-        (company "FIUBA - LSE - CESE                                                        Licencia: BSD")
-        (rev v0.1)
+        (company "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD")
+        (rev v0.2)
         (date 2017-05-19)
         (source MIDI.sch)
         (comment (number 1) (value "Revisores: Marcelo Moreno  /  Diego Brengi"))
@@ -17,9 +17,9 @@
     (sheet (number 2) (name "/Interfaz MIDI/") (tstamps /591EC1B8/)
       (title_block
         (title "Interfaz MIDI")
-        (company "FIUBA - LSE - CESE                                                        Licencia: BSD")
-        (rev v0.1)
-        (date 2017-05-19)
+        (company "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD")
+        (rev v0.2)
+        (date 2017-07-12)
         (source Interfaz_MIDI.sch)
         (comment (number 1) (value "Revisores: Marcelo Moreno  /  Diego Brengi"))
         (comment (number 2) (value "Autor: Carlos I. Mancón"))
@@ -28,8 +28,8 @@
     (sheet (number 3) (name /Conectores/) (tstamps /591EC1F0/)
       (title_block
         (title Conectores)
-        (company "FIUBA - LSE - CESE                                                        Licencia: BSD")
-        (rev v0.1)
+        (company "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD")
+        (rev v0.2)
         (date 2017-06-11)
         (source Conectores.sch)
         (comment (number 1) (value "Revisores: Marcelo Moreno  /  Diego Brengi"))
@@ -39,9 +39,9 @@
     (sheet (number 4) (name /Encoders/) (tstamps /59216A74/)
       (title_block
         (title Encoders)
-        (company "FIUBA - LSE - CESE                                                        Licencia: BSD")
-        (rev v0.1)
-        (date 2017-05-20)
+        (company "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD")
+        (rev v0.2)
+        (date 2017-07-12)
         (source encoders.sch)
         (comment (number 1) (value "Revisores: Marcelo Moreno  /  Diego Brengi"))
         (comment (number 2) (value "Autor: Carlos I. Mancón"))
@@ -50,9 +50,9 @@
     (sheet (number 5) (name /Pulsadores/) (tstamps /591EC21E/)
       (title_block
         (title "Pulsadores de 1 Octava")
-        (company "FIUBA - LSE - CESE                                                        Licencia: BSD")
-        (rev v0.1)
-        (date 2017-05-20)
+        (company "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD")
+        (rev v0.2)
+        (date 2017-07-12)
         (source Pulsadores.sch)
         (comment (number 1) (value "Revisores: Marcelo Moreno  /  Diego Brengi"))
         (comment (number 2) (value "Autor: Carlos I. Mancón"))
@@ -74,7 +74,7 @@
       (tstamp 591EF085))
     (comp (ref FB3)
       (value "1k @100MHz")
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint MIDI:FB_0805_HandSoldering)
       (datasheet http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload)
       (fields
         (field (name Desc) "FERRITE BEAD 1 KOHM 0805 1LN")
@@ -87,7 +87,7 @@
       (tstamp 591EF24F))
     (comp (ref FB1)
       (value "1k @100MHz")
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint MIDI:FB_0805_HandSoldering)
       (datasheet http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload)
       (fields
         (field (name Desc) "FERRITE BEAD 1 KOHM 0805 1LN")
@@ -113,7 +113,7 @@
       (tstamp 591F2DF4))
     (comp (ref FB2)
       (value "1k @100MHz")
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint MIDI:FB_0805_HandSoldering)
       (datasheet http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload)
       (fields
         (field (name Desc) "FERRITE BEAD 1 KOHM 0805 1LN")
@@ -126,7 +126,7 @@
       (tstamp 591F2E06))
     (comp (ref FB4)
       (value "1k @100MHz")
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint MIDI:FB_0805_HandSoldering)
       (datasheet http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload)
       (fields
         (field (name Desc) "FERRITE BEAD 1 KOHM 0805 1LN")
@@ -139,7 +139,7 @@
       (tstamp 591F2E0C))
     (comp (ref R2)
       (value "33R 0,5W")
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C291.pdf)
       (fields
         (field (name Desc) "RES SMD 33 OHM 5% 1/2W 0805")
@@ -152,7 +152,7 @@
       (tstamp 591F2E1A))
     (comp (ref R5)
       (value 10R)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10 OHM 5% 1/4W 0603")
@@ -178,7 +178,7 @@
       (tstamp 591F5184))
     (comp (ref FB6)
       (value "1k @100MHz")
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint MIDI:FB_0805_HandSoldering)
       (datasheet http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload)
       (fields
         (field (name Desc) "FERRITE BEAD 1 KOHM 0805 1LN")
@@ -191,7 +191,7 @@
       (tstamp 591F519C))
     (comp (ref R6)
       (value "33R 0,5W")
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C291.pdf)
       (fields
         (field (name Desc) "RES SMD 33 OHM 5% 1/2W 0805")
@@ -204,7 +204,7 @@
       (tstamp 591F51AA))
     (comp (ref R7)
       (value 10R)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10 OHM 5% 1/4W 0603")
@@ -217,7 +217,7 @@
       (tstamp 591F51B8))
     (comp (ref FB5)
       (value "1k @100MHz")
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint MIDI:FB_0805_HandSoldering)
       (datasheet http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&fileName=BK2125HS102-T_SS&mode=specSheetDownload)
       (fields
         (field (name Desc) "FERRITE BEAD 1 KOHM 0805 1LN")
@@ -230,7 +230,7 @@
       (tstamp 591F5196))
     (comp (ref U1)
       (value 6N138)
-      (footprint Housings_DIP:DIP-8_W7.62mm)
+      (footprint MIDI:DIP-8_W7.62mm_LongPads)
       (datasheet /Datasheets/6n138.pdf)
       (fields
         (field (name Desc) "OPTOISO 5KV DARL W/BASE 8DIP")
@@ -243,7 +243,7 @@
       (tstamp 591FA9BC))
     (comp (ref D1)
       (value 1N4148)
-      (footprint Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal)
+      (footprint MIDI:D_DO-35_SOD27_P7.62mm_Horizontal)
       (datasheet https://www.fairchildsemi.com/datasheets/1N/1N914.pdf)
       (fields
         (field (name Desc) "DIODE GEN PURP 100V 200MA DO35")
@@ -256,7 +256,7 @@
       (tstamp 591FAA8D))
     (comp (ref C2)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -269,7 +269,7 @@
       (tstamp 5920397A))
     (comp (ref C1)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -282,7 +282,7 @@
       (tstamp 592045AD))
     (comp (ref R1)
       (value 1K)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -295,7 +295,7 @@
       (tstamp 59204927))
     (comp (ref R4)
       (value 4K7)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 4.7K OHM 5% 1/4W 0603 ")
@@ -308,7 +308,7 @@
       (tstamp 59204AFB))
     (comp (ref U2)
       (value 4050)
-      (footprint Housings_DIP:DIP-16_W7.62mm_LongPads)
+      (footprint MIDI:DIP-16_W7.62mm_LongPads)
       (datasheet /Datasheets/cd4050b.pdf)
       (fields
         (field (name Desc) "IC BUFF/CONVERTER HEX 16DIP")
@@ -321,7 +321,7 @@
       (tstamp 5920510B))
     (comp (ref R3)
       (value 220R)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 220 OHM 5% 1/4W 0603")
@@ -334,7 +334,7 @@
       (tstamp 59203121))
     (comp (ref C3)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -353,7 +353,7 @@
       (tstamp 592BDB41))
     (comp (ref J5)
       (value CONN_01X06)
-      (footprint Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm)
+      (footprint MIDI:Pin_Header_Straight_1x06_Pitch2.54mm)
       (datasheet http://portal.fciconnect.com/Comergent//fci/drawing/75915.pdf)
       (fields
         (field (name Desc) "CONN RCPT 6POS .100\" SGL PCB")
@@ -366,7 +366,7 @@
       (tstamp 592C61B9))
     (comp (ref J4)
       (value CONN_01X06)
-      (footprint Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm)
+      (footprint MIDI:Pin_Header_Straight_1x06_Pitch2.54mm)
       (datasheet http://portal.fciconnect.com/Comergent//fci/drawing/75915.pdf)
       (fields
         (field (name Desc) "CONN RCPT 6POS .100\" SGL PCB")
@@ -379,7 +379,7 @@
       (tstamp 592C626C))
     (comp (ref R10)
       (value 10K)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -392,7 +392,7 @@
       (tstamp 59217335))
     (comp (ref R14)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -405,7 +405,7 @@
       (tstamp 5921733C))
     (comp (ref C4)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -418,7 +418,7 @@
       (tstamp 59217343))
     (comp (ref R20)
       (value 10K)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -431,7 +431,7 @@
       (tstamp 59217752))
     (comp (ref R24)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -444,7 +444,7 @@
       (tstamp 59217758))
     (comp (ref C8)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -457,7 +457,7 @@
       (tstamp 5921775E))
     (comp (ref R30)
       (value 10K)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -470,7 +470,7 @@
       (tstamp 5921789E))
     (comp (ref R34)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -483,7 +483,7 @@
       (tstamp 592178A4))
     (comp (ref C12)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -509,7 +509,7 @@
       (tstamp 592128A2))
     (comp (ref U3)
       (value 40106)
-      (footprint Housings_DIP:DIP-14_W7.62mm_LongPads)
+      (footprint MIDI:DIP-14_W7.62mm_LongPads)
       (datasheet /Datasheets/cd40106b.pdf)
       (fields
         (field (name Desc) "IC INVERTER GATE HEX 14DIP ")
@@ -522,7 +522,7 @@
       (tstamp 59212DC9))
     (comp (ref C5)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 10000PF 50V X7R 0603")
@@ -535,7 +535,7 @@
       (tstamp 59213595))
     (comp (ref C6)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 10000PF 50V X7R 0603")
@@ -548,7 +548,7 @@
       (tstamp 5921364E))
     (comp (ref R8)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -561,7 +561,7 @@
       (tstamp 5921370E))
     (comp (ref R9)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -574,7 +574,7 @@
       (tstamp 592137D8))
     (comp (ref R12)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -587,7 +587,7 @@
       (tstamp 59214C0E))
     (comp (ref R15)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -613,7 +613,7 @@
       (tstamp 59215979))
     (comp (ref R18)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -626,7 +626,7 @@
       (tstamp 592159B6))
     (comp (ref R19)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -639,7 +639,7 @@
       (tstamp 592159BC))
     (comp (ref R22)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -652,7 +652,7 @@
       (tstamp 592159E4))
     (comp (ref R25)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -678,7 +678,7 @@
       (tstamp 59215C95))
     (comp (ref C13)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 10000PF 50V X7R 0603")
@@ -691,7 +691,7 @@
       (tstamp 59215CC6))
     (comp (ref C14)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 10000PF 50V X7R 0603")
@@ -704,7 +704,7 @@
       (tstamp 59215CCC))
     (comp (ref R28)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -717,7 +717,7 @@
       (tstamp 59215CD2))
     (comp (ref R29)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -730,7 +730,7 @@
       (tstamp 59215CD8))
     (comp (ref R32)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -743,7 +743,7 @@
       (tstamp 59215CF2))
     (comp (ref R35)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -756,7 +756,7 @@
       (tstamp 59215CF8))
     (comp (ref C15)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -769,7 +769,7 @@
       (tstamp 592B4015))
     (comp (ref C9)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 10000PF 50V X7R 0603")
@@ -782,7 +782,7 @@
       (tstamp 592B7D09))
     (comp (ref C10)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 10000PF 50V X7R 0603")
@@ -795,7 +795,7 @@
       (tstamp 592B7D0F))
     (comp (ref C11)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -808,7 +808,7 @@
       (tstamp 592B7D21))
     (comp (ref C7)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -821,7 +821,7 @@
       (tstamp 592B8371))
     (comp (ref C16)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -834,7 +834,7 @@
       (tstamp 592C6D93))
     (comp (ref R36)
       (value 18k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 18K OHM 5% 1/4W 0603 ")
@@ -847,7 +847,7 @@
       (tstamp 592C9689))
     (comp (ref R37)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 33K OHM 5% 1/4W 0603 ")
@@ -860,7 +860,7 @@
       (tstamp 592C9966))
     (comp (ref R31)
       (value 18k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 18K OHM 5% 1/4W 0603 ")
@@ -873,7 +873,7 @@
       (tstamp 592CA40F))
     (comp (ref R33)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 33K OHM 5% 1/4W 0603 ")
@@ -886,7 +886,7 @@
       (tstamp 592CA415))
     (comp (ref R26)
       (value 18k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 18K OHM 5% 1/4W 0603 ")
@@ -899,7 +899,7 @@
       (tstamp 592CC044))
     (comp (ref R27)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 33K OHM 5% 1/4W 0603 ")
@@ -912,7 +912,7 @@
       (tstamp 592CC04A))
     (comp (ref R21)
       (value 18k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 18K OHM 5% 1/4W 0603 ")
@@ -925,7 +925,7 @@
       (tstamp 592CC05D))
     (comp (ref R23)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 33K OHM 5% 1/4W 0603 ")
@@ -938,7 +938,7 @@
       (tstamp 592CC063))
     (comp (ref R16)
       (value 18k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 18K OHM 5% 1/4W 0603 ")
@@ -951,7 +951,7 @@
       (tstamp 592CD08A))
     (comp (ref R17)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 33K OHM 5% 1/4W 0603 ")
@@ -964,7 +964,7 @@
       (tstamp 592CD090))
     (comp (ref R11)
       (value 18k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 18K OHM 5% 1/4W 0603 ")
@@ -977,7 +977,7 @@
       (tstamp 592CD0A3))
     (comp (ref R13)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 33K OHM 5% 1/4W 0603 ")
@@ -990,7 +990,7 @@
       (tstamp 592CD0A9))
     (comp (ref R38)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1003,7 +1003,7 @@
       (tstamp 5920EEBD))
     (comp (ref R42)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1016,7 +1016,7 @@
       (tstamp 5920F010))
     (comp (ref C17)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1042,7 +1042,7 @@
       (tstamp 5920F088))
     (comp (ref R39)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1055,7 +1055,7 @@
       (tstamp 59211B57))
     (comp (ref R43)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1068,7 +1068,7 @@
       (tstamp 59211B5D))
     (comp (ref C18)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1094,7 +1094,7 @@
       (tstamp 59211B69))
     (comp (ref R40)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1107,7 +1107,7 @@
       (tstamp 59211D78))
     (comp (ref R44)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1120,7 +1120,7 @@
       (tstamp 59211D7E))
     (comp (ref C19)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1146,7 +1146,7 @@
       (tstamp 59211D8A))
     (comp (ref R41)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1159,7 +1159,7 @@
       (tstamp 59211DB1))
     (comp (ref R45)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1172,7 +1172,7 @@
       (tstamp 59211DB7))
     (comp (ref C20)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1198,7 +1198,7 @@
       (tstamp 59211DC3))
     (comp (ref R46)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1211,7 +1211,7 @@
       (tstamp 59213B83))
     (comp (ref R50)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1224,7 +1224,7 @@
       (tstamp 59213B89))
     (comp (ref C21)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1250,7 +1250,7 @@
       (tstamp 59213B95))
     (comp (ref R47)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1263,7 +1263,7 @@
       (tstamp 59213BBB))
     (comp (ref R51)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1276,7 +1276,7 @@
       (tstamp 59213BC1))
     (comp (ref C22)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1302,7 +1302,7 @@
       (tstamp 59213BCD))
     (comp (ref R48)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1315,7 +1315,7 @@
       (tstamp 59213BF3))
     (comp (ref R52)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1328,7 +1328,7 @@
       (tstamp 59213BF9))
     (comp (ref C23)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1354,7 +1354,7 @@
       (tstamp 59213C05))
     (comp (ref R49)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1367,7 +1367,7 @@
       (tstamp 59213C2B))
     (comp (ref R53)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1380,7 +1380,7 @@
       (tstamp 59213C31))
     (comp (ref C24)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1406,7 +1406,7 @@
       (tstamp 59213C3D))
     (comp (ref R54)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1419,7 +1419,7 @@
       (tstamp 59214007))
     (comp (ref R58)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1432,7 +1432,7 @@
       (tstamp 5921400D))
     (comp (ref C25)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1458,7 +1458,7 @@
       (tstamp 59214019))
     (comp (ref R55)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1471,7 +1471,7 @@
       (tstamp 5921403F))
     (comp (ref R59)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1484,7 +1484,7 @@
       (tstamp 59214045))
     (comp (ref C26)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1510,7 +1510,7 @@
       (tstamp 59214051))
     (comp (ref R56)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1523,7 +1523,7 @@
       (tstamp 59214077))
     (comp (ref R60)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1536,7 +1536,7 @@
       (tstamp 5921407D))
     (comp (ref C27)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
@@ -1562,7 +1562,7 @@
       (tstamp 59214089))
     (comp (ref R57)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 10K OHM 5% 1/4W 0603 ")
@@ -1575,7 +1575,7 @@
       (tstamp 592140AF))
     (comp (ref R61)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint MIDI:R_0805_HandSoldering)
       (datasheet http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e)
       (fields
         (field (name Desc) "RES SMD 1K OHM 5% 1/4W 0603 ")
@@ -1588,7 +1588,7 @@
       (tstamp 592140B5))
     (comp (ref C28)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint MIDI:C_0805_HandSoldering)
       (datasheet http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf)
       (fields
         (field (name Desc) "CAP CER 0.1UF 16V X7R 0603 ")
