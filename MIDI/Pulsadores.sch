@@ -7,9 +7,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title "Pulsadores de 1 Octava"
-Date "2017-05-20"
-Rev "v0.1"
-Comp "FIUBA - LSE - CESE                                                        Licencia: BSD"
+Date "2017-07-12"
+Rev "v0.2"
+Comp "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD"
 Comment1 "Revisores: Marcelo Moreno  /  Diego Brengi"
 Comment2 "Autor: Carlos I. Mancón"
 Comment3 ""
@@ -24,7 +24,7 @@ F 1 "+3,3V" H 2250 1110 30  0000 C CNN
 F 2 "" H 2250 1000 60  0000 C CNN
 F 3 "" H 2250 1000 60  0000 C CNN
 	1    2250 1000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R38
@@ -40,23 +40,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    2250 1350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R42
 U 1 1 5920F010
-P 1900 1700
-F 0 "R42" V 1980 1700 40  0000 C CNN
-F 1 "1k" V 1907 1701 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1830 1700 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 1900 1700 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    1900 1700
-	0    1    1    0   
+P 2600 1700
+F 0 "R42" V 2680 1700 40  0000 C CNN
+F 1 "1k" V 2607 1701 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2530 1700 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 2600 1700 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    2600 1700
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C17
@@ -72,23 +72,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    2250 2000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW1
 U 1 1 5920F088
-P 2800 1700
-F 0 "SW1" H 2950 1810 50  0000 C CNN
-F 1 "SW_PUSH" H 2800 1620 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 2800 1700 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 2800 1700 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "450-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    2800 1700
-	1    0    0    -1  
+P 1700 1700
+F 0 "SW1" H 1850 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 1700 1620 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 1700 1700 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1700 1700 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    1700 1700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR067
@@ -99,18 +99,18 @@ F 1 "GND" H 2250 2230 30  0001 C CNN
 F 2 "" H 2250 2300 60  0000 C CNN
 F 3 "" H 2250 2300 60  0000 C CNN
 	1    2250 2300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR068
 U 1 1 5920F18C
-P 3250 2300
-F 0 "#PWR068" H 3250 2300 30  0001 C CNN
-F 1 "GND" H 3250 2230 30  0001 C CNN
-F 2 "" H 3250 2300 60  0000 C CNN
-F 3 "" H 3250 2300 60  0000 C CNN
-	1    3250 2300
-	1    0    0    -1  
+P 1250 2300
+F 0 "#PWR068" H 1250 2300 30  0001 C CNN
+F 1 "GND" H 1250 2230 30  0001 C CNN
+F 2 "" H 1250 2300 60  0000 C CNN
+F 3 "" H 1250 2300 60  0000 C CNN
+	1    1250 2300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR069
@@ -121,7 +121,7 @@ F 1 "+3,3V" H 4650 1110 30  0000 C CNN
 F 2 "" H 4650 1000 60  0000 C CNN
 F 3 "" H 4650 1000 60  0000 C CNN
 	1    4650 1000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R39
@@ -137,23 +137,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    4650 1350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R43
 U 1 1 59211B5D
-P 4300 1700
-F 0 "R43" V 4380 1700 40  0000 C CNN
-F 1 "1k" V 4307 1701 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4230 1700 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 4300 1700 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    4300 1700
-	0    1    1    0   
+P 5000 1700
+F 0 "R43" V 5080 1700 40  0000 C CNN
+F 1 "1k" V 5007 1701 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4930 1700 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 5000 1700 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    5000 1700
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C18
@@ -169,23 +169,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    4650 2000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW2
 U 1 1 59211B69
-P 5200 1700
-F 0 "SW2" H 5350 1810 50  0000 C CNN
-F 1 "SW_PUSH" H 5200 1620 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 5200 1700 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5200 1700 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "456-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    5200 1700
-	1    0    0    -1  
+P 4100 1700
+F 0 "SW2" H 4250 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 4100 1620 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 4100 1700 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 4100 1700 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "456-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    4100 1700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR070
@@ -196,18 +196,18 @@ F 1 "GND" H 4650 2230 30  0001 C CNN
 F 2 "" H 4650 2300 60  0000 C CNN
 F 3 "" H 4650 2300 60  0000 C CNN
 	1    4650 2300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR071
 U 1 1 59211B78
-P 5650 2300
-F 0 "#PWR071" H 5650 2300 30  0001 C CNN
-F 1 "GND" H 5650 2230 30  0001 C CNN
-F 2 "" H 5650 2300 60  0000 C CNN
-F 3 "" H 5650 2300 60  0000 C CNN
-	1    5650 2300
-	1    0    0    -1  
+P 3650 2300
+F 0 "#PWR071" H 3650 2300 30  0001 C CNN
+F 1 "GND" H 3650 2230 30  0001 C CNN
+F 2 "" H 3650 2300 60  0000 C CNN
+F 3 "" H 3650 2300 60  0000 C CNN
+	1    3650 2300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR072
@@ -218,7 +218,7 @@ F 1 "+3,3V" H 7050 1110 30  0000 C CNN
 F 2 "" H 7050 1000 60  0000 C CNN
 F 3 "" H 7050 1000 60  0000 C CNN
 	1    7050 1000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R40
@@ -234,23 +234,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    7050 1350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R44
 U 1 1 59211D7E
-P 6700 1700
-F 0 "R44" V 6780 1700 40  0000 C CNN
-F 1 "1k" V 6707 1701 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6630 1700 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 6700 1700 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    6700 1700
-	0    1    1    0   
+P 7400 1700
+F 0 "R44" V 7480 1700 40  0000 C CNN
+F 1 "1k" V 7407 1701 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 1700 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 7400 1700 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    7400 1700
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C19
@@ -266,23 +266,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    7050 2000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW3
 U 1 1 59211D8A
-P 7600 1700
-F 0 "SW3" H 7750 1810 50  0000 C CNN
-F 1 "SW_PUSH" H 7600 1620 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 7600 1700 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 7600 1700 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "459-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    7600 1700
-	1    0    0    -1  
+P 6500 1700
+F 0 "SW3" H 6650 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 6500 1620 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 6500 1700 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6500 1700 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "459-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    6500 1700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR073
@@ -293,18 +293,18 @@ F 1 "GND" H 7050 2230 30  0001 C CNN
 F 2 "" H 7050 2300 60  0000 C CNN
 F 3 "" H 7050 2300 60  0000 C CNN
 	1    7050 2300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR074
 U 1 1 59211D99
-P 8050 2300
-F 0 "#PWR074" H 8050 2300 30  0001 C CNN
-F 1 "GND" H 8050 2230 30  0001 C CNN
-F 2 "" H 8050 2300 60  0000 C CNN
-F 3 "" H 8050 2300 60  0000 C CNN
-	1    8050 2300
-	1    0    0    -1  
+P 6050 2300
+F 0 "#PWR074" H 6050 2300 30  0001 C CNN
+F 1 "GND" H 6050 2230 30  0001 C CNN
+F 2 "" H 6050 2300 60  0000 C CNN
+F 3 "" H 6050 2300 60  0000 C CNN
+	1    6050 2300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR075
@@ -315,7 +315,7 @@ F 1 "+3,3V" H 9450 1110 30  0000 C CNN
 F 2 "" H 9450 1000 60  0000 C CNN
 F 3 "" H 9450 1000 60  0000 C CNN
 	1    9450 1000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R41
@@ -331,23 +331,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    9450 1350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R45
 U 1 1 59211DB7
-P 9100 1700
-F 0 "R45" V 9180 1700 40  0000 C CNN
-F 1 "1k" V 9107 1701 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9030 1700 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 9100 1700 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    9100 1700
-	0    1    1    0   
+P 9800 1700
+F 0 "R45" V 9880 1700 40  0000 C CNN
+F 1 "1k" V 9807 1701 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 1700 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 9800 1700 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    9800 1700
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C20
@@ -363,23 +363,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    9450 2000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW4
 U 1 1 59211DC3
-P 10000 1700
-F 0 "SW4" H 10150 1810 50  0000 C CNN
-F 1 "SW_PUSH" H 10000 1620 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 10000 1700 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10000 1700 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "451-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    10000 1700
-	1    0    0    -1  
+P 8900 1700
+F 0 "SW4" H 9050 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 8900 1620 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 8900 1700 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8900 1700 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "451-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    8900 1700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR076
@@ -390,18 +390,18 @@ F 1 "GND" H 9450 2230 30  0001 C CNN
 F 2 "" H 9450 2300 60  0000 C CNN
 F 3 "" H 9450 2300 60  0000 C CNN
 	1    9450 2300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR077
 U 1 1 59211DD2
-P 10450 2300
-F 0 "#PWR077" H 10450 2300 30  0001 C CNN
-F 1 "GND" H 10450 2230 30  0001 C CNN
-F 2 "" H 10450 2300 60  0000 C CNN
-F 3 "" H 10450 2300 60  0000 C CNN
-	1    10450 2300
-	1    0    0    -1  
+P 8450 2300
+F 0 "#PWR077" H 8450 2300 30  0001 C CNN
+F 1 "GND" H 8450 2230 30  0001 C CNN
+F 2 "" H 8450 2300 60  0000 C CNN
+F 3 "" H 8450 2300 60  0000 C CNN
+	1    8450 2300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR078
@@ -412,7 +412,7 @@ F 1 "+3,3V" H 2250 2910 30  0000 C CNN
 F 2 "" H 2250 2800 60  0000 C CNN
 F 3 "" H 2250 2800 60  0000 C CNN
 	1    2250 2800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R46
@@ -428,23 +428,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    2250 3150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R50
 U 1 1 59213B89
-P 1900 3500
-F 0 "R50" V 1980 3500 40  0000 C CNN
-F 1 "1k" V 1907 3501 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1830 3500 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 1900 3500 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    1900 3500
-	0    1    1    0   
+P 2600 3500
+F 0 "R50" V 2680 3500 40  0000 C CNN
+F 1 "1k" V 2607 3501 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2530 3500 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 2600 3500 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    2600 3500
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C21
@@ -460,23 +460,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    2250 3800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW5
 U 1 1 59213B95
-P 2800 3500
-F 0 "SW5" H 2950 3610 50  0000 C CNN
-F 1 "SW_PUSH" H 2800 3420 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 2800 3500 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 2800 3500 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "454-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    2800 3500
-	1    0    0    -1  
+P 1700 3500
+F 0 "SW5" H 1850 3610 50  0000 C CNN
+F 1 "SW_PUSH" H 1700 3420 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 1700 3500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1700 3500 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "454-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    1700 3500
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR079
@@ -487,18 +487,18 @@ F 1 "GND" H 2250 4030 30  0001 C CNN
 F 2 "" H 2250 4100 60  0000 C CNN
 F 3 "" H 2250 4100 60  0000 C CNN
 	1    2250 4100
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR080
 U 1 1 59213BA4
-P 3250 4100
-F 0 "#PWR080" H 3250 4100 30  0001 C CNN
-F 1 "GND" H 3250 4030 30  0001 C CNN
-F 2 "" H 3250 4100 60  0000 C CNN
-F 3 "" H 3250 4100 60  0000 C CNN
-	1    3250 4100
-	1    0    0    -1  
+P 1250 4100
+F 0 "#PWR080" H 1250 4100 30  0001 C CNN
+F 1 "GND" H 1250 4030 30  0001 C CNN
+F 2 "" H 1250 4100 60  0000 C CNN
+F 3 "" H 1250 4100 60  0000 C CNN
+	1    1250 4100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR081
@@ -509,7 +509,7 @@ F 1 "+3,3V" H 4650 2910 30  0000 C CNN
 F 2 "" H 4650 2800 60  0000 C CNN
 F 3 "" H 4650 2800 60  0000 C CNN
 	1    4650 2800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R47
@@ -525,23 +525,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    4650 3150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R51
 U 1 1 59213BC1
-P 4300 3500
-F 0 "R51" V 4380 3500 40  0000 C CNN
-F 1 "1k" V 4307 3501 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4230 3500 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 4300 3500 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    4300 3500
-	0    1    1    0   
+P 5000 3500
+F 0 "R51" V 5080 3500 40  0000 C CNN
+F 1 "1k" V 5007 3501 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4930 3500 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 5000 3500 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    5000 3500
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C22
@@ -557,23 +557,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    4650 3800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW6
 U 1 1 59213BCD
-P 5200 3500
-F 0 "SW6" H 5350 3610 50  0000 C CNN
-F 1 "SW_PUSH" H 5200 3420 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 5200 3500 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5200 3500 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "457-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    5200 3500
-	1    0    0    -1  
+P 4100 3500
+F 0 "SW6" H 4250 3610 50  0000 C CNN
+F 1 "SW_PUSH" H 4100 3420 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 4100 3500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 4100 3500 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "457-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    4100 3500
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR082
@@ -584,18 +584,18 @@ F 1 "GND" H 4650 4030 30  0001 C CNN
 F 2 "" H 4650 4100 60  0000 C CNN
 F 3 "" H 4650 4100 60  0000 C CNN
 	1    4650 4100
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR083
 U 1 1 59213BDC
-P 5650 4100
-F 0 "#PWR083" H 5650 4100 30  0001 C CNN
-F 1 "GND" H 5650 4030 30  0001 C CNN
-F 2 "" H 5650 4100 60  0000 C CNN
-F 3 "" H 5650 4100 60  0000 C CNN
-	1    5650 4100
-	1    0    0    -1  
+P 3650 4100
+F 0 "#PWR083" H 3650 4100 30  0001 C CNN
+F 1 "GND" H 3650 4030 30  0001 C CNN
+F 2 "" H 3650 4100 60  0000 C CNN
+F 3 "" H 3650 4100 60  0000 C CNN
+	1    3650 4100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR084
@@ -606,7 +606,7 @@ F 1 "+3,3V" H 7050 2910 30  0000 C CNN
 F 2 "" H 7050 2800 60  0000 C CNN
 F 3 "" H 7050 2800 60  0000 C CNN
 	1    7050 2800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R48
@@ -622,23 +622,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    7050 3150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R52
 U 1 1 59213BF9
-P 6700 3500
-F 0 "R52" V 6780 3500 40  0000 C CNN
-F 1 "1k" V 6707 3501 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6630 3500 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 6700 3500 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    6700 3500
-	0    1    1    0   
+P 7400 3500
+F 0 "R52" V 7480 3500 40  0000 C CNN
+F 1 "1k" V 7407 3501 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 3500 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 7400 3500 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    7400 3500
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C23
@@ -654,23 +654,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    7050 3800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW7
 U 1 1 59213C05
-P 7600 3500
-F 0 "SW7" H 7750 3610 50  0000 C CNN
-F 1 "SW_PUSH" H 7600 3420 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 7600 3500 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 7600 3500 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "460-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    7600 3500
-	1    0    0    -1  
+P 6500 3500
+F 0 "SW7" H 6650 3610 50  0000 C CNN
+F 1 "SW_PUSH" H 6500 3420 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 6500 3500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6500 3500 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "460-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    6500 3500
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR085
@@ -681,18 +681,18 @@ F 1 "GND" H 7050 4030 30  0001 C CNN
 F 2 "" H 7050 4100 60  0000 C CNN
 F 3 "" H 7050 4100 60  0000 C CNN
 	1    7050 4100
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR086
 U 1 1 59213C14
-P 8050 4100
-F 0 "#PWR086" H 8050 4100 30  0001 C CNN
-F 1 "GND" H 8050 4030 30  0001 C CNN
-F 2 "" H 8050 4100 60  0000 C CNN
-F 3 "" H 8050 4100 60  0000 C CNN
-	1    8050 4100
-	1    0    0    -1  
+P 6050 4100
+F 0 "#PWR086" H 6050 4100 30  0001 C CNN
+F 1 "GND" H 6050 4030 30  0001 C CNN
+F 2 "" H 6050 4100 60  0000 C CNN
+F 3 "" H 6050 4100 60  0000 C CNN
+	1    6050 4100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR087
@@ -703,7 +703,7 @@ F 1 "+3,3V" H 9450 2910 30  0000 C CNN
 F 2 "" H 9450 2800 60  0000 C CNN
 F 3 "" H 9450 2800 60  0000 C CNN
 	1    9450 2800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R49
@@ -719,23 +719,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    9450 3150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R53
 U 1 1 59213C31
-P 9100 3500
-F 0 "R53" V 9180 3500 40  0000 C CNN
-F 1 "1k" V 9107 3501 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9030 3500 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 9100 3500 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    9100 3500
-	0    1    1    0   
+P 9800 3500
+F 0 "R53" V 9880 3500 40  0000 C CNN
+F 1 "1k" V 9807 3501 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 3500 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 9800 3500 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    9800 3500
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C24
@@ -751,23 +751,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    9450 3800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW8
 U 1 1 59213C3D
-P 10000 3500
-F 0 "SW8" H 10150 3610 50  0000 C CNN
-F 1 "SW_PUSH" H 10000 3420 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 10000 3500 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10000 3500 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "452-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    10000 3500
-	1    0    0    -1  
+P 8900 3500
+F 0 "SW8" H 9050 3610 50  0000 C CNN
+F 1 "SW_PUSH" H 8900 3420 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 8900 3500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8900 3500 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "452-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    8900 3500
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR088
@@ -778,18 +778,18 @@ F 1 "GND" H 9450 4030 30  0001 C CNN
 F 2 "" H 9450 4100 60  0000 C CNN
 F 3 "" H 9450 4100 60  0000 C CNN
 	1    9450 4100
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR089
 U 1 1 59213C4C
-P 10450 4100
-F 0 "#PWR089" H 10450 4100 30  0001 C CNN
-F 1 "GND" H 10450 4030 30  0001 C CNN
-F 2 "" H 10450 4100 60  0000 C CNN
-F 3 "" H 10450 4100 60  0000 C CNN
-	1    10450 4100
-	1    0    0    -1  
+P 8450 4100
+F 0 "#PWR089" H 8450 4100 30  0001 C CNN
+F 1 "GND" H 8450 4030 30  0001 C CNN
+F 2 "" H 8450 4100 60  0000 C CNN
+F 3 "" H 8450 4100 60  0000 C CNN
+	1    8450 4100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR090
@@ -800,7 +800,7 @@ F 1 "+3,3V" H 2250 4710 30  0000 C CNN
 F 2 "" H 2250 4600 60  0000 C CNN
 F 3 "" H 2250 4600 60  0000 C CNN
 	1    2250 4600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R54
@@ -816,23 +816,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    2250 4950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R58
 U 1 1 5921400D
-P 1900 5300
-F 0 "R58" V 1980 5300 40  0000 C CNN
-F 1 "1k" V 1907 5301 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1830 5300 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 1900 5300 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    1900 5300
-	0    1    1    0   
+P 2600 5300
+F 0 "R58" V 2680 5300 40  0000 C CNN
+F 1 "1k" V 2607 5301 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2530 5300 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 2600 5300 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    2600 5300
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C25
@@ -848,23 +848,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    2250 5600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW9
 U 1 1 59214019
-P 2800 5300
-F 0 "SW9" H 2950 5410 50  0000 C CNN
-F 1 "SW_PUSH" H 2800 5220 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 2800 5300 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 2800 5300 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "455-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    2800 5300
-	1    0    0    -1  
+P 1700 5300
+F 0 "SW9" H 1850 5410 50  0000 C CNN
+F 1 "SW_PUSH" H 1700 5220 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 1700 5300 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1700 5300 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "455-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    1700 5300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR091
@@ -875,18 +875,18 @@ F 1 "GND" H 2250 5830 30  0001 C CNN
 F 2 "" H 2250 5900 60  0000 C CNN
 F 3 "" H 2250 5900 60  0000 C CNN
 	1    2250 5900
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR092
 U 1 1 59214028
-P 3250 5900
-F 0 "#PWR092" H 3250 5900 30  0001 C CNN
-F 1 "GND" H 3250 5830 30  0001 C CNN
-F 2 "" H 3250 5900 60  0000 C CNN
-F 3 "" H 3250 5900 60  0000 C CNN
-	1    3250 5900
-	1    0    0    -1  
+P 1250 5900
+F 0 "#PWR092" H 1250 5900 30  0001 C CNN
+F 1 "GND" H 1250 5830 30  0001 C CNN
+F 2 "" H 1250 5900 60  0000 C CNN
+F 3 "" H 1250 5900 60  0000 C CNN
+	1    1250 5900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR093
@@ -897,7 +897,7 @@ F 1 "+3,3V" H 4650 4710 30  0000 C CNN
 F 2 "" H 4650 4600 60  0000 C CNN
 F 3 "" H 4650 4600 60  0000 C CNN
 	1    4650 4600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R55
@@ -913,23 +913,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    4650 4950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R59
 U 1 1 59214045
-P 4300 5300
-F 0 "R59" V 4380 5300 40  0000 C CNN
-F 1 "1k" V 4307 5301 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4230 5300 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 4300 5300 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    4300 5300
-	0    1    1    0   
+P 5000 5300
+F 0 "R59" V 5080 5300 40  0000 C CNN
+F 1 "1k" V 5007 5301 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4930 5300 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 5000 5300 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    5000 5300
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C26
@@ -945,23 +945,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    4650 5600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW10
 U 1 1 59214051
-P 5200 5300
-F 0 "SW10" H 5350 5410 50  0000 C CNN
-F 1 "SW_PUSH" H 5200 5220 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 5200 5300 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5200 5300 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "458-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    5200 5300
-	1    0    0    -1  
+P 4100 5300
+F 0 "SW10" H 4250 5410 50  0000 C CNN
+F 1 "SW_PUSH" H 4100 5220 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 4100 5300 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 4100 5300 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "458-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    4100 5300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR094
@@ -972,18 +972,18 @@ F 1 "GND" H 4650 5830 30  0001 C CNN
 F 2 "" H 4650 5900 60  0000 C CNN
 F 3 "" H 4650 5900 60  0000 C CNN
 	1    4650 5900
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR095
 U 1 1 59214060
-P 5650 5900
-F 0 "#PWR095" H 5650 5900 30  0001 C CNN
-F 1 "GND" H 5650 5830 30  0001 C CNN
-F 2 "" H 5650 5900 60  0000 C CNN
-F 3 "" H 5650 5900 60  0000 C CNN
-	1    5650 5900
-	1    0    0    -1  
+P 3650 5900
+F 0 "#PWR095" H 3650 5900 30  0001 C CNN
+F 1 "GND" H 3650 5830 30  0001 C CNN
+F 2 "" H 3650 5900 60  0000 C CNN
+F 3 "" H 3650 5900 60  0000 C CNN
+	1    3650 5900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR096
@@ -994,7 +994,7 @@ F 1 "+3,3V" H 7050 4710 30  0000 C CNN
 F 2 "" H 7050 4600 60  0000 C CNN
 F 3 "" H 7050 4600 60  0000 C CNN
 	1    7050 4600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R56
@@ -1010,23 +1010,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    7050 4950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R60
 U 1 1 5921407D
-P 6700 5300
-F 0 "R60" V 6780 5300 40  0000 C CNN
-F 1 "1k" V 6707 5301 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6630 5300 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 6700 5300 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    6700 5300
-	0    1    1    0   
+P 7400 5300
+F 0 "R60" V 7480 5300 40  0000 C CNN
+F 1 "1k" V 7407 5301 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 5300 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 7400 5300 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    7400 5300
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C27
@@ -1042,23 +1042,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    7050 5600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW11
 U 1 1 59214089
-P 7600 5300
-F 0 "SW11" H 7750 5410 50  0000 C CNN
-F 1 "SW_PUSH" H 7600 5220 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 7600 5300 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 7600 5300 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "461-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    7600 5300
-	1    0    0    -1  
+P 6500 5300
+F 0 "SW11" H 6650 5410 50  0000 C CNN
+F 1 "SW_PUSH" H 6500 5220 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 6500 5300 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6500 5300 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "461-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    6500 5300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR097
@@ -1069,18 +1069,18 @@ F 1 "GND" H 7050 5830 30  0001 C CNN
 F 2 "" H 7050 5900 60  0000 C CNN
 F 3 "" H 7050 5900 60  0000 C CNN
 	1    7050 5900
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR098
 U 1 1 59214098
-P 8050 5900
-F 0 "#PWR098" H 8050 5900 30  0001 C CNN
-F 1 "GND" H 8050 5830 30  0001 C CNN
-F 2 "" H 8050 5900 60  0000 C CNN
-F 3 "" H 8050 5900 60  0000 C CNN
-	1    8050 5900
-	1    0    0    -1  
+P 6050 5900
+F 0 "#PWR098" H 6050 5900 30  0001 C CNN
+F 1 "GND" H 6050 5830 30  0001 C CNN
+F 2 "" H 6050 5900 60  0000 C CNN
+F 3 "" H 6050 5900 60  0000 C CNN
+	1    6050 5900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR099
@@ -1091,7 +1091,7 @@ F 1 "+3,3V" H 9450 4710 30  0000 C CNN
 F 2 "" H 9450 4600 60  0000 C CNN
 F 3 "" H 9450 4600 60  0000 C CNN
 	1    9450 4600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R57
@@ -1107,23 +1107,23 @@ F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
 F 7 "ESR03EZPJ103" H 0   0   50  0001 C CNN "Manf#"
 F 8 "755-ESR03EZPJ103" H 0   0   50  0001 C CNN "Mouser#"
 	1    9450 4950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R61
 U 1 1 592140B5
-P 9100 5300
-F 0 "R61" V 9180 5300 40  0000 C CNN
-F 1 "1k" V 9107 5301 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9030 5300 30  0001 C CNN
-F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 9100 5300 30  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "RHM1.0KDCT-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manf"
-F 7 "ESR03EZPJ102" H 0   0   50  0001 C CNN "Manf#"
-F 8 "755-ESR03EZPJ102" H 0   0   50  0001 C CNN "Mouser#"
-	1    9100 5300
-	0    1    1    0   
+P 9800 5300
+F 0 "R61" V 9880 5300 40  0000 C CNN
+F 1 "1k" V 9807 5301 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 5300 30  0001 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 9800 5300 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/4W 0603 " H 700 0   50  0001 C CNN "Desc"
+F 5 "RHM1.0KDCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 6 "Rohm Semiconductor" H 700 0   50  0001 C CNN "Manf"
+F 7 "ESR03EZPJ102" H 700 0   50  0001 C CNN "Manf#"
+F 8 "755-ESR03EZPJ102" H 700 0   50  0001 C CNN "Mouser#"
+	1    9800 5300
+	0    -1   1    0   
 $EndComp
 $Comp
 L C C28
@@ -1139,23 +1139,23 @@ F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
 F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
 F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
 	1    9450 5600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW12
 U 1 1 592140C1
-P 10000 5300
-F 0 "SW12" H 10150 5410 50  0000 C CNN
-F 1 "SW_PUSH" H 10000 5220 50  0000 C CNN
-F 2 "MIDI:SW_PUSH_6mm" H 10000 5300 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 10000 5300 60  0001 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
-F 5 "453-1650-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "TE Connectivity ALCOSWITCH Switches" H 0   0   50  0001 C CNN "Manf"
-F 7 "1825910-6" H 0   0   50  0001 C CNN "Manf#"
-F 8 "506-FSM4JH" H 0   0   50  0001 C CNN "Mouser#"
-	1    10000 5300
-	1    0    0    -1  
+P 8900 5300
+F 0 "SW12" H 9050 5410 50  0000 C CNN
+F 1 "SW_PUSH" H 8900 5220 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 8900 5300 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8900 5300 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H -1100 0   50  0001 C CNN "Desc"
+F 5 "453-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 6 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 7 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 8 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    8900 5300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0100
@@ -1166,341 +1166,341 @@ F 1 "GND" H 9450 5830 30  0001 C CNN
 F 2 "" H 9450 5900 60  0000 C CNN
 F 3 "" H 9450 5900 60  0000 C CNN
 	1    9450 5900
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0101
 U 1 1 592140D0
-P 10450 5900
-F 0 "#PWR0101" H 10450 5900 30  0001 C CNN
-F 1 "GND" H 10450 5830 30  0001 C CNN
-F 2 "" H 10450 5900 60  0000 C CNN
-F 3 "" H 10450 5900 60  0000 C CNN
-	1    10450 5900
-	1    0    0    -1  
+P 8450 5900
+F 0 "#PWR0101" H 8450 5900 30  0001 C CNN
+F 1 "GND" H 8450 5830 30  0001 C CNN
+F 2 "" H 8450 5900 60  0000 C CNN
+F 3 "" H 8450 5900 60  0000 C CNN
+	1    8450 5900
+	-1   0    0    -1  
 $EndComp
-Text HLabel 1550 1700 0    60   Output ~ 0
+Text HLabel 2950 1700 2    60   Output ~ 0
 PULS_0
-Text HLabel 3950 1700 0    60   Output ~ 0
+Text HLabel 5350 1700 2    60   Output ~ 0
 PULS_1
-Text HLabel 6350 1700 0    60   Output ~ 0
+Text HLabel 7750 1700 2    60   Output ~ 0
 PULS_2
-Text HLabel 8750 1700 0    60   Output ~ 0
+Text HLabel 10150 1700 2    60   Output ~ 0
 PULS_3
-Text HLabel 1550 3500 0    60   Output ~ 0
+Text HLabel 2950 3500 2    60   Output ~ 0
 PULS_4
-Text HLabel 3950 3500 0    60   Output ~ 0
+Text HLabel 5350 3500 2    60   Output ~ 0
 PULS_5
-Text HLabel 6350 3500 0    60   Output ~ 0
+Text HLabel 7750 3500 2    60   Output ~ 0
 PULS_6
-Text HLabel 8750 3500 0    60   Output ~ 0
+Text HLabel 10150 3500 2    60   Output ~ 0
 PULS_7
-Text HLabel 1550 5300 0    60   Output ~ 0
+Text HLabel 2950 5300 2    60   Output ~ 0
 PULS_8
-Text HLabel 3950 5300 0    60   Output ~ 0
+Text HLabel 5350 5300 2    60   Output ~ 0
 PULS_9
-Text HLabel 6350 5300 0    60   Output ~ 0
+Text HLabel 7750 5300 2    60   Output ~ 0
 PULS_10
-Text HLabel 8750 5300 0    60   Output ~ 0
+Text HLabel 10150 5300 2    60   Output ~ 0
 PULS_11
 Wire Wire Line
-	2500 1700 2150 1700
+	2000 1700 2350 1700
 Wire Wire Line
 	2250 1600 2250 1800
 Wire Wire Line
-	3100 1700 3250 1700
+	1400 1700 1250 1700
 Wire Wire Line
-	2500 1800 2450 1800
+	2000 1800 2050 1800
 Wire Wire Line
-	2450 1800 2450 1700
+	2050 1800 2050 1700
 Wire Wire Line
-	3100 1800 3150 1800
+	1400 1800 1350 1800
 Wire Wire Line
-	3150 1800 3150 1700
+	1350 1800 1350 1700
 Wire Wire Line
 	2250 2200 2250 2300
 Wire Wire Line
 	2250 1000 2250 1100
 Wire Wire Line
-	1650 1700 1550 1700
+	2850 1700 2950 1700
 Wire Wire Line
-	4900 1700 4550 1700
+	4400 1700 4750 1700
 Wire Wire Line
 	4650 1600 4650 1800
 Wire Wire Line
-	5500 1700 5650 1700
+	3800 1700 3650 1700
 Wire Wire Line
-	4900 1800 4850 1800
+	4400 1800 4450 1800
 Wire Wire Line
-	4850 1800 4850 1700
+	4450 1800 4450 1700
 Wire Wire Line
-	5500 1800 5550 1800
+	3800 1800 3750 1800
 Wire Wire Line
-	5550 1800 5550 1700
+	3750 1800 3750 1700
 Wire Wire Line
 	4650 2200 4650 2300
 Wire Wire Line
 	4650 1000 4650 1100
 Wire Wire Line
-	4050 1700 3950 1700
+	5250 1700 5350 1700
 Wire Wire Line
-	7300 1700 6950 1700
+	6800 1700 7150 1700
 Wire Wire Line
 	7050 1600 7050 1800
 Wire Wire Line
-	7900 1700 8050 1700
+	6200 1700 6050 1700
 Wire Wire Line
-	7300 1800 7250 1800
+	6800 1800 6850 1800
 Wire Wire Line
-	7250 1800 7250 1700
+	6850 1800 6850 1700
 Wire Wire Line
-	7900 1800 7950 1800
+	6200 1800 6150 1800
 Wire Wire Line
-	7950 1800 7950 1700
+	6150 1800 6150 1700
 Wire Wire Line
 	7050 2200 7050 2300
 Wire Wire Line
 	7050 1000 7050 1100
 Wire Wire Line
-	6450 1700 6350 1700
+	7650 1700 7750 1700
 Wire Wire Line
-	9700 1700 9350 1700
+	9200 1700 9550 1700
 Wire Wire Line
 	9450 1600 9450 1800
 Wire Wire Line
-	10300 1700 10450 1700
+	8600 1700 8450 1700
 Wire Wire Line
-	9700 1800 9650 1800
+	9200 1800 9250 1800
 Wire Wire Line
-	9650 1800 9650 1700
+	9250 1800 9250 1700
 Wire Wire Line
-	10300 1800 10350 1800
+	8600 1800 8550 1800
 Wire Wire Line
-	10350 1800 10350 1700
+	8550 1800 8550 1700
 Wire Wire Line
 	9450 2200 9450 2300
 Wire Wire Line
 	9450 1000 9450 1100
 Wire Wire Line
-	8850 1700 8750 1700
+	10050 1700 10150 1700
 Wire Wire Line
-	3250 1700 3250 2300
+	1250 1700 1250 2300
 Wire Wire Line
-	10450 1700 10450 2300
+	8450 1700 8450 2300
 Wire Wire Line
-	8050 1700 8050 2300
+	6050 1700 6050 2300
 Wire Wire Line
-	5650 1700 5650 2300
+	3650 1700 3650 2300
 Wire Wire Line
-	2500 3500 2150 3500
+	2000 3500 2350 3500
 Wire Wire Line
 	2250 3400 2250 3600
 Wire Wire Line
-	3100 3500 3250 3500
+	1400 3500 1250 3500
 Wire Wire Line
-	2500 3600 2450 3600
+	2000 3600 2050 3600
 Wire Wire Line
-	2450 3600 2450 3500
+	2050 3600 2050 3500
 Wire Wire Line
-	3100 3600 3150 3600
+	1400 3600 1350 3600
 Wire Wire Line
-	3150 3600 3150 3500
+	1350 3600 1350 3500
 Wire Wire Line
 	2250 4000 2250 4100
 Wire Wire Line
 	2250 2800 2250 2900
 Wire Wire Line
-	1650 3500 1550 3500
+	2850 3500 2950 3500
 Wire Wire Line
-	4900 3500 4550 3500
+	4400 3500 4750 3500
 Wire Wire Line
 	4650 3400 4650 3600
 Wire Wire Line
-	5500 3500 5650 3500
+	3800 3500 3650 3500
 Wire Wire Line
-	4900 3600 4850 3600
+	4400 3600 4450 3600
 Wire Wire Line
-	4850 3600 4850 3500
+	4450 3600 4450 3500
 Wire Wire Line
-	5500 3600 5550 3600
+	3800 3600 3750 3600
 Wire Wire Line
-	5550 3600 5550 3500
+	3750 3600 3750 3500
 Wire Wire Line
 	4650 4000 4650 4100
 Wire Wire Line
 	4650 2800 4650 2900
 Wire Wire Line
-	4050 3500 3950 3500
+	5250 3500 5350 3500
 Wire Wire Line
-	7300 3500 6950 3500
+	6800 3500 7150 3500
 Wire Wire Line
 	7050 3400 7050 3600
 Wire Wire Line
-	7900 3500 8050 3500
+	6200 3500 6050 3500
 Wire Wire Line
-	7300 3600 7250 3600
+	6800 3600 6850 3600
 Wire Wire Line
-	7250 3600 7250 3500
+	6850 3600 6850 3500
 Wire Wire Line
-	7900 3600 7950 3600
+	6200 3600 6150 3600
 Wire Wire Line
-	7950 3600 7950 3500
+	6150 3600 6150 3500
 Wire Wire Line
 	7050 4000 7050 4100
 Wire Wire Line
 	7050 2800 7050 2900
 Wire Wire Line
-	6450 3500 6350 3500
+	7650 3500 7750 3500
 Wire Wire Line
-	9700 3500 9350 3500
+	9200 3500 9550 3500
 Wire Wire Line
 	9450 3400 9450 3600
 Wire Wire Line
-	10300 3500 10450 3500
+	8600 3500 8450 3500
 Wire Wire Line
-	9700 3600 9650 3600
+	9200 3600 9250 3600
 Wire Wire Line
-	9650 3600 9650 3500
+	9250 3600 9250 3500
 Wire Wire Line
-	10300 3600 10350 3600
+	8600 3600 8550 3600
 Wire Wire Line
-	10350 3600 10350 3500
+	8550 3600 8550 3500
 Wire Wire Line
 	9450 4000 9450 4100
 Wire Wire Line
 	9450 2800 9450 2900
 Wire Wire Line
-	8850 3500 8750 3500
+	10050 3500 10150 3500
 Wire Wire Line
-	3250 3500 3250 4100
+	1250 3500 1250 4100
 Wire Wire Line
-	10450 3500 10450 4100
+	8450 3500 8450 4100
 Wire Wire Line
-	8050 3500 8050 4100
+	6050 3500 6050 4100
 Wire Wire Line
-	5650 3500 5650 4100
+	3650 3500 3650 4100
 Wire Wire Line
-	2500 5300 2150 5300
+	2000 5300 2350 5300
 Wire Wire Line
 	2250 5200 2250 5400
 Wire Wire Line
-	3100 5300 3250 5300
+	1400 5300 1250 5300
 Wire Wire Line
-	2500 5400 2450 5400
+	2000 5400 2050 5400
 Wire Wire Line
-	2450 5400 2450 5300
+	2050 5400 2050 5300
 Wire Wire Line
-	3100 5400 3150 5400
+	1400 5400 1350 5400
 Wire Wire Line
-	3150 5400 3150 5300
+	1350 5400 1350 5300
 Wire Wire Line
 	2250 5800 2250 5900
 Wire Wire Line
 	2250 4600 2250 4700
 Wire Wire Line
-	1650 5300 1550 5300
+	2850 5300 2950 5300
 Wire Wire Line
-	4900 5300 4550 5300
+	4400 5300 4750 5300
 Wire Wire Line
 	4650 5200 4650 5400
 Wire Wire Line
-	5500 5300 5650 5300
+	3800 5300 3650 5300
 Wire Wire Line
-	4900 5400 4850 5400
+	4400 5400 4450 5400
 Wire Wire Line
-	4850 5400 4850 5300
+	4450 5400 4450 5300
 Wire Wire Line
-	5500 5400 5550 5400
+	3800 5400 3750 5400
 Wire Wire Line
-	5550 5400 5550 5300
+	3750 5400 3750 5300
 Wire Wire Line
 	4650 5800 4650 5900
 Wire Wire Line
 	4650 4600 4650 4700
 Wire Wire Line
-	4050 5300 3950 5300
+	5250 5300 5350 5300
 Wire Wire Line
-	7300 5300 6950 5300
+	6800 5300 7150 5300
 Wire Wire Line
 	7050 5200 7050 5400
 Wire Wire Line
-	7900 5300 8050 5300
+	6200 5300 6050 5300
 Wire Wire Line
-	7300 5400 7250 5400
+	6800 5400 6850 5400
 Wire Wire Line
-	7250 5400 7250 5300
+	6850 5400 6850 5300
 Wire Wire Line
-	7900 5400 7950 5400
+	6200 5400 6150 5400
 Wire Wire Line
-	7950 5400 7950 5300
+	6150 5400 6150 5300
 Wire Wire Line
 	7050 5800 7050 5900
 Wire Wire Line
 	7050 4600 7050 4700
 Wire Wire Line
-	6450 5300 6350 5300
+	7650 5300 7750 5300
 Wire Wire Line
-	9700 5300 9350 5300
+	9200 5300 9550 5300
 Wire Wire Line
 	9450 5200 9450 5400
 Wire Wire Line
-	10300 5300 10450 5300
+	8600 5300 8450 5300
 Wire Wire Line
-	9700 5400 9650 5400
+	9200 5400 9250 5400
 Wire Wire Line
-	9650 5400 9650 5300
+	9250 5400 9250 5300
 Wire Wire Line
-	10300 5400 10350 5400
+	8600 5400 8550 5400
 Wire Wire Line
-	10350 5400 10350 5300
+	8550 5400 8550 5300
 Wire Wire Line
 	9450 5800 9450 5900
 Wire Wire Line
 	9450 4600 9450 4700
 Wire Wire Line
-	8850 5300 8750 5300
+	10050 5300 10150 5300
 Wire Wire Line
-	3250 5300 3250 5900
+	1250 5300 1250 5900
 Wire Wire Line
-	10450 5300 10450 5900
+	8450 5300 8450 5900
 Wire Wire Line
-	8050 5300 8050 5900
+	6050 5300 6050 5900
 Wire Wire Line
-	5650 5300 5650 5900
+	3650 5300 3650 5900
 Connection ~ 2250 1700
-Connection ~ 2450 1700
-Connection ~ 3150 1700
+Connection ~ 2050 1700
+Connection ~ 1350 1700
 Connection ~ 4650 1700
-Connection ~ 4850 1700
-Connection ~ 5550 1700
+Connection ~ 4450 1700
+Connection ~ 3750 1700
 Connection ~ 7050 1700
-Connection ~ 7250 1700
-Connection ~ 7950 1700
+Connection ~ 6850 1700
+Connection ~ 6150 1700
 Connection ~ 9450 1700
-Connection ~ 9650 1700
-Connection ~ 10350 1700
+Connection ~ 9250 1700
+Connection ~ 8550 1700
 Connection ~ 2250 3500
-Connection ~ 2450 3500
-Connection ~ 3150 3500
+Connection ~ 2050 3500
+Connection ~ 1350 3500
 Connection ~ 4650 3500
-Connection ~ 4850 3500
-Connection ~ 5550 3500
+Connection ~ 4450 3500
+Connection ~ 3750 3500
 Connection ~ 7050 3500
-Connection ~ 7250 3500
-Connection ~ 7950 3500
+Connection ~ 6850 3500
+Connection ~ 6150 3500
 Connection ~ 9450 3500
-Connection ~ 9650 3500
-Connection ~ 10350 3500
+Connection ~ 9250 3500
+Connection ~ 8550 3500
 Connection ~ 2250 5300
-Connection ~ 2450 5300
-Connection ~ 3150 5300
+Connection ~ 2050 5300
+Connection ~ 1350 5300
 Connection ~ 4650 5300
-Connection ~ 4850 5300
-Connection ~ 5550 5300
+Connection ~ 4450 5300
+Connection ~ 3750 5300
 Connection ~ 7050 5300
-Connection ~ 7250 5300
-Connection ~ 7950 5300
+Connection ~ 6850 5300
+Connection ~ 6150 5300
 Connection ~ 9450 5300
-Connection ~ 9650 5300
-Connection ~ 10350 5300
+Connection ~ 9250 5300
+Connection ~ 8550 5300
 $EndSCHEMATC

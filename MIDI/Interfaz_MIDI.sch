@@ -7,9 +7,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "Interfaz MIDI"
-Date "2017-05-19"
-Rev "v0.1"
-Comp "FIUBA - LSE - CESE                                                        Licencia: BSD"
+Date "2017-07-12"
+Rev "v0.2"
+Comp "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD"
 Comment1 "Revisores: Marcelo Moreno  /  Diego Brengi"
 Comment2 "Autor: Carlos I. Mancón"
 Comment3 ""
@@ -529,39 +529,39 @@ $EndComp
 $Comp
 L GND #PWR014
 U 1 1 592CE7E7
-P 6560 7380
-F 0 "#PWR014" H 6560 7380 30  0001 C CNN
-F 1 "GND" H 6560 7310 30  0001 C CNN
-F 2 "" H 6560 7380 60  0000 C CNN
-F 3 "" H 6560 7380 60  0000 C CNN
-	1    6560 7380
+P 3660 5230
+F 0 "#PWR014" H 3660 5230 30  0001 C CNN
+F 1 "GND" H 3660 5160 30  0001 C CNN
+F 2 "" H 3660 5230 60  0000 C CNN
+F 3 "" H 3660 5230 60  0000 C CNN
+	1    3660 5230
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3,3V #PWR015
 U 1 1 592CE837
-P 6560 6780
-F 0 "#PWR015" H 6560 6740 30  0001 C CNN
-F 1 "+3,3V" H 6560 6890 30  0000 C CNN
-F 2 "" H 6560 6780 60  0000 C CNN
-F 3 "" H 6560 6780 60  0000 C CNN
-	1    6560 6780
+P 3660 4630
+F 0 "#PWR015" H 3660 4590 30  0001 C CNN
+F 1 "+3,3V" H 3660 4740 30  0000 C CNN
+F 2 "" H 3660 4630 60  0000 C CNN
+F 3 "" H 3660 4630 60  0000 C CNN
+	1    3660 4630
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C3
 U 1 1 592CE8FA
-P 6560 7080
-F 0 "C3" H 6560 7180 40  0000 L CNN
-F 1 "100nF" H 6566 6995 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6598 6930 30  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" H 6560 7080 60  0001 C CNN
-F 4 "CAP CER 0.1UF 16V X7R 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "490-1532-1-ND " H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
-F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
-F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
-	1    6560 7080
+P 3660 4930
+F 0 "C3" H 3660 5030 40  0000 L CNN
+F 1 "100nF" H 3666 4845 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3698 4780 30  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" H 3660 4930 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V X7R 0603 " H -2900 -2150 50  0001 C CNN "Desc"
+F 5 "490-1532-1-ND " H -2900 -2150 50  0001 C CNN "Digikey#"
+F 6 "Murata Electronics North America" H -2900 -2150 50  0001 C CNN "Manf"
+F 7 "GRM188R71C104KA01D " H -2900 -2150 50  0001 C CNN "Manf#"
+F 8 "81-GRM39X104K16" H -2900 -2150 50  0001 C CNN "Mouser#"
+	1    3660 4930
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -644,7 +644,7 @@ Text Notes 9595 4450 0    60   ~ 0
 MIDI OUT
 Text Notes 9620 2230 0    60   ~ 0
 MIDI THRU
-Text Notes 6250 7760 0    60   ~ 0
+Text Notes 3350 5500 0    60   ~ 0
 Colocar cerca\nde Hex Buffer
 Text Notes 2150 4300 0    60   ~ 0
 Nota 1
@@ -770,14 +770,10 @@ Wire Wire Line
 	6495 5540 6495 5625
 Wire Wire Line
 	6495 5825 6495 5925
-Wire Notes Line
-	6970 6535 6150 6535
-Wire Notes Line
-	6150 6535 6150 7795
 Wire Wire Line
-	6560 7280 6560 7380
+	3660 5130 3660 5230
 Wire Wire Line
-	6560 6880 6560 6780
+	3660 4730 3660 4630
 Wire Wire Line
 	1300 4500 1300 5450
 Wire Wire Line

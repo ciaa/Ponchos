@@ -7,9 +7,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "Encoders"
-Date "2017-05-20"
-Rev "v0.1"
-Comp "FIUBA - LSE - CESE                                                        Licencia: BSD"
+Date "2017-07-12"
+Rev "v0.2"
+Comp "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD"
 Comment1 "Revisores: Marcelo Moreno  /  Diego Brengi"
 Comment2 "Autor: Carlos I. Mancón"
 Comment3 ""
@@ -1057,39 +1057,39 @@ $EndComp
 $Comp
 L C C16
 U 1 1 592C6D93
-P 6555 7115
-F 0 "C16" H 6555 7215 40  0000 L CNN
-F 1 "100nF" H 6561 7030 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6593 6965 30  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" H 6555 7115 60  0001 C CNN
-F 4 "CAP CER 0.1UF 16V X7R 0603 " H 0   0   50  0001 C CNN "Desc"
-F 5 "490-1532-1-ND " H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manf"
-F 7 "GRM188R71C104KA01D " H 0   0   50  0001 C CNN "Manf#"
-F 8 "81-GRM39X104K16" H 0   0   50  0001 C CNN "Mouser#"
-	1    6555 7115
+P 5555 7015
+F 0 "C16" H 5555 7115 40  0000 L CNN
+F 1 "100nF" H 5561 6930 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5593 6865 30  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" H 5555 7015 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V X7R 0603 " H -1000 -100 50  0001 C CNN "Desc"
+F 5 "490-1532-1-ND " H -1000 -100 50  0001 C CNN "Digikey#"
+F 6 "Murata Electronics North America" H -1000 -100 50  0001 C CNN "Manf"
+F 7 "GRM188R71C104KA01D " H -1000 -100 50  0001 C CNN "Manf#"
+F 8 "81-GRM39X104K16" H -1000 -100 50  0001 C CNN "Mouser#"
+	1    5555 7015
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR058
 U 1 1 592C6D99
-P 6555 7475
-F 0 "#PWR058" H 6555 7475 30  0001 C CNN
-F 1 "GND" H 6555 7405 30  0001 C CNN
-F 2 "" H 6555 7475 60  0000 C CNN
-F 3 "" H 6555 7475 60  0000 C CNN
-	1    6555 7475
+P 5555 7375
+F 0 "#PWR058" H 5555 7375 30  0001 C CNN
+F 1 "GND" H 5555 7305 30  0001 C CNN
+F 2 "" H 5555 7375 60  0000 C CNN
+F 3 "" H 5555 7375 60  0000 C CNN
+	1    5555 7375
 	-1   0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR059
 U 1 1 592C6E2C
-P 6555 6750
-F 0 "#PWR059" H 6555 6840 20  0001 C CNN
-F 1 "+5V" H 6555 6840 30  0000 C CNN
-F 2 "" H 6555 6750 60  0000 C CNN
-F 3 "" H 6555 6750 60  0000 C CNN
-	1    6555 6750
+P 5555 6650
+F 0 "#PWR059" H 5555 6740 20  0001 C CNN
+F 1 "+5V" H 5555 6740 30  0000 C CNN
+F 2 "" H 5555 6650 60  0000 C CNN
+F 3 "" H 5555 6650 60  0000 C CNN
+	1    5555 6650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1368,7 +1368,7 @@ Text HLabel 10260 5325 2    60   Output ~ 0
 ENC_A_2
 Text HLabel 10260 5725 2    60   Output ~ 0
 ENC_B_2
-Text Notes 6155 7765 0    60   ~ 0
+Text Notes 5155 7665 0    60   ~ 0
 Colocar cerca de\n Schmitt Inverter
 Wire Wire Line
 	2110 1525 2110 1725
@@ -1587,9 +1587,9 @@ Wire Notes Line
 Wire Notes Line
 	6425 5170 6425 5870
 Wire Wire Line
-	6555 7315 6555 7475
+	5555 7215 5555 7375
 Wire Wire Line
-	6555 6915 6555 6750
+	5555 6815 5555 6650
 Wire Wire Line
 	8860 5725 8960 5725
 Wire Wire Line
@@ -1663,11 +1663,7 @@ Wire Wire Line
 Wire Wire Line
 	9510 1570 9510 1425
 Wire Notes Line
-	6970 6535 6145 6535
-Wire Notes Line
-	6145 6535 6145 7790
-Wire Notes Line
-	6145 7790 6140 7790
+	5145 7690 5140 7690
 Connection ~ 2110 1625
 Connection ~ 2110 3575
 Connection ~ 2110 5525

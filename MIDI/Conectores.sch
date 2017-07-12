@@ -8,8 +8,8 @@ encoding utf-8
 Sheet 3 5
 Title "Conectores"
 Date "2017-06-11"
-Rev "v0.1"
-Comp "FIUBA - LSE - CESE                                                        Licencia: BSD"
+Rev "v0.2"
+Comp "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD"
 Comment1 "Revisores: Marcelo Moreno  /  Diego Brengi"
 Comment2 "Autor: Carlos I. Mancón"
 Comment3 ""

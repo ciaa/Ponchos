@@ -3,7 +3,7 @@
   (general
     (links 292)
     (no_connects 203)
-    (area 41.424999 23.674999 127.325001 160.825001)
+    (area 38.1 20.32 129.751572 165.100001)
     (thickness 1.6)
     (drawings 14)
     (tracks 3)
@@ -15,9 +15,9 @@
   (page A4)
   (title_block
     (title "Poncho MIDI")
-    (date 2017-06-10)
+    (date 2017-07-12)
     (rev v0.1)
-    (company "FIUBA - LSE - CESE                                                        Licencia: BSD")
+    (company "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD")
     (comment 1 "Revisores: Marcelo Moreno  /  Diego Brengi")
     (comment 2 "Autor: Carlos I. Mancón")
   )
