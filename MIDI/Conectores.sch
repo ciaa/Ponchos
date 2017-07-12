@@ -238,9 +238,9 @@ Text HLabel 4345 4130 2    60   Input ~ 0
 ENC_A1
 Text HLabel 4345 4230 2    60   Input ~ 0
 ENC_B1
-Text HLabel 4345 3830 2    60   Input ~ 0
-ENC_A0
 Text HLabel 4345 3930 2    60   Input ~ 0
+ENC_A0
+Text HLabel 4345 3830 2    60   Input ~ 0
 ENC_B0
 Text Label 4145 2480 0    60   ~ 0
 I2C_SDA

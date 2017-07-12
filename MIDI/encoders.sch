@@ -254,33 +254,33 @@ $EndComp
 $Comp
 L 40106 U3
 U 1 1 59212DC9
-P 8410 1425
-F 0 "U3" H 8605 1540 50  0000 C CNN
-F 1 "40106" H 8600 1300 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 8385 1425 60  0001 C CNN
-F 3 "/Datasheets/cd40106b.pdf" H 8385 1425 60  0001 C CNN
-F 4 "IC INVERTER GATE HEX 14DIP " H 0   0   50  0001 C CNN "Desc"
-F 5 "296-3503-5-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Manf"
-F 7 "CD40106BE" H 0   0   50  0001 C CNN "Manf#"
-F 8 "595-CD40106BE" H 0   0   50  0001 C CNN "Mouser#"
-	1    8410 1425
-	1    0    0    -1  
-$EndComp
-$Comp
-L 40106 U3
-U 2 1 59212EC6
 P 8410 1825
 F 0 "U3" H 8605 1940 50  0000 C CNN
 F 1 "40106" H 8600 1700 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 8385 1825 60  0001 C CNN
 F 3 "/Datasheets/cd40106b.pdf" H 8385 1825 60  0001 C CNN
-F 4 "IC INVERTER GATE HEX 14DIP " H 0   0   50  0001 C CNN "Desc"
-F 5 "296-3503-5-ND" H 0   0   50  0001 C CNN "Digikey#"
-F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Manf"
-F 7 "CD40106BE" H 0   0   50  0001 C CNN "Manf#"
-F 8 "595-CD40106BE" H 0   0   50  0001 C CNN "Mouser#"
-	2    8410 1825
+F 4 "IC INVERTER GATE HEX 14DIP " H 0   400 50  0001 C CNN "Desc"
+F 5 "296-3503-5-ND" H 0   400 50  0001 C CNN "Digikey#"
+F 6 "Texas Instruments" H 0   400 50  0001 C CNN "Manf"
+F 7 "CD40106BE" H 0   400 50  0001 C CNN "Manf#"
+F 8 "595-CD40106BE" H 0   400 50  0001 C CNN "Mouser#"
+	1    8410 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40106 U3
+U 2 1 59212EC6
+P 8410 1425
+F 0 "U3" H 8605 1540 50  0000 C CNN
+F 1 "40106" H 8600 1300 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 8385 1425 60  0001 C CNN
+F 3 "/Datasheets/cd40106b.pdf" H 8385 1425 60  0001 C CNN
+F 4 "IC INVERTER GATE HEX 14DIP " H 0   -400 50  0001 C CNN "Desc"
+F 5 "296-3503-5-ND" H 0   -400 50  0001 C CNN "Digikey#"
+F 6 "Texas Instruments" H 0   -400 50  0001 C CNN "Manf"
+F 7 "CD40106BE" H 0   -400 50  0001 C CNN "Manf#"
+F 8 "595-CD40106BE" H 0   -400 50  0001 C CNN "Mouser#"
+	2    8410 1425
 	1    0    0    -1  
 $EndComp
 $Comp
