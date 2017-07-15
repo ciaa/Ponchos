@@ -52,8 +52,8 @@
   (pad 40 thru_hole oval (at 24.13 -1.27) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 30 thru_hole oval (at 11.43 -1.27) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (model ${KIPRJMOD}/MIDI.pretty/.3Dshapes/Pin_Header_Straight_2x20_Pitch2.54mm.wrl
-    (at (xyz 0 0 0))
+    (at (xyz 0 0 -0.063))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 180 0 0))
   )
 )
