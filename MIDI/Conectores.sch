@@ -23,11 +23,12 @@ F 0 "J5" H 6595 2780 50  0000 C CNN
 F 1 "CONN_01X06" V 6695 2430 50  0000 C CNN
 F 2 "MIDI:Pin_Header_Straight_1x06_Pitch2.54mm" H 6595 2430 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/75915.pdf" H 6595 2430 50  0001 C CNN
-F 4 "CONN RCPT 6POS .100\" SGL PCB" H 0   0   60  0001 C CNN "Desc"
+F 4 "CONN RCPT 6POS .100\" SGL PCB" H 0   0   60  0001 C CNN "Description"
 F 5 "609-3558-ND" H 0   0   50  0001 C CNN "Digikey#"
 F 6 "Amphenol FCI" H 0   0   50  0001 C CNN "Manf"
-F 7 "75916-306LF " H 0   0   50  0001 C CNN "Manf#"
+F 7 "75915-306LF" H 0   0   50  0001 C CNN "Manf#"
 F 8 "649-75915-306LF" H 0   0   50  0001 C CNN "Mouser#"
+F 9 "CONN RCPT 6POS .100\" SGL PCB" H 6595 2430 60  0001 C CNN "Desc"
 	1    6595 2430
 	-1   0    0    -1  
 $EndComp
@@ -39,11 +40,12 @@ F 0 "J4" H 5045 2780 50  0000 C CNN
 F 1 "CONN_01X06" V 5145 2430 50  0000 C CNN
 F 2 "MIDI:Pin_Header_Straight_1x06_Pitch2.54mm" H 5045 2430 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/75915.pdf" H 5045 2430 50  0001 C CNN
-F 4 "CONN RCPT 6POS .100\" SGL PCB" H 0   0   60  0001 C CNN "Desc"
+F 4 "CONN RCPT 6POS .100\" SGL PCB" H 0   0   60  0001 C CNN "Description"
 F 5 "609-3558-ND" H 0   0   50  0001 C CNN "Digikey#"
 F 6 "Amphenol FCI" H 0   0   50  0001 C CNN "Manf"
-F 7 "75915-306LF " H 0   0   50  0001 C CNN "Manf#"
+F 7 "75915-306LF" H 0   0   50  0001 C CNN "Manf#"
 F 8 "649-75915-306LF" H 0   0   50  0001 C CNN "Mouser#"
+F 9 "CONN RCPT 6POS .100\" SGL PCB" H 5045 2430 60  0001 C CNN "Desc"
 	1    5045 2430
 	1    0    0    -1  
 $EndComp
@@ -165,11 +167,12 @@ F 0 "XB1" H 3395 4130 60  0000 C CNN
 F 1 "Conn_Poncho2P_20x2_B" H 3445 2030 60  0001 C CNN
 F 2 "MIDI:PIN_ARRAY_20X2" H 3095 3730 60  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 3095 3730 60  0001 C CNN
-F 4 "BERGSTIK II 0.100\" DUAL ST" H 0   0   60  0001 C CNN "Desc"
+F 4 "BERGSTIK II 0.100\" DUAL ST" H 0   0   60  0001 C CNN "Description"
 F 5 "609-4724-ND" H 0   0   50  0001 C CNN "Digikey#"
 F 6 "Amphenol FCI" H 0   0   50  0001 C CNN "Manf"
 F 7 "68602-140HLF" H 0   0   50  0001 C CNN "Manf#"
 F 8 "649-68602-140HLF" H 0   0   50  0001 C CNN "Mouser#"
+F 9 "BERGSTIK II 0.100\" DUAL ST" H 3095 3730 60  0001 C CNN "Desc"
 	1    3095 3730
 	1    0    0    -1  
 $EndComp
@@ -181,11 +184,12 @@ F 0 "XA1" H 8145 4130 60  0000 C CNN
 F 1 "Conn_Poncho2P_20x2_A" H 8195 2030 60  0001 C CNN
 F 2 "MIDI:PIN_ARRAY_20X2" H 7845 3730 60  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 7845 3730 60  0001 C CNN
-F 4 "BERGSTIK II 0.100\" DUAL ST" H 0   0   60  0001 C CNN "Desc"
+F 4 "BERGSTIK II 0.100\" DUAL ST" H 0   0   60  0001 C CNN "Description"
 F 5 "609-4724-ND" H 0   0   50  0001 C CNN "Digikey#"
 F 6 "Amphenol FCI" H 0   0   50  0001 C CNN "Manf"
 F 7 "68602-140HLF" H 0   0   50  0001 C CNN "Manf#"
 F 8 "649-68602-140HLF" H 0   0   50  0001 C CNN "Mouser#"
+F 9 "BERGSTIK II 0.100\" DUAL ST" H 7845 3730 60  0001 C CNN "Desc"
 	1    7845 3730
 	1    0    0    -1  
 $EndComp
