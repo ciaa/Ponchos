@@ -644,8 +644,8 @@ Text Notes 9595 4450 0    60   ~ 0
 MIDI OUT
 Text Notes 9620 2230 0    60   ~ 0
 MIDI THRU
-Text Notes 3350 5500 0    60   ~ 0
-Colocar cerca\nde Hex Buffer
+Text Notes 3350 5550 0    60   ~ 0
+Colocar cerca\nde Hex Buffer\n   (4050)
 Text Notes 2150 4300 0    60   ~ 0
 Nota 1
 Text Notes 600  6650 0    100  ~ 0
