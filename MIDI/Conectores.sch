@@ -7,10 +7,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Conectores"
-Date "2017-06-11"
-Rev "v0.2"
+Date "2017-08-13"
+Rev "v0.9"
 Comp "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD"
-Comment1 "Revisores: Marcelo Moreno  /  Diego Brengi"
+Comment1 "Revisor: Marcelo Moreno"
 Comment2 "Autor: Carlos I. Mancón"
 Comment3 ""
 Comment4 ""
@@ -193,8 +193,6 @@ F 9 "BERGSTIK II 0.100\" DUAL ST" H 7845 3730 60  0001 C CNN "Desc"
 	1    7845 3730
 	1    0    0    -1  
 $EndComp
-Text Label 6845 2180 0    60   ~ 0
-GNDA
 Text Label 6845 2280 0    60   ~ 0
 ADC3
 Text Label 6845 2380 0    60   ~ 0
@@ -271,12 +269,64 @@ Text Label 4145 2480 0    60   ~ 0
 I2C_SDA
 Text Label 4145 2580 0    60   ~ 0
 I2C_SCL
-Text Label 9195 3730 0    60   ~ 0
-GNDA
 Text Notes 4300 1900 0    60   ~ 0
-Se agregan puertos de expansión para permitir la utilización de I2C\ncon dispositivos externos. También se rutean entradas y salidas\nanalógicas para ser utilizadas con sintetizadores analógicos, con la\nadecuada adaptación de niveles de tensión.
-Wire Bus Line
-	7195 2280 7195 4130
+Se agregan puertos de expansión para permitir la utilización de I2C\ncon dispositivos externos (Ver Nota 1). También se rutean entradas\ny salidas analógicas para ser utilizadas con sintetizadores analógi-\ncos, con la adecuada adaptación de niveles de tensión.
+Entry Wire Line
+	7195 3630 7295 3730
+Entry Wire Line
+	7195 3730 7295 3830
+Entry Wire Line
+	7195 3830 7295 3930
+Entry Wire Line
+	7195 3930 7295 4030
+Entry Wire Line
+	7195 4030 7295 4130
+Entry Wire Line
+	7195 4130 7295 4230
+Entry Wire Line
+	7095 2280 7195 2380
+Entry Wire Line
+	7095 2380 7195 2480
+Entry Wire Line
+	7095 2480 7195 2580
+Entry Wire Line
+	7095 2580 7195 2680
+Entry Wire Line
+	7095 2680 7195 2780
+NoConn ~ 8795 3630
+NoConn ~ 8795 5030
+NoConn ~ 8795 5130
+NoConn ~ 7595 4730
+NoConn ~ 7595 3530
+NoConn ~ 7595 3630
+NoConn ~ 2845 3830
+NoConn ~ 2845 4130
+NoConn ~ 2845 4430
+NoConn ~ 2845 4530
+NoConn ~ 2845 4830
+NoConn ~ 2845 4930
+NoConn ~ 2845 5030
+NoConn ~ 2845 5130
+NoConn ~ 4045 4330
+NoConn ~ 4045 3530
+NoConn ~ 4045 3630
+NoConn ~ 7595 3430
+NoConn ~ 8795 3530
+Text Notes 1050 6810 0    60   ~ 0
+1. La EDU-CIAA posee resistencias de pull-up en las líneas SDA y SCL. Las mismas son de 2,2KOhm a 3,3V.
+Text Notes 600  6650 0    100  ~ 0
+Notas:
+$Comp
+L GNDA #PWR?
+U 1 1 5990E91B
+P 9195 4230
+F 0 "#PWR?" H 9195 3980 50  0001 C CNN
+F 1 "GNDA" H 9195 4080 50  0000 C CNN
+F 2 "" H 9195 4230 50  0001 C CNN
+F 3 "" H 9195 4230 50  0001 C CNN
+	1    9195 4230
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7295 3730 7595 3730
 Wire Wire Line
@@ -289,8 +339,6 @@ Wire Wire Line
 	7295 4130 7595 4130
 Wire Wire Line
 	7295 4230 7595 4230
-Wire Wire Line
-	6795 2180 7095 2180
 Wire Wire Line
 	6795 2280 7095 2280
 Wire Wire Line
@@ -406,9 +454,7 @@ Wire Wire Line
 Wire Wire Line
 	8795 4330 8895 4330
 Wire Wire Line
-	8795 3730 9195 3730
-Wire Wire Line
-	9045 4230 8795 4230
+	8795 4230 9195 4230
 Wire Wire Line
 	9045 3730 9045 4230
 Wire Wire Line
@@ -447,30 +493,6 @@ Wire Wire Line
 	8895 3430 8895 3330
 Wire Wire Line
 	5825 5450 5825 5700
-Entry Wire Line
-	7195 3630 7295 3730
-Entry Wire Line
-	7195 3730 7295 3830
-Entry Wire Line
-	7195 3830 7295 3930
-Entry Wire Line
-	7195 3930 7295 4030
-Entry Wire Line
-	7195 4030 7295 4130
-Entry Wire Line
-	7195 4130 7295 4230
-Entry Wire Line
-	7095 2180 7195 2280
-Entry Wire Line
-	7095 2280 7195 2380
-Entry Wire Line
-	7095 2380 7195 2480
-Entry Wire Line
-	7095 2480 7195 2580
-Entry Wire Line
-	7095 2580 7195 2680
-Entry Wire Line
-	7095 2680 7195 2780
 Connection ~ 8895 5330
 Connection ~ 8895 5230
 Connection ~ 8895 4930
@@ -480,7 +502,6 @@ Connection ~ 8895 4630
 Connection ~ 8895 4530
 Connection ~ 8895 4430
 Connection ~ 8895 4330
-Connection ~ 9045 3730
 Connection ~ 9045 4130
 Connection ~ 9045 4030
 Connection ~ 9045 3930
@@ -495,25 +516,30 @@ Connection ~ 2745 4030
 Connection ~ 2745 3930
 Connection ~ 2745 3730
 Connection ~ 2745 3630
-NoConn ~ 8795 3630
-NoConn ~ 8795 5030
-NoConn ~ 8795 5130
-NoConn ~ 7595 4730
-NoConn ~ 7595 3530
-NoConn ~ 7595 3630
-NoConn ~ 2845 3830
-NoConn ~ 2845 4130
-NoConn ~ 2845 4430
-NoConn ~ 2845 4530
-NoConn ~ 2845 4830
-NoConn ~ 2845 4930
-NoConn ~ 2845 5030
-NoConn ~ 2845 5130
-NoConn ~ 4045 4330
-NoConn ~ 4045 3530
-NoConn ~ 4045 3630
-NoConn ~ 7595 3430
-NoConn ~ 8795 3530
 Wire Wire Line
 	8895 4330 8895 5430
+Connection ~ 9045 4230
+Wire Wire Line
+	8795 3730 9045 3730
+Wire Bus Line
+	7195 2380 7195 4130
+$Comp
+L GNDA #PWR?
+U 1 1 5990EC64
+P 7395 2130
+F 0 "#PWR?" H 7395 1880 50  0001 C CNN
+F 1 "GNDA" H 7395 1980 50  0000 C CNN
+F 2 "" H 7395 2130 50  0001 C CNN
+F 3 "" H 7395 2130 50  0001 C CNN
+	1    7395 2130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7395 2130 7395 2080
+Wire Wire Line
+	7395 2080 7145 2080
+Wire Wire Line
+	7145 2080 7145 2180
+Wire Wire Line
+	7145 2180 6795 2180
 $EndSCHEMATC

@@ -7,10 +7,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "Poncho MIDI"
-Date "2017-05-19"
-Rev "v0.2"
+Date "2017-08-13"
+Rev "v0.9"
 Comp "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD"
-Comment1 "Revisores: Marcelo Moreno  /  Diego Brengi"
+Comment1 "Revisor: Marcelo Moreno"
 Comment2 "Autor: Carlos I. Mancón"
 Comment3 ""
 Comment4 ""
