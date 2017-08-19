@@ -1,4 +1,4 @@
-update=sáb 19 ago 2017 19:33:58 ART
+update=sáb 19 ago 2017 19:37:34 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -30,3 +30,13 @@ LibDir=lib
 LibName1=lib/MIDI
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=Doc/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
