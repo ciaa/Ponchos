@@ -1,0 +1,1550 @@
+EESchema Schematic File Version 2
+LIBS:MIDI
+LIBS:MIDI-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title "Pulsadores de 1 Octava"
+Date "2017-08-13"
+Rev "v0.9"
+Comp "FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD"
+Comment1 "Revisor: Marcelo Moreno"
+Comment2 "Autor: Carlos I. Mancón"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +3,3V #PWR069
+U 1 1 5920EEA9
+P 2250 1000
+F 0 "#PWR069" H 2250 960 30  0001 C CNN
+F 1 "+3,3V" H 2250 1110 30  0000 C CNN
+F 2 "" H 2250 1000 60  0000 C CNN
+F 3 "" H 2250 1000 60  0000 C CNN
+	1    2250 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R38
+U 1 1 5920EEBD
+P 2250 1350
+F 0 "R38" V 2330 1350 40  0000 C CNN
+F 1 "10k" V 2257 1351 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 2180 1350 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2250 1350 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    2250 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R42
+U 1 1 5920F010
+P 2600 1700
+F 0 "R42" V 2680 1700 40  0000 C CNN
+F 1 "1k" V 2607 1701 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 2530 1700 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2600 1700 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    2600 1700
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C17
+U 1 1 5920F03B
+P 2250 2000
+F 0 "C17" H 2250 2100 40  0000 L CNN
+F 1 "100nF" H 2256 1915 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 2288 1850 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2250 2000 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    2250 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 5920F088
+P 1700 1700
+F 0 "SW1" H 1850 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 1700 1620 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 1700 1700 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1700 1700 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    1700 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR070
+U 1 1 5920F16E
+P 2250 2300
+F 0 "#PWR070" H 2250 2300 30  0001 C CNN
+F 1 "GND" H 2250 2230 30  0001 C CNN
+F 2 "" H 2250 2300 60  0000 C CNN
+F 3 "" H 2250 2300 60  0000 C CNN
+	1    2250 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR071
+U 1 1 5920F18C
+P 1250 2300
+F 0 "#PWR071" H 1250 2300 30  0001 C CNN
+F 1 "GND" H 1250 2230 30  0001 C CNN
+F 2 "" H 1250 2300 60  0000 C CNN
+F 3 "" H 1250 2300 60  0000 C CNN
+	1    1250 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR072
+U 1 1 59211B51
+P 4650 1000
+F 0 "#PWR072" H 4650 960 30  0001 C CNN
+F 1 "+3,3V" H 4650 1110 30  0000 C CNN
+F 2 "" H 4650 1000 60  0000 C CNN
+F 3 "" H 4650 1000 60  0000 C CNN
+	1    4650 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R39
+U 1 1 59211B57
+P 4650 1350
+F 0 "R39" V 4730 1350 40  0000 C CNN
+F 1 "10k" V 4657 1351 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 4580 1350 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4650 1350 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    4650 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R43
+U 1 1 59211B5D
+P 5000 1700
+F 0 "R43" V 5080 1700 40  0000 C CNN
+F 1 "1k" V 5007 1701 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 4930 1700 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 5000 1700 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    5000 1700
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C18
+U 1 1 59211B63
+P 4650 2000
+F 0 "C18" H 4650 2100 40  0000 L CNN
+F 1 "100nF" H 4656 1915 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 4688 1850 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4650 2000 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    4650 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 59211B69
+P 4100 1700
+F 0 "SW2" H 4250 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 4100 1620 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 4100 1700 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 4100 1700 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    4100 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR073
+U 1 1 59211B72
+P 4650 2300
+F 0 "#PWR073" H 4650 2300 30  0001 C CNN
+F 1 "GND" H 4650 2230 30  0001 C CNN
+F 2 "" H 4650 2300 60  0000 C CNN
+F 3 "" H 4650 2300 60  0000 C CNN
+	1    4650 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR074
+U 1 1 59211B78
+P 3650 2300
+F 0 "#PWR074" H 3650 2300 30  0001 C CNN
+F 1 "GND" H 3650 2230 30  0001 C CNN
+F 2 "" H 3650 2300 60  0000 C CNN
+F 3 "" H 3650 2300 60  0000 C CNN
+	1    3650 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR075
+U 1 1 59211D72
+P 7050 1000
+F 0 "#PWR075" H 7050 960 30  0001 C CNN
+F 1 "+3,3V" H 7050 1110 30  0000 C CNN
+F 2 "" H 7050 1000 60  0000 C CNN
+F 3 "" H 7050 1000 60  0000 C CNN
+	1    7050 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R40
+U 1 1 59211D78
+P 7050 1350
+F 0 "R40" V 7130 1350 40  0000 C CNN
+F 1 "10k" V 7057 1351 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 6980 1350 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7050 1350 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    7050 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R44
+U 1 1 59211D7E
+P 7400 1700
+F 0 "R44" V 7480 1700 40  0000 C CNN
+F 1 "1k" V 7407 1701 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 7330 1700 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7400 1700 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    7400 1700
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C19
+U 1 1 59211D84
+P 7050 2000
+F 0 "C19" H 7050 2100 40  0000 L CNN
+F 1 "100nF" H 7056 1915 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 7088 1850 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7050 2000 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    7050 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW3
+U 1 1 59211D8A
+P 6500 1700
+F 0 "SW3" H 6650 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 6500 1620 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 6500 1700 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6500 1700 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    6500 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR076
+U 1 1 59211D93
+P 7050 2300
+F 0 "#PWR076" H 7050 2300 30  0001 C CNN
+F 1 "GND" H 7050 2230 30  0001 C CNN
+F 2 "" H 7050 2300 60  0000 C CNN
+F 3 "" H 7050 2300 60  0000 C CNN
+	1    7050 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR077
+U 1 1 59211D99
+P 6050 2300
+F 0 "#PWR077" H 6050 2300 30  0001 C CNN
+F 1 "GND" H 6050 2230 30  0001 C CNN
+F 2 "" H 6050 2300 60  0000 C CNN
+F 3 "" H 6050 2300 60  0000 C CNN
+	1    6050 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR078
+U 1 1 59211DAB
+P 9450 1000
+F 0 "#PWR078" H 9450 960 30  0001 C CNN
+F 1 "+3,3V" H 9450 1110 30  0000 C CNN
+F 2 "" H 9450 1000 60  0000 C CNN
+F 3 "" H 9450 1000 60  0000 C CNN
+	1    9450 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R41
+U 1 1 59211DB1
+P 9450 1350
+F 0 "R41" V 9530 1350 40  0000 C CNN
+F 1 "10k" V 9457 1351 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 9380 1350 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 9450 1350 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    9450 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R45
+U 1 1 59211DB7
+P 9800 1700
+F 0 "R45" V 9880 1700 40  0000 C CNN
+F 1 "1k" V 9807 1701 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 9730 1700 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 9800 1700 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    9800 1700
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C20
+U 1 1 59211DBD
+P 9450 2000
+F 0 "C20" H 9450 2100 40  0000 L CNN
+F 1 "100nF" H 9456 1915 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 9488 1850 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9450 2000 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    9450 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW4
+U 1 1 59211DC3
+P 8900 1700
+F 0 "SW4" H 9050 1810 50  0000 C CNN
+F 1 "SW_PUSH" H 8900 1620 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 8900 1700 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8900 1700 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    8900 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR079
+U 1 1 59211DCC
+P 9450 2300
+F 0 "#PWR079" H 9450 2300 30  0001 C CNN
+F 1 "GND" H 9450 2230 30  0001 C CNN
+F 2 "" H 9450 2300 60  0000 C CNN
+F 3 "" H 9450 2300 60  0000 C CNN
+	1    9450 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR080
+U 1 1 59211DD2
+P 8450 2300
+F 0 "#PWR080" H 8450 2300 30  0001 C CNN
+F 1 "GND" H 8450 2230 30  0001 C CNN
+F 2 "" H 8450 2300 60  0000 C CNN
+F 3 "" H 8450 2300 60  0000 C CNN
+	1    8450 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR081
+U 1 1 59213B7D
+P 2250 2800
+F 0 "#PWR081" H 2250 2760 30  0001 C CNN
+F 1 "+3,3V" H 2250 2910 30  0000 C CNN
+F 2 "" H 2250 2800 60  0000 C CNN
+F 3 "" H 2250 2800 60  0000 C CNN
+	1    2250 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R46
+U 1 1 59213B83
+P 2250 3150
+F 0 "R46" V 2330 3150 40  0000 C CNN
+F 1 "10k" V 2257 3151 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 2180 3150 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2250 3150 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    2250 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R50
+U 1 1 59213B89
+P 2600 3500
+F 0 "R50" V 2680 3500 40  0000 C CNN
+F 1 "1k" V 2607 3501 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 2530 3500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2600 3500 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    2600 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C21
+U 1 1 59213B8F
+P 2250 3800
+F 0 "C21" H 2250 3900 40  0000 L CNN
+F 1 "100nF" H 2256 3715 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 2288 3650 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2250 3800 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    2250 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW5
+U 1 1 59213B95
+P 1700 3500
+F 0 "SW5" H 1850 3610 50  0000 C CNN
+F 1 "SW_PUSH" H 1700 3420 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 1700 3500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1700 3500 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    1700 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR082
+U 1 1 59213B9E
+P 2250 4100
+F 0 "#PWR082" H 2250 4100 30  0001 C CNN
+F 1 "GND" H 2250 4030 30  0001 C CNN
+F 2 "" H 2250 4100 60  0000 C CNN
+F 3 "" H 2250 4100 60  0000 C CNN
+	1    2250 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR083
+U 1 1 59213BA4
+P 1250 4100
+F 0 "#PWR083" H 1250 4100 30  0001 C CNN
+F 1 "GND" H 1250 4030 30  0001 C CNN
+F 2 "" H 1250 4100 60  0000 C CNN
+F 3 "" H 1250 4100 60  0000 C CNN
+	1    1250 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR084
+U 1 1 59213BB5
+P 4650 2800
+F 0 "#PWR084" H 4650 2760 30  0001 C CNN
+F 1 "+3,3V" H 4650 2910 30  0000 C CNN
+F 2 "" H 4650 2800 60  0000 C CNN
+F 3 "" H 4650 2800 60  0000 C CNN
+	1    4650 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R47
+U 1 1 59213BBB
+P 4650 3150
+F 0 "R47" V 4730 3150 40  0000 C CNN
+F 1 "10k" V 4657 3151 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 4580 3150 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4650 3150 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    4650 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R51
+U 1 1 59213BC1
+P 5000 3500
+F 0 "R51" V 5080 3500 40  0000 C CNN
+F 1 "1k" V 5007 3501 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 4930 3500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 5000 3500 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    5000 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C22
+U 1 1 59213BC7
+P 4650 3800
+F 0 "C22" H 4650 3900 40  0000 L CNN
+F 1 "100nF" H 4656 3715 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 4688 3650 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4650 3800 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    4650 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW6
+U 1 1 59213BCD
+P 4100 3500
+F 0 "SW6" H 4250 3610 50  0000 C CNN
+F 1 "SW_PUSH" H 4100 3420 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 4100 3500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 4100 3500 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    4100 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR085
+U 1 1 59213BD6
+P 4650 4100
+F 0 "#PWR085" H 4650 4100 30  0001 C CNN
+F 1 "GND" H 4650 4030 30  0001 C CNN
+F 2 "" H 4650 4100 60  0000 C CNN
+F 3 "" H 4650 4100 60  0000 C CNN
+	1    4650 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR086
+U 1 1 59213BDC
+P 3650 4100
+F 0 "#PWR086" H 3650 4100 30  0001 C CNN
+F 1 "GND" H 3650 4030 30  0001 C CNN
+F 2 "" H 3650 4100 60  0000 C CNN
+F 3 "" H 3650 4100 60  0000 C CNN
+	1    3650 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR087
+U 1 1 59213BED
+P 7050 2800
+F 0 "#PWR087" H 7050 2760 30  0001 C CNN
+F 1 "+3,3V" H 7050 2910 30  0000 C CNN
+F 2 "" H 7050 2800 60  0000 C CNN
+F 3 "" H 7050 2800 60  0000 C CNN
+	1    7050 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R48
+U 1 1 59213BF3
+P 7050 3150
+F 0 "R48" V 7130 3150 40  0000 C CNN
+F 1 "10k" V 7057 3151 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 6980 3150 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7050 3150 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    7050 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R52
+U 1 1 59213BF9
+P 7400 3500
+F 0 "R52" V 7480 3500 40  0000 C CNN
+F 1 "1k" V 7407 3501 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 7330 3500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7400 3500 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    7400 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C23
+U 1 1 59213BFF
+P 7050 3800
+F 0 "C23" H 7050 3900 40  0000 L CNN
+F 1 "100nF" H 7056 3715 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 7088 3650 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7050 3800 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    7050 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW7
+U 1 1 59213C05
+P 6500 3500
+F 0 "SW7" H 6650 3610 50  0000 C CNN
+F 1 "SW_PUSH" H 6500 3420 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 6500 3500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6500 3500 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    6500 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR088
+U 1 1 59213C0E
+P 7050 4100
+F 0 "#PWR088" H 7050 4100 30  0001 C CNN
+F 1 "GND" H 7050 4030 30  0001 C CNN
+F 2 "" H 7050 4100 60  0000 C CNN
+F 3 "" H 7050 4100 60  0000 C CNN
+	1    7050 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR089
+U 1 1 59213C14
+P 6050 4100
+F 0 "#PWR089" H 6050 4100 30  0001 C CNN
+F 1 "GND" H 6050 4030 30  0001 C CNN
+F 2 "" H 6050 4100 60  0000 C CNN
+F 3 "" H 6050 4100 60  0000 C CNN
+	1    6050 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR090
+U 1 1 59213C25
+P 9450 2800
+F 0 "#PWR090" H 9450 2760 30  0001 C CNN
+F 1 "+3,3V" H 9450 2910 30  0000 C CNN
+F 2 "" H 9450 2800 60  0000 C CNN
+F 3 "" H 9450 2800 60  0000 C CNN
+	1    9450 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R49
+U 1 1 59213C2B
+P 9450 3150
+F 0 "R49" V 9530 3150 40  0000 C CNN
+F 1 "10k" V 9457 3151 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 9380 3150 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 9450 3150 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    9450 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R53
+U 1 1 59213C31
+P 9800 3500
+F 0 "R53" V 9880 3500 40  0000 C CNN
+F 1 "1k" V 9807 3501 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 9730 3500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 9800 3500 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    9800 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C24
+U 1 1 59213C37
+P 9450 3800
+F 0 "C24" H 9450 3900 40  0000 L CNN
+F 1 "100nF" H 9456 3715 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 9488 3650 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9450 3800 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    9450 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW8
+U 1 1 59213C3D
+P 8900 3500
+F 0 "SW8" H 9050 3610 50  0000 C CNN
+F 1 "SW_PUSH" H 8900 3420 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 8900 3500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8900 3500 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    8900 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR091
+U 1 1 59213C46
+P 9450 4100
+F 0 "#PWR091" H 9450 4100 30  0001 C CNN
+F 1 "GND" H 9450 4030 30  0001 C CNN
+F 2 "" H 9450 4100 60  0000 C CNN
+F 3 "" H 9450 4100 60  0000 C CNN
+	1    9450 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR092
+U 1 1 59213C4C
+P 8450 4100
+F 0 "#PWR092" H 8450 4100 30  0001 C CNN
+F 1 "GND" H 8450 4030 30  0001 C CNN
+F 2 "" H 8450 4100 60  0000 C CNN
+F 3 "" H 8450 4100 60  0000 C CNN
+	1    8450 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR093
+U 1 1 59214001
+P 2250 4600
+F 0 "#PWR093" H 2250 4560 30  0001 C CNN
+F 1 "+3,3V" H 2250 4710 30  0000 C CNN
+F 2 "" H 2250 4600 60  0000 C CNN
+F 3 "" H 2250 4600 60  0000 C CNN
+	1    2250 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R54
+U 1 1 59214007
+P 2250 4950
+F 0 "R54" V 2330 4950 40  0000 C CNN
+F 1 "10k" V 2257 4951 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 2180 4950 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2250 4950 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    2250 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R58
+U 1 1 5921400D
+P 2600 5300
+F 0 "R58" V 2680 5300 40  0000 C CNN
+F 1 "1k" V 2607 5301 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 2530 5300 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2600 5300 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    2600 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C25
+U 1 1 59214013
+P 2250 5600
+F 0 "C25" H 2250 5700 40  0000 L CNN
+F 1 "100nF" H 2256 5515 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 2288 5450 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2250 5600 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    2250 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW9
+U 1 1 59214019
+P 1700 5300
+F 0 "SW9" H 1850 5410 50  0000 C CNN
+F 1 "SW_PUSH" H 1700 5220 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 1700 5300 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1700 5300 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    1700 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR094
+U 1 1 59214022
+P 2250 5900
+F 0 "#PWR094" H 2250 5900 30  0001 C CNN
+F 1 "GND" H 2250 5830 30  0001 C CNN
+F 2 "" H 2250 5900 60  0000 C CNN
+F 3 "" H 2250 5900 60  0000 C CNN
+	1    2250 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR095
+U 1 1 59214028
+P 1250 5900
+F 0 "#PWR095" H 1250 5900 30  0001 C CNN
+F 1 "GND" H 1250 5830 30  0001 C CNN
+F 2 "" H 1250 5900 60  0000 C CNN
+F 3 "" H 1250 5900 60  0000 C CNN
+	1    1250 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR096
+U 1 1 59214039
+P 4650 4600
+F 0 "#PWR096" H 4650 4560 30  0001 C CNN
+F 1 "+3,3V" H 4650 4710 30  0000 C CNN
+F 2 "" H 4650 4600 60  0000 C CNN
+F 3 "" H 4650 4600 60  0000 C CNN
+	1    4650 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R55
+U 1 1 5921403F
+P 4650 4950
+F 0 "R55" V 4730 4950 40  0000 C CNN
+F 1 "10k" V 4657 4951 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 4580 4950 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4650 4950 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    4650 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R59
+U 1 1 59214045
+P 5000 5300
+F 0 "R59" V 5080 5300 40  0000 C CNN
+F 1 "1k" V 5007 5301 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 4930 5300 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 5000 5300 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    5000 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C26
+U 1 1 5921404B
+P 4650 5600
+F 0 "C26" H 4650 5700 40  0000 L CNN
+F 1 "100nF" H 4656 5515 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 4688 5450 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4650 5600 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    4650 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW10
+U 1 1 59214051
+P 4100 5300
+F 0 "SW10" H 4250 5410 50  0000 C CNN
+F 1 "SW_PUSH" H 4100 5220 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 4100 5300 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 4100 5300 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    4100 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR097
+U 1 1 5921405A
+P 4650 5900
+F 0 "#PWR097" H 4650 5900 30  0001 C CNN
+F 1 "GND" H 4650 5830 30  0001 C CNN
+F 2 "" H 4650 5900 60  0000 C CNN
+F 3 "" H 4650 5900 60  0000 C CNN
+	1    4650 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR098
+U 1 1 59214060
+P 3650 5900
+F 0 "#PWR098" H 3650 5900 30  0001 C CNN
+F 1 "GND" H 3650 5830 30  0001 C CNN
+F 2 "" H 3650 5900 60  0000 C CNN
+F 3 "" H 3650 5900 60  0000 C CNN
+	1    3650 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR099
+U 1 1 59214071
+P 7050 4600
+F 0 "#PWR099" H 7050 4560 30  0001 C CNN
+F 1 "+3,3V" H 7050 4710 30  0000 C CNN
+F 2 "" H 7050 4600 60  0000 C CNN
+F 3 "" H 7050 4600 60  0000 C CNN
+	1    7050 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R56
+U 1 1 59214077
+P 7050 4950
+F 0 "R56" V 7130 4950 40  0000 C CNN
+F 1 "10k" V 7057 4951 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 6980 4950 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7050 4950 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    7050 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R60
+U 1 1 5921407D
+P 7400 5300
+F 0 "R60" V 7480 5300 40  0000 C CNN
+F 1 "1k" V 7407 5301 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 7330 5300 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7400 5300 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    7400 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C27
+U 1 1 59214083
+P 7050 5600
+F 0 "C27" H 7050 5700 40  0000 L CNN
+F 1 "100nF" H 7056 5515 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 7088 5450 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7050 5600 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    7050 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW11
+U 1 1 59214089
+P 6500 5300
+F 0 "SW11" H 6650 5410 50  0000 C CNN
+F 1 "SW_PUSH" H 6500 5220 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 6500 5300 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6500 5300 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    6500 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0100
+U 1 1 59214092
+P 7050 5900
+F 0 "#PWR0100" H 7050 5900 30  0001 C CNN
+F 1 "GND" H 7050 5830 30  0001 C CNN
+F 2 "" H 7050 5900 60  0000 C CNN
+F 3 "" H 7050 5900 60  0000 C CNN
+	1    7050 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0101
+U 1 1 59214098
+P 6050 5900
+F 0 "#PWR0101" H 6050 5900 30  0001 C CNN
+F 1 "GND" H 6050 5830 30  0001 C CNN
+F 2 "" H 6050 5900 60  0000 C CNN
+F 3 "" H 6050 5900 60  0000 C CNN
+	1    6050 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR0102
+U 1 1 592140A9
+P 9450 4600
+F 0 "#PWR0102" H 9450 4560 30  0001 C CNN
+F 1 "+3,3V" H 9450 4710 30  0000 C CNN
+F 2 "" H 9450 4600 60  0000 C CNN
+F 3 "" H 9450 4600 60  0000 C CNN
+	1    9450 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R57
+U 1 1 592140AF
+P 9450 4950
+F 0 "R57" V 9530 4950 40  0000 C CNN
+F 1 "10k" V 9457 4951 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 9380 4950 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 9450 4950 30  0001 C CNN
+F 4 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 10K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-10KARCT-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-0710KL" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-0710KL" H 0   0   50  0001 C CNN "Mouser#"
+	1    9450 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R61
+U 1 1 592140B5
+P 9800 5300
+F 0 "R61" V 9880 5300 40  0000 C CNN
+F 1 "1k" V 9807 5301 40  0000 C CNN
+F 2 "MIDI:R_0805_HandSoldering" V 9730 5300 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 9800 5300 30  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "RES SMD 1K OHM 5% 1/8W 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1.0KARCT-ND" H 700 0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 700 0   50  0001 C CNN "Manf"
+F 8 "RC0805JR-071KL" H 700 0   50  0001 C CNN "Manf#"
+F 9 "603-RC0805JR-071KL" H 700 0   50  0001 C CNN "Mouser#"
+	1    9800 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C28
+U 1 1 592140BB
+P 9450 5600
+F 0 "C28" H 9450 5700 40  0000 L CNN
+F 1 "100nF" H 9456 5515 40  0000 L CNN
+F 2 "MIDI:C_0805_HandSoldering" H 9488 5450 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9450 5600 60  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Desc"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 0   0   50  0001 C CNN "Description"
+F 6 "311-1140-1-ND" H 0   0   50  0001 C CNN "Digikey#"
+F 7 "Yageo" H 0   0   50  0001 C CNN "Manf"
+F 8 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "Manf#"
+F 9 "603-CC805KRX7R9BB104" H 0   0   50  0001 C CNN "Mouser#"
+	1    9450 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW12
+U 1 1 592140C1
+P 8900 5300
+F 0 "SW12" H 9050 5410 50  0000 C CNN
+F 1 "SW_PUSH" H 8900 5220 50  0000 C CNN
+F 2 "MIDI:SW_PUSH_6mm" H 8900 5300 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 8900 5300 60  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Desc"
+F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 0   0   50  0001 C CNN "Description"
+F 6 "450-1650-ND" H -1100 0   50  0001 C CNN "Digikey#"
+F 7 "TE Connectivity ALCOSWITCH Switches" H -1100 0   50  0001 C CNN "Manf"
+F 8 "1825910-6" H -1100 0   50  0001 C CNN "Manf#"
+F 9 "506-FSM4JH" H -1100 0   50  0001 C CNN "Mouser#"
+	1    8900 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0103
+U 1 1 592140CA
+P 9450 5900
+F 0 "#PWR0103" H 9450 5900 30  0001 C CNN
+F 1 "GND" H 9450 5830 30  0001 C CNN
+F 2 "" H 9450 5900 60  0000 C CNN
+F 3 "" H 9450 5900 60  0000 C CNN
+	1    9450 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0104
+U 1 1 592140D0
+P 8450 5900
+F 0 "#PWR0104" H 8450 5900 30  0001 C CNN
+F 1 "GND" H 8450 5830 30  0001 C CNN
+F 2 "" H 8450 5900 60  0000 C CNN
+F 3 "" H 8450 5900 60  0000 C CNN
+	1    8450 5900
+	-1   0    0    -1  
+$EndComp
+Text HLabel 2950 1700 2    60   Output ~ 0
+PULS_0
+Text HLabel 5350 1700 2    60   Output ~ 0
+PULS_1
+Text HLabel 7750 1700 2    60   Output ~ 0
+PULS_2
+Text HLabel 10150 1700 2    60   Output ~ 0
+PULS_3
+Text HLabel 2950 3500 2    60   Output ~ 0
+PULS_4
+Text HLabel 5350 3500 2    60   Output ~ 0
+PULS_5
+Text HLabel 7750 3500 2    60   Output ~ 0
+PULS_6
+Text HLabel 10150 3500 2    60   Output ~ 0
+PULS_7
+Text HLabel 2950 5300 2    60   Output ~ 0
+PULS_8
+Text HLabel 5350 5300 2    60   Output ~ 0
+PULS_9
+Text HLabel 7750 5300 2    60   Output ~ 0
+PULS_10
+Text HLabel 10150 5300 2    60   Output ~ 0
+PULS_11
+Wire Wire Line
+	8450 1700 8600 1700
+Wire Wire Line
+	3650 1700 3800 1700
+Wire Wire Line
+	3650 5300 3650 5900
+Wire Wire Line
+	6050 5300 6050 5900
+Wire Wire Line
+	8450 5300 8450 5900
+Wire Wire Line
+	1250 5300 1250 5900
+Wire Wire Line
+	10050 5300 10150 5300
+Wire Wire Line
+	9450 4600 9450 4700
+Wire Wire Line
+	9450 5800 9450 5900
+Wire Wire Line
+	8550 5400 8550 5300
+Wire Wire Line
+	8600 5400 8550 5400
+Wire Wire Line
+	9250 5400 9250 5300
+Wire Wire Line
+	9200 5400 9250 5400
+Wire Wire Line
+	9450 5200 9450 5400
+Wire Wire Line
+	7650 5300 7750 5300
+Wire Wire Line
+	7050 4600 7050 4700
+Wire Wire Line
+	7050 5800 7050 5900
+Wire Wire Line
+	6150 5400 6150 5300
+Wire Wire Line
+	6200 5400 6150 5400
+Wire Wire Line
+	6850 5400 6850 5300
+Wire Wire Line
+	6800 5400 6850 5400
+Wire Wire Line
+	6200 5300 6050 5300
+Wire Wire Line
+	7050 5200 7050 5400
+Wire Wire Line
+	6800 5300 7150 5300
+Wire Wire Line
+	5250 5300 5350 5300
+Wire Wire Line
+	4650 4600 4650 4700
+Wire Wire Line
+	4650 5800 4650 5900
+Wire Wire Line
+	3750 5400 3750 5300
+Wire Wire Line
+	3800 5400 3750 5400
+Wire Wire Line
+	4450 5400 4450 5300
+Wire Wire Line
+	4400 5400 4450 5400
+Wire Wire Line
+	4650 5200 4650 5400
+Wire Wire Line
+	2850 5300 2950 5300
+Wire Wire Line
+	2250 4600 2250 4700
+Wire Wire Line
+	2250 5800 2250 5900
+Wire Wire Line
+	1350 5400 1350 5300
+Wire Wire Line
+	1400 5400 1350 5400
+Wire Wire Line
+	2050 5400 2050 5300
+Wire Wire Line
+	2000 5400 2050 5400
+Wire Wire Line
+	1400 5300 1250 5300
+Wire Wire Line
+	2250 5200 2250 5400
+Wire Wire Line
+	2000 5300 2350 5300
+Wire Wire Line
+	3650 3500 3650 4100
+Wire Wire Line
+	6050 3500 6050 4100
+Wire Wire Line
+	8450 3500 8450 4100
+Wire Wire Line
+	1250 3500 1250 4100
+Wire Wire Line
+	10050 3500 10150 3500
+Wire Wire Line
+	9450 2800 9450 2900
+Wire Wire Line
+	9450 4000 9450 4100
+Wire Wire Line
+	8550 3600 8550 3500
+Wire Wire Line
+	8600 3600 8550 3600
+Wire Wire Line
+	9250 3600 9250 3500
+Wire Wire Line
+	9200 3600 9250 3600
+Wire Wire Line
+	9450 3400 9450 3600
+Wire Wire Line
+	7650 3500 7750 3500
+Wire Wire Line
+	7050 2800 7050 2900
+Wire Wire Line
+	7050 4000 7050 4100
+Wire Wire Line
+	6150 3600 6150 3500
+Wire Wire Line
+	6200 3600 6150 3600
+Wire Wire Line
+	6850 3600 6850 3500
+Wire Wire Line
+	6800 3600 6850 3600
+Wire Wire Line
+	6200 3500 6050 3500
+Wire Wire Line
+	7050 3400 7050 3600
+Wire Wire Line
+	6800 3500 7150 3500
+Wire Wire Line
+	5250 3500 5350 3500
+Wire Wire Line
+	4650 2800 4650 2900
+Wire Wire Line
+	4650 4000 4650 4100
+Wire Wire Line
+	3750 3600 3750 3500
+Wire Wire Line
+	3800 3600 3750 3600
+Wire Wire Line
+	4450 3600 4450 3500
+Wire Wire Line
+	4400 3600 4450 3600
+Wire Wire Line
+	4650 3400 4650 3600
+Wire Wire Line
+	2850 3500 2950 3500
+Wire Wire Line
+	2250 2800 2250 2900
+Wire Wire Line
+	2250 4000 2250 4100
+Wire Wire Line
+	1350 3600 1350 3500
+Wire Wire Line
+	1400 3600 1350 3600
+Wire Wire Line
+	2050 3600 2050 3500
+Wire Wire Line
+	2000 3600 2050 3600
+Wire Wire Line
+	2250 3400 2250 3600
+Wire Wire Line
+	3650 1700 3650 2300
+Wire Wire Line
+	6050 1700 6050 2300
+Wire Wire Line
+	8450 1700 8450 2300
+Wire Wire Line
+	1250 1700 1250 2300
+Wire Wire Line
+	10050 1700 10150 1700
+Wire Wire Line
+	9450 1000 9450 1100
+Wire Wire Line
+	9450 2200 9450 2300
+Wire Wire Line
+	8550 1800 8550 1700
+Wire Wire Line
+	8600 1800 8550 1800
+Wire Wire Line
+	9250 1800 9250 1700
+Wire Wire Line
+	9200 1800 9250 1800
+Wire Wire Line
+	9450 1600 9450 1800
+Wire Wire Line
+	7650 1700 7750 1700
+Wire Wire Line
+	7050 1000 7050 1100
+Wire Wire Line
+	7050 2200 7050 2300
+Wire Wire Line
+	6150 1800 6150 1700
+Wire Wire Line
+	6200 1800 6150 1800
+Wire Wire Line
+	6850 1800 6850 1700
+Wire Wire Line
+	6800 1800 6850 1800
+Wire Wire Line
+	6200 1700 6050 1700
+Wire Wire Line
+	7050 1600 7050 1800
+Wire Wire Line
+	5250 1700 5350 1700
+Wire Wire Line
+	4650 1000 4650 1100
+Wire Wire Line
+	4650 2200 4650 2300
+Wire Wire Line
+	3750 1800 3750 1700
+Wire Wire Line
+	3800 1800 3750 1800
+Wire Wire Line
+	4450 1800 4450 1700
+Wire Wire Line
+	4400 1800 4450 1800
+Wire Wire Line
+	4650 1600 4650 1800
+Wire Wire Line
+	2850 1700 2950 1700
+Wire Wire Line
+	2250 1000 2250 1100
+Wire Wire Line
+	2250 2200 2250 2300
+Wire Wire Line
+	1350 1800 1350 1700
+Wire Wire Line
+	1400 1800 1350 1800
+Wire Wire Line
+	1400 1700 1250 1700
+Wire Wire Line
+	2250 1600 2250 1800
+Wire Wire Line
+	2000 1700 2350 1700
+Wire Wire Line
+	1250 3500 1400 3500
+Wire Wire Line
+	3650 3500 3800 3500
+Wire Wire Line
+	8450 3500 8600 3500
+Wire Wire Line
+	8450 5300 8600 5300
+Wire Wire Line
+	3650 5300 3800 5300
+Wire Wire Line
+	4450 3500 4750 3500
+Wire Wire Line
+	4400 1700 4750 1700
+Wire Wire Line
+	9200 1700 9550 1700
+Wire Wire Line
+	2050 3500 2350 3500
+Wire Wire Line
+	9250 3500 9550 3500
+Wire Wire Line
+	9250 5300 9550 5300
+Wire Wire Line
+	4450 5300 4750 5300
+Wire Wire Line
+	6850 1700 7150 1700
+Connection ~ 9450 5300
+Connection ~ 6150 5300
+Connection ~ 6850 5300
+Connection ~ 7050 5300
+Connection ~ 4650 5300
+Connection ~ 1350 5300
+Connection ~ 2050 5300
+Connection ~ 2250 5300
+Connection ~ 9450 3500
+Connection ~ 6150 3500
+Connection ~ 6850 3500
+Connection ~ 7050 3500
+Connection ~ 4650 3500
+Connection ~ 2250 3500
+Connection ~ 9450 1700
+Connection ~ 6150 1700
+Connection ~ 7050 1700
+Connection ~ 4650 1700
+Connection ~ 1350 1700
+Connection ~ 2250 1700
+Connection ~ 3750 3500
+Connection ~ 3750 1700
+Connection ~ 8550 1700
+Connection ~ 1350 3500
+Connection ~ 8550 3500
+Connection ~ 8550 5300
+Connection ~ 3750 5300
+Connection ~ 4450 1700
+Connection ~ 9250 1700
+NoConn ~ 4400 3500
+NoConn ~ 2000 3500
+NoConn ~ 9200 3500
+NoConn ~ 9200 5300
+NoConn ~ 4400 5300
+NoConn ~ 6800 1700
+NoConn ~ 2000 1800
+$EndSCHEMATC
