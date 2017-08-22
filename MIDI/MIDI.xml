@@ -1,0 +1,3146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/cmancon/CESE/DCI/Ponchos/MIDI/MIDI.sch</source>
+    <date>lun 17 jul 2017 17:52:11 ART</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Poncho MIDI</title>
+        <company>FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD</company>
+        <rev>v0.2</rev>
+        <date>2017-05-19</date>
+        <source>MIDI.sch</source>
+        <comment number="1" value="Revisores: Marcelo Moreno  /  Diego Brengi"/>
+        <comment number="2" value="Autor: Carlos I. Mancón"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Interfaz MIDI/" tstamps="/591EC1B8/">
+      <title_block>
+        <title>Interfaz MIDI</title>
+        <company>FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD</company>
+        <rev>v0.2</rev>
+        <date>2017-07-12</date>
+        <source>Interfaz_MIDI.sch</source>
+        <comment number="1" value="Revisores: Marcelo Moreno  /  Diego Brengi"/>
+        <comment number="2" value="Autor: Carlos I. Mancón"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Conectores/" tstamps="/591EC1F0/">
+      <title_block>
+        <title>Conectores</title>
+        <company>FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD</company>
+        <rev>v0.2</rev>
+        <date>2017-06-11</date>
+        <source>Conectores.sch</source>
+        <comment number="1" value="Revisores: Marcelo Moreno  /  Diego Brengi"/>
+        <comment number="2" value="Autor: Carlos I. Mancón"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Encoders/" tstamps="/59216A74/">
+      <title_block>
+        <title>Encoders</title>
+        <company>FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD</company>
+        <rev>v0.2</rev>
+        <date>2017-07-12</date>
+        <source>encoders.sch</source>
+        <comment number="1" value="Revisores: Marcelo Moreno  /  Diego Brengi"/>
+        <comment number="2" value="Autor: Carlos I. Mancón"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Pulsadores/" tstamps="/591EC21E/">
+      <title_block>
+        <title>Pulsadores de 1 Octava</title>
+        <company>FIUBA - LSE - CESE  -  Diseño de Circuitos Impresos                       Licencia: BSD</company>
+        <rev>v0.2</rev>
+        <date>2017-07-12</date>
+        <source>Pulsadores.sch</source>
+        <comment number="1" value="Revisores: Marcelo Moreno  /  Diego Brengi"/>
+        <comment number="2" value="Autor: Carlos I. Mancón"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>CONN_1</value>
+      <footprint>MIDI:Hole</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966E08D</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>CONN_1</value>
+      <footprint>MIDI:Hole</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966E53F</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>CONN_1</value>
+      <footprint>MIDI:Hole</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966E66F</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>CONN_1</value>
+      <footprint>MIDI:Hole</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966E79E</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>CONN_1</value>
+      <footprint>MIDI:Fiducial_1mm_BOT</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966E8D0</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>CONN_1</value>
+      <footprint>MIDI:Fiducial_1mm_BOT</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966EA15</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>CONN_1</value>
+      <footprint>MIDI:Fiducial_1mm_BOT</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966EB4D</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>CONN_1</value>
+      <footprint>MIDI:Fiducial_1mm_TOP</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966EC88</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>CONN_1</value>
+      <footprint>MIDI:Fiducial_1mm_TOP</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966EDD6</tstamp>
+    </comp>
+    <comp ref="F6">
+      <value>CONN_1</value>
+      <footprint>MIDI:Fiducial_1mm_TOP</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5966EF17</tstamp>
+    </comp>
+    <comp ref="G2">
+      <value>Logo_Poncho</value>
+      <footprint>MIDI:Logo_Poncho</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="Logo_Poncho"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596767F8</tstamp>
+    </comp>
+    <comp ref="G3">
+      <value>OSHWA</value>
+      <footprint>MIDI:OSHWA</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="OSHWA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5967725B</tstamp>
+    </comp>
+    <comp ref="G1">
+      <value>LOGO</value>
+      <footprint>MIDI:LOGO</footprint>
+      <fields>
+        <field name="kicost.v1:Manf#">1000</field>
+      </fields>
+      <libsource lib="MIDI" part="LOGO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59667307</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DIN_5</value>
+      <footprint>MIDI:DIN5_180</footprint>
+      <datasheet>/Datasheets/sdf-xxj.pdf</datasheet>
+      <fields>
+        <field name="Desc">CONN DIN 5POS FEMALE SHIELDED</field>
+        <field name="Description">CONN DIN 5POS FEMALE SHIELDED</field>
+        <field name="Digikey#">CP-7050-ND</field>
+        <field name="Manf">CUI Inc.</field>
+        <field name="Manf#">SDF-50J</field>
+        <field name="Mouser#">490-SDF-50J</field>
+      </fields>
+      <libsource lib="MIDI" part="DIN_5"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591EF085</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>1k @100MHz</value>
+      <footprint>MIDI:FB_0805_HandSoldering</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&amp;fileName=BK2125HS102-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="Desc">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Description">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Digikey#">587-1904-1-ND</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">BK2125HS102-T</field>
+        <field name="Mouser#">963-BK2125HS102-T</field>
+      </fields>
+      <libsource lib="MIDI" part="FILTER"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591EF24F</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>1k @100MHz</value>
+      <footprint>MIDI:FB_0805_HandSoldering</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&amp;fileName=BK2125HS102-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="Desc">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Description">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Digikey#">587-1904-1-ND</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">BK2125HS102-T</field>
+        <field name="Mouser#">963-BK2125HS102-T</field>
+      </fields>
+      <libsource lib="MIDI" part="FILTER"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591EF4BE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>DIN_5</value>
+      <footprint>MIDI:DIN5_180</footprint>
+      <datasheet>/Datasheets/sdf-xxj.pdf</datasheet>
+      <fields>
+        <field name="Desc">CONN DIN 5POS FEMALE SHIELDED</field>
+        <field name="Description">CONN DIN 5POS FEMALE SHIELDED</field>
+        <field name="Digikey#">CP-7050-ND</field>
+        <field name="Manf">CUI Inc.</field>
+        <field name="Manf#">SDF-50J</field>
+        <field name="Mouser#">490-SDF-50J</field>
+      </fields>
+      <libsource lib="MIDI" part="DIN_5"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591F2DF4</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>1k @100MHz</value>
+      <footprint>MIDI:FB_0805_HandSoldering</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&amp;fileName=BK2125HS102-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="Desc">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Description">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Digikey#">587-1904-1-ND</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">BK2125HS102-T</field>
+        <field name="Mouser#">963-BK2125HS102-T</field>
+      </fields>
+      <libsource lib="MIDI" part="FILTER"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591F2E06</tstamp>
+    </comp>
+    <comp ref="FB4">
+      <value>1k @100MHz</value>
+      <footprint>MIDI:FB_0805_HandSoldering</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&amp;fileName=BK2125HS102-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="Desc">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Description">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Digikey#">587-1904-1-ND</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">BK2125HS102-T</field>
+        <field name="Mouser#">963-BK2125HS102-T</field>
+      </fields>
+      <libsource lib="MIDI" part="FILTER"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591F2E0C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>33R 0,5W</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C291.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 33 OHM 5% 1/2W 0805</field>
+        <field name="Description">RES SMD 33 OHM 5% 1/2W 0805</field>
+        <field name="Digikey#">P33ADCT-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-P06J330V</field>
+        <field name="Mouser#">667-ERJ-P06J330V</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591F2E1A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10R</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.bourns.com/data/global/pdfs/CRS.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 1% 1/4W 0805</field>
+        <field name="Description">RES SMD 1K OHM 1% 1/4W 0805</field>
+        <field name="Digikey#">CRS0805-FX-1001ELFCT-ND</field>
+        <field name="Manf">Bourns Inc.</field>
+        <field name="Manf#">CRS0805-FX-1001ELF</field>
+        <field name="Mouser#">652-CRS0805FX1001ELF</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591F2E28</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>DIN_5</value>
+      <footprint>MIDI:DIN5_180</footprint>
+      <datasheet>/Datasheets/sdf-xxj.pdf</datasheet>
+      <fields>
+        <field name="Desc">CONN DIN 5POS FEMALE SHIELDED</field>
+        <field name="Description">CONN DIN 5POS FEMALE SHIELDED</field>
+        <field name="Digikey#">CP-7050-ND</field>
+        <field name="Manf">CUI Inc.</field>
+        <field name="Manf#">SDF-50J</field>
+        <field name="Mouser#">490-SDF-50J</field>
+      </fields>
+      <libsource lib="MIDI" part="DIN_5"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591F5184</tstamp>
+    </comp>
+    <comp ref="FB6">
+      <value>1k @100MHz</value>
+      <footprint>MIDI:FB_0805_HandSoldering</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&amp;fileName=BK2125HS102-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="Desc">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Description">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Digikey#">587-1904-1-ND</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">BK2125HS102-T</field>
+        <field name="Mouser#">963-BK2125HS102-T</field>
+      </fields>
+      <libsource lib="MIDI" part="FILTER"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591F519C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>33R 0,5W</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C291.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 33 OHM 5% 1/2W 0805</field>
+        <field name="Description">RES SMD 33 OHM 5% 1/2W 0805</field>
+        <field name="Digikey#">P33ADCT-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-P06J330V</field>
+        <field name="Mouser#">667-ERJ-P06J330V</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591F51AA</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10R</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.bourns.com/data/global/pdfs/CRS.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 1% 1/4W 0805</field>
+        <field name="Description">RES SMD 1K OHM 1% 1/4W 0805</field>
+        <field name="Digikey#">CRS0805-FX-1001ELFCT-ND</field>
+        <field name="Manf">Bourns Inc.</field>
+        <field name="Manf#">CRS0805-FX-1001ELF</field>
+        <field name="Mouser#">652-CRS0805FX1001ELF</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591F51B8</tstamp>
+    </comp>
+    <comp ref="FB5">
+      <value>1k @100MHz</value>
+      <footprint>MIDI:FB_0805_HandSoldering</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BK2125HS102-T&amp;fileName=BK2125HS102-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="Desc">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Description">FERRITE BEAD 1 KOHM 0805 1LN</field>
+        <field name="Digikey#">587-1904-1-ND</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">BK2125HS102-T</field>
+        <field name="Mouser#">963-BK2125HS102-T</field>
+      </fields>
+      <libsource lib="MIDI" part="FILTER"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591F5196</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>6N138</value>
+      <footprint>MIDI:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>/Datasheets/6n138.pdf</datasheet>
+      <fields>
+        <field name="Desc">OPTOISO 5KV DARL W/BASE 8DIP</field>
+        <field name="Description">OPTOISO 5KV DARL W/BASE 8DIP</field>
+        <field name="Digikey#">160-1795-ND</field>
+        <field name="Manf">Lite-On Inc.</field>
+        <field name="Manf#">6N138</field>
+        <field name="Mouser#">859-6N138</field>
+      </fields>
+      <libsource lib="MIDI" part="6N138"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591FA9BC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>MIDI:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/1N/1N914.pdf</datasheet>
+      <fields>
+        <field name="Desc">DIODE GEN PURP 100V 200MA DO35</field>
+        <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
+        <field name="Digikey#">1N4148FS-ND</field>
+        <field name="Manf">Fairchild/ON Semiconductor</field>
+        <field name="Manf#">1N4148</field>
+        <field name="Mouser#">512-1N4148</field>
+      </fields>
+      <libsource lib="MIDI" part="DIODE"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>591FAA8D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>5920397A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>592045AD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/system/files/data/download/catalog/id_fixed-resistors_e_1.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 1% 1/2W 0805</field>
+        <field name="Description">RES SMD 1K OHM 1% 1/2W 0805</field>
+        <field name="Digikey#">P16885CT-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-P6WF1001V</field>
+        <field name="Mouser#">667-ERJ-P6WF1001V</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>59204927</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4K7</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/system/files/data/download/catalog/id_fixed-resistors_e_1.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 4.7K OHM 5% 1/2W 0805</field>
+        <field name="Description">RES SMD 4.7K OHM 5% 1/2W 0805</field>
+        <field name="Digikey#">P4.7KADCT-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-P06J472V</field>
+        <field name="Mouser#">667-ERJ-P06J472V</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>59204AFB</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>4050</value>
+      <footprint>MIDI:DIP-16_W7.62mm_LongPads</footprint>
+      <datasheet>/Datasheets/cd4050b.pdf</datasheet>
+      <fields>
+        <field name="Desc">IC BUFF/CONVERTER HEX 16DIP</field>
+        <field name="Description">IC BUFF/CONVERTER HEX 16DIP</field>
+        <field name="Digikey#">296-2056-5-ND</field>
+        <field name="Manf">Texas Instruments</field>
+        <field name="Manf#">CD4050BE</field>
+        <field name="Mouser#">595-CD4050BE</field>
+      </fields>
+      <libsource lib="MIDI" part="4050"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>5920510B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>220R</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/system/files/data/download/catalog/id_fixed-resistors_e_1.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 220 OHM 5% 1/2W 0805</field>
+        <field name="Description">RES SMD 220 OHM 5% 1/2W 0805</field>
+        <field name="Digikey#">P220ADCT-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERJ-P06J221V</field>
+        <field name="Mouser#">667-ERJ-P06J221V</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>59203121</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Interfaz MIDI/" tstamps="/591EC1B8/"/>
+      <tstamp>592CE8FA</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_01X06</value>
+      <footprint>MIDI:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/75915.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN RCPT 6POS .100" SGL PCB</field>
+        <field name="Digikey#">609-3558-ND</field>
+        <field name="Manf">Amphenol FCI</field>
+        <field name="Manf#">75915-306LF</field>
+        <field name="Mouser#">649-75915-306LF</field>
+        <field name="Desc">CONN RCPT 6POS .100" SGL PCB</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_01X06"/>
+      <sheetpath names="/Conectores/" tstamps="/591EC1F0/"/>
+      <tstamp>592C61B9</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_01X06</value>
+      <footprint>MIDI:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/75915.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN RCPT 6POS .100" SGL PCB</field>
+        <field name="Digikey#">609-3558-ND</field>
+        <field name="Manf">Amphenol FCI</field>
+        <field name="Manf#">75915-306LF</field>
+        <field name="Mouser#">649-75915-306LF</field>
+        <field name="Desc">CONN RCPT 6POS .100" SGL PCB</field>
+      </fields>
+      <libsource lib="MIDI" part="CONN_01X06"/>
+      <sheetpath names="/Conectores/" tstamps="/591EC1F0/"/>
+      <tstamp>592C626C</tstamp>
+    </comp>
+    <comp ref="XB1">
+      <value>Conn_Poncho2P_20x2_B</value>
+      <footprint>MIDI:PIN_ARRAY_20X2</footprint>
+      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf</datasheet>
+      <fields>
+        <field name="Description">BERGSTIK II 0.100" DUAL ST</field>
+        <field name="Digikey#">609-4724-ND</field>
+        <field name="Manf">Amphenol FCI</field>
+        <field name="Manf#">68602-140HLF</field>
+        <field name="Mouser#">649-68602-140HLF</field>
+        <field name="Desc">BERGSTIK II 0.100" DUAL ST</field>
+      </fields>
+      <libsource lib="MIDI" part="Conn_Poncho2P_20x2_B"/>
+      <sheetpath names="/Conectores/" tstamps="/591EC1F0/"/>
+      <tstamp>5966AC2D</tstamp>
+    </comp>
+    <comp ref="XA1">
+      <value>Conn_Poncho2P_20x2_A</value>
+      <footprint>MIDI:PIN_ARRAY_20X2</footprint>
+      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf</datasheet>
+      <fields>
+        <field name="Description">BERGSTIK II 0.100" DUAL ST</field>
+        <field name="Digikey#">609-4724-ND</field>
+        <field name="Manf">Amphenol FCI</field>
+        <field name="Manf#">68602-140HLF</field>
+        <field name="Mouser#">649-68602-140HLF</field>
+        <field name="Desc">BERGSTIK II 0.100" DUAL ST</field>
+      </fields>
+      <libsource lib="MIDI" part="Conn_Poncho2P_20x2_A"/>
+      <sheetpath names="/Conectores/" tstamps="/591EC1F0/"/>
+      <tstamp>5966ACA6</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59217335</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>5921733C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59217343</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10K</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59217752</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59217758</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>5921775E</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>5921789E</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592178A4</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592178AA</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ENCODER_w_SWITCH</value>
+      <footprint>MIDI:ENC_w_SW</footprint>
+      <datasheet>/Datasheets/pec11l.pdf</datasheet>
+      <fields>
+        <field name="Desc">ENCODER LO PROFILE 11MM W/SWITCH</field>
+        <field name="Description">ENCODER LO PROFILE 11MM W/SWITCH</field>
+        <field name="Digikey#">PEC11L-4220F-S0015-ND</field>
+        <field name="Manf">Bourns Inc.</field>
+        <field name="Manf#">PEC11L-4220F-S0015</field>
+        <field name="Mouser#">652-PEC11L4220FS0015</field>
+      </fields>
+      <libsource lib="MIDI" part="ENCODER_w_SWITCH"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592128A2</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>40106</value>
+      <footprint>MIDI:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>/Datasheets/cd40106b.pdf</datasheet>
+      <fields>
+        <field name="Desc">IC INVERTER GATE HEX 14DIP</field>
+        <field name="Description">IC INVERTER GATE HEX 14DIP</field>
+        <field name="Digikey#">296-3503-5-ND</field>
+        <field name="Manf">Texas Instruments</field>
+        <field name="Manf#">CD40106BE</field>
+        <field name="Mouser#">595-CD40106BE</field>
+      </fields>
+      <libsource lib="MIDI" part="40106"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59212DC9</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Digikey#">311-1136-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB103</field>
+        <field name="Mouser#">603-CC805KRX7R9BB103</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59213595</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Digikey#">311-1136-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB103</field>
+        <field name="Mouser#">603-CC805KRX7R9BB103</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>5921364E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>5921370E</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592137D8</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59214C0E</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59214D8A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ENCODER_w_SWITCH</value>
+      <footprint>MIDI:ENC_w_SW</footprint>
+      <datasheet>/Datasheets/pec11l.pdf</datasheet>
+      <fields>
+        <field name="Desc">ENCODER LO PROFILE 11MM W/SWITCH</field>
+        <field name="Description">ENCODER LO PROFILE 11MM W/SWITCH</field>
+        <field name="Digikey#">PEC11L-4220F-S0015-ND</field>
+        <field name="Manf">Bourns Inc.</field>
+        <field name="Manf#">PEC11L-4220F-S0015</field>
+        <field name="Mouser#">652-PEC11L4220FS0015</field>
+      </fields>
+      <libsource lib="MIDI" part="ENCODER_w_SWITCH"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59215979</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592159B6</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592159BC</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592159E4</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592159EA</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>ENCODER_w_SWITCH</value>
+      <footprint>MIDI:ENC_w_SW</footprint>
+      <datasheet>/Datasheets/pec11l.pdf</datasheet>
+      <fields>
+        <field name="Desc">ENCODER LO PROFILE 11MM W/SWITCH</field>
+        <field name="Description">ENCODER LO PROFILE 11MM W/SWITCH</field>
+        <field name="Digikey#">PEC11L-4220F-S0015-ND</field>
+        <field name="Manf">Bourns Inc.</field>
+        <field name="Manf#">PEC11L-4220F-S0015</field>
+        <field name="Mouser#">652-PEC11L4220FS0015</field>
+      </fields>
+      <libsource lib="MIDI" part="ENCODER_w_SWITCH"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59215C95</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Digikey#">311-1136-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB103</field>
+        <field name="Mouser#">603-CC805KRX7R9BB103</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59215CC6</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Digikey#">311-1136-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB103</field>
+        <field name="Mouser#">603-CC805KRX7R9BB103</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59215CCC</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59215CD2</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59215CD8</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59215CF2</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>59215CF8</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592B4015</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Digikey#">311-1136-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB103</field>
+        <field name="Mouser#">603-CC805KRX7R9BB103</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592B7D09</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Digikey#">311-1136-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB103</field>
+        <field name="Mouser#">603-CC805KRX7R9BB103</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592B7D0F</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592B7D21</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592B8371</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592C6D93</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>18k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-18KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0718KL</field>
+        <field name="Mouser#">603-RC0805JR-0718KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592C9689</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>33k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Description">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Digikey#">311-33.0KCRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-0733KL</field>
+        <field name="Mouser#">603-RC0805FR-0733KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592C9966</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>18k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-18KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0718KL</field>
+        <field name="Mouser#">603-RC0805JR-0718KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592CA40F</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>33k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Description">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Digikey#">311-33.0KCRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-0733KL</field>
+        <field name="Mouser#">603-RC0805FR-0733KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592CA415</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>18k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-18KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0718KL</field>
+        <field name="Mouser#">603-RC0805JR-0718KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592CC044</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>33k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Description">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Digikey#">311-33.0KCRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-0733KL</field>
+        <field name="Mouser#">603-RC0805FR-0733KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592CC04A</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>18k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-18KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0718KL</field>
+        <field name="Mouser#">603-RC0805JR-0718KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592CC05D</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>33k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Description">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Digikey#">311-33.0KCRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-0733KL</field>
+        <field name="Mouser#">603-RC0805FR-0733KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592CC063</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>18k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-18KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0718KL</field>
+        <field name="Mouser#">603-RC0805JR-0718KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592CD08A</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>33k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Description">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Digikey#">311-33.0KCRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-0733KL</field>
+        <field name="Mouser#">603-RC0805FR-0733KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592CD090</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>18k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 18K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-18KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0718KL</field>
+        <field name="Mouser#">603-RC0805JR-0718KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592CD0A3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>33k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Description">RES SMD 33K OHM 1% 1/8W 0805</field>
+        <field name="Digikey#">311-33.0KCRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-0733KL</field>
+        <field name="Mouser#">603-RC0805FR-0733KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Encoders/" tstamps="/59216A74/"/>
+      <tstamp>592CD0A9</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>5920EEBD</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>5920F010</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>5920F03B</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>5920F088</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211B57</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211B5D</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211B63</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211B69</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211D78</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211D7E</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211D84</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211D8A</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211DB1</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211DB7</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211DBD</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59211DC3</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213B83</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213B89</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213B8F</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213B95</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213BBB</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213BC1</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213BC7</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213BCD</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213BF3</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213BF9</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213BFF</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213C05</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213C2B</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213C31</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213C37</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59213C3D</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59214007</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>5921400D</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59214013</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59214019</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>5921403F</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59214045</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>5921404B</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59214051</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59214077</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>5921407D</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59214083</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>59214089</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>10k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-10KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-0710KL</field>
+        <field name="Mouser#">603-RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>592140AF</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>1k</value>
+      <footprint>MIDI:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf</datasheet>
+      <fields>
+        <field name="Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Description">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Digikey#">311-1.0KARCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805JR-071KL</field>
+        <field name="Mouser#">603-RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="MIDI" part="R"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>592140B5</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>MIDI:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Digikey#">311-1140-1-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0805KRX7R9BB104</field>
+        <field name="Mouser#">603-CC805KRX7R9BB104</field>
+      </fields>
+      <libsource lib="MIDI" part="C"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>592140BB</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_PUSH</value>
+      <footprint>MIDI:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Desc">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digikey#">450-1650-ND</field>
+        <field name="Manf">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manf#">1825910-6</field>
+        <field name="Mouser#">506-FSM4JH</field>
+      </fields>
+      <libsource lib="MIDI" part="SW_PUSH"/>
+      <sheetpath names="/Pulsadores/" tstamps="/591EC21E/"/>
+      <tstamp>592140C1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MIDI" part="40106">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">40106</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="4050">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4050</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="14" name="~" type="input"/>
+        <pin num="15" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="6N138">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">6N138</field>
+        <field name="Footprint">Housings_DIP:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="Conn_Poncho2P_20x2_A">
+      <fields>
+        <field name="Reference">XA</field>
+        <field name="Value">Conn_Poncho2P_20x2_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3.3V" type="passive"/>
+        <pin num="2" name="+5V" type="passive"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="ISP" type="passive"/>
+        <pin num="6" name="WAKEUP" type="input"/>
+        <pin num="7" name="GNDA" type="passive"/>
+        <pin num="8" name="GNDA" type="passive"/>
+        <pin num="9" name="ADC3" type="passive"/>
+        <pin num="10" name="GNDA" type="passive"/>
+        <pin num="11" name="ADC2" type="passive"/>
+        <pin num="12" name="GNDA" type="passive"/>
+        <pin num="13" name="ADC1" type="passive"/>
+        <pin num="14" name="GNDA" type="passive"/>
+        <pin num="15" name="DAC" type="passive"/>
+        <pin num="16" name="GNDA" type="passive"/>
+        <pin num="17" name="VDDA" type="power_out"/>
+        <pin num="18" name="GNDA" type="passive"/>
+        <pin num="19" name="i2cSDA" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="i2cSCL" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="rs232RXD" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+        <pin num="25" name="rs232TXD" type="passive"/>
+        <pin num="26" name="GND" type="passive"/>
+        <pin num="27" name="canRD" type="passive"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="canTD" type="passive"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="tecCOL1" type="passive"/>
+        <pin num="32" name="GND" type="passive"/>
+        <pin num="33" name="tecF0" type="passive"/>
+        <pin num="34" name="tecCOL2" type="passive"/>
+        <pin num="35" name="tecF3" type="passive"/>
+        <pin num="36" name="tecF1" type="passive"/>
+        <pin num="37" name="tecF2" type="passive"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="tecCOL0" type="passive"/>
+        <pin num="40" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="Conn_Poncho2P_20x2_B">
+      <fields>
+        <field name="Reference">XB</field>
+        <field name="Value">Conn_Poncho2P_20x2_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3.3V" type="power_out"/>
+        <pin num="2" name="+5V" type="power_out"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="ethRXD1" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="ethTXEN" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="ethMDC" type="passive"/>
+        <pin num="9" name="ethRXD0" type="passive"/>
+        <pin num="10" name="ethCRS" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="ethMDIO" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="ethTXD0" type="passive"/>
+        <pin num="15" name="ethRCLCK" type="passive"/>
+        <pin num="16" name="ethTXD1" type="passive"/>
+        <pin num="17" name="GND" type="passive"/>
+        <pin num="18" name="spiMISO" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="spiSCK" type="passive"/>
+        <pin num="21" name="spiMOSI" type="passive"/>
+        <pin num="22" name="lcd4" type="passive"/>
+        <pin num="23" name="lcdEN" type="passive"/>
+        <pin num="24" name="lcdRS" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="lcd3" type="passive"/>
+        <pin num="27" name="GND" type="passive"/>
+        <pin num="28" name="lcd2" type="passive"/>
+        <pin num="29" name="GPIO0" type="passive"/>
+        <pin num="30" name="lcd1" type="passive"/>
+        <pin num="31" name="GPIO2" type="passive"/>
+        <pin num="32" name="GPIO1" type="passive"/>
+        <pin num="33" name="GPIO4" type="passive"/>
+        <pin num="34" name="GPIO3" type="passive"/>
+        <pin num="35" name="GPIO6" type="passive"/>
+        <pin num="36" name="GPIO5" type="passive"/>
+        <pin num="37" name="GND" type="passive"/>
+        <pin num="38" name="GPIO7" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="GPIO8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="DIN_5">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIN_5</field>
+      </fields>
+      <pins>
+        <pin num="0" name="CHASSIS" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="DIODE">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="ENCODER_w_SWITCH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ENCODER_w_SWITCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+        <pin num="4" name="C" type="passive"/>
+        <pin num="5" name="A" type="passive"/>
+        <pin num="6" name="SHD" type="passive"/>
+        <pin num="7" name="SHD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="FILTER">
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="LOGO">
+      <footprints>
+        <fp>LOGO</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
+    <libpart lib="MIDI" part="Logo_Poncho">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">Logo_Poncho</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="OSHWA">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">OSHWA</field>
+      </fields>
+    </libpart>
+    <libpart lib="MIDI" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIDI" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MIDI">
+      <uri>/home/cmancon/CESE/DCI/Ponchos/MIDI/lib/MIDI.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(G2-Pad~)">
+      <node ref="G2" pin="~"/>
+    </net>
+    <net code="2" name="/Conectores/ENC_B2">
+      <node ref="R36" pin="1"/>
+      <node ref="R37" pin="2"/>
+      <node ref="XB1" pin="28"/>
+    </net>
+    <net code="3" name="/Conectores/ENC_A2">
+      <node ref="XB1" pin="26"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="4" name="/Conectores/ENC_B1">
+      <node ref="R27" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="XB1" pin="24"/>
+    </net>
+    <net code="5" name="/Conectores/ENC_A1">
+      <node ref="XB1" pin="22"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="6" name="/Conectores/ENC_B0">
+      <node ref="R16" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="XB1" pin="16"/>
+    </net>
+    <net code="7" name="/Conectores/ENC_A0">
+      <node ref="XB1" pin="18"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="8" name="/Conectores/ENC_SW2">
+      <node ref="R34" pin="2"/>
+      <node ref="XB1" pin="14"/>
+    </net>
+    <net code="9" name="/Conectores/ENC_SW1">
+      <node ref="R24" pin="2"/>
+      <node ref="XB1" pin="12"/>
+    </net>
+    <net code="10" name="/Conectores/ENC_SW0">
+      <node ref="R14" pin="2"/>
+      <node ref="XB1" pin="10"/>
+    </net>
+    <net code="11" name="/Interfaz MIDI/TX-UART">
+      <node ref="U2" pin="9"/>
+      <node ref="XA1" pin="25"/>
+    </net>
+    <net code="12" name="/Interfaz MIDI/RX-UART">
+      <node ref="XA1" pin="23"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="13" name="/Conectores/PUL0">
+      <node ref="XB1" pin="40"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="14" name="Net-(F6-Pad1)">
+      <node ref="F6" pin="1"/>
+    </net>
+    <net code="15" name="Net-(F5-Pad1)">
+      <node ref="F5" pin="1"/>
+    </net>
+    <net code="16" name="Net-(F4-Pad1)">
+      <node ref="F4" pin="1"/>
+    </net>
+    <net code="17" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="18" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="19" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="20" name="Net-(H4-Pad1)">
+      <node ref="H4" pin="1"/>
+    </net>
+    <net code="21" name="Net-(H3-Pad1)">
+      <node ref="H3" pin="1"/>
+    </net>
+    <net code="22" name="Net-(H2-Pad1)">
+      <node ref="H2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="24" name="/Conectores/PUL11">
+      <node ref="R61" pin="2"/>
+      <node ref="XA1" pin="39"/>
+    </net>
+    <net code="25" name="/Conectores/PUL10">
+      <node ref="R60" pin="2"/>
+      <node ref="XA1" pin="37"/>
+    </net>
+    <net code="26" name="/Conectores/PUL9">
+      <node ref="XA1" pin="35"/>
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="27" name="/Conectores/PUL8">
+      <node ref="XA1" pin="33"/>
+      <node ref="R58" pin="2"/>
+    </net>
+    <net code="28" name="/Conectores/PUL7">
+      <node ref="XA1" pin="31"/>
+      <node ref="R53" pin="2"/>
+    </net>
+    <net code="29" name="/Conectores/PUL6">
+      <node ref="R52" pin="2"/>
+      <node ref="XA1" pin="29"/>
+    </net>
+    <net code="30" name="/Conectores/PUL5">
+      <node ref="XB1" pin="30"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="31" name="/Conectores/PUL4">
+      <node ref="R50" pin="2"/>
+      <node ref="XB1" pin="32"/>
+    </net>
+    <net code="32" name="/Conectores/PUL3">
+      <node ref="R45" pin="2"/>
+      <node ref="XB1" pin="34"/>
+    </net>
+    <net code="33" name="/Conectores/PUL2">
+      <node ref="R44" pin="2"/>
+      <node ref="XB1" pin="36"/>
+    </net>
+    <net code="34" name="/Conectores/PUL1">
+      <node ref="XB1" pin="38"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="35" name="Net-(FB4-Pad2)">
+      <node ref="J2" pin="5"/>
+      <node ref="FB4" pin="2"/>
+    </net>
+    <net code="36" name="Net-(FB2-Pad2)">
+      <node ref="FB2" pin="2"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="37" name="Net-(FB2-Pad1)">
+      <node ref="FB2" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="38" name="Net-(FB5-Pad1)">
+      <node ref="FB5" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="39" name="GND">
+      <node ref="XA1" pin="20"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="SW11" pin="3"/>
+      <node ref="SW11" pin="4"/>
+      <node ref="SW12" pin="3"/>
+      <node ref="SW10" pin="3"/>
+      <node ref="SW10" pin="4"/>
+      <node ref="SW8" pin="3"/>
+      <node ref="C26" pin="2"/>
+      <node ref="XA1" pin="32"/>
+      <node ref="XA1" pin="22"/>
+      <node ref="XA1" pin="26"/>
+      <node ref="XA1" pin="24"/>
+      <node ref="SW8" pin="4"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="SW9" pin="3"/>
+      <node ref="SW9" pin="4"/>
+      <node ref="SW7" pin="3"/>
+      <node ref="C23" pin="2"/>
+      <node ref="SW7" pin="4"/>
+      <node ref="SW6" pin="4"/>
+      <node ref="C21" pin="2"/>
+      <node ref="SW5" pin="3"/>
+      <node ref="SW5" pin="4"/>
+      <node ref="C22" pin="2"/>
+      <node ref="SW6" pin="3"/>
+      <node ref="SW4" pin="4"/>
+      <node ref="C20" pin="2"/>
+      <node ref="SW4" pin="3"/>
+      <node ref="SW3" pin="4"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="SW3" pin="3"/>
+      <node ref="C17" pin="2"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="SW12" pin="4"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R37" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="XB1" pin="25"/>
+      <node ref="XB1" pin="17"/>
+      <node ref="XB1" pin="27"/>
+      <node ref="XB1" pin="37"/>
+      <node ref="XB1" pin="19"/>
+      <node ref="XB1" pin="5"/>
+      <node ref="XB1" pin="7"/>
+      <node ref="XB1" pin="11"/>
+      <node ref="XB1" pin="13"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="0"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="XA1" pin="40"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="0"/>
+      <node ref="XA1" pin="38"/>
+      <node ref="J4" pin="1"/>
+      <node ref="XA1" pin="28"/>
+      <node ref="XB1" pin="3"/>
+      <node ref="XA1" pin="30"/>
+      <node ref="XB1" pin="39"/>
+    </net>
+    <net code="40" name="Net-(FB6-Pad2)">
+      <node ref="J3" pin="5"/>
+      <node ref="FB6" pin="2"/>
+    </net>
+    <net code="41" name="Net-(FB5-Pad2)">
+      <node ref="J3" pin="4"/>
+      <node ref="FB5" pin="2"/>
+    </net>
+    <net code="42" name="Net-(FB6-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="FB6" pin="1"/>
+    </net>
+    <net code="43" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="44" name="Net-(FB4-Pad1)">
+      <node ref="FB4" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="45" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="46" name="+3.3V">
+      <node ref="XB1" pin="1"/>
+      <node ref="R46" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R54" pin="1"/>
+      <node ref="R49" pin="1"/>
+      <node ref="R48" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R55" pin="1"/>
+      <node ref="R47" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="R56" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R57" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="47" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="48" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="49" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="50" name="Net-(C1-Pad1)">
+      <node ref="J1" pin="0"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="51" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D1-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="53" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="54" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="55" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="56" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="57" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="58" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="59" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="60" name="Net-(D1-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="FB3" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="61" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="62" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="63" name="Net-(FB3-Pad1)">
+      <node ref="FB3" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="64" name="Net-(FB1-Pad1)">
+      <node ref="FB1" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="65" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="66" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="67" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+      <node ref="XB1" pin="8"/>
+    </net>
+    <net code="68" name="/Conectores/I2C_SCL">
+      <node ref="J4" pin="5"/>
+      <node ref="XA1" pin="21"/>
+    </net>
+    <net code="69" name="/Conectores/I2C_SDA">
+      <node ref="XA1" pin="19"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="70" name="/Conectores/DAC">
+      <node ref="XA1" pin="15"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="71" name="/Conectores/ADC1">
+      <node ref="XA1" pin="13"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="72" name="/Conectores/ADC3">
+      <node ref="J5" pin="2"/>
+      <node ref="XA1" pin="9"/>
+    </net>
+    <net code="73" name="Net-(XA1-Pad27)">
+      <node ref="XA1" pin="27"/>
+    </net>
+    <net code="74" name="Net-(XA1-Pad36)">
+      <node ref="XA1" pin="36"/>
+    </net>
+    <net code="75" name="Net-(XA1-Pad34)">
+      <node ref="XA1" pin="34"/>
+    </net>
+    <net code="76" name="Net-(XA1-Pad6)">
+      <node ref="XA1" pin="6"/>
+    </net>
+    <net code="77" name="Net-(XA1-Pad3)">
+      <node ref="XA1" pin="3"/>
+    </net>
+    <net code="78" name="Net-(XB1-Pad33)">
+      <node ref="XB1" pin="33"/>
+    </net>
+    <net code="79" name="Net-(XA1-Pad4)">
+      <node ref="XA1" pin="4"/>
+    </net>
+    <net code="80" name="Net-(XA1-Pad1)">
+      <node ref="XA1" pin="1"/>
+    </net>
+    <net code="81" name="Net-(XB1-Pad6)">
+      <node ref="XB1" pin="6"/>
+    </net>
+    <net code="82" name="Net-(XB1-Pad4)">
+      <node ref="XB1" pin="4"/>
+    </net>
+    <net code="83" name="Net-(XB1-Pad20)">
+      <node ref="XB1" pin="20"/>
+    </net>
+    <net code="84" name="Net-(XB1-Pad35)">
+      <node ref="XB1" pin="35"/>
+    </net>
+    <net code="85" name="/Conectores/GNDA">
+      <node ref="XA1" pin="12"/>
+      <node ref="XA1" pin="10"/>
+      <node ref="XA1" pin="18"/>
+      <node ref="XA1" pin="14"/>
+      <node ref="XA1" pin="16"/>
+      <node ref="J5" pin="1"/>
+      <node ref="XA1" pin="8"/>
+      <node ref="XA1" pin="7"/>
+    </net>
+    <net code="86" name="Net-(XB1-Pad31)">
+      <node ref="XB1" pin="31"/>
+    </net>
+    <net code="87" name="Net-(XB1-Pad29)">
+      <node ref="XB1" pin="29"/>
+    </net>
+    <net code="88" name="Net-(XB1-Pad23)">
+      <node ref="XB1" pin="23"/>
+    </net>
+    <net code="89" name="Net-(XB1-Pad21)">
+      <node ref="XB1" pin="21"/>
+    </net>
+    <net code="90" name="Net-(XB1-Pad15)">
+      <node ref="XB1" pin="15"/>
+    </net>
+    <net code="91" name="Net-(XB1-Pad9)">
+      <node ref="XB1" pin="9"/>
+    </net>
+    <net code="92" name="Net-(XA1-Pad5)">
+      <node ref="XA1" pin="5"/>
+    </net>
+    <net code="93" name="/Conectores/ADC2">
+      <node ref="XA1" pin="11"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="94" name="/Conectores/VDDA">
+      <node ref="J5" pin="6"/>
+      <node ref="XA1" pin="17"/>
+    </net>
+    <net code="95" name="Net-(C24-Pad1)">
+      <node ref="R49" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="R53" pin="1"/>
+    </net>
+    <net code="96" name="Net-(SW8-Pad1)">
+      <node ref="SW8" pin="1"/>
+    </net>
+    <net code="97" name="Net-(SW12-Pad1)">
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="98" name="Net-(SW10-Pad1)">
+      <node ref="SW10" pin="1"/>
+    </net>
+    <net code="99" name="Net-(SW3-Pad1)">
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="100" name="Net-(SW5-Pad1)">
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="101" name="Net-(SW6-Pad1)">
+      <node ref="SW6" pin="1"/>
+    </net>
+    <net code="102" name="Net-(C18-Pad1)">
+      <node ref="R43" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="103" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="104" name="Net-(C19-Pad1)">
+      <node ref="R44" pin="1"/>
+      <node ref="R40" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="105" name="Net-(C17-Pad1)">
+      <node ref="R42" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="106" name="Net-(C21-Pad1)">
+      <node ref="R46" pin="2"/>
+      <node ref="R50" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="107" name="Net-(C28-Pad1)">
+      <node ref="C28" pin="1"/>
+      <node ref="R57" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="R61" pin="1"/>
+    </net>
+    <net code="108" name="Net-(C27-Pad1)">
+      <node ref="R60" pin="1"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R56" pin="2"/>
+    </net>
+    <net code="109" name="Net-(C26-Pad1)">
+      <node ref="SW10" pin="2"/>
+      <node ref="R59" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="R55" pin="2"/>
+    </net>
+    <net code="110" name="Net-(C25-Pad1)">
+      <node ref="R58" pin="1"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="R54" pin="2"/>
+    </net>
+    <net code="111" name="Net-(C23-Pad1)">
+      <node ref="SW7" pin="2"/>
+      <node ref="R52" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="R48" pin="2"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="112" name="Net-(C22-Pad1)">
+      <node ref="SW6" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="R51" pin="1"/>
+      <node ref="R47" pin="2"/>
+    </net>
+    <net code="113" name="Net-(C15-Pad1)">
+      <node ref="U6" pin="6"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="114" name="Net-(R35-Pad2)">
+      <node ref="R35" pin="2"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="115" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="116" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="117" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="118" name="+5V">
+      <node ref="XB1" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="XA1" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="119" name="Net-(R16-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="120" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="121" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="122" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="123" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="124" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="125" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="126" name="Net-(R36-Pad2)">
+      <node ref="U3" pin="8"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="127" name="Net-(R31-Pad2)">
+      <node ref="U3" pin="10"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="128" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="129" name="Net-(C9-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="130" name="Net-(C4-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="131" name="Net-(C8-Pad1)">
+      <node ref="U5" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="132" name="Net-(C12-Pad1)">
+      <node ref="U6" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="133" name="Net-(C13-Pad1)">
+      <node ref="R32" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="U3" pin="11"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="134" name="Net-(C14-Pad1)">
+      <node ref="R35" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="135" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="136" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="137" name="Net-(C5-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+  </nets>
+</export>

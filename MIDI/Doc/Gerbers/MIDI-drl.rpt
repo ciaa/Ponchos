@@ -1,0 +1,29 @@
+Drill report for /home/cmancon/CESE/DCI/Ponchos/MIDI/MIDI.kicad_pcb
+Created on sáb 19 ago 2017 19:29:23 ART
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'MIDI.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,70mm  0,028"  (43 holes)
+    T2  0,80mm  0,031"  (40 holes)
+    T3  1,00mm  0,039"  (27 holes)
+    T4  1,02mm  0,040"  (80 holes)
+    T5  1,10mm  0,043"  (48 holes)
+    T6  1,30mm  0,051"  (21 holes)
+    T7  1,40mm  0,055"  (6 holes)  (with 6 slots)
+    T8  4,00mm  0,157"  (4 holes)
+
+    Total plated holes count 269
+
+
+Drill file 'MIDI-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

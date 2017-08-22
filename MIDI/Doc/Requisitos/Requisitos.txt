@@ -1,0 +1,10 @@
+Lista de requisitos para Poncho MIDI
+
+
+1. Debe cumplir con los requerimientos y recomendaciones de "(CA-033) MIDI 1.0 Electrical Specification Update [2014]", que modifica a "MIDI 1.0 Detailed Specification (Document Version 4.2)" en el apartado de hardware.
+2. Debe contener conectores para funcionalidades: MIDI IN, MIDI THRU y MIDI OUT.
+3. Debe integrar 12 interruptores SPST, NO y sin retención.
+4. Debe integrar 3 encoders rotativos con interruptor SPST, NO y sin retención incluido.
+5. Debe facilitar la utilización de los conversores A/D de la EDU-CIAA.
+6. Debe facilitar la utilización del conversor D/A de la EDU-CIAA.
+7. Debe ocupar, como máximo, la superficie del poncho grande.
