@@ -1,0 +1,34 @@
+Source	D:/Proyectos/Poncho_ESP-WROOM-32/Poncho_ESP32.sch		
+Kicad Rev	Eeschema 4.0.6		
+Generated Date	22/8/2017 14:06		
+			
+Title	Poncho WiFi ESP-WROOM-32		
+Company	Cika Internacional		
+Revision	1.0		
+Date Issue	17/8/2017		
+Comment	Tel: (5411) 4522-5466 (Rotativas)		
+Comment	Sede Argentina: Av. de Los Incas 4821 (1427) - Bs. As.		
+Comment	http://cikainternacional.com/		
+Comment	Soluciones Electrónicas Integrales		
+			
+Reference	Value	Codigo Arti	Observaciones
+U2	ESP32-WROOM	ESP-WROOM-32	
+C1	10uF/16V	10UX25 5M TM	
+C2	10uF/16V	10UX25 5M TM	
+C3	0.1uF	.1U 0805 X7R K 	
+C4	0.1uF	.1U 0805 X7R K 	
+J1	JP_Vcc	MH105180	Solo se usan 2 pines porque es para un jumper
+J2	JP_TX	MH105180	Solo se usan 2 pines porque es para un jumper
+J3	JP_RX	MH105180	Solo se usan 2 pines porque es para un jumper
+J4	CONN_USB2UART	FC24090-2	Tendria que ser la version fraccionable
+J5	BOOT OPTION	MH105180 	Solo se usan 2 pines porque es para un jumper
+J6	JTAG	MH105180	Solo se usan 5 pines porque es para el JTAG
+R1	10K	10K 0805 	
+R2	100?	100 0805 	
+R3	100?	100 0805 	
+R4	100?	100 0805 	
+R5	100?	100 0805 	
+R6	100?	100 0805 	
+R7	100?	100 0805 	
+U1	LD1117AL-33	LD1117AG-3.3 SOT	
+XA1	Conn_PonchoMP_2x_20x2	MH240180-LF	Se usa la mitad (20 pines de los 40)

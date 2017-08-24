@@ -1,0 +1,28 @@
+Source,D:/Proyectos/_PCBs/Poncho_ESP-WROOM-32/Poncho_ESP32.sch
+Kicad Rev,Eeschema 4.0.6
+Generated Date,16/8/2017 1:52:33 p. m.
+
+Title,Poncho Derecho WiFi con ESP-WROOM-32
+Company,Cika Electrónica S.R.L.
+Revision,1.0
+Date Issue,2017-08-15
+Comment,CÓDIGO PONCHO
+
+Reference,Value,Library,Library Ref
+U2,ESP32-WROOM,ESP32-footprints-Shem-Lib,ESP32-WROOM
+C3,0.1uF,device,C
+R1,10K,device,R
+J4,BOOT OPTION,conn,CONN_01X02
+U1,LD1117AL-33,regul,AP111733
+C1,10uF/16V,device,CP
+C2,10uF/16V,device,CP
+C4,0.1uF,device,C
+R5,100,device,R
+R4,100,device,R
+R3,100,device,R
+R2,100,device,R
+J3,CONN_USB2UART,conn,CONN_02X05
+J1,JP_TX,conn,CONN_01X02
+J2,JP_RX,conn,CONN_01X02
+XA1,Conn_PonchoMP_2x_20x2,Poncho_Esqueleto,Conn_PonchoMP_2x_20x2
+J5,CONN_01X05,conn,CONN_01X05

@@ -1,0 +1,9 @@
+Se ha creado el archivo de trazado 'D:\Proyectos\Poncho_ESP-WROOM-32\Gerber\Poncho_ESP32-F.Cu.gbr'.
+Se ha creado el archivo de trazado 'D:\Proyectos\Poncho_ESP-WROOM-32\Gerber\Poncho_ESP32-B.Cu.gbr'.
+Se ha creado el archivo de trazado 'D:\Proyectos\Poncho_ESP-WROOM-32\Gerber\Poncho_ESP32-B.Paste.gbr'.
+Se ha creado el archivo de trazado 'D:\Proyectos\Poncho_ESP-WROOM-32\Gerber\Poncho_ESP32-F.Paste.gbr'.
+Se ha creado el archivo de trazado 'D:\Proyectos\Poncho_ESP-WROOM-32\Gerber\Poncho_ESP32-B.SilkS.gbr'.
+Se ha creado el archivo de trazado 'D:\Proyectos\Poncho_ESP-WROOM-32\Gerber\Poncho_ESP32-F.SilkS.gbr'.
+Se ha creado el archivo de trazado 'D:\Proyectos\Poncho_ESP-WROOM-32\Gerber\Poncho_ESP32-B.Mask.gbr'.
+Se ha creado el archivo de trazado 'D:\Proyectos\Poncho_ESP-WROOM-32\Gerber\Poncho_ESP32-F.Mask.gbr'.
+Se ha creado el archivo de trazado 'D:\Proyectos\Poncho_ESP-WROOM-32\Gerber\Poncho_ESP32-Edge.Cuts.gbr'.

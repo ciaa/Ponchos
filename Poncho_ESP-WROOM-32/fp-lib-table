@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ESP32-footprints-Lib)(type KiCad)(uri D:/Proyectos/_PCB_Librerias/Footprint/ESP32-footprints-Lib.pretty)(options "")(descr ""))
+  (lib (name Poncho_Esqueleto)(type KiCad)(uri D:/Proyectos/_PCB_Librerias/Footprint/Poncho_Esqueleto.pretty)(options "")(descr ""))
+  (lib (name Poncho_Modelos)(type KiCad)(uri D:/Proyectos/_PCB_Librerias/Footprint/Poncho_Modelos.pretty)(options "")(descr ""))
+)
