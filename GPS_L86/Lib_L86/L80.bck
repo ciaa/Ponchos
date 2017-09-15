@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L80-M39
+D L80 GPS Module
+F http://docs-europe.electrocomponents.com/webdocs/147d/0900766b8147dbf2.pdf
+$ENDCMP
+#
+$CMP L86
+D L80 GPS Module
+F http://docs-europe.electrocomponents.com/webdocs/147d/0900766b8147dbf2.pdf
+$ENDCMP
+#
+#End Doc Library

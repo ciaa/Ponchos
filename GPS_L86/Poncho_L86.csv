@@ -1,0 +1,32 @@
+Source;D:/Proyectos/Poncho_L86/Poncho_L86.sch;;
+Kicad Rev;Eeschema 4.0.6;;
+Generated Date;5/9/2017 11:02;;
+;;;
+Title;Poncho L86;;
+Company;Iván Sierra - Cika Internacional;;
+Revision;1.1;;
+Date Issue;5/9/2017;;
+Comment;Tel: (5411) 4522-5466 (Rotativas);;
+Comment;Sede Argentina: Av. de Los Incas 4821 (1427) â€“ Bs. As.;;
+Comment;http://cikainternacional.com/;;
+Comment;Soluciones Electrónicas Integrales;;
+;;;
+Reference;Value;Codigo Arti;Observaciones
+XA1;Conn_PonchoMP_2x_20x2;MH240180-LF;Se usa la mitad (20 pines de los 40)
+J2;SMA;SMA R/AJACKFEM U;
+UC1;L86;L86;
+R3;1K;1K 0805;
+R4;1K;1K 0805;
+R5;4K7;4K7 0805;
+R2;4K7;4K7 0805;
+D1;LT8A22;LT8A22-43UR96-T4;LED SMD Verde 0805
+R1;470ohm;470 0805 ;
+Q1;BC847B;BC847B PHI ;
+C3;100nF;.1U 0805 X7R K ;
+C2;10uF/16V;10UX25 5M TM;
+U1;LD1117AG-3.3;LD1117AG-3.3 SOT  ;
+C1;10uF/16V;10UX25 5M TM;
+J1;JP_Vcc;MH105180;Solo se usan 3 pines porque es para un jumper
+J3;JP_TX;MH105180;Solo se usan 3 pines porque es para un jumper
+J4;JP_RX;MH105180;Solo se usan 3 pines porque es para un jumper
+J5;CONN_USB-UART;FC24090-2;Tendria que ser la version fraccionable
