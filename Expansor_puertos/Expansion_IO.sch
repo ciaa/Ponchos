@@ -1,0 +1,136 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Poncho_Esqueleto
+LIBS:74HCXX
+LIBS:EduCiaa_PE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74HC595 U?
+U 1 1 59106BA6
+P 2500 2250
+F 0 "U?" H 2650 2850 50  0000 C CNN
+F 1 "74HC595" H 2500 1650 50  0000 C CNN
+F 2 "" H 2500 2250 50  0001 C CNN
+F 3 "" H 2500 2250 50  0001 C CNN
+	1    2500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC595 U?
+U 1 1 59106BF4
+P 2500 3600
+F 0 "U?" H 2650 4200 50  0000 C CNN
+F 1 "74HC595" H 2500 3000 50  0000 C CNN
+F 2 "" H 2500 3600 50  0001 C CNN
+F 3 "" H 2500 3600 50  0001 C CNN
+	1    2500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ULN2803A U?
+U 1 1 59106C61
+P 4000 2100
+F 0 "U?" H 4000 2625 50  0000 C CNN
+F 1 "ULN2803A" H 4000 2550 50  0000 C CNN
+F 2 "" H 4050 1450 50  0001 L CNN
+F 3 "" H 4100 2000 50  0001 C CNN
+	1    4000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ULN2803A U?
+U 1 1 59106CC2
+P 4000 3450
+F 0 "U?" H 4000 3975 50  0000 C CNN
+F 1 "ULN2803A" H 4000 3900 50  0000 C CNN
+F 2 "" H 4050 2800 50  0001 L CNN
+F 3 "" H 4100 3350 50  0001 C CNN
+	1    4000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ULN2803A U?
+U 1 1 59106D4C
+P 9150 2100
+F 0 "U?" H 9150 2625 50  0000 C CNN
+F 1 "ULN2803A" H 9150 2550 50  0000 C CNN
+F 2 "" H 9200 1450 50  0001 L CNN
+F 3 "" H 9250 2000 50  0001 C CNN
+	1    9150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ULN2803A U?
+U 1 1 59106E21
+P 9150 3450
+F 0 "U?" H 9150 3975 50  0000 C CNN
+F 1 "ULN2803A" H 9150 3900 50  0000 C CNN
+F 2 "" H 9200 2800 50  0001 L CNN
+F 3 "" H 9250 3350 50  0001 C CNN
+	1    9150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC165 U?
+U 1 1 5910A484
+P 7400 2250
+F 0 "U?" H 7550 2850 50  0000 C CNN
+F 1 "74HC165" H 7400 1650 50  0000 C CNN
+F 2 "" H 7400 2250 50  0001 C CNN
+F 3 "" H 7400 2250 50  0001 C CNN
+	1    7400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC165 U?
+U 1 1 5910A6F9
+P 7400 3600
+F 0 "U?" H 7550 4200 50  0000 C CNN
+F 1 "74HC165" H 7400 3000 50  0000 C CNN
+F 2 "" H 7400 3600 50  0001 C CNN
+F 3 "" H 7400 3600 50  0001 C CNN
+	1    7400 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,85 @@
+Source:,C:/Users/DELL/Desktop/DiseÃ±oCircuitos/EDUCIAA_PE/EduCiaa_PE.sch,,,,,,,,,
+Date:,15-07-17 17:03,,,,,,,,,
+Tool:,Eeschema 4.0.6,,,,,,,,,
+Generator:,C:/Users/DELL/Desktop/DiseñoCircuitos/EDUCIAA_PE/tools/bom_csv_grouped_by_value.py,,,,,,,,,
+Component Count:,59,,,,,,,,,
+,,,,,,,,,,
+Individual Components:,,,,,,,,,,
+,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Descripcion,Digikey#,Manf,Manf#
+,,C1,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C2,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C3,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C4,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C5,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C6,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C7,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C8,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C9,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C10,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C11,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,C12,100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+,,F1,FIDUCIAL,EduCiaaPE:FIDUCIAL,Footprints:Fiducial_1mm,,FIDUCIAL,,,
+,,F2,FIDUCIAL,EduCiaaPE:FIDUCIAL,Footprints:Fiducial_1mm,,FIDUCIAL,,,
+,,F3,FIDUCIAL,EduCiaaPE:FIDUCIAL,Footprints:Fiducial_1mm,,FIDUCIAL,,,
+,,J1,DB9,EduCiaaPE:DB9,Footprints:DB9_F_TH,ENG_CD_1734354_A1.pdf,,A35107-ND,TE Connectivity AMP Connectors,1734354-1
+,,J2,DB9,EduCiaaPE:DB9,Footprints:DB9_F_TH,ENG_CD_1734354_A1.pdf,,A35107-ND,TE Connectivity AMP Connectors,1734354-1
+,,J3,TB_1X2,EduCiaaPE:TB_1X2,Footprints:bornier2,osttcxx2162.pdf,,ED2609-ND,On Shore Technology Inc.,OSTTC022162
+,,J4,TB_1X2,EduCiaaPE:TB_1X2,Footprints:bornier2,osttcxx2162.pdf,,ED2609-ND,On Shore Technology Inc.,OSTTC022162
+,,J5,TB_1X3,EduCiaaPE:TB_1X3,Footprints:bornier3,osttcxx2162.pdf,,ED2610-ND,On Shore Technology Inc.,OSTTC032162
+,,J6,TB_1X3,EduCiaaPE:TB_1X3,Footprints:bornier3,osttcxx2162.pdf,,ED2610-ND,On Shore Technology Inc.,OSTTC032162
+,,J7,TB_1X3,EduCiaaPE:TB_1X3,Footprints:bornier3,osttcxx2162.pdf,,ED2610-ND,On Shore Technology Inc.,OSTTC032162
+,,J8,TB_1X3,EduCiaaPE:TB_1X3,Footprints:bornier3,osttcxx2162.pdf,,ED2610-ND,On Shore Technology Inc.,OSTTC032162
+,,J9,TB_1X2,EduCiaaPE:TB_1X2,Footprints:bornier2,osttcxx2162.pdf,,ED2609-ND,On Shore Technology Inc.,OSTTC022162
+,,J10,TB_1X2,EduCiaaPE:TB_1X2,Footprints:bornier2,osttcxx2162.pdf,,ED2609-ND,On Shore Technology Inc.,OSTTC022162
+,,J11,TB_1X2,EduCiaaPE:TB_1X2,Footprints:bornier2,osttcxx2162.pdf,,ED2609-ND,On Shore Technology Inc.,OSTTC022162
+,,J12,TB_1X3,EduCiaaPE:TB_1X3,Footprints:bornier3,osttcxx2162.pdf,,ED2610-ND,On Shore Technology Inc.,OSTTC032162
+,,J13,TB_1X3,EduCiaaPE:TB_1X3,Footprints:bornier3,osttcxx2162.pdf,,ED2610-ND,On Shore Technology Inc.,OSTTC032162
+,,J14,TB_1X3,EduCiaaPE:TB_1X3,Footprints:bornier3,osttcxx2162.pdf,,ED2610-ND,On Shore Technology Inc.,OSTTC032162
+,,J15,TB_1X3,EduCiaaPE:TB_1X3,Footprints:bornier3,osttcxx2162.pdf,,ED2610-ND,On Shore Technology Inc.,OSTTC032162
+,,J16,TB_1X2,EduCiaaPE:TB_1X2,Footprints:bornier2,osttcxx2162.pdf,,ED2609-ND,On Shore Technology Inc.,OSTTC022162
+,,R1,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R2,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R3,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R4,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R5,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R6,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R7,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R8,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R9,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R10,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R11,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R12,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R13,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R14,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R15,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R16,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,R17,10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+,,U1,MAX3232,EduCiaaPE:MAX3232,Footprints:SOIC-16N,max3232.pdf,,296-13095-1-ND,Texas Instruments,MAX3232CDWR
+,,U2,MAX3232,EduCiaaPE:MAX3232,Footprints:SOIC-16N,max3232.pdf,,296-13095-1-ND,Texas Instruments,MAX3232CDWR
+,,U3,74HC595,EduCiaaPE:74HC595,Footprints:SOIC-16N,MM74HC595.pdf,,MM74HC595MXCT-ND,Fairchild/ON Semiconductor,MM74HC595MX
+,,U4,74HC595,EduCiaaPE:74HC595,Footprints:SOIC-16N,MM74HC595.pdf,,MM74HC595MXCT-ND,Fairchild/ON Semiconductor,MM74HC595MX
+,,U5,ULN2803A,EduCiaaPE:ULN2803A,Footprints:SOIC-18,uln2803a.pdf,,296-15777-1-ND,Texas Instruments,ULN2803ADWR
+,,U6,ULN2803A,EduCiaaPE:ULN2803A,Footprints:SOIC-18,uln2803a.pdf,,296-15777-1-ND,Texas Instruments,ULN2803ADWR
+,,U7,ULN2803A,EduCiaaPE:ULN2803A,Footprints:SOIC-18,uln2803a.pdf,,296-15777-1-ND,Texas Instruments,ULN2803ADWR
+,,U8,ULN2803A,EduCiaaPE:ULN2803A,Footprints:SOIC-18,uln2803a.pdf,,296-15777-1-ND,Texas Instruments,ULN2803ADWR
+,,U9,74HC165,EduCiaaPE:74HC165,Footprints:SOIC-16N,sn74hc165.pdf,,296-8249-5-ND,Texas Instruments,SN74HC165D
+,,U10,74HC165,EduCiaaPE:74HC165,Footprints:SOIC-16N,sn74hc165.pdf,,296-8249-5-ND,Texas Instruments,SN74HC165D
+,,XA1,Conn_Poncho2P_2x_20x2,EduCiaaPE:Conn_Poncho2P_2x_20x2,Poncho_Esqueleto:Conn_Poncho_Completo,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Collated Components:,,,,,,,,,,
+,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Descripcion,Digikey#,Manf,Manf#
+1,12,"C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12",100nF,EduCiaaPE:C,Footprints:C_0805_HandSoldering,UPY-GPHC_X7R_6.3V-to-50V_18.pdf,,311-1142-1-ND,Yageo,CC0805KRX7R7BB104
+2,3,"F1, F2, F3",FIDUCIAL,EduCiaaPE:FIDUCIAL,Footprints:Fiducial_1mm,,FIDUCIAL,,,
+3,2,"J1, J2",DB9,EduCiaaPE:DB9,Footprints:DB9_F_TH,ENG_CD_1734354_A1.pdf,,A35107-ND,TE Connectivity AMP Connectors,1734354-1
+4,6,"J3, J4, J9, J10, J11, J16",TB_1X2,EduCiaaPE:TB_1X2,Footprints:bornier2,osttcxx2162.pdf,,ED2609-ND,On Shore Technology Inc.,OSTTC022162
+5,8,"J5, J6, J7, J8, J12, J13, J14, J15",TB_1X3,EduCiaaPE:TB_1X3,Footprints:bornier3,osttcxx2162.pdf,,ED2610-ND,On Shore Technology Inc.,OSTTC032162
+6,17,"R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17",10K,EduCiaaPE:R,Footprints:R_0805_HandSoldering,PYu-R_INT-thick_7.pdf,,311-10KARCT-ND,Yageo,RC0805JR-0710KL
+7,2,"U1, U2",MAX3232,EduCiaaPE:MAX3232,Footprints:SOIC-16N,max3232.pdf,,296-13095-1-ND,Texas Instruments,MAX3232CDWR
+8,2,"U3, U4",74HC595,EduCiaaPE:74HC595,Footprints:SOIC-16N,MM74HC595.pdf,,MM74HC595MXCT-ND,Fairchild/ON Semiconductor,MM74HC595MX
+9,4,"U5, U6, U7, U8",ULN2803A,EduCiaaPE:ULN2803A,Footprints:SOIC-18,uln2803a.pdf,,296-15777-1-ND,Texas Instruments,ULN2803ADWR
+10,2,"U9, U10",74HC165,EduCiaaPE:74HC165,Footprints:SOIC-16N,sn74hc165.pdf,,296-8249-5-ND,Texas Instruments,SN74HC165D
+11,1,XA1,Conn_Poncho2P_2x_20x2,EduCiaaPE:Conn_Poncho2P_2x_20x2,Poncho_Esqueleto:Conn_Poncho_Completo,,,,,

@@ -1,0 +1,178 @@
+EESchema Schematic File Version 2
+LIBS:EduCiaaPE
+LIBS:EduCiaa_PE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title "EDU-CIAA-NXP Port's Expander - Esquemático Jerárquicio"
+Date "2017-06-24"
+Rev "1.2"
+Comp "CESE - Trabajo final de la materia \"Diseño de Circuitos Impresos\""
+Comment1 "Revisor: Francisco Suarez          "
+Comment2 "Autor: Mariano D. Orlante          Licencia: Ver  'Docs/Licencia.txt'"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 7600 1600 1350 2600
+U 590F8796
+F0 "Puertos_Serie" 60
+F1 "Puertos_Serie.sch" 60
+F2 "COMA_TXD" I L 7600 1950 60 
+F3 "COMA_RXD" O L 7600 2150 60 
+F4 "COMA_RTS" I L 7600 2350 60 
+F5 "COMB_TXD" I L 7600 3250 60 
+F6 "COMB_RXD" O L 7600 3450 60 
+F7 "COMB_RTS" I L 7600 3650 60 
+F8 "COMA_CTS" O L 7600 2550 60 
+F9 "COMB_CTS" O L 7600 3850 60 
+$EndSheet
+$Sheet
+S 4800 1600 1600 2600
+U 590F8746
+F0 "ConectoresEduCiaaNxp" 60
+F1 "ConectoresEduCiaaNxp.sch" 60
+F2 "RS232_RXD" I R 6400 2150 60 
+F3 "RS232_TXD" O R 6400 1950 60 
+F4 "LCD_EN" O R 6400 2350 60 
+F5 "LCD4" O L 4800 2550 60 
+F6 "LCD3" O L 4800 2350 60 
+F7 "LCD2" O L 4800 2150 60 
+F8 "LCD1" O L 4800 1950 60 
+F9 "LCD_RS" I R 6400 2550 60 
+F10 "GPIO2" I R 6400 3450 60 
+F11 "GPIO1" O R 6400 3250 60 
+F12 "GPIO0" I R 6400 3850 60 
+F13 "GPIO3" O R 6400 3650 60 
+F14 "GPIO5" O L 4800 3250 60 
+F15 "GPIO6" O L 4800 3450 60 
+F16 "GPIO7" O L 4800 3650 60 
+F17 "GPIO8" I L 4800 3850 60 
+$EndSheet
+$Sheet
+S 2300 1600 1300 1100
+U 59103D35
+F0 "SalidasDigitales" 60
+F1 "SalidasDigitales.sch" 60
+F2 "DATA" I R 3600 1950 60 
+F3 "~CS" I R 3600 2150 60 
+F4 "LATCH" I R 3600 2350 60 
+F5 "SHIFT" I R 3600 2550 60 
+$EndSheet
+$Sheet
+S 2300 3000 1300 1050
+U 59116BE0
+F0 "EntradasDigitales" 60
+F1 "EntradasDigitales.sch" 60
+F2 "CLKINH" I R 3600 3250 60 
+F3 "S/~L" I R 3600 3450 60 
+F4 "CLK" I R 3600 3650 60 
+F5 "DATAIN" O R 3600 3850 60 
+$EndSheet
+Wire Wire Line
+	3600 1950 4800 1950
+Wire Wire Line
+	4800 2150 3600 2150
+Wire Wire Line
+	3600 2350 4800 2350
+Wire Wire Line
+	4800 2550 3600 2550
+Wire Wire Line
+	6400 1950 7600 1950
+Wire Wire Line
+	7600 2150 6400 2150
+Wire Wire Line
+	6400 2350 7600 2350
+Wire Wire Line
+	7600 2550 6400 2550
+Wire Wire Line
+	6400 3250 7600 3250
+Wire Wire Line
+	7600 3450 6400 3450
+Wire Wire Line
+	6400 3650 7600 3650
+Wire Wire Line
+	7600 3850 6400 3850
+Wire Wire Line
+	4800 3250 3600 3250
+Wire Wire Line
+	3600 3450 4800 3450
+Wire Wire Line
+	4800 3650 3600 3650
+Wire Wire Line
+	3600 3850 4800 3850
+$Comp
+L Logo_Poncho #G1
+U 1 1 5919374E
+P 9900 6050
+F 0 "#G1" H 9850 5650 60  0001 C CNN
+F 1 "Logo_Poncho" H 10100 5650 60  0001 C CNN
+F 2 "Footprints:Logo_Poncho" H 9900 6050 60  0001 C CNN
+F 3 "" H 9900 6050 60  0000 C CNN
+	1    9900 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OSHWA #G2
+U 1 1 59193822
+P 10700 6050
+F 0 "#G2" H 10670 6450 60  0001 C CNN
+F 1 "OSHWA" H 10700 6353 60  0001 C CNN
+F 2 "Footprints:Logo_OSHWA" H 10700 6050 60  0001 C CNN
+F 3 "" H 10700 6050 60  0000 C CNN
+	1    10700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F1
+U 1 1 591A5260
+P 9600 1250
+F 0 "F1" H 9680 1300 40  0000 L CNN
+F 1 "FIDUCIAL" H 9600 1150 30  0001 C CNN
+F 2 "Footprints:Fiducial_1mm" H 9600 1300 60  0001 C CNN
+F 3 "" H 9600 1300 60  0001 C CNN
+F 4 "FIDUCIAL" H 9650 1050 60  0001 C CNN "Descripcion"
+	1    9600 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F2
+U 1 1 591A5360
+P 9950 1250
+F 0 "F2" H 10030 1300 40  0000 L CNN
+F 1 "FIDUCIAL" H 9950 1150 30  0001 C CNN
+F 2 "Footprints:Fiducial_1mm" H 9950 1300 60  0001 C CNN
+F 3 "" H 9950 1300 60  0001 C CNN
+F 4 "FIDUCIAL" H 10000 1050 60  0001 C CNN "Descripcion"
+	1    9950 1250
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9450 1100 9450 1400
+Wire Notes Line
+	9450 1400 10500 1400
+Wire Notes Line
+	9450 1100 10500 1100
+Wire Notes Line
+	10050 1050 10250 850 
+Wire Notes Line
+	10250 850  10400 850 
+Text Notes 10500 900  0    79   ~ 0
+Fiduciales
+$Comp
+L FIDUCIAL F3
+U 1 1 596187DF
+P 10300 1250
+F 0 "F3" H 10380 1300 40  0000 L CNN
+F 1 "FIDUCIAL" H 10300 1150 30  0001 C CNN
+F 2 "Footprints:Fiducial_1mm" H 10300 1300 60  0001 C CNN
+F 3 "" H 10300 1300 60  0001 C CNN
+F 4 "FIDUCIAL" H 10350 1050 60  0001 C CNN "Descripcion"
+	1    10300 1250
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10500 1100 10500 1400
+$EndSCHEMATC

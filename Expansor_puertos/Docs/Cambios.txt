@@ -1,0 +1,117 @@
+Historial de cambios realizados 
+================================
+
+* Fecha: 2017
+* Autores: 	Ing. Mariano D. Orlante
+* Descripción:	Este desarrollo se basó en el modelo de Poncho Grande realizado por el Ing. Diego Brengi
+		Modelo Poncho Grande: https://github.com/ciaa/Ponchos/tree/master/modelos/Poncho_Grande
+				
+* Archivos: 
+* Descripción: Se parte de los Modelos de Ponchos en: 
+               http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:edu-ciaa:ponchos_modelos
+               <<Colocar aquí información de cambios importantes y de gran volumen, releases, contribuciones
+                de terceros, etc.>>
+
+Ver información de los commits del repositorio git.
+
+
+---------------------------------------------------------------------------------------------------
+08-Ago-2017
+SHA-1: 
+
+- Se agrego la leyenda INDUSTRIA ARGENTINA en la capa bottom del PCB.
+- Se ampliaron las areas de cobre por fuera del borde de la placa.
+- Se agregaron labels extra para identificar las entradas y salidas, en las borneras.
+- Se agrego el SCH de la Edu-Ciaa.
+- Se generaron los archivos Gerber y Drill.
+- Se modifico el documento de la revisión, el documento Cambios.txt y los screenshots del 3D.
+
+
+---------------------------------------------------------------------------------------------------
+19-Jul-2017
+SHA-1: 21387561a7919b0a8a0218290007c628d3cb2c5c
+
+* Se agregaron tiras de pines 2x20 en el  3D
+
+---------------------------------------------------------------------------------------------------
+16-Jul-2017
+SHA-1: 96dd4623101b3fe907c58b85563d95b4820c1138
+
+* Se agregaron las modificaciones sugeridas por el revisor FS.
+- Se agregaron los cambios al PCB.
+- Se actualizaron las vistas 3D.
+- Se editó el pin 41 del componente Conector Poncho 2x20 "B" para hacerlo pasivo, 
+  y poder conectarlo al pin 1 del Conector Poncho 2x20 "A".
+ 
+---------------------------------------------------------------------------------------------------
+16-Jul-2017
+SHA-1: 4efcea761ab8f3286aabc14b7368e312296624ad
+
+* Corrección de algunos detalles en la serigrafía del PCB.
+
+---------------------------------------------------------------------------------------------------
+16-Jul-2017
+SHA-1: f4fe8b605ebd18cb9efb0dd490330ee07a5fdb92
+
+* Agregado de modelos 3D (WRL) para C_0805 y R_0805.wrl
+
+---------------------------------------------------------------------------------------------------
+16-Jul-2017
+SHA-1: b23e758dbb6d84c18799be8ee09fecc9bdfe5dd6
+
+* Ruteo del PCB y agregado de descripcion de Stack-Up
+- Se agrego la BOM.
+- Cálculo de costos (KiCost)
+- Screenshots en el directorio /Docs/Vistas 3D
+- Agregado del directorio /Tools con scripts de python
+
+
+---------------------------------------------------------------------------------------------------
+08-Jul-2017
+SHA-1: 3dae5c36f44a8bc24a52a2b5fd61f28af5cb1b56
+
+* Se ejecutaron las correcciones sugeridas por DB el 30/06/2017
+
+A saber:
+
+-Se agrego el archivo hoja de proyecto en /Docs
+-Se subió el archivo Revisiones(DB).odt
+-Se eliminaron algunas labels locales innecesarias en los SCH.
+-Se hizo el rotulo del PCB
+-Se agrego un fiducial
+
+---------------------------------------------------------------------------------------------------
+24-Jun-2017
+SHA-1: ce613c2a5ccbc5bfb7bb9324057b7c8801915a18
+
+*Se agregaron los cambios sugeridos por el revisor.
+Se agrego la carpeta Docs/Notas de Ingenieria con especificaciones y calculos del producto.
+Se modificaron los codigos de componentes de las borneras elegidas, y se cambio la 
+hoja de datos de las mismas.
+
+---------------------------------------------------------------------------------------------------
+22-Jun-2017
+SHA-1: 308b83a19beeef5c71114ee984eb991c37cfbf27
+
+* Se agregaron comentarios en los esquemáticos.
+Se incorporaron todos los componentes en una libreria local.
+Se agregaron Hojas de datos.
+Se agregaron modelos 3D en la carpeta correspondiente.
+Se genero una unica carpeta de footprints, con los footprints utilizados.
+Se Modificaron los rótulos.
+
+---------------------------------------------------------------------------------------------------
+20-Jun-2017
+SHA-1: 422bf3128a2cde2afb6f08b3197039d48ab62f8e
+
+* Avances en SCH.
+Presentacion de componentes en el PCB.
+
+---------------------------------------------------------------------------------------------------
+15-May-17
+SHA-1: 61ef3d864cb83fa8dcbcf777c2946660038d120d
+
+* 1er Commit del Proyecto EduCiaa PE
+
+---------------------------------------------------------------------------------------------------
+

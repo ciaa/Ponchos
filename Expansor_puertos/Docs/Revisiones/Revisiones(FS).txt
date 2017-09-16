@@ -1,0 +1,53 @@
+﻿# Revisión de la versión EDUCIAA_PE 1.0 #
+Versión del PCB: EDUCIAA_PE : 1.0 (24 de Junio de 2017)
+
+CESE - Curso de Especializacion de Sistemas Embebidos
+
+Materia - Diseño de Circuitos Impresos
+
+Profesor: Diego Brengi
+
+Revisor:  Francisco Suarez
+
+
+
+---------------------------------------------------------------------------------------------------
+REVISION DE PCB
+---------------------------------------------------------------------------------------------------
+* Ya revise en general esta perfecto. Las observaciones que puedo hacerle es para aprovechar que
+  tenes dos entradas de alimentación de 3,3V de repartir la carga entre los dos pines como para 
+  equilibrar la caída que podría llegar a haber en la linea entre integrados. 
+
+*** Hecho. Ahora se utilizan las salidas de 3V3 de ambos conectores para alimentar el poncho.
+
+
+* Después tengo una duda con la ubicación de los capacitores C1,C2,C3,c4 ya que podrían estar muy 
+  cerca de la ficha RS232 y por ahí molestar al momento de soldarlos. 
+
+*** Se alejaron los capacitores de los conectores DB9.
+
+
+---------------------------------------------------------------------------------------------------
+REVISION DE ESQUEMATICO
+---------------------------------------------------------------------------------------------------
+
+* Ya la estuve revisando y lo veo perfecto. (Rev: 1.0)
+  Solo tengo un detalle de las conexiones del U5 y el U6, no hace falta conectar el COM a Vcc? 
+
+*** Se deja disponible en bornera el COMUN para proteger con el diodo de free-wheel las cargas
+    inductivas.  (Rev: 1.1)
+     
+  
+* Y despues en las salidas de esos mismos no hace falta colocar un resistencia en serie para 
+  proteger las salidas en caso de que se ponga en corto alguna salida? (Rev: 1.0)
+  
+*** Se opta por no poner Resistencia limitadora. La corriente queda limitada por la carga, y en
+    caso de cortocircuito cada salida del ULN2803 se clampea a 500mA. (Rev: 1.1)
+
+		
+* Seria bueno que agregaras especificaciones de los rangos de funcionamiento de las entradas 
+  y salidas. (Rev: 1.0)
+
+*** Se agregaron especificaciones y notas de calculo del producto. (Rev: 1.1)
+ 
+ ---------------------------------------------------------------------------------------------------
