@@ -761,7 +761,7 @@
       (net 10 +5V))
     (pad 2 thru_hole circle (at 3.79984 0 180) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 43 "Net-(BZ1-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/Buzzers_Beepers.3dshapes/Buzzer_12x9.5RM7.6.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/Buzzer_12x9.5RM7.6.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 4 4 3))
       (rotate (xyz 0 0 0))
@@ -787,7 +787,7 @@
       (net 44 "Net-(C1-Pad1)"))
     (pad 2 thru_hole circle (at 0 -1 270) (size 1.5 1.5) (drill 0.65) (layers *.Cu *.Mask F.SilkS)
       (net 45 "Net-(C1-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/capacitors/cp_5x11mm.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/cp_5x11mm.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -813,7 +813,7 @@
       (net 46 "Net-(C2-Pad1)"))
     (pad 2 thru_hole circle (at 0 -1 270) (size 1.5 1.5) (drill 0.65) (layers *.Cu *.Mask F.SilkS)
       (net 47 "Net-(C2-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/capacitors/cp_5x11mm.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/cp_5x11mm.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -839,7 +839,7 @@
       (net 48 "Net-(C3-Pad1)"))
     (pad 2 thru_hole circle (at 0 -1) (size 1.5 1.5) (drill 0.65) (layers *.Cu *.Mask F.SilkS)
       (net 49 "Net-(C3-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/capacitors/cp_5x11mm.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/cp_5x11mm.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -865,7 +865,7 @@
       (net 2 GND))
     (pad 2 thru_hole circle (at 0 -1 90) (size 1.5 1.5) (drill 0.65) (layers *.Cu *.Mask F.SilkS)
       (net 50 "Net-(C4-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/capacitors/cp_5x11mm.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/cp_5x11mm.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -900,7 +900,7 @@
       (net 2 GND))
     (pad 2 thru_hole circle (at 2.54 0 270) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 51 "Net-(D1-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/indicators/led_3mm_red.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/led_3mm_red.wrl"
       (at (xyz 0.05 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -935,7 +935,7 @@
       (net 2 GND))
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 52 "Net-(D2-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/indicators/led_3mm_green.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/led_3mm_green.wrl"
       (at (xyz 0.05 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1009,7 +1009,7 @@
     (pad 0 thru_hole circle (at -5.4991 31.0007 90) (size 3 3) (drill 2.5) (layers *.Cu *.Mask F.SilkS))
     (pad 0 thru_hole circle (at 69.49948 31.0007 90) (size 3 3) (drill 2.5) (layers *.Cu *.Mask F.SilkS))
     (pad 0 thru_hole circle (at 69.49948 0 90) (size 3 3) (drill 2.5) (layers *.Cu *.Mask F.SilkS))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/indicators/lcd_16x2.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/lcd_16x2.wrl"
       (at (xyz 1.25 -0.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1090,7 +1090,7 @@
     (pad 6 thru_hole oval (at 4.15544 -5.842 270) (size 1.50114 1.99898) (drill 0.89916 (offset 0 0.24892)) (layers *.Cu *.Mask)
       (net 63 "Net-(J1-Pad6)"))
     (pad "" thru_hole circle (at -12.49426 -7.112 270) (size 5.00126 5.00126) (drill 3.2004) (layers *.Cu *.Mask))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/conn_d-sub/db_9f.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/db_9f.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1119,7 +1119,7 @@
       (net 7 "/Circuito Principal/ADC3"))
     (pad 2 thru_hole oval (at 1.27 0 90) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 64 "Net-(JP1-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/pin_strip/pin_strip_2.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/pin_strip_2.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1156,7 +1156,7 @@
       (net 13 "/Circuito Principal/COL1"))
     (pad 7 thru_hole oval (at 7.62 0 270) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 66 "/Circuito Principal/COL2"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/pin_strip/pin_strip_7.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/pin_strip_7.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1189,7 +1189,7 @@
       (net 24 "/Circuito Principal/MISO"))
     (pad 5 thru_hole oval (at 5.08 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 67 "/Circuito Principal/MOSI"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/pin_strip/pin_strip_5.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/pin_strip_5.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1220,7 +1220,7 @@
       (net 5 "/Circuito Principal/ADC1"))
     (pad 4 thru_hole oval (at 3.81 0 270) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 8 "/Circuito Principal/DAC"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/pin_strip/pin_strip_4.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/pin_strip_4.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1253,7 +1253,7 @@
       (net 42 "/Circuito Principal/SCL"))
     (pad 5 thru_hole oval (at 5.08 0 270) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/pin_strip/pin_strip_5.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/pin_strip_5.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1286,7 +1286,7 @@
       (net 21 "/Circuito Principal/TD"))
     (pad 5 thru_hole oval (at 5.08 0 270) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/pin_strip/pin_strip_5.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/pin_strip_5.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1310,7 +1310,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.3048))
     (pad 1 thru_hole rect (at 0 0) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/pin_strip/pin_strip_1.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/pin_strip_1.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1341,7 +1341,7 @@
       (net 27 "/Circuito Principal/GPIO5"))
     (pad 4 thru_hole oval (at 3.81 0 270) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 3 "/Circuito Principal/GPIO7"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/pin_strip/pin_strip_4.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/pin_strip_4.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1372,7 +1372,7 @@
       (net 72 "/Circuito Principal/GPIO4"))
     (pad 4 thru_hole oval (at 3.81 0 270) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 73 "/Circuito Principal/GPIO6"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/pin_strip/pin_strip_4.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/pin_strip_4.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1403,7 +1403,7 @@
       (net 2 GND))
     (pad 1 thru_hole oval (at 0 0 180) (size 0.89916 1.50114) (drill 0.6) (layers *.Cu *.Mask F.SilkS)
       (net 43 "Net-(BZ1-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/TO_SOT_Packages_THT.3dshapes/TO-92_Inline_Narrow_Oval.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/TO-92_Inline_Narrow_Oval.wrl"
       (at (xyz 0.05 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1431,7 +1431,7 @@
       (net 51 "Net-(D1-Pad2)"))
     (pad 2 thru_hole circle (at 5.08 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 57 "Net-(J1-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/Resistor_Horizontal_RM10mm.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1459,7 +1459,7 @@
       (net 10 +5V))
     (pad 2 thru_hole circle (at 5.08 0 270) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 55 "Net-(DS1-Pad15)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/Resistor_Horizontal_RM10mm.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1487,7 +1487,7 @@
       (net 52 "Net-(D2-Pad2)"))
     (pad 2 thru_hole circle (at 5.08 0 180) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 56 "Net-(J1-Pad3)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/Resistor_Horizontal_RM10mm.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1515,7 +1515,7 @@
       (net 74 "Net-(Q1-Pad2)"))
     (pad 2 thru_hole circle (at 5.08 0 180) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 4 "/Circuito Principal/GPIO8"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/Resistor_Horizontal_RM10mm.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1554,7 +1554,7 @@
       (net 53 "Net-(DS1-Pad3)"))
     (pad 3 thru_hole circle (at -2.49936 -2.49936) (size 1.75006 1.75006) (drill 0.89916) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/walter/pth_resistors/trimmer_piher_pt6-xv.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/trimmer_piher_pt6-xv.wrl"
       (at (xyz 0 -0.1 0))
       (scale (xyz 1 2 1))
       (rotate (xyz 0 0 0))
@@ -1597,7 +1597,7 @@
       (net 41 +3.3VADC))
     (pad 1 thru_hole circle (at 0 0) (size 2.49936 2.49936) (drill 1.19888) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/Potentiometer_Alps-RK163-single_15mm.wrl"
       (at (xyz 0 -0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1658,7 +1658,7 @@
       (net 2 GND))
     (pad 16 thru_hole oval (at 7.62 0 90) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 49 "Net-(C3-Pad2)"))
-    (model "../../../../../../Program Files/KiCad/share/kicad/modules/packages3d/Housings_DIP.3dshapes/DIP-16_W7.62mm_LongPads.wrl"
+    (model "${KIPRJMOD}/footprints.3dshapes/DIP-16_W7.62mm_LongPads.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
