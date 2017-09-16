@@ -1,0 +1,56 @@
+Source:,E:/Embebidos/Materias/Diseño de PCB/Proyectos/PonchoEDUCIAA_WIFI_BLT/PonchoEDUCIAA_WIFI_BLT.sch
+Date:,01/08/2017 09:13:50 p.m.
+Tool:,Eeschema 4.0.6
+Generator:,E:/Embebidos/Materias/Dise�o de PCB/Proyectos/PonchoEDUCIAA_WIFI_BLT/tools/bom_csv_grouped_by_value.py
+Component Count:,24
+
+Individual Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Desc,Descripcion,Digikey#,Manf,Manf#,Mouser#
+,,C1,"0,1uF",device:C_Small,Capacitors_SMD:C_0603_HandSoldering,http://datasheets.avx.com/cx5r.pdf,0.1µF ±10% 6.3V Ceramic Capacitor X5R 0201 (0603 Metric),,478-5266-1-ND,AVX Corporation,02016D104KAT2A,581-02016D104KAT2A
+,,C2,10uF,device:C_Small,Capacitors_SMD:C_0603_HandSoldering,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx,10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric),,490-3340-1-ND,Murata Electronics North America,GRM219R60J106KE19D,81-GRM219R60J106KE9D
+,,C3,1nF,device:C_Small,Capacitors_SMD:C_0603_HandSoldering,http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H101JA01-01.pdf,"100pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)",,490-5922-1-ND,Murata Electronics North America,GRM1555C1H101JA01D,81-GRM1555C1H101JA1D
+,,C4,"0,1nF",device:C_Small,Capacitors_SMD:C_0603_HandSoldering,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx,"10pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)",,490-5921-1-ND,Murata Electronics North America,GRM1555C1H100JA01D,81-GRM1555C1H100JA1D
+,,C5,1nF,device:C_Small,Capacitors_SMD:C_0603_HandSoldering,http://datasheets.avx.com/C0GNP0-Dielectric.pdf,"100pF ±5% 10V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)",,478-1026-1-ND,AVX Corporation,0201ZA101JAT2A,581-0201ZA101JAT2A
+,,D1,LED_Rojo,device:LED_Small,LEDs:LED_0805,http://www.osram-os.com/Graphics/XPic8/00078896_0.pdf,LED RED DIFFUSED 0805 SMD,,475-1278-1-ND,OSRAM Opto Semiconductors Inc.,LS R976-NR-1,720-LSR976-NR-1
+,,D2,LED_Verde,device:LED_Small,LEDs:LED_0805,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,LED GREEN DIFFUSED 0805 SMD,,475-1410-1-ND,OSRAM Opto Semiconductors Inc.,LG R971-KN-1,720-LGR971-KN-1
+,,D3,LED_Amarillo,device:LED_Small,LEDs:LED_0805,http://www.osram-os.com/Graphics/XPic9/00078941_0.pdf,LED YELLOW DIFFUSED 0805 SMD,,475-2560-1-ND,OSRAM Opto Semiconductors Inc.,LY R976-PS-36,720-LYR976-PS-36
+,,F1,FIDUCIAL,PonchoEDUCIAA_WIFI_BLT-cache:FIDUCIAL,PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm,,,FIDUCIAL,,,,
+,,F2,FIDUCIAL,PonchoEDUCIAA_WIFI_BLT-cache:FIDUCIAL,PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm,,,FIDUCIAL,,,,
+,,F3,FIDUCIAL,PonchoEDUCIAA_WIFI_BLT-cache:FIDUCIAL,PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm,,,FIDUCIAL,,,,
+,,J1,UART,conn:CONN_01X03,PonchoEDUCIAA_WIFI_BLTH:CON_PALETA_3,http://www.molex.com/pdm_docs/sd/022272031_sd.pdf,CONN HEADER 3POS .100 VERT TIN,,WM4112-ND,"Molex, LLC",0022272031,538-22-27-2031
+,,R1,402,device:R_Small,Resistors_SMD:R_0805_HandSoldering,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,RES SMD 402 OHM 1% 1/8W 0805,,311-402CRCT-ND,Yageo,RC0805FR-07402RL,603-RC0805FR-07402RL
+,,R2,10k,device:R_Small,Resistors_SMD:R_0805_HandSoldering,https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf,RES SMD 10K OHM 0.1% 1/8W 0805,,P10KDACT-ND,Panasonic Electronic Components,ERA-6AEB103V,667-ERA-6AEB103V
+,,R3,470,device:R_Small,Resistors_SMD:R_0805_HandSoldering,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,RES SMD 470 OHM 1% 1/8W 0805,,311-470CRCT-ND,Yageo,RC0805FR-07470RL,603-RC0805FR-07470RL
+,,R4,402,device:R_Small,Resistors_SMD:R_0805_HandSoldering,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,RES SMD 402 OHM 1% 1/8W 0805,,311-402CRCT-ND,Yageo,RC0805FR-07402RL,603-RC0805FR-07402RL
+,,R5,402,device:R_Small,Resistors_SMD:R_0805_HandSoldering,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,RES SMD 402 OHM 1% 1/8W 0805,,311-402CRCT-ND,Yageo,RC0805FR-07402RL,603-RC0805FR-07402RL
+,,R6,470,device:R_Small,Resistors_SMD:R_0805_HandSoldering,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,RES SMD 470 OHM 1% 1/8W 0805,,311-470CRCT-ND,Yageo,RC0805FR-07470RL,603-RC0805FR-07470RL
+,,R7,5k,device:R_Small,Resistors_SMD:R_0805_HandSoldering,http://www.vishay.com/docs/20008/dcrcw.pdf,RES SMD 5K OHM 1% 1/8W 0805,,CRCW08055K00FKTA-ND,Vishay Dale,CRCW08055K00FKTA,71-CRCW0805-5K
+,,R8,5k,device:R_Small,Resistors_SMD:R_0805_HandSoldering,http://www.vishay.com/docs/20008/dcrcw.pdf,RES SMD 5K OHM 1% 1/8W 0805,,CRCW08055K00FKTA-ND,Vishay Dale,CRCW08055K00FKTA,71-CRCW0805-5K
+,,SW1,Reset,switches:SW_Push,Buttons_Switches_THT:SW_PUSH_6mm,http://www.ckswitches.com/media/1341/d6.pdf,SWITCH PUSH SPST-NO 0.1A 32V,,401-1969-ND,C&K,D6C90 F1 LFS,611-D6C90F1LFS
+,,SW2,Boot,switches:SW_SPDT,Buttons_Switches_THT:SW_Micro_SPST,http://www.ckswitches.com/media/1422/js.pdf,SWITCH SLIDE DPDT 300MA 6V,,401-2001-ND,C&K,JS202011CQN,611-JS202011CQN
+,,U1,ESP32-WROOM,PonchoEDUCIAA_WIFI_BLT-cache:ESP32-WROOM,PonchoEDUCIAA_WIFI_BLTH:ESP32-WROOM,https://www.espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf,TXRX MOD BLE WIFI ESP-WROOM-32,,1528-1801-ND,Adafruit Industries LLC,3320,485-3320
+,,XA1,Conn_Poncho2P_2x_20x2,PonchoEDUCIAA_WIFI_BLT-cache:Conn_Poncho2P_2x_20x2,PonchoEDUCIAA_WIFI_BLTH:Conn_Poncho_Derecha,https://cdn.harwin.com/pdfs/M50-350.pdf,CONN HDR 1.27MM VERT AU 20POS,,952-1386-ND,Harwin Inc.,M50-3501042,855-M50-3501042
+
+
+
+Collated Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Desc,Descripcion,Digikey#,Manf,Manf#,Mouser#
+1,1,C1,"0,1uF",device:C_Small,Capacitors_SMD:C_0603_HandSoldering,http://datasheets.avx.com/cx5r.pdf,0.1µF ±10% 6.3V Ceramic Capacitor X5R 0201 (0603 Metric),,478-5266-1-ND,AVX Corporation,02016D104KAT2A,581-02016D104KAT2A
+2,1,C2,10uF,device:C_Small,Capacitors_SMD:C_0603_HandSoldering,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx,10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric),,490-3340-1-ND,Murata Electronics North America,GRM219R60J106KE19D,81-GRM219R60J106KE9D
+3,2,"C3, C5",1nF,device:C_Small,Capacitors_SMD:C_0603_HandSoldering,http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H101JA01-01.pdf,"100pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)",,490-5922-1-ND,Murata Electronics North America,GRM1555C1H101JA01D,81-GRM1555C1H101JA1D
+4,1,C4,"0,1nF",device:C_Small,Capacitors_SMD:C_0603_HandSoldering,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx,"10pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)",,490-5921-1-ND,Murata Electronics North America,GRM1555C1H100JA01D,81-GRM1555C1H100JA1D
+5,1,D1,LED_Rojo,device:LED_Small,LEDs:LED_0805,http://www.osram-os.com/Graphics/XPic8/00078896_0.pdf,LED RED DIFFUSED 0805 SMD,,475-1278-1-ND,OSRAM Opto Semiconductors Inc.,LS R976-NR-1,720-LSR976-NR-1
+6,1,D2,LED_Verde,device:LED_Small,LEDs:LED_0805,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,LED GREEN DIFFUSED 0805 SMD,,475-1410-1-ND,OSRAM Opto Semiconductors Inc.,LG R971-KN-1,720-LGR971-KN-1
+7,1,D3,LED_Amarillo,device:LED_Small,LEDs:LED_0805,http://www.osram-os.com/Graphics/XPic9/00078941_0.pdf,LED YELLOW DIFFUSED 0805 SMD,,475-2560-1-ND,OSRAM Opto Semiconductors Inc.,LY R976-PS-36,720-LYR976-PS-36
+8,3,"F1, F2, F3",FIDUCIAL,PonchoEDUCIAA_WIFI_BLT-cache:FIDUCIAL,PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm,,,FIDUCIAL,,,,
+9,1,J1,UART,conn:CONN_01X03,PonchoEDUCIAA_WIFI_BLTH:CON_PALETA_3,http://www.molex.com/pdm_docs/sd/022272031_sd.pdf,CONN HEADER 3POS .100 VERT TIN,,WM4112-ND,"Molex, LLC",0022272031,538-22-27-2031
+10,3,"R1, R4, R5",402,device:R_Small,Resistors_SMD:R_0805_HandSoldering,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,RES SMD 402 OHM 1% 1/8W 0805,,311-402CRCT-ND,Yageo,RC0805FR-07402RL,603-RC0805FR-07402RL
+11,1,R2,10k,device:R_Small,Resistors_SMD:R_0805_HandSoldering,https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf,RES SMD 10K OHM 0.1% 1/8W 0805,,P10KDACT-ND,Panasonic Electronic Components,ERA-6AEB103V,667-ERA-6AEB103V
+12,2,"R3, R6",470,device:R_Small,Resistors_SMD:R_0805_HandSoldering,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,RES SMD 470 OHM 1% 1/8W 0805,,311-470CRCT-ND,Yageo,RC0805FR-07470RL,603-RC0805FR-07470RL
+13,2,"R7, R8",5k,device:R_Small,Resistors_SMD:R_0805_HandSoldering,http://www.vishay.com/docs/20008/dcrcw.pdf,RES SMD 5K OHM 1% 1/8W 0805,,CRCW08055K00FKTA-ND,Vishay Dale,CRCW08055K00FKTA,71-CRCW0805-5K
+14,1,SW1,Reset,switches:SW_Push,Buttons_Switches_THT:SW_PUSH_6mm,http://www.ckswitches.com/media/1341/d6.pdf,SWITCH PUSH SPST-NO 0.1A 32V,,401-1969-ND,C&K,D6C90 F1 LFS,611-D6C90F1LFS
+15,1,SW2,Boot,switches:SW_SPDT,Buttons_Switches_THT:SW_Micro_SPST,http://www.ckswitches.com/media/1422/js.pdf,SWITCH SLIDE DPDT 300MA 6V,,401-2001-ND,C&K,JS202011CQN,611-JS202011CQN
+16,1,U1,ESP32-WROOM,PonchoEDUCIAA_WIFI_BLT-cache:ESP32-WROOM,PonchoEDUCIAA_WIFI_BLTH:ESP32-WROOM,https://www.espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf,TXRX MOD BLE WIFI ESP-WROOM-32,,1528-1801-ND,Adafruit Industries LLC,3320,485-3320
+17,1,XA1,Conn_Poncho2P_2x_20x2,PonchoEDUCIAA_WIFI_BLT-cache:Conn_Poncho2P_2x_20x2,PonchoEDUCIAA_WIFI_BLTH:Conn_Poncho_Derecha,https://cdn.harwin.com/pdfs/M50-350.pdf,CONN HDR 1.27MM VERT AU 20POS,,952-1386-ND,Harwin Inc.,M50-3501042,855-M50-3501042

@@ -1,0 +1,72 @@
+Info: Reading netlist file "E:\Embebidos\Materias\Diseño de PCB\Proyectos\PonchoEDUCIAA_WIFI_BLT\PonchoEDUCIAA_WIFI_BLT.net".
+
+Info: Using references to match components and footprints.
+
+Info: Checking netlist component footprint "C1:/591B3730:Capacitors_SMD:C_0603_HandSoldering".
+
+Info: Checking netlist component footprint "C2:/591B36A3:Capacitors_SMD:C_0603_HandSoldering".
+
+Info: Checking netlist component footprint "C3:/591B3654:Capacitors_SMD:C_0603_HandSoldering".
+
+Info: Checking netlist component footprint "C4:/591B3D46:Capacitors_SMD:C_0603_HandSoldering".
+
+Info: Checking netlist component footprint "C5:/591BA60B:Capacitors_SMD:C_0603_HandSoldering".
+
+Info: Checking netlist component footprint "D1:/5915C6BB:LEDs:LED_0805".
+
+Replacing component "D1:/5915C6BB" footprint "LEDs:LED_0402" with "LEDs:LED_0805".
+
+Changing component "D1:/5915C6BB" pin "2" net name from "" to "Net-(D1-Pad2)".
+
+Changing component "D1:/5915C6BB" pin "1" net name from "" to "GND".
+
+Info: Checking netlist component footprint "D2:/5915C18C:LEDs:LED_0805".
+
+Replacing component "D2:/5915C18C" footprint "LEDs:LED_0402" with "LEDs:LED_0805".
+
+Changing component "D2:/5915C18C" pin "2" net name from "" to "Net-(D2-Pad2)".
+
+Changing component "D2:/5915C18C" pin "1" net name from "" to "GND".
+
+Info: Checking netlist component footprint "D3:/5915C2A8:LEDs:LED_0805".
+
+Replacing component "D3:/5915C2A8" footprint "LEDs:LED_0402" with "LEDs:LED_0805".
+
+Changing component "D3:/5915C2A8" pin "2" net name from "" to "Net-(D3-Pad2)".
+
+Changing component "D3:/5915C2A8" pin "1" net name from "" to "GND".
+
+Info: Checking netlist component footprint "F1:/592DFF9B:PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm".
+
+Info: Checking netlist component footprint "F2:/592E0238:PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm".
+
+Info: Checking netlist component footprint "F3:/592E4AA5:PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm".
+
+Info: Checking netlist component footprint "J1:/591B2551:PonchoEDUCIAA_WIFI_BLTH:CON_PALETA_3".
+
+Info: Checking netlist component footprint "R1:/5915C673:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R2:/591B3C47:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R3:/591B39FC:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R4:/5915C27A:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R5:/5915BEE9:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R6:/591BB74F:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R7:/591BB4D7:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R8:/594ED4F2:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "SW1:/591BAB0F:Buttons_Switches_THT:SW_PUSH_6mm".
+
+Info: Checking netlist component footprint "SW2:/591BBB9C:Buttons_Switches_THT:SW_Micro_SPST".
+
+Info: Checking netlist component footprint "U1:/5911A5F3:PonchoEDUCIAA_WIFI_BLTH:ESP32-WROOM".
+
+Info: Checking netlist component footprint "XA1:/5911AAD2:PonchoEDUCIAA_WIFI_BLTH:Conn_Poncho_Derecha".
+
+Removing unused component "G1:".
+

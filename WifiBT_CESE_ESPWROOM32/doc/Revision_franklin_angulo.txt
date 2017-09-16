@@ -1,0 +1,11 @@
+Primera Revisión 
+
+Franklin Angulo
+
+Me causa curiosidad la resistencia del pin 24 del modulo . En tu esquemático tienes la resistencia en el pdf y en el fuente que realizas no.
+Si lo único que hay que revisar es el esquemático, esa es mi primera duda. Es correcto la ausencia?
+
+Atte.
+Franklin.
+
+Todo lo demás me parece ok para el esquemático.

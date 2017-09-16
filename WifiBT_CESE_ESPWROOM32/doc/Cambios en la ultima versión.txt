@@ -1,0 +1,14 @@
+
+Se cambia el código de los leds, sus footprints y los leds para que sean compatibles con la variante recomendada.
+Se actualiza el listado de componentes y la planilla del kicost.
+Se agrega una zona de exclusión bajo el integrado wifi, solo arriba porque abajo se necesita conectar el negativo en el centro del integrado.
+Se achica el borde de la placa para que el poncho sea más chico y se aprovechan mejor los espacio según lo sugerido. 
+Se agrega zona de cobre en la capa inferior con gnd.
+Se recorta la zona de cobre para que no pase bajo la antena.
+Se agrega "Industria Argentina" en la capa inferior.
+Se mejoró el posicionamiento y el ruteo aunque quedaron mejoras pendientes.
+Se achicó el borde del PCB para aprovechar mejor el espacio.
+Se exportaron nuevos archivos gerber.
+Se actualiza el presupuesto con kicost. (Bajó el precio!)
+
+Se agrega tutorial básico sobre el uso del Freerouting en la carpeta doc.

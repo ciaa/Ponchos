@@ -1,0 +1,84 @@
+
+(rules PCB PonchoEDUCIAA_WIFI_BLT
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 226)
+    (layer_rule TOP
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.1)
+    )
+    (layer_rule BOTTOM
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 300.0)
+    (clear 300.2)
+    (clear 150.0 (type smd_to_turn_gap))
+    (clear 75.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_1270:700_um"
+    (shape
+      (circle TOP 1270.0 0.0 0.0)
+    )
+    (shape
+      (circle BOTTOM 1270.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_1270:700_um" "Via[0-1]_1270:700_um" default
+  )
+  (via 
+    "Via[0-1]_1270:700_um-kicad_default" "Via[0-1]_1270:700_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_1270:700_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_1270:700_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer TOP BOTTOM)
+    )
+  )
+  (class "kicad_default"
+    GND "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(C5-Pad2)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(J1-Pad1)"
+    "Net-(J1-Pad2)" +3V3 "Net-(SW2-Pad1)" "Net-(U1-Pad37)" "Net-(U1-Pad36)" "Net-(U1-Pad33)" "Net-(U1-Pad32)" "Net-(U1-Pad31)"
+    "Net-(U1-Pad30)" "Net-(U1-Pad29)" "Net-(U1-Pad28)" "Net-(U1-Pad27)" "Net-(U1-Pad26)" "Net-(U1-Pad23)" "Net-(U1-Pad22)" "Net-(U1-Pad21)"
+    "Net-(U1-Pad20)" "Net-(U1-Pad19)" "Net-(U1-Pad18)" "Net-(U1-Pad17)" "Net-(U1-Pad16)" "Net-(U1-Pad14)" "Net-(U1-Pad13)" "Net-(U1-Pad12)"
+    "Net-(U1-Pad11)" "Net-(U1-Pad10)" "Net-(U1-Pad9)" "Net-(U1-Pad8)" "Net-(U1-Pad7)" "Net-(U1-Pad6)" "Net-(U1-Pad5)" "Net-(U1-Pad4)"
+    "Net-(XA1-Pad2)" "Net-(XA1-Pad11)" "Net-(XA1-Pad13)" "Net-(XA1-Pad6)" "Net-(XA1-Pad15)" "Net-(XA1-Pad8)" "Net-(XA1-Pad17)" "Net-(XA1-Pad10)"
+    "Net-(XA1-Pad19)" "Net-(XA1-Pad12)" "Net-(XA1-Pad21)" "Net-(XA1-Pad14)" "Net-(XA1-Pad16)" "Net-(XA1-Pad18)" "Net-(XA1-Pad27)" "Net-(XA1-Pad29)"
+    "Net-(XA1-Pad31)" "Net-(XA1-Pad33)" "Net-(XA1-Pad34)" "Net-(XA1-Pad36)" "Net-(XA1-Pad35)" "Net-(XA1-Pad37)" "Net-(XA1-Pad3)" "Net-(XA1-Pad5)"
+    "Net-(XA1-Pad7)" "Net-(XA1-Pad9)" "Net-(XA1-Pad39)" "Net-(F1-Pad1)" "Net-(F2-Pad1)" "Net-(F3-Pad1)" "Net-(R6-Pad2)" "Net-(R8-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer TOP BOTTOM)
+    )
+  )
+)
