@@ -1,0 +1,7 @@
+Revisiones:
+-Duplicación del campo Digikey# en todos los componentes
+
+Mejoras:
+-Los pines 6 y 3 del componente U2, tienen su referencia GND demasiado distanciada, y eso hace que a simple vista parezca que es de otro wire ese referecia.
+-Por otro lado a nivel organización, los DS deberían ir en una carpeta correspondiente dentro del proyecto si no me equivoco, creo que no debería estar en una carpeta "Documentación", fuera de este.
+

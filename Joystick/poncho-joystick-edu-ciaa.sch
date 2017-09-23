@@ -1,0 +1,1234 @@
+EESchema Schematic File Version 2
+LIBS:poncho-joystick-edu-ciaa-rescue
+LIBS:switches
+LIBS:regul
+LIBS:BITxo component library
+LIBS:poncho-joystick-edu-ciaa library
+LIBS:device
+LIBS:ej2cese
+LIBS:poncho-joystick-edu-ciaa-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Poncho Joystick"
+Date "2017-05-27"
+Rev "1.0"
+Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
+Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
+Comment3 "Autor del poncho: Toris Alan. Ver directorio \"doc\" - Revisores: Diego Brengi, Fabrizio Gelsi"
+Comment4 "CÓDIGO PONCHO:"
+$EndDescr
+$Comp
+L OSHWA #G2
+U 1 1 560A0A28
+P 10800 6050
+F 0 "#G2" H 10770 6450 60  0001 C CNN
+F 1 "OSHWA" H 10800 6353 60  0001 C CNN
+F 2 "mod:OSHWA" H 10800 6050 60  0001 C CNN
+F 3 "" H 10800 6050 60  0000 C CNN
+	1    10800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logo_Poncho #G1
+U 1 1 560CFFC0
+P 10150 6000
+F 0 "#G1" H 10100 5600 60  0001 C CNN
+F 1 "Logo_Poncho" H 10350 5600 60  0001 C CNN
+F 2 "" H 10150 6000 60  0000 C CNN
+F 3 "" H 10150 6000 60  0000 C CNN
+	1    10150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Poncho2P_2x_20x2 XA1
+U 1 1 592CD3CA
+P 1450 1350
+F 0 "XA1" H 1800 1897 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 1800 1791 60  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:Conn_Poncho_Completo_Modificado" H 1450 1350 60  0001 C CNN
+F 3 "" H 1450 1350 60  0000 C CNN
+	1    1450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Poncho2P_2x_20x2 XA1
+U 2 1 592CD41C
+P 1400 3800
+F 0 "XA1" H 1750 4347 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 1750 4241 60  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:Conn_Poncho_Completo_Modificado" H 1400 3800 60  0001 C CNN
+F 3 "" H 1400 3800 60  0000 C CNN
+	2    1400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor M1
+U 1 1 592CDBCE
+P 10100 1900
+F 0 "M1" H 10230 1946 50  0000 L CNN
+F 1 "4.5*5mm" H 10230 1855 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:Vibration_motor" H 10300 2000 29  0001 C CNN
+F 3 "http://www.eminebea.com/en/product/rotary/brushmotor/dc/data/pnn7rb55pw_vibration_motor.pdf" H 9650 1875 60  0001 C CNN
+F 4 "P122157-ND" H 10100 1900 60  0001 C CNN "DigiKey#"
+F 5 "NMB Technologies Corporation" H 10100 1900 60  0001 C CNN "Manf"
+F 6 "PNN7RB55PW" H 10100 1900 60  0001 C CNN "Manf#"
+F 7 "7.39000" H 10100 1900 60  0001 C CNN "Price"
+F 8 "VIBRATION MOTOR CYL 3V" H 10100 1900 60  0001 C CNN "Desc"
+	1    10100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 592CDC54
+P 10100 1400
+F 0 "R9" H 10168 1446 50  0000 L CNN
+F 1 "10" H 10168 1355 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:R_0805_HandSoldering" H 10100 1400 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 10100 1400 50  0001 C CNN
+F 4 "311-10.0FRTR-ND" H 10100 1400 60  0001 C CNN "DigiKey#"
+F 5 "Yageo" H 10100 1400 60  0001 C CNN "Manf"
+F 6 "RC1206FR-0710RL" H 10100 1400 60  0001 C CNN "Manf#"
+F 7 "0.00673" H 10100 1400 60  0001 C CNN "Price"
+F 8 "RES SMD 10 OHM 1% 1/4W 1206" H 10100 1400 60  0001 C CNN "Desc"
+	1    10100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_ALT D1
+U 1 1 592CDD40
+P 9750 1900
+F 0 "D1" V 9750 1700 50  0000 L CNN
+F 1 "1N4148" V 9850 1600 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:D_0805" H 9750 1900 50  0001 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/cd0603-s01575.pdf" H 9750 1900 50  0001 C CNN
+F 4 "CD0603-S01575TR-ND" V 9750 1900 60  0001 C CNN "DigiKey#"
+F 5 "Bourns Inc." V 9750 1900 60  0001 C CNN "Manf"
+F 6 "CD0603-S01575" V 9750 1900 60  0001 C CNN "Manf#"
+F 7 "0.09055" V 9750 1900 60  0001 C CNN "Price"
+F 8 "DIODE GEN PURP 75V 150MA 0603" V 9750 1900 60  0001 C CNN "Desc"
+	1    9750 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NPN_BCE Q1
+U 1 1 592CDFEB
+P 9650 2450
+F 0 "Q1" H 9841 2496 50  0000 L CNN
+F 1 "8050" H 9841 2405 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:SOT-23_Handsoldering" H 9850 2550 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MMSS8050(SOT-23).pdf" H 9650 2450 50  0001 C CNN
+F 4 "MMSS8050-L-TPMSTR-ND" H 9650 2450 60  0001 C CNN "DigiKey#"
+F 5 "Micro Commercial Co" H 9650 2450 60  0001 C CNN "Manf"
+F 6 "MMSS8050-L-TP" H 9650 2450 60  0001 C CNN "Manf#"
+F 7 "0.05278" H 9650 2450 60  0001 C CNN "Price"
+F 8 "TRANS NPN 25V 1.5A SOT-23" H 9650 2450 60  0001 C CNN "Desc"
+	1    9650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 592CE070
+P 9300 2700
+F 0 "R8" H 9368 2746 50  0000 L CNN
+F 1 "10K" H 9368 2655 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:R_0805_HandSoldering" H 9300 2700 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 9300 2700 50  0001 C CNN
+F 4 "311-10KERTR-ND" H 9300 2700 60  0001 C CNN "DigiKey#"
+F 5 "Yageo" H 9300 2700 60  0001 C CNN "Manf"
+F 6 "RC1206JR-0710KL" H 9300 2700 60  0001 C CNN "Manf#"
+F 7 "0.00512" H 9300 2700 60  0001 C CNN "Price"
+F 8 "RES SMD 10K OHM 5% 1/4W 1206" H 9300 2700 60  0001 C CNN "Desc"
+	1    9300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 592CE10B
+P 8950 2450
+F 0 "R7" V 8745 2450 50  0000 C CNN
+F 1 "1K" V 8836 2450 50  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:R_0805_HandSoldering" H 8950 2450 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 8950 2450 50  0001 C CNN
+F 4 "311-1.00KFRTR-ND" V 8950 2450 60  0001 C CNN "DigiKey#"
+F 5 "Yageo" V 8950 2450 60  0001 C CNN "Manf"
+F 6 "RC1206FR-071KL" V 8950 2450 60  0001 C CNN "Manf#"
+F 7 "0.00673" V 8950 2450 60  0001 C CNN "Price"
+F 8 "RES SMD 1K OHM 1% 1/4W 1206" V 8950 2450 60  0001 C CNN "Desc"
+	1    8950 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR01
+U 1 1 592CE2E9
+P 10100 1200
+F 0 "#PWR01" H 10100 1050 50  0001 C CNN
+F 1 "+5V" H 10115 1373 50  0000 C CNN
+F 2 "" H 10100 1200 50  0001 C CNN
+F 3 "" H 10100 1200 50  0001 C CNN
+	1    10100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR02
+U 1 1 592CE352
+P 9300 3050
+F 0 "#PWR02" H 9300 2800 50  0001 C CNN
+F 1 "GND" H 9305 2877 50  0000 C CNN
+F 2 "" H 9300 3050 50  0001 C CNN
+F 3 "" H 9300 3050 50  0001 C CNN
+	1    9300 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1700 10100 1550
+Wire Wire Line
+	9750 1750 9750 1600
+Wire Wire Line
+	9750 1600 10100 1600
+Connection ~ 10100 1600
+Wire Wire Line
+	9750 2050 9750 2250
+Wire Wire Line
+	9750 2150 10100 2150
+Wire Wire Line
+	10100 2150 10100 2100
+Connection ~ 9750 2150
+Wire Wire Line
+	9100 2450 9450 2450
+Connection ~ 9300 2450
+Wire Wire Line
+	9750 2650 9750 3000
+Wire Wire Line
+	9300 2850 9300 3050
+Wire Wire Line
+	9750 3000 9300 3000
+Connection ~ 9300 3000
+Text Label 8200 2450 0    60   ~ 0
+PWM
+Wire Wire Line
+	8200 2450 8800 2450
+$Comp
+L 8002-RESCUE-poncho-joystick-edu-ciaa U1
+U 1 1 592D19B0
+P 5550 1950
+F 0 "U1" H 5250 2250 60  0000 C CNN
+F 1 "8002" H 5300 1550 60  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:AD8002" H 5550 1950 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8002.pdf" H 5550 1950 60  0001 C CNN
+F 4 "AD8002ARMZ-ND" H 5550 1950 60  0001 C CNN "DigiKey#"
+F 5 "Analog Devices Inc." H 5550 1950 60  0001 C CNN "Manf"
+F 6 "AD8002ARMZ" H 5550 1950 60  0001 C CNN "Manf#"
+F 7 "10.09000" H 5550 1950 60  0001 C CNN "Price"
+F 8 "IC OPAMP CFA 600MHZ 8MSOP" H 5550 1950 60  0001 C CNN "Desc"
+	1    5550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 592D1CB7
+P 5750 1450
+F 0 "C3" V 5650 1450 50  0000 C CNN
+F 1 "1uF" V 5850 1450 50  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:C_0805_HandSoldering" H 5750 1450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" H 5750 1450 50  0001 C CNN
+F 4 "490-1536-2-ND" V 5750 1450 60  0001 C CNN "DigiKey#"
+F 5 "Murata Electronics North America" V 5750 1450 60  0001 C CNN "Manf"
+F 6 "GRM188R61C105KA93D" V 5750 1450 60  0001 C CNN "Manf#"
+F 7 "0.01091" V 5750 1450 60  0001 C CNN "Price"
+F 8 "CAP CER 1UF 16V X5R 0603" V 5750 1450 60  0001 C CNN "Desc"
+	1    5750 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 592D1D4B
+P 4700 2400
+F 0 "C2" H 4608 2354 50  0000 R CNN
+F 1 "1uF" H 4608 2445 50  0000 R CNN
+F 2 "poncho-joystick-edu-ciaa:C_0805_HandSoldering" H 4700 2400 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" H 4700 2400 50  0001 C CNN
+F 4 "490-1536-2-ND" H 4700 2400 60  0001 C CNN "DigiKey#"
+F 5 "Murata Electronics North America" H 4700 2400 60  0001 C CNN "Manf"
+F 6 "GRM188R61C105KA93D" H 4700 2400 60  0001 C CNN "Manf#"
+F 7 "0.01091" H 4700 2400 60  0001 C CNN "Price"
+F 8 "CAP CER 1UF 16V X5R 0603" H 4700 2400 60  0001 C CNN "Desc"
+	1    4700 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 592D1E23
+P 4050 1800
+F 0 "C1" V 3821 1800 50  0000 C CNN
+F 1 "1uF" V 3912 1800 50  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:C_0805_HandSoldering" H 4050 1800 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" H 4050 1800 50  0001 C CNN
+F 4 "490-1536-2-ND" V 4050 1800 60  0001 C CNN "DigiKey#"
+F 5 "Murata Electronics North America" V 4050 1800 60  0001 C CNN "Manf"
+F 6 "GRM188R61C105KA93D" V 4050 1800 60  0001 C CNN "Manf#"
+F 7 "0.01091" V 4050 1800 60  0001 C CNN "Price"
+F 8 "CAP CER 1UF 16V X5R 0603" V 4050 1800 60  0001 C CNN "Desc"
+	1    4050 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR03
+U 1 1 592D1E8D
+P 5400 2650
+F 0 "#PWR03" H 5400 2400 50  0001 C CNN
+F 1 "GND" H 5405 2477 50  0000 C CNN
+F 2 "" H 5400 2650 50  0001 C CNN
+F 3 "" H 5400 2650 50  0001 C CNN
+	1    5400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 592D257A
+P 4500 1800
+F 0 "R4" V 4295 1800 50  0000 C CNN
+F 1 "20K" V 4386 1800 50  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:R_0805_HandSoldering" H 4500 1800 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 4500 1800 50  0001 C CNN
+F 4 "311-20KERTR-ND" V 4500 1800 60  0001 C CNN "DigiKey#"
+F 5 "Yageo" V 4500 1800 60  0001 C CNN "Manf"
+F 6 "RC1206JR-0720KL" V 4500 1800 60  0001 C CNN "Manf#"
+F 7 "0.00512" V 4500 1800 60  0001 C CNN "Price"
+F 8 "RES SMD 20K OHM 5% 1/4W 1206" V 4500 1800 60  0001 C CNN "Desc"
+	1    4500 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 592D261D
+P 5450 1050
+F 0 "R6" V 5245 1050 50  0000 C CNN
+F 1 "20K" V 5336 1050 50  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:R_0805_HandSoldering" H 5450 1050 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 5450 1050 50  0001 C CNN
+F 4 "311-20KERTR-ND" V 5450 1050 60  0001 C CNN "DigiKey#"
+F 5 "Yageo" V 5450 1050 60  0001 C CNN "Manf"
+F 6 "RC1206JR-0720KL" V 5450 1050 60  0001 C CNN "Manf#"
+F 7 "0.00512" V 5450 1050 60  0001 C CNN "Price"
+F 8 "RES SMD 20K OHM 5% 1/4W 1206" V 5450 1050 60  0001 C CNN "Desc"
+	1    5450 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR04
+U 1 1 592D28A9
+P 6050 1500
+F 0 "#PWR04" H 6050 1250 50  0001 C CNN
+F 1 "GND" H 6055 1327 50  0000 C CNN
+F 2 "" H 6050 1500 50  0001 C CNN
+F 3 "" H 6050 1500 50  0001 C CNN
+	1    6050 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1900 4700 1900
+Wire Wire Line
+	4700 1900 4700 2300
+Wire Wire Line
+	5000 2050 4700 2050
+Connection ~ 4700 2050
+Wire Wire Line
+	4700 2500 4700 2600
+Wire Wire Line
+	4700 2600 5550 2600
+Wire Wire Line
+	5400 2600 5400 2650
+Wire Wire Line
+	5000 2150 4950 2150
+Wire Wire Line
+	4950 2150 4950 2600
+Connection ~ 4950 2600
+Wire Wire Line
+	5550 2600 5550 2400
+Connection ~ 5400 2600
+$Comp
+L +5V #PWR05
+U 1 1 592D2D40
+P 5550 1350
+F 0 "#PWR05" H 5550 1200 50  0001 C CNN
+F 1 "+5V" H 5550 1500 50  0000 C CNN
+F 2 "" H 5550 1350 50  0001 C CNN
+F 3 "" H 5550 1350 50  0001 C CNN
+	1    5550 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1450 6050 1450
+Wire Wire Line
+	6050 1450 6050 1500
+Wire Wire Line
+	6050 1900 6650 1900
+Wire Wire Line
+	6400 1050 6400 1900
+Wire Wire Line
+	5600 1050 6400 1050
+Wire Wire Line
+	4900 1050 5300 1050
+Wire Wire Line
+	4900 1050 4900 1800
+Connection ~ 4900 1800
+$Comp
+L POT RV1
+U 1 1 592D325E
+P 3700 1800
+F 0 "RV1" H 3630 1846 50  0000 R CNN
+F 1 "50K" H 3630 1755 50  0000 R CNN
+F 2 "poncho-joystick-edu-ciaa:Potentiometer_Trimmer-EVM3E" H 3700 1800 50  0001 C CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/st-32.pdf" H 3700 1800 50  0001 C CNN
+F 4 "ST32ETB503TR-ND" H 3700 1800 60  0001 C CNN "DigiKey#"
+F 5 "Copal Electronics Inc." H 3700 1800 60  0001 C CNN "Manf"
+F 6 "ST32ETB503" H 3700 1800 60  0001 C CNN "Manf#"
+F 7 "1.19380" H 3700 1800 60  0001 C CNN "Price"
+F 8 "TRIMMER 50K OHM 0.125W SMD" H 3700 1800 60  0001 C CNN "Desc"
+	1    3700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR06
+U 1 1 592D3322
+P 3700 2100
+F 0 "#PWR06" H 3700 1850 50  0001 C CNN
+F 1 "GND" H 3705 1927 50  0000 C CNN
+F 2 "" H 3700 2100 50  0001 C CNN
+F 3 "" H 3700 2100 50  0001 C CNN
+	1    3700 2100
+	1    0    0    -1  
+$EndComp
+Text Label 3250 1600 0    60   ~ 0
+CONTROL_IN
+Connection ~ 6400 1900
+Wire Wire Line
+	6050 2100 6650 2100
+Wire Wire Line
+	4650 1800 5000 1800
+Wire Wire Line
+	4150 1800 4350 1800
+Wire Wire Line
+	3700 1650 3700 1600
+Wire Wire Line
+	3700 1600 3250 1600
+Wire Wire Line
+	3700 1950 3700 2100
+Wire Wire Line
+	3850 1800 3950 1800
+$Comp
+L SW_Push_Dual SW1
+U 1 1 592D9592
+P 3900 4850
+F 0 "SW1" H 3900 5135 50  0000 C CNN
+F 1 "RIGHT" H 3900 5044 50  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:SW_SPST_KMR2" H 3900 5050 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1479/kmr2.pdf" H 3900 5050 50  0001 C CNN
+F 4 "CKN10246TR-ND" H 3900 4850 60  0001 C CNN "DigiKey#"
+F 5 "C&K" H 3900 4850 60  0001 C CNN "Manf"
+F 6 "KMR231NG LFS" H 3900 4850 60  0001 C CNN "Manf#"
+F 7 "0.33849" H 3900 4850 60  0001 C CNN "Price"
+F 8 "SWITCH TACTILE SPST-NO 0.05A 32V" H 3900 4850 60  0001 C CNN "Desc"
+	1    3900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 592D9651
+P 3550 4300
+F 0 "R1" H 3618 4346 50  0000 L CNN
+F 1 "10K" H 3618 4255 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:R_0805_HandSoldering" H 3550 4300 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 3550 4300 50  0001 C CNN
+F 4 "311-10KERTR-ND" H 3550 4300 60  0001 C CNN "DigiKey#"
+F 5 "Yageo" H 3550 4300 60  0001 C CNN "Manf"
+F 6 "RC1206JR-0710KL" H 3550 4300 60  0001 C CNN "Manf#"
+F 7 "0.0512" H 3550 4300 60  0001 C CNN "Price"
+F 8 "RES SMD 10K OHM 5% 1/4W 1206" H 3550 4300 60  0001 C CNN "Desc"
+	1    3550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR07
+U 1 1 592D9795
+P 3550 5300
+F 0 "#PWR07" H 3550 5050 50  0001 C CNN
+F 1 "GND" H 3555 5127 50  0000 C CNN
+F 2 "" H 3550 5300 50  0001 C CNN
+F 3 "" H 3550 5300 50  0001 C CNN
+	1    3550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR08
+U 1 1 592D98D2
+P 3550 4000
+F 0 "#PWR08" H 3550 3850 50  0001 C CNN
+F 1 "+5V" H 3565 4173 50  0000 C CNN
+F 2 "" H 3550 4000 50  0001 C CNN
+F 3 "" H 3550 4000 50  0001 C CNN
+	1    3550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4000 3550 4150
+Wire Wire Line
+	3550 4450 3550 5050
+Wire Wire Line
+	3550 4850 3700 4850
+Wire Wire Line
+	3550 5050 3700 5050
+Connection ~ 3550 4850
+Wire Wire Line
+	4100 4850 4200 4850
+Wire Wire Line
+	4200 4850 4200 5200
+Wire Wire Line
+	4200 5200 3550 5200
+Wire Wire Line
+	3550 5200 3550 5300
+Wire Wire Line
+	4100 5050 4200 5050
+Connection ~ 4200 5050
+Text Label 4050 4500 0    60   ~ 0
+BTN1
+Wire Wire Line
+	4050 4500 3550 4500
+Connection ~ 3550 4500
+$Comp
+L SW_Push_Dual SW2
+U 1 1 592DA82A
+P 4850 4850
+F 0 "SW2" H 4850 5135 50  0000 C CNN
+F 1 "LEFT" H 4850 5044 50  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:SW_SPST_KMR2" H 4850 5050 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1479/kmr2.pdf" H 4850 5050 50  0001 C CNN
+F 4 "CKN10246TR-ND" H 4850 4850 60  0001 C CNN "DigiKey#"
+F 5 "C&K" H 4850 4850 60  0001 C CNN "Manf"
+F 6 "KMR231NG LFS" H 4850 4850 60  0001 C CNN "Manf#"
+F 7 "0.33849" H 4850 4850 60  0001 C CNN "Price"
+F 8 "SWITCH TACTILE SPST-NO 0.05A 32V" H 4850 4850 60  0001 C CNN "Desc"
+	1    4850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 592DA830
+P 4500 4300
+F 0 "R2" H 4568 4346 50  0000 L CNN
+F 1 "10K" H 4568 4255 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:R_0805_HandSoldering" H 4500 4300 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 4500 4300 50  0001 C CNN
+F 4 "311-10KERTR-ND" H 4500 4300 60  0001 C CNN "DigiKey#"
+F 5 "Yageo" H 4500 4300 60  0001 C CNN "Manf"
+F 6 "RC1206JR-0710KL" H 4500 4300 60  0001 C CNN "Manf#"
+F 7 "0.00512" H 4500 4300 60  0001 C CNN "Price"
+F 8 "RES SMD 10K OHM 5% 1/4W 1206" H 4500 4300 60  0001 C CNN "Desc"
+	1    4500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR09
+U 1 1 592DA836
+P 4500 5300
+F 0 "#PWR09" H 4500 5050 50  0001 C CNN
+F 1 "GND" H 4505 5127 50  0000 C CNN
+F 2 "" H 4500 5300 50  0001 C CNN
+F 3 "" H 4500 5300 50  0001 C CNN
+	1    4500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR010
+U 1 1 592DA83C
+P 4500 4000
+F 0 "#PWR010" H 4500 3850 50  0001 C CNN
+F 1 "+5V" H 4515 4173 50  0000 C CNN
+F 2 "" H 4500 4000 50  0001 C CNN
+F 3 "" H 4500 4000 50  0001 C CNN
+	1    4500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4000 4500 4150
+Wire Wire Line
+	4500 4450 4500 5050
+Wire Wire Line
+	4500 4850 4650 4850
+Wire Wire Line
+	4500 5050 4650 5050
+Connection ~ 4500 4850
+Wire Wire Line
+	5050 4850 5150 4850
+Wire Wire Line
+	5150 4850 5150 5200
+Wire Wire Line
+	5150 5200 4500 5200
+Wire Wire Line
+	4500 5200 4500 5300
+Wire Wire Line
+	5050 5050 5150 5050
+Connection ~ 5150 5050
+Text Label 5000 4500 0    60   ~ 0
+BTN2
+Wire Wire Line
+	5000 4500 4500 4500
+Connection ~ 4500 4500
+$Comp
+L SW_Push_Dual SW3
+U 1 1 592DA9BB
+P 5750 4850
+F 0 "SW3" H 5750 5135 50  0000 C CNN
+F 1 "UP" H 5750 5044 50  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:SW_SPST_KMR2" H 5750 5050 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1479/kmr2.pdf" H 5750 5050 50  0001 C CNN
+F 4 "CKN10246TR-ND" H 5750 4850 60  0001 C CNN "DigiKey#"
+F 5 "C&K" H 5750 4850 60  0001 C CNN "Manf"
+F 6 "KMR231NG LFS" H 5750 4850 60  0001 C CNN "Manf#"
+F 7 "0.33849" H 5750 4850 60  0001 C CNN "Price"
+F 8 "SWITCH TACTILE SPST-NO 0.05A 32V" H 5750 4850 60  0001 C CNN "Desc"
+	1    5750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 592DA9C1
+P 5400 4300
+F 0 "R3" H 5468 4346 50  0000 L CNN
+F 1 "10K" H 5468 4255 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:R_0805_HandSoldering" H 5400 4300 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 5400 4300 50  0001 C CNN
+F 4 "311-10KERTR-ND" H 5400 4300 60  0001 C CNN "DigiKey#"
+F 5 "Yageo" H 5400 4300 60  0001 C CNN "Manf"
+F 6 "RC1206JR-0710KL" H 5400 4300 60  0001 C CNN "Manf#"
+F 7 "0.00512" H 5400 4300 60  0001 C CNN "Price"
+F 8 "RES SMD 10K OHM 5% 1/4W 1206" H 5400 4300 60  0001 C CNN "Desc"
+	1    5400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR011
+U 1 1 592DA9C7
+P 5400 5300
+F 0 "#PWR011" H 5400 5050 50  0001 C CNN
+F 1 "GND" H 5405 5127 50  0000 C CNN
+F 2 "" H 5400 5300 50  0001 C CNN
+F 3 "" H 5400 5300 50  0001 C CNN
+	1    5400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR012
+U 1 1 592DA9CD
+P 5400 4000
+F 0 "#PWR012" H 5400 3850 50  0001 C CNN
+F 1 "+5V" H 5415 4173 50  0000 C CNN
+F 2 "" H 5400 4000 50  0001 C CNN
+F 3 "" H 5400 4000 50  0001 C CNN
+	1    5400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4000 5400 4150
+Wire Wire Line
+	5400 4450 5400 5050
+Wire Wire Line
+	5400 4850 5550 4850
+Wire Wire Line
+	5400 5050 5550 5050
+Connection ~ 5400 4850
+Wire Wire Line
+	5950 4850 6050 4850
+Wire Wire Line
+	6050 4850 6050 5200
+Wire Wire Line
+	6050 5200 5400 5200
+Wire Wire Line
+	5400 5200 5400 5300
+Wire Wire Line
+	5950 5050 6050 5050
+Connection ~ 6050 5050
+Text Label 5900 4500 0    60   ~ 0
+BTN3
+Wire Wire Line
+	5900 4500 5400 4500
+Connection ~ 5400 4500
+$Comp
+L SW_Push_Dual SW4
+U 1 1 592DA9E1
+P 6700 4850
+F 0 "SW4" H 6700 5135 50  0000 C CNN
+F 1 "DOWN" H 6700 5044 50  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:SW_SPST_KMR2" H 6700 5050 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1479/kmr2.pdf" H 6700 5050 50  0001 C CNN
+F 4 "CKN10246TR-ND" H 6700 4850 60  0001 C CNN "DigiKey#"
+F 5 "C&K" H 6700 4850 60  0001 C CNN "Manf"
+F 6 "KMR231NG LFS" H 6700 4850 60  0001 C CNN "Manf#"
+F 7 "0.33849" H 6700 4850 60  0001 C CNN "Price"
+F 8 "SWITCH TACTILE SPST-NO 0.05A 32V" H 6700 4850 60  0001 C CNN "Desc"
+	1    6700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 592DA9E7
+P 6350 4300
+F 0 "R5" H 6418 4346 50  0000 L CNN
+F 1 "10K" H 6418 4255 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:R_0805_HandSoldering" H 6350 4300 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 6350 4300 50  0001 C CNN
+F 4 "311-10KERTR-ND" H 6350 4300 60  0001 C CNN "DigiKey#"
+F 5 "Yageo" H 6350 4300 60  0001 C CNN "Manf"
+F 6 "RC1206JR-0710KL" H 6350 4300 60  0001 C CNN "Manf#"
+F 7 "0.00512" H 6350 4300 60  0001 C CNN "Price"
+F 8 "RES SMD 10K OHM 5% 1/4W 1206" H 6350 4300 60  0001 C CNN "Desc"
+	1    6350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR013
+U 1 1 592DA9ED
+P 6350 5300
+F 0 "#PWR013" H 6350 5050 50  0001 C CNN
+F 1 "GND" H 6355 5127 50  0000 C CNN
+F 2 "" H 6350 5300 50  0001 C CNN
+F 3 "" H 6350 5300 50  0001 C CNN
+	1    6350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR014
+U 1 1 592DA9F3
+P 6350 4000
+F 0 "#PWR014" H 6350 3850 50  0001 C CNN
+F 1 "+5V" H 6365 4173 50  0000 C CNN
+F 2 "" H 6350 4000 50  0001 C CNN
+F 3 "" H 6350 4000 50  0001 C CNN
+	1    6350 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4000 6350 4150
+Wire Wire Line
+	6350 4450 6350 5050
+Wire Wire Line
+	6350 4850 6500 4850
+Wire Wire Line
+	6350 5050 6500 5050
+Connection ~ 6350 4850
+Wire Wire Line
+	6900 4850 7000 4850
+Wire Wire Line
+	7000 4850 7000 5200
+Wire Wire Line
+	7000 5200 6350 5200
+Wire Wire Line
+	6350 5200 6350 5300
+Wire Wire Line
+	6900 5050 7000 5050
+Connection ~ 7000 5050
+Text Label 6850 4500 0    60   ~ 0
+BTN4
+Wire Wire Line
+	6850 4500 6350 4500
+Connection ~ 6350 4500
+Text Label 2600 5000 0    60   ~ 0
+BTN1
+Text Label 2600 5300 0    60   ~ 0
+BTN2
+Text Label 2600 5200 0    60   ~ 0
+BTN3
+Text Label 2600 5100 0    60   ~ 0
+BTN4
+Text Label 650  2350 0    60   ~ 0
+CONTROL_IN
+Wire Wire Line
+	1200 2350 650  2350
+Text Label 850  2550 0    60   ~ 0
+PWM
+Wire Wire Line
+	1200 2550 850  2550
+NoConn ~ 1200 2450
+NoConn ~ 1200 2650
+NoConn ~ 1200 2750
+NoConn ~ 1200 2950
+NoConn ~ 2400 2750
+NoConn ~ 2400 2650
+NoConn ~ 2400 1850
+NoConn ~ 2400 1750
+NoConn ~ 2400 1650
+NoConn ~ 2400 1550
+NoConn ~ 2400 1450
+NoConn ~ 2400 1350
+NoConn ~ 2400 1250
+NoConn ~ 2350 3600
+NoConn ~ 2350 3700
+NoConn ~ 2350 3800
+NoConn ~ 2350 3900
+NoConn ~ 2350 4000
+NoConn ~ 2350 4100
+NoConn ~ 2350 4200
+NoConn ~ 2350 4300
+NoConn ~ 2350 4400
+NoConn ~ 2350 4500
+NoConn ~ 2350 4600
+NoConn ~ 2350 4700
+NoConn ~ 2350 4800
+NoConn ~ 2350 4900
+NoConn ~ 1150 4600
+NoConn ~ 1150 4500
+NoConn ~ 1150 4200
+NoConn ~ 1150 3900
+$Comp
+L CONN_01X08 J1
+U 1 1 592FD3C7
+P 9100 4450
+F 0 "J1" H 9178 4491 50  0000 L CNN
+F 1 "CONN_01X08" H 9178 4400 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:adxl345" H 9100 4450 50  0001 C CNN
+F 3 "" H 9100 4450 50  0001 C CNN
+	1    9100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR015
+U 1 1 592FE157
+P 8650 4100
+F 0 "#PWR015" H 8650 3950 50  0001 C CNN
+F 1 "+5V" H 8665 4273 50  0000 C CNN
+F 2 "" H 8650 4100 50  0001 C CNN
+F 3 "" H 8650 4100 50  0001 C CNN
+	1    8650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR016
+U 1 1 592FE241
+P 8400 4250
+F 0 "#PWR016" H 8400 4000 50  0001 C CNN
+F 1 "GND" H 8405 4077 50  0000 C CNN
+F 2 "" H 8400 4250 50  0001 C CNN
+F 3 "" H 8400 4250 50  0001 C CNN
+	1    8400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 4100 8650 4100
+Wire Wire Line
+	8900 4200 8400 4200
+Text Label 8650 4300 0    60   ~ 0
+SCL
+Text Label 8650 4400 0    60   ~ 0
+SDA
+Wire Wire Line
+	8900 4300 8650 4300
+Wire Wire Line
+	8900 4400 8650 4400
+NoConn ~ 8900 4500
+NoConn ~ 8900 4600
+NoConn ~ 8900 4700
+Text Label 950  1950 0    60   ~ 0
+SDA
+Text Label 950  2050 0    60   ~ 0
+SCL
+Wire Wire Line
+	1200 1950 950  1950
+Wire Wire Line
+	1200 2050 950  2050
+Wire Wire Line
+	8400 4200 8400 4250
+NoConn ~ 8900 4800
+NoConn ~ 1200 1150
+NoConn ~ 1200 1250
+NoConn ~ 1200 1350
+NoConn ~ 1200 1450
+NoConn ~ 1200 1750
+NoConn ~ 1200 1850
+NoConn ~ 1200 2150
+NoConn ~ 1200 2250
+Wire Notes Line
+	3200 800  7300 800 
+Wire Notes Line
+	7300 800  7300 3000
+Wire Notes Line
+	7300 3000 3200 3000
+Wire Notes Line
+	3200 3000 3200 800 
+Wire Notes Line
+	8100 750  10700 750 
+Wire Notes Line
+	10700 750  10700 3350
+Wire Notes Line
+	10700 3350 8100 3350
+Wire Notes Line
+	8100 3350 8100 750 
+Wire Notes Line
+	3350 3550 7200 3550
+Wire Notes Line
+	7200 3550 7200 5600
+Wire Notes Line
+	7200 5600 3350 5600
+Wire Notes Line
+	3350 5600 3350 3550
+Wire Notes Line
+	8200 3800 9800 3800
+Wire Notes Line
+	9800 3800 9800 5000
+Wire Notes Line
+	9800 5000 8200 5000
+Wire Notes Line
+	8200 5000 8200 3800
+Wire Notes Line
+	600  5700 600  650 
+Wire Notes Line
+	600  650  2950 650 
+Wire Notes Line
+	600  5700 2950 5700
+Text Notes 3250 900  0    60   ~ 0
+Speaker digital\n
+Text Notes 8150 850  0    60   ~ 0
+Motor vibrador
+Text Notes 3800 3650 0    60   ~ 0
+Botones\n
+Text Notes 8850 3900 0    60   ~ 0
+Conector MPU-6050
+Text Notes 650  750  0    60   ~ 0
+Conectores EDU-CIAA\n
+$Comp
+L +5V #PWR017
+U 1 1 5931CB98
+P 3900 6250
+F 0 "#PWR017" H 3900 6100 50  0001 C CNN
+F 1 "+5V" H 3915 6423 50  0000 C CNN
+F 2 "" H 3900 6250 50  0001 C CNN
+F 3 "" H 3900 6250 50  0001 C CNN
+	1    3900 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6350 3900 6350
+Wire Wire Line
+	3900 6250 3900 7200
+Wire Wire Line
+	3900 6750 4200 6750
+Connection ~ 3900 6350
+Wire Wire Line
+	3900 7200 4200 7200
+Connection ~ 3900 6750
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR018
+U 1 1 5931CEB7
+P 4150 7050
+F 0 "#PWR018" H 4150 6800 50  0001 C CNN
+F 1 "GND" H 4050 7000 50  0000 C CNN
+F 2 "" H 4150 7050 50  0001 C CNN
+F 3 "" H 4150 7050 50  0001 C CNN
+	1    4150 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-poncho-joystick-edu-ciaa #PWR019
+U 1 1 5931CF27
+P 4150 6650
+F 0 "#PWR019" H 4150 6400 50  0001 C CNN
+F 1 "GND" H 4050 6600 50  0000 C CNN
+F 2 "" H 4150 6650 50  0001 C CNN
+F 3 "" H 4150 6650 50  0001 C CNN
+	1    4150 6650
+	1    0    0    -1  
+$EndComp
+Text Label 5850 6500 0    60   ~ 0
+EJE_X
+Text Label 5850 6900 0    60   ~ 0
+EJE_Y
+Text Label 5850 7150 0    60   ~ 0
+SW_J
+Wire Wire Line
+	5650 6500 5850 6500
+Wire Wire Line
+	5650 6900 5850 6900
+Wire Wire Line
+	5850 7150 5650 7150
+Text Label 850  1650 0    60   ~ 0
+EJE_X
+Text Label 850  1550 0    60   ~ 0
+EJE_Y
+Text Label 2600 5400 0    60   ~ 0
+SW_J
+Wire Wire Line
+	1200 1550 850  1550
+Wire Wire Line
+	1200 1650 850  1650
+Wire Notes Line
+	3450 5850 6300 5850
+Wire Notes Line
+	6300 5850 6300 7500
+Wire Notes Line
+	6300 7500 3450 7500
+Wire Notes Line
+	3450 7500 3450 5850
+Text Notes 3500 5950 0    60   ~ 0
+Joystick 2axis with button\n
+$Comp
+L joystick-2axis-with-switch U2
+U 1 1 592CB3AB
+P 4900 6750
+F 0 "U2" H 4925 7437 60  0000 C CNN
+F 1 "joystick-2axis-with-switch" H 4925 7331 60  0000 C CNN
+F 2 "poncho-joystick-edu-ciaa:joystick-2axis-withswitch" H 4900 6750 60  0001 C CNN
+F 3 "http://www.ctscorp.com/wp-content/uploads/2015/11/Series-254-Ultra-Miniature-Joystick.pdf" H 4900 6750 60  0001 C CNN
+F 4 "254SA103B50B-ND" H 4900 6750 60  0001 C CNN "DigiKey#"
+F 5 "CTS Electrocomponents" H 4900 6750 60  0001 C CNN "Manf"
+F 6 "254SA103B50B" H 4900 6750 60  0001 C CNN "Manf#"
+F 7 "9.22000" H 4900 6750 60  0001 C CNN "Price"
+F 8 "POT JOYSTICK 10K OHM W/SWITCH" H 4900 6750 60  0001 C CNN "Desc"
+	1    4900 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2550 9300 2450
+Wire Wire Line
+	10100 1200 10100 1250
+Wire Notes Line
+	2950 5700 2950 650 
+Wire Wire Line
+	2600 5000 2350 5000
+Wire Wire Line
+	2600 5100 2350 5100
+Wire Wire Line
+	2600 5200 2350 5200
+Wire Wire Line
+	2600 5300 2350 5300
+NoConn ~ 1150 4900
+NoConn ~ 1150 5000
+NoConn ~ 1150 5100
+NoConn ~ 1150 5200
+$Comp
+L +5V #PWR020
+U 1 1 592D27BA
+P 2700 3350
+F 0 "#PWR020" H 2700 3440 20  0001 C CNN
+F 1 "+5V" H 2696 3478 30  0000 C CNN
+F 2 "" H 2700 3350 60  0000 C CNN
+F 3 "" H 2700 3350 60  0000 C CNN
+	1    2700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3500 2700 3500
+$Comp
+L +3,3V #PWR021
+U 1 1 592D3D39
+P 1000 950
+F 0 "#PWR021" H 1000 910 30  0001 C CNN
+F 1 "+3,3V" H 1009 1088 30  0000 C CNN
+F 2 "" H 1000 950 60  0000 C CNN
+F 3 "" H 1000 950 60  0000 C CNN
+	1    1000 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1050 1000 1050
+Wire Wire Line
+	1000 1050 1000 950 
+$Comp
+L GND #PWR022
+U 1 1 592D52BA
+P 1000 5500
+F 0 "#PWR022" H 1000 5500 30  0001 C CNN
+F 1 "GND" H 1000 5430 30  0000 C CNN
+F 2 "" H 1000 5500 60  0000 C CNN
+F 3 "" H 1000 5500 60  0000 C CNN
+	1    1000 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5500 1000 3600
+Wire Wire Line
+	1000 3600 1150 3600
+Wire Wire Line
+	1150 4400 1000 4400
+Connection ~ 1000 4400
+Connection ~ 1000 5400
+$Comp
+L GND #PWR023
+U 1 1 592D64CE
+P 2550 3050
+F 0 "#PWR023" H 2550 3050 30  0001 C CNN
+F 1 "GND" H 2550 2980 30  0000 C CNN
+F 2 "" H 2550 3050 60  0000 C CNN
+F 3 "" H 2550 3050 60  0000 C CNN
+	1    2550 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1150 2550 1150
+Wire Wire Line
+	2550 1150 2550 3050
+Wire Wire Line
+	2400 1950 2550 1950
+Connection ~ 2550 1950
+Connection ~ 2550 2950
+Wire Wire Line
+	2550 2950 2400 2950
+NoConn ~ 1150 3500
+Wire Wire Line
+	800  5400 1150 5400
+$Comp
+L PWR_FLAG #FLG024
+U 1 1 592DE25E
+P 800 5250
+F 0 "#FLG024" H 800 5345 30  0001 C CNN
+F 1 "PWR_FLAG" H 800 5458 30  0000 C CNN
+F 2 "" H 800 5250 60  0000 C CNN
+F 3 "" H 800 5250 60  0000 C CNN
+	1    800  5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  5250 800  5400
+Wire Wire Line
+	2600 5400 2350 5400
+NoConn ~ 1200 2850
+Wire Wire Line
+	2700 3500 2700 3350
+$Comp
+L +5V #PWR025
+U 1 1 592E946B
+P 2500 900
+F 0 "#PWR025" H 2500 990 20  0001 C CNN
+F 1 "+5V" H 2496 1028 30  0000 C CNN
+F 2 "" H 2500 900 60  0000 C CNN
+F 3 "" H 2500 900 60  0000 C CNN
+	1    2500 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 900  2500 1050
+Wire Wire Line
+	4200 6600 4150 6600
+Wire Wire Line
+	4150 6600 4150 6650
+Wire Wire Line
+	4200 7000 4150 7000
+Wire Wire Line
+	4150 7000 4150 7050
+Wire Wire Line
+	5550 1350 5550 1600
+Wire Wire Line
+	5650 1450 5550 1450
+Connection ~ 5550 1450
+$Comp
+L FIDUCIAL F1
+U 1 1 5989EB43
+P 7950 6050
+F 0 "F1" H 8049 6050 40  0000 L CNN
+F 1 "FIDUCIAL" H 7950 5950 30  0001 C CNN
+F 2 "poncho-joystick-edu-ciaa:Fiducial_1mm" H 7950 6100 60  0001 C CNN
+F 3 "" H 7950 6100 60  0001 C CNN
+F 4 "FIDUCIAL" H 8000 5850 60  0001 C CNN "Descripcion"
+	1    7950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F2
+U 1 1 5989ECE1
+P 8300 6050
+F 0 "F2" H 8399 6050 40  0000 L CNN
+F 1 "FIDUCIAL" H 8300 5950 30  0001 C CNN
+F 2 "poncho-joystick-edu-ciaa:Fiducial_1mm" H 8300 6100 60  0001 C CNN
+F 3 "" H 8300 6100 60  0001 C CNN
+F 4 "FIDUCIAL" H 8350 5850 60  0001 C CNN "Descripcion"
+	1    8300 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F3
+U 1 1 5989ED39
+P 8650 6050
+F 0 "F3" H 8749 6050 40  0000 L CNN
+F 1 "FIDUCIAL" H 8650 5950 30  0001 C CNN
+F 2 "poncho-joystick-edu-ciaa:Fiducial_1mm" H 8650 6100 60  0001 C CNN
+F 3 "" H 8650 6100 60  0001 C CNN
+F 4 "FIDUCIAL" H 8700 5850 60  0001 C CNN "Descripcion"
+	1    8650 6050
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7800 5750 8950 5750
+Wire Notes Line
+	8950 5750 8950 6200
+Wire Notes Line
+	8950 6200 7800 6200
+Wire Notes Line
+	7800 6200 7800 5750
+Text Notes 8450 5850 0    60   ~ 0
+Fiduciales
+Wire Wire Line
+	2500 1050 2400 1050
+Wire Wire Line
+	2400 2050 2550 2050
+Connection ~ 2550 2050
+Wire Wire Line
+	2400 2150 2550 2150
+Connection ~ 2550 2150
+Wire Wire Line
+	2400 2250 2550 2250
+Connection ~ 2550 2250
+Wire Wire Line
+	2400 2350 2550 2350
+Connection ~ 2550 2350
+Wire Wire Line
+	2400 2450 2550 2450
+Connection ~ 2550 2450
+Wire Wire Line
+	2400 2550 2550 2550
+Connection ~ 2550 2550
+Wire Wire Line
+	2400 2850 2550 2850
+Connection ~ 2550 2850
+Wire Wire Line
+	1150 3800 1000 3800
+Connection ~ 1000 3800
+Wire Wire Line
+	1150 3700 1000 3700
+Connection ~ 1000 3700
+Wire Wire Line
+	1150 4100 1000 4100
+Connection ~ 1000 4100
+Wire Wire Line
+	1150 4000 1000 4000
+Connection ~ 1000 4000
+Wire Wire Line
+	1150 4300 1000 4300
+Connection ~ 1000 4300
+Wire Wire Line
+	1150 4700 1000 4700
+Connection ~ 1000 4700
+Wire Wire Line
+	1150 4800 1000 4800
+Connection ~ 1000 4800
+Wire Wire Line
+	1150 5300 1000 5300
+Connection ~ 1000 5300
+$Comp
+L Buzzer BZ1
+U 1 1 592D3948
+P 6750 2000
+F 0 "BZ1" H 6903 2029 50  0000 L CNN
+F 1 "BUZI" H 6903 1938 50  0000 L CNN
+F 2 "poncho-joystick-edu-ciaa:Buzzer_12x9.5RM7.6" V 6725 2100 50  0001 C CNN
+F 3 "http://www.cui.com/product/resource/digikeypdf/cdm-20008.pdf" V 6725 2100 50  0001 C CNN
+F 4 "102-2502-ND" H 6750 2000 60  0001 C CNN "DigiKey#"
+F 5 "CUI Inc." H 6750 2000 60  0001 C CNN "Manf"
+F 6 "CDM-20008" H 6750 2000 60  0001 C CNN "Manf#"
+F 7 "3.51000" H 6750 2000 60  0001 C CNN "Price"
+F 8 "SPEAKER 8OHM 300MW TOP PORT 92DB" H 6750 2000 60  0001 C CNN "Desc"
+	1    6750 2000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

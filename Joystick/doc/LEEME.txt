@@ -1,0 +1,12 @@
+TITULO PONCHO
+=============
+
+<<Colocar información mínima y propósito del Poncho. La información completa puede estar en la wiki.>>
+
+URL: (URL en la wiki de la CIAA)
+FUNCIÓN: Para qué sirve el Poncho.
+AUTORES/INSTITUCIONES: 
+
+
+
+<<Detalle y explicación de directorios o archivos adicionales que se incorporen.>>

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name poncho-joystick-edu-ciaa)(type KiCad)(uri "$(KIPRJMOD)/poncho-joystick-edu-ciaa.pretty")(options "")(descr ""))
+)
