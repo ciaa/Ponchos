@@ -1,0 +1,27 @@
+
+- El contorno de la placa (Edge Cuts) no cierra bien, fijate en las curvas y lineas en diagonal no coinciden exactamente.
+  Esto hace que el 3D, no tome bien el borde y te grafique un continuo en vez del contorno deseado. OK
+
+- No te olvides de agregarle la info del stack up y las Designed Rules como comentario al lado del pcb. OK
+
+- Agrandale la serigrafia al U2 que quedo pequeña con respecto al resto. OK
+
+- Ponele en el poligono 0.3mm de clearance (en vez de 0.504mm), asi cierra los agujeros externos.OK
+
+- Ya que tenes lugar, no usaria las trazas al minimo, sino que las pondria un poco mas gruesas.
+
+- Aun tenes que cargar los componentes 3D, cuando lo hagas acordate de hacerlo con el directorio relativo.
+
+- Otra cosa de la serigrafia, en los leds dice en los 3 Led_Alt y no esta bien centrado... fijate si no queres ponerle 
+  algo mas descriptivos (no todos iguales) o sacarlo. Max31855 tambien tiene la leyenda en la serigrafia, 
+  fijate si la queres dejar o sacarla ( en caso de que la dejes, enderezala) OK
+
+- No vi que este la revision de DB subida al GIT (tiene que estar). OK
+
+- Agregar la BOM. OK
+
+- Agregar KiCost.
+
+- No subir a GIT los archivos .bak, ...cache.lib y ...rescue.lib. OK
+
+- No te olvides de ponerle cotas a los agujeros del PCB. OK 

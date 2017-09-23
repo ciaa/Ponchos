@@ -1,0 +1,505 @@
+EESchema Schematic File Version 2
+LIBS:TempRelay
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "Poncho Edu CIAA - Sensores de Temperatura"
+Date "2017-06-14"
+Rev "1.0"
+Comp "CESE - Trabajo final de la materia \"Diseño de Circuitos Impresos\""
+Comment1 "Licencia: 'Docs/Licencia.txt\""
+Comment2 "Revisor:  Mariano Orlante "
+Comment3 "Autor: Francisco Suárez"
+Comment4 ""
+$EndDescr
+$Comp
+L MCP601R U3
+U 1 1 594B0012
+P 6100 2200
+F 0 "U3" H 6150 2400 50  0000 C CNN
+F 1 "MCP601R" H 6300 2000 50  0000 C CNN
+F 2 "footprints:SOT-23-5_HandSoldering" H 6125 1925 50  0001 L CNN
+F 3 "MCP601,2,3,4.pdf" H 6150 2400 50  0001 C CNN
+F 4 "Microchip Technology" H 6100 2200 60  0001 C CNN "Manf"
+F 5 "MCP601T-I/OT" H 6100 2200 60  0001 C CNN "Manf#"
+F 6 "Value" H 6100 2200 60  0001 C CNN "Digikey#"
+F 7 "579-MCP601T-I/OT" H 6100 2200 60  0001 C CNN "Mouser#"
+F 8 "Operational Amplifiers - Op Amps Single 2.7V" H 6100 2200 60  0001 C CNN "Description"
+	1    6100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 594B01CC
+P 4900 1350
+F 0 "C4" H 4925 1450 50  0000 L CNN
+F 1 "10u" H 4925 1250 50  0000 L CNN
+F 2 "footprints:C_0805_HandSoldering" H 4938 1200 50  0001 C CNN
+F 3 "c02e-2905.pdf" H 4900 1350 50  0001 C CNN
+F 4 "Murata" H 4900 1350 60  0001 C CNN "Manf"
+F 5 "GRM21BR60J106ME19L" H 4900 1350 60  0001 C CNN "Manf#"
+F 6 "490-1718-1-ND" H 4900 1350 60  0001 C CNN "Digikey#"
+F 7 "81-GRM21BR60J106ME19" H 4900 1350 60  0001 C CNN "Mouser#"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 10uF 6.3volts X5R 20%" H 4900 1350 60  0001 C CNN "Description"
+	1    4900 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C6
+U 1 1 594B023F
+P 5300 1350
+F 0 "C6" H 5325 1450 50  0000 L CNN
+F 1 "100n" H 5325 1250 50  0000 L CNN
+F 2 "footprints:C_0805_HandSoldering" H 5338 1200 50  0001 C CNN
+F 3 "c02e-2905.pdf" H 5300 1350 50  0001 C CNN
+F 4 "Murata" H 5300 1350 60  0001 C CNN "Manf"
+F 5 "GRM21B7U1A104JA01L" H 5300 1350 60  0001 C CNN "Manf#"
+F 6 "490-11592-1-ND" H 5300 1350 60  0001 C CNN "Digikey#"
+F 7 "81-GRM21B7U1A104JA1L" H 5300 1350 60  0001 C CNN "Mouser#"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 10Volts U2J 5%" H 5300 1350 60  0001 C CNN "Description"
+	1    5300 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 594B0304
+P 5100 1600
+F 0 "#PWR015" H 5100 1350 50  0001 C CNN
+F 1 "GND" H 5100 1450 50  0000 C CNN
+F 2 "" H 5100 1600 50  0001 C CNN
+F 3 "" H 5100 1600 50  0001 C CNN
+	1    5100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 594B0325
+P 6000 2550
+F 0 "#PWR016" H 6000 2300 50  0001 C CNN
+F 1 "GND" H 6000 2400 50  0000 C CNN
+F 2 "" H 6000 2550 50  0001 C CNN
+F 3 "" H 6000 2550 50  0001 C CNN
+	1    6000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 594B033F
+P 5100 2800
+F 0 "#PWR017" H 5100 2550 50  0001 C CNN
+F 1 "GND" H 5100 2650 50  0000 C CNN
+F 2 "" H 5100 2800 50  0001 C CNN
+F 3 "" H 5100 2800 50  0001 C CNN
+	1    5100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1200 4900 1100
+Wire Wire Line
+	5300 1100 5300 1200
+Wire Wire Line
+	5300 1600 5300 1500
+Wire Wire Line
+	4900 1600 5300 1600
+Wire Wire Line
+	4900 1600 4900 1500
+Connection ~ 5100 1600
+Wire Wire Line
+	6000 1100 6000 1900
+Wire Wire Line
+	5800 2100 4950 2100
+Wire Wire Line
+	5100 2350 5100 2100
+Connection ~ 5100 2100
+Wire Wire Line
+	5100 2650 5100 2800
+Wire Wire Line
+	5800 2300 5650 2300
+Wire Wire Line
+	5650 2300 5650 2800
+Wire Wire Line
+	5650 2800 6600 2800
+Wire Wire Line
+	6600 2800 6600 2200
+Wire Wire Line
+	6400 2200 7400 2200
+Connection ~ 6600 2200
+Wire Wire Line
+	6000 2550 6000 2500
+$Comp
+L GND #PWR018
+U 1 1 594B1832
+P 5700 5400
+F 0 "#PWR018" H 5700 5150 50  0001 C CNN
+F 1 "GND" H 5700 5250 50  0000 C CNN
+F 2 "" H 5700 5400 50  0001 C CNN
+F 3 "" H 5700 5400 50  0001 C CNN
+	1    5700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L NUP2105LT1G U1
+U 1 1 594C52B0
+P 5100 5300
+F 0 "U1" H 5100 5700 60  0000 C CNN
+F 1 "NUP2105LT1G" H 5100 4900 60  0000 C CNN
+F 2 "footprints:SOT23_NPN" H 5100 5300 60  0001 C CNN
+F 3 "NUP2105L-D-771105.pdf" H 5100 5300 60  0001 C CNN
+F 4 "ON Semiconductor" H 5100 5300 60  0001 C CNN "Manf"
+F 5 "NUP2105LT1G" H 5100 5300 60  0001 C CNN "Manf#"
+F 6 "NUP2105LT1GOSCT-ND" H 5100 5300 60  0001 C CNN "Digikey#"
+F 7 "Value" H 5100 5300 60  0001 C CNN "Mouser#"
+F 8 "TVS DIODE 24VWM 44VC" H 5100 5300 60  0001 C CNN "Description"
+	1    5100 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4150 5950 4150
+Wire Wire Line
+	4150 4750 5950 4750
+Wire Wire Line
+	6750 4350 5950 4350
+Wire Wire Line
+	5950 4350 5950 4150
+Wire Wire Line
+	6750 4550 5950 4550
+Wire Wire Line
+	5950 4550 5950 4750
+Wire Wire Line
+	4600 5500 4700 5500
+Wire Wire Line
+	5500 5300 5700 5300
+Wire Wire Line
+	5700 5300 5700 5400
+$Comp
+L GND #PWR019
+U 1 1 594C7F7D
+P 6650 4150
+F 0 "#PWR019" H 6650 3900 50  0001 C CNN
+F 1 "GND" H 6650 4000 50  0000 C CNN
+F 2 "" H 6650 4150 50  0001 C CNN
+F 3 "" H 6650 4150 50  0001 C CNN
+	1    6650 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 594C96DB
+P 8400 6050
+F 0 "#PWR020" H 8400 5800 50  0001 C CNN
+F 1 "GND" H 8400 5900 50  0000 C CNN
+F 2 "" H 8400 6050 50  0001 C CNN
+F 3 "" H 8400 6050 50  0001 C CNN
+	1    8400 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 5350 8500 5550
+Wire Wire Line
+	8200 5350 8200 5550
+Connection ~ 8400 5350
+Wire Wire Line
+	8200 5850 8200 5950
+Wire Wire Line
+	8200 5950 8500 5950
+Wire Wire Line
+	8500 5950 8500 5850
+Wire Wire Line
+	8400 6050 8400 5950
+Connection ~ 8400 5950
+Wire Wire Line
+	6650 4750 6750 4750
+Connection ~ 8200 5350
+Wire Wire Line
+	6750 4150 6650 4150
+NoConn ~ 7750 4150
+$Comp
+L MAX31855KASA+ U2
+U 1 1 594CC498
+P 7250 4450
+F 0 "U2" H 7250 4950 60  0000 C CNN
+F 1 "MAX31855KASA+" H 7250 3950 60  0000 C CNN
+F 2 "footprints:SOIC-8" H 7250 4450 60  0001 C CNN
+F 3 "MAX31855.pdf" H 7250 4450 60  0001 C CNN
+F 4 "Maxim Integrated" H 7250 4450 60  0001 C CNN "Manf"
+F 5 "MAX31855KASA+" H 7250 4450 60  0001 C CNN "Manf#"
+F 6 "MAX31855KASA+-ND" H 7250 4450 60  0001 C CNN "Digikey#"
+F 7 "Value" H 7250 4450 60  0001 C CNN "Mouser#"
+F 8 "Sensor Interface Thermocouple To Digital Converter" H 7250 4450 60  0001 C CNN "Description"
+	1    7250 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5350 6650 4750
+Wire Wire Line
+	7750 4550 8950 4550
+Wire Wire Line
+	7750 4750 8950 4750
+$Comp
+L Screw_Terminal_1x02 J2
+U 1 1 594D3D2C
+P 3900 1700
+F 0 "J2" H 3900 1950 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 3750 1700 50  0001 C TNN
+F 2 "footprints:TerminalBlock_Pheonix_MKDS1.5-2pol" H 3900 1475 50  0001 C CNN
+F 3 "MKDS Phoenix 1-5.pdf" H 3875 1700 50  0001 C CNN
+F 4 "Phoenix Contact" H 3900 1700 60  0001 C CNN "Manf"
+F 5 "1751248" H 3900 1700 60  0001 C CNN "Manf#"
+F 6 "277-5719-ND" H 3900 1700 60  0001 C CNN "Digikey#"
+F 7 "Value" H 3900 1700 60  0001 C CNN "Mouser#"
+F 8 "2 Position Wire to Board Terminal Block Horizontal with Board 0.138" H 3900 1700 60  0001 C CNN "Description"
+	1    3900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4350 8950 4350
+Wire Wire Line
+	4100 1800 4200 1800
+Wire Wire Line
+	4200 1800 4200 2100
+Wire Wire Line
+	4100 2100 4650 2100
+Wire Wire Line
+	4200 1600 4100 1600
+Wire Wire Line
+	4200 1100 4200 1600
+Connection ~ 5300 1100
+Connection ~ 5100 1100
+Connection ~ 4900 1100
+Wire Wire Line
+	4150 4150 4150 4350
+Wire Wire Line
+	4150 4350 3950 4350
+Wire Wire Line
+	3950 4550 4150 4550
+Wire Wire Line
+	4150 4550 4150 4750
+Text HLabel 7400 2200 2    60   Output ~ 0
+ADC_TERM
+Text HLabel 8950 4350 2    60   Output ~ 0
+MISO_TCUP
+Text HLabel 8950 4550 2    60   Input ~ 0
+SS_TCUP
+Text HLabel 8950 4750 2    60   Input ~ 0
+SCK_TCUP
+Wire Wire Line
+	8400 5350 8400 5250
+Wire Wire Line
+	5100 1100 5100 1000
+$Comp
+L Screw_Terminal_1x02 J3
+U 1 1 595021F9
+P 3900 2200
+F 0 "J3" H 3900 2450 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 3750 2200 50  0001 C TNN
+F 2 "footprints:TerminalBlock_Pheonix_MKDS1.5-2pol" H 3900 1975 50  0001 C CNN
+F 3 "MKDS Phoenix 1-5.pdf" H 3875 2200 50  0001 C CNN
+F 4 "Phoenix Contact" H 3900 2200 60  0001 C CNN "Manf"
+F 5 "1751248" H 3900 2200 60  0001 C CNN "Manf#"
+F 6 "277-5719-ND" H 3900 2200 60  0001 C CNN "Digikey#"
+F 7 "Value" H 3900 2200 60  0001 C CNN "Mouser#"
+F 8 "2 Position Wire to Board Terminal Block Horizontal with Board 0.138" H 3900 2200 60  0001 C CNN "Description"
+	1    3900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x02 J1
+U 1 1 59502271
+P 3750 4450
+F 0 "J1" H 3750 4700 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 3600 4450 50  0001 C TNN
+F 2 "footprints:TerminalBlock_Pheonix_MKDS1.5-2pol" H 3750 4225 50  0001 C CNN
+F 3 "MKDS Phoenix 1-5.pdf" H 3725 4450 50  0001 C CNN
+F 4 "Phoenix Contact" H 3750 4450 60  0001 C CNN "Manf"
+F 5 "1751248" H 3750 4450 60  0001 C CNN "Manf#"
+F 6 "277-5719-ND" H 3750 4450 60  0001 C CNN "Digikey#"
+F 7 "Value" H 3750 4450 60  0001 C CNN "Mouser#"
+F 8 "2 Position Wire to Board Terminal Block Horizontal with Board 0.138" H 3750 4450 60  0001 C CNN "Description"
+	1    3750 4450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3400 650  8150 650 
+Wire Notes Line
+	8150 650  8150 3100
+Wire Notes Line
+	8150 3100 3400 3100
+Wire Notes Line
+	3400 3100 3400 650 
+Wire Notes Line
+	3400 3450 3400 6350
+Text Notes 1300 1750 0    99   ~ 0
+Entrada Termoresistor
+Text Notes 1150 4500 0    99   ~ 0
+Entrada Termocupla
+Wire Notes Line
+	3600 4650 3500 4650
+Wire Notes Line
+	3500 4650 3500 4200
+Wire Notes Line
+	3500 4200 3600 4200
+Wire Notes Line
+	3600 4200 3600 4250
+Wire Notes Line
+	3500 4450 3000 4450
+Text Notes 1250 2250 0    99   ~ 0
+Resistor de Referencia
+Wire Wire Line
+	6650 5350 8500 5350
+Wire Wire Line
+	5700 4300 5700 4150
+Connection ~ 5700 4150
+Wire Wire Line
+	5700 4600 5700 4750
+Connection ~ 5700 4750
+Wire Wire Line
+	4700 4150 4700 5100
+Connection ~ 4700 4150
+Wire Wire Line
+	4600 4750 4600 5500
+Connection ~ 4600 4750
+Wire Wire Line
+	4200 2300 4200 2800
+Wire Wire Line
+	4100 2300 4200 2300
+Connection ~ 4200 2100
+Wire Wire Line
+	4200 1100 6000 1100
+Wire Notes Line
+	3600 1500 3600 1900
+Wire Notes Line
+	3600 1900 3700 1900
+Wire Notes Line
+	3600 1500 3700 1500
+Wire Notes Line
+	3600 2000 3600 2400
+Wire Notes Line
+	3600 2400 3700 2400
+Wire Notes Line
+	3600 2000 3700 2000
+Wire Notes Line
+	3000 1700 3600 1700
+Wire Notes Line
+	3000 2200 3600 2200
+Wire Notes Line
+	3400 3450 9700 3450
+Wire Notes Line
+	9700 3450 9700 6350
+Wire Notes Line
+	9700 6350 3400 6350
+$Comp
+L GNDA #PWR021
+U 1 1 5962D076
+P 4200 2800
+F 0 "#PWR021" H 4200 2550 50  0001 C CNN
+F 1 "GNDA" H 4200 2650 50  0000 C CNN
+F 2 "" H 4200 2800 50  0001 C CNN
+F 3 "" H 4200 2800 50  0001 C CNN
+	1    4200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 594B027F
+P 4800 2100
+F 0 "R1" V 4880 2100 50  0000 C CNN
+F 1 "10k" V 4700 2100 50  0000 C CNN
+F 2 "footprints:R_0805_HandSoldering" V 4730 2100 50  0001 C CNN
+F 3 "Yageo_08112016_RC0805-968729.pdf" H 4800 2100 50  0001 C CNN
+F 4 "Yageo" H 4800 2100 60  0001 C CNN "Manf"
+F 5 "RC0805FR-0710KL" H 4800 2100 60  0001 C CNN "Manf#"
+F 6 "311-10.0KCRCT-ND" H 4800 2100 60  0001 C CNN "Digikey#"
+F 7 "603-RC0805FR-0710KL" H 4800 2100 60  0001 C CNN "Mouser#"
+F 8 "Thick Film Resistors - SMD 10K OHM 1%" H 4800 2100 60  0001 C CNN "Description"
+	1    4800 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 5963CA96
+P 5100 2500
+F 0 "C1" H 5125 2600 50  0000 L CNN
+F 1 "10u" H 5125 2400 50  0000 L CNN
+F 2 "footprints:C_0805_HandSoldering" H 5138 2350 50  0001 C CNN
+F 3 "c02e-2905.pdf" H 5100 2500 50  0001 C CNN
+F 4 "Murata" H 5100 2500 60  0001 C CNN "Manf"
+F 5 "GRM21BR60J106ME19L" H 5100 2500 60  0001 C CNN "Manf#"
+F 6 "490-1718-1-ND" H 5100 2500 60  0001 C CNN "Digikey#"
+F 7 "81-GRM21BR60J106ME19" H 5100 2500 60  0001 C CNN "Mouser#"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 10uF 6.3volts X5R 20%" H 5100 2500 60  0001 C CNN "Description"
+	1    5100 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C3
+U 1 1 5963D2F0
+P 8200 5700
+F 0 "C3" H 8225 5800 50  0000 L CNN
+F 1 "10u" H 8225 5600 50  0000 L CNN
+F 2 "footprints:C_0805_HandSoldering" H 8238 5550 50  0001 C CNN
+F 3 "c02e-2905.pdf" H 8200 5700 50  0001 C CNN
+F 4 "Murata" H 8200 5700 60  0001 C CNN "Manf"
+F 5 "GRM21BR60J106ME19L" H 8200 5700 60  0001 C CNN "Manf#"
+F 6 "490-1718-1-ND" H 8200 5700 60  0001 C CNN "Digikey#"
+F 7 "81-GRM21BR60J106ME19" H 8200 5700 60  0001 C CNN "Mouser#"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 10uF 6.3volts X5R 20%" H 8200 5700 60  0001 C CNN "Description"
+	1    8200 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C2
+U 1 1 5963DECA
+P 5700 4450
+F 0 "C2" H 5725 4550 50  0000 L CNN
+F 1 "100n" H 5725 4350 50  0000 L CNN
+F 2 "footprints:C_0805_HandSoldering" H 5738 4300 50  0001 C CNN
+F 3 "c02e-2905.pdf" H 5700 4450 50  0001 C CNN
+F 4 "Murata" H 5700 4450 60  0001 C CNN "Manf"
+F 5 "GRM21B7U1A104JA01L" H 5700 4450 60  0001 C CNN "Manf#"
+F 6 "490-11592-1-ND" H 5700 4450 60  0001 C CNN "Digikey#"
+F 7 "81-GRM21B7U1A104JA1L" H 5700 4450 60  0001 C CNN "Mouser#"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 10Volts U2J 5%" H 5700 4450 60  0001 C CNN "Description"
+	1    5700 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C5
+U 1 1 5963E2D9
+P 8500 5700
+F 0 "C5" H 8525 5800 50  0000 L CNN
+F 1 "100n" H 8525 5600 50  0000 L CNN
+F 2 "footprints:C_0805_HandSoldering" H 8538 5550 50  0001 C CNN
+F 3 "c02e-2905.pdf" H 8500 5700 50  0001 C CNN
+F 4 "Murata" H 8500 5700 60  0001 C CNN "Manf"
+F 5 "GRM21B7U1A104JA01L" H 8500 5700 60  0001 C CNN "Manf#"
+F 6 "490-11592-1-ND" H 8500 5700 60  0001 C CNN "Digikey#"
+F 7 "81-GRM21B7U1A104JA1L" H 8500 5700 60  0001 C CNN "Mouser#"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 10Volts U2J 5%" H 8500 5700 60  0001 C CNN "Description"
+	1    8500 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR022
+U 1 1 596C91FD
+P 8400 5250
+F 0 "#PWR022" H 8400 5100 50  0001 C CNN
+F 1 "+3V3" H 8400 5390 50  0000 C CNN
+F 2 "" H 8400 5250 50  0001 C CNN
+F 3 "" H 8400 5250 50  0001 C CNN
+	1    8400 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR023
+U 1 1 596C9B94
+P 5100 1000
+F 0 "#PWR023" H 5100 850 50  0001 C CNN
+F 1 "+5V" H 5100 1140 50  0000 C CNN
+F 2 "" H 5100 1000 50  0001 C CNN
+F 3 "" H 5100 1000 50  0001 C CNN
+	1    5100 1000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

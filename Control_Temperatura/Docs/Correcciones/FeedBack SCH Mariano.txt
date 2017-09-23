@@ -1,0 +1,32 @@
+Correciones revisor Mariano Orlante:
+-----------------------------------
+
+(25/06/2017)
+
+Esquematicos:
+- En el MAX31855, en la pata /CS le pondria un resistor de pull up de 10K. Asi esta deshabilitado siempre hasta que lo activas con el /CS desde el micro.
+ -> No se modifica, no afecta al funcionamiento de logica.
+ 
+- El NUP2105L es un protector de picos para bus CAN de alta velocidad... Es para proteger lineas de datos digitales, y vos ahi tenes una tension analogica. Para mi no hace falta, pero bueno revisalo. 
+ -> Dado que esta pensado para ambientes industriales se lo deja para proteccion extra, se podria colocar simples diodos en inversa.
+
+- El capacitor de 100nF lo pondria bien cerca del max31855. -> Ok modificado
+
+- El  micro es de 3V3 y el MAX31855 tambien. Si el SN74LVC2G34 lo usas para adaptar niveles de tension, en realidad no seria necesario.  
+ -> Se saco porque la funcion de proteccion por corrientes inversas y por apagado no es necesario en este circuito.
+
+- Los relays que elegiste (Manf# G2RL-1A-E-ASI DC24) se activan con 24V y vos los estas activando con 5V.
+ -> Se modifican con G2RL-1A-E-ASI DC5 de la misma linea.
+
+- Las resistencias de Emisor R7 y R8 (de 10K) estan conectadas de emisor a masa. No te va a dar la corriente para activar los relays. -> Ok modificado
+
+- La entrada del termistor y la resistencia de referencia estan mal conectados. La medicion tomada del punto de conexion entre termistor y resistor de referencia, y el borne 2 de J3 a masa.
+ -> Corregido, estaba mal copiado de los esquematicos originales.
+
+
+Nombres de hojas:
+- Fijate que las 3 hojas tienen la misma descripcion. Deberian ser diferentes, cada una con su correspondiente descripcion. -> Corregido
+
+Masas:
+- Fijate de poner la masa analogica separada,  y luego unirla en un único punto con la masa digital. -> Corregido se conecta a la GNDA de la CIAA
+

@@ -1,0 +1,302 @@
+EESchema Schematic File Version 2
+LIBS:TempRelay
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "Poncho Edu CIAA - Sensor Temperatura y Salidas digitales"
+Date "2017-06-14"
+Rev "1.0"
+Comp "CESE - Trabajo final de la materia \"Diseño de Circuitos Impresos\""
+Comment1 "Licencia: 'Docs/Licencia.txt\""
+Comment2 "Revisor:  Mariano Orlante "
+Comment3 "Autor: Francisco Suárez"
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_Poncho2P_2x_20x2 XA1
+U 2 1 594C49E3
+P 7150 2500
+F 0 "XA1" H 7450 2900 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 7500 800 60  0000 C CNN
+F 2 "footprints:Conn_Poncho_Completo" H 7150 2500 60  0001 C CNN
+F 3 "" H 7150 2500 60  0000 C CNN
+	2    7150 2500
+	1    0    0    -1  
+$EndComp
+Text HLabel 8700 3700 2    60   Output ~ 0
+GPIO_1
+Text HLabel 8700 3900 2    60   Output ~ 0
+GPIO_5
+Text HLabel 8700 3800 2    60   Output ~ 0
+GPIO_3
+Text HLabel 8700 4000 2    60   Output ~ 0
+GPIO_7
+Text HLabel 8700 3000 2    60   Input ~ 0
+SPI_MISO
+Text HLabel 8700 3100 2    60   Output ~ 0
+SPI_SCK
+Text HLabel 2800 2800 0    60   Input ~ 0
+ADC_1
+NoConn ~ 4600 2400
+NoConn ~ 4600 3800
+NoConn ~ 4600 3900
+NoConn ~ 3400 2300
+NoConn ~ 3400 2400
+NoConn ~ 3400 2600
+NoConn ~ 3400 2700
+NoConn ~ 3400 2900
+NoConn ~ 3400 3000
+NoConn ~ 3400 3100
+NoConn ~ 3400 3200
+NoConn ~ 3400 3300
+NoConn ~ 3400 3400
+NoConn ~ 3400 3500
+NoConn ~ 3400 3600
+NoConn ~ 3400 3700
+NoConn ~ 3400 3800
+NoConn ~ 3400 3900
+NoConn ~ 3400 4000
+NoConn ~ 3400 4100
+NoConn ~ 6900 2600
+NoConn ~ 6900 2900
+NoConn ~ 6900 3200
+NoConn ~ 6900 3300
+NoConn ~ 6900 3800
+NoConn ~ 6900 3900
+NoConn ~ 8100 3600
+NoConn ~ 8100 3500
+NoConn ~ 8100 3400
+NoConn ~ 8100 3300
+NoConn ~ 8100 3200
+NoConn ~ 8100 2900
+NoConn ~ 8100 2800
+NoConn ~ 8100 2700
+NoConn ~ 8100 2600
+NoConn ~ 8100 2500
+NoConn ~ 8100 2400
+NoConn ~ 8100 2300
+NoConn ~ 8100 4100
+$Comp
+L GND #PWR07
+U 1 1 594EB190
+P 4900 4400
+F 0 "#PWR07" H 4900 4150 50  0001 C CNN
+F 1 "GND" H 4900 4250 50  0000 C CNN
+F 2 "" H 4900 4400 50  0001 C CNN
+F 3 "" H 4900 4400 50  0001 C CNN
+	1    4900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 594EB35A
+P 6600 4400
+F 0 "#PWR08" H 6600 4150 50  0001 C CNN
+F 1 "GND" H 6600 4250 50  0000 C CNN
+F 2 "" H 6600 4400 50  0001 C CNN
+F 3 "" H 6600 4400 50  0001 C CNN
+	1    6600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 594EB38C
+P 4900 1750
+F 0 "#PWR09" H 4900 1600 50  0001 C CNN
+F 1 "+5V" H 4900 1890 50  0000 C CNN
+F 2 "" H 4900 1750 50  0001 C CNN
+F 3 "" H 4900 1750 50  0001 C CNN
+	1    4900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG010
+U 1 1 594EBA4F
+P 5300 2300
+F 0 "#FLG010" H 5300 2375 50  0001 C CNN
+F 1 "PWR_FLAG" H 5300 2450 50  0000 C CNN
+F 2 "" H 5300 2300 50  0001 C CNN
+F 3 "" H 5300 2300 50  0001 C CNN
+	1    5300 2300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3400 2500
+$Comp
+L GNDA #PWR011
+U 1 1 5962BA55
+P 5300 2700
+F 0 "#PWR011" H 5300 2450 50  0001 C CNN
+F 1 "GNDA" H 5300 2550 50  0000 C CNN
+F 2 "" H 5300 2700 50  0001 C CNN
+F 3 "" H 5300 2700 50  0001 C CNN
+	1    5300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG012
+U 1 1 59630D10
+P 5300 2550
+F 0 "#FLG012" H 5300 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 5300 2700 50  0000 C CNN
+F 2 "" H 5300 2550 50  0001 C CNN
+F 3 "" H 5300 2550 50  0001 C CNN
+	1    5300 2550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6900 3600
+NoConn ~ 6900 3700
+$Comp
+L +5VD #PWR013
+U 1 1 596C77DA
+P 8350 1900
+F 0 "#PWR013" H 8350 1750 50  0001 C CNN
+F 1 "+5VD" H 8350 2040 50  0000 C CNN
+F 2 "" H 8350 1900 50  0001 C CNN
+F 3 "" H 8350 1900 50  0001 C CNN
+	1    8350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR014
+U 1 1 596C783A
+P 6600 1900
+F 0 "#PWR014" H 6600 1750 50  0001 C CNN
+F 1 "+3V3" H 6600 2040 50  0000 C CNN
+F 2 "" H 6600 1900 50  0001 C CNN
+F 3 "" H 6600 1900 50  0001 C CNN
+	1    6600 1900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3400 2200
+$Comp
+L Conn_Poncho2P_2x_20x2 XA1
+U 1 1 594C48CD
+P 3650 2500
+F 0 "XA1" H 3950 2900 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 4000 800 60  0000 C CNN
+F 2 "footprints:Conn_Poncho_Completo" H 3650 2500 60  0001 C CNN
+F 3 "" H 3650 2500 60  0000 C CNN
+F 4 "Value" H 3650 2500 60  0001 C CNN "Manf"
+F 5 "Value" H 3650 2500 60  0001 C CNN "Manf#"
+F 6 "Value" H 3650 2500 60  0001 C CNN "Digikey#"
+F 7 "Value" H 3650 2500 60  0001 C CNN "Mouser#"
+F 8 "Value" H 3650 2500 60  0001 C CNN "Description"
+	1    3650 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2800 2800 2800
+Wire Wire Line
+	8100 3000 8700 3000
+Wire Wire Line
+	8100 3100 8700 3100
+Wire Wire Line
+	4600 2300 5300 2300
+Wire Wire Line
+	4900 4000 4600 4000
+Wire Wire Line
+	4900 4100 4600 4100
+Wire Wire Line
+	6900 2300 6600 2300
+Connection ~ 6600 2400
+Wire Wire Line
+	4600 2600 5300 2600
+Wire Wire Line
+	5300 2550 5300 2700
+Connection ~ 5300 2600
+Wire Wire Line
+	8700 3700 8100 3700
+Wire Wire Line
+	8100 3800 8700 3800
+Wire Wire Line
+	8700 3900 8100 3900
+Wire Wire Line
+	8100 4000 8700 4000
+Wire Wire Line
+	8350 1900 8350 2200
+Wire Wire Line
+	8350 2200 8100 2200
+Wire Wire Line
+	6900 2200 6600 2200
+Wire Wire Line
+	6600 2200 6600 1900
+Wire Wire Line
+	6600 2300 6600 4400
+Wire Wire Line
+	6900 2400 6600 2400
+Wire Wire Line
+	4900 2300 4900 4400
+Connection ~ 4900 4100
+Connection ~ 4900 2300
+Connection ~ 4900 4000
+Wire Wire Line
+	4600 2200 4900 2200
+Wire Wire Line
+	4900 2200 4900 1750
+Wire Wire Line
+	4600 2500 4750 2500
+Wire Wire Line
+	4750 2500 4750 3000
+Connection ~ 4750 2600
+Wire Wire Line
+	4750 2700 4600 2700
+Wire Wire Line
+	4750 2800 4600 2800
+Connection ~ 4750 2700
+Wire Wire Line
+	4750 2900 4600 2900
+Connection ~ 4750 2800
+Wire Wire Line
+	4750 3000 4600 3000
+Connection ~ 4750 2900
+Wire Wire Line
+	4600 3100 4900 3100
+Connection ~ 4900 3100
+Wire Wire Line
+	4600 3200 4900 3200
+Connection ~ 4900 3200
+Wire Wire Line
+	4600 3300 4900 3300
+Connection ~ 4900 3300
+Wire Wire Line
+	4600 3400 4900 3400
+Connection ~ 4900 3400
+Wire Wire Line
+	4600 3500 4900 3500
+Connection ~ 4900 3500
+Wire Wire Line
+	4600 3600 4900 3600
+Connection ~ 4900 3600
+Wire Wire Line
+	4600 3700 4900 3700
+Connection ~ 4900 3700
+Wire Wire Line
+	6900 2500 6600 2500
+Connection ~ 6600 2500
+Wire Wire Line
+	6900 4100 6600 4100
+Connection ~ 6600 4100
+Wire Wire Line
+	6900 4000 6600 4000
+Connection ~ 6600 4000
+Wire Wire Line
+	6900 3500 6600 3500
+Connection ~ 6600 3500
+Wire Wire Line
+	6900 3400 6600 3400
+Connection ~ 6600 3400
+Wire Wire Line
+	6900 3100 6600 3100
+Connection ~ 6600 3100
+Wire Wire Line
+	6900 3000 6600 3000
+Connection ~ 6600 3000
+Wire Wire Line
+	6900 2800 6600 2800
+Connection ~ 6600 2800
+Wire Wire Line
+	6900 2700 6600 2700
+Connection ~ 6600 2700
+$EndSCHEMATC
