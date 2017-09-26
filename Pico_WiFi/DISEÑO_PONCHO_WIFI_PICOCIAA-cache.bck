@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Conn_Pico
+D Conector multiparte para la picociaa
+K conector pico ciaa
+F HOJAS_DE_DATOS_Y_NOTAS/PICOCIAA/Guia_picoCIAAv1.0_rfz.pdf
+$ENDCMP
+#
 $CMP Conn_Pico_Ciaa_Esqueleto
 D Conector multiparte para la picociaa
 K conector pico ciaa

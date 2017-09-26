@@ -1,5 +1,3 @@
 (fp_lib_table
-  (lib (name footprints)(type KiCad)(uri /home/sergio/Documentos/Especialización/5to_Bimestre/Diseno_de_PCB/pico/footprints.pretty)(options "")(descr ""))
-  (lib (name Poncho_Modelos)(type KiCad)(uri /home/sergio/Documentos/Especialización/5to_Bimestre/Diseno_de_PCB/tpfinal/Repos_tpfinal/Ponchos/kicad/Poncho_Modelos.pretty)(options "")(descr ""))
-  (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)/BIBLIOTECAS/kicad-ESP8266/ESP8266.pretty")(options "")(descr ""))
+  (lib (name Poncho_wifi)(type KiCad)(uri "$(KIPRJMOD)/BIBLIOTECAS/Poncho_wifi.pretty")(options "")(descr ""))
 )
