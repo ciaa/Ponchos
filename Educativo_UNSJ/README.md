@@ -9,4 +9,5 @@ comunicaciones varias y pines de propósito general.
 ![Foto](https://raw.githubusercontent.com/ciaa/Ponchos/master/Educativo_UNSJ/doc/foto_a.jpg  "Poncho Educativo UNSJ")
 
 Ver información sobre el Poncho en el siguiente PDF:
-[Reporte Poncho Educativo UNSJ.PDF](https://github.com/ciaa/Ponchos/raw/master/Educativo_UNSJ/doc/Informe%20Poncho%20Final%20CIAA02.pdf)
+* [Reporte Poncho Educativo UNSJ.PDF](https://github.com/ciaa/Ponchos/raw/master/Educativo_UNSJ/doc/Informe%20Poncho%20Final%20CIAA02.pdf)
+* [Wiki Proyeto CIAA](http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=repo:ponchos:educativounsj)
